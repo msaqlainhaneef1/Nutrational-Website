@@ -1,0 +1,49 @@
+---
+import { Award } from '@lucide/astro';
+
+interface Props {
+  name: string;
+  role: string;
+  bio: string;
+  avatar?: string;
+  credentials?: string[];
+}
+
+const {
+  name,
+  role,
+  bio,
+  avatar = "/images/default-avatar.png",
+  credentials = ["RDN (Registered Dietitian Nutritionist)", "MS Nutrition"],
+} = Astro.props;
+---
+
+<div class="glass-card rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-5">
+  <div class="h-16 w-16 rounded-full bg-zinc-800 border-2 border-emerald-500/50 flex-shrink-0 flex items-center justify-center overflow-hidden">
+    <span class="text-xl font-bold text-emerald-400 uppercase">{name.charAt(0)}</span>
+  </div>
+  <div class="flex-grow text-center sm:text-left space-y-2">
+    <div>
+      <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 justify-center sm:justify-start">
+        <h4 class="font-bold text-lg text-white">{name}</h4>
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+          <Award class="h-3 w-3 mr-1" />
+          Verified Expert
+        </span>
+      </div>
+      <p class="text-zinc-400 text-xs font-semibold">{role}</p>
+    </div>
+    
+    <p class="text-zinc-300 text-sm leading-relaxed">{bio}</p>
+    
+    {credentials.length > 0 && (
+      <div class="pt-2 flex flex-wrap gap-1.5 justify-center sm:justify-start">
+        {credentials.map((cred) => (
+          <span class="text-xs text-zinc-400 bg-zinc-900 border border-zinc-800 px-2.5 py-1 rounded-full">
+            {cred}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+</div>

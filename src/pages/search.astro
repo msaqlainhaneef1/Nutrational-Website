@@ -1,0 +1,25 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import SearchContainer from '@/features/shared/components/SearchContainer.astro';
+import { Search as SearchIcon } from '@lucide/astro';
+---
+
+<Layout title="Search Nutrition Database" description="Instant, privacy-first search across all our food nutrition databases, calculators, and articles.">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <Breadcrumb items={[{ label: 'Search', url: '/search' }]} />
+
+    <div class="space-y-3">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight flex items-center gap-2">
+        <SearchIcon class="h-8 w-8 text-emerald-500" />
+        Search Database
+      </h1>
+      <p class="text-zinc-400 text-sm max-w-xl">
+        Type a food, restaurant, or keyword below. The search runs entirely on your device in real-time.
+      </p>
+    </div>
+
+    <!-- Segregated Search logic & UI wrapper -->
+    <SearchContainer />
+  </div>
+</Layout>

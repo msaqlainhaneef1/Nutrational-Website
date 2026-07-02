@@ -1,0 +1,11 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FoodsDirectory from '@/features/nutrition/components/FoodsDirectory.astro';
+import { getAllFoods } from '@/features/nutrition/services/food';
+
+const foods = getAllFoods();
+---
+
+<Layout title="Foods Directory" description="Browse our complete list of food nutrition data sheets, loaded with full macronutrient and micronutrient values.">
+  <FoodsDirectory foods={foods} />
+</Layout>

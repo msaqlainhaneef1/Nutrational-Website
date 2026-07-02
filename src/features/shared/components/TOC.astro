@@ -1,0 +1,69 @@
+---
+import { List } from '@lucide/astro';
+
+interface Heading {
+  text: string;
+  slug: string;
+  depth: number;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const filteredHeadings = headings.filter(h => h.depth === 2 || h.depth === 3);
+---
+
+{filteredHeadings.length > 0 && (
+  <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 sticky top-24">
+    <div class="flex items-center space-x-2 text-emerald-500 font-bold border-b border-zinc-800 pb-3 mb-4">
+      <List class="h-4 w-4" />
+      <h3 class="text-sm uppercase tracking-wider text-zinc-200">Table of Contents</h3>
+    </div>
+    
+    <nav class="space-y-1">
+      <ul class="space-y-2 text-sm text-zinc-400">
+        {filteredHeadings.map((heading) => (
+          <li class={`${heading.depth === 3 ? 'pl-4 border-l border-zinc-800' : ''}`}>
+            <a 
+              href={`#${heading.slug}`} 
+              class="toc-link hover:text-emerald-400 block transition-colors duration-200"
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+)}
+
+<script is:inline>
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px 0px -60% 0px',
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        document.querySelectorAll('.toc-link').forEach((link) => {
+          if (link.getAttribute('href') === `#${id}`) {
+            link.classList.add('text-emerald-400', 'font-semibold');
+            link.classList.remove('text-zinc-400');
+          } else {
+            link.classList.remove('text-emerald-400', 'font-semibold');
+            link.classList.add('text-zinc-400');
+          }
+        });
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('article h2, article h3').forEach((heading) => {
+    observer.observe(heading);
+  });
+</script>

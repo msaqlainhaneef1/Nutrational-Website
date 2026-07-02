@@ -1,0 +1,42 @@
+---
+import RestaurantMenu from './RestaurantMenu.astro';
+import AuthorBox from '@/features/authors/components/AuthorBox.astro';
+import { Info } from '@lucide/astro';
+import type { Restaurant } from '../schemas/restaurant';
+
+interface Props {
+  restaurant: Restaurant;
+}
+
+const { restaurant } = Astro.props;
+---
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+  <!-- Main Interactive Menu -->
+  <div class="lg:col-span-8">
+    <RestaurantMenu restaurant={restaurant} />
+  </div>
+
+  <!-- Right column sidebar -->
+  <aside class="lg:col-span-4 space-y-6">
+    <!-- Calorie Disclaimer Widget -->
+    <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 flex items-start gap-3">
+      <div class="p-2 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20 flex-shrink-0">
+        <Info class="h-5 w-5" />
+      </div>
+      <div class="space-y-1.5">
+        <h4 class="font-bold text-sm text-zinc-200">Nutrition Disclaimer</h4>
+        <p class="text-xs text-zinc-400 leading-relaxed">
+          Nutritional values are calculated based on standard recipes provided by the restaurant. Actual values may vary slightly based on portion sizing, substitutions, and local preparation.
+        </p>
+      </div>
+    </div>
+
+    <!-- Verification credentials -->
+    <AuthorBox 
+      name="Dr. Sarah Jenkins"
+      role="Clinical Dietitian & Nutritionist"
+      bio="Helping patients navigate eating out and restaurant menus using evidence-based healthy dietary substitutions."
+    />
+  </aside>
+</div>

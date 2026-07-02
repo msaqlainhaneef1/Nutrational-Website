@@ -1,0 +1,36 @@
+---
+import FoodCard from './FoodCard.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+
+interface Props {
+  foods: any[];
+}
+
+const { foods } = Astro.props;
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <Breadcrumb items={[{ label: 'Foods', url: '/foods' }]} />
+
+  <div class="space-y-3">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Foods Nutrition Directory</h1>
+    <p class="text-zinc-400 text-sm max-w-2xl">
+      Select a food item to view its complete nutritional properties, including calories, vitamins, minerals, and dietary fiber content.
+    </p>
+  </div>
+
+  <!-- Foods Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
+    {foods.map((food) => (
+      <FoodCard
+        name={food.name}
+        slug={food.slug}
+        category={food.category}
+        calories={food.calories}
+        protein={food.macros.protein}
+        fat={food.macros.fat}
+        carbs={food.macros.carbs}
+      />
+    ))}
+  </div>
+</div>

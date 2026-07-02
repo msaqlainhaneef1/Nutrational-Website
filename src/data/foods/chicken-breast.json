@@ -1,0 +1,32 @@
+{
+  "name": "Chicken Breast",
+  "slug": "chicken-breast",
+  "description": "Skinless, boneless chicken breast is a lean, high-protein meat choice that is popular among fitness enthusiasts and healthy eaters alike.",
+  "category": "Poultry",
+  "servingSize": "100g",
+  "calories": 165,
+  "macros": {
+    "protein": { "value": 31.0, "unit": "g", "pctDailyValue": 62 },
+    "fat": { "value": 3.6, "unit": "g", "pctDailyValue": 5 },
+    "carbs": { "value": 0.0, "unit": "g", "pctDailyValue": 0 },
+    "fiber": { "value": 0.0, "unit": "g", "pctDailyValue": 0 },
+    "sugar": { "value": 0.0, "unit": "g", "pctDailyValue": 0 }
+  },
+  "micros": {
+    "sodium": { "value": 74.0, "unit": "mg", "pctDailyValue": 3 },
+    "potassium": { "value": 256.0, "unit": "mg", "pctDailyValue": 7 },
+    "cholesterol": { "value": 85.0, "unit": "mg", "pctDailyValue": 28 },
+    "calcium": { "value": 15.0, "unit": "mg", "pctDailyValue": 1 },
+    "iron": { "value": 1.0, "unit": "mg", "pctDailyValue": 6 }
+  },
+  "faqs": [
+    {
+      "q": "How much protein is in 100g of chicken breast?",
+      "a": "There are approximately 31 grams of high-quality protein in a 100-gram serving of skinless, boneless chicken breast."
+    },
+    {
+      "q": "Is chicken breast good for weight loss?",
+      "a": "Yes, chicken breast is excellent for weight loss due to its low calorie content and high protein density, which promotes satiety."
+    }
+  ]
+}

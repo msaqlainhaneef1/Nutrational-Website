@@ -1,0 +1,26 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import HomeHero from '@/features/shared/components/HomeHero.astro';
+import HomeCalculators from '@/features/shared/components/HomeCalculators.astro';
+import HomeFoods from '@/features/shared/components/HomeFoods.astro';
+import HomeRestaurants from '@/features/shared/components/HomeRestaurants.astro';
+import PrivacyBanner from '@/features/shared/components/PrivacyBanner.astro';
+import { getAllFoods } from '@/features/nutrition/services/food';
+
+const featuredFoods = getAllFoods().slice(0, 4);
+---
+
+<Layout title="Home" description="Explore comprehensive nutrition databases, calculate advanced metabolic rates, and track your fitness progress with modern client-side calculators.">
+  <!-- SEO Landmarking -->
+  <h1 class="sr-only">NutriFlow - High Performance Nutrition & Calorie Tracking Platform</h1>
+
+  <HomeHero />
+
+  <HomeCalculators />
+
+  <HomeFoods featuredFoods={featuredFoods} />
+
+  <HomeRestaurants />
+
+  <PrivacyBanner />
+</Layout>

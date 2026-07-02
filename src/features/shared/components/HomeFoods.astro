@@ -1,0 +1,39 @@
+---
+import FoodCard from '@/features/nutrition/components/FoodCard.astro';
+import { ArrowRight } from '@lucide/astro';
+
+interface Props {
+  featuredFoods: any[];
+}
+
+const { featuredFoods } = Astro.props;
+---
+
+<section class="bg-zinc-950 border-y border-zinc-900 py-20 relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+      <div class="space-y-2">
+        <h2 class="text-3xl font-extrabold text-white tracking-tight">Explore Food Nutrition</h2>
+        <p class="text-zinc-400 text-sm">Detailed macro- and micronutrient breakdowns generated statically for search index optimization.</p>
+      </div>
+      <a href="/foods" class="inline-flex items-center text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors">
+        <span>View All Foods</span>
+        <ArrowRight class="h-4 w-4 ml-1.5" />
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {featuredFoods.map((food) => (
+        <FoodCard
+          name={food.name}
+          slug={food.slug}
+          category={food.category}
+          calories={food.calories}
+          protein={food.macros.protein}
+          fat={food.macros.fat}
+          carbs={food.macros.carbs}
+        />
+      ))}
+    </div>
+  </div>
+</section>

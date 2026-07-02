@@ -1,0 +1,44 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import RestaurantPage from '@/features/restaurants/components/RestaurantPage.astro';
+import { getAllRestaurants } from '@/features/restaurants/services/restaurant';
+import { ArrowLeft } from '@lucide/astro';
+
+export async function getStaticPaths() {
+  const restaurants = getAllRestaurants();
+  return restaurants.map((restaurant) => ({
+    params: { slug: restaurant.slug },
+    props: { restaurant },
+  }));
+}
+
+const { restaurant } = Astro.props;
+---
+
+<Layout 
+  title={`${restaurant.name} Nutrition Facts & Calories`} 
+  description={`Full menu and calorie content for ${restaurant.name}. Calculate and filter protein, carbs, and fat values for your favorite meals.`}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <div class="flex items-center justify-between">
+      <Breadcrumb items={[
+        { label: 'Restaurants', url: '/restaurants' },
+        { label: restaurant.name }
+      ]} />
+      <a href="/restaurants" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+        <ArrowLeft class="h-3.5 w-3.5 mr-1" />
+        Back to Restaurants
+      </a>
+    </div>
+
+    <!-- Header section -->
+    <div class="border-b border-zinc-900 pb-6 space-y-3">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">{restaurant.name} Nutrition Calculator</h1>
+      <p class="text-zinc-400 text-sm max-w-3xl leading-relaxed">{restaurant.description}</p>
+    </div>
+
+    <!-- Delegate layout & presentation to Feature Orchestrator -->
+    <RestaurantPage restaurant={restaurant} />
+  </div>
+</Layout>

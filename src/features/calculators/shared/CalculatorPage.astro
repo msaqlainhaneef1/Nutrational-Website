@@ -1,0 +1,49 @@
+---
+import Calculator from '@/features/calculators/shared/Calculator.astro';
+import AuthorBox from '@/features/authors/components/AuthorBox.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { ArrowLeft } from '@lucide/astro';
+
+interface Props {
+  type: 'bmi' | 'bmr' | 'tdee';
+  metaInfo: {
+    title: string;
+    desc: string;
+    about: string;
+  };
+}
+
+const { type, metaInfo } = Astro.props;
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <div class="flex items-center justify-between">
+    <Breadcrumb items={[
+      { label: 'Calculators', url: '/calculators' },
+      { label: type.toUpperCase() }
+    ]} />
+    <a href="/calculators" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+      <ArrowLeft class="h-3.5 w-3.5 mr-1" />
+      All Calculators
+    </a>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+    <div class="lg:col-span-8">
+      <Calculator type={type} />
+    </div>
+
+    <aside class="lg:col-span-4 space-y-6">
+      <div class="glass-card rounded-2xl p-6 border border-zinc-800/80 space-y-3">
+        <h3 class="font-extrabold text-sm uppercase tracking-wider text-emerald-400">About this Calculator</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">{metaInfo.about}</p>
+      </div>
+
+      <AuthorBox 
+        name="Dr. Sarah Jenkins"
+        role="Clinical Dietitian & Nutritionist"
+        bio="Reviewed and verified the mathematical accuracy of health formulas used in our calculator modules."
+      />
+    </aside>
+  </div>
+</div>

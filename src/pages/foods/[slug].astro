@@ -1,0 +1,44 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FoodPage from '@/features/nutrition/components/FoodPage.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { getAllFoods } from '@/features/nutrition/services/food';
+import { createFoodSchema } from '@/features/nutrition/schemas/schema-generator';
+import { ArrowLeft } from '@lucide/astro';
+
+export async function getStaticPaths() {
+  const foods = getAllFoods();
+  return foods.map((food) => ({
+    params: { slug: food.slug },
+    props: { food },
+  }));
+}
+
+const { food } = Astro.props;
+const schema = createFoodSchema(food, Astro.site?.toString() || Astro.url.origin);
+---
+
+<Layout 
+  title={`${food.name} Nutrition Facts & Calories`} 
+  description={`Detailed nutritional profile of ${food.name} per ${food.servingSize}. Learn about its calories, protein, carbs, fats, vitamins, and minerals.`}
+  schema={schema}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <div class="flex items-center justify-between">
+      <Breadcrumb items={[
+        { label: 'Foods', url: '/foods' },
+        { label: food.name }
+      ]} />
+      <a href="/foods" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+        <ArrowLeft class="h-3.5 w-3.5 mr-1" />
+        Back to Directory
+      </a>
+    </div>
+
+    <!-- SEO Critical H1 -->
+    <h1 class="sr-only">{food.name} Nutrition Facts & Calorie Information</h1>
+
+    <!-- Delegate layout & presentation to Feature Orchestrator -->
+    <FoodPage food={food} />
+  </div>
+</Layout>

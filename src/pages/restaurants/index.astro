@@ -1,0 +1,11 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import RestaurantsDirectory from '@/features/restaurants/components/RestaurantsDirectory.astro';
+import { getAllRestaurants } from '@/features/restaurants/services/restaurant';
+
+const restaurants = getAllRestaurants();
+---
+
+<Layout title="Restaurants Nutrition" description="Compare restaurant nutrition data, calories, and macros across popular fast food chains before ordering.">
+  <RestaurantsDirectory restaurants={restaurants} />
+</Layout>

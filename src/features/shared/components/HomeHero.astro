@@ -1,0 +1,35 @@
+---
+import { ArrowRight, Search, Star } from '@lucide/astro';
+---
+
+<section class="relative overflow-hidden pt-20 pb-16 md:pt-32 md:pb-24 border-b border-zinc-900">
+  <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+  <div class="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+    <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/25 px-3 py-1 rounded-full text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+      <Star class="h-3 w-3 fill-emerald-400" />
+      <span>High-Performance Nutrition Platform</span>
+    </div>
+
+    <h2 class="text-4xl sm:text-6xl font-black tracking-tight text-white max-w-4xl mx-auto leading-[1.1]">
+      Track Macros. Calculate Needs.<br/>
+      <span class="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">Optimize Your Health.</span>
+    </h2>
+
+    <p class="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+      Fast, database-free, privacy-first nutrition engine. Access thousands of food items, analyze restaurant menus, and compute metabolic stats in milliseconds.
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
+      <a href="/calculators" class="w-full sm:w-auto px-8 py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold rounded-xl transition-all shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20 text-center flex items-center justify-center space-x-2">
+        <span>Try Calculators</span>
+        <ArrowRight class="h-4 w-4" />
+      </a>
+      <a href="/search" class="w-full sm:w-auto px-8 py-3.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800/80 text-zinc-200 font-extrabold rounded-xl transition-all text-center flex items-center justify-center space-x-2">
+        <Search class="h-4 w-4" />
+        <span>Search Foods</span>
+      </a>
+    </div>
+  </div>
+</section>

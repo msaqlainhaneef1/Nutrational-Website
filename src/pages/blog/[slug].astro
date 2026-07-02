@@ -1,0 +1,77 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import AuthorBox from '@/features/authors/components/AuthorBox.astro';
+import TOC from '@/features/shared/components/TOC.astro';
+import { getCollection, render } from 'astro:content';
+import { createArticleSchema } from '@/features/nutrition/schemas/schema-generator';
+import { ArrowLeft } from '@lucide/astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+
+const schema = createArticleSchema(
+  post.data.title,
+  post.data.description,
+  Astro.url.href,
+  post.data.pubDate.toISOString(),
+  post.data.author
+);
+---
+
+<Layout 
+  title={post.data.title} 
+  description={post.data.description}
+  schema={schema}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <div class="flex items-center justify-between">
+      <Breadcrumb items={[
+        { label: 'Blog', url: '/blog' },
+        { label: post.data.title }
+      ]} />
+      <a href="/blog" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+        <ArrowLeft class="h-3.5 w-3.5 mr-1" />
+        Back to Blog
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <!-- TOC sticky sidebar (desktop) -->
+      <aside class="hidden lg:block lg:col-span-3">
+        <TOC headings={headings} />
+      </aside>
+
+      <!-- Main Article body -->
+      <article class="lg:col-span-6 space-y-8 prose prose-invert max-w-none">
+        <div class="border-b border-zinc-900 pb-6 space-y-3">
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+            {post.data.title}
+          </h1>
+          <p class="text-zinc-500 text-xs font-semibold">
+            Published on {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </p>
+        </div>
+
+        <Content />
+      </article>
+
+      <!-- EEAT Verification sidebar -->
+      <aside class="lg:col-span-3">
+        <AuthorBox 
+          name={post.data.author}
+          role="Registered Dietitian Nutritionist (RDN)"
+          bio="Clinically reviewed guide ensuring healthy nutrient alignment and scientifically sound advice."
+        />
+      </aside>
+    </div>
+  </div>
+</Layout>

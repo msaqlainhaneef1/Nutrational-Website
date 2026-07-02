@@ -1,0 +1,31 @@
+{
+  "name": "Apple",
+  "slug": "apple",
+  "description": "Apples are crisp, sweet, or tart fruits packed with dietary fiber, vitamin C, and various antioxidants, making them a perfect healthy snack.",
+  "category": "Fruits",
+  "servingSize": "100g",
+  "calories": 52,
+  "macros": {
+    "protein": { "value": 0.3, "unit": "g", "pctDailyValue": 1 },
+    "fat": { "value": 0.2, "unit": "g", "pctDailyValue": 0 },
+    "carbs": { "value": 13.8, "unit": "g", "pctDailyValue": 5 },
+    "fiber": { "value": 2.4, "unit": "g", "pctDailyValue": 10 },
+    "sugar": { "value": 10.4, "unit": "g", "pctDailyValue": 21 }
+  },
+  "micros": {
+    "sodium": { "value": 1.0, "unit": "mg", "pctDailyValue": 0 },
+    "potassium": { "value": 107.0, "unit": "mg", "pctDailyValue": 3 },
+    "vitaminC": { "value": 4.6, "unit": "mg", "pctDailyValue": 8 },
+    "calcium": { "value": 6.0, "unit": "mg", "pctDailyValue": 1 }
+  },
+  "faqs": [
+    {
+      "q": "Are apples high in sugar?",
+      "a": "Apples contain natural sugar (fructose) but have a low glycemic index because they are high in fiber, which slows digestion and prevents blood sugar spikes."
+    },
+    {
+      "q": "Should you eat apple skin?",
+      "a": "Yes, much of the fiber and antioxidants (like quercetin) are concentrated in the skin, so eating apples whole is highly recommended."
+    }
+  ]
+}

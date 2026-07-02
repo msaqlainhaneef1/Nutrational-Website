@@ -1,0 +1,11 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import BlogDirectory from '@/features/shared/components/BlogDirectory.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+---
+
+<Layout title="Health & Nutrition Blog" description="Read our latest evidence-based guides on nutrition, macro tracking, calorie deficits, and dietary planning.">
+  <BlogDirectory posts={posts} />
+</Layout>

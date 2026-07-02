@@ -1,0 +1,104 @@
+---
+import NutritionTable from '@/features/nutrition/components/NutritionTable.astro';
+import MacroChart from '@/features/nutrition/components/MacroChart.astro';
+import FAQ from '@/features/shared/components/FAQ.astro';
+import AuthorBox from '@/features/authors/components/AuthorBox.astro';
+import TOC from '@/features/shared/components/TOC.astro';
+import { Sparkles } from '@lucide/astro';
+import type { Food } from '../schemas/food';
+
+interface Props {
+  food: Food;
+}
+
+const { food } = Astro.props;
+
+// Dynamic Table of Contents headings
+const headings = [
+  { text: 'Overview', slug: 'overview', depth: 2 },
+  { text: 'Macronutrient Breakdown', slug: 'macronutrient-breakdown', depth: 2 },
+  { text: 'Micronutrients and Benefits', slug: 'micronutrients-benefits', depth: 2 },
+  ...(food.faqs && food.faqs.length > 0 ? [{ text: 'Frequently Asked Questions', slug: 'faqs', depth: 2 }] : [])
+];
+---
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+  <!-- Left sidebar TOC (desktop only) -->
+  <aside class="hidden lg:block lg:col-span-3">
+    <TOC headings={headings} />
+  </aside>
+
+  <!-- Main content body -->
+  <article class="lg:col-span-5 space-y-10">
+    <!-- Overview -->
+    <section id="overview" class="space-y-4">
+      <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+        <Sparkles class="h-3.5 w-3.5" />
+        <span>Category: {food.category}</span>
+      </div>
+      
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight !border-l-0 !pl-0">
+        {food.name} Nutrition Profile
+      </h2>
+      
+      <p class="text-zinc-300 text-sm leading-relaxed">
+        {food.description || `Get verified calorie data, macronutrient breakdown, and vitamin content for ${food.name}.`}
+      </p>
+    </section>
+
+    <!-- Macro Breakdown with Lazy Loaded Chart -->
+    <section id="macronutrient-breakdown" class="space-y-4 scroll-mt-20">
+      <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">Macronutrient Breakdown</h2>
+      <p class="text-zinc-400 text-xs leading-normal">
+        Visual distribution of energy in {food.name} per {food.servingSize} serving. Check protein, carbs, and fat weights.
+      </p>
+      <MacroChart 
+        protein={food.macros.protein.value} 
+        carbs={food.macros.carbs.value} 
+        fat={food.macros.fat.value} 
+      />
+    </section>
+
+    <!-- Micros & Benefits -->
+    <section id="micronutrients-benefits" class="space-y-4 scroll-mt-20">
+      <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">Micronutrient Profile</h2>
+      <p class="text-zinc-300 text-sm leading-relaxed">
+        {food.name} is a rich source of nutrients. A {food.servingSize} serving provides a balanced mix of micronutrients essential for bodily functions and metabolic health.
+      </p>
+      <div class="grid grid-cols-2 gap-3 text-xs">
+        {food.micros && Object.entries(food.micros).map(([key, val]) => (
+          <div class="bg-zinc-900 border border-zinc-800/80 p-3.5 rounded-xl flex items-center justify-between">
+            <span class="text-zinc-400 font-semibold uppercase tracking-wider text-[10px]">{key.replace(/([A-Z])/g, ' $1')}</span>
+            <span class="font-extrabold text-white">{val.value}{val.unit}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    {food.faqs && food.faqs.length > 0 && (
+      <section id="faqs" class="space-y-4 scroll-mt-20">
+        <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">FAQs</h2>
+        <FAQ faqs={food.faqs} />
+      </section>
+    )}
+  </article>
+
+  <!-- Right sidebar widgets -->
+  <aside class="lg:col-span-4 space-y-8">
+    <NutritionTable 
+      name={food.name}
+      servingSize={food.servingSize}
+      calories={food.calories}
+      macros={food.macros}
+      micros={food.micros}
+    />
+
+    <AuthorBox 
+      name="Dr. Sarah Jenkins"
+      role="Clinical Dietitian & Nutritionist"
+      bio="Specializing in nutritional science and dietetics with over a decade of clinical experience in metabolic health."
+      credentials={["PhD Nutritional Science", "RDN License #48291"]}
+    />
+  </aside>
+</div>

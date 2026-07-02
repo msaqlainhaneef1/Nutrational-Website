@@ -1,0 +1,40 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+
+export async function getStaticPaths() {
+  return [
+    { params: { slug: 'bmi' }, props: { type: 'bmi' } },
+    { params: { slug: 'bmr' }, props: { type: 'bmr' } },
+    { params: { slug: 'tdee' }, props: { type: 'tdee' } },
+  ];
+}
+
+interface Props {
+  type: 'bmi' | 'bmr' | 'tdee';
+}
+
+const { type } = Astro.props;
+
+const metaInfo = {
+  bmi: {
+    title: "Body Mass Index (BMI) Calculator",
+    desc: "Calculate your Body Mass Index (BMI) to determine if you are underweight, normal weight, overweight, or obese.",
+    about: "Body Mass Index (BMI) is a simple estimate of body fat based on height and weight. It is widely used by healthcare providers to screen for weight categories that may lead to health problems. It is calculated by dividing weight in kilograms by the square of height in meters."
+  },
+  bmr: {
+    title: "Basal Metabolic Rate (BMR) Calculator",
+    desc: "Calculate your BMR to understand how many calories your body burns at rest to support vital organ systems.",
+    about: "Your Basal Metabolic Rate (BMR) represents the absolute minimum number of calories your body needs to survive (heart beating, brain function, breathing) while in a resting state. This calculator utilizes the highly accurate Mifflin-St Jeor equation, which is standard in clinical practice."
+  },
+  tdee: {
+    title: "Total Daily Energy Expenditure (TDEE) Calculator",
+    desc: "Find out your daily maintenance calories, or scale down for weight loss or up for weight gain.",
+    about: "Total Daily Energy Expenditure (TDEE) is an estimation of how many calories you burn per day, including physical activity. It is calculated by taking your Basal Metabolic Rate (BMR) and multiplying it by an activity multiplier based on how often you exercise. TDEE is the starting point for structuring a weight loss or muscle building diet."
+  }
+}[type];
+---
+
+<Layout title={metaInfo.title} description={metaInfo.desc}>
+  <CalculatorPage type={type} metaInfo={metaInfo} />
+</Layout>

@@ -1,0 +1,58 @@
+{
+  "name": "Subway",
+  "slug": "subway",
+  "description": "Nutrition data for Subway sandwiches, salads, wrap, and cookies.",
+  "logo": "subway",
+  "categories": [
+    {
+      "name": "6\" Sandwiches",
+      "items": [
+        {
+          "name": "Turkey Breast",
+          "servingSize": "219g",
+          "calories": 280,
+          "protein": 18,
+          "fat": 3,
+          "carbs": 46,
+          "fiber": 5,
+          "sodium": 760
+        },
+        {
+          "name": "Tuna",
+          "servingSize": "233g",
+          "calories": 480,
+          "protein": 20,
+          "fat": 25,
+          "carbs": 44,
+          "fiber": 5,
+          "sodium": 580
+        },
+        {
+          "name": "Subway Club",
+          "servingSize": "240g",
+          "calories": 310,
+          "protein": 23,
+          "fat": 5,
+          "carbs": 46,
+          "fiber": 5,
+          "sodium": 840
+        }
+      ]
+    },
+    {
+      "name": "Sides & Cookies",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "servingSize": "45g",
+          "calories": 210,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 120
+        }
+      ]
+    }
+  ]
+}

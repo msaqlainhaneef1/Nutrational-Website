@@ -1,0 +1,152 @@
+---
+import { Search, Flame, CircleAlert } from '@lucide/astro';
+import type { Restaurant } from '../schemas/restaurant';
+
+interface Props {
+  restaurant: Restaurant;
+}
+
+const { restaurant } = Astro.props;
+---
+
+<div class="space-y-6">
+  <div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
+    <div class="relative w-full md:max-w-md">
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-500">
+        <Search class="h-4 w-4" />
+      </div>
+      <input
+        type="text"
+        id="menu-search-input"
+        placeholder={`Search menu items in ${restaurant.name}...`}
+        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
+      />
+    </div>
+
+    <div class="flex flex-wrap gap-2 w-full md:w-auto">
+      <button
+        type="button"
+        class="category-tab px-4 py-2 rounded-xl text-sm font-semibold transition-all border border-emerald-500/20 bg-emerald-500/10 text-emerald-400"
+        data-category="all"
+      >
+        All Items
+      </button>
+      {restaurant.categories.map((cat) => (
+        <button
+          type="button"
+          class="category-tab px-4 py-2 rounded-xl text-sm font-semibold transition-all border border-zinc-800 bg-zinc-900 text-zinc-400 hover:text-zinc-200"
+          data-category={cat.name}
+        >
+          {cat.name}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="menu-items-grid">
+    {restaurant.categories.flatMap((cat) => 
+      cat.items.map((item) => (
+        <div 
+          class="menu-item-card glass-card rounded-2xl p-5 flex flex-col justify-between border border-zinc-800/80 transition-all duration-300"
+          data-item-name={item.name.toLowerCase()}
+          data-item-category={cat.name}
+        >
+          <div class="space-y-3">
+            <div class="flex justify-between items-start">
+              <div>
+                <h4 class="font-bold text-white text-base leading-snug">{item.name}</h4>
+                <p class="text-xs text-zinc-500 mt-0.5">{cat.name} {item.servingSize ? `• ${item.servingSize}` : ''}</p>
+              </div>
+              <span class="inline-flex items-center text-xs font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
+                <Flame class="h-3.5 w-3.5 mr-1 fill-amber-500" />
+                {item.calories} cal
+              </span>
+            </div>
+
+            <div class="grid grid-cols-4 gap-2 text-center text-xs pt-1">
+              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
+                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Protein</span>
+                <span class="font-extrabold text-emerald-400">{item.protein}g</span>
+              </div>
+              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
+                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Carbs</span>
+                <span class="font-extrabold text-blue-400">{item.carbs}g</span>
+              </div>
+              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
+                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Fat</span>
+                <span class="font-extrabold text-amber-400">{item.fat}g</span>
+              </div>
+              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
+                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Sodium</span>
+                <span class="font-extrabold text-zinc-300">{item.sodium ?? '--'}mg</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))
+    )}
+  </div>
+
+  <div id="menu-empty-state" class="hidden text-center py-12 glass-card rounded-2xl border border-zinc-900">
+    <CircleAlert class="h-10 w-10 text-zinc-600 mx-auto mb-3" />
+    <h3 class="font-bold text-zinc-300">No menu items match your filter</h3>
+    <p class="text-sm text-zinc-500 mt-1">Try modifying your search or select a different category.</p>
+  </div>
+</div>
+
+<script is:inline>
+  const searchInput = document.getElementById('menu-search-input');
+  const tabs = document.querySelectorAll('.category-tab');
+  const cards = document.querySelectorAll('.menu-item-card');
+  const emptyState = document.getElementById('menu-empty-state');
+  
+  let activeCategory = 'all';
+  let searchQuery = '';
+
+  function filterMenu() {
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const name = card.dataset.itemName;
+      const category = card.dataset.itemCategory;
+
+      const matchesSearch = name.includes(searchQuery);
+      const matchesCategory = activeCategory === 'all' || category === activeCategory;
+
+      if (matchesSearch && matchesCategory) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    if (visibleCount === 0) {
+      emptyState.classList.remove('hidden');
+    } else {
+      emptyState.classList.add('hidden');
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      filterMenu();
+    });
+  }
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => {
+        t.classList.remove('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
+        t.classList.add('border-zinc-800', 'bg-zinc-900', 'text-zinc-400');
+      });
+
+      tab.classList.remove('border-zinc-800', 'bg-zinc-900', 'text-zinc-400');
+      tab.classList.add('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
+
+      activeCategory = tab.dataset.category;
+      filterMenu();
+    });
+  });
+</script>

@@ -1,0 +1,62 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Scale, Flame, Activity, ArrowRight } from '@lucide/astro';
+
+const calculators = [
+  {
+    name: "Body Mass Index (BMI) Calculator",
+    slug: "bmi",
+    desc: "Calculate your body mass index to check if you are within a healthy weight range for your height. Recommended for a quick weight assessment.",
+    icon: Scale,
+    color: "text-blue-400 bg-blue-500/10 border-blue-500/20"
+  },
+  {
+    name: "Basal Metabolic Rate (BMR) Calculator",
+    slug: "bmr",
+    desc: "Calculate your BMR using the Mifflin-St Jeor formula to discover how many calories your body burns in a state of complete rest.",
+    icon: Flame,
+    color: "text-amber-400 bg-amber-500/10 border-amber-500/20"
+  },
+  {
+    name: "Total Daily Energy Expenditure (TDEE) Calculator",
+    slug: "tdee",
+    desc: "Determine your maintenance, fat loss, or muscle gain calories by scaling your BMR with your daily physical activity levels.",
+    icon: Activity,
+    color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
+  }
+];
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <Breadcrumb items={[{ label: 'Calculators', url: '/calculators' }]} />
+
+  <div class="space-y-3">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Health & Fitness Calculators</h1>
+    <p class="text-zinc-400 text-sm max-w-2xl">
+      Compute essential body metrics and calorie requirements securely on your device. None of your inputs are saved or sent to a server.
+    </p>
+  </div>
+
+  <!-- Calculators grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+    {calculators.map((calc) => {
+      const Icon = calc.icon;
+      return (
+        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex flex-col justify-between h-full group">
+          <div class="space-y-4">
+            <div class={`p-3 w-12 h-12 rounded-xl border flex items-center justify-center ${calc.color}`}>
+              <Icon class="h-6 w-6" />
+            </div>
+            <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors">{calc.name}</h2>
+            <p class="text-zinc-400 text-sm leading-relaxed">{calc.desc}</p>
+          </div>
+          
+          <div class="mt-8 pt-4 border-t border-zinc-900 flex items-center justify-between text-xs text-emerald-400 font-extrabold">
+            <span>Open Calculator</span>
+            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</div>

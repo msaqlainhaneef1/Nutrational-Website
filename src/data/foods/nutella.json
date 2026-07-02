@@ -1,0 +1,58 @@
+{
+  "name": "Nutella",
+  "slug": "nutella",
+  "description": "Pâte à tartiner aux noisettes et au cacao",
+  "category": "breakfasts",
+  "servingSize": "100g",
+  "calories": 539,
+  "macros": {
+    "protein": {
+      "value": 6.3,
+      "unit": "g",
+      "pctDailyValue": 13
+    },
+    "fat": {
+      "value": 30.9,
+      "unit": "g",
+      "pctDailyValue": 46
+    },
+    "carbs": {
+      "value": 57.5,
+      "unit": "g",
+      "pctDailyValue": 17
+    },
+    "fiber": {
+      "value": 0,
+      "unit": "g",
+      "pctDailyValue": 0
+    },
+    "sugar": {
+      "value": 56.3,
+      "unit": "g",
+      "pctDailyValue": 113
+    }
+  },
+  "micros": {
+    "sodium": {
+      "value": 43,
+      "unit": "mg",
+      "pctDailyValue": 2
+    },
+    "potassium": {
+      "value": 0,
+      "unit": "mg",
+      "pctDailyValue": 0
+    },
+    "calcium": {
+      "value": 0,
+      "unit": "mg",
+      "pctDailyValue": 0
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Nutella high in sugar?",
+      "a": "A 100g serving contains 56.3g of sugar, which contributes to its overall nutritional profile."
+    }
+  ]
+}

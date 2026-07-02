@@ -1,0 +1,69 @@
+---
+import { ChevronDown } from '@lucide/astro';
+
+interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  faqs: FaqItem[];
+}
+
+const { faqs } = Astro.props;
+---
+
+<div class="space-y-4 max-w-3xl mx-auto">
+  {faqs.map((faq, index) => (
+    <div class="glass-card rounded-xl overflow-hidden border border-zinc-800 transition-all duration-300">
+      <button 
+        type="button" 
+        class="faq-toggle w-full text-left p-5 flex items-center justify-between font-bold text-white hover:text-emerald-400 focus:outline-none transition-colors"
+        aria-expanded="false"
+        aria-controls={`faq-answer-${index}`}
+        id={`faq-btn-${index}`}
+      >
+        <span>{faq.q}</span>
+        <ChevronDown class="h-5 w-5 text-zinc-400 transition-transform duration-300 pointer-events-none" />
+      </button>
+      
+      <div 
+        id={`faq-answer-${index}`}
+        class="faq-content hidden border-t border-zinc-900 bg-zinc-900/20"
+        aria-labelledby={`faq-btn-${index}`}
+      >
+        <div class="p-5 text-zinc-300 text-sm leading-relaxed">
+          {faq.a}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+<script is:inline>
+  document.querySelectorAll('.faq-toggle').forEach((button) => {
+    button.addEventListener('click', () => {
+      const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      const chevron = button.querySelector('svg');
+      const content = button.nextElementSibling;
+
+      document.querySelectorAll('.faq-toggle').forEach((otherBtn) => {
+        if (otherBtn !== button) {
+          otherBtn.setAttribute('aria-expanded', 'false');
+          otherBtn.nextElementSibling?.classList.add('hidden');
+          const otherChevron = otherBtn.querySelector('svg');
+          if (otherChevron) otherChevron.style.transform = 'rotate(0deg)';
+        }
+      });
+
+      button.setAttribute('aria-expanded', !isExpanded);
+      if (content) {
+        content.classList.toggle('hidden');
+      }
+      
+      if (chevron) {
+        chevron.style.transform = isExpanded ? 'rotate(0deg)' : 'rotate(180deg)';
+      }
+    });
+  });
+</script>
