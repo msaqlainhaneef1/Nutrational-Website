@@ -14,11 +14,51 @@ export async function getStaticPaths() {
 }
 
 const { restaurant } = Astro.props;
+
+// Calculate stats for advanced SEO metadata
+const totalCategories = restaurant.categories.length;
+const totalItems = restaurant.categories.reduce((acc, cat) => acc + cat.items.length, 0);
+
+// Professional SEO page title and description
+const seoTitle = `${restaurant.name} Nutrition Facts & Calorie Calculator`;
+const seoDescription = `Browse the full ${restaurant.name} menu with nutrition facts. Calculate calories, carbs, protein, fat, and sodium for ${totalItems} items across ${totalCategories} categories.`;
+
+// Build professional Breadcrumb JSON-LD schema
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": seoTitle,
+  "description": seoDescription,
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": Astro.url.origin
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Restaurants",
+        "item": `${Astro.url.origin}/restaurants`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": restaurant.name,
+        "item": Astro.url.href
+      }
+    ]
+  }
+};
 ---
 
 <Layout 
-  title={`${restaurant.name} Nutrition Facts & Calories`} 
-  description={`Full menu and calorie content for ${restaurant.name}. Calculate and filter protein, carbs, and fat values for your favorite meals.`}
+  title={seoTitle} 
+  description={seoDescription}
+  schema={schema}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
     <div class="flex items-center justify-between">
@@ -34,8 +74,20 @@ const { restaurant } = Astro.props;
 
     <!-- Header section -->
     <div class="border-b border-zinc-900 pb-6 space-y-3">
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">{restaurant.name} Nutrition Calculator</h1>
-      <p class="text-zinc-400 text-sm max-w-3xl leading-relaxed">{restaurant.description}</p>
+      <div class="flex items-center space-x-3">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">{restaurant.name} Nutrition Calculator</h1>
+      </div>
+      <p class="text-zinc-400 text-sm max-w-3xl leading-relaxed">{restaurant.description || `Full nutritional menu database and calorie calculator for ${restaurant.name} dishes.`}</p>
+      
+      <!-- Stats badges -->
+      <div class="flex flex-wrap gap-3 pt-2 text-xs">
+        <span class="px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-lg text-zinc-300 font-medium">
+          <strong class="text-emerald-400">{totalItems}</strong> Menu Items
+        </span>
+        <span class="px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-lg text-zinc-300 font-medium">
+          <strong class="text-emerald-400">{totalCategories}</strong> Categories
+        </span>
+      </div>
     </div>
 
     <!-- Delegate layout & presentation to Feature Orchestrator -->

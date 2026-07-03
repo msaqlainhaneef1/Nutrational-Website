@@ -1,0 +1,61 @@
+{
+  "slug": "panera-bread-nutrition-calculator",
+  "title": "🥖 Panera Bread Nutrition Calculator",
+  "description": "Track calories and macros for Panera Bread sandwiches, soups, salads, bagels and bakery items.",
+  "categories": [
+    {
+      "name": "Bagels & Spreads",
+      "items": [
+        {
+          "name": "Asiago Cheese Bagel (1 Bagel)",
+          "calories": 350,
+          "protein": 14,
+          "carbs": 55,
+          "fat": 9,
+          "fiber": 3,
+          "sodium": 660,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 5,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Broccoli Cheddar Soup - Bowl (1 Bowl)",
+          "calories": 370,
+          "protein": 15,
+          "carbs": 24,
+          "fat": 24,
+          "fiber": 2,
+          "sodium": 1470,
+          "cholesterol": 70,
+          "saturated_fat": 15,
+          "sugars": 6,
+          "trans_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Bacon Turkey Bravo Sandwich - Whole (1 Sandwich)",
+          "calories": 840,
+          "protein": 47,
+          "carbs": 73,
+          "fat": 40,
+          "fiber": 4,
+          "sodium": 2430,
+          "cholesterol": 135,
+          "saturated_fat": 13,
+          "sugars": 11,
+          "trans_fat": 0.5
+        }
+      ]
+    }
+  ]
+}

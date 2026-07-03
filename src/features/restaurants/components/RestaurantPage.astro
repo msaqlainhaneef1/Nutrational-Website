@@ -1,7 +1,7 @@
 ---
 import RestaurantMenu from './RestaurantMenu.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
-import { Info } from '@lucide/astro';
+import { Info, Calculator, Trash2, X, Clipboard } from '@lucide/astro';
 import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
@@ -11,14 +11,17 @@ interface Props {
 const { restaurant } = Astro.props;
 ---
 
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
   <!-- Main Interactive Menu -->
   <div class="lg:col-span-8">
     <RestaurantMenu restaurant={restaurant} />
   </div>
 
-  <!-- Right column sidebar -->
+  <!-- Right column sidebar (Acts as modal on mobile) -->
   <aside class="lg:col-span-4 space-y-6">
+    <!-- Backdrop overlay for mobile modal calc -->
+    <div id="mobile-calc-backdrop" class="fixed inset-0 bg-black/80 z-40 hidden backdrop-blur-sm lg:hidden transition-all duration-300"></div>
+
     <!-- Calorie Disclaimer Widget -->
     <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 flex items-start gap-3">
       <div class="p-2 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20 flex-shrink-0">
@@ -38,5 +41,997 @@ const { restaurant } = Astro.props;
       role="Clinical Dietitian & Nutritionist"
       bio="Helping patients navigate eating out and restaurant menus using evidence-based healthy dietary substitutions."
     />
+
+    <!-- Desktop Sticky Wrapper Div -->
+    <div class="lg:sticky lg:top-24 z-10 space-y-6">
+      <!-- Interactive Meal Calculator Panel -->
+      <div 
+        class="glass-card rounded-3xl p-6 border border-emerald-500/20 bg-gradient-to-b from-zinc-950 to-zinc-900/50 space-y-6 transition-all duration-300" 
+        id="meal-calculator-panel"
+        data-restaurant-name={restaurant.name}
+      >
+        <div class="flex items-center justify-between border-b border-zinc-900 pb-4">
+          <div class="flex items-center space-x-2">
+            <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl border border-emerald-500/20">
+              <Calculator class="h-5 w-5" />
+            </div>
+            <h3 class="font-extrabold text-lg text-white">Meal Calculator</h3>
+          </div>
+          
+          <div class="flex items-center space-x-2">
+            <button
+              type="button"
+              id="btn-clear-meal"
+              class="text-xs text-zinc-500 hover:text-red-400 transition-colors font-medium hidden"
+            >
+              Clear All
+            </button>
+            
+            <button
+              type="button"
+              id="btn-close-mobile-calc"
+              class="lg:hidden p-1.5 bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white rounded-lg transition-colors"
+              aria-label="Close Calculator"
+            >
+              <X class="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Empty State inside calculator -->
+        <div id="meal-calc-empty" class="text-center py-6 space-y-2">
+          <p class="text-sm text-zinc-400">Your meal is empty.</p>
+          <p class="text-xs text-zinc-500 leading-relaxed">
+            Use the <strong class="text-emerald-400 font-bold">+</strong> buttons on menu items to calculate order totals, view charts, and render an FDA label.
+          </p>
+        </div>
+
+        <!-- Active Calculator details (hidden by default) -->
+        <div id="meal-calc-active" class="space-y-6 hidden">
+          
+          <!-- Dietitian Swap Recommendation Box -->
+          <div id="dietitian-swaps-box" class="bg-emerald-500/5 border border-emerald-500/20 p-4 rounded-2xl hidden space-y-3">
+            <div class="flex items-start gap-2.5">
+              <span class="text-base">💡</span>
+              <div class="space-y-1">
+                <h5 class="text-xs font-black text-emerald-400 uppercase tracking-wider">Dietitian Healthy Swap</h5>
+                <p class="text-[11px] text-zinc-300 leading-relaxed font-medium" id="dietitian-swap-text"></p>
+              </div>
+            </div>
+            <button
+              type="button"
+              id="btn-apply-swap"
+              class="w-full py-2 bg-emerald-500 text-zinc-950 rounded-xl text-[10px] font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors active:scale-[0.99]"
+            >
+              Swap Now & Save Calories
+            </button>
+          </div>
+
+          <!-- Selected Items List -->
+          <div class="space-y-3 max-h-40 overflow-y-auto pr-1 border-b border-zinc-900 pb-4" id="meal-items-list">
+            <!-- Dynamic entries -->
+          </div>
+
+          <!-- Macro Donut Chart Section (Collapsible Accordion) -->
+          <div class="space-y-3 pt-1 border-b border-zinc-900 pb-4">
+            <button 
+              type="button" 
+              class="flex items-center justify-between w-full text-xs font-bold text-zinc-500 hover:text-emerald-400 transition-colors uppercase tracking-wider focus:outline-none cursor-pointer py-1"
+              id="toggle-macro-chart"
+            >
+              <span>Macro Calorie Split</span>
+              <svg class="h-4 w-4 transform transition-transform duration-200 rotate-180" id="chevron-macro" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <div class="flex flex-col sm:flex-row items-center gap-4 mt-2 transition-all duration-300" id="macro-chart-container">
+              <div class="relative h-28 w-28 flex-shrink-0">
+                <canvas id="macro-donut-chart"></canvas>
+              </div>
+              <!-- Custom Legend -->
+              <div class="space-y-2 text-xs w-full">
+                <div class="flex justify-between items-center bg-zinc-950/40 px-2.5 py-1 rounded-lg border border-zinc-900/50">
+                  <span class="inline-flex items-center"><span class="w-2.5 h-2.5 rounded-full bg-emerald-400 mr-2"></span>Protein</span>
+                  <span class="font-extrabold text-zinc-300" id="legend-protein">0%</span>
+                </div>
+                <div class="flex justify-between items-center bg-zinc-950/40 px-2.5 py-1 rounded-lg border border-zinc-900/50">
+                  <span class="inline-flex items-center"><span class="w-2.5 h-2.5 rounded-full bg-blue-400 mr-2"></span>Carbs</span>
+                  <span class="font-extrabold text-zinc-300" id="legend-carbs">0%</span>
+                </div>
+                <div class="flex justify-between items-center bg-zinc-950/40 px-2.5 py-1 rounded-lg border border-zinc-900/50">
+                  <span class="inline-flex items-center"><span class="w-2.5 h-2.5 rounded-full bg-amber-400 mr-2"></span>Fat</span>
+                  <span class="font-extrabold text-zinc-300" id="legend-fat">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FDA-Style Nutrition Facts Label (Collapsible Accordion - Closed by default) -->
+          <div class="space-y-3 pt-1 border-b border-zinc-900 pb-4">
+            <button 
+              type="button" 
+              class="flex items-center justify-between w-full text-xs font-bold text-zinc-500 hover:text-emerald-400 transition-colors uppercase tracking-wider focus:outline-none cursor-pointer py-1"
+              id="toggle-fda-label"
+            >
+              <span>FDA Nutrition Facts</span>
+              <svg class="h-4 w-4 transform transition-transform duration-200" id="chevron-fda" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <div class="hidden mt-3 transition-all duration-300" id="fda-label-container">
+              <div class="bg-white text-zinc-950 p-4 border-[6px] border-black font-sans tracking-tight text-xs uppercase" id="fda-label">
+                <div class="text-2xl font-black tracking-tighter leading-none border-b-4 border-black pb-1 font-sans">Nutrition Facts</div>
+                <div class="border-b border-black py-0.5 font-bold text-[10px] flex justify-between font-sans">
+                  <span>Servings Per Meal</span>
+                  <span id="fda-servings">1</span>
+                </div>
+                <div class="flex justify-between items-baseline border-b-[5px] border-black py-1">
+                  <span class="font-extrabold text-[10px]">Amount Per Serving</span>
+                </div>
+                <div class="flex justify-between items-baseline border-b-4 border-black py-0.5">
+                  <span class="font-black text-lg">Calories</span>
+                  <span class="font-black text-xl" id="fda-calories">0</span>
+                </div>
+                <div class="text-right font-bold text-[9px] border-b border-black py-0.5 font-sans">% Daily Value *</div>
+                
+                <div class="flex justify-between border-b border-zinc-300 py-0.5 font-bold">
+                  <span>Total Fat <span class="font-normal" id="fda-fat">0g</span></span>
+                  <span id="fda-fat-dv">0%</span>
+                </div>
+                <div class="flex justify-between border-b border-zinc-300 py-0.5 font-bold">
+                  <span>Sodium <span class="font-normal" id="fda-sodium">0mg</span></span>
+                  <span id="fda-sodium-dv">0%</span>
+                </div>
+                <div class="flex justify-between border-b border-zinc-300 py-0.5 font-bold">
+                  <span>Total Carbohydrate <span class="font-normal" id="fda-carbs">0g</span></span>
+                  <span id="fda-carbs-dv">0%</span>
+                </div>
+                <!-- FDA Indented Dietary Fiber -->
+                <div class="flex justify-between border-b border-zinc-300 py-0.5 font-bold pl-3.5 font-sans">
+                  <span>Dietary Fiber <span class="font-normal" id="fda-fiber">0g</span></span>
+                  <span id="fda-fiber-dv">0%</span>
+                </div>
+                <div class="flex justify-between border-b-4 border-black py-0.5 font-bold">
+                  <span>Protein <span class="font-normal" id="fda-protein">0g</span></span>
+                  <span></span>
+                </div>
+                
+                <div class="text-[8px] text-zinc-500 normal-case leading-tight pt-1.5 font-sans">
+                  * The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Calorie Goal progress and target inputs -->
+          <div class="space-y-4 pt-1">
+            <div class="flex justify-between items-baseline">
+              <span class="text-sm font-semibold text-zinc-400">Total Calories</span>
+              <span class="text-2xl font-black text-amber-500" id="total-calories">0 cal</span>
+            </div>
+
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-[10px] text-zinc-500 uppercase font-bold">
+                <span>Calorie Target Progress</span>
+                <span id="calorie-goal-percent">0%</span>
+              </div>
+              <div class="w-full bg-zinc-900 rounded-full h-2 border border-zinc-800/60 overflow-hidden">
+                <div id="calorie-progress-bar" class="bg-gradient-to-r from-emerald-500 to-teal-500 h-full rounded-full transition-all duration-300" style="width: 0%;"></div>
+              </div>
+              <div class="flex justify-between items-center text-[10px] text-zinc-500 pt-1">
+                <span>Daily Target:</span>
+                <div class="flex items-center space-x-1">
+                  <input
+                    type="number"
+                    id="input-calorie-target"
+                    value="2000"
+                    class="w-14 bg-zinc-900 border border-zinc-800 rounded px-1.5 py-0.5 text-center font-bold text-zinc-300 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/30 text-[10px]"
+                  />
+                  <span>kcal</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Printable & Share Grid Actions -->
+            <div class="grid grid-cols-2 gap-3.5">
+              <button
+                type="button"
+                id="btn-copy-report"
+                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-855 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
+              >
+                <Clipboard class="h-3.5 w-3.5" />
+                <span id="copy-btn-text">Copy Report</span>
+              </button>
+              
+              <button
+                type="button"
+                id="btn-print-report"
+                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-855 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
+              >
+                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                  <path d="M6 14h12v8H6z" />
+                </svg>
+                <span>Print Label</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </aside>
+
+  <!-- Mobile Sticky Summary Drawer (Hidden on desktop) -->
+  <div 
+    class="fixed bottom-0 left-0 right-0 z-40 bg-zinc-950/95 backdrop-blur border-t border-zinc-800 p-4 flex items-center justify-between lg:hidden shadow-2xl transition-all duration-300 translate-y-full" 
+    id="mobile-calc-drawer-trigger"
+  >
+    <div class="flex items-center space-x-3">
+      <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl border border-emerald-500/20">
+        <Calculator class="h-5 w-5" />
+      </div>
+      <div>
+        <div class="text-[9px] text-zinc-500 uppercase font-bold tracking-wider">My Meal</div>
+        <div class="text-sm font-black text-white" id="mobile-total-calories">0 cal</div>
+      </div>
+    </div>
+    <button
+      type="button"
+      id="btn-open-mobile-calc"
+      class="px-4 py-2 bg-emerald-500 text-zinc-950 font-bold text-xs rounded-xl shadow-lg hover:bg-emerald-400 transition-colors"
+    >
+      View Calculator
+    </button>
+  </div>
 </div>
+
+<style>
+  @keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  
+  @media (max-width: 1023px) {
+    #meal-calculator-panel.mobile-open {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      max-height: 80vh;
+      overflow-y: auto;
+      border-radius: 24px 24px 0 0;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      background-color: rgb(9 9 11);
+      animation: slideUp 0.3s ease-out forwards;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #meal-calculator-panel {
+      max-height: calc(100vh - 130px);
+      overflow-y: auto;
+    }
+  }
+</style>
+
+<script>
+  import Chart from 'chart.js/auto';
+
+  interface MealItem {
+    qty: number;
+    portion: number;
+    calories: number;
+    protein: number;
+    carbs: number;
+    fat: number;
+    sodium: number;
+    fiber: number;
+    serving: string;
+    category: string;
+  }
+
+  interface SuggestionSwap {
+    baseItemName: string;
+    swapItem: {
+      name: string;
+      calories: number;
+      protein: number;
+      carbs: number;
+      fat: number;
+      sodium: number;
+      fiber: number;
+      servingSize?: string;
+    };
+  }
+
+  // State
+  let meal: Record<string, MealItem> = {};
+  let targetCalories = parseInt(localStorage.getItem('cal_target') || '2000');
+  let donutChart: Chart | null = null;
+  let currentSwapSuggestion: SuggestionSwap | null = null;
+
+  // DOM Elements
+  const calcPanel = document.getElementById('meal-calculator-panel')!;
+  const calcEmpty = document.getElementById('meal-calc-empty')!;
+  const calcActive = document.getElementById('meal-calc-active')!;
+  const clearBtn = document.getElementById('btn-clear-meal')!;
+  const itemsList = document.getElementById('meal-items-list')!;
+  const targetInput = document.getElementById('input-calorie-target') as HTMLInputElement | null;
+  const copyBtn = document.getElementById('btn-copy-report')!;
+  const copyBtnText = document.getElementById('copy-btn-text')!;
+  const printBtn = document.getElementById('btn-print-report')!;
+  
+  // Swap Elements
+  const swapsBox = document.getElementById('dietitian-swaps-box')!;
+  const swapTextEl = document.getElementById('dietitian-swap-text')!;
+  const applySwapBtn = document.getElementById('btn-apply-swap')!;
+  
+  const totalCaloriesEl = document.getElementById('total-calories')!;
+  const progressBar = document.getElementById('calorie-progress-bar')!;
+  const progressPercentEl = document.getElementById('calorie-goal-percent')!;
+
+  // Mobile elements
+  const mobileDrawer = document.getElementById('mobile-calc-drawer-trigger')!;
+  const mobileOpenBtn = document.getElementById('btn-open-mobile-calc')!;
+  const mobileCloseBtn = document.getElementById('btn-close-mobile-calc')!;
+  const mobileBackdrop = document.getElementById('mobile-calc-backdrop')!;
+  const mobileTotalCalsEl = document.getElementById('mobile-total-calories')!;
+
+  // FDA Label elements
+  const fdaServings = document.getElementById('fda-servings')!;
+  const fdaCalories = document.getElementById('fda-calories')!;
+  const fdaFat = document.getElementById('fda-fat')!;
+  const fdaFatDv = document.getElementById('fda-fat-dv')!;
+  const fdaSodium = document.getElementById('fda-sodium')!;
+  const fdaSodiumDv = document.getElementById('fda-sodium-dv')!;
+  const fdaCarbs = document.getElementById('fda-carbs')!;
+  const fdaCarbsDv = document.getElementById('fda-carbs-dv')!;
+  const fdaFiber = document.getElementById('fda-fiber')!;
+  const fdaFiberDv = document.getElementById('fda-fiber-dv')!;
+  const fdaProtein = document.getElementById('fda-protein')!;
+
+  // Initialize Donut Chart
+  function initChart() {
+    const canvas = document.getElementById('macro-donut-chart') as HTMLCanvasElement | null;
+    if (!canvas) return;
+
+    donutChart = new Chart(canvas, {
+      type: 'doughnut',
+      data: {
+        labels: ['Protein', 'Carbs', 'Fat'],
+        datasets: [{
+          data: [0, 0, 0],
+          backgroundColor: ['#34d399', '#60a5fa', '#fbbf24'],
+          borderWidth: 0,
+          hoverOffset: 4
+        }]
+      },
+      options: {
+        cutout: '72%',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (context) => {
+                const label = context.label || '';
+                const val = context.raw as number;
+                return ` ${label}: ${Math.round(val)} kcal`;
+              }
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // Update chart data
+  function updateChart(proteinCals: number, carbsCals: number, fatCals: number) {
+    const totalCals = proteinCals + carbsCals + fatCals;
+
+    // Update legend percent (always do this so user sees text values even if chart is loading)
+    const protLegend = document.getElementById('legend-protein')!;
+    const carbsLegend = document.getElementById('legend-carbs')!;
+    const fatLegend = document.getElementById('legend-fat')!;
+
+    if (totalCals > 0) {
+      protLegend.textContent = `${Math.round((proteinCals / totalCals) * 100)}%`;
+      carbsLegend.textContent = `${Math.round((carbsCals / totalCals) * 100)}%`;
+      fatLegend.textContent = `${Math.round((fatCals / totalCals) * 100)}%`;
+    } else {
+      protLegend.textContent = '0%';
+      carbsLegend.textContent = '0%';
+      fatLegend.textContent = '0%';
+    }
+
+    if (!donutChart) return;
+    
+    donutChart.data.datasets[0].data = [proteinCals, carbsCals, fatCals];
+    donutChart.update();
+  }
+
+  // Set initial target input value
+  if (targetInput) {
+    targetInput.value = targetCalories.toString();
+    targetInput.addEventListener('input', (e) => {
+      const val = parseInt((e.target as HTMLInputElement).value);
+      if (val && val > 0) {
+        targetCalories = val;
+        localStorage.setItem('cal_target', val.toString());
+        updateCalculatorUI();
+      }
+    });
+  }
+
+  // Clear meal event
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      meal = {};
+      
+      // Reset card UI
+      document.querySelectorAll('.menu-item-card').forEach((card) => {
+        card.classList.remove('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+      });
+      document.querySelectorAll('.item-qty-display').forEach((display) => {
+        display.textContent = '0';
+      });
+
+      updateCalculatorUI();
+      closeMobileModal();
+    });
+  }
+
+  // Mobile Drawer Toggle Actions
+  function openMobileModal() {
+    calcPanel.classList.add('mobile-open');
+    mobileBackdrop.classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Lock scrolling
+  }
+
+  function closeMobileModal() {
+    calcPanel.classList.remove('mobile-open');
+    mobileBackdrop.classList.add('hidden');
+    document.body.style.overflow = ''; // Unlock scrolling
+  }
+
+  if (mobileOpenBtn) mobileOpenBtn.addEventListener('click', openMobileModal);
+  if (mobileCloseBtn) mobileCloseBtn.addEventListener('click', closeMobileModal);
+  if (mobileBackdrop) mobileBackdrop.addEventListener('click', closeMobileModal);
+
+  // Copy report trigger
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const restName = calcPanel.dataset.restaurantName || 'Restaurant';
+      let reportText = `🍗 MY ${restName.toUpperCase()} NUTRITION REPORT\n`;
+      reportText += `-------------------------------------\n\n`;
+
+      Object.keys(meal).forEach((key) => {
+        const item = meal[key];
+        reportText += `[x${item.qty}] ${key} (${item.portion}x portion) - ${Math.round(item.calories * item.qty * item.portion)} cal\n`;
+      });
+
+      let totalCals = 0;
+      let totalProt = 0;
+      let totalCarbs = 0;
+      let totalFat = 0;
+      let totalSod = 0;
+      let totalFib = 0;
+
+      Object.values(meal).forEach((item) => {
+        const scale = item.qty * item.portion;
+        totalCals += item.calories * scale;
+        totalProt += item.protein * scale;
+        totalCarbs += item.carbs * scale;
+        totalFat += item.fat * scale;
+        totalSod += item.sodium * scale;
+        totalFib += item.fiber * scale;
+      });
+
+      reportText += `\n=====================================\n`;
+      reportText += `TOTAL MEAL SUMMARY:\n`;
+      reportText += `Calories:      ${Math.round(totalCals)} kcal\n`;
+      reportText += `Protein:       ${Math.round(totalProt * 10) / 10}g\n`;
+      reportText += `Carbohydrates: ${Math.round(totalCarbs * 10) / 10}g\n`;
+      reportText += `Fat:           ${Math.round(totalFat * 10) / 10}g\n`;
+      reportText += `Dietary Fiber: ${Math.round(totalFib * 10) / 10}g\n`;
+      reportText += `Sodium:        ${Math.round(totalSod)} mg\n`;
+      reportText += `-------------------------------------\n`;
+      reportText += `Calculated on NutriFlow\n`;
+
+      navigator.clipboard.writeText(reportText).then(() => {
+        copyBtnText.textContent = 'Copied!';
+        copyBtn.classList.remove('bg-zinc-900', 'border-zinc-855');
+        copyBtn.classList.add('bg-emerald-500/10', 'border-emerald-500/30', 'text-emerald-400');
+        
+        setTimeout(() => {
+          copyBtnText.textContent = 'Copy Report';
+          copyBtn.classList.remove('bg-emerald-500/10', 'border-emerald-500/30', 'text-emerald-400');
+          copyBtn.classList.add('bg-zinc-900', 'border-zinc-855');
+        }, 2000);
+      });
+    });
+  }
+
+  // Print report trigger
+  if (printBtn) {
+    printBtn.addEventListener('click', () => {
+      const restName = calcPanel.dataset.restaurantName || 'Restaurant';
+      const labelHtml = document.getElementById('fda-label')!.outerHTML;
+      
+      // Build printed items list
+      let itemsSummaryHtml = '';
+      Object.keys(meal).forEach((key) => {
+        const item = meal[key];
+        const scale = item.qty * item.portion;
+        itemsSummaryHtml += `
+          <div class="order-row">
+            <span class="order-name">${key} <span class="order-details">x${item.qty} (${item.portion}x size)</span></span>
+            <span class="order-calories">${Math.round(item.calories * scale)} Cal</span>
+          </div>
+        `;
+      });
+
+      const printWindow = window.open('', '_blank');
+      if (printWindow) {
+        printWindow.document.write(`
+          <html>
+            <head>
+              <title>FDA Nutrition Facts - ${restName}</title>
+              <style>
+                body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 30px; color: #000; background: #fff; }
+                .container { max-width: 350px; margin: 0 auto; }
+                h1 { font-size: 22px; font-weight: 900; margin-bottom: 2px; text-transform: uppercase; letter-spacing: -0.5px; }
+                p { font-size: 11px; color: #555; margin-top: 0; margin-bottom: 20px; }
+                .receipt { border-bottom: 2px dashed #000; padding-bottom: 12px; margin-bottom: 20px; }
+                .receipt-title { font-size: 11px; font-weight: 900; margin-top: 0; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+                .order-row { display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 6px; font-weight: bold; }
+                .order-name { display: flex; flex-direction: column; max-width: 75%; }
+                .order-details { font-weight: normal; color: #666; font-size: 9px; margin-top: 1px; }
+                .order-calories { font-weight: 900; text-align: right; }
+
+                /* Tailwind flex & grid mapping classes for FDA label rendering */
+                .flex { display: flex !important; }
+                .justify-between { justify-content: space-between !important; }
+                .items-baseline { align-items: baseline !important; }
+                .border-b { border-bottom: 1px solid #000 !important; }
+                .border-b-4 { border-bottom: 4px solid #000 !important; }
+                .border-b-\[5px\] { border-bottom: 5px solid #000 !important; }
+                .border-black { border-color: #000 !important; }
+                .border-zinc-300 { border-color: #ccc !important; }
+                .pl-3\.5 { padding-left: 14px !important; }
+                .py-0\.5 { padding-top: 2px !important; padding-bottom: 2px !important; }
+                .py-1 { padding-top: 4px !important; padding-bottom: 4px !important; }
+                .font-sans { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
+                .font-black { font-weight: 900 !important; }
+                .font-bold { font-weight: 700 !important; }
+                .font-extrabold { font-weight: 800 !important; }
+                .text-2xl { font-size: 26px !important; }
+                .text-xl { font-size: 22px !important; }
+                .text-lg { font-size: 16px !important; }
+                .text-\[10px\] { font-size: 10px !important; }
+                .text-\[9px\] { font-size: 9px !important; }
+                .text-\[8px\] { font-size: 8px !important; }
+                .normal-case { text-transform: none !important; }
+                .text-zinc-500 { color: #555 !important; }
+                .pb-1 { padding-bottom: 4px !important; }
+                .pt-1\.5 { padding-top: 6px !important; }
+                .leading-none { line-height: 1 !important; }
+                .leading-tight { line-height: 1.25 !important; }
+                .tracking-tighter { letter-spacing: -0.05em !important; }
+                .tracking-tight { letter-spacing: -0.025em !important; }
+                .bg-white { background-color: #fff !important; }
+                .text-zinc-950 { color: #000 !important; }
+                .p-4 { padding: 16px !important; }
+                .border-\[6px\] { border: 6px solid #000 !important; }
+                .uppercase { text-transform: uppercase !important; }
+                
+                #fda-label { box-sizing: border-box; width: 100%; }
+                #fda-label * { box-sizing: border-box; }
+              </style>
+            </head>
+            <body>
+              <div class="container">
+                <h1>${restName} Summary</h1>
+                <p>Nutritional calculations powered by NutriFlow</p>
+                
+                <div class="receipt">
+                  <h3 class="receipt-title">Items Ordered</h3>
+                  ${itemsSummaryHtml}
+                </div>
+                
+                <!-- Inject FDA Label exactly -->
+                ${labelHtml}
+              </div>
+              <script>
+                window.onload = function() {
+                  window.print();
+                  setTimeout(function() { window.close(); }, 500);
+                };
+              <\/script>
+            </body>
+          </html>
+        `);
+        printWindow.document.close();
+      }
+    });
+  }
+
+  // Dietitian Suggest Swaps Logic
+  function checkHealthySwaps() {
+    // If no global menu structure exists, skip
+    if (!(window as any).restaurantMenuData || Object.keys(meal).length === 0) {
+      swapsBox.classList.add('hidden');
+      currentSwapSuggestion = null;
+      return;
+    }
+
+    const categories = (window as any).restaurantMenuData.categories;
+    const addedItems = Object.keys(meal);
+    
+    // Scan items to find a swap suggestion candidate
+    for (const baseItemName of addedItems) {
+      const baseItem = meal[baseItemName];
+      
+      // Find the category block in menu data
+      const catBlock = categories.find((c: any) => c.name === baseItem.category);
+      if (!catBlock) continue;
+
+      let bestAlternative: any = null;
+      let maxCalSavings = 49; // Must save at least 50 calories
+
+      catBlock.items.forEach((altItem: any) => {
+        // Skip same item
+        if (altItem.name === baseItemName) return;
+        
+        // Nutritional constraints: Alt calories must be less than base item by at least 50kcal,
+        // and protein must not be significantly lower (no more than 5g drop)
+        if (altItem.calories < baseItem.calories - 50 && altItem.protein >= baseItem.protein - 5) {
+          const savings = baseItem.calories - altItem.calories;
+          if (savings > maxCalSavings) {
+            maxCalSavings = savings;
+            bestAlternative = altItem;
+          }
+        }
+      });
+
+      // If we found a swap, display it and stop scanning
+      if (bestAlternative) {
+        currentSwapSuggestion = {
+          baseItemName,
+          swapItem: bestAlternative
+        };
+
+        const totalSaved = Math.round(maxCalSavings * baseItem.qty * baseItem.portion);
+        swapTextEl.innerHTML = `Swap your <strong>${baseItemName}</strong> with a healthier alternative <strong>${bestAlternative.name}</strong> to save <strong>${totalSaved} calories</strong> and enjoy balanced macros!`;
+        swapsBox.classList.remove('hidden');
+        return;
+      }
+    }
+
+    // If no item qualifies, hide suggestion box
+    swapsBox.classList.add('hidden');
+    currentSwapSuggestion = null;
+  }
+
+  // Apply Swap event handler
+  if (applySwapBtn) {
+    applySwapBtn.addEventListener('click', () => {
+      if (!currentSwapSuggestion) return;
+
+      const { baseItemName, swapItem } = currentSwapSuggestion;
+      const baseItem = meal[baseItemName];
+      if (!baseItem) return;
+
+      // Copy quantitiy/portion configuration to alternative item
+      meal[swapItem.name] = {
+        qty: baseItem.qty,
+        portion: baseItem.portion,
+        calories: swapItem.calories,
+        protein: swapItem.protein,
+        carbs: swapItem.carbs,
+        fat: swapItem.fat,
+        sodium: swapItem.sodium,
+        fiber: swapItem.fiber,
+        serving: swapItem.servingSize || '',
+        category: baseItem.category
+      };
+
+      // Delete base item
+      delete meal[baseItemName];
+
+      // Update Menu Cards UI (counters and borders)
+      const baseCard = document.querySelector(`.menu-item-card[data-item-name-raw="${baseItemName}"]`);
+      if (baseCard) {
+        baseCard.classList.remove('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+        const counter = baseCard.querySelector('.item-qty-display');
+        if (counter) counter.textContent = '0';
+      }
+
+      const swapCard = document.querySelector(`.menu-item-card[data-item-name-raw="${swapItem.name}"]`);
+      if (swapCard) {
+        swapCard.classList.add('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+        const counter = swapCard.querySelector('.item-qty-display');
+        if (counter) counter.textContent = baseItem.qty.toString();
+      }
+
+      // Re-trigger calculator update
+      updateCalculatorUI();
+    });
+  }
+
+  function updateCalculatorUI() {
+    const mealKeys = Object.keys(meal);
+    
+    if (mealKeys.length === 0) {
+      calcEmpty.classList.remove('hidden');
+      calcActive.classList.add('hidden');
+      clearBtn.classList.add('hidden');
+      calcPanel.classList.remove('border-emerald-500/30');
+      calcPanel.classList.add('border-emerald-500/20');
+      
+      // Hide mobile bottom bar
+      if (mobileDrawer) mobileDrawer.classList.add('translate-y-full');
+      
+      // Hide suggestions
+      swapsBox.classList.add('hidden');
+      currentSwapSuggestion = null;
+      return;
+    }
+
+    calcEmpty.classList.add('hidden');
+    calcActive.classList.remove('hidden');
+    clearBtn.classList.remove('hidden');
+    calcPanel.classList.remove('border-emerald-500/20');
+    calcPanel.classList.add('border-emerald-500/30');
+
+    // Show mobile bottom bar
+    if (mobileDrawer) mobileDrawer.classList.remove('translate-y-full');
+
+    // Render list
+    itemsList.innerHTML = '';
+    
+    let totalCals = 0;
+    let totalProt = 0;
+    let totalCarbs = 0;
+    let totalFat = 0;
+    let totalSod = 0;
+    let totalFib = 0;
+    let totalItemsCount = 0;
+
+    mealKeys.forEach((key) => {
+      const item = meal[key];
+      const scale = item.qty * item.portion;
+      
+      totalCals += item.calories * scale;
+      totalProt += item.protein * scale;
+      totalCarbs += item.carbs * scale;
+      totalFat += item.fat * scale;
+      totalSod += item.sodium * scale;
+      totalFib += item.fiber * scale;
+      totalItemsCount += item.qty;
+
+      // Add row containing custom Portion size selector dropdown
+      const row = document.createElement('div');
+      row.className = 'flex flex-col gap-1.5 bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/50';
+      row.innerHTML = `
+        <div class="flex justify-between items-start">
+          <div class="space-y-0.5 max-w-[70%]">
+            <h5 class="text-xs font-bold text-white truncate">${key}</h5>
+            <p class="text-[10px] text-zinc-500">${item.serving ? item.serving + ' • ' : ''}${Math.round(item.calories * scale)} cal</p>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="text-[10px] font-black text-zinc-400 bg-zinc-900 px-2 py-1 rounded border border-zinc-800">x${item.qty}</span>
+            <button 
+              type="button" 
+              class="text-zinc-650 hover:text-red-400 p-0.5 rounded transition-colors remove-calc-row" 
+              data-item-name-raw="${key}"
+              aria-label="Remove item"
+            >
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 6h18M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-between items-center pt-1.5 border-t border-zinc-900/40">
+          <span class="text-[9px] uppercase tracking-wider text-zinc-500 font-bold">Portion Size</span>
+          <select 
+            class="item-portion-select bg-zinc-950 border border-zinc-855 rounded px-1.5 py-0.5 text-[9px] font-bold text-zinc-400 focus:outline-none focus:border-emerald-500/50"
+            data-item-name-raw="${key}"
+          >
+            <option value="0.5" ${item.portion === 0.5 ? 'selected' : ''}>0.5x (Half)</option>
+            <option value="1.0" ${item.portion === 1.0 ? 'selected' : ''}>1.0x (Normal)</option>
+            <option value="1.5" ${item.portion === 1.5 ? 'selected' : ''}>1.5x (Large)</option>
+            <option value="2.0" ${item.portion === 2.0 ? 'selected' : ''}>2.0x (Double)</option>
+          </select>
+        </div>
+      `;
+      itemsList.appendChild(row);
+    });
+
+    // Update main text displays
+    totalCaloriesEl.textContent = `${Math.round(totalCals)} cal`;
+
+    // Mobile drawer text
+    if (mobileTotalCalsEl) mobileTotalCalsEl.textContent = `${Math.round(totalCals)} cal`;
+
+    // FDA Label updates
+    if (fdaServings) fdaServings.textContent = totalItemsCount.toString();
+    if (fdaCalories) fdaCalories.textContent = Math.round(totalCals).toString();
+    
+    if (fdaFat) fdaFat.textContent = `${Math.round(totalFat * 10) / 10}g`;
+    if (fdaFatDv) fdaFatDv.textContent = `${Math.round((totalFat / 78) * 100)}%`;
+    
+    if (fdaSodium) fdaSodium.textContent = `${Math.round(totalSod)}mg`;
+    if (fdaSodiumDv) fdaSodiumDv.textContent = `${Math.round((totalSod / 2300) * 100)}%`;
+    
+    if (fdaCarbs) fdaCarbs.textContent = `${Math.round(totalCarbs * 10) / 10}g`;
+    if (fdaCarbsDv) fdaCarbsDv.textContent = `${Math.round((totalCarbs / 275) * 100)}%`;
+    
+    if (fdaFiber) fdaFiber.textContent = `${Math.round(totalFib * 10) / 10}g`;
+    if (fdaFiberDv) fdaFiberDv.textContent = `${Math.round((totalFib / 28) * 100)}%`;
+    
+    if (fdaProtein) fdaProtein.textContent = `${Math.round(totalProt * 10) / 10}g`;
+
+    // Update Donut Chart
+    const proteinCals = totalProt * 4;
+    const carbsCals = totalCarbs * 4;
+    const fatCals = totalFat * 9;
+    updateChart(proteinCals, carbsCals, fatCals);
+
+    // Progress bar calculations
+    const percent = Math.min(Math.round((totalCals / targetCalories) * 100), 500);
+    progressPercentEl.textContent = `${percent}%`;
+    progressBar.style.width = `${Math.min(percent, 100)}%`;
+
+    // Color code progress bar
+    progressBar.className = 'h-full rounded-full transition-all duration-300 bg-gradient-to-r ';
+    if (percent <= 50) {
+      progressBar.className += 'from-emerald-500 to-teal-500';
+    } else if (percent <= 100) {
+      progressBar.className += 'from-amber-500 to-orange-500';
+    } else {
+      progressBar.className += 'from-red-500 to-rose-600';
+    }
+
+    // Attach row delete triggers
+    document.querySelectorAll('.remove-calc-row').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const key = (btn as HTMLElement).dataset.itemNameRaw!;
+        if (meal[key]) {
+          delete meal[key];
+          
+          // Reset card UI
+          const card = document.querySelector(`.menu-item-card[data-item-name-raw="${key}"]`);
+          if (card) {
+            card.classList.remove('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+          }
+          const display = document.querySelector(`.item-qty-display[data-item-name-raw="${key}"]`);
+          if (display) {
+            display.textContent = '0';
+          }
+
+          updateCalculatorUI();
+        }
+      });
+    });
+
+    // Attach Portion dropdown events
+    document.querySelectorAll('.item-portion-select').forEach((select) => {
+      select.addEventListener('change', (e) => {
+        const target = e.target as HTMLSelectElement;
+        const key = target.dataset.itemNameRaw!;
+        const val = parseFloat(target.value);
+        if (meal[key]) {
+          meal[key].portion = val;
+          updateCalculatorUI();
+        }
+      });
+    });
+
+    // Scan dietitian swaps
+    checkHealthySwaps();
+  }
+
+  // Setup Event Delegation for grid increment/decrement
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    const decBtn = target.closest('.btn-decrement') as HTMLButtonElement | null;
+    const incBtn = target.closest('.btn-increment') as HTMLButtonElement | null;
+    
+    if (decBtn) {
+      const rawName = decBtn.dataset.itemNameRaw!;
+      const card = decBtn.closest('.menu-item-card') as HTMLElement;
+      const qtyDisplay = card.querySelector('.item-qty-display')!;
+      
+      if (meal[rawName]) {
+        meal[rawName].qty--;
+        if (meal[rawName].qty <= 0) {
+          delete meal[rawName];
+          card.classList.remove('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+          qtyDisplay.textContent = '0';
+        } else {
+          qtyDisplay.textContent = meal[rawName].qty.toString();
+        }
+        updateCalculatorUI();
+      }
+    }
+    
+    if (incBtn) {
+      const rawName = incBtn.dataset.itemNameRaw!;
+      const card = incBtn.closest('.menu-item-card') as HTMLElement;
+      const qtyDisplay = card.querySelector('.item-qty-display')!;
+      
+      if (!meal[rawName]) {
+        meal[rawName] = {
+          qty: 1,
+          portion: 1.0,
+          calories: parseFloat(card.dataset.itemCalories || '0'),
+          protein: parseFloat(card.dataset.itemProtein || '0'),
+          carbs: parseFloat(card.dataset.itemCarbs || '0'),
+          fat: parseFloat(card.dataset.itemFat || '0'),
+          sodium: parseFloat(card.dataset.itemSodium || '0'),
+          fiber: parseFloat(card.dataset.itemFiber || '0'),
+          serving: card.dataset.itemServing || '',
+          category: card.dataset.itemCategory || ''
+        };
+        card.classList.add('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+      } else {
+        meal[rawName].qty++;
+      }
+      qtyDisplay.textContent = meal[rawName].qty.toString();
+      updateCalculatorUI();
+    }
+  });
+
+  // Toggle Macro Chart Accordion
+  const toggleMacroBtn = document.getElementById('toggle-macro-chart');
+  const macroContainer = document.getElementById('macro-chart-container');
+  const chevronMacro = document.getElementById('chevron-macro');
+
+  if (toggleMacroBtn && macroContainer && chevronMacro) {
+    toggleMacroBtn.addEventListener('click', () => {
+      const isHidden = macroContainer.classList.contains('hidden');
+      if (isHidden) {
+        macroContainer.classList.remove('hidden');
+        macroContainer.classList.add('flex');
+        chevronMacro.classList.add('rotate-180');
+      } else {
+        macroContainer.classList.add('hidden');
+        macroContainer.classList.remove('flex');
+        chevronMacro.classList.remove('rotate-180');
+      }
+    });
+  }
+
+  // Toggle FDA Label Accordion
+  const toggleFdaBtn = document.getElementById('toggle-fda-label');
+  const fdaContainer = document.getElementById('fda-label-container');
+  const chevronFda = document.getElementById('chevron-fda');
+
+  if (toggleFdaBtn && fdaContainer && chevronFda) {
+    toggleFdaBtn.addEventListener('click', () => {
+      const isHidden = fdaContainer.classList.contains('hidden');
+      if (isHidden) {
+        fdaContainer.classList.remove('hidden');
+        chevronFda.classList.add('rotate-180');
+      } else {
+        fdaContainer.classList.add('hidden');
+        chevronFda.classList.remove('rotate-180');
+      }
+    });
+  }
+
+  // On DOM Load (robust initialization)
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      initChart();
+    });
+  } else {
+    initChart();
+  }
+</script>

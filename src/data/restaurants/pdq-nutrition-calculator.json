@@ -1,0 +1,432 @@
+{
+  "slug": "pdq-nutrition-calculator",
+  "title": "🍗 PDQ Nutrition Calculator",
+  "description": "Check calories, protein, carbs and fat for PDQ chicken tenders, sandwiches, salads and sides.",
+  "categories": [
+    {
+      "name": "Tenders",
+      "items": [
+        {
+          "name": "Grilled Chicken Tenders, 2 ct",
+          "calories": 90,
+          "protein": 20,
+          "carbs": 0,
+          "fat": 1,
+          "fiber": 0,
+          "sodium": 570,
+          "cholesterol": 60,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Chicken Tenders, 3 ct",
+          "calories": 130,
+          "protein": 30,
+          "carbs": 0,
+          "fat": 1,
+          "fiber": 0,
+          "sodium": 850,
+          "cholesterol": 90,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Chicken Tenders, 4 ct",
+          "calories": 170,
+          "protein": 39,
+          "carbs": 0,
+          "fat": 1.5,
+          "fiber": 0,
+          "sodium": 1130,
+          "cholesterol": 120,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Chicken Tenders, 5 ct",
+          "calories": 210,
+          "protein": 49,
+          "carbs": 0,
+          "fat": 2,
+          "fiber": 0,
+          "sodium": 1420,
+          "cholesterol": 150,
+          "saturated_fat": 0.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hand-Breaded Crispy Chicken Tenders, 2 ct",
+          "calories": 210,
+          "protein": 20,
+          "carbs": 12,
+          "fat": 10,
+          "fiber": 0,
+          "sodium": 290,
+          "cholesterol": 50,
+          "saturated_fat": 1.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hand-Breaded Crispy Chicken Tenders, 3 ct",
+          "calories": 320,
+          "protein": 31,
+          "carbs": 17,
+          "fat": 14,
+          "fiber": 0,
+          "sodium": 440,
+          "cholesterol": 80,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hand-Breaded Crispy Chicken Tenders, 4 ct",
+          "calories": 430,
+          "protein": 41,
+          "carbs": 23,
+          "fat": 19,
+          "fiber": 0,
+          "sodium": 590,
+          "cholesterol": 105,
+          "saturated_fat": 3,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hand-Breaded Crispy Chicken Tenders, 5 ct",
+          "calories": 540,
+          "protein": 51,
+          "carbs": 29,
+          "fat": 24,
+          "fiber": 0,
+          "sodium": 740,
+          "cholesterol": 130,
+          "saturated_fat": 4,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Buffy Bleu Sandwich",
+          "calories": 440,
+          "protein": 29,
+          "carbs": 39,
+          "fat": 18,
+          "fiber": 0,
+          "sodium": 900,
+          "cholesterol": 60,
+          "saturated_fat": 3.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Crispy Chicken Sandwich",
+          "calories": 490,
+          "protein": 35,
+          "carbs": 37,
+          "fat": 22,
+          "fiber": 0,
+          "sodium": 1210,
+          "cholesterol": 80,
+          "saturated_fat": 4,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 290,
+          "protein": 34,
+          "carbs": 29,
+          "fat": 5,
+          "fiber": 0,
+          "sodium": 910,
+          "cholesterol": 95,
+          "saturated_fat": 1.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Honey Butter Chicken Sandwich",
+          "calories": 660,
+          "protein": 35,
+          "carbs": 68,
+          "fat": 29,
+          "fiber": 0,
+          "sodium": 1350,
+          "cholesterol": 125,
+          "saturated_fat": 13,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Mediterranean Salad",
+          "calories": 460,
+          "protein": 33,
+          "carbs": 26,
+          "fat": 26,
+          "fiber": 0,
+          "sodium": 1680,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "PDQ Salad, Crispy",
+          "calories": 380,
+          "protein": 30,
+          "carbs": 23,
+          "fat": 19,
+          "fiber": 0,
+          "sodium": 520,
+          "cholesterol": 75,
+          "saturated_fat": 8,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "PDQ Salad, Grilled",
+          "calories": 270,
+          "protein": 34,
+          "carbs": 11,
+          "fat": 11,
+          "fiber": 0,
+          "sodium": 940,
+          "cholesterol": 100,
+          "saturated_fat": 6,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Waffle Fries",
+          "calories": 360,
+          "protein": 5,
+          "carbs": 46,
+          "fat": 17,
+          "fiber": 0,
+          "sodium": 330,
+          "cholesterol": 0,
+          "saturated_fat": 3,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Broccoli",
+          "calories": 100,
+          "protein": 5,
+          "carbs": 8,
+          "fat": 7,
+          "fiber": 0,
+          "sodium": 560,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Applesauce",
+          "calories": 45,
+          "protein": 0,
+          "carbs": 12,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Shakes",
+      "items": [
+        {
+          "name": "Vanilla Shake, 14 oz",
+          "calories": 470,
+          "protein": 9,
+          "carbs": 50,
+          "fat": 25,
+          "fiber": 0,
+          "sodium": 190,
+          "cholesterol": 75,
+          "saturated_fat": 16,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chocolate Shake, 14 oz",
+          "calories": 1220,
+          "protein": 13,
+          "carbs": 173,
+          "fat": 47,
+          "fiber": 0,
+          "sodium": 620,
+          "cholesterol": 65,
+          "saturated_fat": 36,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Oreo Shake, 14 oz",
+          "calories": 610,
+          "protein": 9,
+          "carbs": 72,
+          "fat": 32,
+          "fiber": 0,
+          "sodium": 360,
+          "cholesterol": 70,
+          "saturated_fat": 17,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Buffalo Bleu",
+          "calories": 90,
+          "protein": 1,
+          "carbs": 2,
+          "fat": 8,
+          "fiber": 0,
+          "sodium": 590,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 80,
+          "protein": 0,
+          "carbs": 21,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 360,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Honey Mustard",
+          "calories": 150,
+          "protein": 0,
+          "carbs": 5,
+          "fat": 15,
+          "fiber": 0,
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "PDQ Sauce",
+          "calories": 150,
+          "protein": 1,
+          "carbs": 2,
+          "fat": 15,
+          "fiber": 0,
+          "sodium": 210,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Ranch",
+          "calories": 120,
+          "protein": 1,
+          "carbs": 2,
+          "fat": 12,
+          "fiber": 0,
+          "sodium": 240,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Sweet Sriracha",
+          "calories": 160,
+          "protein": 0,
+          "carbs": 4,
+          "fat": 16,
+          "fiber": 0,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Cheerwine",
+          "calories": 150,
+          "protein": 0,
+          "carbs": 42,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 25,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Lemonade, 20 fl oz",
+          "calories": 240,
+          "protein": 0,
+          "carbs": 64,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Sweet Tea, 20 fl oz",
+          "calories": 120,
+          "protein": 0,
+          "carbs": 32,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 15,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

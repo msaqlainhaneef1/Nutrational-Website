@@ -1,0 +1,30 @@
+{
+  "slug": "raising-canes-calculator",
+  "title": "🍗 Raising Cane's Nutrition Calculator",
+  "description": "Build your Raising Cane's order and calculate calories, protein, carbs and fat for chicken finger combos, sides, sauces and drinks.",
+  "categories": [
+    {"name": "Combos", "items": [
+      {"name": "Box Combo (4 fingers)", "calories": 1250, "protein": 61, "carbs": 97, "fat": 68, "fiber": 12, "sodium": 2130, "cholesterol": 170, "saturated_fat": 11},
+      {"name": "3 Finger Combo", "calories": 1110, "protein": 48, "carbs": 89, "fat": 58, "fiber": 10, "sodium": 1830, "cholesterol": 130, "saturated_fat": 9},
+      {"name": "Caniac Combo (6 fingers)", "calories": 1790, "protein": 89, "carbs": 124, "fat": 104, "fiber": 15, "sodium": 3160, "cholesterol": 255, "saturated_fat": 16},
+      {"name": "Kids Combo (2 fingers)", "calories": 750, "protein": 27, "carbs": 62, "fat": 42, "fiber": 6, "sodium": 1190, "cholesterol": 75, "saturated_fat": 6}
+    ]},
+    {"name": "Chicken Fingers", "items": [
+      {"name": "Chicken Finger (1 pc)", "calories": 130, "protein": 11, "carbs": 7, "fat": 7, "fiber": 0, "sodium": 380, "cholesterol": 30, "saturated_fat": 1},
+      {"name": "3 Chicken Fingers", "calories": 390, "protein": 33, "carbs": 21, "fat": 20, "fiber": 0, "sodium": 1140, "cholesterol": 90, "saturated_fat": 4},
+      {"name": "Chicken Sandwich", "calories": 730, "protein": 35, "carbs": 56, "fat": 39, "fiber": 3, "sodium": 1450, "cholesterol": 110, "saturated_fat": 7}
+    ]},
+    {"name": "Sides", "items": [
+      {"name": "Crinkle-Cut Fries", "calories": 420, "protein": 6, "carbs": 53, "fat": 21, "fiber": 5, "sodium": 800},
+      {"name": "Texas Toast", "calories": 150, "protein": 4, "carbs": 19, "fat": 7, "fiber": 1, "sodium": 290, "saturated_fat": 2},
+      {"name": "Coleslaw", "calories": 170, "protein": 1, "carbs": 14, "fat": 12, "fiber": 2, "sodium": 190, "sugars": 11}
+    ]},
+    {"name": "Sauces & Drinks", "items": [
+      {"name": "Cane's Sauce", "calories": 190, "protein": 0, "carbs": 5, "fat": 19, "fiber": 0, "sodium": 320},
+      {"name": "Honey Mustard", "calories": 150, "protein": 0, "carbs": 8, "fat": 13, "fiber": 0, "sodium": 250},
+      {"name": "Sweet Tea (22 oz)", "calories": 220, "protein": 0, "carbs": 57, "fat": 0, "fiber": 0, "sodium": 20, "sugars": 56},
+      {"name": "Lemonade (22 oz)", "calories": 250, "protein": 0, "carbs": 64, "fat": 0, "fiber": 0, "sodium": 30, "sugars": 62},
+      {"name": "Unsweet Tea (22 oz)", "calories": 5, "protein": 0, "carbs": 1, "fat": 0, "fiber": 0, "sodium": 15}
+    ]}
+  ]
+}

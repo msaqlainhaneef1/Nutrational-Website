@@ -1,6 +1,6 @@
 ---
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
-import { ArrowRight, Utensils } from '@lucide/astro';
+import { ArrowRight, Utensils, Search, CircleAlert } from '@lucide/astro';
 
 interface Props {
   restaurants: any[];
@@ -12,17 +12,36 @@ const { restaurants } = Astro.props;
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
   <Breadcrumb items={[{ label: 'Restaurants', url: '/restaurants' }]} />
 
-  <div class="space-y-3">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Restaurant Nutrition Database</h1>
-    <p class="text-zinc-400 text-sm max-w-2xl">
-      Select a restaurant to browse their full menu, view exact calories, search individual dishes, and find healthy meals.
-    </p>
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-zinc-900 pb-6">
+    <div class="space-y-2">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Restaurant Nutrition Database</h1>
+      <p class="text-zinc-400 text-sm max-w-2xl">
+        Select a restaurant to browse their full menu, view exact calories, search individual dishes, and find healthy meals.
+      </p>
+    </div>
+
+    <!-- Live Search Input Widget -->
+    <div class="relative w-full md:max-w-xs flex-shrink-0">
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-500">
+        <Search class="h-4 w-4" />
+      </div>
+      <input
+        type="text"
+        id="restaurant-search-input"
+        placeholder={`Search ${restaurants.length} restaurants...`}
+        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
+      />
+    </div>
   </div>
 
   <!-- Restaurants grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4" id="restaurants-grid">
     {restaurants.map((res) => (
-      <a href={`/restaurants/${res.slug}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex items-center justify-between group">
+      <a 
+        href={`/restaurants/${res.slug}`} 
+        class="restaurant-card glass-card rounded-3xl p-6 border border-zinc-800/80 flex items-center justify-between group transition-all duration-300 hover:border-emerald-500/20"
+        data-restaurant-name={res.name.toLowerCase()}
+      >
         <div class="space-y-2">
           <div class="flex items-center space-x-2">
             <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-xl border border-emerald-500/20">
@@ -30,7 +49,7 @@ const { restaurants } = Astro.props;
             </div>
             <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors">{res.name}</h2>
           </div>
-          <p class="text-zinc-400 text-sm leading-relaxed max-w-md">{res.description}</p>
+          <p class="text-zinc-400 text-sm leading-relaxed max-w-md line-clamp-2">{res.description || `Browse nutritional information and calculate calories for ${res.name} menu items.`}</p>
         </div>
         
         <div class="p-3 bg-zinc-900 border border-zinc-800 rounded-2xl group-hover:border-emerald-500/30 group-hover:bg-emerald-500/5 transition-all text-zinc-400 group-hover:text-emerald-400">
@@ -39,4 +58,40 @@ const { restaurants } = Astro.props;
       </a>
     ))}
   </div>
+
+  <!-- Empty State Widget -->
+  <div id="restaurants-empty-state" class="hidden text-center py-16 glass-card rounded-3xl border border-zinc-900">
+    <CircleAlert class="h-10 w-10 text-zinc-600 mx-auto mb-3" />
+    <h3 class="font-bold text-zinc-300">No restaurants found</h3>
+    <p class="text-sm text-zinc-500 mt-1">Try modifying your search queries.</p>
+  </div>
 </div>
+
+<script is:inline>
+  const searchInput = document.getElementById('restaurant-search-input');
+  const cards = document.querySelectorAll('.restaurant-card');
+  const emptyState = document.getElementById('restaurants-empty-state');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const name = card.dataset.restaurantName;
+        if (name.includes(query)) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (visibleCount === 0) {
+        emptyState.classList.remove('hidden');
+      } else {
+        emptyState.classList.add('hidden');
+      }
+    });
+  }
+</script>

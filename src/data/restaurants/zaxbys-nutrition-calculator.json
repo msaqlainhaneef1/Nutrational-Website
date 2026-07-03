@@ -1,0 +1,300 @@
+{
+  "slug": "zaxbys-nutrition-calculator",
+  "title": "🍗 Zaxby's Nutrition Calculator",
+  "description": "Check calories, protein, carbs and fat for Zaxby's chicken fingers, wings, salads and Zalads.",
+  "categories": [
+    {
+      "name": "Zalads",
+      "items": [
+        {
+          "name": "Fried Asian Zensation Zalad",
+          "calories": 640,
+          "protein": 35,
+          "carbs": 62,
+          "fat": 29,
+          "fiber": 6,
+          "sodium": 2160,
+          "cholesterol": 55,
+          "saturated_fat": 4.5,
+          "sugars": 18,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fried Blue Zalad",
+          "calories": 680,
+          "protein": 39,
+          "carbs": 43,
+          "fat": 39,
+          "fiber": 4,
+          "sodium": 2890,
+          "cholesterol": 80,
+          "saturated_fat": 12,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fried Cobb Zalad",
+          "calories": 780,
+          "protein": 55,
+          "carbs": 43,
+          "fat": 45,
+          "fiber": 4,
+          "sodium": 2130,
+          "cholesterol": 315,
+          "saturated_fat": 16,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fried House Zalad",
+          "calories": 660,
+          "protein": 44,
+          "carbs": 42,
+          "fat": 37,
+          "fiber": 4,
+          "sodium": 1920,
+          "cholesterol": 90,
+          "saturated_fat": 13,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Asian Zensation Zalad",
+          "calories": 530,
+          "protein": 39,
+          "carbs": 54,
+          "fat": 19,
+          "fiber": 7,
+          "sodium": 1850,
+          "cholesterol": 95,
+          "saturated_fat": 3.5,
+          "sugars": 18,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Blue Zalad",
+          "calories": 510,
+          "protein": 43,
+          "carbs": 34,
+          "fat": 24,
+          "fiber": 4,
+          "sodium": 1760,
+          "cholesterol": 115,
+          "saturated_fat": 10,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Cobb Zalad",
+          "calories": 680,
+          "protein": 58,
+          "carbs": 35,
+          "fat": 35,
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 355,
+          "saturated_fat": 14,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled House Zalad",
+          "calories": 560,
+          "protein": 48,
+          "carbs": 34,
+          "fat": 27,
+          "fiber": 5,
+          "sodium": 1600,
+          "cholesterol": 130,
+          "saturated_fat": 12,
+          "sugars": 5,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Grilled Chicken Sandwich Only",
+          "calories": 470,
+          "protein": 38,
+          "carbs": 35,
+          "fat": 20,
+          "fiber": 3,
+          "sodium": 1440,
+          "cholesterol": 100,
+          "saturated_fat": 3.5,
+          "sugars": 8,
+          "trans_fat": 0
+        },
+        {
+          "name": "Kickin’ Chicken Sandwich Only",
+          "calories": 690,
+          "protein": 34,
+          "carbs": 51,
+          "fat": 39,
+          "fiber": 2,
+          "sodium": 2760,
+          "cholesterol": 65,
+          "saturated_fat": 6,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Nibblerz Only",
+          "calories": 960,
+          "protein": 38,
+          "carbs": 76,
+          "fat": 56,
+          "fiber": 4,
+          "sodium": 2710,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 16,
+          "trans_fat": 0
+        },
+        {
+          "name": "Signature Sandwich Only with Spicy Zax Sauce",
+          "calories": 590,
+          "protein": 31,
+          "carbs": 45,
+          "fat": 31,
+          "fiber": 2,
+          "sodium": 2260,
+          "cholesterol": 70,
+          "saturated_fat": 5,
+          "sugars": 8,
+          "trans_fat": 0
+        },
+        {
+          "name": "Signature Sandwich Only with Zax Sauce",
+          "calories": 600,
+          "protein": 31,
+          "carbs": 45,
+          "fat": 32,
+          "fiber": 2,
+          "sodium": 2200,
+          "cholesterol": 75,
+          "saturated_fat": 5,
+          "sugars": 8,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Crinkle Fries, Regular",
+          "calories": 330,
+          "protein": 5,
+          "carbs": 47,
+          "fat": 14,
+          "fiber": 5,
+          "sodium": 580,
+          "cholesterol": 0,
+          "saturated_fat": 2,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fried Pickles",
+          "calories": 470,
+          "protein": 5,
+          "carbs": 42,
+          "fat": 31,
+          "fiber": 3,
+          "sodium": 2150,
+          "cholesterol": 0,
+          "saturated_fat": 4.5,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fried White Cheddar Bites",
+          "calories": 700,
+          "protein": 27,
+          "carbs": 46,
+          "fat": 46,
+          "fiber": 3,
+          "sodium": 1550,
+          "cholesterol": 75,
+          "saturated_fat": 21,
+          "sugars": 2,
+          "trans_fat": 1
+        },
+        {
+          "name": "Texas Toast, 1 slice",
+          "calories": 150,
+          "protein": 3,
+          "carbs": 19,
+          "fat": 7,
+          "fiber": 1,
+          "sodium": 340,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 2,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Zax Sauce Dip Cup",
+          "calories": 150,
+          "protein": 0,
+          "carbs": 4,
+          "fat": 15,
+          "fiber": 0,
+          "sodium": 510,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 3,
+          "trans_fat": 0
+        },
+        {
+          "name": "Spicy Zax Sauce Dip Cup",
+          "calories": 170,
+          "protein": 1,
+          "carbs": 5,
+          "fat": 16,
+          "fiber": 0,
+          "sodium": 720,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Ranch Sauce Dip Cup",
+          "calories": 150,
+          "protein": 1,
+          "carbs": 2,
+          "fat": 16,
+          "fiber": 0,
+          "sodium": 290,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "BBQ Dip Cup",
+          "calories": 60,
+          "protein": 0,
+          "carbs": 15,
+          "fat": 0,
+          "fiber": 1,
+          "sodium": 480,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 11,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

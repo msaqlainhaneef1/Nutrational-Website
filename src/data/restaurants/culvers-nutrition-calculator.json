@@ -1,0 +1,201 @@
+{
+  "slug": "culvers-nutrition-calculator",
+  "title": "🍔 Culver's Nutrition Calculator",
+  "description": "Track calories and macros for Culver's ButterBurgers, custard, sides and more with this free nutrition calculator.",
+  "categories": [
+    {
+      "name": "ButterBurgers",
+      "items": [
+        {
+          "name": "ButterBurger Single",
+          "calories": 390,
+          "protein": 20,
+          "carbs": 38,
+          "fat": 17,
+          "fiber": 1,
+          "sodium": 480,
+          "cholesterol": 55,
+          "saturated_fat": 7,
+          "sugars": 7,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "ButterBurger Double",
+          "calories": 560,
+          "protein": 34,
+          "carbs": 38,
+          "fat": 30,
+          "fiber": 1,
+          "sodium": 580,
+          "cholesterol": 105,
+          "saturated_fat": 12,
+          "sugars": 6,
+          "trans_fat": 1
+        },
+        {
+          "name": "ButterBurger Triple",
+          "calories": 730,
+          "protein": 48,
+          "carbs": 38,
+          "fat": 43,
+          "fiber": 1,
+          "sodium": 680,
+          "cholesterol": 155,
+          "saturated_fat": 17,
+          "sugars": 6,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "ButterBurger Cheese Single",
+          "calories": 460,
+          "protein": 24,
+          "carbs": 39,
+          "fat": 23,
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 75,
+          "saturated_fat": 11,
+          "sugars": 7,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "The Culver's Deluxe Single",
+          "calories": 580,
+          "protein": 24,
+          "carbs": 41,
+          "fat": 34,
+          "fiber": 1,
+          "sodium": 920,
+          "cholesterol": 85,
+          "saturated_fat": 13,
+          "sugars": 7,
+          "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Original Chicken Tenders (4 Piece)",
+          "calories": 540,
+          "protein": 39,
+          "carbs": 41,
+          "fat": 24,
+          "fiber": 2,
+          "sodium": 1560,
+          "cholesterol": 80,
+          "saturated_fat": 2.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Crispy Chicken Sandwich",
+          "calories": 600,
+          "protein": 28,
+          "carbs": 65,
+          "fat": 35,
+          "fiber": 2,
+          "sodium": 1580,
+          "cholesterol": 75,
+          "saturated_fat": 8,
+          "sugars": 9,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 400,
+          "protein": 36,
+          "carbs": 40,
+          "fat": 10,
+          "fiber": 2,
+          "sodium": 1340,
+          "cholesterol": 115,
+          "saturated_fat": 2.5,
+          "sugars": 6,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Crinkle Cut Fries (Medium)",
+          "calories": 353,
+          "protein": 4,
+          "carbs": 53,
+          "fat": 14,
+          "fiber": 4,
+          "sodium": 650,
+          "cholesterol": 0,
+          "saturated_fat": 1.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Wisconsin Cheese Curds (Medium)",
+          "calories": 490,
+          "protein": 17,
+          "carbs": 46,
+          "fat": 27,
+          "fiber": 3,
+          "sodium": 1520,
+          "cholesterol": 35,
+          "saturated_fat": 12,
+          "sugars": 4,
+          "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Fresh Frozen Custard",
+      "items": [
+        {
+          "name": "Vanilla Custard (1 Scoop Dish)",
+          "calories": 310,
+          "protein": 6,
+          "carbs": 31,
+          "fat": 19,
+          "fiber": 2,
+          "sodium": 85,
+          "cholesterol": 115,
+          "saturated_fat": 11,
+          "sugars": 27,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Chocolate Custard (1 Scoop Dish)",
+          "calories": 290,
+          "protein": 6,
+          "carbs": 36,
+          "fat": 14,
+          "fiber": 1,
+          "sodium": 130,
+          "cholesterol": 100,
+          "saturated_fat": 9,
+          "sugars": 30,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Culver's Root Beer (Medium)",
+          "calories": 300,
+          "protein": 0,
+          "carbs": 81,
+          "fat": 0,
+          "fiber": 0,
+          "sodium": 150,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 80,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

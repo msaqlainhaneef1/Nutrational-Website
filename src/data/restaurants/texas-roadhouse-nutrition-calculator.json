@@ -1,0 +1,471 @@
+{
+  "slug": "texas-roadhouse-nutrition-calculator",
+  "title": "🥩 Texas Roadhouse Nutrition Calculator",
+  "description": "Build your Texas Roadhouse meal and track calories, protein, carbs and fat for steaks, ribs, sides and starters.",
+  "categories": [
+    {
+      "name": "Just for Starters",
+      "items": [
+        {
+          "name": "Baked Potato Soup - Bowl",
+          "calories": 380,
+          "protein": 9,
+          "carbs": 27,
+          "fat": 25,
+          "fiber": 2,
+          "sodium": 910,
+          "cholesterol": 50,
+          "saturated_fat": 12,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Boneless Buffalo Wings - Hot",
+          "calories": 760,
+          "protein": 60,
+          "carbs": 37,
+          "fat": 42,
+          "fiber": 12,
+          "sodium": 2130,
+          "cholesterol": 145,
+          "saturated_fat": 11,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Cactus Blossom",
+          "calories": 2250,
+          "protein": 25,
+          "carbs": 236,
+          "fat": 135,
+          "fiber": 19,
+          "sodium": 5000,
+          "cholesterol": 15,
+          "saturated_fat": 26,
+          "sugars": 36,
+          "trans_fat": 0
+        },
+        {
+          "name": "Cheese Fries - Regular",
+          "calories": 1240,
+          "protein": 38,
+          "carbs": 126,
+          "fat": 65,
+          "fiber": 14,
+          "sodium": 5400,
+          "cholesterol": 110,
+          "saturated_fat": 25,
+          "sugars": 2,
+          "trans_fat": 1
+        },
+        {
+          "name": "Fried Pickles",
+          "calories": 550,
+          "protein": 6,
+          "carbs": 48,
+          "fat": 38,
+          "fiber": 5,
+          "sodium": 2580,
+          "cholesterol": 0,
+          "saturated_fat": 7,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Killer Ribs",
+          "calories": 910,
+          "protein": 49,
+          "carbs": 59,
+          "fat": 53,
+          "fiber": 8,
+          "sodium": 2830,
+          "cholesterol": 175,
+          "saturated_fat": 18,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Rattlesnake Bites",
+          "calories": 560,
+          "protein": 25,
+          "carbs": 34,
+          "fat": 36,
+          "fiber": 3,
+          "sodium": 1430,
+          "cholesterol": 80,
+          "saturated_fat": 19,
+          "sugars": 3,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Tater Skins",
+          "calories": 1320,
+          "protein": 63,
+          "carbs": 63,
+          "fat": 88,
+          "fiber": 7,
+          "sodium": 2470,
+          "cholesterol": 275,
+          "saturated_fat": 49,
+          "sugars": 5,
+          "trans_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Hand-Cut Steaks",
+      "items": [
+        {
+          "name": "Bone-In Ribeye",
+          "calories": 1480,
+          "protein": 143,
+          "carbs": 20,
+          "fat": 101,
+          "fiber": 4,
+          "sodium": 1720,
+          "cholesterol": 450,
+          "saturated_fat": 44,
+          "sugars": 4,
+          "trans_fat": 10
+        },
+        {
+          "name": "Dallas Fillet 6 oz",
+          "calories": 270,
+          "protein": 45,
+          "carbs": 6,
+          "fat": 10,
+          "fiber": 2,
+          "sodium": 720,
+          "cholesterol": 110,
+          "saturated_fat": 4,
+          "sugars": 2,
+          "trans_fat": 1
+        },
+        {
+          "name": "Ft. Worth Ribeye 12 oz",
+          "calories": 960,
+          "protein": 78,
+          "carbs": 12,
+          "fat": 72,
+          "fiber": 4,
+          "sodium": 1180,
+          "cholesterol": 240,
+          "saturated_fat": 30,
+          "sugars": 2,
+          "trans_fat": 6
+        },
+        {
+          "name": "New York Strip - Traditional Cut",
+          "calories": 640,
+          "protein": 85,
+          "carbs": 1,
+          "fat": 33,
+          "fiber": 1,
+          "sodium": 980,
+          "cholesterol": 505,
+          "saturated_fat": 13,
+          "sugars": 3,
+          "trans_fat": 2
+        },
+        {
+          "name": "Porterhouse T-Bone",
+          "calories": 1040,
+          "protein": 139,
+          "carbs": 1,
+          "fat": 54,
+          "fiber": 2,
+          "sodium": 1440,
+          "cholesterol": 400,
+          "saturated_fat": 24,
+          "sugars": 4,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Prime Rib 12 oz",
+          "calories": 950,
+          "protein": 74,
+          "carbs": 3,
+          "fat": 72,
+          "fiber": 2,
+          "sodium": 1660,
+          "cholesterol": 260,
+          "saturated_fat": 31,
+          "sugars": 2,
+          "trans_fat": 5
+        },
+        {
+          "name": "USDA Choice Sirloin 6 oz",
+          "calories": 250,
+          "protein": 46,
+          "carbs": 3,
+          "fat": 6,
+          "fiber": 1,
+          "sodium": 560,
+          "cholesterol": 125,
+          "saturated_fat": 2.5,
+          "sugars": 1,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Chicken Specialties",
+      "items": [
+        {
+          "name": "Chicken Critters",
+          "calories": 480,
+          "protein": 45,
+          "carbs": 26,
+          "fat": 21,
+          "fiber": 3,
+          "sodium": 1190,
+          "cholesterol": 130,
+          "saturated_fat": 4,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Country Fried Chicken",
+          "calories": 770,
+          "protein": 48,
+          "carbs": 45,
+          "fat": 44,
+          "fiber": 1,
+          "sodium": 1460,
+          "cholesterol": 180,
+          "saturated_fat": 16,
+          "sugars": 9,
+          "trans_fat": 0
+        },
+        {
+          "name": "Grilled BBQ Chicken",
+          "calories": 300,
+          "protein": 46,
+          "carbs": 19,
+          "fat": 3.5,
+          "fiber": 2,
+          "sodium": 450,
+          "cholesterol": 160,
+          "saturated_fat": 1,
+          "sugars": 15,
+          "trans_fat": 0
+        },
+        {
+          "name": "Herb Crusted Chicken",
+          "calories": 260,
+          "protein": 47,
+          "carbs": 12,
+          "fat": 4,
+          "fiber": 4,
+          "sodium": 1210,
+          "cholesterol": 160,
+          "saturated_fat": 1,
+          "sugars": 8,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Country Dinners",
+      "items": [
+        {
+          "name": "Beef Tips with Mashed Potatoes",
+          "calories": 960,
+          "protein": 61,
+          "carbs": 48,
+          "fat": 58,
+          "fiber": 6,
+          "sodium": 3300,
+          "cholesterol": 175,
+          "saturated_fat": 19,
+          "sugars": 12,
+          "trans_fat": 1
+        },
+        {
+          "name": "Bone-In Pork Chop",
+          "calories": 920,
+          "protein": 86,
+          "carbs": 6,
+          "fat": 61,
+          "fiber": 0,
+          "sodium": 2880,
+          "cholesterol": 250,
+          "saturated_fat": 14,
+          "sugars": 5,
+          "trans_fat": 2.5
+        },
+        {
+          "name": "Pulled Pork Dinner",
+          "calories": 890,
+          "protein": 80,
+          "carbs": 54,
+          "fat": 41,
+          "fiber": 4,
+          "sodium": 1130,
+          "cholesterol": 270,
+          "saturated_fat": 14,
+          "sugars": 23,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Sandwiches",
+      "items": [
+        {
+          "name": "All-American Cheeseburger",
+          "calories": 880,
+          "protein": 50,
+          "carbs": 48,
+          "fat": 55,
+          "fiber": 5,
+          "sodium": 1970,
+          "cholesterol": 125,
+          "saturated_fat": 22,
+          "sugars": 11,
+          "trans_fat": 4
+        },
+        {
+          "name": "Bacon Cheeseburger",
+          "calories": 980,
+          "protein": 59,
+          "carbs": 48,
+          "fat": 62,
+          "fiber": 5,
+          "sodium": 2410,
+          "cholesterol": 150,
+          "saturated_fat": 24,
+          "sugars": 12,
+          "trans_fat": 4
+        },
+        {
+          "name": "Pulled Pork Sandwich",
+          "calories": 750,
+          "protein": 44,
+          "carbs": 73,
+          "fat": 33,
+          "fiber": 6,
+          "sodium": 1380,
+          "cholesterol": 165,
+          "saturated_fat": 12,
+          "sugars": 33,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Legendary Sides",
+      "items": [
+        {
+          "name": "Baked Potato",
+          "calories": 350,
+          "protein": 9,
+          "carbs": 760,
+          "fat": 0,
+          "fiber": 10,
+          "sodium": 430,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Buttered Corn",
+          "calories": 180,
+          "protein": 4,
+          "carbs": 25,
+          "fat": 8,
+          "fiber": 3,
+          "sodium": 440,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Green Beans",
+          "calories": 100,
+          "protein": 6,
+          "carbs": 13,
+          "fat": 3.5,
+          "fiber": 2,
+          "sodium": 1070,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Mashed Potatoes",
+          "calories": 260,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 14,
+          "fiber": 3,
+          "sodium": 760,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Seasoned Rice",
+          "calories": 360,
+          "protein": 7,
+          "carbs": 49,
+          "fat": 15,
+          "fiber": 2,
+          "sodium": 1050,
+          "cholesterol": 0,
+          "saturated_fat": 2.5,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Steak Fries",
+          "calories": 360,
+          "protein": 5,
+          "carbs": 55,
+          "fat": 12,
+          "fiber": 6,
+          "sodium": 1960,
+          "cholesterol": 0,
+          "saturated_fat": 3,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Apple Pie",
+          "calories": 1260,
+          "protein": 10,
+          "carbs": 184,
+          "fat": 56,
+          "fiber": 6,
+          "sodium": 1020,
+          "cholesterol": 120,
+          "saturated_fat": 24,
+          "sugars": 110,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chocolate Brownie",
+          "calories": 1150,
+          "protein": 14,
+          "carbs": 168,
+          "fat": 51,
+          "fiber": 7,
+          "sodium": 750,
+          "cholesterol": 160,
+          "saturated_fat": 24,
+          "sugars": 119,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}
