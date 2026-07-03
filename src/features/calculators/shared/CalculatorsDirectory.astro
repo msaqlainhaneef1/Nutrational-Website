@@ -27,33 +27,35 @@ const calculators = [
 ];
 ---
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
   <Breadcrumb items={[{ label: 'Calculators', url: '/calculators' }]} />
 
-  <div class="space-y-3">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Health & Fitness Calculators</h1>
-    <p class="text-zinc-400 text-sm max-w-2xl">
+  <div class="space-y-3 border-b border-zinc-900/60 pb-6">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Health & Fitness Calculators</h1>
+    <p class="text-zinc-400 text-sm max-w-2xl font-sans">
       Compute essential body metrics and calorie requirements securely on your device. None of your inputs are saved or sent to a server.
     </p>
   </div>
 
   <!-- Calculators grid -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-2">
     {calculators.map((calc) => {
       const Icon = calc.icon;
       return (
-        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex flex-col justify-between h-full group">
-          <div class="space-y-4">
-            <div class={`p-3 w-12 h-12 rounded-xl border flex items-center justify-center ${calc.color}`}>
-              <Icon class="h-6 w-6" />
+        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-7 border border-zinc-900/60 flex flex-col justify-between h-full group hover:border-emerald-500/20">
+          <div class="space-y-5">
+            <div class={`p-3.5 w-12 h-12 rounded-2xl border flex items-center justify-center transition-all duration-300 ${calc.color} group-hover:border-emerald-500/30 group-hover:bg-emerald-500/10`}>
+              <Icon class="h-5 w-5" />
             </div>
-            <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors">{calc.name}</h2>
-            <p class="text-zinc-400 text-sm leading-relaxed">{calc.desc}</p>
+            <div class="space-y-2">
+              <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors font-display">{calc.name}</h2>
+              <p class="text-zinc-400 text-sm leading-relaxed font-sans">{calc.desc}</p>
+            </div>
           </div>
           
-          <div class="mt-8 pt-4 border-t border-zinc-900 flex items-center justify-between text-xs text-emerald-400 font-extrabold">
+          <div class="mt-8 pt-5 border-t border-zinc-900/60 flex items-center justify-between text-xs text-emerald-400 font-extrabold uppercase tracking-wider font-sans">
             <span>Open Calculator</span>
-            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
           </div>
         </a>
       );

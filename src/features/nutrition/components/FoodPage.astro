@@ -65,11 +65,11 @@ const headings = [
       <p class="text-zinc-300 text-sm leading-relaxed">
         {food.name} is a rich source of nutrients. A {food.servingSize} serving provides a balanced mix of micronutrients essential for bodily functions and metabolic health.
       </p>
-      <div class="grid grid-cols-2 gap-3 text-xs">
+      <div class="grid grid-cols-2 gap-4 text-xs font-sans">
         {food.micros && Object.entries(food.micros).map(([key, val]) => (
-          <div class="bg-zinc-900 border border-zinc-800/80 p-3.5 rounded-xl flex items-center justify-between">
-            <span class="text-zinc-400 font-semibold uppercase tracking-wider text-[10px]">{key.replace(/([A-Z])/g, ' $1')}</span>
-            <span class="font-extrabold text-white">{val.value}{val.unit}</span>
+          <div class="glass-card border border-zinc-900/60 p-3.5 rounded-xl flex items-center justify-between hover:border-emerald-500/10 transition-all duration-300">
+            <span class="text-zinc-500 font-bold uppercase tracking-wider text-[9px]">{key.replace(/([A-Z])/g, ' $1')}</span>
+            <span class="font-black text-white">{val.value}{val.unit}</span>
           </div>
         ))}
       </div>

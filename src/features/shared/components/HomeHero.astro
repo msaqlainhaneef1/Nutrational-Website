@@ -2,32 +2,33 @@
 import { ArrowRight, Search, Star } from '@lucide/astro';
 ---
 
-<section class="relative overflow-hidden pt-20 pb-16 md:pt-32 md:pb-24 border-b border-zinc-900">
-  <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none"></div>
-  <div class="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+<section class="relative overflow-hidden pt-24 pb-20 md:pt-36 md:pb-28 border-b border-zinc-900/60">
+  <!-- Glowing gradient background elements -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-gradient-to-r from-emerald-500/10 to-teal-500/10 rounded-full blur-[140px] pointer-events-none"></div>
+  <div class="absolute top-1/4 left-1/4 w-[250px] h-[250px] bg-accent-teal/10 rounded-full blur-[100px] pointer-events-none"></div>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
-    <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/25 px-3 py-1 rounded-full text-emerald-400 text-xs font-semibold uppercase tracking-wider">
-      <Star class="h-3 w-3 fill-emerald-400" />
+    <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/20 px-3.5 py-1.5 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-widest font-display">
+      <Star class="h-3.5 w-3.5 fill-emerald-400" />
       <span>High-Performance Nutrition Platform</span>
     </div>
 
-    <h2 class="text-4xl sm:text-6xl font-black tracking-tight text-white max-w-4xl mx-auto leading-[1.1]">
+    <h2 class="text-4xl sm:text-7xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-[1.08] font-display">
       Track Macros. Calculate Needs.<br/>
-      <span class="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">Optimize Your Health.</span>
+      <span class="text-gradient-primary">Optimize Your Health.</span>
     </h2>
 
-    <p class="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+    <p class="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-sans font-medium">
       Fast, database-free, privacy-first nutrition engine. Access thousands of food items, analyze restaurant menus, and compute metabolic stats in milliseconds.
     </p>
 
-    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
-      <a href="/calculators" class="w-full sm:w-auto px-8 py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold rounded-xl transition-all shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20 text-center flex items-center justify-center space-x-2">
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-6">
+      <a href="/calculators" class="w-full sm:w-auto px-8 py-4 btn-brand-gradient rounded-xl font-black text-sm uppercase tracking-wider text-center flex items-center justify-center space-x-2">
         <span>Try Calculators</span>
-        <ArrowRight class="h-4 w-4" />
+        <ArrowRight class="h-4 w-4 stroke-[3]" />
       </a>
-      <a href="/search" class="w-full sm:w-auto px-8 py-3.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800/80 text-zinc-200 font-extrabold rounded-xl transition-all text-center flex items-center justify-center space-x-2">
-        <Search class="h-4 w-4" />
+      <a href="/search" class="w-full sm:w-auto px-8 py-4 bg-zinc-900/60 border border-zinc-800 hover:bg-zinc-800/80 hover:border-zinc-700 text-zinc-100 font-bold text-sm uppercase tracking-wider rounded-xl transition-all text-center flex items-center justify-center space-x-2">
+        <Search class="h-4 w-4 stroke-[2.5]" />
         <span>Search Foods</span>
       </a>
     </div>

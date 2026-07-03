@@ -7,48 +7,50 @@ const calculators = [
     slug: "bmi",
     desc: "Calculate your body fat percentage based on height and weight.",
     icon: Scale,
-    color: "text-blue-400 bg-blue-500/10 border-blue-500/20"
+    color: "text-blue-400 bg-blue-500/10 border-blue-500/20 group-hover:border-blue-500/40 group-hover:bg-blue-500/20"
   },
   {
     name: "Basal Metabolic Rate (BMR)",
     slug: "bmr",
     desc: "Find out how many calories your body burns at complete rest.",
     icon: Flame,
-    color: "text-amber-400 bg-amber-500/10 border-amber-500/20"
+    color: "text-amber-400 bg-amber-500/10 border-amber-500/20 group-hover:border-amber-500/40 group-hover:bg-amber-500/20"
   },
   {
     name: "Total Daily Energy Expenditure (TDEE)",
     slug: "tdee",
     desc: "Discover your daily maintenance calories based on activity levels.",
     icon: Activity,
-    color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
+    color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20 group-hover:border-emerald-500/40 group-hover:bg-emerald-500/20"
   }
 ];
 ---
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-  <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
-    <h2 class="text-3xl font-extrabold text-white tracking-tight">Interactive Health Calculators</h2>
-    <p class="text-zinc-400 text-sm">
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+  <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Interactive Health Calculators</h2>
+    <p class="text-zinc-400 text-sm font-sans font-medium">
       Compute standard metabolic values instantly to plan deficits, surpluses, or macro allocations.
     </p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     {calculators.map((calc) => {
       const Icon = calc.icon;
       return (
-        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex flex-col justify-between h-full group">
-          <div class="space-y-4">
-            <div class={`p-3 w-12 h-12 rounded-xl border flex items-center justify-center ${calc.color}`}>
-              <Icon class="h-6 w-6" />
+        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-7 border border-zinc-900/60 flex flex-col justify-between h-full group hover:border-emerald-500/20">
+          <div class="space-y-5">
+            <div class={`p-3.5 w-12 h-12 rounded-2xl border flex items-center justify-center transition-all duration-300 ${calc.color}`}>
+              <Icon class="h-5 w-5" />
             </div>
-            <h3 class="font-extrabold text-lg text-white group-hover:text-emerald-400 transition-colors">{calc.name}</h3>
-            <p class="text-zinc-400 text-sm leading-relaxed">{calc.desc}</p>
+            <div class="space-y-2">
+              <h3 class="font-extrabold text-lg text-white group-hover:text-emerald-400 transition-colors font-display">{calc.name}</h3>
+              <p class="text-zinc-400 text-sm leading-relaxed font-sans">{calc.desc}</p>
+            </div>
           </div>
-          <div class="mt-6 pt-4 border-t border-zinc-900 flex items-center justify-between text-xs text-emerald-400 font-bold">
+          <div class="mt-8 pt-5 border-t border-zinc-900/60 flex items-center justify-between text-xs text-emerald-400 font-bold uppercase tracking-wider font-sans">
             <span>Compute Now</span>
-            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
           </div>
         </a>
       );

@@ -12,21 +12,21 @@ const { restaurant } = Astro.props;
 <div class="space-y-6">
   <div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
     <div class="relative w-full md:max-w-md">
-      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-500">
-        <Search class="h-4 w-4" />
+      <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-500">
+        <Search class="h-4 w-4 stroke-[2.5]" />
       </div>
       <input
         type="text"
         id="menu-search-input"
         placeholder={`Search menu items in ${restaurant.name}...`}
-        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
+        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900/60 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/80 text-sm transition-all font-sans font-medium"
       />
     </div>
 
     <div class="flex flex-wrap gap-2 w-full md:w-auto">
       <button
         type="button"
-        class="category-tab px-4 py-2 rounded-xl text-sm font-semibold transition-all border border-emerald-500/20 bg-emerald-500/10 text-emerald-400"
+        class="category-tab px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border border-emerald-500/20 bg-emerald-500/10 text-emerald-400 cursor-pointer font-sans"
         data-category="all"
       >
         All Items
@@ -34,7 +34,7 @@ const { restaurant } = Astro.props;
       {restaurant.categories.map((cat) => (
         <button
           type="button"
-          class="category-tab px-4 py-2 rounded-xl text-sm font-semibold transition-all border border-zinc-800 bg-zinc-900 text-zinc-400 hover:text-zinc-200"
+          class="category-tab px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border border-zinc-900 bg-zinc-900/50 text-zinc-450 hover:text-zinc-200 cursor-pointer font-sans"
           data-category={cat.name}
         >
           {cat.name}
@@ -44,23 +44,23 @@ const { restaurant } = Astro.props;
   </div>
 
   <!-- Advanced Filters & Sorting Controls Row -->
-  <div class="flex flex-wrap items-center justify-between gap-4 bg-zinc-900/30 p-4 rounded-2xl border border-zinc-900">
+  <div class="flex flex-wrap items-center justify-between gap-4 bg-zinc-900/20 p-4 rounded-2xl border border-zinc-900/60">
     <!-- Quick Filters -->
     <div class="flex flex-wrap gap-3 items-center">
-      <span class="text-xs font-bold text-zinc-500 uppercase tracking-wider mr-1">Quick Filters:</span>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors">
+      <span class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest mr-1 font-sans">Quick Filters:</span>
+      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
         <input type="checkbox" id="filter-high-protein" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
         <span>High Protein (20g+)</span>
       </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors">
+      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
         <input type="checkbox" id="filter-low-cal" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
         <span>Low Cal (&lt;400 cal)</span>
       </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors">
+      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
         <input type="checkbox" id="filter-low-sodium" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
         <span>Low Sodium (&lt;140mg)</span>
       </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors">
+      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
         <input type="checkbox" id="filter-low-fat" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
         <span>Low Fat (&lt;10g)</span>
       </label>
@@ -68,10 +68,10 @@ const { restaurant } = Astro.props;
 
     <!-- Sorting -->
     <div class="flex items-center space-x-2 w-full sm:w-auto">
-      <label for="menu-sort-select" class="text-xs font-bold text-zinc-500 uppercase tracking-wider flex-shrink-0">Sort:</label>
+      <label for="menu-sort-select" class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest flex-shrink-0 font-sans">Sort:</label>
       <select
         id="menu-sort-select"
-        class="block w-full sm:w-auto px-3.5 py-1.5 bg-zinc-950/40 border border-zinc-900 rounded-xl text-zinc-300 focus:outline-none focus:border-emerald-500 text-xs font-semibold transition-all cursor-pointer"
+        class="block w-full sm:w-auto px-3.5 py-1.5 bg-zinc-950/40 border border-zinc-900 rounded-xl text-zinc-300 focus:outline-none focus:border-emerald-500 text-xs font-semibold transition-all cursor-pointer font-sans"
       >
         <option value="default">Name (A-Z)</option>
         <option value="cal-asc">Calories: Low to High</option>
@@ -81,11 +81,11 @@ const { restaurant } = Astro.props;
     </div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="menu-items-grid">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="menu-items-grid">
     {restaurant.categories.flatMap((cat) => 
       cat.items.map((item) => (
         <div 
-          class="menu-item-card glass-card rounded-2xl p-5 flex flex-col justify-between border border-zinc-800/80 transition-all duration-300"
+          class="menu-item-card glass-card rounded-3xl p-6 flex flex-col justify-between border border-zinc-900/60 transition-all duration-300 hover:border-emerald-500/20"
           data-item-name={item.name.toLowerCase()}
           data-item-category={cat.name}
           data-item-calories={item.calories}
@@ -97,44 +97,44 @@ const { restaurant } = Astro.props;
           data-item-serving={item.servingSize || ''}
           data-item-name-raw={item.name}
         >
-          <div class="space-y-3">
-            <div class="flex justify-between items-start">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start gap-4">
               <div>
-                <h4 class="font-bold text-white text-base leading-snug">{item.name}</h4>
-                <p class="text-xs text-zinc-500 mt-0.5">{cat.name} {item.servingSize ? `• ${item.servingSize}` : ''}</p>
+                <h4 class="font-extrabold text-white text-base leading-snug font-display">{item.name}</h4>
+                <p class="text-xs text-zinc-500 mt-1 font-sans">{cat.name} {item.servingSize ? `• ${item.servingSize}` : ''}</p>
               </div>
-              <span class="inline-flex items-center text-xs font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
-                <Flame class="h-3.5 w-3.5 mr-1 fill-amber-500" />
+              <span class="inline-flex items-center text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-xl border border-amber-500/20 flex-shrink-0 font-sans">
+                <Flame class="h-3.5 w-3.5 mr-1.5 fill-amber-400/20" />
                 {item.calories} cal
               </span>
             </div>
  
-            <div class="grid grid-cols-4 gap-2 text-center text-xs pt-1">
-              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
-                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Protein</span>
-                <span class="font-extrabold text-emerald-400">{item.protein}g</span>
+            <div class="grid grid-cols-4 gap-2.5 text-center text-xs pt-1">
+              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
+                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Protein</span>
+                <span class="font-extrabold text-emerald-400 font-sans">{item.protein}g</span>
               </div>
-              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
-                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Carbs</span>
-                <span class="font-extrabold text-blue-400">{item.carbs}g</span>
+              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
+                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Carbs</span>
+                <span class="font-extrabold text-blue-400 font-sans">{item.carbs}g</span>
               </div>
-              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
-                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Fat</span>
-                <span class="font-extrabold text-amber-400">{item.fat}g</span>
+              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
+                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Fat</span>
+                <span class="font-extrabold text-amber-400 font-sans">{item.fat}g</span>
               </div>
-              <div class="bg-zinc-900/60 p-2 rounded-lg border border-zinc-900">
-                <span class="text-zinc-500 block text-[9px] uppercase font-bold">Sodium</span>
-                <span class="font-extrabold text-zinc-300">{item.sodium ?? '--'}mg</span>
+              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
+                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Sodium</span>
+                <span class="font-extrabold text-zinc-350 font-sans">{item.sodium ?? '--'}mg</span>
               </div>
             </div>
 
             <!-- Interactive Quantity Controls -->
-            <div class="flex justify-between items-center pt-2 border-t border-zinc-800/40 mt-3">
-              <span class="text-[10px] uppercase font-bold text-zinc-500">Calculator</span>
-              <div class="flex items-center space-x-2.5">
+            <div class="flex justify-between items-center pt-3 border-t border-zinc-900/60 mt-4">
+              <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider font-sans">Calculator</span>
+              <div class="flex items-center space-x-3">
                 <button
                   type="button"
-                  class="btn-decrement p-1 bg-zinc-900 border border-zinc-800 rounded-lg hover:border-red-500/30 text-zinc-500 hover:text-red-400 transition-colors"
+                  class="btn-decrement p-1.5 bg-zinc-900/60 border border-zinc-800 rounded-lg hover:border-red-500/30 text-zinc-500 hover:text-red-400 hover:bg-red-500/5 transition-all cursor-pointer"
                   data-item-name-raw={item.name}
                   aria-label={`Decrease ${item.name} quantity`}
                 >
@@ -143,7 +143,7 @@ const { restaurant } = Astro.props;
                 <span class="item-qty-display font-black text-sm text-zinc-400" data-item-name-raw={item.name}>0</span>
                 <button
                   type="button"
-                  class="btn-increment p-1 bg-zinc-900 border border-zinc-800 rounded-lg hover:border-emerald-500/30 text-zinc-500 hover:text-emerald-400 transition-colors"
+                  class="btn-increment p-1.5 bg-zinc-900/60 border border-zinc-800 rounded-lg hover:border-emerald-500/30 text-zinc-500 hover:text-emerald-400 hover:bg-emerald-500/5 transition-all cursor-pointer"
                   data-item-name-raw={item.name}
                   aria-label={`Increase ${item.name} quantity`}
                 >
@@ -272,10 +272,10 @@ const { restaurant } = Astro.props;
     tab.addEventListener('click', () => {
       tabs.forEach((t) => {
         t.classList.remove('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
-        t.classList.add('border-zinc-800', 'bg-zinc-900', 'text-zinc-400');
+        t.classList.add('border-zinc-900', 'bg-zinc-900/50', 'text-zinc-450');
       });
 
-      tab.classList.remove('border-zinc-800', 'bg-zinc-900', 'text-zinc-400');
+      tab.classList.remove('border-zinc-900', 'bg-zinc-900/50', 'text-zinc-450');
       tab.classList.add('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
 
       activeCategory = tab.dataset.category;

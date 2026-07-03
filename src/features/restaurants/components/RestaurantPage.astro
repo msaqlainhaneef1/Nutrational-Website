@@ -49,6 +49,7 @@ const { restaurant } = Astro.props;
         class="glass-card rounded-3xl p-6 border border-emerald-500/20 bg-gradient-to-b from-zinc-950 to-zinc-900/50 space-y-6 transition-all duration-300" 
         id="meal-calculator-panel"
         data-restaurant-name={restaurant.name}
+        data-restaurant-slug={restaurant.slug}
       >
         <div class="flex items-center justify-between border-b border-zinc-900 pb-4">
           <div class="flex items-center space-x-2">
@@ -101,7 +102,7 @@ const { restaurant } = Astro.props;
             <button
               type="button"
               id="btn-apply-swap"
-              class="w-full py-2 bg-emerald-500 text-zinc-950 rounded-xl text-[10px] font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors active:scale-[0.99]"
+              class="w-full py-2 bg-emerald-500 text-[#030712] rounded-xl text-[10px] font-black uppercase tracking-wider hover:bg-emerald-400 transition-colors active:scale-[0.99]"
             >
               Swap Now & Save Calories
             </button>
@@ -239,7 +240,7 @@ const { restaurant } = Astro.props;
               <button
                 type="button"
                 id="btn-copy-report"
-                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-855 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
+                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-800/60 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
               >
                 <Clipboard class="h-3.5 w-3.5" />
                 <span id="copy-btn-text">Copy Report</span>
@@ -248,7 +249,7 @@ const { restaurant } = Astro.props;
               <button
                 type="button"
                 id="btn-print-report"
-                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-855 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
+                class="flex items-center justify-center space-x-1.5 py-2.5 bg-zinc-900 border border-zinc-800/60 hover:border-emerald-500/30 text-zinc-400 hover:text-white rounded-xl text-xs font-bold transition-all shadow-lg active:scale-[0.98]"
               >
                 <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
@@ -280,7 +281,7 @@ const { restaurant } = Astro.props;
     <button
       type="button"
       id="btn-open-mobile-calc"
-      class="px-4 py-2 bg-emerald-500 text-zinc-950 font-bold text-xs rounded-xl shadow-lg hover:bg-emerald-400 transition-colors"
+      class="px-4 py-2 bg-emerald-500 text-[#030712] font-bold text-xs rounded-xl shadow-lg hover:bg-emerald-400 transition-colors"
     >
       View Calculator
     </button>
@@ -544,13 +545,13 @@ const { restaurant } = Astro.props;
 
       navigator.clipboard.writeText(reportText).then(() => {
         copyBtnText.textContent = 'Copied!';
-        copyBtn.classList.remove('bg-zinc-900', 'border-zinc-855');
+        copyBtn.classList.remove('bg-zinc-900', 'border-zinc-800/60');
         copyBtn.classList.add('bg-emerald-500/10', 'border-emerald-500/30', 'text-emerald-400');
         
         setTimeout(() => {
           copyBtnText.textContent = 'Copy Report';
           copyBtn.classList.remove('bg-emerald-500/10', 'border-emerald-500/30', 'text-emerald-400');
-          copyBtn.classList.add('bg-zinc-900', 'border-zinc-855');
+          copyBtn.classList.add('bg-zinc-900', 'border-zinc-800/60');
         }, 2000);
       });
     });
@@ -764,6 +765,11 @@ const { restaurant } = Astro.props;
   }
 
   function updateCalculatorUI() {
+    const slug = calcPanel.dataset.restaurantSlug;
+    if (slug) {
+      localStorage.setItem(`meal_calc_${slug}`, JSON.stringify(meal));
+    }
+
     const mealKeys = Object.keys(meal);
     
     if (mealKeys.length === 0) {
@@ -840,7 +846,7 @@ const { restaurant } = Astro.props;
         <div class="flex justify-between items-center pt-1.5 border-t border-zinc-900/40">
           <span class="text-[9px] uppercase tracking-wider text-zinc-500 font-bold">Portion Size</span>
           <select 
-            class="item-portion-select bg-zinc-950 border border-zinc-855 rounded px-1.5 py-0.5 text-[9px] font-bold text-zinc-400 focus:outline-none focus:border-emerald-500/50"
+            class="item-portion-select bg-zinc-950 border border-zinc-800/60 rounded px-1.5 py-0.5 text-[9px] font-bold text-zinc-400 focus:outline-none focus:border-emerald-500/50"
             data-item-name-raw="${key}"
           >
             <option value="0.5" ${item.portion === 0.5 ? 'selected' : ''}>0.5x (Half)</option>
@@ -1026,12 +1032,43 @@ const { restaurant } = Astro.props;
     });
   }
 
+  function loadMealFromLocalStorage() {
+    const slug = calcPanel.dataset.restaurantSlug;
+    if (!slug) return;
+    const stored = localStorage.getItem(`meal_calc_${slug}`);
+    if (stored) {
+      try {
+        const storedMeal = JSON.parse(stored);
+        if (Object.keys(storedMeal).length > 0) {
+          meal = storedMeal;
+          
+          // Restore card styling & display values
+          Object.keys(meal).forEach((key) => {
+            const item = meal[key];
+            const card = document.querySelector(`.menu-item-card[data-item-name-raw="${key}"]`);
+            if (card) {
+              card.classList.add('border-emerald-500/30', 'bg-emerald-500/[0.015]');
+              const display = card.querySelector('.item-qty-display');
+              if (display) display.textContent = item.qty.toString();
+            }
+          });
+          
+          updateCalculatorUI();
+        }
+      } catch (err) {
+        console.error('Error loading stored meal calculator data', err);
+      }
+    }
+  }
+
   // On DOM Load (robust initialization)
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
       initChart();
+      loadMealFromLocalStorage();
     });
   } else {
     initChart();
+    loadMealFromLocalStorage();
   }
 </script>
