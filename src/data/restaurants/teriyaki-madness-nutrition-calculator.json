@@ -1,0 +1,412 @@
+{
+  "name": "Teriyaki Madness",
+  "slug": "teriyaki-madness-nutrition-calculator",
+  "tagline": "Calculate Teriyaki Madness calories, protein, carbs and fat. Free Teriyaki Madness nutrition calculator wit...",
+  "description": "Calculate Teriyaki Madness calories, protein, carbs and fat. Free Teriyaki Madness nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 33,
+  "categories": [
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Chicken Teriyaki (Jr Bowl)",
+          "calories": 200,
+          "protein": 22,
+          "fat": 6,
+          "carbs": 16,
+          "fiber": 2,
+          "sodium": 682,
+          "cholesterol": 83,
+          "saturated_fat": 2,
+          "sugars": 14
+        },
+        {
+          "name": "Chicken Teriyaki (Regular Bowl)",
+          "calories": 361,
+          "protein": 43,
+          "fat": 12,
+          "carbs": 22,
+          "fiber": 4,
+          "sodium": 1040,
+          "cholesterol": 165,
+          "saturated_fat": 4,
+          "sugars": 20
+        },
+        {
+          "name": "Chicken Teriyaki (Large Bowl)",
+          "calories": 495,
+          "protein": 57,
+          "fat": 16,
+          "carbs": 32,
+          "fiber": 5,
+          "sodium": 1494,
+          "cholesterol": 220,
+          "saturated_fat": 5,
+          "sugars": 29
+        },
+        {
+          "name": "Chicken Breast Teriyaki (Jr Bowl)",
+          "calories": 188,
+          "protein": 27,
+          "fat": 3,
+          "carbs": 14,
+          "sodium": 529,
+          "cholesterol": 88,
+          "saturated_fat": 1,
+          "sugars": 12
+        },
+        {
+          "name": "Chicken Breast Teriyaki (Regular Bowl)",
+          "calories": 336,
+          "protein": 53,
+          "fat": 6,
+          "carbs": 18,
+          "sodium": 735,
+          "cholesterol": 177,
+          "saturated_fat": 2,
+          "sugars": 16
+        },
+        {
+          "name": "Chicken Breast Teriyaki (Large Bowl)",
+          "calories": 461,
+          "protein": 71,
+          "fat": 8,
+          "carbs": 27,
+          "sodium": 1088,
+          "cholesterol": 236,
+          "saturated_fat": 2,
+          "sugars": 23
+        },
+        {
+          "name": "Spicy Chicken (Jr Bowl)",
+          "calories": 188,
+          "protein": 21,
+          "fat": 6,
+          "carbs": 13,
+          "fiber": 2,
+          "sodium": 744,
+          "cholesterol": 83,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Spicy Chicken (Regular Bowl)",
+          "calories": 375,
+          "protein": 43,
+          "fat": 11,
+          "carbs": 26,
+          "fiber": 5,
+          "sodium": 1488,
+          "cholesterol": 165,
+          "saturated_fat": 4,
+          "sugars": 21
+        },
+        {
+          "name": "Spicy Chicken (Large Bowl)",
+          "calories": 516,
+          "protein": 57,
+          "fat": 15,
+          "carbs": 38,
+          "fiber": 6,
+          "sodium": 2167,
+          "cholesterol": 220,
+          "saturated_fat": 5,
+          "sugars": 32
+        },
+        {
+          "name": "Chicken Katsu (Jr Bowl)",
+          "calories": 341,
+          "protein": 16,
+          "fat": 14,
+          "carbs": 38,
+          "fiber": 1,
+          "sodium": 691,
+          "cholesterol": 48,
+          "saturated_fat": 3,
+          "sugars": 18
+        },
+        {
+          "name": "Chicken Katsu (Regular Bowl)",
+          "calories": 592,
+          "protein": 33,
+          "fat": 27,
+          "carbs": 54,
+          "fiber": 1,
+          "sodium": 759,
+          "cholesterol": 95,
+          "saturated_fat": 5,
+          "sugars": 19
+        },
+        {
+          "name": "Chicken Katsu (Large Bowl)",
+          "calories": 759,
+          "protein": 43,
+          "fat": 37,
+          "carbs": 64,
+          "fiber": 2,
+          "sodium": 805,
+          "cholesterol": 127,
+          "saturated_fat": 7,
+          "sugars": 19
+        },
+        {
+          "name": "Orange Chicken (Jr Bowl)",
+          "calories": 214,
+          "protein": 11,
+          "fat": 10,
+          "carbs": 20,
+          "fiber": 2,
+          "sodium": 340,
+          "cholesterol": 62,
+          "saturated_fat": 2,
+          "sugars": 8
+        },
+        {
+          "name": "Orange Chicken (Regular Bowl)",
+          "calories": 429,
+          "protein": 23,
+          "fat": 20,
+          "carbs": 40,
+          "fiber": 3,
+          "sodium": 680,
+          "cholesterol": 124,
+          "saturated_fat": 5,
+          "sugars": 16
+        },
+        {
+          "name": "Orange Chicken (Large Bowl)",
+          "calories": 572,
+          "protein": 30,
+          "fat": 27,
+          "carbs": 53,
+          "fiber": 5,
+          "sodium": 907,
+          "cholesterol": 166,
+          "saturated_fat": 6,
+          "sugars": 21
+        },
+        {
+          "name": "Steak Teriyaki (Jr Bowl)",
+          "calories": 210,
+          "protein": 17,
+          "fat": 8,
+          "carbs": 17,
+          "fiber": 2,
+          "sodium": 659,
+          "cholesterol": 88,
+          "saturated_fat": 3,
+          "sugars": 11
+        },
+        {
+          "name": "Steak Teriyaki (Regular Bowl)",
+          "calories": 419,
+          "protein": 34,
+          "fat": 16,
+          "carbs": 34,
+          "fiber": 4,
+          "sodium": 1317,
+          "cholesterol": 175,
+          "saturated_fat": 7,
+          "sugars": 22
+        },
+        {
+          "name": "Steak Teriyaki (Large Bowl)",
+          "calories": 572,
+          "protein": 46,
+          "fat": 22,
+          "carbs": 49,
+          "fiber": 5,
+          "sodium": 1864,
+          "cholesterol": 234,
+          "saturated_fat": 9,
+          "sugars": 32
+        },
+        {
+          "name": "Tofu Teriyaki (Jr Bowl)",
+          "calories": 144,
+          "protein": 12,
+          "fat": 3,
+          "carbs": 18,
+          "fiber": 8,
+          "sodium": 799,
+          "cholesterol": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Tofu Teriyaki (Regular Bowl)",
+          "calories": 263,
+          "protein": 24,
+          "fat": 5,
+          "carbs": 30,
+          "fiber": 16,
+          "sodium": 1071,
+          "cholesterol": 2,
+          "saturated_fat": 1,
+          "sugars": 10
+        },
+        {
+          "name": "Tofu Teriyaki (Large Bowl)",
+          "calories": 465,
+          "protein": 42,
+          "fat": 9,
+          "carbs": 55,
+          "fiber": 27,
+          "sodium": 2137,
+          "cholesterol": 3,
+          "saturated_fat": 1,
+          "sugars": 21
+        },
+        {
+          "name": "Salmon Teriyaki (Jr Bowl (4oz))",
+          "servingSize": "4 oz",
+          "calories": 160,
+          "protein": 22,
+          "fat": 4,
+          "carbs": 10,
+          "sodium": 544,
+          "cholesterol": 65,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Salmon Teriyaki (Regular Bowl (4oz))",
+          "servingSize": "4 oz",
+          "calories": 160,
+          "protein": 22,
+          "fat": 4,
+          "carbs": 10,
+          "sodium": 544,
+          "cholesterol": 65,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Salmon Teriyaki (Large Bowl (8oz))",
+          "servingSize": "8 oz",
+          "calories": 300,
+          "protein": 43,
+          "fat": 8,
+          "carbs": 16,
+          "sodium": 927,
+          "cholesterol": 130,
+          "saturated_fat": 1,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "White Rice (Regular Bowl (8oz))",
+          "servingSize": "8 oz",
+          "calories": 295,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 65,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Brown Rice (Regular Bowl (8oz))",
+          "servingSize": "8 oz",
+          "calories": 254,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 2
+        },
+        {
+          "name": "Fried Rice (Regular Bowl (8oz))",
+          "servingSize": "8 oz",
+          "calories": 686,
+          "protein": 14,
+          "fat": 34,
+          "carbs": 81,
+          "fiber": 2,
+          "sodium": 1166,
+          "cholesterol": 169,
+          "saturated_fat": 6,
+          "sugars": 12
+        },
+        {
+          "name": "Noodles (Regular Bowl (8oz))",
+          "servingSize": "8 oz",
+          "calories": 630,
+          "protein": 13,
+          "fat": 18,
+          "carbs": 100,
+          "fiber": 4,
+          "sodium": 1175,
+          "saturated_fat": 2,
+          "sugars": 12
+        },
+        {
+          "name": "Steamed Veggies (Regular Bowl (12oz))",
+          "servingSize": "12 oz",
+          "calories": 120,
+          "protein": 8,
+          "fat": 0,
+          "carbs": 26,
+          "fiber": 10,
+          "sodium": 103,
+          "sugars": 11
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Chicken Eggroll",
+          "calories": 150,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 23,
+          "fiber": 2,
+          "sodium": 394,
+          "cholesterol": 6,
+          "saturated_fat": 1,
+          "sugars": 13
+        },
+        {
+          "name": "Chicken Potstickers (6)",
+          "calories": 318,
+          "protein": 11,
+          "fat": 10,
+          "carbs": 47,
+          "fiber": 4,
+          "sodium": 772,
+          "cholesterol": 19,
+          "saturated_fat": 2,
+          "sugars": 16
+        },
+        {
+          "name": "Crab Rangoons (4)",
+          "calories": 409,
+          "protein": 8,
+          "fat": 22,
+          "carbs": 44,
+          "fiber": 2,
+          "sodium": 588,
+          "cholesterol": 37,
+          "saturated_fat": 10,
+          "sugars": 14
+        },
+        {
+          "name": "Edamame",
+          "calories": 191,
+          "protein": 17,
+          "fat": 9,
+          "carbs": 15,
+          "fiber": 6,
+          "sodium": 337,
+          "saturated_fat": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "name": "Naf Naf Grill",
+  "slug": "naf-naf-grill-nutrition-calculator",
+  "tagline": "Calculate Naf Naf Grill calories, protein, carbs and fat. Free Naf Naf Grill nutrition calculator with comp...",
+  "description": "Calculate Naf Naf Grill calories, protein, carbs and fat. Free Naf Naf Grill nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 30,
+  "categories": [
+    {
+      "name": "Base",
+      "items": [
+        {
+          "name": "Baba Ghanoush",
+          "calories": 150,
+          "protein": 5,
+          "fat": 10,
+          "carbs": 15,
+          "fiber": 5,
+          "sodium": 600,
+          "sugars": 5
+        },
+        {
+          "name": "Basmati Rice",
+          "calories": 290,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 45,
+          "sodium": 545
+        },
+        {
+          "name": "Couscous",
+          "calories": 225,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 40,
+          "fiber": 5,
+          "sodium": 600
+        },
+        {
+          "name": "Hummus",
+          "calories": 400,
+          "protein": 5,
+          "fat": 35,
+          "carbs": 20,
+          "fiber": 5,
+          "sodium": 500,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Pita Bread (1)",
+          "calories": 270,
+          "protein": 9,
+          "fat": 3,
+          "carbs": 51,
+          "fiber": 2,
+          "sodium": 730,
+          "saturated_fat": 0.5,
+          "sugars": 4
+        },
+        {
+          "name": "Salad",
+          "calories": 15,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Protein",
+      "items": [
+        {
+          "name": "Chicken Shawarma",
+          "calories": 200,
+          "protein": 28,
+          "fat": 10,
+          "carbs": 0,
+          "sodium": 600,
+          "cholesterol": 140,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Falafel (in a Pita)",
+          "calories": 290,
+          "protein": 10,
+          "fat": 16,
+          "carbs": 32,
+          "fiber": 10,
+          "sodium": 830,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Falafel (Bowl)",
+          "calories": 360,
+          "protein": 12,
+          "fat": 20,
+          "carbs": 40,
+          "fiber": 12,
+          "sodium": 1040,
+          "saturated_fat": 2,
+          "sugars": 8
+        },
+        {
+          "name": "Steak",
+          "calories": 280,
+          "protein": 28,
+          "fat": 18,
+          "carbs": 0,
+          "sodium": 520,
+          "cholesterol": 100,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Crispy Chicken Tenders (Halal)",
+          "calories": 240,
+          "protein": 15,
+          "fat": 14,
+          "carbs": 13,
+          "fiber": 2,
+          "sodium": 527,
+          "cholesterol": 36,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Chopped Salad",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Pickles",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Purple Cabbage",
+          "calories": 50,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 5,
+          "fiber": 3,
+          "sodium": 385,
+          "sugars": 3
+        },
+        {
+          "name": "Sumac Onions",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 10,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Condiments",
+      "items": [
+        {
+          "name": "Garlic Sauce",
+          "calories": 154,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 1,
+          "sodium": 120,
+          "cholesterol": 8,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Harissa",
+          "calories": 13,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 241
+        },
+        {
+          "name": "S’khug",
+          "calories": 22,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 203,
+          "sugars": 1
+        },
+        {
+          "name": "Tahini Sauce",
+          "calories": 71,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 145,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Kid's Meals",
+      "items": [
+        {
+          "name": "Kid’s Meal Chicken",
+          "calories": 488,
+          "protein": 23,
+          "fat": 21,
+          "carbs": 54,
+          "fiber": 3,
+          "sodium": 656,
+          "cholesterol": 90,
+          "saturated_fat": 4,
+          "sugars": 26
+        },
+        {
+          "name": "Kid’s Meal Steak",
+          "calories": 481,
+          "protein": 21,
+          "fat": 21,
+          "carbs": 55,
+          "fiber": 3,
+          "sodium": 677,
+          "cholesterol": 43,
+          "saturated_fat": 4,
+          "sugars": 26
+        },
+        {
+          "name": "Kid’s Meal Falafel",
+          "calories": 478,
+          "protein": 8,
+          "fat": 21,
+          "carbs": 67,
+          "fiber": 6,
+          "sodium": 604,
+          "saturated_fat": 3,
+          "sugars": 27
+        }
+      ]
+    },
+    {
+      "name": "Sides & Beverages",
+      "items": [
+        {
+          "name": "Lentil Soup",
+          "calories": 200,
+          "protein": 8,
+          "fat": 4,
+          "carbs": 32,
+          "fiber": 8,
+          "sodium": 880
+        },
+        {
+          "name": "Fries",
+          "calories": 360,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 48,
+          "fiber": 4,
+          "sodium": 460,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Fountain Drink",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "sodium": 40,
+          "sugars": 65
+        },
+        {
+          "name": "Hummus (Swipe in a Pita)",
+          "calories": 40,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 50,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Hummus (Add Bowl)",
+          "calories": 240,
+          "protein": 3,
+          "fat": 21,
+          "carbs": 12,
+          "fiber": 3,
+          "sodium": 300,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Hummus (Small)",
+          "calories": 320,
+          "protein": 4,
+          "fat": 28,
+          "carbs": 16,
+          "fiber": 4,
+          "sodium": 400,
+          "saturated_fat": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Hummus (Large)",
+          "calories": 640,
+          "protein": 8,
+          "fat": 56,
+          "carbs": 32,
+          "fiber": 8,
+          "sodium": 800,
+          "saturated_fat": 8,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Baklava",
+          "calories": 330,
+          "protein": 4,
+          "fat": 20,
+          "carbs": 35,
+          "fiber": 2,
+          "sodium": 150,
+          "cholesterol": 30,
+          "saturated_fat": 10,
+          "sugars": 20
+        }
+      ]
+    }
+  ]
+}

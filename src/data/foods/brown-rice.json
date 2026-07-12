@@ -1,0 +1,31 @@
+{
+  "name": "Brown Rice",
+  "slug": "brown-rice",
+  "description": "Whole grain rice with only the outer hull removed. The bran and germ remain, giving brown rice more fiber, vitamins, and minerals than its white counterpart. Chewy texture with a nutty flavor.",
+  "category": "Grains",
+  "servingSize": "100g",
+  "calories": 123,
+  "macros": {
+    "protein": { "value": 2.7, "unit": "g", "pctDailyValue": 5 },
+    "fat": { "value": 1.0, "unit": "g", "pctDailyValue": 1 },
+    "carbs": { "value": 25.6, "unit": "g", "pctDailyValue": 9 },
+    "fiber": { "value": 1.6, "unit": "g", "pctDailyValue": 6 },
+    "sugar": { "value": 0.4, "unit": "g", "pctDailyValue": 1 }
+  },
+  "micros": {
+    "sodium": { "value": 5, "unit": "mg", "pctDailyValue": 0 },
+    "potassium": { "value": 86, "unit": "mg", "pctDailyValue": 2 },
+    "calcium": { "value": 10, "unit": "mg", "pctDailyValue": 1 },
+    "iron": { "value": 0.4, "unit": "mg", "pctDailyValue": 2 }
+  },
+  "faqs": [
+    {
+      "q": "Is brown rice healthier than white rice?",
+      "a": "Brown rice retains the bran and germ, so it has more fiber, magnesium, and B vitamins than white rice. White rice is easier to digest and often enriched with synthetic vitamins. Both can be part of a balanced diet."
+    },
+    {
+      "q": "How many calories in a cup of cooked brown rice?",
+      "a": "One cup of cooked brown rice (about 195 grams) contains roughly 240 calories. The 100 gram serving listed above contains 123 calories."
+    }
+  ]
+}

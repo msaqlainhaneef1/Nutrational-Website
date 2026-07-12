@@ -1,0 +1,909 @@
+{
+  "name": "Hot Head Burritos",
+  "slug": "hot-head-burritos-nutrition-calculator",
+  "tagline": "Calculate Hot Head Burritos calories, protein, carbs and fat. Free Hot Head Burritos nutrition calculator w...",
+  "description": "Calculate Hot Head Burritos calories, protein, carbs and fat. Free Hot Head Burritos nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 83,
+  "categories": [
+    {
+      "name": "Craft Recipes (as a Bowl)",
+      "items": [
+        {
+          "name": "Sweet Habanero",
+          "calories": 618,
+          "protein": 36,
+          "fat": 21,
+          "carbs": 73,
+          "fiber": 7,
+          "sodium": 1668,
+          "cholesterol": 101,
+          "saturated_fat": 9,
+          "sugars": 22
+        },
+        {
+          "name": "Hawaiian",
+          "calories": 659,
+          "protein": 35,
+          "fat": 22,
+          "carbs": 78,
+          "fiber": 8,
+          "sodium": 1702,
+          "cholesterol": 101,
+          "saturated_fat": 9,
+          "sugars": 27
+        },
+        {
+          "name": "Teriyaki",
+          "calories": 607,
+          "protein": 36,
+          "fat": 21,
+          "carbs": 69,
+          "fiber": 8,
+          "sodium": 2084,
+          "cholesterol": 101,
+          "saturated_fat": 9,
+          "sugars": 16
+        },
+        {
+          "name": "Veggie",
+          "calories": 684,
+          "protein": 24,
+          "fat": 39,
+          "carbs": 66,
+          "fiber": 15,
+          "sodium": 1580,
+          "cholesterol": 40,
+          "saturated_fat": 11,
+          "sugars": 9
+        },
+        {
+          "name": "Americano",
+          "calories": 647,
+          "protein": 29,
+          "fat": 37,
+          "carbs": 48,
+          "fiber": 5,
+          "sodium": 1486,
+          "cholesterol": 104,
+          "saturated_fat": 17,
+          "sugars": 3,
+          "trans_fat": 1
+        },
+        {
+          "name": "Pork Verde",
+          "calories": 527,
+          "protein": 36,
+          "fat": 21,
+          "carbs": 51,
+          "fiber": 8,
+          "sodium": 1906,
+          "cholesterol": 98,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Southwest Ranch",
+          "calories": 632,
+          "protein": 34,
+          "fat": 33,
+          "carbs": 49,
+          "fiber": 6,
+          "sodium": 2033,
+          "cholesterol": 102,
+          "saturated_fat": 12,
+          "sugars": 3
+        },
+        {
+          "name": "Jalapeno Ranch",
+          "calories": 737,
+          "protein": 41,
+          "fat": 37,
+          "carbs": 62,
+          "fiber": 8,
+          "sodium": 1658,
+          "cholesterol": 98,
+          "saturated_fat": 10,
+          "sugars": 6
+        },
+        {
+          "name": "Leroy's Spicy Chicken",
+          "calories": 740,
+          "protein": 36,
+          "fat": 36,
+          "carbs": 66,
+          "fiber": 8,
+          "sodium": 2738,
+          "cholesterol": 112,
+          "saturated_fat": 11,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Power Bowl",
+          "calories": 849,
+          "protein": 53,
+          "fat": 44,
+          "carbs": 62,
+          "fiber": 13,
+          "sodium": 2789,
+          "cholesterol": 176,
+          "saturated_fat": 14,
+          "sugars": 8
+        },
+        {
+          "name": "Steak Power Bowl",
+          "calories": 870,
+          "protein": 64,
+          "fat": 46,
+          "carbs": 56,
+          "fiber": 12,
+          "sodium": 1567,
+          "cholesterol": 155,
+          "saturated_fat": 13,
+          "sugars": 6
+        },
+        {
+          "name": "Veggie Power Bowl",
+          "calories": 739,
+          "protein": 22,
+          "fat": 44,
+          "carbs": 66,
+          "fiber": 14,
+          "sodium": 1800,
+          "cholesterol": 42,
+          "saturated_fat": 11,
+          "sugars": 10
+        },
+        {
+          "name": "Cheetos Flamin' Hot",
+          "calories": 847,
+          "protein": 36,
+          "fat": 43,
+          "carbs": 74,
+          "fiber": 8,
+          "sodium": 1964,
+          "cholesterol": 103,
+          "saturated_fat": 14,
+          "sugars": 3
+        },
+        {
+          "name": "Paleo Bowl with Steak",
+          "calories": 313,
+          "protein": 25,
+          "fat": 19,
+          "carbs": 15,
+          "fiber": 6,
+          "sodium": 2279,
+          "cholesterol": 57,
+          "saturated_fat": 3,
+          "sugars": 4
+        },
+        {
+          "name": "Paleo Bowl with Pork",
+          "calories": 336,
+          "protein": 21,
+          "fat": 21,
+          "carbs": 22,
+          "fiber": 7,
+          "sodium": 1419,
+          "cholesterol": 60,
+          "saturated_fat": 5,
+          "sugars": 6
+        },
+        {
+          "name": "Keto Bowl with Chicken",
+          "calories": 410,
+          "protein": 30,
+          "fat": 28,
+          "carbs": 13,
+          "fiber": 2,
+          "sodium": 1948,
+          "cholesterol": 120,
+          "saturated_fat": 12,
+          "sugars": 6
+        },
+        {
+          "name": "Keto Bowl with Barbacoa",
+          "calories": 503,
+          "protein": 28,
+          "fat": 36,
+          "carbs": 14,
+          "fiber": 3,
+          "sodium": 1231,
+          "cholesterol": 122,
+          "saturated_fat": 16,
+          "sugars": 6
+        },
+        {
+          "name": "Cantina Nachos",
+          "calories": 923,
+          "protein": 46,
+          "fat": 65,
+          "carbs": 35,
+          "fiber": 5,
+          "sodium": 2177,
+          "cholesterol": 186,
+          "saturated_fat": 29,
+          "sugars": 7,
+          "trans_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Tortillas",
+      "items": [
+        {
+          "name": "Cheddar Jalapeno Tortilla",
+          "calories": 301,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 48,
+          "fiber": 5,
+          "sodium": 603,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Flour Tortilla",
+          "calories": 292,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 48,
+          "fiber": 2,
+          "sodium": 574,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Hard Corn Taco",
+          "calories": 150,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 20,
+          "fiber": 2,
+          "sodium": 3,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Li'l Flour Tortilla",
+          "calories": 220,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 360,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Nacho Tortilla Chips",
+          "calories": 140,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 19,
+          "fiber": 2,
+          "sodium": 115,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Soft Corn Tortilla Taco",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "fiber": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Soft Flour Taco",
+          "calories": 140,
+          "protein": 3,
+          "fat": 4,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 230,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Proteins - Regular Entree",
+      "items": [
+        {
+          "name": "Barbacoa",
+          "calories": 150,
+          "protein": 16,
+          "fat": 9,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 250,
+          "cholesterol": 55,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken",
+          "calories": 111,
+          "protein": 16,
+          "fat": 5,
+          "carbs": 1,
+          "sodium": 587,
+          "cholesterol": 64,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Chorizo",
+          "calories": 158,
+          "protein": 23,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 838,
+          "cholesterol": 91,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fish",
+          "calories": 480,
+          "protein": 28,
+          "fat": 24,
+          "carbs": 34,
+          "sodium": 1200,
+          "cholesterol": 70,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Pork",
+          "calories": 120,
+          "protein": 16,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 600,
+          "cholesterol": 60,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Steak",
+          "calories": 117,
+          "protein": 21,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 52,
+          "cholesterol": 57,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Taco Meat",
+          "calories": 193,
+          "protein": 14,
+          "fat": 14,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 489,
+          "cholesterol": 48,
+          "saturated_fat": 6,
+          "trans_fat": 1
+        },
+        {
+          "name": "Make it Spicy!",
+          "calories": 91,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 6,
+          "sodium": 405,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Proteins - Li'l Entree",
+      "items": [
+        {
+          "name": "Li'l Barbacoa",
+          "calories": 75,
+          "protein": 8,
+          "fat": 4.5,
+          "carbs": 1,
+          "fiber": 0.5,
+          "sodium": 125,
+          "cholesterol": 27.5,
+          "saturated_fat": 1.5,
+          "sugars": 0.5
+        },
+        {
+          "name": "Li'l Chicken",
+          "calories": 56,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 0.5,
+          "sodium": 293.5,
+          "cholesterol": 32,
+          "saturated_fat": 0.5,
+          "sugars": 0.5
+        },
+        {
+          "name": "Li'l Chorizo",
+          "calories": 79,
+          "protein": 11.5,
+          "fat": 3.5,
+          "carbs": 0.5,
+          "sodium": 419,
+          "cholesterol": 45.5,
+          "saturated_fat": 0.5,
+          "sugars": 0.5
+        },
+        {
+          "name": "Li'l Fish",
+          "calories": 240,
+          "protein": 14,
+          "fat": 12,
+          "carbs": 17,
+          "sodium": 600,
+          "cholesterol": 35,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Li'l Pork",
+          "calories": 60,
+          "protein": 8,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 300,
+          "cholesterol": 30,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Li'l Steak",
+          "calories": 59,
+          "protein": 10.5,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 26,
+          "cholesterol": 28.5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Li'l Taco Meat",
+          "calories": 97,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 1.5,
+          "fiber": 0.5,
+          "sodium": 244.5,
+          "cholesterol": 24,
+          "saturated_fat": 3,
+          "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Rice and Beans",
+      "items": [
+        {
+          "name": "Brown Rice",
+          "calories": 150,
+          "protein": 3,
+          "fat": 2,
+          "carbs": 31,
+          "fiber": 2,
+          "sodium": 426
+        },
+        {
+          "name": "White Rice",
+          "calories": 199,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 38,
+          "fiber": 1,
+          "sodium": 448
+        },
+        {
+          "name": "Black Beans",
+          "calories": 75,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14,
+          "fiber": 5,
+          "sodium": 204,
+          "sugars": 2
+        },
+        {
+          "name": "Pinto Beans",
+          "calories": 68,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 13,
+          "fiber": 4,
+          "sodium": 204,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Salsa",
+      "items": [
+        {
+          "name": "Corn Salsa",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 1,
+          "sodium": 168,
+          "sugars": 2
+        },
+        {
+          "name": "Pico Salsa",
+          "calories": 12,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 126,
+          "sugars": 1
+        },
+        {
+          "name": "Roja Salsa",
+          "calories": 16,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 311
+        },
+        {
+          "name": "Verde Salsa",
+          "calories": 26,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 306,
+          "sugars": 2
+        },
+        {
+          "name": "Wild Salsa",
+          "calories": 14,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 463
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Condiments",
+      "items": [
+        {
+          "name": "BBQ",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 280,
+          "sugars": 9
+        },
+        {
+          "name": "Cholula",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 725
+        },
+        {
+          "name": "Hot Head Sauce",
+          "calories": 87,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 2,
+          "sodium": 262,
+          "cholesterol": 11,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Jalapeno Ranch",
+          "calories": 92,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 2,
+          "sodium": 180,
+          "cholesterol": 3,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Mango Habanero",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "sodium": 248,
+          "sugars": 8
+        },
+        {
+          "name": "Ranch",
+          "calories": 142,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 2,
+          "sodium": 283,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Smoky Tabasco",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 238
+        },
+        {
+          "name": "Southwest Ranch",
+          "calories": 127,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 2,
+          "sodium": 249,
+          "cholesterol": 4,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Straight Habanero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 1350
+        },
+        {
+          "name": "Sweet Habanero",
+          "calories": 73,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 18,
+          "sodium": 64,
+          "sugars": 18
+        },
+        {
+          "name": "Sweet Teriyaki",
+          "calories": 59,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 14,
+          "sodium": 476,
+          "sugars": 12
+        },
+        {
+          "name": "Taco Sauce",
+          "calories": 14,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 132
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Cheddar Cheese",
+          "calories": 165,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 0,
+          "sodium": 270,
+          "cholesterol": 38,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Monterey Jack Cheese",
+          "calories": 150,
+          "protein": 11,
+          "fat": 12,
+          "carbs": 0,
+          "sodium": 240,
+          "cholesterol": 38,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Cilantro",
+          "calories": 2,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 3
+        },
+        {
+          "name": "Jalapeno Slices",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Lettuce",
+          "calories": 7,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Pineapple",
+          "calories": 24,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sugars": 5
+        },
+        {
+          "name": "Fajita Veggies",
+          "calories": 60,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 72,
+          "sugars": 2
+        },
+        {
+          "name": "Pan Seared Veggies",
+          "calories": 11,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 70,
+          "sugars": 2
+        },
+        {
+          "name": "Queso",
+          "calories": 79,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 3,
+          "sodium": 335,
+          "cholesterol": 17,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Guacamole",
+          "calories": 103,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 4,
+          "fiber": 3,
+          "sodium": 212,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Sour Cream",
+          "calories": 57,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 1,
+          "sodium": 14,
+          "cholesterol": 19,
+          "saturated_fat": 3,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Bag of Tortilla Chips",
+          "calories": 140,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 19,
+          "fiber": 2,
+          "sodium": 115,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Churros - 6",
+          "calories": 255,
+          "protein": 3,
+          "fat": 15,
+          "carbs": 29,
+          "fiber": 1,
+          "sodium": 270,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 280,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 7,
+          "sugars": 21
+        },
+        {
+          "name": "Large Killer Brownie Brookie",
+          "calories": 2880,
+          "protein": 32,
+          "fat": 144,
+          "carbs": 384,
+          "fiber": 16,
+          "sodium": 2240,
+          "cholesterol": 320,
+          "sugars": 240
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Pure Leaf Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Juice Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Bottled Pop - 20oz",
+          "servingSize": "20 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Gatorade",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Fountain Drink",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    }
+  ]
+}

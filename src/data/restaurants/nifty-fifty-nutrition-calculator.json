@@ -1,19 +1,23 @@
 {
+  "name": "Nifty Fifty",
   "slug": "nifty-fifty-nutrition-calculator",
-  "title": "🍽 Nifty Fifty Nutrition Calculator",
+  "tagline": "Calculate nutrition for classic diner favorites.",
   "description": "Calculate nutrition for classic diner favorites.",
+  "category": "Sit-Down Dining",
+  "emoji": "🍽",
+  "itemCount": 51,
   "categories": [
     {
       "name": "Shake Of The Month",
       "items": [
         {
           "name": "Coconut Creme Egg Milkshake",
-          "calories": 910.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 910,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -22,102 +26,102 @@
       "items": [
         {
           "name": "Hamburger (Single)",
-          "calories": 550.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 550,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cheeseburger (Single)",
-          "calories": 650.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cheeseburger (Double)",
-          "calories": 950.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 950,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Bacon Cheeseburger (Double)",
-          "calories": 1080.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1080,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Texas Ringer Burger",
-          "calories": 890.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 890,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Royal Burger",
-          "calories": 720.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 720,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mushroom Swiss Burger",
-          "calories": 720.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 720,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chili Cheeseburger",
-          "calories": 820.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 820,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Leo Special Burger",
-          "calories": 680.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 680,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Turkey Cheeseburger",
-          "calories": 620.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "The Beyond Burger",
-          "calories": 580.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 580,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -126,57 +130,57 @@
       "items": [
         {
           "name": "Cheesesteak",
-          "calories": 950.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 950,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mushroom Swiss Cheesesteak",
-          "calories": 1020.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1020,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Bacon Cheesesteak",
-          "calories": 1080.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1080,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chicken Cheesesteak",
-          "calories": 820.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 820,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Buffalo Chicken Cheesesteak",
-          "calories": 870.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 870,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chicken Caesar Steak",
-          "calories": 780.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 780,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -185,48 +189,48 @@
       "items": [
         {
           "name": "Fresh Cut Fries (Small)",
-          "calories": 420.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 420,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Fresh Cut Fries (Large)",
-          "calories": 780.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 780,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Spicy Fries (Small)",
-          "calories": 430.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Spicy Fries (Large)",
-          "calories": 800.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 800,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cheese Fries (Small)",
-          "calories": 580.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 580,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -235,93 +239,93 @@
       "items": [
         {
           "name": "Vanilla",
-          "calories": 680.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 680,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chocolate",
-          "calories": 720.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 720,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Strawberry",
-          "calories": 690.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Black & White",
-          "calories": 700.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 700,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Banana",
-          "calories": 710.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Almond",
-          "calories": 710.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Black Raspberry",
-          "calories": 670.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cotton Candy",
-          "calories": 760.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 760,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Coffee",
-          "calories": 650.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mocha",
-          "calories": 710.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -330,39 +334,39 @@
       "items": [
         {
           "name": "Cheesecake",
-          "calories": 900.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 900,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Oreo Cheesecake",
-          "calories": 980.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 980,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Strawberry Cheesecake",
-          "calories": 920.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 920,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Caramel Cheesecake",
-          "calories": 950.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 950,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -371,30 +375,30 @@
       "items": [
         {
           "name": "Dirt Cake",
-          "calories": 1050.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1050,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Caramel Apple Pie",
-          "calories": 920.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 920,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Boston Cream Pie",
-          "calories": 900.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 900,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -403,48 +407,48 @@
       "items": [
         {
           "name": "Peanut Butter Kandykake",
-          "calories": 1100.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Death by Chocolate",
-          "calories": 960.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 960,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Snickers",
-          "calories": 950.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 950,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Reese's Cup",
-          "calories": 920.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 920,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mint Oreo",
-          "calories": 860.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 860,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -453,30 +457,30 @@
       "items": [
         {
           "name": "1950 Bacon",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "1951 Sausage",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Filet Mignon Platter",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -485,30 +489,30 @@
       "items": [
         {
           "name": "Cheese Omelet",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Fiftys Omelet",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cheese Steak Omelet",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     }

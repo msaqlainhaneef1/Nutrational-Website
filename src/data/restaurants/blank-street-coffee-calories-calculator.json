@@ -1,127 +1,131 @@
 {
+  "name": "Blank Street Coffee",
   "slug": "blank-street-coffee-calories-calculator",
-  "title": "☕ Blank Street Coffee Calculator",
+  "tagline": "Track calories in Blank Street Coffee drinks.",
   "description": "Track calories in Blank Street Coffee drinks.",
+  "category": "Coffee & Drinks",
+  "emoji": "☕",
+  "itemCount": 50,
   "categories": [
     {
       "name": "Coffee",
       "items": [
         {
           "name": "Hot Brew",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Double Espresso",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Americano",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cortado",
-          "calories": 65.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 65,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Latte",
-          "calories": 140.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cappuccino",
-          "calories": 140.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Flat White",
-          "calories": 94.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 94,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mocha",
-          "calories": 195.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 195,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Americano",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Cortado",
-          "calories": 47.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 47,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Latte",
-          "calories": 94.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 94,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Mocha",
-          "calories": 226.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 226,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Macchiato",
-          "calories": 4.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -130,121 +134,121 @@
       "items": [
         {
           "name": "Matcha Tea (Plain)",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Matcha Latte",
-          "calories": 138.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 138,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Matcha Latte",
-          "calories": 101.0,
-          "protein": 2.0,
-          "carbs": 10.0,
-          "fat": 4.0,
-          "fiber": 1.0,
-          "sodium": 63.0,
-          "sugars": 4.0
+          "calories": 101,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 10,
+          "fiber": 1,
+          "sodium": 63,
+          "sugars": 4
         },
         {
           "name": "Blueberry Matcha",
-          "calories": 201.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 201,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Blueberry Matcha",
-          "calories": 169.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 169,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Strawberry Shortcake Matcha",
-          "calories": 145.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 145,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Daydream Matcha",
-          "calories": 130.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "White Chocolate Matcha",
-          "calories": 135.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 135,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cookies & Cream Matcha",
-          "calories": 215.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 215,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Salted Pistachio Matcha",
-          "calories": 150.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Maple Matcha",
-          "calories": 160.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Banana Bread Matcha",
-          "calories": 239.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 239,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Vanilla Fudge Matcha",
-          "calories": 192.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 192,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -253,57 +257,57 @@
       "items": [
         {
           "name": "Daydream Latte",
-          "calories": 150.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pistachio Latte",
-          "calories": 190.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Strawberries & Cream Latte",
-          "calories": 160.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Rocky Road Latte",
-          "calories": 210.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Honey Macadamia Latte",
-          "calories": 205.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 205,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chocolate Orange Mocha",
-          "calories": 203.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 203,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -312,30 +316,30 @@
       "items": [
         {
           "name": "Original Cold Brew",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cold Brew Latte",
-          "calories": 115.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 115,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mocha Cold Brew Latte",
-          "calories": 150.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -344,57 +348,57 @@
       "items": [
         {
           "name": "Hot Chocolate",
-          "calories": 250.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Tea",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Hot Tea",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chai Latte",
-          "calories": 170.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Lemon Tea",
-          "calories": 88.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 88,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Iced Peach Tea",
-          "calories": 103.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 103,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -403,84 +407,84 @@
       "items": [
         {
           "name": "Plain Croissant",
-          "calories": 242.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 242,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Almond Croissant",
-          "calories": 424.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 424,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pain au Chocolat",
-          "calories": 312.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 312,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mini Raspberry Bite",
-          "calories": 330.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 330,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Vegan Vanilla Danish",
-          "calories": 308.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 308,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Vegan Cinnamon Bun",
-          "calories": 546.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 546,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pistachio Pain Au Chocolat",
-          "calories": 409.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 409,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Blueberry Muffin",
-          "calories": 410.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "GF Olive Oil Loaf",
-          "calories": 380.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     }

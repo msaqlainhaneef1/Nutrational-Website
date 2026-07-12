@@ -30,33 +30,33 @@ interface Props {
 const { name, servingSize, calories, macros, micros = {} } = Astro.props;
 ---
 
-<div class="glass-card rounded-3xl p-6 max-w-md mx-auto border-t-4 border-t-emerald-500">
-  <div class="border-b border-zinc-900/60 pb-3">
-    <h3 class="font-extrabold text-2xl tracking-tight text-white uppercase font-display">Nutrition Facts</h3>
-    <p class="text-sm text-zinc-400 mt-1 font-sans">Food name: <span class="text-white font-semibold">{name}</span></p>
-    <p class="text-sm text-zinc-400 font-sans">Serving Size: <span class="text-white font-semibold">{servingSize}</span></p>
+<div class="glass-card rounded-2xl p-6 max-w-md mx-auto border-t-4 border-t-emerald-500">
+  <div class="border-b border-zinc-800 pb-3">
+    <h3 class="font-extrabold text-2xl tracking-tight text-white uppercase">Nutrition Facts</h3>
+    <p class="text-sm text-zinc-400 mt-1">Food name: <span class="text-white font-semibold">{name}</span></p>
+    <p class="text-sm text-zinc-400">Serving Size: <span class="text-white font-semibold">{servingSize}</span></p>
   </div>
 
-  <div class="flex justify-between items-baseline py-4 border-b-8 border-zinc-900/60">
-    <span class="font-black text-xl text-white font-display">Amount Per Serving</span>
+  <div class="flex justify-between items-baseline py-4 border-b-8 border-zinc-800">
+    <span class="font-black text-xl text-white">Amount Per Serving</span>
     <div class="text-right">
-      <span class="font-bold text-sm text-zinc-400 block uppercase font-sans">Calories</span>
-      <span class="font-black text-4xl text-emerald-450 font-display">{calories}</span>
+      <span class="font-bold text-sm text-zinc-400 block uppercase">Calories</span>
+      <span class="font-black text-4xl text-emerald-400">{calories}</span>
     </div>
   </div>
 
-  <div class="text-right text-xs font-bold text-zinc-500 py-1.5 border-b border-zinc-900/60 font-sans">
+  <div class="text-right text-xs font-bold text-zinc-400 py-1.5 border-b border-zinc-800">
     % Daily Value *
   </div>
 
-  <div class="divide-y divide-zinc-900/60 border-b-4 border-zinc-900/60">
-    <div class="flex justify-between py-2.5 text-sm font-sans">
-      <span class="text-zinc-200"><strong class="font-bold text-white">Total Fat</strong> {macros.fat.value}{macros.fat.unit}</span>
+  <div class="divide-y divide-zinc-900 border-b-4 border-zinc-800">
+    <div class="flex justify-between py-2.5 text-sm">
+      <span class="text-white"><strong class="font-bold">Total Fat</strong> {macros.fat.value}{macros.fat.unit}</span>
       <span class="font-bold text-white">{macros.fat.pctDailyValue !== undefined ? `${macros.fat.pctDailyValue}%` : '--'}</span>
     </div>
 
-    <div class="flex justify-between py-2.5 text-sm font-sans">
-      <span class="text-zinc-200"><strong class="font-bold text-white">Total Carbohydrate</strong> {macros.carbs.value}{macros.carbs.unit}</span>
+    <div class="flex justify-between py-2.5 text-sm">
+      <span class="text-white"><strong class="font-bold">Total Carbohydrate</strong> {macros.carbs.value}{macros.carbs.unit}</span>
       <span class="font-bold text-white">{macros.carbs.pctDailyValue !== undefined ? `${macros.carbs.pctDailyValue}%` : '--'}</span>
     </div>
 
@@ -81,7 +81,7 @@ const { name, servingSize, calories, macros, micros = {} } = Astro.props;
   </div>
 
   {Object.keys(micros).length > 0 && (
-    <div class="divide-y divide-zinc-900/60 border-b border-zinc-900/60 text-sm">
+    <div class="divide-y divide-zinc-900 border-b border-zinc-800 text-sm">
       {micros.cholesterol && (
         <div class="flex justify-between py-2">
           <span class="text-zinc-300">Cholesterol {micros.cholesterol.value}{micros.cholesterol.unit}</span>

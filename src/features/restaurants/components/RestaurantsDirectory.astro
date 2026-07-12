@@ -1,97 +1,231 @@
 ---
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
-import { ArrowRight, Utensils, Search, CircleAlert } from '@lucide/astro';
+import { Search, ArrowRight, Database, Filter, X } from '@lucide/astro';
+import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
-  restaurants: any[];
+  restaurants: Restaurant[];
+  categories: { name: string; count: number }[];
 }
 
-const { restaurants } = Astro.props;
+const { restaurants, categories } = Astro.props;
+const totalItems = restaurants.reduce((s, r) => s + (r.itemCount || r.categories.reduce((sc, c) => sc + c.items.length, 0)), 0);
 ---
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
   <Breadcrumb items={[{ label: 'Restaurants', url: '/restaurants' }]} />
 
-  <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-zinc-900/60 pb-6">
-    <div class="space-y-3">
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Restaurant Nutrition Database</h1>
-      <p class="text-zinc-400 text-sm max-w-2xl font-sans">
-        Select a restaurant to browse their full menu, view exact calories, search individual dishes, and find healthy meals.
-      </p>
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+      <Database class="h-4 w-4" />
+      <span>{restaurants.length} chains, {totalItems.toLocaleString()} menu items</span>
     </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+      Restaurant nutrition database
+    </h1>
+    <p class="text-zinc-400 text-base max-w-3xl leading-relaxed">
+      Pick a chain to see every menu item with full calorie and macro data. Use the search to filter by name,
+      or jump to a cuisine category. All data is sourced from public restaurant disclosures.
+    </p>
+  </div>
 
-    <!-- Live Search Input Widget -->
-    <div class="relative w-full md:max-w-xs flex-shrink-0">
-      <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-500">
-        <Search class="h-4 w-4 stroke-[2.5]" />
+  <!-- Search + Stats -->
+  <div class="glass-card rounded-2xl p-5 space-y-4">
+    <div class="relative">
+      <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-zinc-500">
+        <Search class="h-5 w-5" />
       </div>
       <input
         type="text"
         id="restaurant-search-input"
-        placeholder={`Search ${restaurants.length} restaurants...`}
-        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900/60 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/80 text-sm transition-all font-sans font-medium"
+        placeholder="Search restaurants by name, like Starbucks, McDonald's, or Chipotle..."
+        class="block w-full pl-12 pr-12 py-3.5 bg-zinc-900 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all"
       />
+      <button id="clear-search" type="button" class="absolute inset-y-0 right-0 pr-4 hidden text-zinc-500 hover:text-white">
+        <X class="h-5 w-5" />
+      </button>
+    </div>
+
+    <!-- Category filter pills -->
+    <div class="flex items-center gap-2 flex-wrap">
+      <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-zinc-500 mr-1">
+        <Filter class="h-3.5 w-3.5" />
+        <span>Filter:</span>
+      </div>
+      <button data-category="all" class="category-pill active px-3 py-1.5 rounded-full text-xs font-semibold border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 transition-all">
+        All <span class="opacity-60">{restaurants.length}</span>
+      </button>
+      {categories.map((cat) => (
+        <button
+          data-category={cat.name}
+          class="category-pill px-3 py-1.5 rounded-full text-xs font-semibold border border-zinc-800 bg-zinc-900 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700 transition-all"
+        >
+          {cat.name} <span class="opacity-60">{cat.count}</span>
+        </button>
+      ))}
     </div>
   </div>
 
-  <!-- Restaurants grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2" id="restaurants-grid">
-    {restaurants.map((res) => (
-      <a 
-        href={`/restaurants/${res.slug}`} 
-        class="restaurant-card glass-card rounded-3xl p-7 border border-zinc-900/60 flex items-center justify-between group transition-all duration-300 hover:border-emerald-500/20"
-        data-restaurant-name={res.name.toLowerCase()}
-      >
-        <div class="space-y-3">
-          <div class="flex items-center space-x-3">
-            <div class="p-2.5 bg-emerald-500/10 text-emerald-450 rounded-xl border border-emerald-500/20 group-hover:border-emerald-500/40 group-hover:bg-emerald-500/20 transition-all">
-              <Utensils class="h-5 w-5" />
-            </div>
-            <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors font-display">{res.name}</h2>
-          </div>
-          <p class="text-zinc-400 text-sm leading-relaxed max-w-md line-clamp-2 font-sans">{res.description || `Browse nutritional information and calculate calories for ${res.name} menu items.`}</p>
-        </div>
-        
-        <div class="p-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl group-hover:border-emerald-500/30 group-hover:bg-emerald-500/10 transition-all text-zinc-400 group-hover:text-emerald-400 flex-shrink-0 ml-4">
-          <ArrowRight class="h-5 w-5 stroke-[2.5]" />
-        </div>
-      </a>
-    ))}
+  <!-- Results meta -->
+  <div class="flex items-center justify-between">
+    <p class="text-sm text-zinc-500">
+      Showing <span id="result-count" class="text-zinc-300 font-semibold">{restaurants.length}</span> restaurants
+    </p>
   </div>
 
-  <!-- Empty State Widget -->
-  <div id="restaurants-empty-state" class="hidden text-center py-20 glass-card rounded-3xl border border-zinc-900/60">
-    <CircleAlert class="h-10 w-10 text-zinc-600 mx-auto mb-3" />
-    <h3 class="font-bold text-zinc-300 font-display">No restaurants found</h3>
-    <p class="text-sm text-zinc-500 mt-1 font-sans">Try modifying your search queries.</p>
+  <!-- Restaurant grid -->
+  <div id="restaurant-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    {restaurants.map((res) => {
+      const count = res.itemCount || res.categories.reduce((s, c) => s + c.items.length, 0);
+      return (
+        <a
+          href={`/restaurants/${res.slug}`}
+          data-name={res.name.toLowerCase()}
+          data-category={res.category || 'Restaurant'}
+          class="restaurant-card glass-card rounded-2xl p-5 flex flex-col group h-full"
+        >
+          <div class="flex items-start justify-between mb-3">
+            <div class="text-4xl leading-none">{res.emoji || '🍽'}</div>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-900/80 border border-zinc-800 px-2 py-0.5 rounded-full">
+              {res.category || 'Restaurant'}
+            </span>
+          </div>
+          <div class="flex-grow">
+            <h3 class="font-bold text-base text-white group-hover:text-emerald-400 transition-colors leading-snug">
+              {res.name}
+            </h3>
+            <p class="text-xs text-zinc-500 mt-1.5 line-clamp-2 leading-relaxed">{res.tagline || res.description}</p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-zinc-900/80 flex items-center justify-between text-xs">
+            <span class="text-zinc-400 font-semibold">{count} items</span>
+            <span class="inline-flex items-center gap-1 text-emerald-400 font-bold">
+              View
+              <ArrowRight class="h-3.5 w-3.5 transform group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <!-- Empty state -->
+  <div id="empty-state" class="hidden glass-card rounded-3xl p-12 text-center">
+    <div class="text-5xl mb-3">🔍</div>
+    <h3 class="font-bold text-white text-lg">No restaurants match your search</h3>
+    <p class="text-zinc-500 text-sm mt-1">Try a different keyword or clear the filter.</p>
+    <button id="reset-search" class="mt-4 inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-lg transition-colors">
+      <X class="h-4 w-4" />
+      Reset search
+    </button>
   </div>
 </div>
 
 <script is:inline>
-  const searchInput = document.getElementById('restaurant-search-input');
-  const cards = document.querySelectorAll('.restaurant-card');
-  const emptyState = document.getElementById('restaurants-empty-state');
+  (function () {
+    const searchInput = document.getElementById('restaurant-search-input');
+    const clearBtn = document.getElementById('clear-search');
+    const resetBtn = document.getElementById('reset-search');
+    const grid = document.getElementById('restaurant-grid');
+    const cards = grid ? Array.from(grid.querySelectorAll('.restaurant-card')) : [];
+    const emptyState = document.getElementById('empty-state');
+    const resultCount = document.getElementById('result-count');
+    const pills = Array.from(document.querySelectorAll('.category-pill'));
+    const total = cards.length;
 
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-      let visibleCount = 0;
+    let query = '';
+    let activeCategory = 'all';
 
-      cards.forEach((card) => {
-        const name = card.dataset.restaurantName;
-        if (name.includes(query)) {
-          card.classList.remove('hidden');
-          visibleCount++;
+    // Pre-compute normalized name + category for each card
+    const cardData = cards.map((card) => ({
+      el: card,
+      name: (card.dataset.name || '').toLowerCase(),
+      category: card.dataset.category || '',
+    }));
+
+    function apply() {
+      let visible = 0;
+      for (const c of cardData) {
+        const matchesQuery = !query || c.name.includes(query);
+        const matchesCat = activeCategory === 'all' || c.category === activeCategory;
+        if (matchesQuery && matchesCat) {
+          c.el.classList.remove('hidden');
+          visible++;
         } else {
-          card.classList.add('hidden');
+          c.el.classList.add('hidden');
         }
-      });
-
-      if (visibleCount === 0) {
-        emptyState.classList.remove('hidden');
-      } else {
-        emptyState.classList.add('hidden');
       }
+      if (resultCount) resultCount.textContent = String(visible);
+      if (emptyState) emptyState.classList.toggle('hidden', visible > 0);
+      if (grid) grid.classList.toggle('hidden', visible === 0);
+    }
+
+    function setPillActive(target) {
+      pills.forEach((p) => {
+        const isActive = p === target;
+        p.classList.toggle('active', isActive);
+        p.classList.toggle('border-emerald-500/30', isActive);
+        p.classList.toggle('bg-emerald-500/10', isActive);
+        p.classList.toggle('text-emerald-400', isActive);
+        p.classList.toggle('border-zinc-800', !isActive);
+        p.classList.toggle('bg-zinc-900', !isActive);
+        p.classList.toggle('text-zinc-400', !isActive);
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        query = e.target.value.toLowerCase().trim();
+        if (clearBtn) clearBtn.classList.toggle('hidden', !query);
+        apply();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        query = '';
+        clearBtn.classList.add('hidden');
+        apply();
+      });
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        query = '';
+        activeCategory = 'all';
+        if (clearBtn) clearBtn.classList.add('hidden');
+        const allPill = pills.find((p) => p.dataset.category === 'all');
+        if (allPill) setPillActive(allPill);
+        apply();
+      });
+    }
+
+    pills.forEach((pill) => {
+      pill.addEventListener('click', () => {
+        activeCategory = pill.dataset.category || 'all';
+        setPillActive(pill);
+        apply();
+      });
     });
-  }
+
+    // Support ?category= and ?q= deep links
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category');
+    const q = params.get('q');
+    if (cat) {
+      const target = pills.find((p) => p.dataset.category === cat);
+      if (target) {
+        activeCategory = cat;
+        setPillActive(target);
+      }
+    }
+    if (q && searchInput) {
+      searchInput.value = q;
+      query = q.toLowerCase().trim();
+      if (clearBtn) clearBtn.classList.remove('hidden');
+    }
+    apply();
+  })();
 </script>

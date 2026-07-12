@@ -1,0 +1,1010 @@
+{
+  "name": "Salata",
+  "slug": "salata-nutrition-calculator",
+  "tagline": "Calculate Salata calories, protein, carbs and fat. Free Salata nutrition calculator with complete menu data...",
+  "description": "Calculate Salata calories, protein, carbs and fat. Free Salata nutrition calculator with complete menu data for all items.",
+  "category": "Breakfast & Healthy",
+  "emoji": "🍽",
+  "itemCount": 102,
+  "categories": [
+    {
+      "name": "Dressings",
+      "items": [
+        {
+          "name": "Fresh Herb Vinaigrette",
+          "calories": 250,
+          "protein": 0,
+          "fat": 27,
+          "carbs": 5,
+          "sodium": 730,
+          "saturated_fat": 1.5,
+          "sugars": 3
+        },
+        {
+          "name": "Balsamic Vinaigrette",
+          "calories": 320,
+          "protein": 0,
+          "fat": 32,
+          "carbs": 6,
+          "sodium": 260,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Lemon Vinaigrette",
+          "calories": 250,
+          "protein": 0,
+          "fat": 28,
+          "carbs": 0,
+          "sodium": 280,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "White Miso Vinaigrette",
+          "calories": 180,
+          "protein": 1,
+          "fat": 16,
+          "carbs": 8,
+          "sodium": 170,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Fat-free Sun-Dried Tomato",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 530,
+          "sugars": 2
+        },
+        {
+          "name": "Lemon Juice",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Olive Oil",
+          "calories": 130,
+          "protein": 0,
+          "fat": 28,
+          "carbs": 2,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Balsamic Vinegar",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Buttermilk Ranch",
+          "calories": 200,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 2,
+          "sodium": 400,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Spicy Chipotle Ranch",
+          "calories": 150,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 2,
+          "sodium": 460,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Honey Mustard",
+          "calories": 230,
+          "protein": 0,
+          "fat": 23,
+          "carbs": 7,
+          "sodium": 280,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 7
+        },
+        {
+          "name": "Ginger Lime Vinaigrette",
+          "calories": 240,
+          "protein": 0,
+          "fat": 24,
+          "carbs": 6,
+          "sodium": 260,
+          "saturated_fat": 1.5,
+          "sugars": 5
+        },
+        {
+          "name": "Jalapeno Avocado",
+          "calories": 170,
+          "protein": 1,
+          "fat": 18,
+          "carbs": 2,
+          "sodium": 450,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Fat-free Mango",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "sodium": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Classic Caesar",
+          "calories": 290,
+          "protein": 10,
+          "fat": 28,
+          "carbs": 1,
+          "sodium": 630,
+          "cholesterol": 50,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Steak",
+      "items": [
+        {
+          "name": "Angus-Certified Beef Steak",
+          "calories": 200,
+          "protein": 16,
+          "fat": 14,
+          "carbs": 2,
+          "sodium": 470,
+          "cholesterol": 55,
+          "saturated_fat": 4.5
+        }
+      ]
+    },
+    {
+      "name": "Poultry",
+      "items": [
+        {
+          "name": "Herb-Marinated Grilled Chicken",
+          "calories": 170,
+          "protein": 18,
+          "fat": 4.5,
+          "carbs": 15,
+          "sodium": 1180,
+          "cholesterol": 40,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Pesto Chicken",
+          "calories": 230,
+          "protein": 19,
+          "fat": 11,
+          "carbs": 14,
+          "sodium": 1280,
+          "cholesterol": 40,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Spicy Chipotle Chicken",
+          "calories": 170,
+          "protein": 16,
+          "fat": 5,
+          "carbs": 16,
+          "sodium": 1170,
+          "cholesterol": 40,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Smoked Turkey",
+          "calories": 110,
+          "protein": 20,
+          "fat": 2,
+          "carbs": 2,
+          "sodium": 820,
+          "cholesterol": 55,
+          "sugars": 2
+        },
+        {
+          "name": "Gochujang Chicken",
+          "calories": 180,
+          "protein": 20,
+          "fat": 6,
+          "carbs": 10,
+          "sodium": 1200,
+          "cholesterol": 45,
+          "saturated_fat": 1.5,
+          "sugars": 8
+        },
+        {
+          "name": "Honey Crispy Chicken",
+          "calories": 250,
+          "protein": 18,
+          "fat": 12,
+          "carbs": 20,
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 40,
+          "saturated_fat": 2.5,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        {
+          "name": "Herb-Marinated Shrimp",
+          "calories": 120,
+          "protein": 16,
+          "fat": 4.5,
+          "carbs": 1,
+          "sodium": 440,
+          "cholesterol": 125
+        },
+        {
+          "name": "Chipotle Shrimp",
+          "calories": 80,
+          "protein": 15,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 360,
+          "cholesterol": 135
+        },
+        {
+          "name": "Baked Salmon",
+          "calories": 160,
+          "protein": 22,
+          "fat": 17,
+          "carbs": 0,
+          "sodium": 65,
+          "cholesterol": 60,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Herb-Marinated Krabmeat",
+          "calories": 170,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 22,
+          "sodium": 1020,
+          "cholesterol": 10,
+          "sugars": 7
+        },
+        {
+          "name": "Seafood Mix",
+          "calories": 150,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 15,
+          "sodium": 790,
+          "cholesterol": 40,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Vegan Proteins",
+      "items": [
+        {
+          "name": "Falafel",
+          "calories": 140,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 23,
+          "fiber": 9,
+          "sodium": 420,
+          "sugars": 4
+        },
+        {
+          "name": "Quinoa",
+          "calories": 70,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 12,
+          "fiber": 1
+        },
+        {
+          "name": "Grilled Tofu",
+          "calories": 170,
+          "protein": 7,
+          "fat": 15,
+          "carbs": 4,
+          "sodium": 300,
+          "saturated_fat": 1,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Soup",
+      "items": [
+        {
+          "name": "Chicken Tortilla Soup",
+          "calories": 70,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 7,
+          "fiber": 2,
+          "sodium": 850,
+          "cholesterol": 15,
+          "sugars": 2
+        },
+        {
+          "name": "Tomato Basil Soup",
+          "calories": 310,
+          "protein": 3,
+          "fat": 27,
+          "carbs": 16,
+          "fiber": 3,
+          "sodium": 1100,
+          "cholesterol": 100,
+          "saturated_fat": 18,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Lettuce",
+      "items": [
+        {
+          "name": "Romaine Hearts",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 5
+        },
+        {
+          "name": "Salata Mix",
+          "calories": 40,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 8,
+          "fiber": 5,
+          "sodium": 15,
+          "sugars": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 40
+        },
+        {
+          "name": "Baby Kale",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 15,
+          "sugars": 1
+        },
+        {
+          "name": "Kale",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 15,
+          "sugars": 1
+        },
+        {
+          "name": "Arugula",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 5
+        },
+        {
+          "name": "Arcadian Mix",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 15
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Carrots",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 15,
+          "sugars": 1
+        },
+        {
+          "name": "Cucumbers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Tomatoes",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Broccoli",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Bell Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Jicama",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Radishes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Edamame",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 2
+        },
+        {
+          "name": "Red Onions",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Bean Sprouts",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Mixed Cabbage",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Cilantro",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Corn",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Beets",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 25,
+          "sugars": 1
+        },
+        {
+          "name": "Black Beans",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 2,
+          "sodium": 25
+        },
+        {
+          "name": "Green Peas",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Green Olives",
+          "calories": 35,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 280,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Chick Peas",
+          "calories": 30,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 55
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 160
+        },
+        {
+          "name": "Pickles",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 350
+        },
+        {
+          "name": "Apples",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Grapes",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 3
+        },
+        {
+          "name": "Strawberries",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pineapples",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Fresh Jalapenos",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1
+        },
+        {
+          "name": "Avocado",
+          "calories": 130,
+          "protein": 2,
+          "fat": 13,
+          "carbs": 6,
+          "fiber": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Artichoke Hearts",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 190
+        },
+        {
+          "name": "Sun-Dried Tomatoes",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "sodium": 120,
+          "sugars": 6
+        },
+        {
+          "name": "Mandarin Oranges",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Dried Cranberries",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 16,
+          "fiber": 1,
+          "sugars": 14
+        },
+        {
+          "name": "Blueberries",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 380
+        },
+        {
+          "name": "Pumpkin Seeds",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 1,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Almonds",
+          "calories": 45,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 2,
+          "fiber": 1
+        },
+        {
+          "name": "Walnuts",
+          "calories": 60,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 2,
+          "fiber": 1
+        },
+        {
+          "name": "Cheddar & Monterey Jack Cheese",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Feta Cheese",
+          "calories": 45,
+          "protein": 4,
+          "fat": 3.5,
+          "carbs": 1,
+          "sodium": 110,
+          "cholesterol": 10,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Blue Cheese",
+          "calories": 60,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 240,
+          "cholesterol": 15,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Parmesan Cheese",
+          "calories": 45,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chopped Egg",
+          "calories": 40,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 30,
+          "cholesterol": 95,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Pasta",
+          "calories": 110,
+          "protein": 4,
+          "fat": 1.5,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 35,
+          "sugars": 1
+        },
+        {
+          "name": "Sesame Sticks",
+          "calories": 70,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 6,
+          "fiber": 1,
+          "sodium": 180,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tortilla Strips",
+          "calories": 40,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 7,
+          "fiber": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Chopped Bacon",
+          "calories": 50,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Watermelon",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Spicy Kimchi",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 400,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Tortillas",
+      "items": [
+        {
+          "name": "Whole Wheat Tortilla",
+          "calories": 280,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 48,
+          "fiber": 4,
+          "sodium": 470,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Southwest Tortilla",
+          "calories": 290,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 510,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Cool Cucumber Tortilla",
+          "calories": 290,
+          "protein": 9,
+          "fat": 8,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 460,
+          "saturated_fat": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Bread & Desserts",
+      "items": [
+        {
+          "name": "Baked Pita Chips",
+          "calories": 100,
+          "protein": 5,
+          "fat": 0.5,
+          "carbs": 21,
+          "fiber": 3,
+          "sodium": 21
+        },
+        {
+          "name": "Baked Croutons",
+          "calories": 120,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 9,
+          "sodium": 150,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Multigrain Croissant",
+          "calories": 120,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 14,
+          "fiber": 1,
+          "sodium": 115,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 2
+        },
+        {
+          "name": "Chocolate Chunk Cookie",
+          "calories": 180,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 27,
+          "sodium": 200,
+          "cholesterol": 5,
+          "saturated_fat": 3.5,
+          "sugars": 15
+        },
+        {
+          "name": "White Choc. Macadamia Cookie",
+          "calories": 260,
+          "protein": 2,
+          "fat": 13,
+          "carbs": 33,
+          "sodium": 250,
+          "cholesterol": 10,
+          "saturated_fat": 6,
+          "sugars": 20
+        },
+        {
+          "name": "Oatmeal Raisin Cookie",
+          "calories": 220,
+          "protein": 3,
+          "fat": 7,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 21
+        },
+        {
+          "name": "Pumpkin Puff Cookie",
+          "calories": 230,
+          "protein": 2,
+          "fat": 13,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 210,
+          "cholesterol": 15,
+          "saturated_fat": 6,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Signature Drinks",
+      "items": [
+        {
+          "name": "Black Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 15
+        },
+        {
+          "name": "Citrus Ginger Green Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 15
+        },
+        {
+          "name": "Sweet Tea",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sugars": 30
+        },
+        {
+          "name": "Peach Lemonade",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 43,
+          "sodium": 10,
+          "sugars": 41
+        },
+        {
+          "name": "Strawberry Lemonade",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 43,
+          "sodium": 10,
+          "sugars": 41
+        },
+        {
+          "name": "Classic Lemonade",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sodium": 10,
+          "sugars": 39
+        }
+      ]
+    }
+  ]
+}

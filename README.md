@@ -1,46 +1,78 @@
-# Astro Starter Kit: Basics
+# NutriFlow
+
+A privacy-first nutrition reference site covering 100 restaurant chains, 16,000+ menu items, and a growing library of whole foods. Built with Astro, Tailwind v4, and zero runtime trackers.
+
+## What this is
+
+- A static site (Astro SSG) that renders every page at build time.
+- A restaurant nutrition database with 100 chains and full macro data per item.
+- A whole foods reference with calories, macros, and key micronutrients.
+- Three browser-side health calculators (BMI, BMR, TDEE).
+- A small blog covering energy balance, label literacy, and macro basics.
+- A build-time search index (Pagefind) that runs entirely in the browser.
+
+## What this is not
+
+- Not a tracker. No analytics cookies, no third-party scripts.
+- Not a SaaS. No backend, no database, no signup.
+- Not medical advice. Numbers are sourced from public restaurant disclosures and USDA reference data.
+
+## Stack
+
+| Layer | Choice | Why |
+|---|---|---|
+| Framework | Astro 7 | Static output, islands architecture, fast builds |
+| Styling | Tailwind v4 (CSS-first) | No JS runtime, design tokens in CSS `@theme` |
+| Validation | Zod 4 | Build-time schema checks on every JSON file |
+| Search | Pagefind 1 | Post-build static search index, lazy-loaded |
+| Charts | Chart.js 4 | Lazy-loaded only on food detail pages |
+| Icons | lucide-astro | Tree-shaken SVG icons, zero runtime |
+
+## Project structure
+
+```
+src/
+  content/blog/             Markdown blog posts (Astro Content Collections)
+  content.config.ts         Blog collection schema
+  data/
+    foods/*.json            Whole food nutrition data (curated)
+    restaurants/*.json      Restaurant menu data (100 chains, 16k items)
+  features/
+    nutrition/              Food schemas, services, components
+    restaurants/            Restaurant schemas, services, components
+    calculators/            BMI, BMR, TDEE logic and UI
+    authors/                EEAT author widget
+    shared/                 Cross-feature components and services
+  layouts/Layout.astro      Master HTML shell
+  pages/                    File-based routes (8 routes + 100 dynamic)
+  styles/global.css         Tailwind v4 theme + glassmorphism utilities
+scripts/
+  sync-nutrition.ts         Optional OFF API importer (manual run)
+```
+
+## Commands
 
 ```sh
-npm create astro@latest -- --template basics
+npm install           # install deps (node >= 22.12)
+npm run dev           # local dev at localhost:4321
+npm run build         # astro build + pagefind index
+npm run preview       # preview the built site
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Adding data
 
-## 🚀 Project Structure
+### New restaurant
 
-Inside of your Astro project, you'll see the following folders and files:
+Drop a JSON file in `src/data/restaurants/<slug>.json` matching the `RestaurantSchema` in `src/features/restaurants/schemas/restaurant.ts`. The site picks it up automatically at build time.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+### New whole food
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Drop a JSON file in `src/data/foods/<slug>.json` matching the `FoodSchema` in `src/features/nutrition/schemas/food.ts`.
 
-## 🧞 Commands
+### New blog post
 
-All commands are run from the root of the project, from a terminal:
+Create a Markdown file in `src/content/blog/<slug>.md` with the required frontmatter (title, description, pubDate, author, category).
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## License
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Source code is MIT. Nutrition data is sourced from public restaurant disclosures and USDA reference tables, used under fair use for educational reference.

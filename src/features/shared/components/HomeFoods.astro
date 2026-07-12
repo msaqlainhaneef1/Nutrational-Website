@@ -1,28 +1,38 @@
 ---
 import FoodCard from '@/features/nutrition/components/FoodCard.astro';
 import { ArrowRight } from '@lucide/astro';
+import type { Food } from '@/features/nutrition/schemas/food';
 
 interface Props {
-  featuredFoods: any[];
+  featuredFoods: Food[];
 }
 
 const { featuredFoods } = Astro.props;
 ---
 
-<section class="bg-zinc-950/40 border-y border-zinc-900/60 py-24 relative">
+<section class="py-20 border-b border-zinc-900/80">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
       <div class="space-y-3">
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Explore Food Nutrition</h2>
-        <p class="text-zinc-400 text-sm font-sans font-medium">Detailed macro- and micronutrient breakdowns generated statically for search index optimization.</p>
+        <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+          <span class="w-8 h-px bg-emerald-500/50"></span>
+          <span>Food reference</span>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+          Whole food nutrition facts
+        </h2>
+        <p class="text-zinc-400 text-sm max-w-2xl leading-relaxed">
+          Plain reference data for single-ingredient foods. No branded products, no marketing copy.
+          Calories, macros, and key micronutrients per 100 gram serving.
+        </p>
       </div>
-      <a href="/foods" class="inline-flex items-center text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors uppercase tracking-wider font-sans group">
-        <span>View All Foods</span>
-        <ArrowRight class="h-4 w-4 ml-1.5 transform group-hover:translate-x-1 transition-transform stroke-[2.5]" />
+      <a href="/foods" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
+        <span>Browse all foods</span>
+        <ArrowRight class="h-4 w-4" />
       </a>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {featuredFoods.map((food) => (
         <FoodCard
           name={food.name}

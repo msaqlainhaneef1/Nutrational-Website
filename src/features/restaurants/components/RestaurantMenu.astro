@@ -1,5 +1,5 @@
 ---
-import { Search, Flame, CircleAlert, Plus, Minus } from '@lucide/astro';
+import { Search, Flame, CircleAlert, Filter, X } from '@lucide/astro';
 import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
@@ -7,283 +7,222 @@ interface Props {
 }
 
 const { restaurant } = Astro.props;
+
+// Compute aggregate stats
+const allItems = restaurant.categories.flatMap((c) => c.items);
+const totalItems = allItems.length;
+const avgCalories = totalItems > 0 ? Math.round(allItems.reduce((s, i) => s + i.calories, 0) / totalItems) : 0;
+const maxCalories = totalItems > 0 ? Math.max(...allItems.map((i) => i.calories)) : 0;
+const lowCalCount = allItems.filter((i) => i.calories > 0 && i.calories < 400).length;
+const highProteinCount = allItems.filter((i) => i.protein >= 20).length;
 ---
 
 <div class="space-y-6">
-  <div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
-    <div class="relative w-full md:max-w-md">
-      <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-500">
-        <Search class="h-4 w-4 stroke-[2.5]" />
+  <!-- Quick stats -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Items on menu</div>
+      <div class="text-2xl font-black text-white mt-1 stat-number">{totalItems}</div>
+    </div>
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Avg calories</div>
+      <div class="text-2xl font-black text-emerald-400 mt-1 stat-number">{avgCalories}</div>
+    </div>
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Under 400 cal</div>
+      <div class="text-2xl font-black text-blue-400 mt-1 stat-number">{lowCalCount}</div>
+    </div>
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">High protein (20g+)</div>
+      <div class="text-2xl font-black text-amber-400 mt-1 stat-number">{highProteinCount}</div>
+    </div>
+  </div>
+
+  <!-- Search + Filter bar -->
+  <div class="glass-card rounded-2xl p-4 space-y-3">
+    <div class="relative">
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-500">
+        <Search class="h-4 w-4" />
       </div>
       <input
         type="text"
         id="menu-search-input"
-        placeholder={`Search menu items in ${restaurant.name}...`}
-        class="block w-full pl-10 pr-4 py-2.5 bg-zinc-900/60 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/80 text-sm transition-all font-sans font-medium"
+        placeholder={`Search ${totalItems} items in ${restaurant.name}...`}
+        class="block w-full pl-10 pr-10 py-2.5 bg-zinc-900 border border-zinc-800 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all"
       />
+      <button id="menu-clear-search" type="button" class="hidden absolute inset-y-0 right-0 pr-3 text-zinc-500 hover:text-white">
+        <X class="h-4 w-4" />
+      </button>
     </div>
 
-    <div class="flex flex-wrap gap-2 w-full md:w-auto">
-      <button
-        type="button"
-        class="category-tab px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border border-emerald-500/20 bg-emerald-500/10 text-emerald-400 cursor-pointer font-sans"
-        data-category="all"
-      >
-        All Items
+    <div class="flex items-center gap-1.5 flex-wrap">
+      <div class="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-zinc-500 mr-1">
+        <Filter class="h-3 w-3" />
+        <span>Category:</span>
+      </div>
+      <button data-category="all" class="menu-cat-pill active px-3 py-1.5 rounded-lg text-xs font-semibold border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 transition-all">
+        All <span class="opacity-60">{totalItems}</span>
       </button>
       {restaurant.categories.map((cat) => (
         <button
-          type="button"
-          class="category-tab px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border border-zinc-900 bg-zinc-900/50 text-zinc-450 hover:text-zinc-200 cursor-pointer font-sans"
           data-category={cat.name}
+          class="menu-cat-pill px-3 py-1.5 rounded-lg text-xs font-semibold border border-zinc-800 bg-zinc-900 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700 transition-all"
         >
-          {cat.name}
+          {cat.name} <span class="opacity-60">{cat.items.length}</span>
         </button>
       ))}
     </div>
   </div>
 
-  <!-- Advanced Filters & Sorting Controls Row -->
-  <div class="flex flex-wrap items-center justify-between gap-4 bg-zinc-900/20 p-4 rounded-2xl border border-zinc-900/60">
-    <!-- Quick Filters -->
-    <div class="flex flex-wrap gap-3 items-center">
-      <span class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest mr-1 font-sans">Quick Filters:</span>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
-        <input type="checkbox" id="filter-high-protein" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
-        <span>High Protein (20g+)</span>
-      </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
-        <input type="checkbox" id="filter-low-cal" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
-        <span>Low Cal (&lt;400 cal)</span>
-      </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
-        <input type="checkbox" id="filter-low-sodium" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
-        <span>Low Sodium (&lt;140mg)</span>
-      </label>
-      <label class="inline-flex items-center space-x-2 text-xs font-semibold text-zinc-400 hover:text-zinc-200 cursor-pointer select-none bg-zinc-950/40 px-3 py-1.5 rounded-xl border border-zinc-900 focus-within:border-emerald-500/40 transition-colors font-sans">
-        <input type="checkbox" id="filter-low-fat" class="rounded border-zinc-800 bg-zinc-950 text-emerald-500 focus:ring-emerald-500/30 accent-emerald-500 h-3.5 w-3.5" />
-        <span>Low Fat (&lt;10g)</span>
-      </label>
-    </div>
-
-    <!-- Sorting -->
-    <div class="flex items-center space-x-2 w-full sm:w-auto">
-      <label for="menu-sort-select" class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest flex-shrink-0 font-sans">Sort:</label>
-      <select
-        id="menu-sort-select"
-        class="block w-full sm:w-auto px-3.5 py-1.5 bg-zinc-950/40 border border-zinc-900 rounded-xl text-zinc-300 focus:outline-none focus:border-emerald-500 text-xs font-semibold transition-all cursor-pointer font-sans"
-      >
-        <option value="default">Name (A-Z)</option>
-        <option value="cal-asc">Calories: Low to High</option>
-        <option value="cal-desc">Calories: High to Low</option>
-        <option value="prot-desc">Protein: High to Low</option>
-      </select>
-    </div>
-  </div>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="menu-items-grid">
-    {restaurant.categories.flatMap((cat) => 
+  <!-- Menu grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="menu-items-grid">
+    {restaurant.categories.flatMap((cat) =>
       cat.items.map((item) => (
-        <div 
-          class="menu-item-card glass-card rounded-3xl p-6 flex flex-col justify-between border border-zinc-900/60 transition-all duration-300 hover:border-emerald-500/20"
+        <div
+          class="menu-item-card glass-card rounded-2xl p-4 flex flex-col border border-zinc-800/60 transition-all"
           data-item-name={item.name.toLowerCase()}
           data-item-category={cat.name}
-          data-item-calories={item.calories}
-          data-item-protein={item.protein}
-          data-item-carbs={item.carbs}
-          data-item-fat={item.fat}
-          data-item-sodium={item.sodium || 0}
-          data-item-fiber={item.fiber || 0}
-          data-item-serving={item.servingSize || ''}
-          data-item-name-raw={item.name}
         >
-          <div class="space-y-4">
-            <div class="flex justify-between items-start gap-4">
-              <div>
-                <h4 class="font-extrabold text-white text-base leading-snug font-display">{item.name}</h4>
-                <p class="text-xs text-zinc-500 mt-1 font-sans">{cat.name} {item.servingSize ? `• ${item.servingSize}` : ''}</p>
-              </div>
-              <span class="inline-flex items-center text-xs font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-xl border border-amber-500/20 flex-shrink-0 font-sans">
-                <Flame class="h-3.5 w-3.5 mr-1.5 fill-amber-400/20" />
-                {item.calories} cal
-              </span>
+          <div class="flex justify-between items-start gap-3 mb-3">
+            <div class="flex-grow min-w-0">
+              <h4 class="font-bold text-white text-sm leading-snug">{item.name}</h4>
+              {item.servingSize && (
+                <p class="text-[11px] text-zinc-500 mt-0.5">Serving: {item.servingSize}</p>
+              )}
             </div>
- 
-            <div class="grid grid-cols-4 gap-2.5 text-center text-xs pt-1">
-              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
-                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Protein</span>
-                <span class="font-extrabold text-emerald-400 font-sans">{item.protein}g</span>
-              </div>
-              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
-                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Carbs</span>
-                <span class="font-extrabold text-blue-400 font-sans">{item.carbs}g</span>
-              </div>
-              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
-                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Fat</span>
-                <span class="font-extrabold text-amber-400 font-sans">{item.fat}g</span>
-              </div>
-              <div class="bg-zinc-950/40 p-2.5 rounded-xl border border-zinc-900/60">
-                <span class="text-zinc-550 block text-[9px] uppercase font-bold tracking-wider font-sans">Sodium</span>
-                <span class="font-extrabold text-zinc-350 font-sans">{item.sodium ?? '--'}mg</span>
-              </div>
-            </div>
+            <span class="inline-flex items-center gap-1 text-xs font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 flex-shrink-0">
+              <Flame class="h-3 w-3 fill-amber-500" />
+              {item.calories} cal
+            </span>
+          </div>
 
-            <!-- Interactive Quantity Controls -->
-            <div class="flex justify-between items-center pt-3 border-t border-zinc-900/60 mt-4">
-              <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider font-sans">Calculator</span>
-              <div class="flex items-center space-x-3">
-                <button
-                  type="button"
-                  class="btn-decrement p-1.5 bg-zinc-900/60 border border-zinc-800 rounded-lg hover:border-red-500/30 text-zinc-500 hover:text-red-400 hover:bg-red-500/5 transition-all cursor-pointer"
-                  data-item-name-raw={item.name}
-                  aria-label={`Decrease ${item.name} quantity`}
-                >
-                  <Minus class="h-3 w-3" />
-                </button>
-                <span class="item-qty-display font-black text-sm text-zinc-400" data-item-name-raw={item.name}>0</span>
-                <button
-                  type="button"
-                  class="btn-increment p-1.5 bg-zinc-900/60 border border-zinc-800 rounded-lg hover:border-emerald-500/30 text-zinc-500 hover:text-emerald-400 hover:bg-emerald-500/5 transition-all cursor-pointer"
-                  data-item-name-raw={item.name}
-                  aria-label={`Increase ${item.name} quantity`}
-                >
-                  <Plus class="h-3 w-3" />
-                </button>
-              </div>
+          <div class="grid grid-cols-4 gap-1.5 text-center">
+            <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
+              <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Protein</div>
+              <div class="text-sm font-extrabold text-emerald-400">{item.protein}g</div>
+            </div>
+            <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
+              <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Carbs</div>
+              <div class="text-sm font-extrabold text-blue-400">{item.carbs}g</div>
+            </div>
+            <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
+              <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Fat</div>
+              <div class="text-sm font-extrabold text-amber-400">{item.fat}g</div>
+            </div>
+            <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
+              <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Sodium</div>
+              <div class="text-sm font-extrabold text-zinc-300">{item.sodium != null ? `${Math.round(item.sodium)}mg` : '--'}</div>
             </div>
           </div>
+
+          {(item.sugars != null || item.cholesterol != null || item.fiber != null) && (
+            <div class="mt-2 flex items-center gap-2 flex-wrap text-[10px] text-zinc-500">
+              {item.fiber != null && <span class="inline-flex items-center gap-0.5">Fiber: <span class="text-zinc-300 font-semibold">{item.fiber}g</span></span>}
+              {item.sugars != null && <span class="inline-flex items-center gap-0.5">Sugars: <span class="text-zinc-300 font-semibold">{item.sugars}g</span></span>}
+              {item.cholesterol != null && <span class="inline-flex items-center gap-0.5">Chol: <span class="text-zinc-300 font-semibold">{Math.round(item.cholesterol)}mg</span></span>}
+              {item.saturated_fat != null && <span class="inline-flex items-center gap-0.5">Sat fat: <span class="text-zinc-300 font-semibold">{item.saturated_fat}g</span></span>}
+            </div>
+          )}
         </div>
       ))
     )}
   </div>
 
-  <div id="menu-empty-state" class="hidden text-center py-12 glass-card rounded-2xl border border-zinc-900">
+  <!-- Empty state -->
+  <div id="menu-empty-state" class="hidden glass-card rounded-2xl p-10 text-center">
     <CircleAlert class="h-10 w-10 text-zinc-600 mx-auto mb-3" />
-    <h3 class="font-bold text-zinc-300">No menu items match your filter</h3>
-    <p class="text-sm text-zinc-500 mt-1">Try modifying your search or select a different category.</p>
+    <h3 class="font-bold text-zinc-300">No items match your filter</h3>
+    <p class="text-sm text-zinc-500 mt-1">Try a different keyword or pick another category.</p>
+    <button id="menu-reset" class="mt-4 inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-lg transition-colors">
+      <X class="h-4 w-4" />
+      Clear filters
+    </button>
   </div>
 </div>
 
 <script is:inline>
-  const searchInput = document.getElementById('menu-search-input');
-  const tabs = document.querySelectorAll('.category-tab');
-  const cards = document.querySelectorAll('.menu-item-card');
-  const emptyState = document.getElementById('menu-empty-state');
-  
-  // Advanced Filter Inputs
-  const filterProtein = document.getElementById('filter-high-protein');
-  const filterCal = document.getElementById('filter-low-cal');
-  const filterSodium = document.getElementById('filter-low-sodium');
-  const filterFat = document.getElementById('filter-low-fat');
-  const sortSelect = document.getElementById('menu-sort-select');
-  
-  let activeCategory = 'all';
-  let searchQuery = '';
-
-  function filterMenu() {
-    let visibleCount = 0;
-    
-    // Read filter states
-    const highProtein = filterProtein ? filterProtein.checked : false;
-    const lowCal = filterCal ? filterCal.checked : false;
-    const lowSodium = filterSodium ? filterSodium.checked : false;
-    const lowFat = filterFat ? filterFat.checked : false;
-
-    cards.forEach((card) => {
-      const name = card.dataset.itemName;
-      const category = card.dataset.itemCategory;
-      
-      const cardCalories = parseFloat(card.dataset.itemCalories || '0');
-      const cardProtein = parseFloat(card.dataset.itemProtein || '0');
-      const cardFat = parseFloat(card.dataset.itemFat || '0');
-      const cardSodium = parseFloat(card.dataset.itemSodium || '0');
-
-      const matchesSearch = name.includes(searchQuery);
-      const matchesCategory = activeCategory === 'all' || category === activeCategory;
-      
-      // Advanced logic matches
-      const matchesProtein = !highProtein || cardProtein >= 20;
-      const matchesCal = !lowCal || cardCalories < 400;
-      const matchesSodium = !lowSodium || cardSodium < 140;
-      const matchesFat = !lowFat || cardFat < 10;
-
-      if (matchesSearch && matchesCategory && matchesProtein && matchesCal && matchesSodium && matchesFat) {
-        card.classList.remove('hidden');
-        visibleCount++;
-      } else {
-        card.classList.add('hidden');
-      }
-    });
-
-    if (visibleCount === 0) {
-      emptyState.classList.remove('hidden');
-    } else {
-      emptyState.classList.add('hidden');
-    }
-  }
-
-  function sortMenu() {
+  (function () {
+    const searchInput = document.getElementById('menu-search-input');
+    const clearBtn = document.getElementById('menu-clear-search');
+    const resetBtn = document.getElementById('menu-reset');
     const grid = document.getElementById('menu-items-grid');
-    if (!grid || !sortSelect) return;
-    
-    const sortVal = sortSelect.value;
-    const cardsArr = Array.from(cards);
+    const cards = grid ? Array.from(grid.querySelectorAll('.menu-item-card')) : [];
+    const emptyState = document.getElementById('menu-empty-state');
+    const pills = Array.from(document.querySelectorAll('.menu-cat-pill'));
 
-    cardsArr.sort((a, b) => {
-      if (sortVal === 'default') {
-        const nameA = a.dataset.itemNameRaw.toLowerCase();
-        const nameB = b.dataset.itemNameRaw.toLowerCase();
-        return nameA.localeCompare(nameB);
-      } else if (sortVal === 'cal-asc') {
-        return parseFloat(a.dataset.itemCalories) - parseFloat(b.dataset.itemCalories);
-      } else if (sortVal === 'cal-desc') {
-        return parseFloat(b.dataset.itemCalories) - parseFloat(a.dataset.itemCalories);
-      } else if (sortVal === 'prot-desc') {
-        return parseFloat(b.dataset.itemProtein) - parseFloat(a.dataset.itemProtein);
+    let query = '';
+    let activeCategory = 'all';
+
+    const cardData = cards.map((card) => ({
+      el: card,
+      name: (card.dataset.itemName || '').toLowerCase(),
+      category: card.dataset.itemCategory || '',
+    }));
+
+    function apply() {
+      let visible = 0;
+      for (const c of cardData) {
+        const matchesQuery = !query || c.name.includes(query);
+        const matchesCat = activeCategory === 'all' || c.category === activeCategory;
+        if (matchesQuery && matchesCat) {
+          c.el.classList.remove('hidden');
+          visible++;
+        } else {
+          c.el.classList.add('hidden');
+        }
       }
-      return 0;
-    });
-
-    // Re-append sorted cards
-    cardsArr.forEach(card => grid.appendChild(card));
-  }
-
-  // Bind events
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      searchQuery = e.target.value.toLowerCase().trim();
-      filterMenu();
-    });
-  }
-
-  // Checkbox events
-  [filterProtein, filterCal, filterSodium, filterFat].forEach((chk) => {
-    if (chk) {
-      chk.addEventListener('change', filterMenu);
+      if (emptyState) emptyState.classList.toggle('hidden', visible > 0);
+      if (grid) grid.classList.toggle('hidden', visible === 0);
     }
-  });
 
-  // Sort event
-  if (sortSelect) {
-    sortSelect.addEventListener('change', sortMenu);
-  }
-
-  tabs.forEach((tab) => {
-    tab.addEventListener('click', () => {
-      tabs.forEach((t) => {
-        t.classList.remove('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
-        t.classList.add('border-zinc-900', 'bg-zinc-900/50', 'text-zinc-450');
+    function setPillActive(target) {
+      pills.forEach((p) => {
+        const isActive = p === target;
+        p.classList.toggle('active', isActive);
+        p.classList.toggle('border-emerald-500/30', isActive);
+        p.classList.toggle('bg-emerald-500/10', isActive);
+        p.classList.toggle('text-emerald-400', isActive);
+        p.classList.toggle('border-zinc-800', !isActive);
+        p.classList.toggle('bg-zinc-900', !isActive);
+        p.classList.toggle('text-zinc-400', !isActive);
       });
+    }
 
-      tab.classList.remove('border-zinc-900', 'bg-zinc-900/50', 'text-zinc-450');
-      tab.classList.add('border-emerald-500/20', 'bg-emerald-500/10', 'text-emerald-400');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        query = e.target.value.toLowerCase().trim();
+        if (clearBtn) clearBtn.classList.toggle('hidden', !query);
+        apply();
+      });
+    }
 
-      activeCategory = tab.dataset.category;
-      filterMenu();
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        query = '';
+        clearBtn.classList.add('hidden');
+        apply();
+      });
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        query = '';
+        activeCategory = 'all';
+        if (clearBtn) clearBtn.classList.add('hidden');
+        const allPill = pills.find((p) => p.dataset.category === 'all');
+        if (allPill) setPillActive(allPill);
+        apply();
+      });
+    }
+
+    pills.forEach((pill) => {
+      pill.addEventListener('click', () => {
+        activeCategory = pill.dataset.category || 'all';
+        setPillActive(pill);
+        apply();
+      });
     });
-  });
-</script>
-
-<script is:inline define:vars={{ restaurantData: restaurant }}>
-  window.restaurantMenuData = restaurantData;
+  })();
 </script>

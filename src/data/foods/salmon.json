@@ -1,0 +1,31 @@
+{
+  "name": "Salmon",
+  "slug": "salmon",
+  "description": "Fatty fish prized for its high omega-3 content, rich flavor, and firm texture. A staple of Mediterranean and Nordic diets, salmon is versatile enough for grilling, baking, pan-searing, and raw preparations.",
+  "category": "Seafood",
+  "servingSize": "100g",
+  "calories": 208,
+  "macros": {
+    "protein": { "value": 20.0, "unit": "g", "pctDailyValue": 40 },
+    "fat": { "value": 13.0, "unit": "g", "pctDailyValue": 20 },
+    "carbs": { "value": 0.0, "unit": "g", "pctDailyValue": 0 },
+    "sugar": { "value": 0.0, "unit": "g", "pctDailyValue": 0 }
+  },
+  "micros": {
+    "sodium": { "value": 59, "unit": "mg", "pctDailyValue": 3 },
+    "potassium": { "value": 363, "unit": "mg", "pctDailyValue": 10 },
+    "cholesterol": { "value": 55, "unit": "mg", "pctDailyValue": 18 },
+    "calcium": { "value": 9, "unit": "mg", "pctDailyValue": 1 },
+    "iron": { "value": 0.3, "unit": "mg", "pctDailyValue": 2 }
+  },
+  "faqs": [
+    {
+      "q": "Is salmon good for heart health?",
+      "a": "Yes. Salmon is one of the best dietary sources of EPA and DHA omega-3 fatty acids, which are linked to lower triglycerides, reduced blood pressure, and a lower risk of cardiovascular disease."
+    },
+    {
+      "q": "Should I buy wild or farmed salmon?",
+      "a": "Wild salmon typically has fewer calories, less saturated fat, and a slightly higher mineral content. Farmed salmon tends to be higher in overall omega-3s but also higher in saturated fat. Both can be part of a healthy diet."
+    }
+  ]
+}

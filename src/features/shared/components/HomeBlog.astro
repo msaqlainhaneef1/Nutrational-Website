@@ -1,0 +1,60 @@
+---
+import { ArrowRight, BookOpen, Clock } from '@lucide/astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const recent = posts.slice(0, 3);
+---
+
+{recent.length > 0 && (
+  <section class="py-20 border-b border-zinc-900/80 bg-zinc-950/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div class="space-y-3">
+          <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+            <span class="w-8 h-px bg-emerald-500/50"></span>
+            <span>From the blog</span>
+          </div>
+          <h2 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+            Guides that respect your time
+          </h2>
+          <p class="text-zinc-400 text-sm max-w-2xl leading-relaxed">
+            Short, evidence-backed articles on macros, energy balance, and reading nutrition labels.
+            Written to be skimmed, not scrolled forever.
+          </p>
+        </div>
+        <a href="/blog" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
+          <span>Read the blog</span>
+          <ArrowRight class="h-4 w-4" />
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        {recent.map((post) => (
+          <a href={`/blog/${post.id}`} class="glass-card rounded-2xl p-6 flex flex-col group h-full">
+            <div class="flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-4">
+              <BookOpen class="h-4 w-4" />
+              <span>{post.data.category}</span>
+            </div>
+            <h3 class="font-bold text-lg text-white group-hover:text-emerald-400 transition-colors leading-tight mb-2 flex-grow">
+              {post.data.title}
+            </h3>
+            <p class="text-zinc-400 text-sm leading-relaxed line-clamp-2 mb-4">
+              {post.data.description}
+            </p>
+            <div class="pt-4 border-t border-zinc-900/80 flex items-center justify-between text-xs text-zinc-500">
+              <span class="inline-flex items-center gap-1.5">
+                <Clock class="h-3 w-3" />
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+              </span>
+              <span class="text-emerald-400 font-bold inline-flex items-center gap-1">
+                Read
+                <ArrowRight class="h-3 w-3 transform group-hover:translate-x-0.5 transition-transform" />
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

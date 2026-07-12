@@ -1,0 +1,515 @@
+{
+  "name": "Chopt",
+  "slug": "chopt-nutrition-calculator",
+  "tagline": "Calculate Chopt calories, protein, carbs and fat. Free Chopt nutrition calculator with complete menu data f...",
+  "description": "Calculate Chopt calories, protein, carbs and fat. Free Chopt nutrition calculator with complete menu data for all items.",
+  "category": "Breakfast & Healthy",
+  "emoji": "🍽",
+  "itemCount": 46,
+  "categories": [
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Classic Cobb Salad",
+          "calories": 600,
+          "protein": 60,
+          "fat": 35,
+          "carbs": 17,
+          "fiber": 10,
+          "sodium": 1838,
+          "cholesterol": 373,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "Kale Caesar Salad",
+          "calories": 300,
+          "protein": 15,
+          "fat": 14,
+          "carbs": 27,
+          "fiber": 7,
+          "sodium": 685,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Mexican Caesar Salad",
+          "calories": 265,
+          "protein": 11,
+          "fat": 15,
+          "carbs": 25,
+          "fiber": 8,
+          "sodium": 475,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Santa Fe Salad",
+          "calories": 450,
+          "protein": 22,
+          "fat": 30,
+          "carbs": 30,
+          "fiber": 12,
+          "sodium": 403,
+          "cholesterol": 65,
+          "saturated_fat": 15,
+          "sugars": 8
+        },
+        {
+          "name": "Southwest Steak Salad",
+          "calories": 445,
+          "protein": 32,
+          "fat": 12,
+          "carbs": 54,
+          "fiber": 15,
+          "sodium": 685,
+          "cholesterol": 60,
+          "saturated_fat": 3,
+          "sugars": 7
+        },
+        {
+          "name": "The Chopt Greek Salad",
+          "calories": 395,
+          "protein": 10,
+          "fat": 21,
+          "carbs": 33,
+          "fiber": 6,
+          "sodium": 1070,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Crispy Chicken Ranch Salad",
+          "calories": 575,
+          "protein": 44,
+          "fat": 25,
+          "carbs": 45,
+          "fiber": 8,
+          "sodium": 915,
+          "cholesterol": 140,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "Sweet Apple Orchard Salad",
+          "calories": 410,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 58,
+          "fiber": 11,
+          "sodium": 136,
+          "cholesterol": 31,
+          "saturated_fat": 7,
+          "sugars": 41
+        },
+        {
+          "name": "Shrimp Spring Roll Salad",
+          "calories": 260,
+          "protein": 18,
+          "fat": 2,
+          "carbs": 16,
+          "fiber": 7,
+          "sodium": 675,
+          "cholesterol": 135,
+          "sugars": 6
+        },
+        {
+          "name": "Palm Beach Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kebab Cobb",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mexicali Vegan",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Chicken Tinga Bowl (Cauliflower Rice)",
+          "calories": 515,
+          "protein": 33,
+          "fat": 25,
+          "carbs": 45,
+          "fiber": 15,
+          "sodium": 798,
+          "cholesterol": 100,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Salmon Avocado Bowl (Cauliflower Rice)",
+          "calories": 460,
+          "protein": 27,
+          "fat": 26,
+          "carbs": 30,
+          "fiber": 9,
+          "sodium": 778,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 8
+        },
+        {
+          "name": "Mediterranean Hummus Bowl (Cauliflower Rice)",
+          "calories": 535,
+          "protein": 29,
+          "fat": 29,
+          "carbs": 40,
+          "fiber": 8,
+          "sodium": 1257,
+          "cholesterol": 103,
+          "saturated_fat": 8,
+          "sugars": 9
+        },
+        {
+          "name": "Harvest Bowl (Cauliflower Rice)",
+          "calories": 675,
+          "protein": 30,
+          "fat": 29,
+          "carbs": 77,
+          "fiber": 12,
+          "sodium": 712,
+          "cholesterol": 109,
+          "saturated_fat": 9,
+          "sugars": 47
+        }
+      ]
+    },
+    {
+      "name": "Summer Menu",
+      "items": [
+        {
+          "name": "Summer Corn Caesar Salad",
+          "calories": 455,
+          "protein": 39,
+          "fat": 17,
+          "carbs": 36,
+          "fiber": 8,
+          "sodium": 1113,
+          "cholesterol": 88,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Sweet Peach Burrata Bowl",
+          "calories": 520,
+          "protein": 23,
+          "fat": 20,
+          "carbs": 68,
+          "fiber": 10,
+          "sodium": 446,
+          "cholesterol": 40,
+          "saturated_fat": 9,
+          "sugars": 17
+        }
+      ]
+    },
+    {
+      "name": "To-Go Dressings",
+      "items": [
+        {
+          "name": "Mexican Caesar Dressing",
+          "calories": 170,
+          "protein": 1,
+          "fat": 18,
+          "carbs": 1,
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Mexican Goddess Dressing",
+          "calories": 90,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 30,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Balsamic Vinaigrette",
+          "calories": 140,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "sodium": 200,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Buttermilk Ranch",
+          "calories": 140,
+          "protein": 1,
+          "fat": 14,
+          "carbs": 2,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Chimichurri Ranch",
+          "calories": 150,
+          "protein": 0,
+          "fat": 16,
+          "carbs": 1,
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Chopt Vinaigrette",
+          "calories": 130,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 1,
+          "sodium": 350,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Creamy Caesar",
+          "calories": 150,
+          "protein": 1,
+          "fat": 15,
+          "carbs": 1,
+          "sodium": 210,
+          "cholesterol": 20,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Honey Dijon",
+          "calories": 40,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 4,
+          "sodium": 210,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Lemon Tahini",
+          "calories": 90,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 3,
+          "sodium": 190,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Smoky Bacon Russian",
+          "calories": 210,
+          "protein": 2,
+          "fat": 11,
+          "carbs": 3,
+          "sodium": 450,
+          "cholesterol": 15,
+          "saturated_fat": 1,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Choppings",
+      "items": [
+        {
+          "name": "Avocado (Half)",
+          "calories": 80,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 4,
+          "fiber": 3,
+          "sodium": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Braised Chicken Tinga",
+          "calories": 146,
+          "protein": 19,
+          "fat": 4,
+          "carbs": 1,
+          "sodium": 200,
+          "cholesterol": 90,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Aged Parmesan",
+          "calories": 120,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 4,
+          "sodium": 510,
+          "cholesterol": 25,
+          "saturated_fat": 5
+        },
+        {
+          "name": "All-Natural Smoked Bacon",
+          "calories": 130,
+          "protein": 15,
+          "fat": 8,
+          "carbs": 0,
+          "sodium": 1100,
+          "cholesterol": 25,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Artisan Croutons",
+          "calories": 110,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 13,
+          "fiber": 1,
+          "sodium": 135
+        },
+        {
+          "name": "Black Beans",
+          "calories": 70,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14,
+          "fiber": 5
+        },
+        {
+          "name": "Blue Cheese",
+          "calories": 100,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 1,
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Cage-Free Egg",
+          "calories": 110,
+          "protein": 9,
+          "fat": 8,
+          "carbs": 1,
+          "sodium": 90,
+          "cholesterol": 265,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Cotija Cheese",
+          "calories": 100,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 1,
+          "sodium": 400,
+          "cholesterol": 30,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Feta",
+          "calories": 70,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 260,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Grilled Chicken",
+          "calories": 130,
+          "protein": 20,
+          "fat": 3.5,
+          "carbs": 1,
+          "sodium": 150,
+          "cholesterol": 65,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Organic Tofu",
+          "calories": 25,
+          "protein": 6,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Panko Fried Chicken",
+          "calories": 190,
+          "protein": 23,
+          "fat": 3.5,
+          "carbs": 15,
+          "sodium": 250,
+          "cholesterol": 75,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Roasted Broccoli",
+          "calories": 70,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 7,
+          "fiber": 3,
+          "sodium": 530,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        },
+        {
+          "name": "Roasted Sweet Potatoes",
+          "calories": 130,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 20,
+          "fiber": 3,
+          "sodium": 270,
+          "sugars": 6
+        },
+        {
+          "name": "Tortilla Chips",
+          "calories": 110,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 14,
+          "fiber": 2,
+          "sodium": 55,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Warm Grains",
+          "calories": 240,
+          "protein": 6,
+          "fat": 2.5,
+          "carbs": 51,
+          "fiber": 3,
+          "sodium": 840,
+          "sugars": 2
+        },
+        {
+          "name": "Warm Roasted Chicken",
+          "calories": 120,
+          "protein": 19,
+          "fat": 4,
+          "carbs": 1,
+          "sodium": 500,
+          "cholesterol": 90,
+          "saturated_fat": 1
+        }
+      ]
+    }
+  ]
+}

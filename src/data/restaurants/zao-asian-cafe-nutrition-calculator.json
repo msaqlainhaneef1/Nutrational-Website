@@ -1,42 +1,276 @@
 {
+  "name": "Zao Asian Cafe",
   "slug": "zao-asian-cafe-nutrition-calculator",
-  "title": "🍜 Zao Asian Cafe Nutrition Calculator",
+  "tagline": "Build your Zao Asian Cafe bowl and calculate calories, protein, carbs and fat for bases, proteins, vegetabl...",
   "description": "Build your Zao Asian Cafe bowl and calculate calories, protein, carbs and fat for bases, proteins, vegetables, sauces and toppings.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍜",
+  "itemCount": 25,
   "categories": [
-    {"name": "Bases", "items": [
-      {"name": "Jasmine Rice", "calories": 230, "protein": 4, "carbs": 50, "fat": 0, "fiber": 1, "sodium": 0},
-      {"name": "Brown Rice", "calories": 220, "protein": 5, "carbs": 46, "fat": 2, "fiber": 4, "sodium": 5},
-      {"name": "Rice Noodles", "calories": 200, "protein": 3, "carbs": 44, "fat": 1, "fiber": 1, "sodium": 15},
-      {"name": "Mixed Greens", "calories": 30, "protein": 2, "carbs": 6, "fat": 0, "fiber": 3, "sodium": 20}
-    ]},
-    {"name": "Proteins", "items": [
-      {"name": "Grilled Chicken", "calories": 180, "protein": 31, "carbs": 2, "fat": 6, "fiber": 0, "sodium": 380, "cholesterol": 90, "saturated_fat": 2},
-      {"name": "Crispy Chicken", "calories": 280, "protein": 22, "carbs": 18, "fat": 14, "fiber": 1, "sodium": 520, "cholesterol": 70, "saturated_fat": 3},
-      {"name": "Steak", "calories": 220, "protein": 28, "carbs": 3, "fat": 11, "fiber": 0, "sodium": 460, "cholesterol": 80, "saturated_fat": 4},
-      {"name": "Shrimp", "calories": 120, "protein": 23, "carbs": 2, "fat": 2, "fiber": 0, "sodium": 540, "cholesterol": 180},
-      {"name": "Tofu", "calories": 150, "protein": 14, "carbs": 6, "fat": 9, "fiber": 2, "sodium": 320, "saturated_fat": 1},
-      {"name": "Pork", "calories": 240, "protein": 26, "carbs": 4, "fat": 13, "fiber": 0, "sodium": 520, "cholesterol": 75, "saturated_fat": 5}
-    ]},
-    {"name": "Vegetables", "items": [
-      {"name": "Broccoli", "calories": 35, "protein": 3, "carbs": 7, "fat": 0, "fiber": 3, "sodium": 30},
-      {"name": "Edamame", "calories": 100, "protein": 9, "carbs": 8, "fat": 4, "fiber": 4, "sodium": 200},
-      {"name": "Carrots", "calories": 30, "protein": 1, "carbs": 7, "fat": 0, "fiber": 2, "sodium": 45},
-      {"name": "Mushrooms", "calories": 20, "protein": 2, "carbs": 3, "fat": 0, "fiber": 1, "sodium": 10},
-      {"name": "Bell Peppers", "calories": 25, "protein": 1, "carbs": 6, "fat": 0, "fiber": 2, "sodium": 5}
-    ]},
-    {"name": "Sauces", "items": [
-      {"name": "Teriyaki Sauce", "calories": 90, "protein": 1, "carbs": 20, "fat": 0, "fiber": 0, "sodium": 690, "sugars": 16},
-      {"name": "Spicy Kung Pao", "calories": 110, "protein": 1, "carbs": 14, "fat": 6, "fiber": 0, "sodium": 720, "sugars": 9},
-      {"name": "Sweet Chili", "calories": 80, "protein": 0, "carbs": 19, "fat": 0, "fiber": 0, "sodium": 380, "sugars": 17},
-      {"name": "Garlic Sauce", "calories": 100, "protein": 1, "carbs": 9, "fat": 7, "fiber": 0, "sodium": 560},
-      {"name": "Peanut Sauce", "calories": 140, "protein": 4, "carbs": 10, "fat": 10, "fiber": 1, "sodium": 480, "sugars": 6}
-    ]},
-    {"name": "Toppings", "items": [
-      {"name": "Crispy Wontons", "calories": 80, "protein": 1, "carbs": 9, "fat": 4, "fiber": 0, "sodium": 140},
-      {"name": "Peanuts", "calories": 100, "protein": 4, "carbs": 4, "fat": 8, "fiber": 2, "sodium": 60},
-      {"name": "Sesame Seeds", "calories": 50, "protein": 2, "carbs": 2, "fat": 4, "fiber": 1, "sodium": 0},
-      {"name": "Green Onions", "calories": 10, "protein": 0, "carbs": 2, "fat": 0, "fiber": 1, "sodium": 5},
-      {"name": "Fried Egg", "calories": 90, "protein": 6, "carbs": 1, "fat": 7, "fiber": 0, "sodium": 90, "cholesterol": 185}
-    ]}
+    {
+      "name": "Bases",
+      "items": [
+        {
+          "name": "Jasmine Rice",
+          "calories": 230,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 50,
+          "fiber": 1,
+          "sodium": 0
+        },
+        {
+          "name": "Brown Rice",
+          "calories": 220,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 46,
+          "fiber": 4,
+          "sodium": 5
+        },
+        {
+          "name": "Rice Noodles",
+          "calories": 200,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 44,
+          "fiber": 1,
+          "sodium": 15
+        },
+        {
+          "name": "Mixed Greens",
+          "calories": 30,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 6,
+          "fiber": 3,
+          "sodium": 20
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Grilled Chicken",
+          "calories": 180,
+          "protein": 31,
+          "fat": 6,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 380,
+          "cholesterol": 90,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Crispy Chicken",
+          "calories": 280,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 18,
+          "fiber": 1,
+          "sodium": 520,
+          "cholesterol": 70,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Steak",
+          "calories": 220,
+          "protein": 28,
+          "fat": 11,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 460,
+          "cholesterol": 80,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Shrimp",
+          "calories": 120,
+          "protein": 23,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 540,
+          "cholesterol": 180
+        },
+        {
+          "name": "Tofu",
+          "calories": 150,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 6,
+          "fiber": 2,
+          "sodium": 320,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Pork",
+          "calories": 240,
+          "protein": 26,
+          "fat": 13,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 520,
+          "cholesterol": 75,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "items": [
+        {
+          "name": "Broccoli",
+          "calories": 35,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 3,
+          "sodium": 30
+        },
+        {
+          "name": "Edamame",
+          "calories": 100,
+          "protein": 9,
+          "fat": 4,
+          "carbs": 8,
+          "fiber": 4,
+          "sodium": 200
+        },
+        {
+          "name": "Carrots",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 2,
+          "sodium": 45
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Bell Peppers",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "fiber": 2,
+          "sodium": 5
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Condiments",
+      "items": [
+        {
+          "name": "Teriyaki Sauce",
+          "calories": 90,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 20,
+          "fiber": 0,
+          "sodium": 690,
+          "sugars": 16
+        },
+        {
+          "name": "Spicy Kung Pao",
+          "calories": 110,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 14,
+          "fiber": 0,
+          "sodium": 720,
+          "sugars": 9
+        },
+        {
+          "name": "Sweet Chili",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 19,
+          "fiber": 0,
+          "sodium": 380,
+          "sugars": 17
+        },
+        {
+          "name": "Garlic Sauce",
+          "calories": 100,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 9,
+          "fiber": 0,
+          "sodium": 560
+        },
+        {
+          "name": "Peanut Sauce",
+          "calories": 140,
+          "protein": 4,
+          "fat": 10,
+          "carbs": 10,
+          "fiber": 1,
+          "sodium": 480,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Crispy Wontons",
+          "calories": 80,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 9,
+          "fiber": 0,
+          "sodium": 140
+        },
+        {
+          "name": "Peanuts",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 60
+        },
+        {
+          "name": "Sesame Seeds",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 0
+        },
+        {
+          "name": "Green Onions",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Fried Egg",
+          "calories": 90,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 90,
+          "cholesterol": 185
+        }
+      ]
+    }
   ]
 }

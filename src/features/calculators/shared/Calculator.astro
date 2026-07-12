@@ -14,38 +14,39 @@ const titleMap = {
 };
 ---
 
-<div class="glass-card rounded-3xl p-6 md:p-8 max-w-2xl mx-auto border border-zinc-900/60" data-calc-type={type}>
-  <div class="flex items-center space-x-3.5 border-b border-zinc-900/60 pb-5 mb-6">
-    <div class="p-3 bg-emerald-500/10 text-emerald-450 rounded-2xl border border-emerald-500/25">
+<div class="glass-card rounded-3xl p-6 md:p-8 max-w-2xl mx-auto border border-zinc-800" data-calc-type={type}>
+  <div class="flex items-center space-x-3 border-b border-zinc-900 pb-5 mb-6">
+    <div class="p-3 bg-emerald-500/10 text-emerald-400 rounded-2xl border border-emerald-500/20">
       {type === 'bmi' && <Scale class="h-6 w-6" />}
       {type === 'bmr' && <Flame class="h-6 w-6" />}
       {type === 'tdee' && <Activity class="h-6 w-6" />}
     </div>
     <div>
-      <h3 class="font-extrabold text-xl text-white tracking-tight font-display">{titleMap[type]}</h3>
-      <p class="text-zinc-500 text-xs mt-1 font-sans">Calculate your personalized health metrics instantly</p>
+      <h3 class="font-extrabold text-xl text-white tracking-tight">{titleMap[type]}</h3>
+      <p class="text-zinc-500 text-xs mt-0.5">Calculate your personalized health metrics instantly</p>
     </div>
   </div>
 
   <form id={`calc-form-${type}`} class="space-y-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-      <!-- Gender (Required for all advanced calculations) -->
-      <div class="space-y-2.5 md:col-span-2">
-        <label class="block text-xs font-bold uppercase tracking-wider text-zinc-500 font-sans">Gender</label>
-        <div class="grid grid-cols-2 gap-4">
-          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-900 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-800 transition-all select-none gap-2 font-sans text-zinc-350">
-            <input type="radio" name="gender" value="male" checked class="accent-emerald-500" />
-            <span>Male</span>
-          </label>
-          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-900 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-800 transition-all select-none gap-2 font-sans text-zinc-350">
-            <input type="radio" name="gender" value="female" class="accent-emerald-500" />
-            <span>Female</span>
-          </label>
+      {type !== 'bmi' && (
+        <div class="space-y-2 md:col-span-2">
+          <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Gender</label>
+          <div class="grid grid-cols-2 gap-3">
+            <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+              <input type="radio" name="gender" value="male" checked class="accent-emerald-500" />
+              <span class="text-zinc-200">Male</span>
+            </label>
+            <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+              <input type="radio" name="gender" value="female" class="accent-emerald-500" />
+              <span class="text-zinc-200">Female</span>
+            </label>
+          </div>
         </div>
-      </div>
+      )}
 
-      <div class="space-y-2.5">
-        <label for={`weight-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-500 font-sans">Weight (kg)</label>
+      <div class="space-y-2">
+        <label for={`weight-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Weight (kg)</label>
         <input
           type="number"
           id={`weight-${type}`}
@@ -55,12 +56,12 @@ const titleMap = {
           max="300"
           step="0.1"
           placeholder="e.g. 70"
-          class="w-full px-4 py-3 bg-zinc-900/60 border border-zinc-900/60 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 text-sm transition-all font-sans font-medium"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
         />
       </div>
 
-      <div class="space-y-2.5">
-        <label for={`height-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-500 font-sans">Height (cm)</label>
+      <div class="space-y-2">
+        <label for={`height-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Height (cm)</label>
         <input
           type="number"
           id={`height-${type}`}
@@ -70,234 +71,109 @@ const titleMap = {
           max="250"
           step="1"
           placeholder="e.g. 175"
-          class="w-full px-4 py-3 bg-zinc-900/60 border border-zinc-900/60 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 text-sm transition-all font-sans font-medium"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
         />
       </div>
 
-      <!-- Age (Required for all advanced calculations) -->
-      <div class="space-y-2.5">
-        <label for={`age-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-500 font-sans">Age (years)</label>
-        <input
-          type="number"
-          id={`age-${type}`}
-          name="age"
-          required
-          min="1"
-          max="120"
-          step="1"
-          placeholder="e.g. 28"
-          class="w-full px-4 py-3 bg-zinc-900/60 border border-zinc-900/60 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 text-sm transition-all font-sans font-medium"
-        />
-      </div>
+      {type !== 'bmi' && (
+        <div class="space-y-2">
+          <label for={`age-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Age (years)</label>
+          <input
+            type="number"
+            id={`age-${type}`}
+            name="age"
+            required
+            min="1"
+            max="120"
+            step="1"
+            placeholder="e.g. 28"
+            class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all"
+          />
+        </div>
+      )}
 
       {type === 'tdee' && (
-        <div class="space-y-2.5">
-          <label for={`activity-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-500 font-sans">Activity Level</label>
-          <div class="relative">
-            <select
-              id={`activity-${type}`}
-              name="activity"
-              required
-              class="w-full px-4 py-3 bg-zinc-900/60 border border-zinc-900/60 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 text-sm transition-all appearance-none font-sans font-medium cursor-pointer"
-            >
-              <option value="sedentary">Sedentary (Little or no exercise)</option>
-              <option value="light">Lightly Active (Exercise 1-3 days/wk)</option>
-              <option value="moderate" selected>Moderately Active (Exercise 3-5 days/wk)</option>
-              <option value="active">Very Active (Hard exercise 6-7 days/wk)</option>
-              <option value="extreme">Extra Active (Heavy physical job/training)</option>
-            </select>
-            <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-zinc-500">
-              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-          </div>
+        <div class="space-y-2">
+          <label for={`activity-${type}`} class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Activity Level</label>
+          <select
+            id={`activity-${type}`}
+            name="activity"
+            required
+            class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 text-sm transition-all appearance-none"
+          >
+            <option value="sedentary">Sedentary (Little or no exercise)</option>
+            <option value="light">Lightly Active (Exercise 1-3 days/wk)</option>
+            <option value="moderate" selected>Moderately Active (Exercise 3-5 days/wk)</option>
+            <option value="active">Very Active (Hard exercise 6-7 days/wk)</option>
+            <option value="extreme">Extra Active (Heavy physical job/training)</option>
+          </select>
         </div>
       )}
     </div>
 
     <button
       type="submit"
-      class="w-full py-4 btn-brand-gradient font-black text-sm uppercase tracking-wider rounded-xl cursor-pointer transition-all flex items-center justify-center space-x-2 font-sans"
+      class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold text-sm uppercase tracking-wider rounded-xl cursor-pointer shadow-lg shadow-emerald-500/15 hover:shadow-emerald-500/25 transition-all flex items-center justify-center space-x-2"
       id={`calc-submit-btn-${type}`}
     >
-      <CalcIcon class="h-4 w-4 stroke-[3]" />
+      <CalcIcon class="h-4 w-4" />
       <span>Calculate Results</span>
     </button>
   </form>
 
-  <div id={`calc-results-${type}`} class="hidden mt-8 border-t border-zinc-900/60 pt-6 animate-fade-in space-y-6">
-    <h4 class="font-extrabold text-lg text-white font-display">Your Calculations</h4>
+  <div id={`calc-results-${type}`} class="hidden mt-8 border-t border-zinc-900 pt-6 animate-fade-in">
+    <h4 class="font-extrabold text-lg text-white mb-4">Your Calculations</h4>
     
     {type === 'bmi' && (
-      <div class="space-y-6 font-sans">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">BMI Score</span>
-            <span class="text-4xl font-black text-emerald-455 mt-1 block" id="bmi-val">--</span>
+      <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">BMI Score</span>
+            <span class="text-4xl font-black text-emerald-400 mt-1 block" id="bmi-val">--</span>
           </div>
-          <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Category</span>
+          <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Category</span>
             <span class="text-lg font-black text-white mt-2 block" id="bmi-cat">--</span>
           </div>
         </div>
-
-        <div class="grid grid-cols-3 gap-3">
-          <div class="glass-card border border-zinc-900/60 p-4 rounded-xl text-center">
-            <span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 block">Body Fat Est.</span>
-            <span class="text-base font-black text-white mt-1 block" id="bmi-fat">--%</span>
-          </div>
-          <div class="glass-card border border-zinc-900/60 p-4 rounded-xl text-center">
-            <span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 block">Ponderal Index</span>
-            <span class="text-base font-black text-white mt-1 block" id="bmi-ponderal">-- kg/m³</span>
-          </div>
-          <div class="glass-card border border-zinc-900/60 p-4 rounded-xl text-center">
-            <span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 block">BMI Prime</span>
-            <span class="text-base font-black text-white mt-1 block" id="bmi-prime">--</span>
-          </div>
-        </div>
-
-        <!-- Custom Visual Gauge bar -->
-        <div class="space-y-3 bg-zinc-900/20 border border-zinc-900/60 p-5 rounded-2xl">
-          <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">BMI Visual Range Indicator</span>
-          <div class="relative w-full h-3 bg-zinc-900 border border-zinc-800 rounded-full overflow-hidden flex">
-            <div class="h-full bg-blue-400/40" style="width: 25%" title="Underweight (< 18.5)"></div>
-            <div class="h-full bg-emerald-400/40" style="width: 35%" title="Normal (18.5 - 25)"></div>
-            <div class="h-full bg-amber-400/40" style="width: 20%" title="Overweight (25 - 30)"></div>
-            <div class="h-full bg-red-400/40" style="width: 20%" title="Obese (> 30)"></div>
-            
-            <!-- Dynamic Marker Pin -->
-            <div id="bmi-marker" class="absolute top-0 bottom-0 w-1 bg-white border border-zinc-950 shadow transition-all duration-500" style="left: 0%"></div>
-          </div>
-          <div class="flex justify-between text-[8px] text-zinc-550 font-bold uppercase tracking-wider">
-            <span>Underweight (&lt;18.5)</span>
-            <span>Normal (18.5-25)</span>
-            <span>Overweight (25-30)</span>
-            <span>Obese (&gt;30)</span>
-          </div>
-        </div>
-
-        <div class="p-4 bg-zinc-900/20 border border-zinc-900/60 rounded-2xl text-xs text-zinc-450 leading-relaxed">
+        <div class="p-4 bg-zinc-900/40 border border-zinc-800/60 rounded-2xl text-xs text-zinc-400 leading-relaxed">
           For your height, a healthy weight range is <strong class="text-zinc-200" id="bmi-range">--</strong>.
         </div>
       </div>
     )}
 
     {type === 'bmr' && (
-      <div class="space-y-4 font-sans">
-        <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl flex items-center justify-between">
+      <div class="space-y-4">
+        <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl flex items-center justify-between">
           <div>
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Basal Metabolic Rate (Mifflin-St Jeor)</span>
-            <p class="text-xs text-zinc-450 mt-1 max-w-sm">Calories burned at complete rest to maintain vital functions.</p>
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Basal Metabolic Rate (BMR)</span>
+            <p class="text-xs text-zinc-400 mt-1 max-w-sm">Calories burned at complete rest to maintain vital functions.</p>
           </div>
-          <span class="text-4xl font-black text-emerald-450" id="bmr-val">-- kcal</span>
-        </div>
-
-        <div class="grid grid-cols-2 gap-4">
-          <div class="glass-card border border-zinc-900/60 p-4 rounded-xl">
-            <span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 block">Revised Harris-Benedict BMR</span>
-            <span class="text-base font-black text-white mt-1 block" id="bmr-val-harris">-- kcal</span>
-          </div>
-          <div class="glass-card border border-zinc-900/60 p-4 rounded-xl">
-            <span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 block">Daily Energy in Megajoules</span>
-            <span class="text-base font-black text-white mt-1 block" id="bmr-val-mj">-- MJ/day</span>
-          </div>
+          <span class="text-4xl font-black text-emerald-400" id="bmr-val">-- kcal</span>
         </div>
       </div>
     )}
 
     {type === 'tdee' && (
-      <div class="space-y-5 font-sans">
-        <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl flex items-center justify-between">
+      <div class="space-y-5">
+        <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl flex items-center justify-between">
           <div>
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Daily Maintenance Calories (TDEE)</span>
-            <p class="text-xs text-zinc-450 mt-1 max-w-sm">Daily calories required to maintain your current weight.</p>
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Daily Maintenance Calories</span>
+            <p class="text-xs text-zinc-400 mt-1 max-w-sm">Daily calories required to maintain your current weight.</p>
           </div>
-          <span class="text-4xl font-black text-emerald-455" id="tdee-val">-- kcal</span>
+          <span class="text-4xl font-black text-emerald-400" id="tdee-val">-- kcal</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Weight Loss (-500 kcal)</span>
-            <span class="text-xl font-extrabold text-blue-400 mt-1.5 block" id="tdee-loss">-- kcal</span>
-            <span class="text-[10px] text-zinc-550 mt-1.5 block">To lose ~0.5kg per week safely</span>
+          <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Weight Loss (-500 kcal)</span>
+            <span class="text-xl font-extrabold text-blue-400 mt-1 block" id="tdee-loss">-- kcal</span>
+            <span class="text-[10px] text-zinc-500 mt-1 block">To lose ~0.5kg per week safely</span>
           </div>
-          <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Weight Gain (+500 kcal)</span>
-            <span class="text-xl font-extrabold text-amber-450 mt-1.5 block" id="tdee-gain">-- kcal</span>
-            <span class="text-[10px] text-zinc-550 mt-1.5 block">To gain weight or build muscle</span>
-          </div>
-        </div>
-
-        <!-- Recommended Water Card -->
-        <div class="glass-card border border-zinc-900/60 p-5 rounded-2xl flex items-center justify-between">
-          <div>
-            <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Recommended Daily Water Intake</span>
-            <p class="text-xs text-zinc-450 mt-1 max-w-sm">Crucial for hydration, joint lubrication, and optimal digestion.</p>
-          </div>
-          <span class="text-3xl font-black text-blue-400" id="water-val">-- L</span>
-        </div>
-
-        <!-- Target Macro splits breakdown -->
-        <div class="pt-2 space-y-4">
-          <h5 class="font-extrabold text-sm text-white uppercase tracking-wider font-display">Target Macro Breakdowns (Grams/Day)</h5>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <!-- Balanced Card -->
-            <div class="glass-card border border-zinc-900/60 p-4.5 rounded-2xl space-y-3">
-              <h6 class="text-[10px] font-bold text-zinc-350 uppercase tracking-wider">Balanced (30/40/30)</h6>
-              <div class="space-y-2 text-xs">
-                <div class="flex justify-between">
-                  <span class="text-zinc-500 font-bold">Protein (30%)</span>
-                  <span class="font-extrabold text-emerald-450" id="macro-bal-prot">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-500 font-bold">Carbs (40%)</span>
-                  <span class="font-extrabold text-blue-400" id="macro-bal-carbs">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-500 font-bold">Fat (30%)</span>
-                  <span class="font-extrabold text-amber-450" id="macro-bal-fat">--g</span>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Low Carb Card -->
-            <div class="glass-card border border-zinc-900/60 p-4.5 rounded-2xl space-y-3">
-              <h6 class="text-[10px] font-bold text-zinc-350 uppercase tracking-wider">High Protein (40/30/30)</h6>
-              <div class="space-y-2 text-xs">
-                <div class="flex justify-between">
-                  <span class="text-zinc-500 font-bold">Protein (40%)</span>
-                  <span class="font-extrabold text-emerald-450" id="macro-low-prot">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-500 font-bold">Carbs (30%)</span>
-                  <span class="font-extrabold text-blue-400" id="macro-low-carbs">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-550 font-bold">Fat (30%)</span>
-                  <span class="font-extrabold text-amber-450" id="macro-low-fat">--g</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Keto Card -->
-            <div class="glass-card border border-zinc-900/60 p-4.5 rounded-2xl space-y-3">
-              <h6 class="text-[10px] font-bold text-zinc-350 uppercase tracking-wider">Keto Diet (20/5/75)</h6>
-              <div class="space-y-2 text-xs">
-                <div class="flex justify-between">
-                  <span class="text-zinc-555 font-bold">Protein (20%)</span>
-                  <span class="font-extrabold text-emerald-455" id="macro-keto-prot">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-555 font-bold">Carbs (5%)</span>
-                  <span class="font-extrabold text-blue-400" id="macro-keto-carbs">--g</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-zinc-555 font-bold">Fat (75%)</span>
-                  <span class="font-extrabold text-amber-450" id="macro-keto-fat">--g</span>
-                </div>
-              </div>
-            </div>
+          <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Weight Gain (+500 kcal)</span>
+            <span class="text-xl font-extrabold text-amber-400 mt-1 block" id="tdee-gain">-- kcal</span>
+            <span class="text-[10px] text-zinc-500 mt-1 block">To gain weight or build muscle</span>
           </div>
         </div>
       </div>
@@ -317,28 +193,17 @@ const titleMap = {
     const results = document.getElementById(`calc-results-${type}`);
 
     if (form && results) {
-      let isInitialLoad = true;
-
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         const formData = new FormData(form);
         const weight = parseFloat(formData.get('weight') as string);
         const height = parseFloat(formData.get('height') as string);
-        const age = parseInt(formData.get('age') as string) || 25;
-        const gender = (formData.get('gender') as 'male' | 'female') || 'male';
-
-        // Store inputs in localStorage
-        const state: any = { weight, height, age, gender };
 
         if (type === 'bmi') {
-          const res = calculateBMI(weight, height, age, gender);
+          const res = calculateBMI(weight, height);
           const valEl = document.getElementById('bmi-val');
           const catEl = document.getElementById('bmi-cat');
           const rangeEl = document.getElementById('bmi-range');
-          const fatEl = document.getElementById('bmi-fat');
-          const ponderalEl = document.getElementById('bmi-ponderal');
-          const primeEl = document.getElementById('bmi-prime');
-          const markerEl = document.getElementById('bmi-marker');
 
           if (valEl) valEl.textContent = res.bmi.toString();
           if (catEl) {
@@ -355,109 +220,30 @@ const titleMap = {
             }
           }
           if (rangeEl) rangeEl.textContent = `${res.minHealthyWeight}kg - ${res.maxHealthyWeight}kg`;
-          if (fatEl) fatEl.textContent = `${res.bodyFatPct}%`;
-          if (ponderalEl) ponderalEl.textContent = `${res.ponderalIndex} kg/m³`;
-          if (primeEl) primeEl.textContent = res.bmiPrime.toString();
-          if (markerEl) {
-            // Scale BMI (15 to 35) to percentage (0% to 100%)
-            const percent = Math.min(Math.max(((res.bmi - 15) / 20) * 100, 0), 100);
-            markerEl.style.left = `${percent}%`;
-          }
         } else if (type === 'bmr') {
+          const age = parseInt(formData.get('age') as string);
+          const gender = formData.get('gender') as 'male' | 'female';
           const res = calculateBMR(weight, height, age, gender);
           const valEl = document.getElementById('bmr-val');
-          const valHarrisEl = document.getElementById('bmr-val-harris');
-          const valMjEl = document.getElementById('bmr-val-mj');
-
           if (valEl) valEl.textContent = `${res.bmr} kcal`;
-          if (valHarrisEl) valHarrisEl.textContent = `${res.bmrHarris} kcal`;
-          if (valMjEl) valMjEl.textContent = `${res.bmrMegajoules} MJ/day`;
         } else if (type === 'tdee') {
+          const age = parseInt(formData.get('age') as string);
+          const gender = formData.get('gender') as 'male' | 'female';
           const activity = formData.get('activity') as ActivityLevel;
-          state.activity = activity;
-
           const res = calculateTDEE(weight, height, age, gender, activity);
 
           const valEl = document.getElementById('tdee-val');
           const lossEl = document.getElementById('tdee-loss');
           const gainEl = document.getElementById('tdee-gain');
-          const waterEl = document.getElementById('water-val');
 
           if (valEl) valEl.textContent = `${res.maintenanceCalories} kcal`;
           if (lossEl) lossEl.textContent = `${res.weightLossCalories} kcal`;
           if (gainEl) gainEl.textContent = `${res.weightGainCalories} kcal`;
-          if (waterEl) waterEl.textContent = `${res.waterLiters} L`;
-
-          // Bind macros
-          const balProt = document.getElementById('macro-bal-prot');
-          const balCarbs = document.getElementById('macro-bal-carbs');
-          const balFat = document.getElementById('macro-bal-fat');
-          if (balProt) balProt.textContent = `${res.macros.balanced.proteinGrams}g`;
-          if (balCarbs) balCarbs.textContent = `${res.macros.balanced.carbGrams}g`;
-          if (balFat) balFat.textContent = `${res.macros.balanced.fatGrams}g`;
-
-          const lowProt = document.getElementById('macro-low-prot');
-          const lowCarbs = document.getElementById('macro-low-carbs');
-          const lowFat = document.getElementById('macro-low-fat');
-          if (lowProt) lowProt.textContent = `${res.macros.lowCarb.proteinGrams}g`;
-          if (lowCarbs) lowCarbs.textContent = `${res.macros.lowCarb.carbGrams}g`;
-          if (lowFat) lowFat.textContent = `${res.macros.lowCarb.fatGrams}g`;
-
-          const ketoProt = document.getElementById('macro-keto-prot');
-          const ketoCarbs = document.getElementById('macro-keto-carbs');
-          const ketoFat = document.getElementById('macro-keto-fat');
-          if (ketoProt) ketoProt.textContent = `${res.macros.keto.proteinGrams}g`;
-          if (ketoCarbs) ketoCarbs.textContent = `${res.macros.keto.carbGrams}g`;
-          if (ketoFat) ketoFat.textContent = `${res.macros.keto.fatGrams}g`;
         }
-
-        localStorage.setItem(`calc_inputs_${type}`, JSON.stringify(state));
 
         results.classList.remove('hidden');
-        if (!isInitialLoad) {
-          results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-        isInitialLoad = false;
+        results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       });
-
-      // Restore inputs from localStorage on load
-      const stored = localStorage.getItem(`calc_inputs_${type}`);
-      if (stored) {
-        try {
-          const state = JSON.parse(stored);
-          if (state.weight) {
-            const wInput = form.querySelector('[name="weight"]') as HTMLInputElement;
-            if (wInput) wInput.value = state.weight;
-          }
-          if (state.height) {
-            const hInput = form.querySelector('[name="height"]') as HTMLInputElement;
-            if (hInput) hInput.value = state.height;
-          }
-          if (state.age) {
-            const aInput = form.querySelector('[name="age"]') as HTMLInputElement;
-            if (aInput) aInput.value = state.age;
-          }
-          if (state.gender) {
-            const gRadios = form.querySelectorAll('[name="gender"]') as NodeListOf<HTMLInputElement>;
-            gRadios.forEach(radio => {
-              if (radio.value === state.gender) {
-                radio.checked = true;
-              }
-            });
-          }
-          if (state.activity) {
-            const actSelect = form.querySelector('[name="activity"]') as HTMLSelectElement;
-            if (actSelect) actSelect.value = state.activity;
-          }
-
-          // Trigger submit calculation on load
-          setTimeout(() => {
-            form.dispatchEvent(new Event('submit', { cancelable: true }));
-          }, 50);
-        } catch (err) {
-          console.error('Error parsing stored inputs', err);
-        }
-      }
     }
   }
 </script>

@@ -1,0 +1,932 @@
+{
+  "name": "Jack in the Box",
+  "slug": "jack-in-the-box-nutrition-calculator",
+  "tagline": "Calculate Jack in the Box calories, protein, carbs and fat. Free Jack in the Box nutrition calculator with...",
+  "description": "Calculate Jack in the Box calories, protein, carbs and fat. Free Jack in the Box nutrition calculator with complete menu data for all items.",
+  "category": "Burgers",
+  "emoji": "🍽",
+  "itemCount": 84,
+  "categories": [
+    {
+      "name": "Old-Fashioned Shakes & Desserts",
+      "items": [
+        {
+          "name": "Chocolate Overload™ Cake",
+          "calories": 300,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 57,
+          "fiber": 2,
+          "sodium": 350,
+          "cholesterol": 40,
+          "saturated_fat": 1.5,
+          "sugars": 34
+        },
+        {
+          "name": "Mini Churros (5 pc.)",
+          "calories": 350,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 42,
+          "fiber": 2,
+          "sodium": 280,
+          "cholesterol": 5,
+          "saturated_fat": 3.5,
+          "sugars": 12
+        },
+        {
+          "name": "New York Style Cheesecake",
+          "calories": 310,
+          "protein": 7,
+          "fat": 17,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 260,
+          "cholesterol": 25,
+          "saturated_fat": 9,
+          "sugars": 22
+        },
+        {
+          "name": "Shake, Chocolate with Whipped Topping - 16 fl. oz.",
+          "calories": 680,
+          "protein": 13,
+          "fat": 23,
+          "carbs": 107,
+          "sodium": 390,
+          "cholesterol": 50,
+          "saturated_fat": 17,
+          "sugars": 88,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, Chocolate with Whipped Topping - 24 fl. oz.",
+          "calories": 970,
+          "protein": 19,
+          "fat": 32,
+          "carbs": 155,
+          "sodium": 570,
+          "cholesterol": 75,
+          "saturated_fat": 23,
+          "sugars": 128,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Shake, OREO® Cookie with Whipped Topping 16 fl. oz.",
+          "calories": 690,
+          "protein": 13,
+          "fat": 28,
+          "carbs": 100,
+          "fiber": 1,
+          "sodium": 470,
+          "cholesterol": 50,
+          "saturated_fat": 18,
+          "sugars": 78,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, OREO® Cookie with Whipped Topping - 24 fl. oz.",
+          "calories": 990,
+          "protein": 19,
+          "fat": 39,
+          "carbs": 145,
+          "fiber": 1,
+          "sodium": 680,
+          "cholesterol": 75,
+          "saturated_fat": 25,
+          "sugars": 113,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, Strawberry with Whipped Topping - 16 fl. oz.",
+          "calories": 650,
+          "protein": 12,
+          "fat": 23,
+          "carbs": 100,
+          "sodium": 340,
+          "cholesterol": 50,
+          "saturated_fat": 17,
+          "sugars": 85,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, Strawberry with Whipped Topping - 24 fl. oz.",
+          "calories": 930,
+          "protein": 17,
+          "fat": 32,
+          "carbs": 145,
+          "sodium": 490,
+          "cholesterol": 75,
+          "saturated_fat": 23,
+          "sugars": 123,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, Vanilla with Whipped Topping - 16 fl. oz.",
+          "calories": 580,
+          "protein": 12,
+          "fat": 23,
+          "carbs": 83,
+          "sodium": 340,
+          "cholesterol": 50,
+          "saturated_fat": 17,
+          "sugars": 68,
+          "trans_fat": 1
+        },
+        {
+          "name": "Shake, Vanilla with Whipped Topping - 24 fl. oz.",
+          "calories": 830,
+          "protein": 17,
+          "fat": 32,
+          "carbs": 149,
+          "sodium": 490,
+          "cholesterol": 75,
+          "saturated_fat": 23,
+          "sugars": 98,
+          "trans_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Breakfast Jack®",
+          "calories": 350,
+          "protein": 16,
+          "fat": 18,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 840,
+          "cholesterol": 240,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Gold Peak® Fresh Brewed Iced Tea - Small",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 15
+        },
+        {
+          "name": "Gold Peak® Fresh Brewed Iced Tea - Medium",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 25
+        },
+        {
+          "name": "Gold Peak® Fresh Brewed Iced Tea - Large",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 35
+        },
+        {
+          "name": "Berry Purple Daze Red Bull Infusion w/Red Bull® Energy",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 110,
+          "sugars": 38
+        },
+        {
+          "name": "Berrry Purple Daze Red Bull Infusion w/Red Bull® Sugarfree",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 110,
+          "sugars": 12
+        },
+        {
+          "name": "Strawberry Red Daze Red Bull Infusion w/Red Bull® Energy",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 110,
+          "sugars": 39
+        },
+        {
+          "name": "Strawberry Red Daze Red Bull Infusion w/Red Bull® Sugarfree",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 115,
+          "sugars": 12
+        },
+        {
+          "name": "Red Bull® Energy Sugarfree Can",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 105
+        },
+        {
+          "name": "Red Bull® Energy Can",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "sodium": 105,
+          "sugars": 26
+        },
+        {
+          "name": "High Mountain Arabica Coffee - Rg.",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "High Mountain Arabica Coffee - Lg.",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Iced Black Coffee - Rg.",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Iced Black Coffee - Lg.",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Caramel Sweet Cream Iced Coffee - Rg.",
+          "calories": 200,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 35,
+          "sodium": 100,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 30
+        },
+        {
+          "name": "Caramel Sweet Cream Iced Coffee - Lg.",
+          "calories": 300,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 52,
+          "sodium": 150,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 46
+        },
+        {
+          "name": "Mocha Sweet Cream Iced Coffee - Rg.",
+          "calories": 160,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 32,
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 26
+        },
+        {
+          "name": "Vanilla Sweet Cream Iced Coffee - Rg.",
+          "calories": 150,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 23,
+          "sodium": 100,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 19
+        },
+        {
+          "name": "55 1360 440 51 3 4 27 Vanilla Sweet Cream Iced Coffee - Lg.",
+          "calories": 220,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 34,
+          "sodium": 150,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 28
+        },
+        {
+          "name": "45 1610 390 68 4 5 28 Minute Maid® Apple Juice",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 21,
+          "sodium": 15,
+          "sugars": 19
+        },
+        {
+          "name": "150 1550 480 31 1 5 47 Simply Orange® Juice",
+          "calories": 160,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 37,
+          "sugars": 33
+        },
+        {
+          "name": "0 810 500 46 4 0 5 Milk",
+          "calories": 110,
+          "protein": 9,
+          "fat": 2,
+          "carbs": 12,
+          "sodium": 130,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Add-ons",
+      "items": [
+        {
+          "name": "Cheeseburger",
+          "calories": 370,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 880,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 4,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "35 880 150 30 1 4 16 Grilled Cheese Sandwich",
+          "calories": 330,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 800,
+          "cholesterol": 20,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "150 1550 480 31 1 5 47 Grilled Cheese Sandwich",
+          "calories": 330,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 800,
+          "cholesterol": 20,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "Jr. Bacon Cheeseburger",
+          "calories": 470,
+          "protein": 18,
+          "fat": 31,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 1000,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 5,
+          "trans_fat": 1
+        },
+        {
+          "name": "70 1930 550 69 5 6 35 American Cheese",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "55 1360 440 51 3 4 27 Real Swiss Cheese",
+          "calories": 70,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 80,
+          "cholesterol": 20,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "65 1510 450 51 3 5 29 Swiss Style Cheese",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 140,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Chicken & More",
+      "items": [
+        {
+          "name": "165 1910 720 47 2 8 45 Chicken Sandwich",
+          "calories": 560,
+          "protein": 15,
+          "fat": 38,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 940,
+          "cholesterol": 40,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "125 1330 400 48 3 11 38 Crispy Chicken Strips (2 pc.)",
+          "calories": 310,
+          "protein": 22,
+          "fat": 15,
+          "carbs": 21,
+          "fiber": 2,
+          "sodium": 1170,
+          "cholesterol": 55,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "40 900 220 31 1 5 16 Chicken Nuggets (4 pc.)",
+          "calories": 190,
+          "protein": 8,
+          "fat": 13,
+          "carbs": 10,
+          "fiber": 1,
+          "sodium": 480,
+          "cholesterol": 20,
+          "saturated_fat": 2
+        },
+        {
+          "name": "60 700 370 32 2 6 23 Chicken Nuggets (8 pc.)",
+          "calories": 380,
+          "protein": 15,
+          "fat": 27,
+          "carbs": 20,
+          "fiber": 2,
+          "sodium": 970,
+          "cholesterol": 40,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "80 1110 400 33 2 6 28 Chicken Sandwich",
+          "calories": 560,
+          "protein": 15,
+          "fat": 38,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 940,
+          "cholesterol": 40,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "90 1300 430 39 3 7 33 Chicken Sandwich with Bacon",
+          "calories": 610,
+          "protein": 19,
+          "fat": 42,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1150,
+          "cholesterol": 45,
+          "saturated_fat": 7,
+          "sugars": 4
+        },
+        {
+          "name": "Jack Wrap - Classic Crispy",
+          "calories": 380,
+          "protein": 17,
+          "fat": 19,
+          "carbs": 35,
+          "fiber": 2,
+          "sodium": 1100,
+          "cholesterol": 45,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        },
+        {
+          "name": "Jack Wrap- Classic Grilled",
+          "calories": 290,
+          "protein": 18,
+          "fat": 13,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 930,
+          "cholesterol": 50,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Jack Wrap - Spicy Crispy",
+          "calories": 380,
+          "protein": 17,
+          "fat": 19,
+          "carbs": 35,
+          "fiber": 2,
+          "sodium": 1130,
+          "cholesterol": 40,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        },
+        {
+          "name": "Jack Wrap - Spicy Grilled",
+          "calories": 290,
+          "protein": 18,
+          "fat": 12,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 970,
+          "cholesterol": 50,
+          "saturated_fat": 4,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Snacks & Sides",
+      "items": [
+        {
+          "name": "165 1960 570 32 1 6 55 French Fries (Kid’s)",
+          "calories": 220,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 410,
+          "saturated_fat": 1
+        },
+        {
+          "name": "140 1430 590 33 2 7 46 Seasoned Curly Fries (Kid’s)",
+          "calories": 200,
+          "protein": 2,
+          "fat": 11,
+          "carbs": 21,
+          "fiber": 2,
+          "sodium": 440,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tacos, Regular (2 Tacos)",
+          "calories": 340,
+          "protein": 12,
+          "fat": 19,
+          "carbs": 33,
+          "fiber": 5,
+          "sodium": 720,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 2,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Value French Fries",
+          "calories": 220,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 410,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Burgers & More",
+      "items": [
+        {
+          "name": "110 1030 430 51 4 13 33 Hamburger",
+          "calories": 330,
+          "protein": 13,
+          "fat": 18,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 680,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 4,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "90 1290 420 45 2 6 26 Mini Pancakes (8 pc.)",
+          "calories": 140,
+          "protein": 4,
+          "fat": 1.5,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 350,
+          "sugars": 6
+        },
+        {
+          "name": "Jr. Jumbo Jack®",
+          "calories": 400,
+          "protein": 14,
+          "fat": 25,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 5,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Jr. Jumbo Jack® Cheeseburger",
+          "calories": 440,
+          "protein": 16,
+          "fat": 29,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 5,
+          "trans_fat": 1
+        },
+        {
+          "name": "Jumbo Jack®",
+          "calories": 520,
+          "protein": 23,
+          "fat": 33,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 700,
+          "cholesterol": 60,
+          "saturated_fat": 10,
+          "sugars": 6,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Jumbo Jack® Cheeseburger",
+          "calories": 600,
+          "protein": 28,
+          "fat": 40,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 1110,
+          "cholesterol": 80,
+          "saturated_fat": 14,
+          "sugars": 6,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Jack’s Good Good Dipping Cup",
+          "calories": 110,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 3,
+          "sodium": 190,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Dressings",
+      "items": [
+        {
+          "name": "Barbecue Dipping Sauce",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 270,
+          "sugars": 8
+        },
+        {
+          "name": "Buttermilk House Dipping Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 2,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Creamy Avocado Lime Dipping Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 1,
+          "sodium": 280,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Honey Mustard Dipping Sauce",
+          "calories": 60,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 10,
+          "sodium": 230,
+          "sugars": 9
+        },
+        {
+          "name": "Teriyaki Dipping Sauce SW ss",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 11,
+          "sodium": 490,
+          "sugars": 9
+        },
+        {
+          "name": "Creamy Ranch Sauce (0.61 oz.)",
+          "servingSize": "0.61 oz",
+          "calories": 90,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "30 1470 850 60 6 9 21 Tartar Sauce (0.78 oz.) (Seasonal)",
+          "servingSize": "0.78 oz",
+          "calories": 80,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 4,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "1 2 6 Kikkoman® Soy Sauce (1 packet)",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 370
+        },
+        {
+          "name": "5 2 14 Secret Sauce (1 packet)",
+          "calories": 30,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 3,
+          "sodium": 90,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Pancake Syrup",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sodium": 20,
+          "sugars": 21
+        },
+        {
+          "name": "Sweet N",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 140,
+          "sugars": 8
+        },
+        {
+          "name": "Creamy Bacon Mayo (0.68 oz.)",
+          "servingSize": "0.68 oz",
+          "calories": 120,
+          "protein": 1,
+          "fat": 13,
+          "carbs": 1,
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Garlic Herb Butter (0.50 oz.)",
+          "servingSize": "0.50 oz",
+          "calories": 90,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 0,
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 7
+        },
+        {
+          "name": "30 1330 530 54 4 2 15 Ketchup (0.57 oz.)",
+          "servingSize": "0.57 oz",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "sodium": 160,
+          "sugars": 3
+        },
+        {
+          "name": "10 490 280 20 2 3 7 Mustard (0.19 oz.)",
+          "servingSize": "0.19 oz",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "0 1010 720 75 5 1 6 Fire Roasted Salsa (1 fl. oz.)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 120,
+          "sugars": 1
+        },
+        {
+          "name": "0 610 350 30 3 0 3 Grape Jelly (1 packet)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "sugars": 6
+        },
+        {
+          "name": "4 0 5 Grilled Onions (0.71 oz.)",
+          "servingSize": "0.71 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        },
+        {
+          "name": "1 1 3 Ketchup (1 packet)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 85,
+          "sugars": 2
+        },
+        {
+          "name": "3 5 14 Mayonnaise Packet (1 packet)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 0,
+          "sodium": 65,
+          "cholesterol": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "2 1 6 Gold-n-Sweet® Spread (1 cup)",
+          "calories": 20,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 45,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "10 0 Strawberry Jam (1 packet)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sugars": 9
+        },
+        {
+          "name": "Gold Peak® Fresh Brewed Iced Tea - Value",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 15
+        }
+      ]
+    }
+  ]
+}

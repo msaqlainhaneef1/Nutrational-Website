@@ -1,50 +1,338 @@
 {
+  "name": "Sushi",
   "slug": "sushi-nutrition-calculator",
-  "title": "🍣 Sushi Nutrition Calculator",
+  "tagline": "Build your sushi order and calculate exact calories, protein, carbs and fat for rolls, nigiri, sashimi and...",
   "description": "Build your sushi order and calculate exact calories, protein, carbs and fat for rolls, nigiri, sashimi and sides. Values per standard 6-8 piece roll or 2-piece serving.",
+  "category": "Sushi & Seafood",
+  "emoji": "🍣",
+  "itemCount": 33,
   "categories": [
-    {"name": "Classic Rolls", "items": [
-      {"name": "California Roll (6 pc)", "calories": 255, "protein": 9, "carbs": 38, "fat": 7, "fiber": 3, "sodium": 690, "sugars": 8},
-      {"name": "Spicy Tuna Roll (6 pc)", "calories": 290, "protein": 13, "carbs": 26, "fat": 11, "fiber": 2, "sodium": 380},
-      {"name": "Spicy Salmon Roll (6 pc)", "calories": 305, "protein": 12, "carbs": 32, "fat": 11, "fiber": 2, "sodium": 520},
-      {"name": "Cucumber Roll (6 pc)", "calories": 130, "protein": 6, "carbs": 24, "fat": 1, "fiber": 3, "sodium": 480},
-      {"name": "Avocado Roll (6 pc)", "calories": 225, "protein": 4, "carbs": 40, "fat": 6, "fiber": 6, "sodium": 580},
-      {"name": "Salmon Avocado Roll (6 pc)", "calories": 300, "protein": 11, "carbs": 40, "fat": 8, "fiber": 4, "sodium": 480},
-      {"name": "Tuna Roll (Tekka, 6 pc)", "calories": 220, "protein": 14, "carbs": 30, "fat": 2, "fiber": 2, "sodium": 320},
-      {"name": "Philadelphia Roll (6 pc)", "calories": 285, "protein": 12, "carbs": 32, "fat": 11, "fiber": 2, "sodium": 480},
-      {"name": "Vegetable Roll (6 pc)", "calories": 200, "protein": 5, "carbs": 38, "fat": 3, "fiber": 5, "sodium": 420}
-    ]},
-    {"name": "Specialty Rolls", "items": [
-      {"name": "Dragon Roll (8 pc)", "calories": 470, "protein": 14, "carbs": 58, "fat": 21, "fiber": 4, "sodium": 1100},
-      {"name": "Rainbow Roll (8 pc)", "calories": 410, "protein": 22, "carbs": 48, "fat": 16, "fiber": 5, "sodium": 850},
-      {"name": "Shrimp Tempura Roll (8 pc)", "calories": 500, "protein": 16, "carbs": 64, "fat": 18, "fiber": 3, "sodium": 1200},
-      {"name": "Spider Roll (8 pc)", "calories": 430, "protein": 13, "carbs": 38, "fat": 24, "fiber": 3, "sodium": 750},
-      {"name": "Caterpillar Roll (8 pc)", "calories": 440, "protein": 15, "carbs": 56, "fat": 17, "fiber": 6, "sodium": 900},
-      {"name": "Volcano Roll (8 pc)", "calories": 540, "protein": 18, "carbs": 52, "fat": 28, "fiber": 4, "sodium": 1080},
-      {"name": "Tiger Roll (8 pc)", "calories": 480, "protein": 18, "carbs": 60, "fat": 18, "fiber": 3, "sodium": 1040}
-    ]},
-    {"name": "Nigiri (2 pc)", "items": [
-      {"name": "Tuna Nigiri (Maguro)", "calories": 120, "protein": 15, "carbs": 12, "fat": 1, "fiber": 0, "sodium": 30},
-      {"name": "Salmon Nigiri (Sake)", "calories": 140, "protein": 14, "carbs": 12, "fat": 4, "fiber": 0, "sodium": 35},
-      {"name": "Shrimp Nigiri (Ebi)", "calories": 110, "protein": 11, "carbs": 14, "fat": 1, "fiber": 0, "sodium": 95},
-      {"name": "Eel Nigiri (Unagi)", "calories": 175, "protein": 11, "carbs": 16, "fat": 7, "fiber": 0, "sodium": 290},
-      {"name": "Yellowtail Nigiri (Hamachi)", "calories": 140, "protein": 14, "carbs": 12, "fat": 4, "fiber": 0, "sodium": 30},
-      {"name": "Egg Nigiri (Tamago)", "calories": 130, "protein": 6, "carbs": 18, "fat": 4, "fiber": 0, "sodium": 220, "sugars": 5}
-    ]},
-    {"name": "Sashimi (3 pc)", "items": [
-      {"name": "Salmon Sashimi", "calories": 95, "protein": 15, "carbs": 0, "fat": 3, "fiber": 0, "sodium": 55},
-      {"name": "Tuna Sashimi", "calories": 70, "protein": 16, "carbs": 0, "fat": 1, "fiber": 0, "sodium": 20},
-      {"name": "Yellowtail Sashimi", "calories": 105, "protein": 16, "carbs": 0, "fat": 4, "fiber": 0, "sodium": 25},
-      {"name": "Octopus Sashimi (Tako)", "calories": 60, "protein": 12, "carbs": 2, "fat": 1, "fiber": 0, "sodium": 230}
-    ]},
-    {"name": "Sides & Extras", "items": [
-      {"name": "Edamame (1 cup)", "calories": 190, "protein": 17, "carbs": 16, "fat": 8, "fiber": 8, "sodium": 380},
-      {"name": "Miso Soup (1 bowl)", "calories": 70, "protein": 5, "carbs": 8, "fat": 3, "fiber": 1, "sodium": 700},
-      {"name": "Seaweed Salad", "calories": 100, "protein": 2, "carbs": 12, "fat": 5, "fiber": 2, "sodium": 480, "sugars": 6},
-      {"name": "Gyoza (6 pc)", "calories": 280, "protein": 10, "carbs": 32, "fat": 12, "fiber": 2, "sodium": 640},
-      {"name": "Steamed White Rice (1 cup)", "calories": 205, "protein": 4, "carbs": 45, "fat": 0, "fiber": 1, "sodium": 0},
-      {"name": "Soy Sauce (1 tbsp)", "calories": 10, "protein": 1, "carbs": 1, "fat": 0, "fiber": 0, "sodium": 920},
-      {"name": "Pickled Ginger (1 oz)", "calories": 20, "protein": 0, "carbs": 5, "fat": 0, "fiber": 0, "sodium": 180, "sugars": 4}
-    ]}
+    {
+      "name": "Classic Rolls",
+      "items": [
+        {
+          "name": "California Roll (6 pc)",
+          "calories": 255,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 38,
+          "fiber": 3,
+          "sodium": 690,
+          "sugars": 8
+        },
+        {
+          "name": "Spicy Tuna Roll (6 pc)",
+          "calories": 290,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 380
+        },
+        {
+          "name": "Spicy Salmon Roll (6 pc)",
+          "calories": 305,
+          "protein": 12,
+          "fat": 11,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 520
+        },
+        {
+          "name": "Cucumber Roll (6 pc)",
+          "calories": 130,
+          "protein": 6,
+          "fat": 1,
+          "carbs": 24,
+          "fiber": 3,
+          "sodium": 480
+        },
+        {
+          "name": "Avocado Roll (6 pc)",
+          "calories": 225,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 40,
+          "fiber": 6,
+          "sodium": 580
+        },
+        {
+          "name": "Salmon Avocado Roll (6 pc)",
+          "calories": 300,
+          "protein": 11,
+          "fat": 8,
+          "carbs": 40,
+          "fiber": 4,
+          "sodium": 480
+        },
+        {
+          "name": "Tuna Roll (Tekka, 6 pc)",
+          "calories": 220,
+          "protein": 14,
+          "fat": 2,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 320
+        },
+        {
+          "name": "Philadelphia Roll (6 pc)",
+          "calories": 285,
+          "protein": 12,
+          "fat": 11,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 480
+        },
+        {
+          "name": "Vegetable Roll (6 pc)",
+          "calories": 200,
+          "protein": 5,
+          "fat": 3,
+          "carbs": 38,
+          "fiber": 5,
+          "sodium": 420
+        }
+      ]
+    },
+    {
+      "name": "Specialty Rolls",
+      "items": [
+        {
+          "name": "Dragon Roll (8 pc)",
+          "calories": 470,
+          "protein": 14,
+          "fat": 21,
+          "carbs": 58,
+          "fiber": 4,
+          "sodium": 1100
+        },
+        {
+          "name": "Rainbow Roll (8 pc)",
+          "calories": 410,
+          "protein": 22,
+          "fat": 16,
+          "carbs": 48,
+          "fiber": 5,
+          "sodium": 850
+        },
+        {
+          "name": "Shrimp Tempura Roll (8 pc)",
+          "calories": 500,
+          "protein": 16,
+          "fat": 18,
+          "carbs": 64,
+          "fiber": 3,
+          "sodium": 1200
+        },
+        {
+          "name": "Spider Roll (8 pc)",
+          "calories": 430,
+          "protein": 13,
+          "fat": 24,
+          "carbs": 38,
+          "fiber": 3,
+          "sodium": 750
+        },
+        {
+          "name": "Caterpillar Roll (8 pc)",
+          "calories": 440,
+          "protein": 15,
+          "fat": 17,
+          "carbs": 56,
+          "fiber": 6,
+          "sodium": 900
+        },
+        {
+          "name": "Volcano Roll (8 pc)",
+          "calories": 540,
+          "protein": 18,
+          "fat": 28,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 1080
+        },
+        {
+          "name": "Tiger Roll (8 pc)",
+          "calories": 480,
+          "protein": 18,
+          "fat": 18,
+          "carbs": 60,
+          "fiber": 3,
+          "sodium": 1040
+        }
+      ]
+    },
+    {
+      "name": "Nigiri (2 pc)",
+      "items": [
+        {
+          "name": "Tuna Nigiri (Maguro)",
+          "calories": 120,
+          "protein": 15,
+          "fat": 1,
+          "carbs": 12,
+          "fiber": 0,
+          "sodium": 30
+        },
+        {
+          "name": "Salmon Nigiri (Sake)",
+          "calories": 140,
+          "protein": 14,
+          "fat": 4,
+          "carbs": 12,
+          "fiber": 0,
+          "sodium": 35
+        },
+        {
+          "name": "Shrimp Nigiri (Ebi)",
+          "calories": 110,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 14,
+          "fiber": 0,
+          "sodium": 95
+        },
+        {
+          "name": "Eel Nigiri (Unagi)",
+          "calories": 175,
+          "protein": 11,
+          "fat": 7,
+          "carbs": 16,
+          "fiber": 0,
+          "sodium": 290
+        },
+        {
+          "name": "Yellowtail Nigiri (Hamachi)",
+          "calories": 140,
+          "protein": 14,
+          "fat": 4,
+          "carbs": 12,
+          "fiber": 0,
+          "sodium": 30
+        },
+        {
+          "name": "Egg Nigiri (Tamago)",
+          "calories": 130,
+          "protein": 6,
+          "fat": 4,
+          "carbs": 18,
+          "fiber": 0,
+          "sodium": 220,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Sashimi (3 pc)",
+      "items": [
+        {
+          "name": "Salmon Sashimi",
+          "calories": 95,
+          "protein": 15,
+          "fat": 3,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Tuna Sashimi",
+          "calories": 70,
+          "protein": 16,
+          "fat": 1,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 20
+        },
+        {
+          "name": "Yellowtail Sashimi",
+          "calories": 105,
+          "protein": 16,
+          "fat": 4,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Octopus Sashimi (Tako)",
+          "calories": 60,
+          "protein": 12,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 230
+        }
+      ]
+    },
+    {
+      "name": "Sides & Extras",
+      "items": [
+        {
+          "name": "Edamame (1 cup)",
+          "calories": 190,
+          "protein": 17,
+          "fat": 8,
+          "carbs": 16,
+          "fiber": 8,
+          "sodium": 380
+        },
+        {
+          "name": "Miso Soup (1 bowl)",
+          "calories": 70,
+          "protein": 5,
+          "fat": 3,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 700
+        },
+        {
+          "name": "Seaweed Salad",
+          "calories": 100,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 12,
+          "fiber": 2,
+          "sodium": 480,
+          "sugars": 6
+        },
+        {
+          "name": "Gyoza (6 pc)",
+          "calories": 280,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 640
+        },
+        {
+          "name": "Steamed White Rice (1 cup)",
+          "calories": 205,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 45,
+          "fiber": 1,
+          "sodium": 0
+        },
+        {
+          "name": "Soy Sauce (1 tbsp)",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 920
+        },
+        {
+          "name": "Pickled Ginger (1 oz)",
+          "servingSize": "1 oz",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "fiber": 0,
+          "sodium": 180,
+          "sugars": 4
+        }
+      ]
+    }
   ]
 }

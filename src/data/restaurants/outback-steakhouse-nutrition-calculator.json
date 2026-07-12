@@ -1,76 +1,540 @@
 {
+  "name": "Outback Steakhouse",
   "slug": "outback-steakhouse-nutrition-calculator",
-  "title": "🥩 Outback Steakhouse Nutrition Calculator",
+  "tagline": "Build your Outback Steakhouse meal and calculate exact calories, protein, carbs and fat for steaks, chicken...",
   "description": "Build your Outback Steakhouse meal and calculate exact calories, protein, carbs and fat for steaks, chicken, seafood, sides and more.",
+  "category": "Chicken",
+  "emoji": "🥩",
+  "itemCount": 53,
   "categories": [
-    {"name": "Signature Steaks", "items": [
-      {"name": "Victoria's Filet Mignon (6 oz)", "calories": 480, "protein": 46, "carbs": 1, "fat": 32, "fiber": 0, "sodium": 470},
-      {"name": "Victoria's Filet Mignon (8 oz)", "calories": 580, "protein": 58, "carbs": 1, "fat": 38, "fiber": 0, "sodium": 560},
-      {"name": "Outback Center-Cut Sirloin (6 oz)", "calories": 340, "protein": 38, "carbs": 2, "fat": 20, "fiber": 0, "sodium": 560},
-      {"name": "Outback Center-Cut Sirloin (8 oz)", "calories": 400, "protein": 50, "carbs": 2, "fat": 24, "fiber": 0, "sodium": 680},
-      {"name": "Outback Center-Cut Sirloin (11 oz)", "calories": 520, "protein": 66, "carbs": 3, "fat": 30, "fiber": 0, "sodium": 820},
-      {"name": "Ribeye (13 oz)", "calories": 1010, "protein": 70, "carbs": 4, "fat": 80, "fiber": 0, "sodium": 950},
-      {"name": "Bone-In Ribeye (20 oz)", "calories": 1350, "protein": 96, "carbs": 5, "fat": 108, "fiber": 0, "sodium": 1180},
-      {"name": "New York Strip (12 oz)", "calories": 860, "protein": 78, "carbs": 3, "fat": 60, "fiber": 0, "sodium": 990},
-      {"name": "Melbourne Porterhouse (22 oz)", "calories": 980, "protein": 102, "carbs": 4, "fat": 62, "fiber": 0, "sodium": 1240},
-      {"name": "Chimichurri Filet", "calories": 690, "protein": 50, "carbs": 6, "fat": 50, "fiber": 1, "sodium": 880}
-    ]},
-    {"name": "Chicken, Ribs & More", "items": [
-      {"name": "Alice Springs Chicken", "calories": 910, "protein": 72, "carbs": 14, "fat": 60, "fiber": 1, "sodium": 2080},
-      {"name": "Grilled Chicken on the Barbie", "calories": 410, "protein": 44, "carbs": 9, "fat": 19, "fiber": 1, "sodium": 1190},
-      {"name": "Bloomin' Fried Chicken", "calories": 970, "protein": 58, "carbs": 62, "fat": 54, "fiber": 3, "sodium": 2360},
-      {"name": "Baby Back Ribs (Half Rack)", "calories": 720, "protein": 48, "carbs": 24, "fat": 48, "fiber": 1, "sodium": 1650},
-      {"name": "Baby Back Ribs (Full Rack)", "calories": 1430, "protein": 96, "carbs": 48, "fat": 96, "fiber": 2, "sodium": 3200},
-      {"name": "Caramel Mustard Glazed Pork Chops", "calories": 900, "protein": 62, "carbs": 38, "fat": 52, "fiber": 2, "sodium": 1980},
-      {"name": "Queensland Chicken & Shrimp Pasta", "calories": 1510, "protein": 68, "carbs": 102, "fat": 88, "fiber": 5, "sodium": 2890},
-      {"name": "Chicken Tender Platter", "calories": 1020, "protein": 52, "carbs": 72, "fat": 58, "fiber": 3, "sodium": 2240}
-    ]},
-    {"name": "Seafood", "items": [
-      {"name": "Perfectly Grilled Salmon (7 oz)", "calories": 600, "protein": 48, "carbs": 6, "fat": 42, "fiber": 1, "sodium": 740},
-      {"name": "Toowoomba Salmon", "calories": 890, "protein": 52, "carbs": 16, "fat": 66, "fiber": 1, "sodium": 1680},
-      {"name": "Grilled Shrimp on the Barbie", "calories": 560, "protein": 38, "carbs": 18, "fat": 36, "fiber": 1, "sodium": 1820},
-      {"name": "Gold Coast Coconut Shrimp", "calories": 1020, "protein": 26, "carbs": 88, "fat": 62, "fiber": 3, "sodium": 1340},
-      {"name": "Steamed Lobster Tails", "calories": 490, "protein": 42, "carbs": 4, "fat": 32, "fiber": 0, "sodium": 1490},
-      {"name": "Seared Peppered Ahi", "calories": 460, "protein": 40, "carbs": 12, "fat": 26, "fiber": 1, "sodium": 1280}
-    ]},
-    {"name": "Appetizers", "items": [
-      {"name": "Bloomin' Onion", "calories": 1900, "protein": 18, "carbs": 123, "fat": 151, "fiber": 9, "sodium": 3960},
-      {"name": "Aussie Cheese Fries", "calories": 2620, "protein": 70, "carbs": 154, "fat": 192, "fiber": 12, "sodium": 4400},
-      {"name": "Kookaburra Wings", "calories": 1740, "protein": 86, "carbs": 64, "fat": 124, "fiber": 4, "sodium": 5200},
-      {"name": "Fried Mozzarella Bloomerangs", "calories": 1200, "protein": 48, "carbs": 96, "fat": 70, "fiber": 4, "sodium": 2600},
-      {"name": "Bloomin' Fried Shrimp", "calories": 990, "protein": 32, "carbs": 78, "fat": 60, "fiber": 3, "sodium": 1840},
-      {"name": "Sydney Shrooms", "calories": 1370, "protein": 28, "carbs": 92, "fat": 98, "fiber": 6, "sodium": 2480}
-    ]},
-    {"name": "Entree Salads", "items": [
-      {"name": "Aussie Cobb Salad (Grilled Chicken)", "calories": 680, "protein": 52, "carbs": 22, "fat": 44, "fiber": 6, "sodium": 1680},
-      {"name": "Aussie Cobb Salad (Crispy Chicken)", "calories": 940, "protein": 48, "carbs": 52, "fat": 62, "fiber": 6, "sodium": 2040},
-      {"name": "Aussie Cobb Salad (Salmon)", "calories": 890, "protein": 54, "carbs": 22, "fat": 64, "fiber": 6, "sodium": 1560},
-      {"name": "Brisbane Caesar Salad (Chicken)", "calories": 760, "protein": 46, "carbs": 30, "fat": 50, "fiber": 4, "sodium": 1720},
-      {"name": "Steakhouse Salad", "calories": 1170, "protein": 58, "carbs": 48, "fat": 82, "fiber": 7, "sodium": 2240}
-    ]},
-    {"name": "Soups & Side Salads", "items": [
-      {"name": "Tasmanian Chili (Cup)", "calories": 590, "protein": 28, "carbs": 38, "fat": 36, "fiber": 6, "sodium": 1280},
-      {"name": "Baked Potato Soup (Cup)", "calories": 250, "protein": 8, "carbs": 24, "fat": 14, "fiber": 2, "sodium": 760},
-      {"name": "French Onion Soup (Crock)", "calories": 570, "protein": 22, "carbs": 38, "fat": 36, "fiber": 3, "sodium": 1680},
-      {"name": "House Side Salad", "calories": 180, "protein": 6, "carbs": 14, "fat": 11, "fiber": 3, "sodium": 320},
-      {"name": "Caesar Side Salad", "calories": 260, "protein": 8, "carbs": 16, "fat": 19, "fiber": 2, "sodium": 560},
-      {"name": "Blue Cheese Pecan Chopped Side Salad", "calories": 440, "protein": 12, "carbs": 20, "fat": 36, "fiber": 4, "sodium": 720}
-    ]},
-    {"name": "Freshly Made Sides", "items": [
-      {"name": "Homestyle Mashed Potatoes", "calories": 230, "protein": 4, "carbs": 28, "fat": 12, "fiber": 2, "sodium": 620},
-      {"name": "Dressed Baked Potato", "calories": 440, "protein": 9, "carbs": 58, "fat": 19, "fiber": 5, "sodium": 480},
-      {"name": "Aussie Fries", "calories": 500, "protein": 6, "carbs": 58, "fat": 28, "fiber": 5, "sodium": 880},
-      {"name": "Sweet Potato with Honey & Brown Sugar", "calories": 410, "protein": 4, "carbs": 72, "fat": 12, "fiber": 6, "sodium": 220},
-      {"name": "Fresh Steamed Seasonal Veggies", "calories": 120, "protein": 4, "carbs": 12, "fat": 7, "fiber": 4, "sodium": 280},
-      {"name": "Seasoned Rice", "calories": 320, "protein": 6, "carbs": 52, "fat": 9, "fiber": 2, "sodium": 740},
-      {"name": "Steakhouse Mac & Cheese", "calories": 720, "protein": 24, "carbs": 56, "fat": 44, "fiber": 2, "sodium": 1280},
-      {"name": "Loaded Mashed Potatoes", "calories": 720, "protein": 20, "carbs": 48, "fat": 50, "fiber": 4, "sodium": 1180}
-    ]},
-    {"name": "Desserts & Drinks", "items": [
-      {"name": "Chocolate Thunder from Down Under", "calories": 1490, "protein": 18, "carbs": 168, "fat": 88, "fiber": 8, "sodium": 1020},
-      {"name": "Classic Cheesecake", "calories": 680, "protein": 8, "carbs": 62, "fat": 43, "fiber": 1, "sodium": 460, "sugars": 48},
-      {"name": "Coca-Cola (Regular)", "calories": 140, "protein": 0, "carbs": 38, "fat": 0, "fiber": 0, "sodium": 30, "sugars": 38},
-      {"name": "Unsweetened Iced Tea", "calories": 5, "protein": 0, "carbs": 1, "fat": 0, "fiber": 0, "sodium": 10}
-    ]}
+    {
+      "name": "Signature Steaks",
+      "items": [
+        {
+          "name": "Victoria's Filet Mignon (6 oz)",
+          "servingSize": "6 oz",
+          "calories": 480,
+          "protein": 46,
+          "fat": 32,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 470
+        },
+        {
+          "name": "Victoria's Filet Mignon (8 oz)",
+          "servingSize": "8 oz",
+          "calories": 580,
+          "protein": 58,
+          "fat": 38,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 560
+        },
+        {
+          "name": "Outback Center-Cut Sirloin (6 oz)",
+          "servingSize": "6 oz",
+          "calories": 340,
+          "protein": 38,
+          "fat": 20,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 560
+        },
+        {
+          "name": "Outback Center-Cut Sirloin (8 oz)",
+          "servingSize": "8 oz",
+          "calories": 400,
+          "protein": 50,
+          "fat": 24,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 680
+        },
+        {
+          "name": "Outback Center-Cut Sirloin (11 oz)",
+          "servingSize": "11 oz",
+          "calories": 520,
+          "protein": 66,
+          "fat": 30,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 820
+        },
+        {
+          "name": "Ribeye (13 oz)",
+          "servingSize": "13 oz",
+          "calories": 1010,
+          "protein": 70,
+          "fat": 80,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 950
+        },
+        {
+          "name": "Bone-In Ribeye (20 oz)",
+          "servingSize": "20 oz",
+          "calories": 1350,
+          "protein": 96,
+          "fat": 108,
+          "carbs": 5,
+          "fiber": 0,
+          "sodium": 1180
+        },
+        {
+          "name": "New York Strip (12 oz)",
+          "servingSize": "12 oz",
+          "calories": 860,
+          "protein": 78,
+          "fat": 60,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 990
+        },
+        {
+          "name": "Melbourne Porterhouse (22 oz)",
+          "servingSize": "22 oz",
+          "calories": 980,
+          "protein": 102,
+          "fat": 62,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 1240
+        },
+        {
+          "name": "Chimichurri Filet",
+          "calories": 690,
+          "protein": 50,
+          "fat": 50,
+          "carbs": 6,
+          "fiber": 1,
+          "sodium": 880
+        }
+      ]
+    },
+    {
+      "name": "Chicken, Ribs & More",
+      "items": [
+        {
+          "name": "Alice Springs Chicken",
+          "calories": 910,
+          "protein": 72,
+          "fat": 60,
+          "carbs": 14,
+          "fiber": 1,
+          "sodium": 2080
+        },
+        {
+          "name": "Grilled Chicken on the Barbie",
+          "calories": 410,
+          "protein": 44,
+          "fat": 19,
+          "carbs": 9,
+          "fiber": 1,
+          "sodium": 1190
+        },
+        {
+          "name": "Bloomin' Fried Chicken",
+          "calories": 970,
+          "protein": 58,
+          "fat": 54,
+          "carbs": 62,
+          "fiber": 3,
+          "sodium": 2360
+        },
+        {
+          "name": "Baby Back Ribs (Half Rack)",
+          "calories": 720,
+          "protein": 48,
+          "fat": 48,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 1650
+        },
+        {
+          "name": "Baby Back Ribs (Full Rack)",
+          "calories": 1430,
+          "protein": 96,
+          "fat": 96,
+          "carbs": 48,
+          "fiber": 2,
+          "sodium": 3200
+        },
+        {
+          "name": "Caramel Mustard Glazed Pork Chops",
+          "calories": 900,
+          "protein": 62,
+          "fat": 52,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1980
+        },
+        {
+          "name": "Queensland Chicken & Shrimp Pasta",
+          "calories": 1510,
+          "protein": 68,
+          "fat": 88,
+          "carbs": 102,
+          "fiber": 5,
+          "sodium": 2890
+        },
+        {
+          "name": "Chicken Tender Platter",
+          "calories": 1020,
+          "protein": 52,
+          "fat": 58,
+          "carbs": 72,
+          "fiber": 3,
+          "sodium": 2240
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        {
+          "name": "Perfectly Grilled Salmon (7 oz)",
+          "servingSize": "7 oz",
+          "calories": 600,
+          "protein": 48,
+          "fat": 42,
+          "carbs": 6,
+          "fiber": 1,
+          "sodium": 740
+        },
+        {
+          "name": "Toowoomba Salmon",
+          "calories": 890,
+          "protein": 52,
+          "fat": 66,
+          "carbs": 16,
+          "fiber": 1,
+          "sodium": 1680
+        },
+        {
+          "name": "Grilled Shrimp on the Barbie",
+          "calories": 560,
+          "protein": 38,
+          "fat": 36,
+          "carbs": 18,
+          "fiber": 1,
+          "sodium": 1820
+        },
+        {
+          "name": "Gold Coast Coconut Shrimp",
+          "calories": 1020,
+          "protein": 26,
+          "fat": 62,
+          "carbs": 88,
+          "fiber": 3,
+          "sodium": 1340
+        },
+        {
+          "name": "Steamed Lobster Tails",
+          "calories": 490,
+          "protein": 42,
+          "fat": 32,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 1490
+        },
+        {
+          "name": "Seared Peppered Ahi",
+          "calories": 460,
+          "protein": 40,
+          "fat": 26,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 1280
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Bloomin' Onion",
+          "calories": 1900,
+          "protein": 18,
+          "fat": 151,
+          "carbs": 123,
+          "fiber": 9,
+          "sodium": 3960
+        },
+        {
+          "name": "Aussie Cheese Fries",
+          "calories": 2620,
+          "protein": 70,
+          "fat": 192,
+          "carbs": 154,
+          "fiber": 12,
+          "sodium": 4400
+        },
+        {
+          "name": "Kookaburra Wings",
+          "calories": 1740,
+          "protein": 86,
+          "fat": 124,
+          "carbs": 64,
+          "fiber": 4,
+          "sodium": 5200
+        },
+        {
+          "name": "Fried Mozzarella Bloomerangs",
+          "calories": 1200,
+          "protein": 48,
+          "fat": 70,
+          "carbs": 96,
+          "fiber": 4,
+          "sodium": 2600
+        },
+        {
+          "name": "Bloomin' Fried Shrimp",
+          "calories": 990,
+          "protein": 32,
+          "fat": 60,
+          "carbs": 78,
+          "fiber": 3,
+          "sodium": 1840
+        },
+        {
+          "name": "Sydney Shrooms",
+          "calories": 1370,
+          "protein": 28,
+          "fat": 98,
+          "carbs": 92,
+          "fiber": 6,
+          "sodium": 2480
+        }
+      ]
+    },
+    {
+      "name": "Entree Salads",
+      "items": [
+        {
+          "name": "Aussie Cobb Salad (Grilled Chicken)",
+          "calories": 680,
+          "protein": 52,
+          "fat": 44,
+          "carbs": 22,
+          "fiber": 6,
+          "sodium": 1680
+        },
+        {
+          "name": "Aussie Cobb Salad (Crispy Chicken)",
+          "calories": 940,
+          "protein": 48,
+          "fat": 62,
+          "carbs": 52,
+          "fiber": 6,
+          "sodium": 2040
+        },
+        {
+          "name": "Aussie Cobb Salad (Salmon)",
+          "calories": 890,
+          "protein": 54,
+          "fat": 64,
+          "carbs": 22,
+          "fiber": 6,
+          "sodium": 1560
+        },
+        {
+          "name": "Brisbane Caesar Salad (Chicken)",
+          "calories": 760,
+          "protein": 46,
+          "fat": 50,
+          "carbs": 30,
+          "fiber": 4,
+          "sodium": 1720
+        },
+        {
+          "name": "Steakhouse Salad",
+          "calories": 1170,
+          "protein": 58,
+          "fat": 82,
+          "carbs": 48,
+          "fiber": 7,
+          "sodium": 2240
+        }
+      ]
+    },
+    {
+      "name": "Soups & Side Salads",
+      "items": [
+        {
+          "name": "Tasmanian Chili (Cup)",
+          "calories": 590,
+          "protein": 28,
+          "fat": 36,
+          "carbs": 38,
+          "fiber": 6,
+          "sodium": 1280
+        },
+        {
+          "name": "Baked Potato Soup (Cup)",
+          "calories": 250,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 24,
+          "fiber": 2,
+          "sodium": 760
+        },
+        {
+          "name": "French Onion Soup (Crock)",
+          "calories": 570,
+          "protein": 22,
+          "fat": 36,
+          "carbs": 38,
+          "fiber": 3,
+          "sodium": 1680
+        },
+        {
+          "name": "House Side Salad",
+          "calories": 180,
+          "protein": 6,
+          "fat": 11,
+          "carbs": 14,
+          "fiber": 3,
+          "sodium": 320
+        },
+        {
+          "name": "Caesar Side Salad",
+          "calories": 260,
+          "protein": 8,
+          "fat": 19,
+          "carbs": 16,
+          "fiber": 2,
+          "sodium": 560
+        },
+        {
+          "name": "Blue Cheese Pecan Chopped Side Salad",
+          "calories": 440,
+          "protein": 12,
+          "fat": 36,
+          "carbs": 20,
+          "fiber": 4,
+          "sodium": 720
+        }
+      ]
+    },
+    {
+      "name": "Freshly Made Sides",
+      "items": [
+        {
+          "name": "Homestyle Mashed Potatoes",
+          "calories": 230,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 620
+        },
+        {
+          "name": "Dressed Baked Potato",
+          "calories": 440,
+          "protein": 9,
+          "fat": 19,
+          "carbs": 58,
+          "fiber": 5,
+          "sodium": 480
+        },
+        {
+          "name": "Aussie Fries",
+          "calories": 500,
+          "protein": 6,
+          "fat": 28,
+          "carbs": 58,
+          "fiber": 5,
+          "sodium": 880
+        },
+        {
+          "name": "Sweet Potato with Honey & Brown Sugar",
+          "calories": 410,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 72,
+          "fiber": 6,
+          "sodium": 220
+        },
+        {
+          "name": "Fresh Steamed Seasonal Veggies",
+          "calories": 120,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 12,
+          "fiber": 4,
+          "sodium": 280
+        },
+        {
+          "name": "Seasoned Rice",
+          "calories": 320,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 52,
+          "fiber": 2,
+          "sodium": 740
+        },
+        {
+          "name": "Steakhouse Mac & Cheese",
+          "calories": 720,
+          "protein": 24,
+          "fat": 44,
+          "carbs": 56,
+          "fiber": 2,
+          "sodium": 1280
+        },
+        {
+          "name": "Loaded Mashed Potatoes",
+          "calories": 720,
+          "protein": 20,
+          "fat": 50,
+          "carbs": 48,
+          "fiber": 4,
+          "sodium": 1180
+        }
+      ]
+    },
+    {
+      "name": "Desserts & Drinks",
+      "items": [
+        {
+          "name": "Chocolate Thunder from Down Under",
+          "calories": 1490,
+          "protein": 18,
+          "fat": 88,
+          "carbs": 168,
+          "fiber": 8,
+          "sodium": 1020
+        },
+        {
+          "name": "Classic Cheesecake",
+          "calories": 680,
+          "protein": 8,
+          "fat": 43,
+          "carbs": 62,
+          "fiber": 1,
+          "sodium": 460,
+          "sugars": 48
+        },
+        {
+          "name": "Coca-Cola (Regular)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 38,
+          "fiber": 0,
+          "sodium": 30,
+          "sugars": 38
+        },
+        {
+          "name": "Unsweetened Iced Tea",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 10
+        }
+      ]
+    }
   ]
 }

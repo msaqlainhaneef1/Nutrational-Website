@@ -1,28 +1,32 @@
 {
+  "name": "Mucho Burrito",
   "slug": "mucho-burrito-nutrition-calculator",
-  "title": "🌯 Mucho Burrito Nutrition Calculator",
+  "tagline": "Build your burrito and see full nutrition breakdown.",
   "description": "Build your burrito and see full nutrition breakdown.",
+  "category": "Mexican & Bowls",
+  "emoji": "🌯",
+  "itemCount": 53,
   "categories": [
     {
       "name": "Cali Crunch",
       "items": [
         {
           "name": "Cali Crunch Burrito",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Cali Crunch Bowl",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -31,30 +35,30 @@
       "items": [
         {
           "name": "BYO Burrito Mucho",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "BYO Burrito Regular",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "BYO Burrito Small",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -63,12 +67,12 @@
       "items": [
         {
           "name": "BYO Bowl/Salad",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -77,21 +81,21 @@
       "items": [
         {
           "name": "BYO Taco Solo",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "BYO Taco Trio",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -100,30 +104,30 @@
       "items": [
         {
           "name": "BYO Quesadilla",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Quesadillas Super Suiza",
-          "calories": 1000.0,
-          "protein": 43.0,
-          "carbs": 67.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 1000,
+          "protein": 43,
+          "fat": 0,
+          "carbs": 67,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Quesadillas El Clasico",
-          "calories": 800.0,
-          "protein": 29.0,
-          "carbs": 70.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 800,
+          "protein": 29,
+          "fat": 0,
+          "carbs": 70,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -132,66 +136,66 @@
       "items": [
         {
           "name": "Spiced Signature Mercado Fries MUCHO",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Spiced Signature Mercado Fries Regular",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Loaded Nachos",
-          "calories": 400.0,
-          "protein": 4.0,
-          "carbs": 46.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 400,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 46,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Tortilla Chips with Salsa",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Tortilla Chips with Guacamole",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Tortilla Chips with Queso",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Salsa Flight",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -200,21 +204,21 @@
       "items": [
         {
           "name": "Churro Fries",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chocolate Chunk Cookies",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -223,75 +227,75 @@
       "items": [
         {
           "name": "Canned Pop",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Bottled Pop",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Jarritos",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pure Leaf Iced Tea",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Aquafina Bottled Water",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Dole Juice",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Montellier Sparkling Water",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Corona Cero",
-          "calories": 0.0,
-          "protein": 0.0,
-          "carbs": 0.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -300,75 +304,75 @@
       "items": [
         {
           "name": "Grilled Chicken (Polo)",
-          "calories": 109.0,
-          "protein": 18.0,
-          "carbs": 3.0,
+          "calories": 109,
+          "protein": 18,
           "fat": 2.9,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Beef Barbacoa",
-          "calories": 190.0,
-          "protein": 30.0,
-          "carbs": 4.0,
-          "fat": 6.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 190,
+          "protein": 30,
+          "fat": 6,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Steak (Carne Asada)",
-          "calories": 210.0,
-          "protein": 24.0,
-          "carbs": 1.0,
-          "fat": 12.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 210,
+          "protein": 24,
+          "fat": 12,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pork Carnitas",
-          "calories": 140.0,
-          "protein": 22.0,
-          "carbs": 9.0,
-          "fat": 5.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 140,
+          "protein": 22,
+          "fat": 5,
+          "carbs": 9,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chorizo",
-          "calories": 300.0,
-          "protein": 21.0,
-          "carbs": 2.0,
-          "fat": 23.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 300,
+          "protein": 21,
+          "fat": 23,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Chipotle Shrimp",
-          "calories": 110.0,
-          "protein": 17.0,
-          "carbs": 19.0,
-          "fat": 2.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 110,
+          "protein": 17,
+          "fat": 2,
+          "carbs": 19,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Beyond Meat",
-          "calories": 401.0,
-          "protein": 25.0,
-          "carbs": 20.0,
-          "fat": 24.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 401,
+          "protein": 25,
+          "fat": 24,
+          "carbs": 20,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Sauteed Veggies",
-          "calories": 40.0,
-          "protein": 1.0,
-          "carbs": 5.0,
-          "fat": 2.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 40,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 5,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -377,39 +381,39 @@
       "items": [
         {
           "name": "Mexican Brown Rice (Mucho)",
-          "calories": 180.0,
-          "protein": 4.0,
-          "carbs": 33.0,
-          "fat": 3.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 180,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 33,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mexican Brown Rice (Regular)",
-          "calories": 90.0,
-          "protein": 2.0,
-          "carbs": 17.0,
-          "fat": 2.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 90,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 17,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Black Beans (Mucho)",
-          "calories": 50.0,
-          "protein": 3.0,
-          "carbs": 10.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pinto Beans (Regular)",
-          "calories": 35.0,
-          "protein": 2.0,
-          "carbs": 6.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 35,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 6,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -418,48 +422,48 @@
       "items": [
         {
           "name": "White Flour Tortilla (10 Inch)",
-          "calories": 340.0,
-          "protein": 9.0,
-          "carbs": 52.0,
-          "fat": 10.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 340,
+          "protein": 9,
+          "fat": 10,
+          "carbs": 52,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Whole Wheat Tortilla (10 Inch)",
-          "calories": 340.0,
-          "protein": 9.0,
-          "carbs": 52.0,
-          "fat": 10.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 340,
+          "protein": 9,
+          "fat": 10,
+          "carbs": 52,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Whole Wheat Tortilla (Small)",
-          "calories": 230.0,
-          "protein": 6.0,
-          "carbs": 37.0,
-          "fat": 7.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 230,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 37,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Soft Flour Tacos (3 count)",
-          "calories": 270.0,
-          "protein": 6.0,
-          "carbs": 42.0,
-          "fat": 6.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 270,
+          "protein": 6,
+          "fat": 6,
+          "carbs": 42,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Hard Corn Tacos (2 count)",
-          "calories": 50.0,
-          "protein": 2.0,
-          "carbs": 12.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 50,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 12,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     },
@@ -468,75 +472,78 @@
       "items": [
         {
           "name": "Monterey Jack Cheese (Mucho)",
-          "calories": 90.0,
-          "protein": 6.0,
-          "carbs": 1.0,
-          "fat": 8.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 90,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Guacamole (30g)",
-          "calories": 25.0,
-          "protein": 0.0,
-          "carbs": 2.0,
-          "fat": 2.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "servingSize": "30 g",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Pico de Gallo (60g)",
-          "calories": 10.0,
-          "protein": 1.0,
-          "carbs": 3.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "servingSize": "60 g",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Romaine Lettuce (100g)",
-          "calories": 15.0,
-          "protein": 1.0,
-          "carbs": 3.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "servingSize": "100 g",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Corn and Black Bean Salsa",
-          "calories": 60.0,
-          "protein": 1.0,
-          "carbs": 13.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 60,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 13,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Medium Salsa",
-          "calories": 15.0,
-          "protein": 1.0,
-          "carbs": 2.0,
-          "fat": 0.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Sour Cream",
-          "calories": 70.0,
-          "protein": 1.0,
-          "carbs": 3.0,
-          "fat": 5.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 70,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 0
         },
         {
           "name": "Mucho Burrito Sauce",
-          "calories": 90.0,
-          "protein": 0.0,
-          "carbs": 3.0,
-          "fat": 9.0,
-          "fiber": 0.0,
-          "sodium": 0.0
+          "calories": 90,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 0
         }
       ]
     }

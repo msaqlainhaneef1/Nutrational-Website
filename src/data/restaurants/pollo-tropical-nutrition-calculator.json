@@ -1,0 +1,1812 @@
+{
+  "name": "Pollo Tropical",
+  "slug": "pollo-tropical-nutrition-calculator",
+  "tagline": "Calculate Pollo Tropical calories, protein, carbs and fat. Free Pollo Tropical nutrition calculator with co...",
+  "description": "Calculate Pollo Tropical calories, protein, carbs and fat. Free Pollo Tropical nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 173,
+  "categories": [
+    {
+      "name": "Ala Carte Meat / Platters",
+      "items": [
+        {
+          "name": "Chicken (¼ white)",
+          "calories": 360,
+          "protein": 43,
+          "fat": 20,
+          "carbs": 0,
+          "sodium": 730,
+          "cholesterol": 185,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Chicken (¼ dark)",
+          "calories": 290,
+          "protein": 24,
+          "fat": 22,
+          "carbs": 0,
+          "sodium": 430,
+          "cholesterol": 135,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Chicken (¼ white) without Skin",
+          "calories": 220,
+          "protein": 37,
+          "fat": 8,
+          "carbs": 0,
+          "sodium": 670,
+          "cholesterol": 130,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Chicken (¼ dark) without Skin",
+          "calories": 170,
+          "protein": 21,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 300,
+          "cholesterol": 110,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Chicken (½)",
+          "calories": 650,
+          "protein": 67,
+          "fat": 42,
+          "carbs": 0,
+          "sodium": 1160,
+          "cholesterol": 320,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Grilled Chicken Breast (2)",
+          "calories": 240,
+          "protein": 59,
+          "fat": 6,
+          "carbs": 10,
+          "sodium": 860,
+          "cholesterol": 170,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Crispy Chicken Breast",
+          "calories": 180,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 19,
+          "fiber": 1,
+          "sodium": 930,
+          "cholesterol": 30,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Mojo Roast Pork with Sauteed Onions",
+          "calories": 370,
+          "protein": 39,
+          "fat": 22,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 620,
+          "cholesterol": 115,
+          "saturated_fat": 8,
+          "sugars": 1
+        },
+        {
+          "name": "Churrasco Steak with Chimichurri",
+          "calories": 270,
+          "protein": 25,
+          "fat": 18,
+          "carbs": 3,
+          "sodium": 710,
+          "cholesterol": 90,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Chicken (¼ white) and Mojo Roast Pork w/ Sauteed Onions",
+          "calories": 730,
+          "protein": 82,
+          "fat": 42,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 1350,
+          "cholesterol": 300,
+          "saturated_fat": 14
+        },
+        {
+          "name": "Chicken (¼ dark) and Mojo Roast Pork w/ Sauteed Onions",
+          "calories": 660,
+          "protein": 63,
+          "fat": 44,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 1050,
+          "cholesterol": 250,
+          "saturated_fat": 14
+        },
+        {
+          "name": "Tropical Trio w/ white rice, black beans, plantains",
+          "calories": 1530,
+          "protein": 98,
+          "fat": 67,
+          "carbs": 137,
+          "fiber": 21,
+          "sodium": 2770,
+          "cholesterol": 290,
+          "saturated_fat": 17,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Soups, Salads, Sandwiches & Wraps",
+      "items": [
+        {
+          "name": "Caesar Salad - add protein choice",
+          "calories": 380,
+          "protein": 7,
+          "fat": 35,
+          "carbs": 12,
+          "fiber": 3,
+          "sodium": 600,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Caesar Salad w/o Dressing - add protein choice",
+          "calories": 90,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 11,
+          "fiber": 3,
+          "sodium": 130,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Grilled Chicken for Caesar Salad",
+          "calories": 120,
+          "protein": 29,
+          "fat": 3,
+          "carbs": 5,
+          "sodium": 430,
+          "cholesterol": 85,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Avocado Crispy Chicken Salad",
+          "calories": 970,
+          "protein": 27,
+          "fat": 75,
+          "carbs": 49,
+          "sodium": 1490,
+          "cholesterol": 80,
+          "saturated_fat": 16,
+          "sugars": 12
+        },
+        {
+          "name": "Avocado Grilled Chicken Salad",
+          "calories": 960,
+          "protein": 56,
+          "fat": 73,
+          "carbs": 36,
+          "sodium": 1770,
+          "cholesterol": 170,
+          "saturated_fat": 17,
+          "sugars": 10
+        },
+        {
+          "name": "Caribbean Chicken Soup (Cup)",
+          "calories": 240,
+          "protein": 18,
+          "fat": 5,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 1380,
+          "cholesterol": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Caribbean Chicken Soup (Bowl)",
+          "calories": 300,
+          "protein": 22,
+          "fat": 5,
+          "carbs": 41,
+          "fiber": 3,
+          "sodium": 1730,
+          "cholesterol": 45,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Grilled Chicken Sandwich with Chipotle Mayo",
+          "calories": 440,
+          "protein": 35,
+          "fat": 24,
+          "carbs": 35,
+          "sodium": 790,
+          "cholesterol": 110,
+          "saturated_fat": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Crispy Chicken Sandwich with Chipotle Mayo",
+          "calories": 510,
+          "protein": 19,
+          "fat": 26,
+          "carbs": 49,
+          "sodium": 360,
+          "cholesterol": 55,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Grilled Chicken Sandwich with Cilantro Garlic",
+          "calories": 440,
+          "protein": 35,
+          "fat": 23,
+          "carbs": 34,
+          "sodium": 690,
+          "cholesterol": 115,
+          "saturated_fat": 5,
+          "sugars": 6
+        },
+        {
+          "name": "Crispy Chicken Sandwich with Cilantro Garlic",
+          "calories": 510,
+          "protein": 19,
+          "fat": 25,
+          "carbs": 49,
+          "sodium": 260,
+          "cholesterol": 60,
+          "saturated_fat": 5,
+          "sugars": 8
+        },
+        {
+          "name": "Guava BBQ Pork Sandwich",
+          "calories": 390,
+          "protein": 25,
+          "fat": 14,
+          "carbs": 42,
+          "sodium": 430,
+          "cholesterol": 75,
+          "saturated_fat": 5,
+          "sugars": 18
+        },
+        {
+          "name": "Grilled Chicken Caesar Wrap",
+          "calories": 680,
+          "protein": 39,
+          "fat": 45,
+          "carbs": 42,
+          "fiber": 3,
+          "sodium": 1340,
+          "cholesterol": 125,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Crispy Chicken Caesar Wrap",
+          "calories": 750,
+          "protein": 23,
+          "fat": 47,
+          "carbs": 57,
+          "fiber": 4,
+          "sodium": 910,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Grilled Chicken Quesadilla Wrap",
+          "calories": 660,
+          "protein": 48,
+          "fat": 39,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1300,
+          "cholesterol": 145,
+          "saturated_fat": 16,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Build Your Tropichop® Bowl - Tropichop Rice & Veggies",
+      "items": [
+        {
+          "name": "White Rice (Regular)",
+          "calories": 350,
+          "protein": 7,
+          "fat": 6,
+          "carbs": 71,
+          "fiber": 2,
+          "sodium": 740,
+          "saturated_fat": 2
+        },
+        {
+          "name": "White Rice (Large)",
+          "calories": 530,
+          "protein": 10,
+          "fat": 8,
+          "carbs": 106,
+          "fiber": 3,
+          "sodium": 1120,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Yellow Rice with Veg (Regular)",
+          "calories": 320,
+          "protein": 6,
+          "fat": 5,
+          "carbs": 61,
+          "fiber": 3,
+          "sodium": 1030,
+          "sugars": 3
+        },
+        {
+          "name": "Yellow Rice with Veg (Large)",
+          "calories": 480,
+          "protein": 10,
+          "fat": 7,
+          "carbs": 91,
+          "fiber": 5,
+          "sodium": 1548,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Brown Rice (Regular)",
+          "calories": 300,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 51,
+          "fiber": 2,
+          "sodium": 660,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Brown Rice (Large)",
+          "calories": 450,
+          "protein": 8,
+          "fat": 13,
+          "carbs": 76,
+          "fiber": 3,
+          "sodium": 990,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Romaine Lettuce (Regular)",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Romaine Lettuce (Large)",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 10,
+          "sugars": 1
+        },
+        {
+          "name": "Romaine Lettuce / White Rice (Regular)",
+          "calories": 190,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 39,
+          "fiber": 1,
+          "sodium": 400,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Romaine Lettuce / White Rice (Large)",
+          "calories": 330,
+          "protein": 7,
+          "fat": 5,
+          "carbs": 66,
+          "fiber": 3,
+          "sodium": 670,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Romaine / Yellow Rice w/ Veg (Regular)",
+          "calories": 190,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 37,
+          "fiber": 3,
+          "sodium": 810,
+          "sugars": 2
+        },
+        {
+          "name": "Romaine / Yellow Rice w/ Veg (Large)",
+          "calories": 320,
+          "protein": 7,
+          "fat": 5,
+          "carbs": 61,
+          "fiber": 4,
+          "sodium": 1330,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Romaine Lettuce / Brown Rice (Regular)",
+          "calories": 160,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 350,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Romaine Lettuce / Brown Rice (Large)",
+          "calories": 280,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 47,
+          "fiber": 3,
+          "sodium": 600,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Mac & Cheese (Regular)",
+          "calories": 390,
+          "protein": 15,
+          "fat": 24,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 820,
+          "cholesterol": 70,
+          "saturated_fat": 14,
+          "sugars": 2
+        },
+        {
+          "name": "Mac & Cheese (Large)",
+          "calories": 590,
+          "protein": 22,
+          "fat": 36,
+          "carbs": 42,
+          "fiber": 2,
+          "sodium": 1230,
+          "cholesterol": 100,
+          "saturated_fat": 21,
+          "sugars": 2
+        },
+        {
+          "name": "Black Beans (Regular)",
+          "calories": 180,
+          "protein": 9,
+          "fat": 5,
+          "carbs": 25,
+          "fiber": 9,
+          "sodium": 380,
+          "sugars": 1
+        },
+        {
+          "name": "Black Beans (Large)",
+          "calories": 280,
+          "protein": 14,
+          "fat": 8,
+          "carbs": 41,
+          "fiber": 15,
+          "sodium": 610,
+          "saturated_fat": 1,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Build Your Tropichop® Bowl - Tropichop Meats",
+      "items": [
+        {
+          "name": "Boneless Chicken Breast (Regular)",
+          "calories": 120,
+          "protein": 25,
+          "fat": 3,
+          "carbs": 4,
+          "sodium": 369,
+          "cholesterol": 73,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Boneless Chicken Breast (Large)",
+          "calories": 250,
+          "protein": 51,
+          "fat": 5,
+          "carbs": 9,
+          "sodium": 746,
+          "cholesterol": 150,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Mojo Roast Pork (Regular)",
+          "calories": 170,
+          "protein": 19,
+          "fat": 10,
+          "carbs": 0,
+          "sodium": 260,
+          "cholesterol": 60,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Mojo Roast Pork (Large)",
+          "calories": 330,
+          "protein": 39,
+          "fat": 20,
+          "carbs": 0,
+          "sodium": 520,
+          "cholesterol": 115,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Boneless Chicken Breast and Mojo Roast Pork (Regular)",
+          "calories": 290,
+          "protein": 49,
+          "fat": 13,
+          "carbs": 5,
+          "sodium": 690,
+          "cholesterol": 145,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Boneless Chicken Breast and Mojo Roast Pork (Large)",
+          "calories": 580,
+          "protein": 97,
+          "fat": 26,
+          "carbs": 10,
+          "sodium": 1370,
+          "cholesterol": 290,
+          "saturated_fat": 9,
+          "sugars": 1
+        },
+        {
+          "name": "Churrasco Steak (Regular)",
+          "calories": 200,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 2,
+          "sodium": 450,
+          "cholesterol": 45,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Churrasco Steak (Large)",
+          "calories": 270,
+          "protein": 25,
+          "fat": 18,
+          "carbs": 3,
+          "sodium": 710,
+          "cholesterol": 90,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Build Your Tropichop® Bowl - Tropichop Toppings",
+      "items": [
+        {
+          "name": "Avocado",
+          "calories": 100,
+          "protein": 1,
+          "fat": 10,
+          "carbs": 5,
+          "sodium": 340,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Kernel Corn",
+          "calories": 30,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 45,
+          "sugars": 3
+        },
+        {
+          "name": "Sauteed Onions",
+          "calories": 20,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 70,
+          "sugars": 1
+        },
+        {
+          "name": "Sauteed Pepper Topping",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 70,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Chicken (drumstick & thigh)",
+          "calories": 290,
+          "protein": 24,
+          "fat": 22,
+          "carbs": 0,
+          "sodium": 430,
+          "cholesterol": 135,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Grilled Chicken Strips",
+          "calories": 120,
+          "protein": 29,
+          "fat": 3,
+          "carbs": 5,
+          "sodium": 430,
+          "cholesterol": 85,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Kids Bowls",
+      "items": [
+        {
+          "name": "Chicken Breast, Black beans, White rice",
+          "calories": 440,
+          "protein": 39,
+          "fat": 10,
+          "carbs": 61,
+          "fiber": 9,
+          "sodium": 1130,
+          "cholesterol": 85,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Breast, Mac & Cheese",
+          "calories": 530,
+          "protein": 45,
+          "fat": 28,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 1290,
+          "cholesterol": 155,
+          "saturated_fat": 16,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Family Meals",
+      "items": [
+        {
+          "name": "Chicken and Rolls (add choice of family sides)",
+          "calories": 1570,
+          "protein": 142,
+          "fat": 88,
+          "carbs": 56,
+          "sodium": 2750,
+          "cholesterol": 640,
+          "saturated_fat": 24,
+          "sugars": 13
+        },
+        {
+          "name": "Family Duo Whole Chicken",
+          "calories": 3360,
+          "protein": 246,
+          "fat": 166,
+          "carbs": 223,
+          "fiber": 15,
+          "sodium": 4390,
+          "cholesterol": 935,
+          "saturated_fat": 47,
+          "sugars": 102
+        }
+      ]
+    },
+    {
+      "name": "Family Meat Add Ons",
+      "items": [
+        {
+          "name": "Chicken (½) - Family Add On",
+          "calories": 650,
+          "protein": 67,
+          "fat": 42,
+          "carbs": 0,
+          "sodium": 1160,
+          "cholesterol": 320,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Grilled Chicken Breast (2) - Family Add On",
+          "calories": 240,
+          "protein": 58,
+          "fat": 6,
+          "carbs": 10,
+          "sodium": 860,
+          "cholesterol": 170,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Mojo Roast Pork w/ sauteed onions - Family Add On",
+          "calories": 880,
+          "protein": 97,
+          "fat": 53,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 1430,
+          "cholesterol": 290,
+          "saturated_fat": 19,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Protein Cups",
+      "items": [
+        {
+          "name": "Boneless Chicken Breast (Small)",
+          "calories": 132,
+          "protein": 32,
+          "fat": 3,
+          "carbs": 6,
+          "sodium": 473,
+          "cholesterol": 94,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Boneless Chicken Breast (Large)",
+          "calories": 254,
+          "protein": 61,
+          "fat": 6,
+          "carbs": 11,
+          "sodium": 909,
+          "cholesterol": 180,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "White Rice (Individual)",
+          "calories": 240,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 47,
+          "fiber": 1,
+          "sodium": 490,
+          "saturated_fat": 1
+        },
+        {
+          "name": "White Rice (Platter)",
+          "calories": 350,
+          "protein": 7,
+          "fat": 6,
+          "carbs": 71,
+          "fiber": 2,
+          "sodium": 740,
+          "saturated_fat": 2
+        },
+        {
+          "name": "White Rice (Family)",
+          "calories": 890,
+          "protein": 16,
+          "fat": 14,
+          "carbs": 177,
+          "fiber": 4,
+          "sodium": 1860,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Yellow Rice with Vegetables (Individual)",
+          "calories": 170,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 440,
+          "sugars": 1
+        },
+        {
+          "name": "Yellow Rice with Vegetables (Platter)",
+          "calories": 320,
+          "protein": 6,
+          "fat": 5,
+          "carbs": 61,
+          "fiber": 3,
+          "sodium": 1030,
+          "sugars": 3
+        },
+        {
+          "name": "Yellow Rice with Vegetables (Family)",
+          "calories": 590,
+          "protein": 13,
+          "fat": 10,
+          "carbs": 119,
+          "fiber": 7,
+          "sodium": 1540,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Brown Rice (Individual)",
+          "calories": 200,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 440,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Brown Rice (Platter)",
+          "calories": 300,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 51,
+          "fiber": 2,
+          "sodium": 660,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Brown Rice (Family)",
+          "calories": 750,
+          "protein": 14,
+          "fat": 21,
+          "carbs": 127,
+          "fiber": 5,
+          "sodium": 1650,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Black Beans (Individual)",
+          "calories": 216,
+          "protein": 10,
+          "fat": 5,
+          "carbs": 30,
+          "fiber": 11,
+          "sodium": 456,
+          "sugars": 1
+        },
+        {
+          "name": "Black Beans (Platter)",
+          "calories": 216,
+          "protein": 10,
+          "fat": 5,
+          "carbs": 30,
+          "fiber": 11,
+          "sodium": 456,
+          "sugars": 1
+        },
+        {
+          "name": "Black Beans (Family)",
+          "calories": 940,
+          "protein": 45,
+          "fat": 25,
+          "carbs": 136,
+          "fiber": 50,
+          "sodium": 2220,
+          "saturated_fat": 3,
+          "sugars": 7
+        },
+        {
+          "name": "Kernel Corn (Individual)",
+          "calories": 160,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 26,
+          "fiber": 3,
+          "sodium": 230,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 15
+        },
+        {
+          "name": "Kernel Corn (Family)",
+          "calories": 720,
+          "protein": 23,
+          "fat": 21,
+          "carbs": 113,
+          "fiber": 15,
+          "sodium": 990,
+          "cholesterol": 35,
+          "saturated_fat": 8,
+          "sugars": 68
+        },
+        {
+          "name": "Balsamic Tomatoes (Individual)",
+          "calories": 120,
+          "protein": 1,
+          "fat": 9,
+          "carbs": 10,
+          "fiber": 2,
+          "sodium": 870,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Balsamic Tomatoes (Family)",
+          "calories": 482,
+          "protein": 4,
+          "fat": 36,
+          "carbs": 40,
+          "fiber": 8,
+          "sodium": 3495,
+          "saturated_fat": 4,
+          "sugars": 28
+        },
+        {
+          "name": "Caesar Salad (Individual)",
+          "calories": 340,
+          "protein": 5,
+          "fat": 32,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 530,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Caesar Salad (Family)",
+          "calories": 600,
+          "protein": 9,
+          "fat": 59,
+          "carbs": 12,
+          "fiber": 2,
+          "sodium": 950,
+          "cholesterol": 55,
+          "saturated_fat": 11,
+          "sugars": 2
+        },
+        {
+          "name": "French Fries (Individual)",
+          "calories": 340,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 420,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "French Fries (Family)",
+          "calories": 540,
+          "protein": 6,
+          "fat": 29,
+          "carbs": 64,
+          "fiber": 3,
+          "sodium": 670,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Mac & Cheese (Individual)",
+          "calories": 290,
+          "protein": 11,
+          "fat": 18,
+          "carbs": 21,
+          "fiber": 1,
+          "sodium": 610,
+          "cholesterol": 50,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Mac & Cheese (Family)",
+          "calories": 1150,
+          "protein": 44,
+          "fat": 70,
+          "carbs": 82,
+          "fiber": 3,
+          "sodium": 2400,
+          "cholesterol": 200,
+          "saturated_fat": 41,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Salsa / Condiments",
+      "items": [
+        {
+          "name": "Salsa",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 115,
+          "sugars": 1
+        },
+        {
+          "name": "BBQ Sauce",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "sodium": 300,
+          "sugars": 11
+        },
+        {
+          "name": "Guava BBQ Sauce",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 170,
+          "sugars": 13
+        },
+        {
+          "name": "Chipotle Mayo",
+          "calories": 160,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 2,
+          "sodium": 270,
+          "cholesterol": 10,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Curry Mustard",
+          "calories": 150,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 0,
+          "sodium": 15
+        },
+        {
+          "name": "Caesar Dressing",
+          "calories": 500,
+          "protein": 5,
+          "fat": 54,
+          "carbs": 2,
+          "sodium": 800,
+          "cholesterol": 50,
+          "saturated_fat": 10,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro Garlic Sauce",
+          "calories": 160,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 2,
+          "sodium": 170,
+          "cholesterol": 15,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Spicy Poyo-Poyo",
+          "calories": 100,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 320,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Ketchup",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 320,
+          "sugars": 6
+        },
+        {
+          "name": "Pineapple Rum Sauce",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 14,
+          "sodium": 90,
+          "sugars": 13
+        },
+        {
+          "name": "Jalapeno Slices",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 300
+        },
+        {
+          "name": "Dinner Roll",
+          "calories": 70,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 14,
+          "sodium": 110,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Tropical Favorites",
+      "items": [
+        {
+          "name": "Sweet Plantains (Individual)",
+          "calories": 450,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 85,
+          "fiber": 6,
+          "saturated_fat": 2,
+          "sugars": 46
+        },
+        {
+          "name": "Sweet Plantains (Family)",
+          "calories": 840,
+          "protein": 6,
+          "fat": 20,
+          "carbs": 159,
+          "fiber": 12,
+          "saturated_fat": 3,
+          "sugars": 85
+        },
+        {
+          "name": "Fried Yuca (Regular)",
+          "calories": 320,
+          "protein": 1,
+          "fat": 14,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 430,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Fried Yuca (Large)",
+          "calories": 640,
+          "protein": 3,
+          "fat": 29,
+          "carbs": 92,
+          "fiber": 4,
+          "sodium": 870,
+          "saturated_fat": 13,
+          "sugars": 5
+        },
+        {
+          "name": "Cheesy Yuca Bites (Individual)",
+          "calories": 370,
+          "protein": 8,
+          "fat": 20,
+          "carbs": 41,
+          "fiber": 4,
+          "sodium": 600,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Cheesy Plantain Bites (Individual)",
+          "calories": 280,
+          "protein": 6,
+          "fat": 14,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 5,
+          "cholesterol": 32,
+          "saturated_fat": 6,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Flan",
+          "calories": 210,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 26,
+          "sodium": 550,
+          "cholesterol": 90,
+          "saturated_fat": 5,
+          "sugars": 26
+        },
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 230,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 27,
+          "sodium": 95,
+          "cholesterol": 15,
+          "saturated_fat": 6,
+          "sugars": 24
+        },
+        {
+          "name": "Cuatro Leches",
+          "calories": 430,
+          "protein": 12,
+          "fat": 19,
+          "carbs": 56,
+          "sodium": 250,
+          "cholesterol": 110,
+          "saturated_fat": 11,
+          "sugars": 49
+        }
+      ]
+    },
+    {
+      "name": "Drinks - Kids",
+      "items": [
+        {
+          "name": "Apple Juice (box)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 24,
+          "sodium": 15,
+          "sugars": 24
+        }
+      ]
+    },
+    {
+      "name": "Drinks (no ice)",
+      "items": [
+        {
+          "name": "Tea, Unsweet (Regular)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Tea, Unsweet (Large)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4
+        },
+        {
+          "name": "Tea, Sweet (Regular)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "sugars": 53
+        },
+        {
+          "name": "Tea, Sweet (Large)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 89,
+          "sugars": 85
+        },
+        {
+          "name": "Mango Tea (Regular)",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 10
+        },
+        {
+          "name": "Mango Tea (Large)",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "sodium": 20
+        },
+        {
+          "name": "Mango Sweet Tea (Regular)",
+          "calories": 220,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 56,
+          "sodium": 10,
+          "sugars": 53
+        },
+        {
+          "name": "Mango Sweet Tea (Large)",
+          "calories": 350,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 89,
+          "sodium": 20,
+          "sugars": 85
+        },
+        {
+          "name": "Coca-Cola (Regular)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 5,
+          "sugars": 62
+        },
+        {
+          "name": "Coca-Cola (Large)",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sodium": 10,
+          "sugars": 100
+        },
+        {
+          "name": "Diet Coke (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Diet Coke (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 35
+        },
+        {
+          "name": "Coke Zero (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Coke Zero (Large)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 20
+        },
+        {
+          "name": "Sprite (Regular)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 57,
+          "sodium": 50,
+          "sugars": 57
+        },
+        {
+          "name": "Sprite (Large)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 91,
+          "sodium": 80,
+          "sugars": 91
+        },
+        {
+          "name": "Fanta Orange (Regular)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 35,
+          "sugars": 68
+        },
+        {
+          "name": "Fanta Orange (Large)",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 109,
+          "sodium": 55,
+          "sugars": 109
+        },
+        {
+          "name": "Dr Pepper (Regular)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 80,
+          "sugars": 62
+        },
+        {
+          "name": "Dr Pepper (Large)",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sodium": 130,
+          "sugars": 100
+        },
+        {
+          "name": "Hi-C Fruit Punch (Regular)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 25,
+          "sugars": 62
+        },
+        {
+          "name": "Hi-C Fruit Punch (Large)",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sodium": 35,
+          "sugars": 100
+        },
+        {
+          "name": "Hi-C Orange Lavaburst (Regular)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 69,
+          "sodium": 65,
+          "sugars": 69
+        },
+        {
+          "name": "Hi-C Orange Lavaburst (Large)",
+          "calories": 450,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 111,
+          "sodium": 105,
+          "sugars": 111
+        },
+        {
+          "name": "Fuze Raspberry Tea (Regular)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 120,
+          "sugars": 34
+        },
+        {
+          "name": "Fuze Raspberry Tea (Large)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "sodium": 190,
+          "sugars": 54
+        },
+        {
+          "name": "Powerade Mountain Blast (Regular)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 120,
+          "sugars": 34
+        },
+        {
+          "name": "Powerade Mountain Blast (Large)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "sodium": 190,
+          "sugars": 54
+        },
+        {
+          "name": "Vitaminwater XXX (Regular)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sugars": 31
+        },
+        {
+          "name": "Vitaminwater XXX (Large)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 53,
+          "sugars": 49
+        }
+      ]
+    },
+    {
+      "name": "Drinks (with ice)",
+      "items": [
+        {
+          "name": "Tea, Unsweet - ice (Regular)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Tea, Unsweet - ice (Large)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Tea, Sweet - ice (Regular)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "sugars": 26
+        },
+        {
+          "name": "Tea, Sweet - ice (Large)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sugars": 43
+        },
+        {
+          "name": "Mango Tea - ice (Regular)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Mango Tea - ice (Large)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 10
+        },
+        {
+          "name": "Mango Sweet Tea - ice (Regular)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "sodium": 5,
+          "sugars": 26
+        },
+        {
+          "name": "Mango Sweet Tea - ice (Large)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 10,
+          "sugars": 43
+        },
+        {
+          "name": "Coca-Cola - ice (Regular)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sugars": 41
+        },
+        {
+          "name": "Coca-Cola - ice (Large)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 5,
+          "sugars": 67
+        },
+        {
+          "name": "Diet Coke - ice (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 15
+        },
+        {
+          "name": "Diet Coke - ice (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Coke Zero - ice (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Coke Zero - ice (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Sprite - ice (Regular)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "sodium": 35,
+          "sugars": 37
+        },
+        {
+          "name": "Sprite - ice (Large)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 55,
+          "sugars": 60
+        },
+        {
+          "name": "Fanta Orange - ice (Regular)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 20,
+          "sugars": 44
+        },
+        {
+          "name": "Fanta Orange - ice (Large)",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "sodium": 35,
+          "sugars": 72
+        },
+        {
+          "name": "Dr Pepper - ice (Regular)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sodium": 50,
+          "sugars": 40
+        },
+        {
+          "name": "Dr Pepper - ice (Large)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "sodium": 85,
+          "sugars": 66
+        },
+        {
+          "name": "Lemonade, Natalie's - ice (Regular)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sugars": 34
+        },
+        {
+          "name": "Lemonade, Natalie's - ice (Large)",
+          "calories": 240,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 65,
+          "fiber": 1,
+          "sugars": 56
+        },
+        {
+          "name": "Hi-C Fruit Punch - ice (Regular)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 15,
+          "sugars": 41
+        },
+        {
+          "name": "Hi-C Fruit Punch - ice (Large)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "sodium": 25,
+          "sugars": 66
+        },
+        {
+          "name": "Hi-C Orange Lavaburst - ice (Regular)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 45,
+          "sugars": 45
+        },
+        {
+          "name": "Hi-C Orange Lavaburst - ice (Large)",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74,
+          "sodium": 70,
+          "sugars": 74
+        },
+        {
+          "name": "Powerade Mountain Blast - ice (Regular)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 22,
+          "sodium": 75,
+          "sugars": 22
+        },
+        {
+          "name": "Powerade Mountain Blast - ice (Large)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 125,
+          "sugars": 36
+        },
+        {
+          "name": "Vitaminwater XXX - ice (Regular)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 45,
+          "sugars": 45
+        },
+        {
+          "name": "Vitaminwater XXX - ice (Large)",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74,
+          "sodium": 70,
+          "sugars": 74
+        }
+      ]
+    }
+  ]
+}

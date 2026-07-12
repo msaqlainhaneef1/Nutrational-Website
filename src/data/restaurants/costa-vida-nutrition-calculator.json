@@ -1,0 +1,2180 @@
+{
+  "name": "Costa Vida",
+  "slug": "costa-vida-nutrition-calculator",
+  "tagline": "Calculate Costa Vida calories, protein, carbs and fat. Free Costa Vida nutrition calculator with complete m...",
+  "description": "Calculate Costa Vida calories, protein, carbs and fat. Free Costa Vida nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 272,
+  "categories": [
+    {
+      "name": "Burritos",
+      "items": [
+        {
+          "name": "Flour Tortilla, 12\" (1 each)",
+          "calories": 480,
+          "protein": 10,
+          "fat": 15,
+          "carbs": 72
+        },
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Honey Butter Shrimp, 4.4 oz",
+          "servingSize": "4.4 oz",
+          "calories": 270,
+          "protein": 18,
+          "fat": 15,
+          "carbs": 15
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Red Enchilada Sauce, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 120,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 14
+        },
+        {
+          "name": "Roasted Green Chile Sauce, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 130,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 24
+        },
+        {
+          "name": "Tomatillo Cilantro Sauce, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 60,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 12
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 29
+        },
+        {
+          "name": "Shredded Cheese, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 220,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 0.5 oz",
+          "servingSize": "0.5 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pico de Gallo, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Honey Habanero Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Salsa Fresca, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0.8
+        },
+        {
+          "name": "Salsa Roja, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 0.6,
+          "fat": 1.5,
+          "carbs": 3
+        },
+        {
+          "name": "Mango Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Corn Tortilla, 6\" (1 each)",
+          "calories": 120,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 25
+        },
+        {
+          "name": "Flour Tortilla, 6\" (1 each)",
+          "calories": 160,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 24
+        },
+        {
+          "name": "Cilantro Lime Rice, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 70,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 14
+        },
+        {
+          "name": "Black Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Pinto Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Refried Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 80,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 9
+        },
+        {
+          "name": "Grilled Chicken, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 90,
+          "protein": 14,
+          "fat": 3.5,
+          "carbs": 0.6
+        },
+        {
+          "name": "Barbacoa Beef, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 1
+        },
+        {
+          "name": "Grilled Steak, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 140,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Sweet Pork, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 150,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 11
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Lettuce, 2.5 oz",
+          "servingSize": "2.5 oz",
+          "calories": 10,
+          "protein": 0.7,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Tomatillo Ranch Dressing, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 170,
+          "protein": 1,
+          "fat": 17,
+          "carbs": 2
+        },
+        {
+          "name": "Cilantro Lime Vinaigrette, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 180,
+          "protein": 0.8,
+          "fat": 15,
+          "carbs": 25
+        },
+        {
+          "name": "Mango Dressing, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 160,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 12
+        },
+        {
+          "name": "Pico de Gallo, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Salsa Roja, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 0.6,
+          "fat": 1.5,
+          "carbs": 3
+        },
+        {
+          "name": "Salsa Fresca, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0.8
+        },
+        {
+          "name": "Honey Habanero Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Mango Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        },
+        {
+          "name": "Guacamole, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 40,
+          "protein": 0.5,
+          "fat": 3.5,
+          "carbs": 2
+        },
+        {
+          "name": "Cotija Cheese, .33 oz",
+          "servingSize": "33 oz",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0
+        },
+        {
+          "name": "Fried Tortilla Strips, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 150,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 17
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 29
+        },
+        {
+          "name": "Flour Tortilla, 12\" (1 each)",
+          "calories": 480,
+          "protein": 10,
+          "fat": 15,
+          "carbs": 72
+        },
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 0.5,
+          "carbs": 19
+        },
+        {
+          "name": "Pinto Beans, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 0.5,
+          "carbs": 21
+        },
+        {
+          "name": "Refried Beans, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 160,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 19
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Lettuce, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 25,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 5
+        },
+        {
+          "name": "Tomatillo Ranch Dressing, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 340,
+          "protein": 2,
+          "fat": 35,
+          "carbs": 4
+        },
+        {
+          "name": "Cilantro Lime Vinaigrette, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 350,
+          "protein": 0.8,
+          "fat": 29,
+          "carbs": 25
+        },
+        {
+          "name": "Mango Dressing, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 310,
+          "protein": 0,
+          "fat": 24,
+          "carbs": 24
+        },
+        {
+          "name": "Pico de Gallo, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 20,
+          "protein": 0.5,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "name": "Salsa Roja, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 6
+        },
+        {
+          "name": "Salsa Fresca, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 15,
+          "protein": 0.6,
+          "fat": 0,
+          "carbs": 3
+        },
+        {
+          "name": "Honey Habanero Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 45,
+          "protein": 0.7,
+          "fat": 1.5,
+          "carbs": 8
+        },
+        {
+          "name": "Mango Salsa, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 18
+        },
+        {
+          "name": "Fried Tortilla Strips, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 300,
+          "protein": 3,
+          "fat": 16,
+          "carbs": 35
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 240,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 58
+        }
+      ]
+    },
+    {
+      "name": "Enchiladas",
+      "items": [
+        {
+          "name": "Corn Tortilla, 6\" (1 each)",
+          "calories": 120,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 25
+        },
+        {
+          "name": "Flour Tortilla, 6\" (1 each)",
+          "calories": 160,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 24
+        },
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Grilled Chicken, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 90,
+          "protein": 14,
+          "fat": 3.5,
+          "carbs": 0.6
+        },
+        {
+          "name": "Barbacoa Beef, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 1
+        },
+        {
+          "name": "Grilled Steak, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 140,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Sweet Pork, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 150,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 11
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Red Enchilada Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 7
+        },
+        {
+          "name": "Roasted Green Chile Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 12
+        },
+        {
+          "name": "Tomatillo Cilantro Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 30,
+          "protein": 0.8,
+          "fat": 0,
+          "carbs": 6
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 29
+        },
+        {
+          "name": "Shredded Cheese, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 0.5 oz",
+          "servingSize": "0.5 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pico de Gallo, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Honey Habanero Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Salsa Fresca, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0.8
+        },
+        {
+          "name": "Salsa Roja, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 0.6,
+          "fat": 1.5,
+          "carbs": 3
+        },
+        {
+          "name": "Mango Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Corn Tortilla, 6\" (2 each)",
+          "calories": 240,
+          "protein": 5,
+          "fat": 2.5,
+          "carbs": 50
+        },
+        {
+          "name": "Flour Tortilla, 6\" (2 each)",
+          "calories": 320,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 48
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Red Enchilada Sauce, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 80,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 9
+        },
+        {
+          "name": "Roasted Green Chile Sauce, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 80,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 15
+        },
+        {
+          "name": "Tomatillo Cilantro Sauce, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 240,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 58
+        },
+        {
+          "name": "Shredded Cheese, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 220,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tacos",
+      "items": [
+        {
+          "name": "Corn Tortilla, 6\" (1 each)",
+          "calories": 120,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 25
+        },
+        {
+          "name": "Flour Tortilla, 6\" (1 each)",
+          "calories": 160,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 24
+        },
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Grilled Chicken, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 90,
+          "protein": 14,
+          "fat": 3.5,
+          "carbs": 0.6
+        },
+        {
+          "name": "Barbacoa Beef, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 1
+        },
+        {
+          "name": "Grilled Steak, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 140,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Sweet Pork, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 150,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 11
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Shredded Cheese, .5 oz",
+          "servingSize": "5 oz",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4.5,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 0.5 oz",
+          "servingSize": "0.5 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pico de Gallo, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 20,
+          "protein": 0.5,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "name": "Honey Habanero Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 45,
+          "protein": 0.7,
+          "fat": 1.5,
+          "carbs": 8
+        },
+        {
+          "name": "Salsa Fresca, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 15,
+          "protein": 0.6,
+          "fat": 0,
+          "carbs": 3
+        },
+        {
+          "name": "Salsa Roja, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 6
+        },
+        {
+          "name": "Mango Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        },
+        {
+          "name": "Corn Tortilla, 6\" (2 each)",
+          "calories": 240,
+          "protein": 5,
+          "fat": 2.5,
+          "carbs": 50
+        },
+        {
+          "name": "Flour Tortilla, 6\" (2 each)",
+          "calories": 320,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 48
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Shredded Cheese, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 2.5 oz",
+          "servingSize": "2.5 oz",
+          "calories": 10,
+          "protein": 0.7,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Salsa Roja, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 12
+        }
+      ]
+    },
+    {
+      "name": "Quesadillas",
+      "items": [
+        {
+          "name": "Flour Tortilla, 12\" (1 each)",
+          "calories": 480,
+          "protein": 10,
+          "fat": 15,
+          "carbs": 72
+        },
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Shredded Cheese, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 440,
+          "protein": 28,
+          "fat": 36,
+          "carbs": 0
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15
+        }
+      ]
+    },
+    {
+      "name": "Nachos",
+      "items": [
+        {
+          "name": "Tortilla Chips, 2.5 oz",
+          "servingSize": "2.5 oz",
+          "calories": 360,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 45
+        },
+        {
+          "name": "Black Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Pinto Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Refried Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 80,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 9
+        },
+        {
+          "name": "Grilled Chicken, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 90,
+          "protein": 14,
+          "fat": 3.5,
+          "carbs": 0.6
+        },
+        {
+          "name": "Barbacoa Beef, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 1
+        },
+        {
+          "name": "Grilled Steak, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 140,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Sweet Pork, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 150,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 11
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Shredded Cheese, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Queso, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 110,
+          "protein": 5,
+          "fat": 8,
+          "carbs": 3
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Guacamole, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 40,
+          "protein": 0.5,
+          "fat": 3.5,
+          "carbs": 2
+        },
+        {
+          "name": "Sour Cream, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 60,
+          "protein": 0.9,
+          "fat": 6,
+          "carbs": 2
+        },
+        {
+          "name": "Pico de Gallo, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Mango Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Honey Habanero Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Salsa Fresca, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0.8
+        },
+        {
+          "name": "Salsa Roja, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 0.6,
+          "fat": 1.5,
+          "carbs": 3
+        },
+        {
+          "name": "Tortilla Chips, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 720,
+          "protein": 9,
+          "fat": 36,
+          "carbs": 90
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Shredded Cheese, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 220,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 0
+        },
+        {
+          "name": "Queso, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 220,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 6
+        },
+        {
+          "name": "Pico de Gallo, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 20,
+          "protein": 0.5,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "name": "Mango Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        },
+        {
+          "name": "Honey Habanero Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 45,
+          "protein": 0.7,
+          "fat": 1.5,
+          "carbs": 8
+        },
+        {
+          "name": "Salsa Fresca, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 15,
+          "protein": 0.6,
+          "fat": 0,
+          "carbs": 3
+        },
+        {
+          "name": "Salsa Roja, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 6
+        }
+      ]
+    },
+    {
+      "name": "Baja Bowls",
+      "items": [
+        {
+          "name": "Cilantro Lime Rice, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 140,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 28
+        },
+        {
+          "name": "Black Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 14
+        },
+        {
+          "name": "Pinto Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 80,
+          "protein": 5,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "name": "Refried Beans, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 120,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 14
+        },
+        {
+          "name": "Grilled Chicken, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 190,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 1
+        },
+        {
+          "name": "Barbacoa Beef, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 110,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 2
+        },
+        {
+          "name": "Sweet Pork, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 290,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 21
+        },
+        {
+          "name": "Honey Butter Shrimp, 2.2 oz",
+          "servingSize": "2.2 oz",
+          "calories": 130,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 8
+        },
+        {
+          "name": "Grilled Steak, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 280,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 1
+        },
+        {
+          "name": "Red Enchilada Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 7
+        },
+        {
+          "name": "Roasted Green Chile Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 12
+        },
+        {
+          "name": "Tomatillo Cilantro Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 30,
+          "protein": 0.8,
+          "fat": 0,
+          "carbs": 6
+        },
+        {
+          "name": "Raspberry Chipotle Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 29
+        },
+        {
+          "name": "Shredded Cheese, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 0.5 oz",
+          "servingSize": "0.5 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pico de Gallo, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 1
+        },
+        {
+          "name": "Mango Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Honey Habanero Salsa, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Salsa Fresca, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0.8
+        },
+        {
+          "name": "Salsa Roja, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 0.6,
+          "fat": 1.5,
+          "carbs": 3
+        },
+        {
+          "name": "Cotija Cheese, .33 oz",
+          "servingSize": "33 oz",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0
+        },
+        {
+          "name": "Fried Tortilla Strips, .5 oz",
+          "servingSize": "5 oz",
+          "calories": 70,
+          "protein": 0.9,
+          "fat": 4,
+          "carbs": 9
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Corn Tortilla, 6\" (1 each)",
+          "calories": 120,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 25
+        },
+        {
+          "name": "Flour Tortilla, 6\" (1 each)",
+          "calories": 160,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 24
+        },
+        {
+          "name": "Cilantro Lime Rice, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 70,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 14
+        },
+        {
+          "name": "Black Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Pinto Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "name": "Refried Beans, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 80,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 9
+        },
+        {
+          "name": "Shredded Cheese, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "name": "Grilled Chicken, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 45,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 0
+        },
+        {
+          "name": "Barbacoa Beef, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 30,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 0.5
+        },
+        {
+          "name": "Grilled Steak, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 70,
+          "protein": 7,
+          "fat": 4.5,
+          "carbs": 0
+        },
+        {
+          "name": "Sweet Pork, 1 oz",
+          "servingSize": "1 oz",
+          "calories": 70,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 2
+        },
+        {
+          "name": "Red Enchilada Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 7
+        },
+        {
+          "name": "Roasted Green Chile Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 12
+        },
+        {
+          "name": "Tomatillo Cilantro Sauce, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 30,
+          "protein": 0.8,
+          "fat": 0,
+          "carbs": 6
+        },
+        {
+          "name": "Shredded Cheese, .5 oz",
+          "servingSize": "5 oz",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4.5,
+          "carbs": 0
+        },
+        {
+          "name": "Lettuce, 0.5 oz",
+          "servingSize": "0.5 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pico de Gallo, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 20,
+          "protein": 0.5,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "name": "Salsa Fresca, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 15,
+          "protein": 0.6,
+          "fat": 0,
+          "carbs": 3
+        },
+        {
+          "name": "Mango Salsa, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        },
+        {
+          "name": "Salsa Roja, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 6
+        }
+      ]
+    },
+    {
+      "name": "Appetizers & Desserts",
+      "items": [
+        {
+          "name": "Chicken Tortilla Soup (1 serving),",
+          "calories": 670,
+          "protein": 22,
+          "fat": 35,
+          "carbs": 67
+        },
+        {
+          "name": "Tortilla Chips, 2.5 oz",
+          "servingSize": "2.5 oz",
+          "calories": 360,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 45
+        },
+        {
+          "name": "Queso, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 220,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 6
+        },
+        {
+          "name": "Pico de Gallo, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 40,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 5
+        },
+        {
+          "name": "Salsa Fresca, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6
+        },
+        {
+          "name": "Honey Habanero Salsa, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 90,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 16
+        },
+        {
+          "name": "Mango Salsa, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 18
+        },
+        {
+          "name": "Guacamole, 2 oz",
+          "servingSize": "2 oz",
+          "calories": 80,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 5
+        },
+        {
+          "name": "Refried Beans, 4 oz",
+          "servingSize": "4 oz",
+          "calories": 160,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 19
+        },
+        {
+          "name": "Tortilla Chips, 5 oz",
+          "servingSize": "5 oz",
+          "calories": 720,
+          "protein": 9,
+          "fat": 36,
+          "carbs": 90
+        },
+        {
+          "name": "Queso, 6 oz",
+          "servingSize": "6 oz",
+          "calories": 330,
+          "protein": 16,
+          "fat": 24,
+          "carbs": 9
+        },
+        {
+          "name": "Pico de Gallo, 8 oz",
+          "servingSize": "8 oz",
+          "calories": 80,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 10
+        },
+        {
+          "name": "Salsa Fresca, 8 oz",
+          "servingSize": "8 oz",
+          "calories": 60,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 13
+        },
+        {
+          "name": "Honey Habanero Salsa, 8 oz",
+          "servingSize": "8 oz",
+          "calories": 180,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 33
+        },
+        {
+          "name": "Mango Salsa, 8 oz",
+          "servingSize": "8 oz",
+          "calories": 140,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 35
+        },
+        {
+          "name": "Guacamole, 3 oz",
+          "servingSize": "3 oz",
+          "calories": 200,
+          "protein": 3,
+          "fat": 18,
+          "carbs": 11
+        },
+        {
+          "name": "Refried Beans, 6 oz",
+          "servingSize": "6 oz",
+          "calories": 240,
+          "protein": 9,
+          "fat": 10,
+          "carbs": 28
+        },
+        {
+          "name": "Chocolate Chip Cookie (1 each),",
+          "calories": 320,
+          "protein": 4,
+          "fat": 17,
+          "carbs": 41
+        },
+        {
+          "name": "Flan (1 serving),",
+          "calories": 960,
+          "protein": 17,
+          "fat": 39,
+          "carbs": 132
+        },
+        {
+          "name": "Tres Leches (1 serving),",
+          "calories": 950,
+          "protein": 18,
+          "fat": 40,
+          "carbs": 121
+        },
+        {
+          "name": "Key Lime Pie (1 serving),",
+          "calories": 1100,
+          "protein": 22,
+          "fat": 40,
+          "carbs": 165
+        },
+        {
+          "name": "Cinnamon Sugar Tortilla, 6\" (1 each)",
+          "calories": 260,
+          "protein": 3,
+          "fat": 10,
+          "carbs": 41
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Coke, 12 fl oz.",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39
+        },
+        {
+          "name": "Diet Coke, 12 fl oz.",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sprite, 12 fl oz.",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40
+        },
+        {
+          "name": "Dr. Pepper, 12 fl oz.",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41
+        },
+        {
+          "name": "Lemonade, 12 fl oz.",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 43
+        },
+        {
+          "name": "Orange Fanta, 12 fl oz.",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45
+        },
+        {
+          "name": "Hi-C Fruit Punch, 12 fl oz.",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44
+        },
+        {
+          "name": "Green Tea, 12 fl oz.",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27
+        },
+        {
+          "name": "Black Tea, 12 fl oz",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34
+        },
+        {
+          "name": "Raspberry Tea, 12 fl oz",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27
+        },
+        {
+          "name": "Horchata, 12 fl oz.",
+          "calories": 110,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 24
+        },
+        {
+          "name": "Limonada, 12 fl oz.",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39
+        },
+        {
+          "name": "Coke, 22 fl oz.",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72
+        },
+        {
+          "name": "Diet Coke, 22 fl oz.",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sprite, 22 fl oz.",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74
+        },
+        {
+          "name": "Dr. Pepper, 22 fl oz.",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74
+        },
+        {
+          "name": "Lemonade, 22 fl oz.",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80
+        },
+        {
+          "name": "Orange Fanta, 22 fl oz.",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 83
+        },
+        {
+          "name": "Hi-C Fruit Punch, 22 fl oz.",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 81
+        },
+        {
+          "name": "Green Tea, 22 fl oz.",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49
+        },
+        {
+          "name": "Black Tea, 22 fl oz",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62
+        },
+        {
+          "name": "Raspberry Tea, 22 fl oz",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49
+        },
+        {
+          "name": "Horchata, 22 fl oz.",
+          "calories": 200,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 43
+        },
+        {
+          "name": "Limonada, 22 fl oz.",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72
+        },
+        {
+          "name": "Coke, 32 fl oz.",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 104
+        },
+        {
+          "name": "Diet Coke, 32 fl oz.",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sprite, 32 fl oz.",
+          "calories": 420,
+          "protein": 0.5,
+          "fat": 0,
+          "carbs": 107
+        },
+        {
+          "name": "Dr. Pepper, 32 fl oz.",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 108
+        },
+        {
+          "name": "Lemonade, 32 fl oz.",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 116
+        },
+        {
+          "name": "Orange Fanta, 32 fl oz.",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 120
+        },
+        {
+          "name": "Hi-C Fruit Punch, 32 fl oz.",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 119
+        },
+        {
+          "name": "Green Tea, 32 fl oz.",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72
+        },
+        {
+          "name": "Black Tea, 32 fl oz",
+          "calories": 330,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90
+        },
+        {
+          "name": "Raspberry Tea, 32 fl oz",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72
+        },
+        {
+          "name": "Horchata, 32 fl oz.",
+          "calories": 290,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 63
+        },
+        {
+          "name": "Limonada, 32 fl oz.",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 105
+        }
+      ]
+    }
+  ]
+}

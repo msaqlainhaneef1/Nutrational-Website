@@ -1,0 +1,4788 @@
+{
+  "name": "Domino's",
+  "slug": "dominos-nutrition-calculator",
+  "tagline": "Calculate Domino's calories, protein, carbs and fat. Free Domino's nutrition calculator with complete menu...",
+  "description": "Calculate Domino's calories, protein, carbs and fat. Free Domino's nutrition calculator with complete menu data for all items.",
+  "category": "Pizza",
+  "emoji": "🍽",
+  "itemCount": 510,
+  "categories": [
+    {
+      "name": "Pizzas (8\" Extra Small)",
+      "items": [
+        {
+          "name": "Hand Tossed (Serving Size is 1/2 of Pizza)",
+          "calories": 230,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 42,
+          "fiber": 1,
+          "sodium": 230,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Garlic Oil Blend (Hand Tossed Only)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 65,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "sodium": 110,
+          "sugars": 6
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 70,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 260,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Beef",
+          "calories": 70,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 30,
+          "protein": 4,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 115,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 200,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 160,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 80,
+          "protein": 3,
+          "fat": 8,
+          "carbs": 0,
+          "sodium": 135,
+          "cholesterol": 10,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 65,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 15,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 540,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 50,
+          "protein": 4,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 15,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        }
+      ]
+    },
+    {
+      "name": "Pizzas (10\" Small)",
+      "items": [
+        {
+          "name": "Hand Tossed (Serving Size is 1/3 of Pizza)",
+          "calories": 220,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 40,
+          "fiber": 1,
+          "sodium": 230,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Garlic Oil Blend (Hand Tossed Only)",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 50,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "sodium": 110,
+          "sugars": 6
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 100,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 340,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 80,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 35,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 130,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 230,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 30,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 90,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 150,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 35,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 75,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Spinach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 75,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 10,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 360,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Crunchy Thin (Serving Size is 1/4 of Pizza)",
+          "calories": 110,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 15,
+          "sodium": 40,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "sodium": 85,
+          "sugars": 5
+        },
+        {
+          "name": "Ranch",
+          "calories": 50,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 70,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 260,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Beef",
+          "calories": 60,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 130,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Black Olives",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 85
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 25,
+          "protein": 4,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 95,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 15,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 160,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 70,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 115,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 55
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 40,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 140,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Gluten Free (Serving Size is 1/3 of Pizza)",
+          "calories": 170,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 37,
+          "fiber": 1,
+          "sodium": 180,
+          "sugars": 4
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "sodium": 110,
+          "sugars": 6
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 100,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 340,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 80,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 35,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 130,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 230,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 30,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 90,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 150,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 35,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 75,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Spinach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 75,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 10,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 360,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        }
+      ]
+    },
+    {
+      "name": "Pizzas (12\" Medium)",
+      "items": [
+        {
+          "name": "Hand Tossed (Serving Size is 1/8 of Pizza)",
+          "calories": 110,
+          "protein": 4,
+          "fat": 1.5,
+          "carbs": 21,
+          "fiber": 1,
+          "sodium": 115,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic Oil Blend (Hand Tossed Only)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 20
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sodium": 70,
+          "sugars": 4
+        },
+        {
+          "name": "Ranch",
+          "calories": 50,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 45,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Beef",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 70,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 120
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 30,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 80,
+          "cholesterol": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 45,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 40
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 30,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 95,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "New York Style (Serving Size is 1/6 of Pizza)",
+          "calories": 110,
+          "protein": 4,
+          "fat": 1.5,
+          "carbs": 20,
+          "fiber": 1,
+          "sodium": 115,
+          "sugars": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sodium": 90,
+          "sugars": 5
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 140,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 60,
+          "protein": 4,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 210,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Beef",
+          "calories": 50,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 120,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Black Olives",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 75
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 25,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 90,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 15,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 210,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 160
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 160
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 40,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 60,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 40
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 300
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 40,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 130,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 160
+        },
+        {
+          "name": "Crunchy Thin (Serving Size is 1/4 of Pizza)",
+          "calories": 150,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 20,
+          "fiber": 1,
+          "sodium": 55,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 140,
+          "sugars": 8
+        },
+        {
+          "name": "Ranch",
+          "calories": 110,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 1,
+          "sodium": 270,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 90,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 80,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 20,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 40,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 25,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 250,
+          "cholesterol": 10
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 60,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 250,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 25,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 100,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 40,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 85,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 80,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 15,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 540,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 60,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Pan Pizza (Serving Size is 1/8 of Pizza)",
+          "calories": 190,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 160,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sodium": 70,
+          "sugars": 4
+        },
+        {
+          "name": "Ranch",
+          "calories": 50,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 45,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Beef",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 70,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 120
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 30,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 80,
+          "cholesterol": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 45,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 40
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 30,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 95,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Garlic Oil Blend",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 20
+        },
+        {
+          "name": "Parmesan",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sodium": 70,
+          "sugars": 4
+        },
+        {
+          "name": "Ranch",
+          "calories": 50,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 135,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 45,
+          "protein": 3,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Beef",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 20,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 70,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 120
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 30,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 80,
+          "cholesterol": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 45,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 40
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 30,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 95,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 115
+        }
+      ]
+    },
+    {
+      "name": "Pizzas (14\" Large)",
+      "items": [
+        {
+          "name": "Hand Tossed (Serving Size is 1/8 of Pizza)",
+          "calories": 160,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 30,
+          "fiber": 1,
+          "sodium": 170,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic Oil Blend (Hand Tossed Only)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Crunchy Thin (Serving Size is 1/8 of Pizza)",
+          "calories": 100,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 13,
+          "sodium": 35,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sodium": 95,
+          "sugars": 5
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 70,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Beef",
+          "calories": 60,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 130,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Black Olives",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 85
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 25,
+          "protein": 4,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 95,
+          "cholesterol": 10
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ham",
+          "calories": 15,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 140,
+          "cholesterol": 5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 70,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 115,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 55
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 40,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 140,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "New York Style (Serving Size is 1/6 of Pizza)",
+          "calories": 150,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 160,
+          "sugars": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 130,
+          "sugars": 7
+        },
+        {
+          "name": "Ranch",
+          "calories": 90,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 1,
+          "sodium": 240,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 90,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 300,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 80,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 35,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 130,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 230,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 25,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 90,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 150,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 35,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 75,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 75,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 10,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 360,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        }
+      ]
+    },
+    {
+      "name": "Pizzas (16\" Extra Large)",
+      "items": [
+        {
+          "name": "Hand Tossed (Serving Size is 1/8 of Pizza)",
+          "calories": 220,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 39,
+          "fiber": 1,
+          "sodium": 220,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Garlic Oil Blend (Hand Tossed Only)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 30
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 125,
+          "sugars": 7
+        },
+        {
+          "name": "Ranch",
+          "calories": 90,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 1,
+          "sodium": 220,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 90,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 70,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 170,
+          "cholesterol": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 115
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 35,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 125,
+          "cholesterol": 15
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 230,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 240
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 50,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 230,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 25,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 90,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 150,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 35,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 70,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Spinach",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 70,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 15,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 230
+        },
+        {
+          "name": "New York Style (Serving Size is 1/6 of Pizza)",
+          "calories": 220,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 40,
+          "fiber": 1,
+          "sodium": 220,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 170,
+          "sugars": 9
+        },
+        {
+          "name": "Ranch",
+          "calories": 120,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 1,
+          "sodium": 300,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 120,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 1,
+          "sodium": 430,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 100,
+          "protein": 5,
+          "fat": 8,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 25,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 35,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 150
+        },
+        {
+          "name": "Premium Chicken",
+          "calories": 45,
+          "protein": 6,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 170,
+          "cholesterol": 20
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 25,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 310,
+          "cholesterol": 10
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 310
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 320,
+          "sugars": 1
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Onions",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 70,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 300,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 35,
+          "protein": 3,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 270,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Pineapple",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Italian Sausage",
+          "calories": 120,
+          "protein": 4,
+          "fat": 11,
+          "carbs": 0,
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 45,
+          "protein": 4,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 95,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Spinach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 95,
+          "sugars": 1
+        },
+        {
+          "name": "Anchovies*",
+          "calories": 10,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 360,
+          "cholesterol": 5
+        },
+        {
+          "name": "Chorizo*",
+          "calories": 70,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 1,
+          "sodium": 240,
+          "cholesterol": 20,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Fresh Diced Tomatoes*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Sliced Tomatoes*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic*",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2
+        },
+        {
+          "name": "Green Chile Peppers*",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1
+        },
+        {
+          "name": "Green Olives*",
+          "calories": 30,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 310
+        }
+      ]
+    },
+    {
+      "name": "Specialty Pizzas",
+      "items": [
+        {
+          "name": "The People's Pizza – Deluxe",
+          "calories": 142,
+          "protein": 1,
+          "fat": 360,
+          "carbs": 700,
+          "fiber": 38,
+          "sodium": 35,
+          "saturated_fat": 16,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 153,
+          "protein": 1,
+          "fat": 390,
+          "carbs": 780,
+          "fiber": 39,
+          "sodium": 40,
+          "saturated_fat": 19,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 135,
+          "protein": 1,
+          "fat": 340,
+          "carbs": 680,
+          "fiber": 35,
+          "sodium": 35,
+          "saturated_fat": 16,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 177,
+          "protein": 2,
+          "fat": 450,
+          "carbs": 900,
+          "fiber": 46,
+          "sodium": 45,
+          "saturated_fat": 21,
+          "sugars": 2,
+          "trans_fat": 9
+        },
+        {
+          "name": "ExtravaganZZa",
+          "calories": 154,
+          "protein": 1,
+          "fat": 400,
+          "carbs": 900,
+          "fiber": 38,
+          "sodium": 45,
+          "saturated_fat": 19,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 174,
+          "protein": 1,
+          "fat": 440,
+          "carbs": 1040,
+          "fiber": 40,
+          "sodium": 50,
+          "cholesterol": 0.5,
+          "saturated_fat": 22,
+          "sugars": 2,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 153,
+          "protein": 1,
+          "fat": 380,
+          "carbs": 900,
+          "fiber": 36,
+          "sodium": 45,
+          "saturated_fat": 19,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 202,
+          "protein": 2,
+          "fat": 500,
+          "carbs": 1220,
+          "fiber": 47,
+          "sodium": 60,
+          "cholesterol": 0.5,
+          "saturated_fat": 25,
+          "sugars": 2,
+          "trans_fat": 10
+        },
+        {
+          "name": "Honolulu Hawaiian",
+          "calories": 137,
+          "protein": 2,
+          "fat": 350,
+          "carbs": 780,
+          "fiber": 39,
+          "sodium": 35,
+          "saturated_fat": 15,
+          "sugars": 1,
+          "trans_fat": 6
+        },
+        {
+          "name": "None",
+          "calories": 150,
+          "protein": 2,
+          "fat": 380,
+          "carbs": 910,
+          "fiber": 40,
+          "sodium": 45,
+          "saturated_fat": 17,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 132,
+          "protein": 2,
+          "fat": 330,
+          "carbs": 760,
+          "fiber": 36,
+          "sodium": 35,
+          "saturated_fat": 14,
+          "sugars": 1,
+          "trans_fat": 6
+        },
+        {
+          "name": "None",
+          "calories": 173,
+          "protein": 2,
+          "fat": 430,
+          "carbs": 1010,
+          "fiber": 47,
+          "sodium": 45,
+          "saturated_fat": 18,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "MeatZZa",
+          "calories": 139,
+          "protein": 1,
+          "fat": 390,
+          "carbs": 870,
+          "fiber": 38,
+          "sodium": 45,
+          "saturated_fat": 19,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 151,
+          "protein": 1,
+          "fat": 420,
+          "carbs": 1000,
+          "fiber": 38,
+          "sodium": 50,
+          "cholesterol": 0.5,
+          "saturated_fat": 21,
+          "sugars": 1,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 133,
+          "protein": 1,
+          "fat": 370,
+          "carbs": 850,
+          "fiber": 34,
+          "sodium": 45,
+          "saturated_fat": 18,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 176,
+          "protein": 2,
+          "fat": 480,
+          "carbs": 1160,
+          "fiber": 45,
+          "sodium": 60,
+          "cholesterol": 0.5,
+          "saturated_fat": 24,
+          "sugars": 2,
+          "trans_fat": 10
+        },
+        {
+          "name": "Memphis BBQ Chicken",
+          "calories": 131,
+          "protein": 5,
+          "fat": 360,
+          "carbs": 680,
+          "fiber": 41,
+          "sodium": 40,
+          "saturated_fat": 14,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 147,
+          "protein": 7,
+          "fat": 410,
+          "carbs": 800,
+          "fiber": 44,
+          "sodium": 50,
+          "saturated_fat": 17,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 128,
+          "protein": 6,
+          "fat": 350,
+          "carbs": 680,
+          "fiber": 39,
+          "sodium": 40,
+          "saturated_fat": 14,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 166,
+          "protein": 7,
+          "fat": 460,
+          "carbs": 880,
+          "fiber": 51,
+          "sodium": 55,
+          "saturated_fat": 18,
+          "sugars": 2,
+          "trans_fat": 9
+        },
+        {
+          "name": "Pacific Veggie",
+          "calories": 131,
+          "protein": 1,
+          "fat": 330,
+          "carbs": 620,
+          "fiber": 38,
+          "sodium": 30,
+          "saturated_fat": 13,
+          "sugars": 1,
+          "trans_fat": 6
+        },
+        {
+          "name": "None",
+          "calories": 149,
+          "protein": 1,
+          "fat": 360,
+          "carbs": 730,
+          "fiber": 39,
+          "sodium": 35,
+          "saturated_fat": 15,
+          "sugars": 2,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 131,
+          "protein": 1,
+          "fat": 310,
+          "carbs": 630,
+          "fiber": 35,
+          "sodium": 30,
+          "saturated_fat": 13,
+          "sugars": 1,
+          "trans_fat": 6
+        },
+        {
+          "name": "None",
+          "calories": 168,
+          "protein": 1,
+          "fat": 400,
+          "carbs": 790,
+          "fiber": 46,
+          "sodium": 40,
+          "saturated_fat": 16,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 136,
+          "protein": 1,
+          "fat": 370,
+          "carbs": 890,
+          "fiber": 37,
+          "sodium": 45,
+          "saturated_fat": 16,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 118,
+          "protein": 1,
+          "fat": 310,
+          "carbs": 720,
+          "fiber": 33,
+          "sodium": 35,
+          "saturated_fat": 13,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 152,
+          "protein": 1,
+          "fat": 400,
+          "carbs": 920,
+          "fiber": 43,
+          "sodium": 45,
+          "saturated_fat": 17,
+          "sugars": 2,
+          "trans_fat": 8
+        },
+        {
+          "name": "Spicy Chicken Bacon Ranch",
+          "calories": 131,
+          "protein": 1,
+          "fat": 390,
+          "carbs": 1110,
+          "fiber": 34,
+          "sodium": 45,
+          "saturated_fat": 21,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 155,
+          "protein": 1,
+          "fat": 480,
+          "carbs": 1280,
+          "fiber": 38,
+          "sodium": 55,
+          "saturated_fat": 27,
+          "sugars": 1,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 135,
+          "protein": 1,
+          "fat": 410,
+          "carbs": 1090,
+          "fiber": 34,
+          "sodium": 45,
+          "saturated_fat": 22,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 174,
+          "protein": 1,
+          "fat": 530,
+          "carbs": 1410,
+          "fiber": 44,
+          "sodium": 60,
+          "cholesterol": 0.5,
+          "saturated_fat": 29,
+          "sugars": 1,
+          "trans_fat": 10
+        },
+        {
+          "name": "Spinach & Feta",
+          "calories": 119,
+          "protein": 1,
+          "fat": 340,
+          "carbs": 620,
+          "fiber": 36,
+          "sodium": 35,
+          "saturated_fat": 15,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 130,
+          "protein": 1,
+          "fat": 370,
+          "carbs": 710,
+          "fiber": 37,
+          "sodium": 45,
+          "saturated_fat": 17,
+          "sugars": 1,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 115,
+          "protein": 1,
+          "fat": 320,
+          "carbs": 610,
+          "fiber": 33,
+          "sodium": 40,
+          "saturated_fat": 15,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 149,
+          "protein": 1,
+          "fat": 420,
+          "carbs": 770,
+          "fiber": 43,
+          "sodium": 50,
+          "cholesterol": 0.5,
+          "saturated_fat": 19,
+          "sugars": 2,
+          "trans_fat": 10
+        },
+        {
+          "name": "Ultimate Pepperoni",
+          "calories": 131,
+          "protein": 1,
+          "fat": 380,
+          "carbs": 850,
+          "fiber": 38,
+          "sodium": 40,
+          "saturated_fat": 18,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 142,
+          "protein": 1,
+          "fat": 420,
+          "carbs": 960,
+          "fiber": 38,
+          "sodium": 50,
+          "cholesterol": 0.5,
+          "saturated_fat": 21,
+          "sugars": 1,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 125,
+          "protein": 1,
+          "fat": 360,
+          "carbs": 830,
+          "fiber": 34,
+          "sodium": 40,
+          "saturated_fat": 18,
+          "sugars": 1,
+          "trans_fat": 8
+        },
+        {
+          "name": "None",
+          "calories": 165,
+          "protein": 2,
+          "fat": 480,
+          "carbs": 1110,
+          "fiber": 45,
+          "sodium": 55,
+          "cholesterol": 0.5,
+          "saturated_fat": 23,
+          "sugars": 2,
+          "trans_fat": 10
+        },
+        {
+          "name": "None",
+          "calories": 141,
+          "protein": 1,
+          "fat": 390,
+          "carbs": 790,
+          "fiber": 39,
+          "sodium": 45,
+          "saturated_fat": 18,
+          "sugars": 1,
+          "trans_fat": 9
+        },
+        {
+          "name": "None",
+          "calories": 122,
+          "protein": 1,
+          "fat": 330,
+          "carbs": 670,
+          "fiber": 35,
+          "sodium": 35,
+          "saturated_fat": 15,
+          "sugars": 1,
+          "trans_fat": 7
+        },
+        {
+          "name": "None",
+          "calories": 161,
+          "protein": 2,
+          "fat": 440,
+          "carbs": 880,
+          "fiber": 46,
+          "sodium": 50,
+          "cholesterol": 0.5,
+          "saturated_fat": 19,
+          "sugars": 2,
+          "trans_fat": 10
+        },
+        {
+          "name": "HAM & BACON BREAKFAST PIZZA",
+          "calories": 250,
+          "protein": 12,
+          "fat": 12,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 610,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Breakfast Pizza Base",
+          "calories": 220,
+          "protein": 9,
+          "fat": 10,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 420,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 85,
+          "cholesterol": 5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125,
+          "cholesterol": 5
+        },
+        {
+          "name": "Ham & Bacon Breakfast Pizza",
+          "calories": 330,
+          "protein": 15,
+          "fat": 14,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 740,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Breakfast Pizza Base",
+          "calories": 300,
+          "protein": 13,
+          "fat": 12,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 550,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Bacon",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 85,
+          "cholesterol": 5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "BREAKFAST PIZZA",
+          "calories": 230,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 520,
+          "cholesterol": 25,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Breakfast Pizza Base",
+          "calories": 190,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 330,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 85,
+          "cholesterol": 5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Ham",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Breakfast Pizza",
+          "calories": 320,
+          "protein": 16,
+          "fat": 14,
+          "carbs": 33,
+          "fiber": 1,
+          "sodium": 710,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Breakfast Pizza Base",
+          "calories": 270,
+          "protein": 13,
+          "fat": 10,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 460,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 30,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 115,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides, Breads, Chicken, Desserts",
+      "items": [
+        {
+          "name": "Garlic Bread Bites",
+          "calories": 62,
+          "protein": 1,
+          "fat": 210,
+          "carbs": 200,
+          "fiber": 27,
+          "saturated_fat": 9,
+          "sugars": 1,
+          "trans_fat": 4
+        },
+        {
+          "name": "Parmesan Bread Bites",
+          "calories": 63,
+          "protein": 1,
+          "fat": 210,
+          "carbs": 220,
+          "fiber": 27,
+          "saturated_fat": 9,
+          "sugars": 1,
+          "trans_fat": 4.5
+        },
+        {
+          "name": "Stuffed Cheesy Bread",
+          "calories": 49,
+          "protein": 0,
+          "fat": 150,
+          "carbs": 250,
+          "fiber": 16,
+          "sodium": 15,
+          "saturated_fat": 7,
+          "sugars": 1,
+          "trans_fat": 3
+        },
+        {
+          "name": "Bacon & Jalapeno Stuffed Cheesy Bread",
+          "calories": 54,
+          "protein": 0,
+          "fat": 170,
+          "carbs": 350,
+          "fiber": 17,
+          "sodium": 20,
+          "saturated_fat": 8,
+          "sugars": 1,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Pepperoni Stuffed Cheesy Bread",
+          "calories": 52,
+          "protein": 0,
+          "fat": 170,
+          "carbs": 310,
+          "fiber": 16,
+          "sodium": 15,
+          "saturated_fat": 8,
+          "sugars": 1,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Spinach & Feta Stuffed Cheesy Bread",
+          "calories": 52,
+          "protein": 0,
+          "fat": 160,
+          "carbs": 270,
+          "fiber": 17,
+          "sodium": 15,
+          "saturated_fat": 7,
+          "sugars": 1,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Boneless Chicken",
+          "calories": 75,
+          "protein": 1,
+          "fat": 170,
+          "carbs": 660,
+          "fiber": 18,
+          "sodium": 35,
+          "saturated_fat": 7,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Honey BBQ Wings",
+          "calories": 119,
+          "protein": 12,
+          "fat": 310,
+          "carbs": 940,
+          "fiber": 22,
+          "sodium": 110,
+          "saturated_fat": 20,
+          "trans_fat": 5
+        },
+        {
+          "name": "Hot Buffalo Wings",
+          "calories": 119,
+          "protein": 0,
+          "fat": 260,
+          "carbs": 1520,
+          "fiber": 9,
+          "sodium": 110,
+          "saturated_fat": 20,
+          "trans_fat": 5
+        },
+        {
+          "name": "Mild Buffalo Wings",
+          "calories": 119,
+          "protein": 0,
+          "fat": 260,
+          "carbs": 1420,
+          "fiber": 10,
+          "sodium": 110,
+          "saturated_fat": 20,
+          "trans_fat": 5
+        },
+        {
+          "name": "Garlic Parmesan Wings",
+          "calories": 119,
+          "protein": 0,
+          "fat": 390,
+          "carbs": 960,
+          "fiber": 10,
+          "sodium": 120,
+          "saturated_fat": 34,
+          "trans_fat": 8
+        },
+        {
+          "name": "Sweet Mango Habanero Wings",
+          "calories": 119,
+          "protein": 10,
+          "fat": 310,
+          "carbs": 790,
+          "fiber": 21,
+          "sodium": 110,
+          "saturated_fat": 20,
+          "trans_fat": 5
+        },
+        {
+          "name": "Classic Hot Buffalo Loaded Chicken",
+          "calories": 85,
+          "protein": 1,
+          "fat": 190,
+          "carbs": 1030,
+          "fiber": 14,
+          "sodium": 35,
+          "saturated_fat": 11,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Crispy Bacon & Tomato Loaded Chicken",
+          "calories": 90,
+          "protein": 1,
+          "fat": 260,
+          "carbs": 810,
+          "fiber": 14,
+          "sodium": 45,
+          "saturated_fat": 17,
+          "trans_fat": 5
+        },
+        {
+          "name": "Spicy Jalapeno & Pineapple Loaded Chicken",
+          "calories": 90,
+          "protein": 6,
+          "fat": 190,
+          "carbs": 670,
+          "fiber": 21,
+          "sodium": 35,
+          "saturated_fat": 8,
+          "trans_fat": 2.5
+        },
+        {
+          "name": "Sweet BBQ Bacon Loaded Chicken",
+          "calories": 85,
+          "protein": 7,
+          "fat": 210,
+          "carbs": 790,
+          "fiber": 20,
+          "sodium": 40,
+          "saturated_fat": 10,
+          "trans_fat": 3.5
+        },
+        {
+          "name": "Chocolate Lava Crunch Cake",
+          "calories": 85,
+          "protein": 29,
+          "fat": 350,
+          "carbs": 180,
+          "fiber": 47,
+          "sodium": 60,
+          "saturated_fat": 17,
+          "sugars": 1,
+          "trans_fat": 10
+        },
+        {
+          "name": "Marbled Cookie Brownie",
+          "calories": 43,
+          "protein": 18,
+          "fat": 200,
+          "carbs": 125,
+          "fiber": 26,
+          "sodium": 20,
+          "saturated_fat": 10,
+          "sugars": 1,
+          "trans_fat": 5
+        },
+        {
+          "name": "Cinnamon Bread Bites",
+          "calories": 65,
+          "protein": 4,
+          "fat": 230,
+          "carbs": 160,
+          "fiber": 30,
+          "saturated_fat": 9,
+          "sugars": 1,
+          "trans_fat": 4
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 35,
+          "protein": 14,
+          "fat": 70,
+          "carbs": 310,
+          "fiber": 17,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic",
+          "calories": 28,
+          "protein": 0,
+          "fat": 250,
+          "carbs": 170,
+          "saturated_fat": 28,
+          "trans_fat": 5
+        },
+        {
+          "name": "Hot Buffalo",
+          "calories": 35,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 860,
+          "fiber": 1,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Marinara",
+          "calories": 57,
+          "protein": 1,
+          "fat": 30,
+          "carbs": 290,
+          "fiber": 6
+        },
+        {
+          "name": "Ranch",
+          "calories": 35,
+          "protein": 1,
+          "fat": 160,
+          "carbs": 300,
+          "fiber": 1,
+          "sodium": 5,
+          "saturated_fat": 17,
+          "trans_fat": 3
+        },
+        {
+          "name": "Sweet Icing",
+          "calories": 64,
+          "protein": 52,
+          "fat": 220,
+          "carbs": 110,
+          "fiber": 52,
+          "saturated_fat": 4,
+          "trans_fat": 1
+        },
+        {
+          "name": "Sweet Mango Habanero",
+          "calories": 35,
+          "protein": 13,
+          "fat": 70,
+          "carbs": 65,
+          "fiber": 17
+        },
+        {
+          "name": "Cheddar Bacon Loaded Tots",
+          "calories": 83,
+          "protein": 1,
+          "fat": 240,
+          "carbs": 590,
+          "fiber": 17,
+          "sodium": 20,
+          "saturated_fat": 16,
+          "sugars": 1,
+          "trans_fat": 5
+        },
+        {
+          "name": "Buffalo Chicken",
+          "calories": 174,
+          "protein": 0,
+          "fat": 420,
+          "carbs": 1300,
+          "fiber": 39,
+          "sodium": 55,
+          "saturated_fat": 20,
+          "trans_fat": 7
+        },
+        {
+          "name": "Chicken Bacon Ranch",
+          "calories": 157,
+          "protein": 1,
+          "fat": 450,
+          "carbs": 1190,
+          "fiber": 37,
+          "sodium": 60,
+          "saturated_fat": 22,
+          "trans_fat": 8
+        },
+        {
+          "name": "Chicken Parm",
+          "calories": 161,
+          "protein": 0,
+          "fat": 400,
+          "carbs": 1050,
+          "fiber": 38,
+          "sodium": 60,
+          "saturated_fat": 15,
+          "trans_fat": 7
+        },
+        {
+          "name": "Italian",
+          "calories": 163,
+          "protein": 0,
+          "fat": 420,
+          "carbs": 1530,
+          "fiber": 37,
+          "sodium": 60,
+          "cholesterol": 0.5,
+          "saturated_fat": 20,
+          "trans_fat": 9
+        },
+        {
+          "name": "Sweet & Spicy Chicken Habanero",
+          "calories": 170,
+          "protein": 4,
+          "fat": 390,
+          "carbs": 1080,
+          "fiber": 44,
+          "sodium": 55,
+          "saturated_fat": 14,
+          "trans_fat": 7
+        }
+      ]
+    },
+    {
+      "name": "Pasta & Salads",
+      "items": [
+        {
+          "name": "Chicken Bacon Ranch Chicken Parm Sandwiches, Pasta, Chicken & Sides Italian PhillyI nCghreeedsiee Sntte Naku trition Per Serving Size Sweet & Spicy Chicken Habanero",
+          "calories": 157161163164170,
+          "protein": 10014,
+          "fat": 450400420380390,
+          "carbs": 11901050153012802000,
+          "fiber": 3738373844,
+          "sodium": 6060605055,
+          "saturated_fat": 2215201514,
+          "trans_fat": 87987
+        },
+        {
+          "name": "Garlic Bread Bites Chicken Alfredo Parmesan Bread Bites",
+          "calories": 26624,
+          "protein": 10,
+          "fat": 261600,
+          "carbs": 290500,
+          "fiber": 2877,
+          "sodium": 500,
+          "saturated_fat": 294,
+          "sugars": 13,
+          "trans_fat": 140
+        },
+        {
+          "name": "None",
+          "calories": 36236,
+          "protein": 10,
+          "fat": 251900,
+          "carbs": 1202200,
+          "fiber": 2670,
+          "sodium": 1000,
+          "cholesterol": 0.5,
+          "saturated_fat": 298,
+          "sugars": 12,
+          "trans_fat": 41.8
+        },
+        {
+          "name": "Stuffed Cheesy Bread Italian Sausage Marinara Bacon & Jalapeno Stuffed Cheesy Bread",
+          "calories": 24893,
+          "protein": 1,
+          "fat": 175000,
+          "carbs": 1205500,
+          "fiber": 1869,
+          "sodium": 1355,
+          "saturated_fat": 278,
+          "sugars": 13,
+          "trans_fat": 39
+        },
+        {
+          "name": "None",
+          "calories": 35649,
+          "protein": 2,
+          "fat": 167800,
+          "carbs": 1325300,
+          "fiber": 1675,
+          "sodium": 2605,
+          "cholesterol": 0.5,
+          "saturated_fat": 385,
+          "sugars": 13,
+          "trans_fat": 31.6
+        },
+        {
+          "name": "P5-eCphpeeersoen iM Satcu f&fe Cd hCeheeseesy Bread",
+          "calories": 35620,
+          "protein": 0,
+          "fat": 187300,
+          "carbs": 1361800,
+          "fiber": 1664,
+          "sodium": 11455,
+          "cholesterol": 10.5,
+          "saturated_fat": 580,
+          "sugars": 12,
+          "trans_fat": 33.2
+        },
+        {
+          "name": "SSppiincayc Bhu &ff aFleot a5 -SCthueffeesde CMhaece s&y C Bhreeeasde",
+          "calories": 35724,
+          "protein": 0,
+          "fat": 186400,
+          "carbs": 2207900,
+          "fiber": 1674,
+          "sodium": 11455,
+          "cholesterol": 10.5,
+          "saturated_fat": 570,
+          "sugars": 12,
+          "trans_fat": 33.2
+        },
+        {
+          "name": "BColansesleics sG Carhdicekne Snalad",
+          "calories": 17050,
+          "protein": 1,
+          "fat": 18700,
+          "carbs": 162650,
+          "fiber": 188,
+          "sodium": 1305,
+          "saturated_fat": 47,
+          "sugars": 10,
+          "trans_fat": 12.5
+        },
+        {
+          "name": "PClhaiicnk eWni nCgase s(Naor Ssaaulacde)",
+          "calories": 19918,
+          "protein": 10,
+          "fat": 222500,
+          "carbs": 479200,
+          "fiber": 184,
+          "sodium": 15100,
+          "saturated_fat": 280,
+          "sugars": 20,
+          "trans_fat": 35
+        },
+        {
+          "name": "MMailrdz eBtutif fGalaor dWeinn gRsanch Dressing",
+          "calories": 14139,
+          "protein": 10,
+          "fat": 222600,
+          "carbs": 1440200,
+          "fiber": 120,
+          "sodium": 11100,
+          "saturated_fat": 2240,
+          "trans_fat": 45
+        },
+        {
+          "name": "GMaarrzliect tPi aCramredsinain C Waeinsgasr Dressing",
+          "calories": 14139,
+          "protein": 0,
+          "fat": 233900,
+          "carbs": 297600,
+          "fiber": 100,
+          "sodium": 14200,
+          "saturated_fat": 2354,
+          "trans_fat": 48
+        },
+        {
+          "name": "SMwarezeet tMti aBnaglos aHmabica nVeirnoa iWgrientgtse Dressing",
+          "calories": 14139,
+          "protein": 140,
+          "fat": 133100,
+          "carbs": 477900,
+          "fiber": 241,
+          "sodium": 1010,
+          "saturated_fat": 1220,
+          "trans_fat": 25
+        },
+        {
+          "name": "CKleans'ss iRc aHnocth BDurfefaslsoi nLgoaded Chicken",
+          "calories": 8453,
+          "protein": 11,
+          "fat": 119900,
+          "carbs": 1207300,
+          "fiber": 124,
+          "sodium": 1355,
+          "saturated_fat": 2101,
+          "trans_fat": 33.5
+        },
+        {
+          "name": "CKerins'psy C Baaecsoanr D&r eTsosmiantgo Loaded Chicken",
+          "calories": 9403,
+          "protein": 11,
+          "fat": 221600,
+          "carbs": 480100,
+          "fiber": 114,
+          "sodium": 455,
+          "saturated_fat": 2137,
+          "trans_fat": 45
+        },
+        {
+          "name": "SKepinc'sy LJiatela Bpeanlsoa &m Pici nweiatphp Olel iLvoea Odeild Chicken",
+          "calories": 9403,
+          "protein": 63,
+          "fat": 119000,
+          "carbs": 637700,
+          "fiber": 241,
+          "sodium": 305,
+          "saturated_fat": 88,
+          "trans_fat": 21.5
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Classic",
+          "calories": 430,
+          "protein": 21,
+          "fat": 20,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1130,
+          "cholesterol": 50,
+          "saturated_fat": 8,
+          "sugars": 4,
+          "trans_fat": 1
+        },
+        {
+          "name": "Bacon Cheddar",
+          "calories": 510,
+          "protein": 23,
+          "fat": 24,
+          "carbs": 48,
+          "fiber": 2,
+          "sodium": 1320,
+          "cholesterol": 60,
+          "saturated_fat": 9,
+          "sugars": 13,
+          "trans_fat": 1
+        },
+        {
+          "name": "Buffalo Ranch",
+          "calories": 530,
+          "protein": 23,
+          "fat": 30,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 1750,
+          "cholesterol": 65,
+          "saturated_fat": 10,
+          "sugars": 4,
+          "trans_fat": 1
+        },
+        {
+          "name": "Mushroom Delight",
+          "calories": 430,
+          "protein": 21,
+          "fat": 21,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 1210,
+          "cholesterol": 50,
+          "saturated_fat": 8,
+          "sugars": 3,
+          "trans_fat": 1
+        },
+        {
+          "name": "Zesty",
+          "calories": 460,
+          "protein": 22,
+          "fat": 23,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1340,
+          "cholesterol": 55,
+          "saturated_fat": 8,
+          "sugars": 5,
+          "trans_fat": 1
+        },
+        {
+          "name": "Hoagie Bun",
+          "calories": 190,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 370,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Hoagie Beef Patty",
+          "calories": 140,
+          "protein": 10,
+          "fat": 10,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 450,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 1,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Ranch",
+          "calories": 100,
+          "protein": 1,
+          "fat": 11,
+          "carbs": 1,
+          "sodium": 270,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 170,
+          "sugars": 9
+        },
+        {
+          "name": "Hot Buffalo",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 600
+        },
+        {
+          "name": "Ranch",
+          "calories": 70,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Honey BBQ",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "sodium": 110,
+          "sugars": 6
+        },
+        {
+          "name": "Hot Buffalo",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 400
+        },
+        {
+          "name": "Garlic Oil Blend",
+          "calories": 25,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 55,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Anchovies",
+          "calories": 15,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 540,
+          "cholesterol": 5
+        },
+        {
+          "name": "Bacon",
+          "calories": 35,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 0,
+          "sodium": 130,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Black Olives",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives",
+          "calories": 10,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Ham",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 105
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 110
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 25,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Pickles",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 95
+        },
+        {
+          "name": "Pineapple",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 25,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60,
+          "cholesterol": 5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 20
+        },
+        {
+          "name": "Anchovies",
+          "calories": 15,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 540,
+          "cholesterol": 5
+        },
+        {
+          "name": "Bacon",
+          "calories": 15,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 65,
+          "cholesterol": 5
+        },
+        {
+          "name": "Black Olives",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 30
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Green Olives",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Ham",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Jalapeno Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 55
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pepperoni",
+          "calories": 15,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 0,
+          "sodium": 65,
+          "cholesterol": 5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Pickles",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 50
+        },
+        {
+          "name": "Pineapple",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Shredded Parmesan Asiago",
+          "calories": 15,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 30,
+          "cholesterol": 5,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Diced Tomatoes",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        }
+      ]
+    }
+  ]
+}

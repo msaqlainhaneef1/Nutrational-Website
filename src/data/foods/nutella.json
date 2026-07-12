@@ -1,58 +1,30 @@
 {
   "name": "Nutella",
   "slug": "nutella",
-  "description": "Pâte à tartiner aux noisettes et au cacao",
-  "category": "breakfasts",
+  "description": "Hazelnut and cocoa spread made by Ferrero. Popular as a breakfast topping on toast, pancakes, and crepes. Sweet, smooth, and calorie dense, with most of its energy coming from sugar and palm oil.",
+  "category": "Spreads",
   "servingSize": "100g",
   "calories": 539,
   "macros": {
-    "protein": {
-      "value": 6.3,
-      "unit": "g",
-      "pctDailyValue": 13
-    },
-    "fat": {
-      "value": 30.9,
-      "unit": "g",
-      "pctDailyValue": 46
-    },
-    "carbs": {
-      "value": 57.5,
-      "unit": "g",
-      "pctDailyValue": 17
-    },
-    "fiber": {
-      "value": 0,
-      "unit": "g",
-      "pctDailyValue": 0
-    },
-    "sugar": {
-      "value": 56.3,
-      "unit": "g",
-      "pctDailyValue": 113
-    }
+    "protein": { "value": 6.3, "unit": "g", "pctDailyValue": 13 },
+    "fat": { "value": 30.9, "unit": "g", "pctDailyValue": 46 },
+    "carbs": { "value": 57.5, "unit": "g", "pctDailyValue": 17 },
+    "fiber": { "value": 0, "unit": "g", "pctDailyValue": 0 },
+    "sugar": { "value": 56.3, "unit": "g", "pctDailyValue": 113 }
   },
   "micros": {
-    "sodium": {
-      "value": 43,
-      "unit": "mg",
-      "pctDailyValue": 2
-    },
-    "potassium": {
-      "value": 0,
-      "unit": "mg",
-      "pctDailyValue": 0
-    },
-    "calcium": {
-      "value": 0,
-      "unit": "mg",
-      "pctDailyValue": 0
-    }
+    "sodium": { "value": 43, "unit": "mg", "pctDailyValue": 2 },
+    "potassium": { "value": 0, "unit": "mg", "pctDailyValue": 0 },
+    "calcium": { "value": 0, "unit": "mg", "pctDailyValue": 0 }
   },
   "faqs": [
     {
       "q": "Is Nutella high in sugar?",
-      "a": "A 100g serving contains 56.3g of sugar, which contributes to its overall nutritional profile."
+      "a": "Yes. A 100 gram serving contains 56.3 grams of sugar, which is more than the full daily recommended limit for an adult. A typical serving of two tablespoons (about 37 grams) still contains around 21 grams of sugar."
+    },
+    {
+      "q": "Is Nutella a healthy breakfast choice?",
+      "a": "Nutella is best treated as a dessert topping rather than a daily breakfast staple. While it does contain some hazelnuts and skim milk powder, the primary ingredients by weight are sugar and palm oil."
     }
   ]
 }

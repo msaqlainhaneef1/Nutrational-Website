@@ -1,40 +1,98 @@
 ---
-import { ArrowRight } from '@lucide/astro';
+import { ArrowRight, Search } from '@lucide/astro';
+import type { Restaurant } from '@/features/restaurants/schemas/restaurant';
 
-const restaurants = [
-  { name: "McDonald's", slug: "mcdonalds-calories-calculator", count: 48, bg: "border-red-500/30 bg-red-500/10 text-red-400" },
-  { name: "Subway", slug: "subway-nutrition-calculator", count: 32, bg: "border-emerald-500/30 bg-emerald-500/10 text-emerald-450" }
-];
+interface Props {
+  restaurants: Restaurant[];
+  categories: { name: string; count: number }[];
+}
+
+const { restaurants, categories } = Astro.props;
 ---
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-  <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
-    <div class="space-y-3">
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Restaurant Nutrition Calculators</h2>
-      <p class="text-zinc-400 text-sm font-sans font-medium">Browse full menus, filter by category, and check calories before you order.</p>
-    </div>
-    <a href="/restaurants" class="inline-flex items-center text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors uppercase tracking-wider font-sans group">
-      <span>Browse Restaurants</span>
-      <ArrowRight class="h-4 w-4 ml-1.5 transform group-hover:translate-x-1 transition-transform stroke-[2.5]" />
-    </a>
-  </div>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    {restaurants.map((res) => (
-      <a href={`/restaurants/${res.slug}`} class="glass-card rounded-3xl p-7 border border-zinc-900/60 flex items-center justify-between group hover:border-emerald-500/20">
-        <div class="space-y-1.5">
-          <h3 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors font-display">{res.name}</h3>
-          <p class="text-zinc-500 text-xs font-sans">{res.count} verified menu items listed</p>
+<section class="py-20 border-b border-zinc-900/80">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+      <div class="space-y-3">
+        <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+          <span class="w-8 h-px bg-emerald-500/50"></span>
+          <span>Restaurant database</span>
         </div>
-        <div class="flex items-center space-x-4">
-          <span class={`text-[10px] uppercase tracking-wider px-3 py-1.5 rounded-xl border font-bold font-sans ${res.bg}`}>
-            Calorie Guide
-          </span>
-          <div class="p-2.5 bg-zinc-900/60 border border-zinc-800 rounded-xl group-hover:border-emerald-500/30 group-hover:bg-emerald-500/10 transition-all text-zinc-400 group-hover:text-emerald-400">
-            <ArrowRight class="h-4 w-4 stroke-[2.5]" />
-          </div>
-        </div>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+          Popular chains, fully indexed
+        </h2>
+        <p class="text-zinc-400 text-sm max-w-2xl leading-relaxed">
+          Every menu item is broken down into calories, protein, carbs, fat, fiber, sodium, and sugars.
+          Pick a chain to start browsing, or jump straight to a category.
+        </p>
+      </div>
+      <a href="/restaurants" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
+        <span>View all {restaurants.length > 0 ? '100+' : ''} restaurants</span>
+        <ArrowRight class="h-4 w-4" />
       </a>
-    ))}
+    </div>
+
+    <!-- Category pills -->
+    <div class="flex flex-wrap gap-2 mb-8">
+      {categories.map((cat) => (
+        <a
+          href={`/restaurants?category=${encodeURIComponent(cat.name)}`}
+          class="inline-flex items-center gap-2 px-3.5 py-1.5 bg-zinc-900/80 border border-zinc-800 hover:border-emerald-500/30 hover:bg-emerald-500/5 hover:text-emerald-400 text-zinc-400 text-xs font-semibold rounded-full transition-all"
+        >
+          <span>{cat.name}</span>
+          <span class="text-zinc-600 group-hover:text-emerald-500/70">{cat.count}</span>
+        </a>
+      ))}
+    </div>
+
+    <!-- Restaurant grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {restaurants.map((res) => {
+        const count = res.itemCount || res.categories.reduce((s, c) => s + c.items.length, 0);
+        return (
+          <a
+            href={`/restaurants/${res.slug}`}
+            class="glass-card rounded-2xl p-5 flex flex-col justify-between group h-full"
+          >
+            <div class="space-y-3">
+              <div class="flex items-start justify-between">
+                <div class="text-3xl leading-none">{res.emoji || '🍽'}</div>
+                <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-900/80 border border-zinc-800 px-2 py-0.5 rounded-full">
+                  {res.category || 'Restaurant'}
+                </span>
+              </div>
+              <div>
+                <h3 class="font-bold text-base text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                  {res.name}
+                </h3>
+                <p class="text-xs text-zinc-500 mt-1">{count} menu items</p>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-zinc-900/80 flex items-center justify-between text-xs">
+              <span class="text-emerald-400 font-semibold">View menu</span>
+              <ArrowRight class="h-3.5 w-3.5 text-emerald-400 transform group-hover:translate-x-1 transition-transform" />
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- Search CTA -->
+    <div class="mt-8 glass-card rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3 text-center md:text-left">
+        <div class="p-2.5 bg-emerald-500/10 text-emerald-400 rounded-xl border border-emerald-500/20">
+          <Search class="h-5 w-5" />
+        </div>
+        <div>
+          <h3 class="font-bold text-white text-sm">Looking for a specific chain?</h3>
+          <p class="text-xs text-zinc-500 mt-0.5">Search across all 100 restaurants and 16,000+ menu items.</p>
+        </div>
+      </div>
+      <a href="/search" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-sm rounded-xl transition-colors whitespace-nowrap">
+        <span>Open search</span>
+        <ArrowRight class="h-4 w-4" />
+      </a>
+    </div>
   </div>
 </section>

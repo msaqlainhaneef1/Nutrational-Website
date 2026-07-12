@@ -9,18 +9,18 @@ interface Props {
 const { foods } = Astro.props;
 ---
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
   <Breadcrumb items={[{ label: 'Foods', url: '/foods' }]} />
 
-  <div class="space-y-3 border-b border-zinc-900/60 pb-6">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Foods Nutrition Directory</h1>
-    <p class="text-zinc-400 text-sm max-w-2xl font-sans">
+  <div class="space-y-3">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Foods Nutrition Directory</h1>
+    <p class="text-zinc-400 text-sm max-w-2xl">
       Select a food item to view its complete nutritional properties, including calories, vitamins, minerals, and dietary fiber content.
     </p>
   </div>
 
   <!-- Foods Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-2">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
     {foods.map((food) => (
       <FoodCard
         name={food.name}

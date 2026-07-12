@@ -1,0 +1,141 @@
+{
+  "name": "Hawaiian Bros",
+  "slug": "hawaiian-bros-nutrition-calculator",
+  "tagline": "Calculate Hawaiian Bros calories, protein, carbs and fat. Free Hawaiian Bros nutrition calculator with comp...",
+  "description": "Calculate Hawaiian Bros calories, protein, carbs and fat. Free Hawaiian Bros nutrition calculator with complete menu data for all items.",
+  "category": "Mexican & Bowls",
+  "emoji": "🍽",
+  "itemCount": 9,
+  "categories": [
+    {
+      "name": "Plate Lunch",
+      "items": [
+        {
+          "name": "Huli Huli Chicken Classic",
+          "calories": 1210,
+          "protein": 42,
+          "fat": 46,
+          "carbs": 154,
+          "fiber": 4,
+          "sodium": 2640,
+          "cholesterol": 150,
+          "saturated_fat": 9,
+          "sugars": 26,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Honolulu Chicken Classic",
+          "calories": 1370,
+          "protein": 48,
+          "fat": 54,
+          "carbs": 171,
+          "fiber": 5,
+          "sodium": 3540,
+          "cholesterol": 170,
+          "saturated_fat": 11,
+          "sugars": 42,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Molokai Chicken Classic",
+          "calories": 1400,
+          "protein": 46,
+          "fat": 49,
+          "carbs": 190,
+          "fiber": 4,
+          "sodium": 3760,
+          "cholesterol": 170,
+          "saturated_fat": 10,
+          "sugars": 61,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Luau Pork Classic",
+          "calories": 1540,
+          "protein": 80,
+          "fat": 77,
+          "carbs": 127,
+          "fiber": 4,
+          "sodium": 3570,
+          "cholesterol": 255,
+          "saturated_fat": 21,
+          "sugars": 2
+        },
+        {
+          "name": "Kilauea Chicken Classic",
+          "calories": 1340,
+          "protein": 47,
+          "fat": 50,
+          "carbs": 176,
+          "fiber": 5,
+          "sodium": 3820,
+          "cholesterol": 170,
+          "saturated_fat": 10,
+          "sugars": 46,
+          "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Pacific Island Salad",
+          "calories": 590,
+          "protein": 24,
+          "fat": 29,
+          "carbs": 54,
+          "fiber": 6,
+          "sodium": 2030,
+          "cholesterol": 90,
+          "saturated_fat": 6,
+          "sugars": 45
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "SPAM® Musubi Single",
+          "calories": 330,
+          "protein": 9,
+          "fat": 12,
+          "carbs": 42,
+          "fiber": 4,
+          "sodium": 630,
+          "cholesterol": 30,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Dragon Fruit Energy Refresher",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Dole Soft Serve® Pineapple",
+          "calories": 180,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 42,
+          "sodium": 15,
+          "saturated_fat": 1,
+          "sugars": 40
+        }
+      ]
+    }
+  ]
+}

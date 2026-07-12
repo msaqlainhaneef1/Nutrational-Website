@@ -1,0 +1,2909 @@
+{
+  "name": "Chick-fil-A",
+  "slug": "chick-fil-a-nutrition-calculator",
+  "tagline": "Calculate Chick-fil-A calories, protein, carbs and fat. Free Chick-fil-A nutrition calculator with complete...",
+  "description": "Calculate Chick-fil-A calories, protein, carbs and fat. Free Chick-fil-A nutrition calculator with complete menu data for all items.",
+  "category": "Chicken",
+  "emoji": "🍽",
+  "itemCount": 271,
+  "categories": [
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Spicy Chicken Biscuit",
+          "calories": 450,
+          "protein": 19,
+          "fat": 22,
+          "carbs": 44,
+          "fiber": 3,
+          "sodium": 1570,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Chick-fil-A Chick-n-Minis®",
+          "calories": 360,
+          "protein": 20,
+          "fat": 13,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1060,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 8
+        },
+        {
+          "name": "4 ct Chick-fil-A Chick-n-Minis®",
+          "calories": 360,
+          "protein": 20,
+          "fat": 13,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1060,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 8
+        },
+        {
+          "name": "10 ct Chick-fil-A Chick-n-Minis®",
+          "calories": 910,
+          "protein": 49,
+          "fat": 34,
+          "carbs": 103,
+          "fiber": 6,
+          "sodium": 2640,
+          "cholesterol": 150,
+          "saturated_fat": 10,
+          "sugars": 19
+        },
+        {
+          "name": "Egg White Grill",
+          "calories": 300,
+          "protein": 27,
+          "fat": 8,
+          "carbs": 29,
+          "fiber": 1,
+          "sodium": 990,
+          "cholesterol": 65,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito",
+          "calories": 700,
+          "protein": 34,
+          "fat": 40,
+          "carbs": 51,
+          "fiber": 3,
+          "sodium": 1770,
+          "cholesterol": 415,
+          "saturated_fat": 12,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Nuggets",
+          "calories": 700,
+          "protein": 34,
+          "fat": 40,
+          "carbs": 51,
+          "fiber": 3,
+          "sodium": 1770,
+          "cholesterol": 415,
+          "saturated_fat": 12,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/  Sausage",
+          "calories": 720,
+          "protein": 28,
+          "fat": 47,
+          "carbs": 46,
+          "fiber": 3,
+          "sodium": 1450,
+          "cholesterol": 395,
+          "saturated_fat": 16,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Grilled Filet",
+          "calories": 650,
+          "protein": 36,
+          "fat": 36,
+          "carbs": 46,
+          "fiber": 3,
+          "sodium": 1650,
+          "cholesterol": 420,
+          "saturated_fat": 12,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Spicy Chicken",
+          "calories": 740,
+          "protein": 37,
+          "fat": 42,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 2020,
+          "cholesterol": 420,
+          "saturated_fat": 13,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Bacon",
+          "calories": 680,
+          "protein": 30,
+          "fat": 42,
+          "carbs": 46,
+          "fiber": 3,
+          "sodium": 1630,
+          "cholesterol": 395,
+          "saturated_fat": 14,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ No Meat",
+          "calories": 580,
+          "protein": 22,
+          "fat": 34,
+          "carbs": 47,
+          "fiber": 5,
+          "sodium": 1200,
+          "cholesterol": 330,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Nuggets - no hash browns",
+          "calories": 550,
+          "protein": 33,
+          "fat": 30,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1530,
+          "cholesterol": 415,
+          "saturated_fat": 11,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Sausage - no hash browns",
+          "calories": 570,
+          "protein": 26,
+          "fat": 37,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 1200,
+          "cholesterol": 395,
+          "saturated_fat": 14,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Grilled Filet - no hash brown",
+          "calories": 500,
+          "protein": 35,
+          "fat": 26,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 1410,
+          "cholesterol": 420,
+          "saturated_fat": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Spicy Chicken - no hash browns",
+          "calories": 590,
+          "protein": 36,
+          "fat": 32,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1770,
+          "cholesterol": 420,
+          "saturated_fat": 11,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ Bacon - no hash browns",
+          "calories": 540,
+          "protein": 27,
+          "fat": 32,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 1230,
+          "cholesterol": 395,
+          "saturated_fat": 13,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Burrito w/ No Meat - no hash browns",
+          "calories": 440,
+          "protein": 21,
+          "fat": 24,
+          "carbs": 35,
+          "fiber": 3,
+          "sodium": 950,
+          "cholesterol": 330,
+          "saturated_fat": 10,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Bowl",
+          "calories": 470,
+          "protein": 29,
+          "fat": 30,
+          "carbs": 19,
+          "fiber": 2,
+          "sodium": 1350,
+          "cholesterol": 415,
+          "saturated_fat": 9,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Nuggets",
+          "calories": 470,
+          "protein": 29,
+          "fat": 30,
+          "carbs": 19,
+          "fiber": 2,
+          "sodium": 1350,
+          "cholesterol": 415,
+          "saturated_fat": 9,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Sausage",
+          "calories": 480,
+          "protein": 23,
+          "fat": 37,
+          "carbs": 15,
+          "fiber": 2,
+          "sodium": 1020,
+          "cholesterol": 395,
+          "saturated_fat": 12,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Grilled Filet",
+          "calories": 420,
+          "protein": 31,
+          "fat": 26,
+          "carbs": 15,
+          "fiber": 2,
+          "sodium": 1230,
+          "cholesterol": 420,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Spicy Chicken",
+          "calories": 500,
+          "protein": 32,
+          "fat": 32,
+          "carbs": 21,
+          "fiber": 3,
+          "sodium": 1590,
+          "cholesterol": 420,
+          "saturated_fat": 9,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Bacon",
+          "calories": 450,
+          "protein": 23,
+          "fat": 32,
+          "carbs": 15,
+          "fiber": 2,
+          "sodium": 1060,
+          "cholesterol": 395,
+          "saturated_fat": 11,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ No Meat",
+          "calories": 350,
+          "protein": 17,
+          "fat": 24,
+          "carbs": 16,
+          "fiber": 3,
+          "sodium": 770,
+          "cholesterol": 330,
+          "saturated_fat": 8,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Nuggets - no hash browns",
+          "calories": 320,
+          "protein": 28,
+          "fat": 20,
+          "carbs": 7,
+          "sodium": 1100,
+          "cholesterol": 415,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Sausage - no hash browns",
+          "calories": 340,
+          "protein": 21,
+          "fat": 27,
+          "carbs": 2,
+          "sodium": 780,
+          "cholesterol": 395,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Grilled Filet - no hash browns",
+          "calories": 270,
+          "protein": 30,
+          "fat": 16,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 980,
+          "cholesterol": 420,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Spicy Chicken - no hash browns",
+          "calories": 350,
+          "protein": 31,
+          "fat": 22,
+          "carbs": 9,
+          "fiber": 1,
+          "sodium": 1340,
+          "cholesterol": 420,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ Bacon - no hash browns",
+          "calories": 300,
+          "protein": 22,
+          "fat": 22,
+          "carbs": 2,
+          "sodium": 810,
+          "cholesterol": 395,
+          "saturated_fat": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Hash Brown Scramble Bowl w/ No Meat - no hash browns",
+          "calories": 200,
+          "protein": 16,
+          "fat": 14,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 530,
+          "cholesterol": 330,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken, Egg & Cheese Biscuit",
+          "calories": 550,
+          "protein": 27,
+          "fat": 28,
+          "carbs": 48,
+          "fiber": 3,
+          "sodium": 1870,
+          "cholesterol": 215,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "Bacon, Egg & Cheese Biscuit",
+          "calories": 420,
+          "protein": 15,
+          "fat": 23,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1220,
+          "cholesterol": 180,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Sausage, Egg & Cheese Biscuit",
+          "calories": 620,
+          "protein": 22,
+          "fat": 42,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1510,
+          "cholesterol": 205,
+          "saturated_fat": 18,
+          "sugars": 4
+        },
+        {
+          "name": "Chicken, Egg & Cheese Muffin",
+          "calories": 410,
+          "protein": 27,
+          "fat": 18,
+          "carbs": 36,
+          "fiber": 1,
+          "sodium": 1320,
+          "cholesterol": 215,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Bacon, Egg & Cheese Muffin",
+          "calories": 300,
+          "protein": 16,
+          "fat": 13,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 780,
+          "cholesterol": 180,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Sausage, Egg & Cheese Muffin",
+          "calories": 490,
+          "protein": 23,
+          "fat": 32,
+          "carbs": 29,
+          "fiber": 1,
+          "sodium": 1000,
+          "cholesterol": 205,
+          "saturated_fat": 13,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Browns",
+          "calories": 270,
+          "protein": 3,
+          "fat": 18,
+          "carbs": 23,
+          "fiber": 3,
+          "sodium": 440,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Small Hash Browns",
+          "calories": 270,
+          "protein": 3,
+          "fat": 18,
+          "carbs": 23,
+          "fiber": 3,
+          "sodium": 440,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Large Hash Browns",
+          "calories": 420,
+          "protein": 4,
+          "fat": 29,
+          "carbs": 35,
+          "fiber": 4,
+          "sodium": 700,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Berry Parfait",
+          "calories": 270,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 26
+        },
+        {
+          "name": "Berry Parfait w/ Cookie Crumbs",
+          "calories": 240,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 25
+        },
+        {
+          "name": "Berry Parfait w/ Granola",
+          "calories": 270,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 26
+        },
+        {
+          "name": "Fruit Cup",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 16,
+          "fiber": 2,
+          "sugars": 12
+        },
+        {
+          "name": "Small Fruit Cup",
+          "calories": 60,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 14,
+          "fiber": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Medium Fruit Cup",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 16,
+          "fiber": 2,
+          "sugars": 12
+        },
+        {
+          "name": "Large Fruit Cup",
+          "calories": 120,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 28,
+          "fiber": 4,
+          "sugars": 21
+        },
+        {
+          "name": "Breakfast Breads",
+          "calories": 290,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 760,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Buttery Biscuit",
+          "calories": 290,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 760,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "English Muffin",
+          "calories": 140,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 190,
+          "sugars": 1
+        },
+        {
+          "name": "4 ct Mini Yeast Rolls",
+          "calories": 240,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 36,
+          "fiber": 2,
+          "sodium": 450,
+          "cholesterol": 20,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A® Chicken Biscuit",
+          "calories": 460,
+          "protein": 19,
+          "fat": 23,
+          "carbs": 45,
+          "fiber": 2,
+          "sodium": 1510,
+          "cholesterol": 45,
+          "saturated_fat": 8,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Entrées",
+      "items": [
+        {
+          "name": "Spicy Deluxe Sandwich",
+          "calories": 540,
+          "protein": 34,
+          "fat": 26,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1880,
+          "cholesterol": 85,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Deluxe Sandwich w/ Pepper Jack",
+          "calories": 540,
+          "protein": 34,
+          "fat": 26,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1880,
+          "cholesterol": 85,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Deluxe Sandwich w/ American",
+          "calories": 510,
+          "protein": 31,
+          "fat": 23,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1970,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Deluxe Sandwich w/ Colby Jack",
+          "calories": 540,
+          "protein": 34,
+          "fat": 26,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1880,
+          "cholesterol": 85,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Deluxe Sandwich w/ No Cheese",
+          "calories": 460,
+          "protein": 28,
+          "fat": 19,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 1730,
+          "cholesterol": 65,
+          "saturated_fat": 4,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A Chick-n-Strips®",
+          "calories": 310,
+          "protein": 29,
+          "fat": 14,
+          "carbs": 16,
+          "sodium": 870,
+          "cholesterol": 75,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "2 ct Chick-fil-A Chick-n-Strips®",
+          "calories": 200,
+          "protein": 19,
+          "fat": 9,
+          "carbs": 11,
+          "sodium": 580,
+          "cholesterol": 50,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "3 ct Chick-fil-A Chick-n-Strips®",
+          "calories": 310,
+          "protein": 29,
+          "fat": 14,
+          "carbs": 16,
+          "sodium": 870,
+          "cholesterol": 75,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "4 ct Chick-fil-A Chick-n-Strips®",
+          "calories": 410,
+          "protein": 39,
+          "fat": 19,
+          "carbs": 22,
+          "sodium": 1150,
+          "cholesterol": 100,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "10 ct Chick-fil-A Chick-n-Strips®",
+          "calories": 1020,
+          "protein": 96,
+          "fat": 46,
+          "carbs": 54,
+          "sodium": 2870,
+          "cholesterol": 250,
+          "saturated_fat": 9,
+          "sugars": 6
+        },
+        {
+          "name": "Chick-fil-A® Nuggets",
+          "calories": 250,
+          "protein": 27,
+          "fat": 11,
+          "carbs": 11,
+          "sodium": 1210,
+          "cholesterol": 85,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "8 ct Chick-fil-A® Nuggets",
+          "calories": 250,
+          "protein": 27,
+          "fat": 11,
+          "carbs": 11,
+          "sodium": 1210,
+          "cholesterol": 85,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "12 ct Chick-fil-A® Nuggets",
+          "calories": 380,
+          "protein": 40,
+          "fat": 17,
+          "carbs": 16,
+          "sodium": 1820,
+          "cholesterol": 125,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "30 ct Chick-fil-A® Nuggets",
+          "calories": 950,
+          "protein": 100,
+          "fat": 43,
+          "carbs": 41,
+          "sodium": 4550,
+          "cholesterol": 315,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Grilled Nuggets",
+          "calories": 130,
+          "protein": 25,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 440,
+          "cholesterol": 85,
+          "sugars": 1
+        },
+        {
+          "name": "8 ct Grilled Nuggets",
+          "calories": 130,
+          "protein": 25,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 440,
+          "cholesterol": 85,
+          "sugars": 1
+        },
+        {
+          "name": "12 ct Grilled Nuggets",
+          "calories": 200,
+          "protein": 38,
+          "fat": 4,
+          "carbs": 2,
+          "sodium": 660,
+          "cholesterol": 130,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "30 ct Grilled Nuggets",
+          "calories": 510,
+          "protein": 98,
+          "fat": 11,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 1710,
+          "cholesterol": 335,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Chick-fil-A® Deluxe Sandwich",
+          "calories": 490,
+          "protein": 32,
+          "fat": 22,
+          "carbs": 43,
+          "fiber": 1,
+          "sodium": 1700,
+          "cholesterol": 85,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A® Deluxe Sandwich w/ American",
+          "calories": 490,
+          "protein": 32,
+          "fat": 22,
+          "carbs": 43,
+          "fiber": 1,
+          "sodium": 1700,
+          "cholesterol": 85,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A® Deluxe Sandwich w/ Colby Jack",
+          "calories": 510,
+          "protein": 34,
+          "fat": 24,
+          "carbs": 43,
+          "fiber": 1,
+          "sodium": 1610,
+          "cholesterol": 90,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A® Deluxe Sandwich w/ Pepper Jack",
+          "calories": 520,
+          "protein": 35,
+          "fat": 24,
+          "carbs": 43,
+          "fiber": 1,
+          "sodium": 1610,
+          "cholesterol": 90,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Chick-fil-A® Deluxe Sandwich w/ No Cheese",
+          "calories": 430,
+          "protein": 29,
+          "fat": 18,
+          "carbs": 43,
+          "fiber": 1,
+          "sodium": 1470,
+          "cholesterol": 70,
+          "saturated_fat": 3,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Chicken Sandwich",
+          "calories": 450,
+          "protein": 28,
+          "fat": 19,
+          "carbs": 45,
+          "fiber": 1,
+          "sodium": 1730,
+          "cholesterol": 65,
+          "saturated_fat": 4,
+          "sugars": 6
+        },
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 390,
+          "protein": 28,
+          "fat": 11,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 765,
+          "cholesterol": 75,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Chick-fil-A® Grilled Chicken Club Sandwich",
+          "calories": 520,
+          "protein": 37,
+          "fat": 22,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 1055,
+          "cholesterol": 105,
+          "saturated_fat": 8,
+          "sugars": 12
+        },
+        {
+          "name": "Grilled Chicken Club w/ Colby Jack",
+          "calories": 520,
+          "protein": 37,
+          "fat": 22,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 1055,
+          "cholesterol": 105,
+          "saturated_fat": 8,
+          "sugars": 12
+        },
+        {
+          "name": "Grilled Chicken Club w/ American",
+          "calories": 490,
+          "protein": 34,
+          "fat": 19,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 1145,
+          "cholesterol": 100,
+          "saturated_fat": 6,
+          "sugars": 12
+        },
+        {
+          "name": "Grilled Chicken Club w/ Pepper Jack",
+          "calories": 520,
+          "protein": 37,
+          "fat": 22,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 1045,
+          "cholesterol": 105,
+          "saturated_fat": 8,
+          "sugars": 12
+        },
+        {
+          "name": "Grilled Chicken Club w/ No Cheese",
+          "calories": 440,
+          "protein": 31,
+          "fat": 15,
+          "carbs": 45,
+          "fiber": 3,
+          "sodium": 905,
+          "cholesterol": 85,
+          "saturated_fat": 4,
+          "sugars": 11
+        },
+        {
+          "name": "Chick-fil-A Cool Wrap®",
+          "calories": 660,
+          "protein": 43,
+          "fat": 45,
+          "carbs": 32,
+          "fiber": 14,
+          "sodium": 1420,
+          "cholesterol": 110,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Chick-fil-A® Chicken Sandwich",
+          "calories": 420,
+          "protein": 29,
+          "fat": 18,
+          "carbs": 41,
+          "fiber": 1,
+          "sodium": 1460,
+          "cholesterol": 70,
+          "saturated_fat": 3,
+          "sugars": 6
+        },
+        {
+          "name": "Honey Pepper Pimento Sandwich w/ Chick-fil-A® Filet",
+          "calories": 600,
+          "protein": 34,
+          "fat": 30,
+          "carbs": 53,
+          "fiber": 1,
+          "sodium": 1680,
+          "cholesterol": 100,
+          "saturated_fat": 9,
+          "sugars": 16
+        },
+        {
+          "name": "Honey Pepper Pimento Sandwich w/ Spicy Filet",
+          "calories": 620,
+          "protein": 33,
+          "fat": 31,
+          "carbs": 56,
+          "fiber": 2,
+          "sodium": 1950,
+          "cholesterol": 95,
+          "saturated_fat": 9,
+          "sugars": 16
+        },
+        {
+          "name": "Honey Pepper Pimento Sandwich w/ Grilled Filet",
+          "calories": 450,
+          "protein": 30,
+          "fat": 20,
+          "carbs": 42,
+          "fiber": 1,
+          "sodium": 940,
+          "cholesterol": 100,
+          "saturated_fat": 7,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Cobb Salad",
+          "calories": 830,
+          "protein": 42,
+          "fat": 60,
+          "carbs": 31,
+          "fiber": 5,
+          "sodium": 2220,
+          "cholesterol": 230,
+          "saturated_fat": 13,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ Nuggets",
+          "calories": 830,
+          "protein": 42,
+          "fat": 60,
+          "carbs": 31,
+          "fiber": 5,
+          "sodium": 2220,
+          "cholesterol": 230,
+          "saturated_fat": 13,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ Spicy Grilled Filet (Cold)",
+          "calories": 690,
+          "protein": 34,
+          "fat": 51,
+          "carbs": 23,
+          "fiber": 6,
+          "sodium": 1740,
+          "cholesterol": 210,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ Grilled Nuggets",
+          "calories": 710,
+          "protein": 40,
+          "fat": 52,
+          "carbs": 22,
+          "fiber": 6,
+          "sodium": 1450,
+          "cholesterol": 230,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ Chick-fil-A Chick-n-Strips®",
+          "calories": 890,
+          "protein": 44,
+          "fat": 63,
+          "carbs": 37,
+          "fiber": 5,
+          "sodium": 1880,
+          "cholesterol": 220,
+          "saturated_fat": 13,
+          "sugars": 9
+        },
+        {
+          "name": "Cobb Salad w/ Grilled Filet (Cold)",
+          "calories": 690,
+          "protein": 36,
+          "fat": 50,
+          "carbs": 22,
+          "fiber": 5,
+          "sodium": 1390,
+          "cholesterol": 220,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ Grilled Filet (Warm)",
+          "calories": 690,
+          "protein": 36,
+          "fat": 50,
+          "carbs": 22,
+          "fiber": 5,
+          "sodium": 1380,
+          "cholesterol": 215,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Salad w/ No Chicken",
+          "calories": 580,
+          "protein": 15,
+          "fat": 49,
+          "carbs": 21,
+          "fiber": 5,
+          "sodium": 1010,
+          "cholesterol": 145,
+          "saturated_fat": 11,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad",
+          "calories": 680,
+          "protein": 33,
+          "fat": 49,
+          "carbs": 27,
+          "fiber": 7,
+          "sodium": 1570,
+          "cholesterol": 100,
+          "saturated_fat": 10,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Spicy Grilled Filet (Cold)",
+          "calories": 680,
+          "protein": 33,
+          "fat": 49,
+          "carbs": 27,
+          "fiber": 7,
+          "sodium": 1570,
+          "cholesterol": 100,
+          "saturated_fat": 10,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Grilled Filet (Cold)",
+          "calories": 680,
+          "protein": 35,
+          "fat": 48,
+          "carbs": 26,
+          "fiber": 7,
+          "sodium": 1220,
+          "cholesterol": 110,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Nuggets",
+          "calories": 800,
+          "protein": 39,
+          "fat": 56,
+          "carbs": 35,
+          "fiber": 7,
+          "sodium": 2050,
+          "cholesterol": 120,
+          "saturated_fat": 11,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Grilled Nuggets",
+          "calories": 700,
+          "protein": 39,
+          "fat": 49,
+          "carbs": 26,
+          "fiber": 7,
+          "sodium": 1290,
+          "cholesterol": 125,
+          "saturated_fat": 10,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Chick-fil-A Chick-n-Strips®",
+          "calories": 880,
+          "protein": 43,
+          "fat": 60,
+          "carbs": 41,
+          "fiber": 7,
+          "sodium": 1710,
+          "cholesterol": 115,
+          "saturated_fat": 12,
+          "sugars": 8
+        },
+        {
+          "name": "Spicy Southwest Salad w/ Grilled Filet (Warm)",
+          "calories": 680,
+          "protein": 35,
+          "fat": 48,
+          "carbs": 26,
+          "fiber": 7,
+          "sodium": 1220,
+          "cholesterol": 110,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Southwest Salad w/ No Chicken",
+          "calories": 570,
+          "protein": 14,
+          "fat": 47,
+          "carbs": 25,
+          "fiber": 7,
+          "sodium": 850,
+          "cholesterol": 35,
+          "saturated_fat": 9,
+          "sugars": 6
+        },
+        {
+          "name": "Market Salad",
+          "calories": 550,
+          "protein": 28,
+          "fat": 31,
+          "carbs": 42,
+          "fiber": 5,
+          "sodium": 1010,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 26
+        },
+        {
+          "name": "Market Salad w/ Grilled Filet (Cold)",
+          "calories": 550,
+          "protein": 28,
+          "fat": 31,
+          "carbs": 42,
+          "fiber": 5,
+          "sodium": 1010,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 26
+        },
+        {
+          "name": "Market Salad w/ Spicy Grilled Filet (Cold)",
+          "calories": 540,
+          "protein": 26,
+          "fat": 31,
+          "carbs": 42,
+          "fiber": 6,
+          "sodium": 1360,
+          "cholesterol": 70,
+          "saturated_fat": 6,
+          "sugars": 27
+        },
+        {
+          "name": "Market Salad w/ Chick-fil-A Chick-n-Strips®",
+          "calories": 750,
+          "protein": 36,
+          "fat": 43,
+          "carbs": 57,
+          "fiber": 5,
+          "sodium": 1500,
+          "cholesterol": 85,
+          "saturated_fat": 8,
+          "sugars": 27
+        },
+        {
+          "name": "Market Salad w/ Nuggets",
+          "calories": 700,
+          "protein": 34,
+          "fat": 40,
+          "carbs": 51,
+          "fiber": 5,
+          "sodium": 1850,
+          "cholesterol": 90,
+          "saturated_fat": 8,
+          "sugars": 27
+        },
+        {
+          "name": "Market Salad w/ Grilled Nuggets",
+          "calories": 570,
+          "protein": 32,
+          "fat": 32,
+          "carbs": 41,
+          "fiber": 6,
+          "sodium": 1080,
+          "cholesterol": 95,
+          "saturated_fat": 6,
+          "sugars": 27
+        },
+        {
+          "name": "Market Salad w/ Grilled Filet (Warm)",
+          "calories": 550,
+          "protein": 28,
+          "fat": 31,
+          "carbs": 42,
+          "fiber": 5,
+          "sodium": 1010,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 26
+        },
+        {
+          "name": "Market Salad w/ No Chicken",
+          "calories": 440,
+          "protein": 7,
+          "fat": 29,
+          "carbs": 40,
+          "fiber": 5,
+          "sodium": 640,
+          "cholesterol": 10,
+          "saturated_fat": 5,
+          "sugars": 26
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Kale Crunch Side",
+          "calories": 170,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 13,
+          "fiber": 4,
+          "sodium": 250,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Chick-fil-A Waffle Potato Fries®",
+          "calories": 420,
+          "protein": 5,
+          "fat": 24,
+          "carbs": 45,
+          "fiber": 5,
+          "sodium": 240,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Small Chick-fil-A Waffle Potato Fries®",
+          "calories": 320,
+          "protein": 4,
+          "fat": 19,
+          "carbs": 35,
+          "fiber": 4,
+          "sodium": 190,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Medium Chick-fil-A Waffle Potato Fries®",
+          "calories": 420,
+          "protein": 5,
+          "fat": 24,
+          "carbs": 45,
+          "fiber": 5,
+          "sodium": 240,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Large Chick-fil-A Waffle Potato Fries®",
+          "calories": 600,
+          "protein": 7,
+          "fat": 35,
+          "carbs": 65,
+          "fiber": 7,
+          "sodium": 340,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Berry Parfait",
+          "calories": 270,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 26
+        },
+        {
+          "name": "Berry Parfait w/ Cookie Crumbs",
+          "calories": 240,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 25
+        },
+        {
+          "name": "Berry Parfait w/ Granola",
+          "calories": 270,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 26
+        },
+        {
+          "name": "Fruit Cup",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 16,
+          "fiber": 2,
+          "sugars": 12
+        },
+        {
+          "name": "Small Fruit Cup",
+          "calories": 60,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 14,
+          "fiber": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Medium Fruit Cup",
+          "calories": 70,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 16,
+          "fiber": 2,
+          "sugars": 12
+        },
+        {
+          "name": "Large Fruit Cup",
+          "calories": 120,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 28,
+          "fiber": 4,
+          "sugars": 21
+        },
+        {
+          "name": "Mac & Cheese",
+          "calories": 450,
+          "protein": 20,
+          "fat": 29,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 1190,
+          "cholesterol": 70,
+          "saturated_fat": 16,
+          "sugars": 3
+        },
+        {
+          "name": "Small Mac & Cheese",
+          "calories": 270,
+          "protein": 12,
+          "fat": 17,
+          "carbs": 17,
+          "fiber": 2,
+          "sodium": 710,
+          "cholesterol": 40,
+          "saturated_fat": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Medium Mac & Cheese",
+          "calories": 450,
+          "protein": 20,
+          "fat": 29,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 1190,
+          "cholesterol": 70,
+          "saturated_fat": 16,
+          "sugars": 3
+        },
+        {
+          "name": "Chicken Noodle Soup",
+          "calories": 190,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 27,
+          "fiber": 2,
+          "sodium": 1290,
+          "cholesterol": 30,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Cup of Chicken Noodle Soup",
+          "calories": 190,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 27,
+          "fiber": 2,
+          "sodium": 1290,
+          "cholesterol": 30,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Bowl of Chicken Noodle Soup",
+          "calories": 320,
+          "protein": 20,
+          "fat": 8,
+          "carbs": 42,
+          "fiber": 3,
+          "sodium": 2280,
+          "cholesterol": 60,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Side Salad",
+          "calories": 470,
+          "protein": 6,
+          "fat": 42,
+          "carbs": 14,
+          "fiber": 4,
+          "sodium": 700,
+          "cholesterol": 35,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Chicken Tortilla Soup",
+          "calories": 280,
+          "protein": 24,
+          "fat": 7,
+          "carbs": 31,
+          "fiber": 17,
+          "sodium": 1060,
+          "cholesterol": 50,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Original Flavor Waffle Potato Chips",
+          "calories": 220,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 25,
+          "fiber": 2,
+          "sodium": 250,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Buddy Fruits® Apple Sauce",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "fiber": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Chick-fil-A® Sauce Flavored Waffle Potato Chips",
+          "calories": 210,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 330,
+          "saturated_fat": 3,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Treats",
+      "items": [
+        {
+          "name": "Peach Frosted Lemonade",
+          "calories": 440,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 91,
+          "fiber": 1,
+          "sodium": 210,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 88
+        },
+        {
+          "name": "Peach Frosted Lemonade w/ Diet Lemonade",
+          "calories": 440,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 91,
+          "fiber": 1,
+          "sodium": 210,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 88
+        },
+        {
+          "name": "Pineapple Dragonfruit Frosted Lemonade",
+          "calories": 360,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 70,
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 63
+        },
+        {
+          "name": "Pineapple Dragonfruit Frosted Lemonade w/ Diet Lemonade",
+          "calories": 300,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 54,
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 48
+        },
+        {
+          "name": "Chocolate Chunk Cookie",
+          "calories": 370,
+          "protein": 5,
+          "fat": 17,
+          "carbs": 49,
+          "fiber": 3,
+          "sodium": 230,
+          "cholesterol": 15,
+          "saturated_fat": 9,
+          "sugars": 26
+        },
+        {
+          "name": "6 pack Chocolate Chunk Cookie",
+          "calories": 370,
+          "protein": 5,
+          "fat": 17,
+          "carbs": 49,
+          "fiber": 3,
+          "sodium": 230,
+          "cholesterol": 15,
+          "saturated_fat": 9,
+          "sugars": 26
+        },
+        {
+          "name": "Chocolate Fudge Brownie",
+          "calories": 370,
+          "protein": 4,
+          "fat": 21,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 140,
+          "cholesterol": 65,
+          "saturated_fat": 8,
+          "sugars": 35
+        },
+        {
+          "name": "Frosted Lemonade",
+          "calories": 350,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 67,
+          "sodium": 135,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 65
+        },
+        {
+          "name": "Frosted Lemonade w/ Diet Lemonade",
+          "calories": 280,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 50,
+          "sodium": 140,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 48
+        },
+        {
+          "name": "Frosted Coffee",
+          "calories": 260,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 45,
+          "sodium": 140,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 44
+        },
+        {
+          "name": "Frosted Sodas",
+          "calories": 320,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 60,
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 59
+        },
+        {
+          "name": "Peach Milkshake",
+          "calories": 600,
+          "protein": 11,
+          "fat": 18,
+          "carbs": 101,
+          "fiber": 1,
+          "sodium": 360,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 98
+        },
+        {
+          "name": "Cookies & Cream Milkshake",
+          "calories": 630,
+          "protein": 13,
+          "fat": 25,
+          "carbs": 91,
+          "fiber": 1,
+          "sodium": 430,
+          "cholesterol": 85,
+          "saturated_fat": 15,
+          "sugars": 84,
+          "trans_fat": 1
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "calories": 600,
+          "protein": 12,
+          "fat": 22,
+          "carbs": 93,
+          "fiber": 1,
+          "sodium": 350,
+          "cholesterol": 85,
+          "saturated_fat": 14,
+          "sugars": 90,
+          "trans_fat": 1
+        },
+        {
+          "name": "Strawberry Milkshake",
+          "calories": 560,
+          "protein": 10,
+          "fat": 18,
+          "carbs": 92,
+          "fiber": 1,
+          "sodium": 370,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 87
+        },
+        {
+          "name": "Vanilla Milkshake",
+          "calories": 580,
+          "protein": 13,
+          "fat": 23,
+          "carbs": 82,
+          "fiber": 1,
+          "sodium": 390,
+          "cholesterol": 90,
+          "saturated_fat": 15,
+          "sugars": 80,
+          "trans_fat": 1
+        },
+        {
+          "name": "Chick-fil-A® Icedream® Cone",
+          "calories": 180,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 32,
+          "sodium": 90,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 25
+        },
+        {
+          "name": "Chick-fil-A® Icedream® Cup",
+          "calories": 140,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 24,
+          "sodium": 75,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 24
+        },
+        {
+          "name": "Dr Pepper® Float",
+          "calories": 320,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 60,
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 59
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Freshly-Brewed Sweetened Iced Tea",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sugars": 30
+        },
+        {
+          "name": "Small Freshly-Brewed Sweetened Iced Tea",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 22,
+          "sugars": 22
+        },
+        {
+          "name": "Medium Freshly-Brewed Sweetened Iced Tea",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sugars": 30
+        },
+        {
+          "name": "Large Freshly-Brewed Sweetened Iced Tea",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sugars": 44
+        },
+        {
+          "name": "Freshly-Brewed Unsweetened Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Small Freshly-Brewed Unsweetened Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Medium Freshly-Brewed Unsweetened Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Large Freshly-Brewed Unsweetened Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chick-fil-A® Lemonade",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "sugars": 60
+        },
+        {
+          "name": "Small Chick-fil-A® Lemonade",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49,
+          "sugars": 45
+        },
+        {
+          "name": "Medium Chick-fil-A® Lemonade",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "sugars": 60
+        },
+        {
+          "name": "Large Chick-fil-A® Lemonade",
+          "calories": 380,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 98,
+          "fiber": 1,
+          "sugars": 90
+        },
+        {
+          "name": "Chick-fil-A® Diet Lemonade",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 10,
+          "sugars": 11
+        },
+        {
+          "name": "Small Chick-fil-A® Diet Lemonade",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "sodium": 10,
+          "sugars": 8
+        },
+        {
+          "name": "Medium Chick-fil-A® Diet Lemonade",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 10,
+          "sugars": 11
+        },
+        {
+          "name": "Large Chick-fil-A® Diet Lemonade",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 23,
+          "sodium": 15,
+          "sugars": 17
+        },
+        {
+          "name": "Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sugars": 57
+        },
+        {
+          "name": "Small Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sugars": 43
+        },
+        {
+          "name": "Medium Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sugars": 57
+        },
+        {
+          "name": "Large Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 91,
+          "sugars": 85
+        },
+        {
+          "name": "Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "sodium": 5,
+          "sugars": 26
+        },
+        {
+          "name": "Small Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 20,
+          "sodium": 5,
+          "sugars": 18
+        },
+        {
+          "name": "Medium Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "sodium": 5,
+          "sugars": 26
+        },
+        {
+          "name": "Large Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sodium": 10,
+          "sugars": 36
+        },
+        {
+          "name": "Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sugars": 38
+        },
+        {
+          "name": "Small Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sugars": 30
+        },
+        {
+          "name": "Medium Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sugars": 38
+        },
+        {
+          "name": "Large Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "sugars": 60
+        },
+        {
+          "name": "Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Small Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 5,
+          "sugars": 6
+        },
+        {
+          "name": "Medium Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Large Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15,
+          "sodium": 10,
+          "sugars": 11
+        },
+        {
+          "name": "Iced Coffee",
+          "calories": 200,
+          "protein": 7,
+          "fat": 4,
+          "carbs": 34,
+          "sodium": 115,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 34
+        },
+        {
+          "name": "Vanilla Iced Coffee",
+          "calories": 200,
+          "protein": 7,
+          "fat": 4,
+          "carbs": 35,
+          "sodium": 115,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 33
+        },
+        {
+          "name": "Coca-Cola®",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 45,
+          "sugars": 46
+        },
+        {
+          "name": "Small Coca-Cola®",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "sodium": 35,
+          "sugars": 35
+        },
+        {
+          "name": "Medium Coca-Cola®",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 45,
+          "sugars": 46
+        },
+        {
+          "name": "Large Coca-Cola®",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 65,
+          "sugars": 68
+        },
+        {
+          "name": "Dr Pepper®",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 50,
+          "sugars": 44
+        },
+        {
+          "name": "Small Dr Pepper®",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 40,
+          "sugars": 34
+        },
+        {
+          "name": "Medium Dr Pepper®",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 50,
+          "sugars": 44
+        },
+        {
+          "name": "Large Dr Pepper®",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 64,
+          "sodium": 75,
+          "sugars": 64
+        },
+        {
+          "name": "Hot Coffee",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 10
+        },
+        {
+          "name": "Gallon Beverages",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49,
+          "sugars": 45
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Lemonade",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 53,
+          "sodium": 10,
+          "sugars": 44
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 10,
+          "sugars": 38
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Sweet Tea",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "sodium": 10,
+          "sugars": 33
+        },
+        {
+          "name": "Gallon Chick-fil-A® Lemonade",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49,
+          "sugars": 45
+        },
+        {
+          "name": "Gallon Chick-fil-A® Diet Lemonade",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "sodium": 10,
+          "sugars": 8
+        },
+        {
+          "name": "Gallon Chick-fil-A® Lemonade (1/2 Lemonade, 1/2 Diet Lemonade)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sugars": 30
+        },
+        {
+          "name": "Gallon Freshly-Brewed Iced Tea Sweetened",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sugars": 33
+        },
+        {
+          "name": "Gallon Freshly-Brewed Iced Tea Unsweetened",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Gallon Chick-fil-A® Iced Tea (1/2 Sweet Tea, 1/2 Unsweet Tea)",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 18,
+          "sugars": 18
+        },
+        {
+          "name": "Gallon Sunjoy® (1/2 Sweet Tea, 1/2 Lemonade)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sugars": 39
+        },
+        {
+          "name": "Gallon Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 23,
+          "sugars": 21
+        },
+        {
+          "name": "Gallon Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "sugars": 24
+        },
+        {
+          "name": "Gallon Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Bag of Ice",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Diet Lemonade",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 16,
+          "sodium": 20,
+          "sugars": 8
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Unsweet Tea",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "sodium": 10
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Sunjoy® (1/2 Sweet Tea, 1/2 Diet Lemonade)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "sodium": 15,
+          "sugars": 22
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Sunjoy® (1/2 Unsweet Tea, 1/2 Lemonade)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "sodium": 10,
+          "sugars": 20
+        },
+        {
+          "name": "Gallon Pineapple Dragonfruit Sunjoy® (1/2 Unsweet Tea, 1/2 Diet Lemonade)",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 15,
+          "sugars": 4
+        },
+        {
+          "name": "Seasonal Gallon Beverages",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 53,
+          "sodium": 10,
+          "sugars": 44
+        },
+        {
+          "name": "Pineapple Dragonfruit Sunjoy® (Sweet Tea, Lemonade)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 15,
+          "sugars": 50
+        },
+        {
+          "name": "Pineapple Dragonfruit Sunjoy® (Sweet Tea, Diet Lemonade)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 20,
+          "sugars": 25
+        },
+        {
+          "name": "Pineapple Dragonfruit Sunjoy® (Unsweet Tea, Lemonade)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 15,
+          "sugars": 30
+        },
+        {
+          "name": "Pineapple Dragonfruit Sunjoy® (Unsweet Tea, Diet Lemonade)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 14,
+          "sodium": 20,
+          "sugars": 6
+        },
+        {
+          "name": "Pineapple Dragonfruit Sweet Tea",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "sodium": 15,
+          "sugars": 31
+        },
+        {
+          "name": "Pineapple Dragonfruit Unsweet Tea",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "sodium": 15
+        },
+        {
+          "name": "Pineapple Dragonfruit Lemonade",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "sodium": 15,
+          "sugars": 60
+        },
+        {
+          "name": "Pineapple Dragonfruit Diet Lemonade",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 21,
+          "sodium": 25,
+          "sugars": 10
+        },
+        {
+          "name": "DASANI® Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Honest Kids® Apple Juice",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "sodium": 15,
+          "sugars": 8
+        },
+        {
+          "name": "Simply Orange®",
+          "calories": 160,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 10,
+          "sugars": 30
+        },
+        {
+          "name": "1% Chocolate Milk",
+          "calories": 140,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 23,
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 21
+        },
+        {
+          "name": "1% Milk",
+          "calories": 90,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 10,
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 10
+        },
+        {
+          "name": "Pineapple Dragonfruit & Sprite®",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 50,
+          "sodium": 100,
+          "sugars": 43
+        }
+      ]
+    },
+    {
+      "name": "Dipping Sauces",
+      "items": [
+        {
+          "name": "Barbeque Sauce",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 200,
+          "sugars": 9
+        },
+        {
+          "name": "Chick-fil-A® Sauce",
+          "calories": 140,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 6,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Garden Herb Ranch Sauce",
+          "calories": 100,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 1,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Honey Mustard Sauce",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 160,
+          "sugars": 10
+        },
+        {
+          "name": "Polynesian Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 14,
+          "sodium": 210,
+          "saturated_fat": 1,
+          "sugars": 13
+        },
+        {
+          "name": "Sweet & Spicy Sriracha Sauce",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 380,
+          "sugars": 10
+        },
+        {
+          "name": "Zesty Buffalo Sauce",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 570,
+          "cholesterol": 5
+        },
+        {
+          "name": "Honey Roasted BBQ Sauce",
+          "calories": 60,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 3,
+          "sodium": 75,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Dressings",
+      "items": [
+        {
+          "name": "Avocado Lime Ranch Dressing",
+          "calories": 310,
+          "protein": 1,
+          "fat": 32,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 520,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Creamy Salsa Dressing",
+          "calories": 290,
+          "protein": 1,
+          "fat": 31,
+          "carbs": 2,
+          "sodium": 630,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Fat-Free Honey Mustard Dressing",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 330,
+          "sugars": 18
+        },
+        {
+          "name": "Garden Herb Ranch Dressing",
+          "calories": 280,
+          "protein": 1,
+          "fat": 29,
+          "carbs": 2,
+          "sodium": 440,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Light Balsamic Vinaigrette Dressing",
+          "calories": 80,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 10,
+          "sodium": 360,
+          "sugars": 9
+        },
+        {
+          "name": "Light Italian Dressing",
+          "calories": 25,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 3,
+          "sodium": 470,
+          "sugars": 2
+        },
+        {
+          "name": "Zesty Apple Cider Vinaigrette Dressing",
+          "calories": 230,
+          "protein": 0,
+          "fat": 19,
+          "carbs": 16,
+          "sodium": 450,
+          "saturated_fat": 3,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Buns",
+      "items": [
+        {
+          "name": "Gluten Free Bun",
+          "calories": 180,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 400,
+          "sugars": 7
+        },
+        {
+          "name": "Buttery White Bun",
+          "calories": 180,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 29,
+          "fiber": 1,
+          "sodium": 240,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Multigrain Brioche Bun",
+          "calories": 210,
+          "protein": 7,
+          "fat": 4,
+          "carbs": 38,
+          "fiber": 3,
+          "sodium": 310,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "White Bun (Unbuttered)",
+          "calories": 150,
+          "protein": 5,
+          "fat": 1,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 240,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Grilled Breakfast Filet",
+          "calories": 60,
+          "protein": 13,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 420,
+          "cholesterol": 40
+        },
+        {
+          "name": "Chick-fil-A® Breakfast Filet",
+          "calories": 160,
+          "protein": 15,
+          "fat": 8,
+          "carbs": 8,
+          "sodium": 750,
+          "cholesterol": 45,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Spicy Breakfast Filet",
+          "calories": 150,
+          "protein": 15,
+          "fat": 7,
+          "carbs": 7,
+          "fiber": 1,
+          "sodium": 810,
+          "cholesterol": 40,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Grilled Filet",
+          "calories": 110,
+          "protein": 21,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 370,
+          "cholesterol": 70,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Filet",
+          "calories": 280,
+          "protein": 23,
+          "fat": 13,
+          "carbs": 16,
+          "fiber": 1,
+          "sodium": 1390,
+          "cholesterol": 65,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Chick-fil-A® Filet",
+          "calories": 250,
+          "protein": 24,
+          "fat": 12,
+          "carbs": 12,
+          "sodium": 1120,
+          "cholesterol": 70,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 50,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 210,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Sausage",
+          "calories": 240,
+          "protein": 11,
+          "fat": 22,
+          "carbs": 1,
+          "sodium": 430,
+          "cholesterol": 35,
+          "saturated_fat": 8
+        }
+      ]
+    },
+    {
+      "name": "Salad Toppings",
+      "items": [
+        {
+          "name": "Roasted Nut Blend",
+          "calories": 70,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Harvest Nut Granola",
+          "calories": 70,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 10,
+          "sodium": 35,
+          "sugars": 4
+        },
+        {
+          "name": "Seasoned Tortilla Strips",
+          "calories": 70,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 55
+        },
+        {
+          "name": "Blue Cheese Crumbles",
+          "calories": 30,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 110,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Crispy Bell Peppers",
+          "calories": 80,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 6,
+          "sodium": 75
+        },
+        {
+          "name": "Chili Lime Pepitas",
+          "calories": 80,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 50,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandwich Toppings",
+      "items": [
+        {
+          "name": "American Cheese",
+          "calories": 50,
+          "protein": 3,
+          "fat": 4,
+          "carbs": 1,
+          "sodium": 230,
+          "cholesterol": 15,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Colby Jack Cheese",
+          "calories": 80,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 140,
+          "cholesterol": 20,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Pepper Jack Cheese",
+          "calories": 80,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 0,
+          "sodium": 140,
+          "cholesterol": 20,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Bacon",
+          "calories": 50,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 210,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tomato",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Lettuce",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        }
+      ]
+    },
+    {
+      "name": "Soup Toppings",
+      "items": [
+        {
+          "name": "Saltines",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 9,
+          "sodium": 180
+        }
+      ]
+    }
+  ]
+}

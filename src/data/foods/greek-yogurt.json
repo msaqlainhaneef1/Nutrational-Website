@@ -1,0 +1,29 @@
+{
+  "name": "Greek Yogurt",
+  "slug": "greek-yogurt",
+  "description": "Thick, strained yogurt with a tangy flavor. The straining process removes much of the whey and lactose, concentrating the protein. A popular breakfast and snack food, especially among athletes.",
+  "category": "Dairy",
+  "servingSize": "100g",
+  "calories": 59,
+  "macros": {
+    "protein": { "value": 10.0, "unit": "g", "pctDailyValue": 20 },
+    "fat": { "value": 0.4, "unit": "g", "pctDailyValue": 1 },
+    "carbs": { "value": 3.6, "unit": "g", "pctDailyValue": 1 },
+    "sugar": { "value": 3.2, "unit": "g", "pctDailyValue": 6 }
+  },
+  "micros": {
+    "sodium": { "value": 36, "unit": "mg", "pctDailyValue": 2 },
+    "potassium": { "value": 141, "unit": "mg", "pctDailyValue": 4 },
+    "calcium": { "value": 110, "unit": "mg", "pctDailyValue": 11 }
+  },
+  "faqs": [
+    {
+      "q": "Why is Greek yogurt higher in protein than regular yogurt?",
+      "a": "Greek yogurt is strained to remove much of the liquid whey, which concentrates the remaining protein. A typical serving of nonfat Greek yogurt has about twice the protein of regular yogurt."
+    },
+    {
+      "q": "Is Greek yogurt good for gut health?",
+      "a": "Greek yogurt that carries a live and active cultures label contains probiotic bacteria that can support gut health. Note that the straining process does reduce the calcium content compared to regular yogurt."
+    }
+  ]
+}

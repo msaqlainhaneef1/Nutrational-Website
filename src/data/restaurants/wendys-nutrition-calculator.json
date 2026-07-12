@@ -1,56 +1,432 @@
 {
+  "name": "Wendy's",
   "slug": "wendys-nutrition-calculator",
-  "title": "🍔 Wendy's Nutrition Calculator",
+  "tagline": "Build your Wendy's order and calculate exact calories, protein, carbs and fat for burgers, chicken, nuggets...",
   "description": "Build your Wendy's order and calculate exact calories, protein, carbs and fat for burgers, chicken, nuggets, sides, salads and Frostys.",
+  "category": "Burgers",
+  "emoji": "🍔",
+  "itemCount": 37,
   "categories": [
-    {"name": "Hamburgers", "items": [
-      {"name": "Jr. Hamburger", "calories": 250, "protein": 13, "carbs": 25, "fat": 10, "fiber": 1, "sodium": 600, "cholesterol": 40, "saturated_fat": 4},
-      {"name": "Jr. Cheeseburger", "calories": 290, "protein": 15, "carbs": 26, "fat": 13, "fiber": 1, "sodium": 730, "cholesterol": 50, "saturated_fat": 6},
-      {"name": "Jr. Bacon Cheeseburger", "calories": 390, "protein": 20, "carbs": 26, "fat": 22, "fiber": 1, "sodium": 730, "cholesterol": 65, "saturated_fat": 8},
-      {"name": "Double Stack", "calories": 420, "protein": 27, "carbs": 26, "fat": 21, "fiber": 1, "sodium": 1060, "cholesterol": 90, "saturated_fat": 10},
-      {"name": "Dave's Single", "calories": 580, "protein": 30, "carbs": 42, "fat": 31, "fiber": 3, "sodium": 1220, "cholesterol": 100, "saturated_fat": 13},
-      {"name": "Dave's Double", "calories": 820, "protein": 48, "carbs": 42, "fat": 47, "fiber": 3, "sodium": 1510, "cholesterol": 170, "saturated_fat": 20},
-      {"name": "Dave's Triple", "calories": 1090, "protein": 69, "carbs": 43, "fat": 66, "fiber": 3, "sodium": 1990, "cholesterol": 255, "saturated_fat": 29},
-      {"name": "Baconator", "calories": 940, "protein": 57, "carbs": 41, "fat": 56, "fiber": 2, "sodium": 1890, "cholesterol": 205, "saturated_fat": 23},
-      {"name": "Son of Baconator", "calories": 670, "protein": 38, "carbs": 41, "fat": 37, "fiber": 2, "sodium": 1670, "cholesterol": 130, "saturated_fat": 15},
-      {"name": "Pretzel Baconator", "calories": 950, "protein": 56, "carbs": 47, "fat": 56, "fiber": 2, "sodium": 1900, "cholesterol": 200, "saturated_fat": 23}
-    ]},
-    {"name": "Chicken", "items": [
-      {"name": "Grilled Chicken Sandwich", "calories": 370, "protein": 34, "carbs": 43, "fat": 7, "fiber": 2, "sodium": 880, "cholesterol": 95, "saturated_fat": 2},
-      {"name": "Spicy Chicken Sandwich", "calories": 510, "protein": 29, "carbs": 55, "fat": 20, "fiber": 4, "sodium": 1130, "cholesterol": 65, "saturated_fat": 4},
-      {"name": "Homestyle Chicken Sandwich", "calories": 510, "protein": 29, "carbs": 54, "fat": 20, "fiber": 4, "sodium": 1200, "cholesterol": 70, "saturated_fat": 4},
-      {"name": "Classic Chicken Sandwich", "calories": 490, "protein": 28, "carbs": 49, "fat": 21, "fiber": 3, "sodium": 1120, "cholesterol": 60, "saturated_fat": 4},
-      {"name": "Asiago Ranch Chicken Club (Homestyle)", "calories": 670, "protein": 38, "carbs": 57, "fat": 32, "fiber": 4, "sodium": 1640, "cholesterol": 100, "saturated_fat": 9},
-      {"name": "Grilled Chicken Ranch Wrap", "calories": 420, "protein": 27, "carbs": 30, "fat": 22, "fiber": 2, "sodium": 900, "cholesterol": 75, "saturated_fat": 7},
-      {"name": "Spicy Chicken Nuggets (6 pc)", "calories": 280, "protein": 14, "carbs": 16, "fat": 18, "fiber": 1, "sodium": 600, "cholesterol": 40, "saturated_fat": 3},
-      {"name": "Crispy Chicken Nuggets (10 pc)", "calories": 450, "protein": 23, "carbs": 25, "fat": 29, "fiber": 1, "sodium": 920, "cholesterol": 65, "saturated_fat": 5}
-    ]},
-    {"name": "Salads & Chili", "items": [
-      {"name": "Apple Pecan Chicken Salad (Full)", "calories": 550, "protein": 35, "carbs": 27, "fat": 35, "fiber": 5, "sodium": 970, "cholesterol": 115, "saturated_fat": 11},
-      {"name": "Spicy Chicken Caesar Salad (Full)", "calories": 480, "protein": 35, "carbs": 24, "fat": 27, "fiber": 6, "sodium": 1030, "cholesterol": 90, "saturated_fat": 12},
-      {"name": "Chicken BLT Cobb Salad (Full)", "calories": 530, "protein": 44, "carbs": 11, "fat": 33, "fiber": 4, "sodium": 1190, "cholesterol": 260, "saturated_fat": 9},
-      {"name": "Small Chili", "calories": 240, "protein": 16, "carbs": 23, "fat": 9, "fiber": 6, "sodium": 880, "cholesterol": 40, "saturated_fat": 4},
-      {"name": "Large Chili", "calories": 360, "protein": 25, "carbs": 35, "fat": 13, "fiber": 9, "sodium": 1320, "cholesterol": 60, "saturated_fat": 6}
-    ]},
-    {"name": "Sides", "items": [
-      {"name": "Fries (Small)", "calories": 320, "protein": 4, "carbs": 45, "fat": 15, "fiber": 4, "sodium": 380},
-      {"name": "Fries (Medium)", "calories": 420, "protein": 5, "carbs": 58, "fat": 19, "fiber": 5, "sodium": 490},
-      {"name": "Fries (Large)", "calories": 550, "protein": 7, "carbs": 76, "fat": 25, "fiber": 7, "sodium": 640},
-      {"name": "Baconator Fries", "calories": 530, "protein": 16, "carbs": 50, "fat": 31, "fiber": 5, "sodium": 1240, "cholesterol": 45, "saturated_fat": 11},
-      {"name": "Plain Baked Potato", "calories": 270, "protein": 7, "carbs": 61, "fat": 0, "fiber": 7, "sodium": 25},
-      {"name": "Seasoned Potatoes", "calories": 320, "protein": 5, "carbs": 44, "fat": 14, "fiber": 5, "sodium": 730}
-    ]},
-    {"name": "Frosty & Desserts", "items": [
-      {"name": "Chocolate Frosty (Small)", "calories": 340, "protein": 8, "carbs": 56, "fat": 9, "fiber": 0, "sodium": 200, "sugars": 46},
-      {"name": "Vanilla Frosty (Small)", "calories": 340, "protein": 8, "carbs": 55, "fat": 9, "fiber": 0, "sodium": 180, "sugars": 47},
-      {"name": "Chocolate Frosty (Medium)", "calories": 470, "protein": 11, "carbs": 77, "fat": 12, "fiber": 0, "sodium": 270, "sugars": 63},
-      {"name": "Frosty-ccino", "calories": 290, "protein": 7, "carbs": 49, "fat": 8, "fiber": 0, "sodium": 160, "sugars": 41}
-    ]},
-    {"name": "Breakfast", "items": [
-      {"name": "Breakfast Baconator", "calories": 730, "protein": 35, "carbs": 39, "fat": 48, "fiber": 2, "sodium": 1560, "cholesterol": 280, "saturated_fat": 18},
-      {"name": "Sausage, Egg & Cheese Biscuit", "calories": 600, "protein": 21, "carbs": 41, "fat": 39, "fiber": 2, "sodium": 1280, "cholesterol": 195, "saturated_fat": 17},
-      {"name": "Honey Butter Chicken Biscuit", "calories": 500, "protein": 16, "carbs": 47, "fat": 28, "fiber": 2, "sodium": 1110, "cholesterol": 45, "saturated_fat": 12},
-      {"name": "Seasoned Potatoes (Breakfast)", "calories": 320, "protein": 5, "carbs": 44, "fat": 14, "fiber": 5, "sodium": 730}
-    ]}
+    {
+      "name": "Hamburgers",
+      "items": [
+        {
+          "name": "Jr. Hamburger",
+          "calories": 250,
+          "protein": 13,
+          "fat": 10,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 40,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Jr. Cheeseburger",
+          "calories": 290,
+          "protein": 15,
+          "fat": 13,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 730,
+          "cholesterol": 50,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Jr. Bacon Cheeseburger",
+          "calories": 390,
+          "protein": 20,
+          "fat": 22,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 730,
+          "cholesterol": 65,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Double Stack",
+          "calories": 420,
+          "protein": 27,
+          "fat": 21,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 1060,
+          "cholesterol": 90,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Dave's Single",
+          "calories": 580,
+          "protein": 30,
+          "fat": 31,
+          "carbs": 42,
+          "fiber": 3,
+          "sodium": 1220,
+          "cholesterol": 100,
+          "saturated_fat": 13
+        },
+        {
+          "name": "Dave's Double",
+          "calories": 820,
+          "protein": 48,
+          "fat": 47,
+          "carbs": 42,
+          "fiber": 3,
+          "sodium": 1510,
+          "cholesterol": 170,
+          "saturated_fat": 20
+        },
+        {
+          "name": "Dave's Triple",
+          "calories": 1090,
+          "protein": 69,
+          "fat": 66,
+          "carbs": 43,
+          "fiber": 3,
+          "sodium": 1990,
+          "cholesterol": 255,
+          "saturated_fat": 29
+        },
+        {
+          "name": "Baconator",
+          "calories": 940,
+          "protein": 57,
+          "fat": 56,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1890,
+          "cholesterol": 205,
+          "saturated_fat": 23
+        },
+        {
+          "name": "Son of Baconator",
+          "calories": 670,
+          "protein": 38,
+          "fat": 37,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1670,
+          "cholesterol": 130,
+          "saturated_fat": 15
+        },
+        {
+          "name": "Pretzel Baconator",
+          "calories": 950,
+          "protein": 56,
+          "fat": 56,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1900,
+          "cholesterol": 200,
+          "saturated_fat": 23
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 370,
+          "protein": 34,
+          "fat": 7,
+          "carbs": 43,
+          "fiber": 2,
+          "sodium": 880,
+          "cholesterol": 95,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Spicy Chicken Sandwich",
+          "calories": 510,
+          "protein": 29,
+          "fat": 20,
+          "carbs": 55,
+          "fiber": 4,
+          "sodium": 1130,
+          "cholesterol": 65,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Homestyle Chicken Sandwich",
+          "calories": 510,
+          "protein": 29,
+          "fat": 20,
+          "carbs": 54,
+          "fiber": 4,
+          "sodium": 1200,
+          "cholesterol": 70,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Classic Chicken Sandwich",
+          "calories": 490,
+          "protein": 28,
+          "fat": 21,
+          "carbs": 49,
+          "fiber": 3,
+          "sodium": 1120,
+          "cholesterol": 60,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Asiago Ranch Chicken Club (Homestyle)",
+          "calories": 670,
+          "protein": 38,
+          "fat": 32,
+          "carbs": 57,
+          "fiber": 4,
+          "sodium": 1640,
+          "cholesterol": 100,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Grilled Chicken Ranch Wrap",
+          "calories": 420,
+          "protein": 27,
+          "fat": 22,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 900,
+          "cholesterol": 75,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Spicy Chicken Nuggets (6 pc)",
+          "calories": 280,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 16,
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 40,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Crispy Chicken Nuggets (10 pc)",
+          "calories": 450,
+          "protein": 23,
+          "fat": 29,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 920,
+          "cholesterol": 65,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Salads & Chili",
+      "items": [
+        {
+          "name": "Apple Pecan Chicken Salad (Full)",
+          "calories": 550,
+          "protein": 35,
+          "fat": 35,
+          "carbs": 27,
+          "fiber": 5,
+          "sodium": 970,
+          "cholesterol": 115,
+          "saturated_fat": 11
+        },
+        {
+          "name": "Spicy Chicken Caesar Salad (Full)",
+          "calories": 480,
+          "protein": 35,
+          "fat": 27,
+          "carbs": 24,
+          "fiber": 6,
+          "sodium": 1030,
+          "cholesterol": 90,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Chicken BLT Cobb Salad (Full)",
+          "calories": 530,
+          "protein": 44,
+          "fat": 33,
+          "carbs": 11,
+          "fiber": 4,
+          "sodium": 1190,
+          "cholesterol": 260,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Small Chili",
+          "calories": 240,
+          "protein": 16,
+          "fat": 9,
+          "carbs": 23,
+          "fiber": 6,
+          "sodium": 880,
+          "cholesterol": 40,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Large Chili",
+          "calories": 360,
+          "protein": 25,
+          "fat": 13,
+          "carbs": 35,
+          "fiber": 9,
+          "sodium": 1320,
+          "cholesterol": 60,
+          "saturated_fat": 6
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Fries (Small)",
+          "calories": 320,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 45,
+          "fiber": 4,
+          "sodium": 380
+        },
+        {
+          "name": "Fries (Medium)",
+          "calories": 420,
+          "protein": 5,
+          "fat": 19,
+          "carbs": 58,
+          "fiber": 5,
+          "sodium": 490
+        },
+        {
+          "name": "Fries (Large)",
+          "calories": 550,
+          "protein": 7,
+          "fat": 25,
+          "carbs": 76,
+          "fiber": 7,
+          "sodium": 640
+        },
+        {
+          "name": "Baconator Fries",
+          "calories": 530,
+          "protein": 16,
+          "fat": 31,
+          "carbs": 50,
+          "fiber": 5,
+          "sodium": 1240,
+          "cholesterol": 45,
+          "saturated_fat": 11
+        },
+        {
+          "name": "Plain Baked Potato",
+          "calories": 270,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 61,
+          "fiber": 7,
+          "sodium": 25
+        },
+        {
+          "name": "Seasoned Potatoes",
+          "calories": 320,
+          "protein": 5,
+          "fat": 14,
+          "carbs": 44,
+          "fiber": 5,
+          "sodium": 730
+        }
+      ]
+    },
+    {
+      "name": "Frosty & Desserts",
+      "items": [
+        {
+          "name": "Chocolate Frosty (Small)",
+          "calories": 340,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 56,
+          "fiber": 0,
+          "sodium": 200,
+          "sugars": 46
+        },
+        {
+          "name": "Vanilla Frosty (Small)",
+          "calories": 340,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 55,
+          "fiber": 0,
+          "sodium": 180,
+          "sugars": 47
+        },
+        {
+          "name": "Chocolate Frosty (Medium)",
+          "calories": 470,
+          "protein": 11,
+          "fat": 12,
+          "carbs": 77,
+          "fiber": 0,
+          "sodium": 270,
+          "sugars": 63
+        },
+        {
+          "name": "Frosty-ccino",
+          "calories": 290,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 49,
+          "fiber": 0,
+          "sodium": 160,
+          "sugars": 41
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Breakfast Baconator",
+          "calories": 730,
+          "protein": 35,
+          "fat": 48,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 1560,
+          "cholesterol": 280,
+          "saturated_fat": 18
+        },
+        {
+          "name": "Sausage, Egg & Cheese Biscuit",
+          "calories": 600,
+          "protein": 21,
+          "fat": 39,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 1280,
+          "cholesterol": 195,
+          "saturated_fat": 17
+        },
+        {
+          "name": "Honey Butter Chicken Biscuit",
+          "calories": 500,
+          "protein": 16,
+          "fat": 28,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 1110,
+          "cholesterol": 45,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Seasoned Potatoes (Breakfast)",
+          "calories": 320,
+          "protein": 5,
+          "fat": 14,
+          "carbs": 44,
+          "fiber": 5,
+          "sodium": 730
+        }
+      ]
+    }
   ]
 }

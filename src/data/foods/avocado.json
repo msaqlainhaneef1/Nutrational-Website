@@ -1,0 +1,31 @@
+{
+  "name": "Avocado",
+  "slug": "avocado",
+  "description": "Creamy fruit botanically classified as a berry. Unlike most fruits, avocados are high in healthy monounsaturated fats and very low in sugar. The flesh is rich, savory, and versatile in both sweet and savory dishes.",
+  "category": "Fruits",
+  "servingSize": "100g",
+  "calories": 160,
+  "macros": {
+    "protein": { "value": 2.0, "unit": "g", "pctDailyValue": 4 },
+    "fat": { "value": 14.7, "unit": "g", "pctDailyValue": 23 },
+    "carbs": { "value": 8.5, "unit": "g", "pctDailyValue": 3 },
+    "fiber": { "value": 6.7, "unit": "g", "pctDailyValue": 27 },
+    "sugar": { "value": 0.7, "unit": "g", "pctDailyValue": 1 }
+  },
+  "micros": {
+    "sodium": { "value": 7, "unit": "mg", "pctDailyValue": 0 },
+    "potassium": { "value": 485, "unit": "mg", "pctDailyValue": 14 },
+    "vitaminC": { "value": 10, "unit": "mg", "pctDailyValue": 17 },
+    "calcium": { "value": 12, "unit": "mg", "pctDailyValue": 1 }
+  },
+  "faqs": [
+    {
+      "q": "Is avocado good for weight loss?",
+      "a": "Avocados are calorie dense but very satiating thanks to their fiber and fat content. Used in moderation they can support weight management by keeping you fuller for longer, but large daily portions can add up quickly."
+    },
+    {
+      "q": "Why is avocado so high in fat?",
+      "a": "Most of the fat in avocado is oleic acid, the same monounsaturated fat found in olive oil. This type of fat is associated with cardiovascular benefits when it replaces saturated fat in the diet."
+    }
+  ]
+}

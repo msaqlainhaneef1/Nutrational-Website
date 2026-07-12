@@ -1,32 +1,201 @@
 {
+  "name": "Via 313",
   "slug": "via-313-nutrition-calculator",
-  "title": "🍕 Via 313 Nutrition Calculator",
+  "tagline": "Build your Via 313 Detroit-style pizza order and calculate calories, protein, carbs and fat per slice for p...",
   "description": "Build your Via 313 Detroit-style pizza order and calculate calories, protein, carbs and fat per slice for pizzas, appetizers and salads.",
+  "category": "Pizza",
+  "emoji": "🍕",
+  "itemCount": 17,
   "categories": [
-    {"name": "Detroit-Style Pizzas (per slice)", "items": [
-      {"name": "The Detroiter (1 slice)", "calories": 380, "protein": 17, "carbs": 32, "fat": 20, "fiber": 2, "sodium": 820, "saturated_fat": 9},
-      {"name": "The Cadillac (1 slice)", "calories": 360, "protein": 16, "carbs": 31, "fat": 18, "fiber": 2, "sodium": 720, "saturated_fat": 8},
-      {"name": "The Lions (1 slice)", "calories": 420, "protein": 18, "carbs": 33, "fat": 24, "fiber": 2, "sodium": 940, "saturated_fat": 10},
-      {"name": "The Hellboy (1 slice)", "calories": 400, "protein": 17, "carbs": 33, "fat": 22, "fiber": 2, "sodium": 900, "saturated_fat": 9},
-      {"name": "Cheese (1 slice)", "calories": 330, "protein": 15, "carbs": 31, "fat": 16, "fiber": 2, "sodium": 640, "saturated_fat": 8},
-      {"name": "Vegetarian (1 slice)", "calories": 340, "protein": 14, "carbs": 34, "fat": 16, "fiber": 3, "sodium": 660, "saturated_fat": 7},
-      {"name": "The Niko (1 slice)", "calories": 390, "protein": 17, "carbs": 32, "fat": 21, "fiber": 2, "sodium": 860, "saturated_fat": 9},
-      {"name": "BBQ Chicken (1 slice)", "calories": 370, "protein": 18, "carbs": 36, "fat": 16, "fiber": 2, "sodium": 800, "saturated_fat": 7, "sugars": 6}
-    ]},
-    {"name": "Appetizers", "items": [
-      {"name": "Garlic Cheese Bread", "calories": 480, "protein": 18, "carbs": 52, "fat": 22, "fiber": 2, "sodium": 980, "saturated_fat": 10},
-      {"name": "Meatballs (3 pc)", "calories": 390, "protein": 22, "carbs": 14, "fat": 28, "fiber": 2, "sodium": 880, "cholesterol": 90, "saturated_fat": 11},
-      {"name": "Pepperoni Rolls (2 pc)", "calories": 420, "protein": 16, "carbs": 38, "fat": 23, "fiber": 2, "sodium": 1020, "saturated_fat": 9}
-    ]},
-    {"name": "Salads", "items": [
-      {"name": "House Salad", "calories": 220, "protein": 6, "carbs": 16, "fat": 15, "fiber": 3, "sodium": 380},
-      {"name": "Caesar Salad", "calories": 320, "protein": 9, "carbs": 18, "fat": 24, "fiber": 3, "sodium": 620, "saturated_fat": 5},
-      {"name": "Antipasto Salad", "calories": 420, "protein": 18, "carbs": 20, "fat": 30, "fiber": 4, "sodium": 1180, "saturated_fat": 9}
-    ]},
-    {"name": "Drinks & Dessert", "items": [
-      {"name": "Cannoli", "calories": 340, "protein": 7, "carbs": 38, "fat": 18, "fiber": 1, "sodium": 160, "sugars": 26},
-      {"name": "Fountain Soda (Regular)", "calories": 200, "protein": 0, "carbs": 54, "fat": 0, "fiber": 0, "sodium": 40, "sugars": 54},
-      {"name": "Iced Tea (Unsweet)", "calories": 5, "protein": 0, "carbs": 1, "fat": 0, "fiber": 0, "sodium": 10}
-    ]}
+    {
+      "name": "Detroit-Style Pizzas (per slice)",
+      "items": [
+        {
+          "name": "The Detroiter (1 slice)",
+          "calories": 380,
+          "protein": 17,
+          "fat": 20,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 820,
+          "saturated_fat": 9
+        },
+        {
+          "name": "The Cadillac (1 slice)",
+          "calories": 360,
+          "protein": 16,
+          "fat": 18,
+          "carbs": 31,
+          "fiber": 2,
+          "sodium": 720,
+          "saturated_fat": 8
+        },
+        {
+          "name": "The Lions (1 slice)",
+          "calories": 420,
+          "protein": 18,
+          "fat": 24,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 940,
+          "saturated_fat": 10
+        },
+        {
+          "name": "The Hellboy (1 slice)",
+          "calories": 400,
+          "protein": 17,
+          "fat": 22,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 900,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Cheese (1 slice)",
+          "calories": 330,
+          "protein": 15,
+          "fat": 16,
+          "carbs": 31,
+          "fiber": 2,
+          "sodium": 640,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Vegetarian (1 slice)",
+          "calories": 340,
+          "protein": 14,
+          "fat": 16,
+          "carbs": 34,
+          "fiber": 3,
+          "sodium": 660,
+          "saturated_fat": 7
+        },
+        {
+          "name": "The Niko (1 slice)",
+          "calories": 390,
+          "protein": 17,
+          "fat": 21,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 860,
+          "saturated_fat": 9
+        },
+        {
+          "name": "BBQ Chicken (1 slice)",
+          "calories": 370,
+          "protein": 18,
+          "fat": 16,
+          "carbs": 36,
+          "fiber": 2,
+          "sodium": 800,
+          "saturated_fat": 7,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Garlic Cheese Bread",
+          "calories": 480,
+          "protein": 18,
+          "fat": 22,
+          "carbs": 52,
+          "fiber": 2,
+          "sodium": 980,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Meatballs (3 pc)",
+          "calories": 390,
+          "protein": 22,
+          "fat": 28,
+          "carbs": 14,
+          "fiber": 2,
+          "sodium": 880,
+          "cholesterol": 90,
+          "saturated_fat": 11
+        },
+        {
+          "name": "Pepperoni Rolls (2 pc)",
+          "calories": 420,
+          "protein": 16,
+          "fat": 23,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1020,
+          "saturated_fat": 9
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "House Salad",
+          "calories": 220,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 16,
+          "fiber": 3,
+          "sodium": 380
+        },
+        {
+          "name": "Caesar Salad",
+          "calories": 320,
+          "protein": 9,
+          "fat": 24,
+          "carbs": 18,
+          "fiber": 3,
+          "sodium": 620,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Antipasto Salad",
+          "calories": 420,
+          "protein": 18,
+          "fat": 30,
+          "carbs": 20,
+          "fiber": 4,
+          "sodium": 1180,
+          "saturated_fat": 9
+        }
+      ]
+    },
+    {
+      "name": "Drinks & Dessert",
+      "items": [
+        {
+          "name": "Cannoli",
+          "calories": 340,
+          "protein": 7,
+          "fat": 18,
+          "carbs": 38,
+          "fiber": 1,
+          "sodium": 160,
+          "sugars": 26
+        },
+        {
+          "name": "Fountain Soda (Regular)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "fiber": 0,
+          "sodium": 40,
+          "sugars": 54
+        },
+        {
+          "name": "Iced Tea (Unsweet)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 10
+        }
+      ]
+    }
   ]
 }

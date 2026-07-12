@@ -1,0 +1,1068 @@
+{
+  "name": "First Watch",
+  "slug": "first-watch-nutrition-calculator",
+  "tagline": "Calculate First Watch calories, protein, carbs and fat. Free First Watch nutrition calculator with complete...",
+  "description": "Calculate First Watch calories, protein, carbs and fat. Free First Watch nutrition calculator with complete menu data for all items.",
+  "category": "Breakfast & Healthy",
+  "emoji": "🍽",
+  "itemCount": 86,
+  "categories": [
+    {
+      "name": "Seasonal",
+      "items": [
+        {
+          "name": "Classics",
+          "calories": 200,
+          "protein": 22,
+          "fat": 52,
+          "carbs": 95,
+          "fiber": 18,
+          "sodium": 1085,
+          "saturated_fat": 22,
+          "sugars": 48
+        },
+        {
+          "name": "Blueberry Lemon Cornbread",
+          "calories": 1040,
+          "protein": 15,
+          "fat": 56,
+          "carbs": 125,
+          "fiber": 4,
+          "sodium": 1030,
+          "cholesterol": 145,
+          "saturated_fat": 17,
+          "sugars": 66
+        },
+        {
+          "name": "Chimichurri Steak & Eggs Hash",
+          "calories": 1030,
+          "protein": 44,
+          "fat": 71,
+          "carbs": 51,
+          "fiber": 6,
+          "sodium": 2610,
+          "cholesterol": 515,
+          "saturated_fat": 22,
+          "sugars": 6
+        },
+        {
+          "name": "Million Dollar Bacon",
+          "calories": 250,
+          "protein": 7,
+          "fat": 15,
+          "carbs": 22,
+          "sodium": 380,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 21
+        },
+        {
+          "name": "Pineapple Express",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "sodium": 25,
+          "sugars": 43
+        },
+        {
+          "name": "Strawberry Tres Leches French Toast",
+          "calories": 750,
+          "protein": 21,
+          "fat": 25,
+          "carbs": 108,
+          "fiber": 3,
+          "sodium": 830,
+          "cholesterol": 400,
+          "saturated_fat": 11,
+          "sugars": 62
+        },
+        {
+          "name": "The B.E.C.",
+          "calories": 1260,
+          "protein": 42,
+          "fat": 90,
+          "carbs": 67,
+          "fiber": 5,
+          "sodium": 1970,
+          "cholesterol": 590,
+          "saturated_fat": 34,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Healthier Side",
+      "items": [
+        {
+          "name": "Avocado Toast",
+          "calories": 580,
+          "protein": 24,
+          "fat": 39,
+          "carbs": 38,
+          "fiber": 14,
+          "sodium": 1290,
+          "cholesterol": 425,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "Healthy Turkey",
+          "calories": 480,
+          "protein": 49,
+          "fat": 12,
+          "carbs": 47,
+          "fiber": 4,
+          "sodium": 1590,
+          "cholesterol": 50,
+          "saturated_fat": 4,
+          "sugars": 24
+        },
+        {
+          "name": "Power Wrap",
+          "calories": 500,
+          "protein": 37,
+          "fat": 11,
+          "carbs": 63,
+          "fiber": 5,
+          "sodium": 950,
+          "cholesterol": 25,
+          "saturated_fat": 3,
+          "sugars": 19
+        },
+        {
+          "name": "Steel-Cut Oatmeal",
+          "calories": 995,
+          "protein": 20,
+          "fat": 36,
+          "carbs": 155,
+          "fiber": 11,
+          "sodium": 405,
+          "cholesterol": 84,
+          "saturated_fat": 7,
+          "sugars": 73
+        },
+        {
+          "name": "Sunrise Granola Bowl",
+          "calories": 930,
+          "protein": 29,
+          "fat": 35,
+          "carbs": 123,
+          "fiber": 6,
+          "sodium": 460,
+          "cholesterol": 90,
+          "saturated_fat": 6,
+          "sugars": 78
+        },
+        {
+          "name": "Tri-Athlete®",
+          "calories": 450,
+          "protein": 31,
+          "fat": 8,
+          "carbs": 67,
+          "fiber": 7,
+          "sodium": 840,
+          "sugars": 41
+        }
+      ]
+    },
+    {
+      "name": "Omelets",
+      "items": [
+        {
+          "name": "Bacado® Omelet",
+          "calories": 1140,
+          "protein": 45,
+          "fat": 81,
+          "carbs": 53,
+          "fiber": 10,
+          "sodium": 1285,
+          "cholesterol": 835,
+          "saturated_fat": 29,
+          "sugars": 26
+        },
+        {
+          "name": "Chile Chorizo Omelet",
+          "calories": 1130,
+          "protein": 45,
+          "fat": 79,
+          "carbs": 56,
+          "fiber": 11,
+          "sodium": 1445,
+          "cholesterol": 835,
+          "saturated_fat": 28,
+          "sugars": 27
+        },
+        {
+          "name": "The Works Omelet",
+          "calories": 1120,
+          "protein": 48,
+          "fat": 78,
+          "carbs": 50,
+          "fiber": 6,
+          "sodium": 1455,
+          "cholesterol": 855,
+          "saturated_fat": 29,
+          "sugars": 26
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "Bacon & Egg",
+          "calories": 400,
+          "protein": 15,
+          "fat": 17,
+          "carbs": 47,
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 225,
+          "saturated_fat": 6,
+          "sugars": 17
+        },
+        {
+          "name": "Chocolate Chip Pancake",
+          "calories": 870,
+          "protein": 14,
+          "fat": 43,
+          "carbs": 105,
+          "fiber": 3,
+          "sodium": 1050,
+          "cholesterol": 145,
+          "saturated_fat": 19,
+          "sugars": 67
+        },
+        {
+          "name": "Granola Bowl",
+          "calories": 520,
+          "protein": 19,
+          "fat": 13,
+          "carbs": 81,
+          "fiber": 7,
+          "sodium": 360,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 30
+        },
+        {
+          "name": "Grilled Cheese",
+          "calories": 810,
+          "protein": 22,
+          "fat": 45,
+          "carbs": 75,
+          "fiber": 4,
+          "sodium": 1130,
+          "cholesterol": 50,
+          "saturated_fat": 19,
+          "sugars": 18
+        },
+        {
+          "name": "Half Waffle",
+          "calories": 520,
+          "protein": 5,
+          "fat": 22,
+          "carbs": 75,
+          "fiber": 2,
+          "sodium": 760,
+          "cholesterol": 35,
+          "saturated_fat": 9,
+          "sugars": 51
+        },
+        {
+          "name": "Steel-Cut Oatmeal (Kids)",
+          "calories": 300,
+          "protein": 14,
+          "fat": 9,
+          "carbs": 45,
+          "fiber": 6,
+          "sodium": 290,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 11
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Baja Turkey Burger",
+          "calories": 900,
+          "protein": 46,
+          "fat": 56,
+          "carbs": 60,
+          "fiber": 10,
+          "sodium": 1245,
+          "cholesterol": 105,
+          "saturated_fat": 17,
+          "sugars": 11
+        },
+        {
+          "name": "BLTE",
+          "calories": 1070,
+          "protein": 46,
+          "fat": 74,
+          "carbs": 58,
+          "fiber": 13,
+          "sodium": 1445,
+          "cholesterol": 505,
+          "saturated_fat": 21,
+          "sugars": 16
+        },
+        {
+          "name": "Ham and Gruyere Melt",
+          "calories": 890,
+          "protein": 44,
+          "fat": 53,
+          "carbs": 58,
+          "fiber": 5,
+          "sodium": 2375,
+          "cholesterol": 215,
+          "saturated_fat": 17,
+          "sugars": 15
+        },
+        {
+          "name": "Market Veggie",
+          "calories": 700,
+          "protein": 23,
+          "fat": 43,
+          "carbs": 57,
+          "fiber": 11,
+          "sodium": 1045,
+          "cholesterol": 25,
+          "saturated_fat": 9,
+          "sugars": 14
+        },
+        {
+          "name": "Monterey Club",
+          "calories": 1070,
+          "protein": 50,
+          "fat": 66,
+          "carbs": 72,
+          "fiber": 10,
+          "sodium": 2425,
+          "cholesterol": 125,
+          "saturated_fat": 18,
+          "sugars": 7
+        },
+        {
+          "name": "Roast Beef & Havarti",
+          "calories": 1120,
+          "protein": 47,
+          "fat": 68,
+          "carbs": 75,
+          "fiber": 6,
+          "sodium": 2745,
+          "cholesterol": 120,
+          "saturated_fat": 23,
+          "sugars": 12
+        },
+        {
+          "name": "Veggie Burger",
+          "calories": 800,
+          "protein": 27,
+          "fat": 40,
+          "carbs": 85,
+          "fiber": 13,
+          "sodium": 1485,
+          "cholesterol": 10,
+          "saturated_fat": 9,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "The Hits",
+      "items": [
+        {
+          "name": "Barbacoa Breakfast Tacos",
+          "calories": 1080,
+          "protein": 49,
+          "fat": 64,
+          "carbs": 70,
+          "fiber": 12,
+          "sodium": 2130,
+          "cholesterol": 535,
+          "saturated_fat": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Chickichanga®",
+          "calories": 1150,
+          "protein": 38,
+          "fat": 73,
+          "carbs": 81,
+          "fiber": 10,
+          "sodium": 3310,
+          "cholesterol": 365,
+          "saturated_fat": 27,
+          "sugars": 7
+        },
+        {
+          "name": "Elevated Egg Sandwich",
+          "calories": 1060,
+          "protein": 26,
+          "fat": 67,
+          "carbs": 88,
+          "fiber": 8,
+          "sodium": 2780,
+          "cholesterol": 255,
+          "saturated_fat": 17,
+          "sugars": 9
+        },
+        {
+          "name": "Farm Stand Breakfast Tacos",
+          "calories": 1000,
+          "protein": 52,
+          "fat": 54,
+          "carbs": 70,
+          "fiber": 13,
+          "sodium": 2290,
+          "cholesterol": 605,
+          "saturated_fat": 19,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Barbacoa Chilaquiles Breakfast Bowl",
+          "calories": 1290,
+          "protein": 52,
+          "fat": 79,
+          "carbs": 91,
+          "fiber": 14,
+          "sodium": 3300,
+          "cholesterol": 540,
+          "saturated_fat": 29,
+          "sugars": 8
+        },
+        {
+          "name": "Pesto Chicken Power Bowl",
+          "calories": 650,
+          "protein": 31,
+          "fat": 38,
+          "carbs": 52,
+          "fiber": 7,
+          "sodium": 1350,
+          "cholesterol": 90,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "Power Breakfast Bowl",
+          "calories": 860,
+          "protein": 33,
+          "fat": 63,
+          "carbs": 42,
+          "fiber": 5,
+          "sodium": 1340,
+          "cholesterol": 470,
+          "saturated_fat": 16,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Sweet Side",
+      "items": [
+        {
+          "name": "Belgian Waffle",
+          "calories": 590,
+          "protein": 2,
+          "fat": 20,
+          "carbs": 96,
+          "fiber": 2,
+          "sodium": 1000,
+          "cholesterol": 35,
+          "saturated_fat": 9,
+          "sugars": 55
+        },
+        {
+          "name": "Floridian French Toast",
+          "calories": 820,
+          "protein": 21,
+          "fat": 20,
+          "carbs": 142,
+          "fiber": 8,
+          "sodium": 580,
+          "cholesterol": 390,
+          "saturated_fat": 6,
+          "sugars": 85
+        },
+        {
+          "name": "French Toast",
+          "calories": 740,
+          "protein": 19,
+          "fat": 27,
+          "carbs": 103,
+          "fiber": 3,
+          "sodium": 650,
+          "cholesterol": 390,
+          "saturated_fat": 9,
+          "sugars": 63
+        },
+        {
+          "name": "Lemon Ricotta Pancakes",
+          "calories": 1250,
+          "protein": 23,
+          "fat": 53,
+          "carbs": 170,
+          "fiber": 5,
+          "sodium": 1630,
+          "cholesterol": 335,
+          "saturated_fat": 25,
+          "sugars": 92
+        },
+        {
+          "name": "Multigrain Pancake",
+          "calories": 670,
+          "protein": 10,
+          "fat": 29,
+          "carbs": 92,
+          "fiber": 2,
+          "sodium": 860,
+          "cholesterol": 130,
+          "saturated_fat": 12,
+          "sugars": 55
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Berry Lime Sparkler",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "sodium": 10,
+          "sugars": 11
+        },
+        {
+          "name": "Blood Orange Citrus Sparkler",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 10,
+          "sugars": 10
+        },
+        {
+          "name": "Cold Brew Coffee",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 10
+        },
+        {
+          "name": "Honey Caramel Crunch Iced Coffee",
+          "calories": 440,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 73,
+          "sodium": 270,
+          "cholesterol": 25,
+          "saturated_fat": 11,
+          "sugars": 70
+        },
+        {
+          "name": "Iced Coffee",
+          "calories": 210,
+          "protein": 9,
+          "fat": 6,
+          "carbs": 29,
+          "sodium": 130,
+          "cholesterol": 20,
+          "saturated_fat": 4,
+          "sugars": 28
+        },
+        {
+          "name": "Kale Tonic Juice",
+          "calories": 130,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 30,
+          "sugars": 20
+        },
+        {
+          "name": "Million Dollar Bloody Mary",
+          "calories": 220,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 11,
+          "sodium": 860,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Mimosa",
+          "calories": 260,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 38,
+          "sugars": 29
+        },
+        {
+          "name": "Mint Mocha Iced Coffee",
+          "calories": 370,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 130,
+          "cholesterol": 20,
+          "saturated_fat": 11,
+          "sugars": 50
+        },
+        {
+          "name": "Morning Meditation Juice",
+          "calories": 140,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 20,
+          "sugars": 30
+        },
+        {
+          "name": "OJ - Small",
+          "calories": 110,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 26,
+          "sugars": 21
+        },
+        {
+          "name": "Passion Fruit Mint Sparkler",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 13,
+          "sodium": 10,
+          "sugars": 12
+        },
+        {
+          "name": "Purple Haze",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 61,
+          "fiber": 1,
+          "sodium": 10,
+          "sugars": 54
+        },
+        {
+          "name": "Spiked Lavender Lemonade",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "sugars": 28
+        }
+      ]
+    },
+    {
+      "name": "Classics",
+      "items": [
+        {
+          "name": "Biscuits & Turkey Sausage Gravy with Eggs",
+          "calories": 950,
+          "protein": 25,
+          "fat": 49,
+          "carbs": 99,
+          "fiber": 6,
+          "sodium": 3260,
+          "cholesterol": 435,
+          "saturated_fat": 19,
+          "sugars": 8
+        },
+        {
+          "name": "The Traditional Breakfast",
+          "calories": 1000,
+          "protein": 30,
+          "fat": 59,
+          "carbs": 81,
+          "fiber": 8,
+          "sodium": 2630,
+          "cholesterol": 455,
+          "saturated_fat": 16,
+          "sugars": 23
+        },
+        {
+          "name": "Tri-Fecta",
+          "calories": 940,
+          "protein": 21,
+          "fat": 50,
+          "carbs": 97,
+          "fiber": 2,
+          "sodium": 1570,
+          "cholesterol": 490,
+          "saturated_fat": 20,
+          "sugars": 56
+        }
+      ]
+    },
+    {
+      "name": "Benedicts",
+      "items": [
+        {
+          "name": "BLT Benedict",
+          "calories": 640,
+          "protein": 24,
+          "fat": 42,
+          "carbs": 42,
+          "fiber": 6,
+          "sodium": 1065,
+          "cholesterol": 455,
+          "saturated_fat": 13,
+          "sugars": 6
+        },
+        {
+          "name": "Classic Benedict",
+          "calories": 660,
+          "protein": 42,
+          "fat": 35,
+          "carbs": 42,
+          "fiber": 4,
+          "sodium": 2035,
+          "cholesterol": 530,
+          "saturated_fat": 12,
+          "sugars": 9
+        },
+        {
+          "name": "Smoked Salmon Benedict",
+          "calories": 570,
+          "protein": 32,
+          "fat": 29,
+          "carbs": 43,
+          "fiber": 5,
+          "sodium": 1495,
+          "cholesterol": 455,
+          "saturated_fat": 9,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Broccoli Cheddar - Bowl",
+          "calories": 240,
+          "protein": 6,
+          "fat": 19,
+          "carbs": 10,
+          "sodium": 990,
+          "cholesterol": 60,
+          "saturated_fat": 11,
+          "sugars": 4,
+          "trans_fat": 1
+        },
+        {
+          "name": "Chicken & Wild Rice Soup - Bowl",
+          "calories": 160,
+          "protein": 6,
+          "fat": 5,
+          "carbs": 22,
+          "sodium": 750,
+          "cholesterol": 25,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken & Wild Rice Soup - Cup",
+          "calories": 120,
+          "protein": 5,
+          "fat": 4,
+          "carbs": 17,
+          "sodium": 560,
+          "cholesterol": 20,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Clam Chowder - Bowl",
+          "calories": 370,
+          "protein": 11,
+          "fat": 21,
+          "carbs": 32,
+          "fiber": 3,
+          "sodium": 1470,
+          "cholesterol": 75,
+          "saturated_fat": 12,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Wedding Soup - Bowl",
+          "calories": 130,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 1100,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Market Vegetable Soup - Bowl",
+          "calories": 100,
+          "protein": 3,
+          "fat": 2,
+          "carbs": 17,
+          "fiber": 3,
+          "sodium": 910,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Chicken Apple Sausage",
+          "calories": 180,
+          "protein": 16,
+          "fat": 12,
+          "carbs": 4,
+          "sodium": 560,
+          "cholesterol": 70,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Fresh Fruit Cup",
+          "calories": 80,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 21,
+          "fiber": 2,
+          "sugars": 16
+        },
+        {
+          "name": "Freshly Baked Blueberry Muffin",
+          "calories": 460,
+          "protein": 6,
+          "fat": 24,
+          "carbs": 54,
+          "sodium": 360,
+          "cholesterol": 80,
+          "saturated_fat": 4,
+          "sugars": 32
+        },
+        {
+          "name": "Hardwood Smoked Bacon",
+          "calories": 160,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 0,
+          "sodium": 370,
+          "cholesterol": 30,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Million Dollar Bacon",
+          "calories": 250,
+          "protein": 7,
+          "fat": 15,
+          "carbs": 22,
+          "sodium": 380,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 21
+        },
+        {
+          "name": "Million Dollar Potatoes",
+          "calories": 510,
+          "protein": 8,
+          "fat": 30,
+          "carbs": 49,
+          "fiber": 4,
+          "sodium": 1740,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Pork Sausage",
+          "calories": 460,
+          "protein": 12,
+          "fat": 46,
+          "carbs": 0,
+          "sodium": 680,
+          "cholesterol": 80,
+          "saturated_fat": 16
+        },
+        {
+          "name": "Smoked Ham",
+          "calories": 160,
+          "protein": 20,
+          "fat": 6,
+          "carbs": 3,
+          "sodium": 1060,
+          "cholesterol": 80,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Turkey Sausage",
+          "calories": 220,
+          "protein": 18,
+          "fat": 16,
+          "carbs": 0,
+          "sodium": 780,
+          "cholesterol": 80,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Two Cage-Free Eggs",
+          "calories": 190,
+          "protein": 13,
+          "fat": 15,
+          "carbs": 1,
+          "sodium": 200,
+          "cholesterol": 425,
+          "saturated_fat": 6,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Chicken Avocado Chop Salad",
+          "calories": 770,
+          "protein": 28,
+          "fat": 45,
+          "carbs": 68,
+          "fiber": 10,
+          "sodium": 1360,
+          "cholesterol": 70,
+          "saturated_fat": 9,
+          "sugars": 9
+        },
+        {
+          "name": "Cobb Salad",
+          "calories": 820,
+          "protein": 31,
+          "fat": 59,
+          "carbs": 43,
+          "fiber": 11,
+          "sodium": 1480,
+          "cholesterol": 285,
+          "saturated_fat": 16,
+          "sugars": 10
+        },
+        {
+          "name": "Kale & Berry Salad",
+          "calories": 940,
+          "protein": 30,
+          "fat": 66,
+          "carbs": 63,
+          "fiber": 12,
+          "sodium": 1290,
+          "cholesterol": 75,
+          "saturated_fat": 12,
+          "sugars": 13
+        },
+        {
+          "name": "Sweet Honey Pecan Salad",
+          "calories": 980,
+          "protein": 33,
+          "fat": 55,
+          "carbs": 91,
+          "fiber": 14,
+          "sodium": 1520,
+          "cholesterol": 85,
+          "saturated_fat": 11,
+          "sugars": 48
+        }
+      ]
+    },
+    {
+      "name": "Hashes",
+      "items": [
+        {
+          "name": "Farmhouse Hash",
+          "calories": 1250,
+          "protein": 37,
+          "fat": 80,
+          "carbs": 92,
+          "fiber": 13,
+          "sodium": 2890,
+          "cholesterol": 470,
+          "saturated_fat": 23,
+          "sugars": 25
+        },
+        {
+          "name": "Market Hash",
+          "calories": 1180,
+          "protein": 33,
+          "fat": 74,
+          "carbs": 87,
+          "fiber": 9,
+          "sodium": 2870,
+          "cholesterol": 460,
+          "saturated_fat": 24,
+          "sugars": 25
+        }
+      ]
+    },
+    {
+      "name": "Frittatas",
+      "items": [
+        {
+          "name": "Frittata Rustica",
+          "calories": 760,
+          "protein": 42,
+          "fat": 50,
+          "carbs": 38,
+          "fiber": 4,
+          "sodium": 1305,
+          "cholesterol": 810,
+          "saturated_fat": 18,
+          "sugars": 5
+        },
+        {
+          "name": "Smoked Salmon & Roasted Vegetable Frittata",
+          "calories": 710,
+          "protein": 39,
+          "fat": 46,
+          "carbs": 32,
+          "fiber": 4,
+          "sodium": 1365,
+          "cholesterol": 810,
+          "saturated_fat": 16,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Share",
+      "items": [
+        {
+          "name": "Holey Donuts",
+          "calories": 1000,
+          "protein": 9,
+          "fat": 51,
+          "carbs": 132,
+          "fiber": 7,
+          "sodium": 1120,
+          "cholesterol": 25,
+          "saturated_fat": 24,
+          "sugars": 82
+        }
+      ]
+    }
+  ]
+}

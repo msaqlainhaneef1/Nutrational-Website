@@ -1,0 +1,1183 @@
+{
+  "name": "Pancheros",
+  "slug": "pancheros-mexican-grill-nutrition-calculator",
+  "tagline": "Calculate Pancheros calories, protein, carbs and fat. Free Pancheros nutrition calculator with complete men...",
+  "description": "Calculate Pancheros calories, protein, carbs and fat. Free Pancheros nutrition calculator with complete menu data for all items.",
+  "category": "Sandwiches & Deli",
+  "emoji": "🍽",
+  "itemCount": 97,
+  "categories": [
+    {
+      "name": "Entrees",
+      "items": [
+        {
+          "name": "Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Burrito Bowl",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Tacos (2)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Quesadilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "items": [
+        {
+          "name": "Large Tortilla",
+          "calories": 350,
+          "protein": 9,
+          "fat": 9,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 620,
+          "saturated_fat": 2,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Small Tortilla",
+          "calories": 80,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 140
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Steak (2.8 oz)",
+          "servingSize": "2.8 oz",
+          "calories": 110,
+          "protein": 20,
+          "fat": 2.5,
+          "carbs": 1,
+          "sodium": 660,
+          "cholesterol": 55,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Chicken (2.8 oz)",
+          "servingSize": "2.8 oz",
+          "calories": 80,
+          "protein": 10,
+          "fat": 3,
+          "carbs": 8,
+          "sodium": 390,
+          "cholesterol": 30,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Carnitas (4 oz)",
+          "servingSize": "4 oz",
+          "calories": 170,
+          "protein": 24,
+          "fat": 8,
+          "carbs": 3,
+          "sodium": 480,
+          "cholesterol": 80,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Tofusada (2.6 oz)",
+          "servingSize": "2.6 oz",
+          "calories": 80,
+          "protein": 8,
+          "fat": 4,
+          "carbs": 4,
+          "sodium": 390,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Chile Lime Shrimp",
+          "calories": 112,
+          "protein": 27,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 40
+        }
+      ]
+    },
+    {
+      "name": "Rice & Beans",
+      "items": [
+        {
+          "name": "Cilantro Lime Rice",
+          "calories": 210,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 39,
+          "sodium": 800
+        },
+        {
+          "name": "Black Beans",
+          "calories": 60,
+          "protein": 8,
+          "fat": 0,
+          "carbs": 22,
+          "fiber": 13,
+          "sodium": 470,
+          "sugars": 1
+        },
+        {
+          "name": "Pinto Beans",
+          "calories": 60,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 20,
+          "fiber": 13,
+          "sodium": 470,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Shredded Cheese (2.3 oz)",
+          "servingSize": "2.3 oz",
+          "calories": 260,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 2,
+          "sodium": 420,
+          "cholesterol": 70,
+          "saturated_fat": 14
+        },
+        {
+          "name": "Queso (5 oz)",
+          "servingSize": "5 oz",
+          "calories": 390,
+          "protein": 22,
+          "fat": 31,
+          "carbs": 6,
+          "sodium": 1480,
+          "cholesterol": 105,
+          "saturated_fat": 21,
+          "sugars": 5
+        },
+        {
+          "name": "Guacamole (5.5 oz)",
+          "servingSize": "5.5 oz",
+          "calories": 190,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 13,
+          "fiber": 7,
+          "sodium": 680,
+          "sugars": 1
+        },
+        {
+          "name": "Sour Cream (1.4 oz)",
+          "servingSize": "1.4 oz",
+          "calories": 80,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 20,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Sautéed Veggies (3.4 oz)",
+          "servingSize": "3.4 oz",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 2,
+          "sodium": 5,
+          "sugars": 4
+        },
+        {
+          "name": "Jalapeños (1.1 oz)",
+          "servingSize": "1.1 oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Lettuce (4.3 oz)",
+          "servingSize": "4.3 oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chile Lime Vinaigrette",
+          "calories": 110,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 12,
+          "sodium": 135,
+          "saturated_fat": 1.5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Salsas",
+      "items": [
+        {
+          "name": "Mild Ancho Salsa (5.5 oz)",
+          "servingSize": "5.5 oz",
+          "calories": 45,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 9,
+          "fiber": 3,
+          "sodium": 640,
+          "sugars": 5
+        },
+        {
+          "name": "Medium Salsa Verde (5.08 oz)",
+          "servingSize": "5.08 oz",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 6,
+          "fiber": 2,
+          "sodium": 1500,
+          "sugars": 4
+        },
+        {
+          "name": "Hot Tomatillo Salsa (5.18 oz)",
+          "servingSize": "5.18 oz",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 330,
+          "sugars": 3
+        },
+        {
+          "name": "Roasted Corn Salsa (4.22 oz)",
+          "servingSize": "4.22 oz",
+          "calories": 180,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 27,
+          "fiber": 4,
+          "sodium": 300,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Pico de Gallo (4.6 oz)",
+          "servingSize": "4.6 oz",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 1,
+          "sodium": 200,
+          "sugars": 4
+        },
+        {
+          "name": "Flavolcano Hot Sauce",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 60
+        },
+        {
+          "name": "Greenade Hot Sauce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 90
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Blue Corn Chips",
+          "calories": 450,
+          "protein": 6,
+          "fat": 22,
+          "carbs": 61,
+          "fiber": 3,
+          "sodium": 350,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "Kidsadilla",
+          "calories": 410,
+          "protein": 21,
+          "fat": 25,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 70,
+          "saturated_fat": 15,
+          "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Coca-Cola",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "sodium": 40
+        },
+        {
+          "name": "Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 40
+        },
+        {
+          "name": "Sprite",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 64,
+          "sodium": 40
+        },
+        {
+          "name": "Coca-Cola Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 40
+        },
+        {
+          "name": "Gold Peak Unsweetened Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 40
+        },
+        {
+          "name": "Gold Peak Sweet Tea",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "sodium": 40
+        },
+        {
+          "name": "VitaminWater Power-C",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32
+        },
+        {
+          "name": "VitaminWater Zero XXX",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Simply Lemonade",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 40
+        },
+        {
+          "name": "Dasani Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Ingredient",
+      "items": [
+        {
+          "name": "Large Tortilla",
+          "calories": 350,
+          "protein": 9,
+          "fat": 9,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 630,
+          "cholesterol": 0,
+          "saturated_fat": 2,
+          "sugars": 0,
+          "trans_fat": 1.5
+        },
+        {
+          "name": "Small Tortilla",
+          "calories": 80,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 140,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Cilantro Lime Rice",
+          "calories": 210,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 39,
+          "fiber": 0,
+          "sodium": 800,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Black Beans",
+          "calories": 60,
+          "protein": 8,
+          "fat": 0,
+          "carbs": 22,
+          "fiber": 13,
+          "sodium": 470,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Pinto Beans",
+          "calories": 60,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 20,
+          "fiber": 13,
+          "sodium": 470,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Steak (Small)",
+          "calories": 50,
+          "protein": 10,
+          "fat": 1.5,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 330,
+          "cholesterol": 25,
+          "saturated_fat": 0.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Steak (Large)",
+          "calories": 110,
+          "protein": 20,
+          "fat": 2.5,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 660,
+          "cholesterol": 55,
+          "saturated_fat": 1,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chicken (Small)",
+          "calories": 40,
+          "protein": 5,
+          "fat": 1.5,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chicken (Large)",
+          "calories": 80,
+          "protein": 10,
+          "fat": 3,
+          "carbs": 8,
+          "fiber": 0,
+          "sodium": 390,
+          "cholesterol": 30,
+          "saturated_fat": 0.5,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Carnitas (Small)",
+          "calories": 90,
+          "protein": 12,
+          "fat": 4,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 240,
+          "cholesterol": 40,
+          "saturated_fat": 1.5,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Carnitas (Large)",
+          "calories": 170,
+          "protein": 24,
+          "fat": 8,
+          "carbs": 3,
+          "fiber": 0,
+          "sodium": 480,
+          "cholesterol": 80,
+          "saturated_fat": 2.5,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Veggies (Small)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Veggies (Large)",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 2,
+          "sodium": 5,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Shredded Cheese (Small)",
+          "calories": 70,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 110,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Shredded Cheese (Large)",
+          "calories": 260,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 420,
+          "cholesterol": 70,
+          "saturated_fat": 14,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Roasted Corn Salsa (Small)",
+          "calories": 70,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 11,
+          "fiber": 1,
+          "sodium": 115,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 3,
+          "trans_fat": 0
+        },
+        {
+          "name": "Roasted Corn Salsa (Large)",
+          "calories": 190,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 27,
+          "fiber": 4,
+          "sodium": 300,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 9,
+          "trans_fat": 0
+        },
+        {
+          "name": "Pico de Gallo (Small)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 65,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Pico de Gallo (Large)",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Mild Ancho Salsa (Small)",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 250,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Mild Ancho Salsa (Large)",
+          "calories": 45,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 9,
+          "fiber": 3,
+          "sodium": 640,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Medium Salsa Verde (Small)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 400,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Medium Salsa Verde (Large)",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 6,
+          "fiber": 2,
+          "sodium": 1500,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hot Tomatillo Salsa (Small)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Hot Tomatillo Salsa (Large)",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 330,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 3,
+          "trans_fat": 0
+        },
+        {
+          "name": "Lettuce (Small)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Lettuce (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Guacamole (Small)",
+          "calories": 70,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 5,
+          "fiber": 3,
+          "sodium": 260,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Guacamole (Large)",
+          "calories": 190,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 13,
+          "fiber": 7,
+          "sodium": 680,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Queso (Small)",
+          "calories": 190,
+          "protein": 8,
+          "fat": 12,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 570,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Queso (Large)",
+          "calories": 390,
+          "protein": 22,
+          "fat": 31,
+          "carbs": 6,
+          "fiber": 0,
+          "sodium": 1480,
+          "cholesterol": 105,
+          "saturated_fat": 21,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Sour Cream",
+          "calories": 80,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 20,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Jalapenos",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Cilantro Lime Vinaigrette",
+          "calories": 110,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 12,
+          "fiber": 0,
+          "sodium": 135,
+          "cholesterol": 0,
+          "saturated_fat": 1.5,
+          "sugars": 3,
+          "trans_fat": 0
+        },
+        {
+          "name": "Tofusada (Small)",
+          "calories": 40,
+          "protein": 4,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 0,
+          "sodium": 200,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Tofusada (Large)",
+          "calories": 80,
+          "protein": 8,
+          "fat": 4,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 390,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Entree",
+      "items": [
+        {
+          "name": "Chips",
+          "calories": 450,
+          "protein": 6,
+          "fat": 22,
+          "carbs": 61,
+          "fiber": 3,
+          "sodium": 350,
+          "cholesterol": 0,
+          "saturated_fat": 3,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Kidsadilla",
+          "calories": 410,
+          "protein": 21,
+          "fat": 25,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 70,
+          "saturated_fat": 15,
+          "sugars": 0,
+          "trans_fat": 0.5
+        },
+        {
+          "name": "Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Burrito Bowl",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Tacos (2)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Quesadilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Beverage",
+      "items": [
+        {
+          "name": "Bottled Coca-Cola",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "fiber": 0,
+          "sodium": 75,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 65,
+          "trans_fat": 0
+        },
+        {
+          "name": "Bottled Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 40,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Bottled Sprite",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 64,
+          "fiber": 0,
+          "sodium": 70,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 64,
+          "trans_fat": 0
+        },
+        {
+          "name": "Bottled Coca-Cola Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 40,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Gold Peak Unsweetened Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Gold Peak Sweet Tea",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "fiber": 0,
+          "sodium": 10,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 48,
+          "trans_fat": 0
+        },
+        {
+          "name": "VitaminWater Power-C",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 27,
+          "trans_fat": 0
+        },
+        {
+          "name": "VitaminWater Zero XXX",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Bottled Simply Lemonade",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "fiber": 0,
+          "sodium": 15,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 39,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Protein",
+      "items": [
+        {
+          "name": "Chili-Tamarind-Marinated Chicken",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Pan-Seared Shrimp",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 0,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "name": "Publix Deli",
+  "slug": "publix-deli-nutrition-calculator",
+  "tagline": "Calculate Publix Deli calories, protein, carbs and fat. Free Publix Deli nutrition calculator with complete...",
+  "description": "Calculate Publix Deli calories, protein, carbs and fat. Free Publix Deli nutrition calculator with complete menu data for all items.",
+  "category": "Sandwiches & Deli",
+  "emoji": "🍽",
+  "itemCount": 58,
+  "categories": [
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "White Sub Roll",
+          "calories": 480,
+          "protein": 16,
+          "fat": 5,
+          "carbs": 92,
+          "fiber": 4,
+          "sodium": 1040,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Whole Wheat Sub Roll",
+          "calories": 440,
+          "protein": 24,
+          "fat": 6,
+          "carbs": 70,
+          "fiber": 10,
+          "sodium": 500,
+          "saturated_fat": 1,
+          "sugars": 18
+        },
+        {
+          "name": "Italian 5 Grain Sub Roll",
+          "calories": 540,
+          "protein": 18,
+          "fat": 9,
+          "carbs": 98,
+          "fiber": 6,
+          "sodium": 880,
+          "saturated_fat": 1,
+          "sugars": 10
+        },
+        {
+          "name": "Flatbread",
+          "calories": 480,
+          "protein": 16,
+          "fat": 10,
+          "carbs": 80,
+          "fiber": 4,
+          "sodium": 940,
+          "saturated_fat": 2,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "White Wrap",
+          "calories": 270,
+          "protein": 7,
+          "fat": 5,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 620,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Whole Wheat Wrap",
+          "calories": 250,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 46,
+          "fiber": 4,
+          "sodium": 670,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Spinach Wrap",
+          "calories": 270,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 620,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tomato Wrap",
+          "calories": 270,
+          "protein": 7,
+          "fat": 5,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 620,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Gluten-Free White Wrap",
+          "calories": 240,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 50,
+          "sodium": 570,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Toufayan Keto Wrap",
+          "calories": 140,
+          "protein": 11,
+          "fat": 9,
+          "carbs": 24,
+          "fiber": 23,
+          "sodium": 450,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Meats",
+      "items": [
+        {
+          "name": "Chicken Tenders",
+          "calories": 940,
+          "protein": 92,
+          "fat": 40,
+          "carbs": 50,
+          "fiber": 4,
+          "sodium": 1760,
+          "cholesterol": 280,
+          "saturated_fat": 9,
+          "sugars": 1
+        },
+        {
+          "name": "Buffalo Chicken Tenders",
+          "calories": 1160,
+          "protein": 96,
+          "fat": 62,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 3720,
+          "cholesterol": 280,
+          "saturated_fat": 14,
+          "sugars": 4
+        },
+        {
+          "name": "Tavern Ham",
+          "calories": 110,
+          "protein": 17,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 690,
+          "cholesterol": 50,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Oven Roasted Turkey",
+          "calories": 80,
+          "protein": 17,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 830,
+          "cholesterol": 45
+        },
+        {
+          "name": "Top Round Roast Beef",
+          "calories": 120,
+          "protein": 20,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 430,
+          "cholesterol": 50,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Boar's Head Tavern Ham",
+          "calories": 90,
+          "protein": 15,
+          "fat": 2,
+          "carbs": 3,
+          "sodium": 820,
+          "cholesterol": 45,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Boar's Head Oven Roasted Turkey",
+          "calories": 90,
+          "protein": 19,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 550,
+          "cholesterol": 30,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Boar's Head Roast Beef",
+          "calories": 140,
+          "protein": 23,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 120,
+          "cholesterol": 55,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Boar's Head Maple Honey Turkey",
+          "calories": 110,
+          "protein": 21,
+          "fat": 1,
+          "carbs": 3,
+          "sodium": 730,
+          "cholesterol": 45,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Cheeses",
+      "items": [
+        {
+          "name": "Provolone Cheese",
+          "calories": 140,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 1,
+          "sodium": 360,
+          "cholesterol": 30,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Swiss Cheese",
+          "calories": 140,
+          "protein": 12,
+          "fat": 2,
+          "carbs": 2,
+          "sodium": 30,
+          "cholesterol": 40,
+          "saturated_fat": 7
+        },
+        {
+          "name": "White American Cheese",
+          "calories": 160,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 1,
+          "sodium": 540,
+          "cholesterol": 30,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Yellow American Cheese",
+          "calories": 160,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 1,
+          "sodium": 540,
+          "cholesterol": 30,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Cheddar Cheese",
+          "calories": 160,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 1,
+          "sodium": 280,
+          "cholesterol": 30,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Muenster Cheese",
+          "calories": 160,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 1,
+          "sodium": 270,
+          "cholesterol": 40,
+          "saturated_fat": 9
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Lettuce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Tomato",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Onions",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Condiments",
+      "items": [
+        {
+          "name": "Mayonnaise",
+          "calories": 440,
+          "protein": 1,
+          "fat": 46,
+          "carbs": 1,
+          "sodium": 300,
+          "cholesterol": 30,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Sub Dressing",
+          "calories": 400,
+          "protein": 1,
+          "fat": 44,
+          "carbs": 1,
+          "sodium": 200,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Honey Mustard",
+          "calories": 90,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 18,
+          "sodium": 260,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Subs",
+      "items": [
+        {
+          "name": "Chicken Tender Sub (Whole)",
+          "calories": 1690,
+          "protein": 123,
+          "fat": 57,
+          "carbs": 170,
+          "fiber": 10,
+          "sodium": 3200,
+          "cholesterol": 350,
+          "saturated_fat": 18,
+          "sugars": 10
+        },
+        {
+          "name": "Classic Italian Sub (Whole)",
+          "calories": 1110,
+          "protein": 63,
+          "fat": 49,
+          "carbs": 107,
+          "fiber": 6,
+          "sodium": 3500,
+          "cholesterol": 150,
+          "saturated_fat": 20,
+          "sugars": 10
+        },
+        {
+          "name": "The Ultimate Sub (Whole)",
+          "calories": 1330,
+          "protein": 68,
+          "fat": 68,
+          "carbs": 105,
+          "fiber": 6,
+          "sodium": 2800,
+          "cholesterol": 180,
+          "saturated_fat": 20,
+          "sugars": 10
+        },
+        {
+          "name": "Cuban Sandwich (Grab & Go)",
+          "calories": 570,
+          "protein": 34,
+          "fat": 26,
+          "carbs": 50,
+          "fiber": 2,
+          "sodium": 1400,
+          "cholesterol": 90,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "Publix Deli Ultimate Sub",
+          "calories": 1330,
+          "protein": 68,
+          "fat": 68,
+          "carbs": 105,
+          "fiber": 6,
+          "sodium": 3200,
+          "cholesterol": 150,
+          "saturated_fat": 20,
+          "sugars": 12,
+          "trans_fat": 0
+        },
+        {
+          "name": "Publix Chicken Tender Sub",
+          "calories": 1690,
+          "protein": 123,
+          "fat": 57,
+          "carbs": 170,
+          "fiber": 8,
+          "sodium": 4500,
+          "cholesterol": 250,
+          "saturated_fat": 15,
+          "sugars": 15,
+          "trans_fat": 0
+        },
+        {
+          "name": "Publix Deli Italian Sub",
+          "calories": 1110,
+          "protein": 63,
+          "fat": 49,
+          "carbs": 107,
+          "fiber": 6,
+          "sodium": 2800,
+          "cholesterol": 140,
+          "saturated_fat": 15,
+          "sugars": 10,
+          "trans_fat": 0
+        },
+        {
+          "name": "Publix Deli Spicy Brisket Sub",
+          "calories": 1500,
+          "protein": 90,
+          "fat": 80,
+          "carbs": 110,
+          "fiber": 5,
+          "sodium": 3500,
+          "cholesterol": 200,
+          "saturated_fat": 25,
+          "sugars": 20,
+          "trans_fat": 0
+        },
+        {
+          "name": "Publix Southern Style Brisket Sub",
+          "calories": 1450,
+          "protein": 85,
+          "fat": 75,
+          "carbs": 115,
+          "fiber": 5,
+          "sodium": 3200,
+          "cholesterol": 190,
+          "saturated_fat": 22,
+          "sugars": 25,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Hot Meals",
+      "items": [
+        {
+          "name": "Fried Chicken Wing (Plain)",
+          "calories": 240,
+          "protein": 16,
+          "fat": 16,
+          "carbs": 5,
+          "sodium": 620,
+          "cholesterol": 70,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Hot & Spicy Fried Chicken Wing",
+          "calories": 180,
+          "protein": 9.7,
+          "fat": 10.7,
+          "carbs": 5.4,
+          "fiber": 0.2,
+          "sodium": 156.8,
+          "cholesterol": 38.7,
+          "saturated_fat": 2.9
+        },
+        {
+          "name": "Rotisserie Chicken (Whole)",
+          "calories": 1240,
+          "protein": 154,
+          "fat": 69,
+          "carbs": 3,
+          "sodium": 2000,
+          "cholesterol": 450,
+          "saturated_fat": 20
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Tuna Salad",
+          "calories": 160,
+          "protein": 11,
+          "fat": 11,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 180,
+          "cholesterol": 30,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Salad",
+          "calories": 250,
+          "protein": 11,
+          "fat": 21,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 240,
+          "cholesterol": 45,
+          "saturated_fat": 4,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Deli Sweet Tea (20oz)",
+          "servingSize": "20 oz",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "sodium": 10,
+          "sugars": 52
+        },
+        {
+          "name": "Deli Tropical Lemonade (Bottle)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 53,
+          "sodium": 30,
+          "sugars": 50
+        }
+      ]
+    },
+    {
+      "name": "Components",
+      "items": [
+        {
+          "name": "White Sub Roll",
+          "calories": 480,
+          "protein": 16,
+          "fat": 5,
+          "carbs": 92,
+          "fiber": 4,
+          "sodium": 1040,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 4,
+          "trans_fat": 0
+        },
+        {
+          "name": "Whole Wheat Sub Roll",
+          "calories": 440,
+          "protein": 24,
+          "fat": 6,
+          "carbs": 70,
+          "fiber": 10,
+          "sodium": 500,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 18,
+          "trans_fat": 0
+        },
+        {
+          "name": "Italian 5-Grain Sub Roll",
+          "calories": 540,
+          "protein": 18,
+          "fat": 9,
+          "carbs": 98,
+          "fiber": 6,
+          "sodium": 880,
+          "cholesterol": 0,
+          "saturated_fat": 1,
+          "sugars": 10,
+          "trans_fat": 0
+        },
+        {
+          "name": "Flatbread",
+          "calories": 480,
+          "protein": 16,
+          "fat": 10,
+          "carbs": 80,
+          "fiber": 4,
+          "sodium": 940,
+          "cholesterol": 0,
+          "saturated_fat": 2,
+          "sugars": 6,
+          "trans_fat": 0
+        },
+        {
+          "name": "Boar's Head Ovengold Turkey",
+          "calories": 60,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 360,
+          "cholesterol": 20,
+          "saturated_fat": 0,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "Boar's Head Tavern Ham",
+          "calories": 60,
+          "protein": 10,
+          "fat": 1.5,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 540,
+          "cholesterol": 30,
+          "saturated_fat": 0.5,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Genoa Salami",
+          "calories": 220,
+          "protein": 11,
+          "fat": 19,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 910,
+          "cholesterol": 50,
+          "saturated_fat": 7,
+          "sugars": 0,
+          "trans_fat": 0
+        },
+        {
+          "name": "American Cheese (Yellow)",
+          "calories": 100,
+          "protein": 5,
+          "fat": 9,
+          "carbs": 1,
+          "fiber": 0,
+          "sodium": 350,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 1,
+          "trans_fat": 0
+        },
+        {
+          "name": "Provolone Cheese",
+          "calories": 100,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 0,
+          "fiber": 0,
+          "sodium": 250,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 0,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Publix Deli Sweetened Iced Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "fiber": 0,
+          "sodium": 32,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 32,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Bakery",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 160,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 21,
+          "fiber": 1,
+          "sodium": 120,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 12,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

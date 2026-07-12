@@ -1,0 +1,296 @@
+{
+  "name": "Sharky's Woodfired Mexican Grill",
+  "slug": "sharkys-woodfired-mexican-grill-nutrition-calculator",
+  "tagline": "Track calories and macros for Sharky's organic burritos, power plates, and tacos.",
+  "description": "Track calories and macros for Sharky's organic burritos, power plates, and tacos.",
+  "category": "Mexican & Bowls",
+  "emoji": "🌮",
+  "itemCount": 20,
+  "categories": [
+    {
+      "name": "Burritos",
+      "items": [
+        {
+          "name": "Fiesta Burrito",
+          "calories": 950,
+          "protein": 64,
+          "fat": 34,
+          "carbs": 84,
+          "fiber": 14,
+          "sodium": 2140,
+          "cholesterol": 145,
+          "saturated_fat": 16,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Sharky's Burrito",
+          "calories": 660,
+          "protein": 52,
+          "fat": 9,
+          "carbs": 78,
+          "fiber": 11,
+          "sodium": 1860,
+          "cholesterol": 80,
+          "saturated_fat": 2,
+          "sugars": 3,
+          "trans_fat": 0
+        },
+        {
+          "name": "Fajita Burrito",
+          "calories": 850,
+          "protein": 56,
+          "fat": 20,
+          "carbs": 101,
+          "fiber": 19,
+          "sodium": 2310,
+          "cholesterol": 80,
+          "saturated_fat": 4,
+          "sugars": 9,
+          "trans_fat": 0
+        },
+        {
+          "name": "Santa Fe Burrito",
+          "calories": 680,
+          "protein": 52,
+          "fat": 26,
+          "carbs": 46,
+          "fiber": 8,
+          "sodium": 1950,
+          "cholesterol": 120,
+          "saturated_fat": 11,
+          "sugars": 5,
+          "trans_fat": 0
+        },
+        {
+          "name": "Organic Bean & Cheese Burrito",
+          "calories": 730,
+          "protein": 35,
+          "fat": 21,
+          "carbs": 94,
+          "fiber": 17,
+          "sodium": 1530,
+          "cholesterol": 40,
+          "saturated_fat": 11,
+          "sugars": 3,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Fajita Bowl",
+          "calories": 920,
+          "protein": 52,
+          "fat": 26,
+          "carbs": 117,
+          "fiber": 17,
+          "sodium": 2730,
+          "cholesterol": 110,
+          "saturated_fat": 8,
+          "sugars": 11,
+          "trans_fat": 0
+        },
+        {
+          "name": "Power Bowl Salmon",
+          "calories": 430,
+          "protein": 50,
+          "fat": 21,
+          "carbs": 25,
+          "fiber": 17,
+          "sodium": 910,
+          "cholesterol": 0,
+          "saturated_fat": 0,
+          "sugars": 7,
+          "trans_fat": 0
+        },
+        {
+          "name": "Naked Chicken Fajita Bowl",
+          "calories": 540,
+          "protein": 47,
+          "fat": 10,
+          "carbs": 69,
+          "fiber": 13,
+          "sodium": 2000,
+          "cholesterol": 80,
+          "saturated_fat": 2,
+          "sugars": 10,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "BBQ Chicken Salad",
+          "calories": 640,
+          "protein": 39,
+          "fat": 26,
+          "carbs": 69,
+          "fiber": 11,
+          "sodium": 1330,
+          "cholesterol": 80,
+          "saturated_fat": 4,
+          "sugars": 37,
+          "trans_fat": 0
+        },
+        {
+          "name": "Numex Caesar Salad",
+          "calories": 480,
+          "protein": 31,
+          "fat": 30,
+          "carbs": 24,
+          "fiber": 6,
+          "sodium": 980,
+          "cholesterol": 55,
+          "saturated_fat": 7,
+          "sugars": 4,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Classics",
+      "items": [
+        {
+          "name": "Chicken Lettuce Wraps",
+          "calories": 400,
+          "protein": 37,
+          "fat": 15,
+          "carbs": 34,
+          "fiber": 9,
+          "sodium": 870,
+          "cholesterol": 80,
+          "saturated_fat": 3,
+          "sugars": 21,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chicken Taquitos",
+          "calories": 810,
+          "protein": 39,
+          "fat": 34,
+          "carbs": 82,
+          "fiber": 14,
+          "sodium": 1550,
+          "cholesterol": 35,
+          "saturated_fat": 10,
+          "sugars": 7,
+          "trans_fat": 0
+        },
+        {
+          "name": "Nachos Half",
+          "calories": 1290,
+          "protein": 70,
+          "fat": 54,
+          "carbs": 128,
+          "fiber": 21,
+          "sodium": 1960,
+          "cholesterol": 95,
+          "saturated_fat": 7,
+          "sugars": 8,
+          "trans_fat": 0
+        },
+        {
+          "name": "Full Nachos",
+          "calories": 2910,
+          "protein": 135,
+          "fat": 153,
+          "carbs": 243,
+          "fiber": 39,
+          "sodium": 2840,
+          "cholesterol": 320,
+          "saturated_fat": 45,
+          "sugars": 7,
+          "trans_fat": 1
+        },
+        {
+          "name": "Stacked Chicken Enchiladas",
+          "calories": 1000,
+          "protein": 67,
+          "fat": 30,
+          "carbs": 101,
+          "fiber": 14,
+          "sodium": 2630,
+          "cholesterol": 160,
+          "saturated_fat": 17,
+          "sugars": 9,
+          "trans_fat": 0
+        },
+        {
+          "name": "4 Cheese Pizza",
+          "calories": 1120,
+          "protein": 78,
+          "fat": 51,
+          "carbs": 84,
+          "fiber": 8,
+          "sodium": 2560,
+          "cholesterol": 200,
+          "saturated_fat": 28,
+          "sugars": 8,
+          "trans_fat": 0
+        },
+        {
+          "name": "Chipotle BBQ Chicken Pizza",
+          "calories": 1090,
+          "protein": 71,
+          "fat": 44,
+          "carbs": 95,
+          "fiber": 7,
+          "sodium": 2790,
+          "cholesterol": 175,
+          "saturated_fat": 22,
+          "sugars": 21,
+          "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Kid's Bowl",
+          "calories": 300,
+          "protein": 27,
+          "fat": 3.5,
+          "carbs": 41,
+          "fiber": 8,
+          "sodium": 920,
+          "cholesterol": 40,
+          "saturated_fat": 0.5,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Kid's Cheese Quesadilla",
+          "calories": 610,
+          "protein": 43,
+          "fat": 17,
+          "carbs": 63,
+          "fiber": 10,
+          "sodium": 1450,
+          "cholesterol": 80,
+          "saturated_fat": 9,
+          "sugars": 2,
+          "trans_fat": 0
+        },
+        {
+          "name": "Kid's Power Plate",
+          "calories": 180,
+          "protein": 25,
+          "fat": 6,
+          "carbs": 6,
+          "fiber": 3,
+          "sodium": 560,
+          "cholesterol": 65,
+          "saturated_fat": 1,
+          "sugars": 3,
+          "trans_fat": 0
+        }
+      ]
+    }
+  ]
+}

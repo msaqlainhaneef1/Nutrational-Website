@@ -1,58 +1,30 @@
 {
-  "name": "Prince Goût Chocolat au blé complet",
+  "name": "Oreo Cookies",
   "slug": "oreo-cookies",
-  "description": "BISCUITS FOURRÉS (35%) PARFUM CHOCOLAT",
-  "category": "snacks",
-  "servingSize": "20 g",
+  "description": "Classic chocolate sandwich cookies with a sweet cream filling. A recognizable treat that pairs with milk, coffee, or as a quick dessert. Nutrition data below is per 100 grams, which is roughly 10 cookies.",
+  "category": "Snacks",
+  "servingSize": "100g",
   "calories": 467,
   "macros": {
-    "protein": {
-      "value": 6.3,
-      "unit": "g",
-      "pctDailyValue": 13
-    },
-    "fat": {
-      "value": 17,
-      "unit": "g",
-      "pctDailyValue": 26
-    },
-    "carbs": {
-      "value": 69,
-      "unit": "g",
-      "pctDailyValue": 21
-    },
-    "fiber": {
-      "value": 4,
-      "unit": "g",
-      "pctDailyValue": 16
-    },
-    "sugar": {
-      "value": 32,
-      "unit": "g",
-      "pctDailyValue": 64
-    }
+    "protein": { "value": 6.3, "unit": "g", "pctDailyValue": 13 },
+    "fat": { "value": 17, "unit": "g", "pctDailyValue": 26 },
+    "carbs": { "value": 69, "unit": "g", "pctDailyValue": 21 },
+    "fiber": { "value": 4, "unit": "g", "pctDailyValue": 16 },
+    "sugar": { "value": 32, "unit": "g", "pctDailyValue": 64 }
   },
   "micros": {
-    "sodium": {
-      "value": 196,
-      "unit": "mg",
-      "pctDailyValue": 8
-    },
-    "potassium": {
-      "value": 0,
-      "unit": "mg",
-      "pctDailyValue": 0
-    },
-    "calcium": {
-      "value": 0,
-      "unit": "mg",
-      "pctDailyValue": 0
-    }
+    "sodium": { "value": 196, "unit": "mg", "pctDailyValue": 8 },
+    "potassium": { "value": 0, "unit": "mg", "pctDailyValue": 0 },
+    "calcium": { "value": 0, "unit": "mg", "pctDailyValue": 0 }
   },
   "faqs": [
     {
-      "q": "Is Prince Goût Chocolat au blé complet high in sugar?",
-      "a": "A 100g serving contains 32g of sugar, which contributes to its overall nutritional profile."
+      "q": "How many calories are in a single Oreo cookie?",
+      "a": "A single classic Oreo cookie weighs about 11 grams and contains roughly 53 calories. The 100 gram serving size listed above is equivalent to about 9 to 10 cookies."
+    },
+    {
+      "q": "Are Oreo cookies high in sugar?",
+      "a": "Yes. A 100 gram serving contains 32 grams of sugar, which is over 60 percent of the recommended daily limit. The sugar comes from both the cookie wafers and the cream filling."
     }
   ]
 }

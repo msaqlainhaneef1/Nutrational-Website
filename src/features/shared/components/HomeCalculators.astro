@@ -1,59 +1,90 @@
 ---
-import { Scale, Flame, Activity, ArrowRight } from '@lucide/astro';
+import { Scale, Flame, Activity, ArrowRight, Lock } from '@lucide/astro';
 
 const calculators = [
   {
-    name: "Body Mass Index (BMI)",
-    slug: "bmi",
-    desc: "Calculate your body fat percentage based on height and weight.",
+    name: 'BMI Calculator',
+    slug: 'bmi',
+    tagline: 'Body Mass Index',
+    desc: 'Quick weight category check based on height and weight. Returns BMI score, category, and healthy weight range.',
     icon: Scale,
-    color: "text-blue-400 bg-blue-500/10 border-blue-500/20 group-hover:border-blue-500/40 group-hover:bg-blue-500/20"
+    color: 'text-blue-400 bg-blue-500/10 border-blue-500/20',
+    accent: 'from-blue-500/20 to-blue-600/5'
   },
   {
-    name: "Basal Metabolic Rate (BMR)",
-    slug: "bmr",
-    desc: "Find out how many calories your body burns at complete rest.",
+    name: 'BMR Calculator',
+    slug: 'bmr',
+    tagline: 'Basal Metabolic Rate',
+    desc: 'Calories your body burns at complete rest, using the Mifflin-St Jeor equation. The foundation of any meal plan.',
     icon: Flame,
-    color: "text-amber-400 bg-amber-500/10 border-amber-500/20 group-hover:border-amber-500/40 group-hover:bg-amber-500/20"
+    color: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+    accent: 'from-amber-500/20 to-amber-600/5'
   },
   {
-    name: "Total Daily Energy Expenditure (TDEE)",
-    slug: "tdee",
-    desc: "Discover your daily maintenance calories based on activity levels.",
+    name: 'TDEE Calculator',
+    slug: 'tdee',
+    tagline: 'Total Daily Energy Expenditure',
+    desc: 'Daily maintenance calories based on activity level. Includes cut and bulk targets for goal-specific planning.',
     icon: Activity,
-    color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20 group-hover:border-emerald-500/40 group-hover:bg-emerald-500/20"
+    color: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
+    accent: 'from-emerald-500/20 to-emerald-600/5'
   }
 ];
 ---
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-  <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-display">Interactive Health Calculators</h2>
-    <p class="text-zinc-400 text-sm font-sans font-medium">
-      Compute standard metabolic values instantly to plan deficits, surpluses, or macro allocations.
-    </p>
-  </div>
+<section class="py-20 border-b border-zinc-900/80 bg-zinc-950/40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+      <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+        <span class="w-8 h-px bg-emerald-500/50"></span>
+        <span>Health calculators</span>
+        <span class="w-8 h-px bg-emerald-500/50"></span>
+      </div>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+        Know your numbers in seconds
+      </h2>
+      <p class="text-zinc-400 text-sm leading-relaxed">
+        Three clinical-grade calculators that run entirely in your browser. No data leaves your device,
+        no signup required, no annoying email gate.
+      </p>
+    </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-    {calculators.map((calc) => {
-      const Icon = calc.icon;
-      return (
-        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-7 border border-zinc-900/60 flex flex-col justify-between h-full group hover:border-emerald-500/20">
-          <div class="space-y-5">
-            <div class={`p-3.5 w-12 h-12 rounded-2xl border flex items-center justify-center transition-all duration-300 ${calc.color}`}>
-              <Icon class="h-5 w-5" />
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      {calculators.map((calc) => {
+        const Icon = calc.icon;
+        return (
+          <a
+            href={`/calculators/${calc.slug}`}
+            class="glass-card rounded-3xl p-6 flex flex-col group h-full relative overflow-hidden"
+          >
+            <div class={`absolute inset-0 bg-gradient-to-br ${calc.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none`}></div>
+
+            <div class="relative z-10 space-y-4 flex-1">
+              <div class={`p-3 w-12 h-12 rounded-2xl border flex items-center justify-center ${calc.color}`}>
+                <Icon class="h-6 w-6" />
+              </div>
+              <div>
+                <div class="text-[11px] font-bold uppercase tracking-wider text-zinc-500">{calc.tagline}</div>
+                <h3 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors mt-0.5">
+                  {calc.name}
+                </h3>
+              </div>
+              <p class="text-zinc-400 text-sm leading-relaxed">{calc.desc}</p>
             </div>
-            <div class="space-y-2">
-              <h3 class="font-extrabold text-lg text-white group-hover:text-emerald-400 transition-colors font-display">{calc.name}</h3>
-              <p class="text-zinc-400 text-sm leading-relaxed font-sans">{calc.desc}</p>
+
+            <div class="relative z-10 mt-6 pt-4 border-t border-zinc-900/80 flex items-center justify-between">
+              <span class="inline-flex items-center gap-1.5 text-xs text-zinc-500 font-medium">
+                <Lock class="h-3 w-3" />
+                Private by design
+              </span>
+              <span class="inline-flex items-center gap-1.5 text-xs text-emerald-400 font-bold">
+                <span>Open</span>
+                <ArrowRight class="h-3.5 w-3.5 transform group-hover:translate-x-1 transition-transform" />
+              </span>
             </div>
-          </div>
-          <div class="mt-8 pt-5 border-t border-zinc-900/60 flex items-center justify-between text-xs text-emerald-400 font-bold uppercase tracking-wider font-sans">
-            <span>Compute Now</span>
-            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
-          </div>
-        </a>
-      );
-    })}
+          </a>
+        );
+      })}
+    </div>
   </div>
 </section>

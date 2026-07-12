@@ -9,6 +9,10 @@ export const MenuItemSchema = z.object({
   carbs: z.number(),
   fiber: z.number().optional(),
   sodium: z.number().optional(),
+  cholesterol: z.number().optional(),
+  saturated_fat: z.number().optional(),
+  sugars: z.number().optional(),
+  trans_fat: z.number().optional(),
 });
 
 export const MenuCategorySchema = z.object({
@@ -19,7 +23,11 @@ export const MenuCategorySchema = z.object({
 export const RestaurantSchema = z.object({
   name: z.string(),
   slug: z.string(),
+  tagline: z.string().optional(),
   description: z.string().optional(),
+  category: z.string().optional(),
+  emoji: z.string().optional(),
+  itemCount: z.number().optional(),
   logo: z.string().optional(),
   categories: z.array(MenuCategorySchema),
 });
