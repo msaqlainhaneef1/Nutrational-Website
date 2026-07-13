@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block crawling of search result pages with query strings (avoid duplicate content)
+Disallow: /*?q=
+Disallow: /*?category=
+Disallow: /*?meal=
+
+Sitemap: https://nutritionsolver.com/sitemap-index.xml

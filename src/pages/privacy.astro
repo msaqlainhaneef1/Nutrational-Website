@@ -1,0 +1,89 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+
+const lastUpdated = 'July 2026';
+---
+
+<Layout
+  title="Privacy Policy"
+  description="Nutrition Solver's privacy policy. We use zero tracking cookies, no analytics, no third party scripts. All calculator inputs stay in your browser."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumb items={[{ label: 'Privacy', url: '/privacy' }]} />
+
+    <div class="space-y-3">
+      <h1 class="text-4xl font-extrabold text-white tracking-tight">Privacy policy</h1>
+      <p class="text-zinc-500 text-sm">Last updated: {lastUpdated}</p>
+    </div>
+
+    <div class="glass-card rounded-2xl p-5 border border-emerald-500/20 bg-emerald-500/[0.02]">
+      <p class="text-sm text-emerald-300 leading-relaxed">
+        <strong>Short version:</strong> We do not track you. We do not collect personal data. We do not use analytics cookies. Everything you do on this site stays in your browser.
+      </p>
+    </div>
+
+    <div class="space-y-6">
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">What we collect</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          Nothing. Nutrition Solver has no backend, no database, no analytics account, and no third party tracking scripts. We do not log IP addresses, we do not set tracking cookies, and we do not fingerprint your browser. The web server logs that host this site may record standard request metadata (IP, user agent, timestamp) for security and abuse prevention, but we do not use this data for analytics or profiling.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">What stays in your browser</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          When you use the meal builder, calculator inputs, or restaurant filters, that data is stored locally in your browser using localStorage. This data never leaves your device. It is not sent to any server, not associated with any account, and not used for analytics. You can clear it at any time by clearing your browser storage or by clicking the clear button in the meal builder.
+        </p>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          The specific localStorage keys we use are:
+        </p>
+        <ul class="space-y-1 text-zinc-400 text-sm leading-relaxed ml-4">
+          <li><code class="bg-zinc-900 px-1.5 py-0.5 rounded text-emerald-400">nf-meal-items</code> for your meal builder selections</li>
+          <li><code class="bg-zinc-900 px-1.5 py-0.5 rounded text-emerald-400">nf-meal-goal</code> for your daily calorie goal</li>
+          <li><code class="bg-zinc-900 px-1.5 py-0.5 rounded text-emerald-400">nf-cookie-ack</code> to remember that you dismissed the cookie banner</li>
+          <li><code class="bg-zinc-900 px-1.5 py-0.5 rounded text-emerald-400">nf-announcement-dismissed</code> to remember that you dismissed the announcement bar (session storage only)</li>
+        </ul>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">Cookies</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          We do not set any tracking cookies. The only client side storage we use is localStorage, listed above. We do not use analytics cookies, advertising cookies, or social media cookies. There is no cookie consent banner because there are no cookies to consent to. The small banner that appears on first visit is just a transparency notice.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">Third party services</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          Nutrition Solver loads no third party scripts. We do not use Google Analytics, Facebook Pixel, Google AdSense, or any other advertising or analytics network. The site is served entirely from our own static hosting.
+        </p>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          Chart.js is loaded locally (not from a CDN) only on food detail pages that display a macro chart, and only when the chart is about to scroll into view. Pagefind search runs entirely against a static index built at deploy time.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">Children</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          Nutrition Solver is not directed at children under 13 and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">Changes to this policy</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          If we change this privacy policy, we will update the date at the top of this page and revise the policy below. We will never quietly add tracking or change the fundamental privacy first nature of the site without clear notice.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-2xl font-bold text-white">Contact</h2>
+        <p class="text-zinc-400 text-sm leading-relaxed">
+          Questions about privacy! Email <a href="mailto:privacy@nutritionsolver.com" class="text-emerald-400 underline">privacy@nutritionsolver.com</a>.
+        </p>
+      </section>
+    </div>
+  </div>
+</Layout>

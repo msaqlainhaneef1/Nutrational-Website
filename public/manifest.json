@@ -1,0 +1,19 @@
+{
+  "name": "Nutrition Solver",
+  "short_name": "Nutrition Solver",
+  "description": "Browse nutrition data for 100+ restaurants and 16,000+ menu items. Free BMI, BMR, TDEE, macro, and calorie deficit calculators. No tracking, no signup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "food", "lifestyle", "fitness"],
+  "lang": "en"
+}

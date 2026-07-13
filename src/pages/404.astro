@@ -1,0 +1,39 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { Home, Search, ArrowLeft } from '@lucide/astro';
+---
+
+<Layout title="Page not found" description="The page you are looking for does not exist.">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center space-y-6">
+    <div class="text-8xl font-black text-gradient leading-none">404</div>
+    <div class="space-y-3">
+      <h1 class="text-3xl font-extrabold text-white tracking-tight">Page not found</h1>
+      <p class="text-zinc-400 text-sm max-w-md mx-auto leading-relaxed">
+        The page you are looking for does not exist, has been moved, or never existed in the first place.
+        Try one of these instead.
+      </p>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-3 justify-center pt-4">
+      <a href="/" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-colors">
+        <Home class="h-4 w-4" />
+        <span>Go home</span>
+      </a>
+      <a href="/search" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-bold text-sm rounded-xl transition-colors">
+        <Search class="h-4 w-4" />
+        <span>Search the site</span>
+      </a>
+      <button onclick="history.back()" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-bold text-sm rounded-xl transition-colors">
+        <ArrowLeft class="h-4 w-4" />
+        <span>Go back</span>
+      </button>
+    </div>
+
+    <div class="pt-8 grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+      <a href="/restaurants" class="glass-card rounded-xl p-3 hover:text-emerald-400 text-zinc-400 transition-colors">🍽️ Restaurants</a>
+      <a href="/foods" class="glass-card rounded-xl p-3 hover:text-emerald-400 text-zinc-400 transition-colors">🍎 Foods</a>
+      <a href="/calculators" class="glass-card rounded-xl p-3 hover:text-emerald-400 text-zinc-400 transition-colors">🧮 Calculators</a>
+      <a href="/blog" class="glass-card rounded-xl p-3 hover:text-emerald-400 text-zinc-400 transition-colors">📚 Blog</a>
+    </div>
+  </div>
+</Layout>

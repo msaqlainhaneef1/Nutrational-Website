@@ -1,0 +1,59 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import BodyFatCalculator from '@/features/calculators/body-fat/BodyFatCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('body-fat')!;
+
+const about = 'Body fat percentage is a better measure of metabolic health than BMI because it distinguishes between fat and lean mass. The U.S. Navy method used here estimates body fat from circumference measurements at the neck, waist, and hip. It was developed for military fitness testing and is widely used because it requires only a tape measure and tracks changes well over time. The margin of error versus DEXA is about 3 to 4 percent.';
+
+const sections = [
+  {
+    heading: 'Why body fat percentage beats BMI',
+    body: [
+      'BMI treats all weight the same. A bodybuilder and a sedentary office worker of the same height and weight have the same BMI, but very different body composition and metabolic risk profiles. Body fat percentage cuts through this by directly measuring what proportion of your weight is fat versus lean tissue.',
+      'For men, a healthy body fat range is 10 to 20 percent. For women, 18 to 28 percent. Below these ranges is athletic territory, which can be healthy but becomes risky at the extreme. Above these ranges, metabolic risk starts to climb, even if BMI is in the normal range.',
+    ],
+  },
+  {
+    heading: 'How the Navy formula works',
+    body: [
+      'The U.S. Navy developed this method in the 1980s as a quick field test for body composition. It uses circumference measurements at the neck, waist (and hip for women), and height to estimate body density. Body density is then converted to body fat percentage using the Siri equation.',
+      'The formula is not perfect. It assumes fat distributes in a predictable pattern across the waist and neck, which is true on average but not for every individual. However, it tracks changes well. If your waist drops by 4 cm, your body fat estimate will drop accordingly, even if the absolute percentage has a small systematic error.',
+    ],
+  },
+  {
+    heading: 'How to measure accurately',
+    body: [
+      'Measure in the morning before eating or drinking, after using the bathroom. Measure twice and use the average. Stand relaxed with feet shoulder width apart. Do not flex or suck in.',
+      'Neck: measure just below the larynx (Adam\'s apple), keeping the tape horizontal. Waist: measure at the navel, not at the narrowest point of the torso. Hip (women only): measure at the widest point of the buttocks. All measurements should be taken against bare skin for accuracy.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'How accurate is the Navy method?',
+    a: 'Compared to DEXA scans, the Navy method has an error of about 3 to 4 percent. For a person at 20 percent body fat, the true value could be anywhere from 16 to 24 percent. It tracks changes well over time, even if the absolute number is slightly off.',
+  },
+  {
+    q: 'What body fat percentage should I aim for?',
+    a: 'For men, 10 to 15 percent is athletic and sustainable. For women, 18 to 24 percent. Below these ranges becomes harder to maintain and may impact hormones. Above these ranges, body fat can be reduced through a modest calorie deficit and resistance training without significant muscle loss.',
+  },
+  {
+    q: 'Why do I need hip measurement for females but not males?',
+    a: 'Females tend to store fat in the hips and thighs, while males store it in the abdomen. The Navy formula accounts for this by including hip circumference for females. Males carry enough fat in the waist and neck that hip measurement does not improve accuracy.',
+  },
+  {
+    q: 'Can I use this with a smart scale?',
+    a: 'Smart scales use bioelectrical impedance, which has similar accuracy to the Navy method (3 to 4 percent error). Both methods track trends well. Pick one and use it consistently rather than comparing numbers between methods.',
+  },
+];
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <BodyFatCalculator />
+  </CalculatorPage>
+</Layout>

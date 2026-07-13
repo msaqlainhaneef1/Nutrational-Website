@@ -1,0 +1,59 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import ProteinCalculator from '@/features/calculators/protein/ProteinCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('protein')!;
+
+const about = 'Protein is the single most important macro for body composition. The RDA of 0.8 grams per kilogram is the minimum to prevent deficiency in sedentary adults. Active people, people losing weight, and people building muscle all benefit from more. This calculator scales protein intake based on activity level and goal, using the current research consensus of 1.2 to 2.4 grams per kilogram depending on context.';
+
+const sections = [
+  {
+    heading: 'Why protein matters more than the other macros',
+    body: [
+      'Carbohydrates and fat are interchangeable as energy sources. Your body can run on either. Protein is different. It is structural. Protein builds muscle, skin, hair, enzymes, hormones, and immune cells. When you do not eat enough protein, your body breaks down lean tissue to keep essential functions running.',
+      'In a calorie deficit, protein becomes even more critical. Without sufficient protein, weight loss comes from muscle as well as fat. With high protein, the deficit pulls preferentially from fat. This is why high protein diets consistently produce better body composition outcomes than low protein diets at the same calorie level.',
+    ],
+  },
+  {
+    heading: 'How much protein per kilogram',
+    body: [
+      'The RDA of 0.8 grams per kilogram is the minimum to prevent deficiency. It is not optimal. Decades of research now suggest that 1.2 to 1.6 grams per kilogram is a better target for most adults, and 1.6 to 2.2 grams per kilogram is appropriate for people training hard or losing weight.',
+      'Endurance athletes need 1.2 to 1.4 grams per kilogram. Strength athletes need 1.6 to 2.2 grams per kilogram. People in a calorie deficit benefit from the high end of these ranges, sometimes up to 2.4 grams per kilogram, to maximize muscle preservation.',
+    ],
+  },
+  {
+    heading: 'Spreading protein across the day',
+    body: [
+      'Muscle protein synthesis is maximized at about 20 to 40 grams of high quality protein per meal, containing roughly 2 to 3 grams of leucine. Eating 100 grams of protein in one meal produces less muscle protein synthesis than eating 25 grams across four meals.',
+      'For most people, three to four protein containing meals spread across the day works well. A typical pattern is eggs or Greek yogurt at breakfast, chicken or fish at lunch, a protein rich snack mid afternoon, and a meat or legume based dinner. This pattern also tends to keep hunger more stable than one or two large meals.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'Can I eat too much protein?',
+    a: 'For healthy adults with normal kidney function, protein intakes up to 2.5 to 3 grams per kilogram appear safe. The kidneys adapt to higher protein intake without damage in healthy people. People with pre-existing kidney disease should consult a nephrologist before increasing protein significantly.',
+  },
+  {
+    q: 'Do I need protein powder?',
+    a: 'No. Whole food protein sources like chicken, fish, eggs, dairy, legumes, and tofu easily meet daily protein targets for most people. Protein powder is convenient after workouts or when traveling but is not necessary. If you struggle to hit your target, a scoop of whey or plant protein in a smoothie is an easy 20 to 25 grams.',
+  },
+  {
+    q: 'Is plant protein as good as animal protein?',
+    a: 'Plant protein sources are typically missing one or more essential amino acids, but eating a variety of plant proteins across the day provides a complete amino acid profile. The main difference is that plant proteins usually require larger portions to hit the same leucine threshold for muscle protein synthesis. Aim for slightly higher total protein if you eat mostly plants.',
+  },
+  {
+    q: 'Should I eat protein before or after workouts?',
+    a: 'Total daily protein matters far more than timing. The anabolic window is much wider than once believed, spanning several hours around a workout. Aim to eat a protein containing meal within 3 hours before or after training. Do not stress about exact timing.',
+  },
+];
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <ProteinCalculator />
+  </CalculatorPage>
+</Layout>

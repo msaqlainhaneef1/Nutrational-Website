@@ -1,7 +1,9 @@
 ---
 import RestaurantMenu from './RestaurantMenu.astro';
+import MealBuilder from '@/features/shared/components/MealBuilder.astro';
+import AutoMealGenerator from './AutoMealGenerator.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
-import { Info, Utensils, Clock } from '@lucide/astro';
+import { Info, Utensils } from '@lucide/astro';
 import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
@@ -13,6 +15,11 @@ const { restaurant } = Astro.props;
 const totalItems = restaurant.categories.reduce((s, c) => s + c.items.length, 0);
 const allItems = restaurant.categories.flatMap((c) => c.items);
 const avgCalories = totalItems > 0 ? Math.round(allItems.reduce((s, i) => s + i.calories, 0) / totalItems) : 0;
+
+// "Lighter picks" - lowest calorie items
+const lighterPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) => a.calories - b.calories).slice(0, 3);
+// "Heaviest hitters" - highest calorie items
+const heaviestPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) => b.calories - a.calories).slice(0, 3);
 ---
 
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -20,7 +27,13 @@ const avgCalories = totalItems > 0 ? Math.round(allItems.reduce((s, i) => s + i.
     <RestaurantMenu restaurant={restaurant} />
   </div>
 
-  <aside class="lg:col-span-4 space-y-5">
+  <aside class="lg:col-span-4 space-y-4 lg:sticky lg:top-24">
+    <!-- Auto meal generator -->
+    <AutoMealGenerator />
+
+    <!-- Meal builder -->
+    <MealBuilder />
+
     <!-- Restaurant info card -->
     <div class="glass-card rounded-2xl p-5 space-y-4">
       <div class="flex items-center gap-3 pb-4 border-b border-zinc-900">
@@ -42,6 +55,32 @@ const avgCalories = totalItems > 0 ? Math.round(allItems.reduce((s, i) => s + i.
       </div>
     </div>
 
+    {/* Lighter picks vs heaviest hitters */}
+    {lighterPicks.length > 0 && heaviestPicks.length > 0 && (
+      <div class="glass-card rounded-2xl p-5 space-y-4">
+        <h4 class="font-bold text-white text-sm flex items-center gap-2">
+          <Utensils class="h-4 w-4 text-emerald-400" />
+          <span>Lighter picks vs heaviest hitters</span>
+        </h4>
+        <div class="space-y-2">
+          {lighterPicks.map((item) => (
+            <div class="flex items-center justify-between gap-2 text-xs">
+              <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
+              <span class="text-emerald-400 font-bold flex-shrink-0">{item.calories} cal</span>
+            </div>
+          ))}
+          <div class="border-t border-zinc-800 pt-2 space-y-2">
+            {heaviestPicks.map((item) => (
+              <div class="flex items-center justify-between gap-2 text-xs">
+                <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
+                <span class="text-amber-400 font-bold flex-shrink-0">{item.calories} cal</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+
     <!-- Disclaimer -->
     <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 flex items-start gap-3">
       <div class="p-2 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20 flex-shrink-0">
@@ -56,7 +95,6 @@ const avgCalories = totalItems > 0 ? Math.round(allItems.reduce((s, i) => s + i.
       </div>
     </div>
 
-    <!-- Verified expert -->
     <AuthorBox
       name="Dr. Sarah Jenkins"
       role="Clinical Dietitian and Nutritionist"

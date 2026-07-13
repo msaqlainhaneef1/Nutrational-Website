@@ -1,5 +1,5 @@
 ---
-import { ArrowRight, Search } from '@lucide/astro';
+import { ArrowRight, Search, Wand2, ShoppingBag } from '@lucide/astro';
 import type { Restaurant } from '@/features/restaurants/schemas/restaurant';
 
 interface Props {
@@ -24,7 +24,8 @@ const { restaurants, categories } = Astro.props;
         </h2>
         <p class="text-zinc-400 text-sm max-w-2xl leading-relaxed">
           Every menu item is broken down into calories, protein, carbs, fat, fiber, sodium, and sugars.
-          Pick a chain to start browsing, or jump straight to a category.
+          Use the auto meal generator to compose a meal that hits your targets, or build your own and
+          share it with a link.
         </p>
       </div>
       <a href="/restaurants" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
@@ -33,12 +34,43 @@ const { restaurants, categories } = Astro.props;
       </a>
     </div>
 
+    <!-- Feature badges -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+      <div class="glass-card rounded-xl p-4 flex items-center gap-3">
+        <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20">
+          <Wand2 class="h-4 w-4" />
+        </div>
+        <div>
+          <div class="text-sm font-bold text-white">Auto meal generator</div>
+          <div class="text-[10px] text-zinc-500">Set calorie and protein targets, get a meal</div>
+        </div>
+      </div>
+      <div class="glass-card rounded-xl p-4 flex items-center gap-3">
+        <div class="p-2 bg-blue-500/10 text-blue-400 rounded-lg border border-blue-500/20">
+          <ShoppingBag class="h-4 w-4" />
+        </div>
+        <div>
+          <div class="text-sm font-bold text-white">Meal builder</div>
+          <div class="text-[10px] text-zinc-500">Save items, see live totals, share by link</div>
+        </div>
+      </div>
+      <div class="glass-card rounded-xl p-4 flex items-center gap-3">
+        <div class="p-2 bg-amber-500/10 text-amber-400 rounded-lg border border-amber-500/20">
+          <Search class="h-4 w-4" />
+        </div>
+        <div>
+          <div class="text-sm font-bold text-white">Search and filter</div>
+          <div class="text-[10px] text-zinc-500">Find items by name or category in seconds</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Category pills -->
     <div class="flex flex-wrap gap-2 mb-8">
       {categories.map((cat) => (
         <a
           href={`/restaurants?category=${encodeURIComponent(cat.name)}`}
-          class="inline-flex items-center gap-2 px-3.5 py-1.5 bg-zinc-900/80 border border-zinc-800 hover:border-emerald-500/30 hover:bg-emerald-500/5 hover:text-emerald-400 text-zinc-400 text-xs font-semibold rounded-full transition-all"
+          class="group inline-flex items-center gap-2 px-3.5 py-1.5 bg-zinc-900/80 border border-zinc-800 hover:border-emerald-500/30 hover:bg-emerald-500/5 hover:text-emerald-400 text-zinc-400 text-xs font-semibold rounded-full transition-all"
         >
           <span>{cat.name}</span>
           <span class="text-zinc-600 group-hover:text-emerald-500/70">{cat.count}</span>

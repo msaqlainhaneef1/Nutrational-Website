@@ -1,0 +1,55 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import WaterCalculator from '@/features/calculators/water-intake/WaterCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('water-intake')!;
+
+const about = 'Daily water needs scale with body weight, activity level, and the climate you live in. The baseline rule of 35 milliliters per kilogram of body weight works for most sedentary adults. Activity, hot weather, and high altitude all increase the requirement. This calculator adjusts for all three factors and presents the result in liters, ounces, and 250 ml glasses for convenience.';
+
+const sections = [
+  {
+    heading: 'How much water do you really need',
+    body: [
+      'The old advice to drink eight glasses of water a day is not based on any particular science. It is a reasonable starting point for a sedentary person of average size, but it breaks down at the extremes. A 50 kilogram office worker in a temperate climate needs less water than a 90 kilogram construction worker in Phoenix in July.',
+      'The European Food Safety Authority recommends 2.5 liters per day for men and 2.0 liters per day for women, including water from food. The U.S. National Academies recommend 3.7 liters for men and 2.7 liters for women from all beverages and foods. Both recommendations assume average activity in a temperate climate.',
+    ],
+  },
+  {
+    heading: 'What counts toward hydration',
+    body: [
+      'About 20 percent of daily water intake comes from food. Water rich foods like cucumber, watermelon, soups, and salads contribute meaningfully. The remaining 80 percent comes from beverages, including water, tea, coffee, milk, and juice.',
+      'Caffeinated beverages are mildly diuretic but still count toward net hydration. The water in coffee and tea far outweighs the small additional fluid loss from caffeine. Alcoholic beverages, on the other hand, are net negative and should not be counted toward your hydration target.',
+    ],
+  },
+  {
+    heading: 'Signs you are drinking enough',
+    body: [
+      'The simplest indicator is urine color. Pale straw or transparent yellow means well hydrated. Dark yellow or amber means drink more. Completely clear means you may be overdoing it.',
+      'Other signs of adequate hydration include rarely feeling thirsty, having regular bowel movements, and not experiencing headaches or fatigue during the day. If you feel thirsty, you are already slightly dehydrated. Sip steadily throughout the day rather than chugging large amounts at once.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'Can I drink too much water?',
+    a: 'Yes. Drinking several liters in a short period can dilute blood sodium levels, a condition called hyponatremia. Endurance athletes are most at risk. For most people, drinking to thirst is sufficient. A reasonable upper limit is about 1 liter per hour for a healthy adult.',
+  },
+  {
+    q: 'Does coffee count toward my daily total?',
+    a: 'Yes. Despite being mildly diuretic, coffee and tea contribute net fluid to your daily total. The diuretic effect of moderate caffeine intake is small enough that you still gain more water than you lose.',
+  },
+  {
+    q: 'Should I drink more when I exercise?',
+    a: 'Yes. Add 0.35 to 0.7 liters per hour of exercise depending on intensity and sweat rate. For sessions over an hour, especially in heat, consider an electrolyte drink to replace sodium lost in sweat.',
+  },
+];
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <WaterCalculator />
+  </CalculatorPage>
+</Layout>

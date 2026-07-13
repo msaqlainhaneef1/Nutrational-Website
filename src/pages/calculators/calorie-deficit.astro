@@ -1,0 +1,60 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import CalorieDeficitCalculator from '@/features/calculators/calorie-deficit/CalorieDeficitCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('calorie-deficit')!;
+
+const about = 'A calorie deficit is the gap between what you burn and what you eat. Every 7700 calorie deficit translates to roughly 1 kilogram of fat loss, assuming the deficit comes from fat rather than lean tissue. This calculator takes your TDEE and a chosen daily deficit, then projects the timeline to lose 1, 5, and 10 kilograms. Use it to set realistic expectations before starting a cut.';
+
+const sections = [
+  {
+    heading: 'Why 7700 calories per kilogram',
+    body: [
+      'A kilogram of body fat stores roughly 7700 calories of usable energy. This number comes from the chemical composition of triglycerides and has been verified in metabolic ward studies. To lose 1 kilogram of fat you need a cumulative deficit of about 7700 calories.',
+      'A daily deficit of 500 calories produces a weekly deficit of 3500, which translates to about 0.45 kilograms (1 pound) of fat loss per week. This is the standard recommendation because it is large enough to produce visible progress but small enough to preserve muscle and minimize hunger.',
+    ],
+  },
+  {
+    heading: 'Why weight loss is non-linear',
+    body: [
+      'If you maintain a perfect 500 calorie deficit every day, the math says you should lose exactly 0.45 kilograms per week. In practice, the scale will jump around. Some weeks you lose 0.8 kilograms. Some weeks you lose nothing. Occasionally you gain a bit.',
+      'This happens because the scale measures total body weight, not just fat. Water retention, glycogen stores, digestive contents, and hormonal fluctuations all shift weight by 1 to 3 kilograms independent of fat loss. The deficit is still working. Track the trend over 2 to 3 weeks, not individual days.',
+    ],
+  },
+  {
+    heading: 'Picking the right deficit size',
+    body: [
+      'A 250 calorie deficit is gentle and sustainable. It works for someone close to their goal weight or who wants to lose slowly without much hunger. Expect 0.2 to 0.3 kilograms per week.',
+      'A 500 calorie deficit is the standard recommendation for most people. It produces steady loss of about 0.5 kilograms per week while preserving muscle and keeping hunger manageable. Most adults can sustain this for 8 to 12 weeks before needing a diet break.',
+      'A 750 to 1000 calorie deficit is aggressive. It works for short cuts of 4 to 6 weeks or for significantly overweight individuals. Hunger will be higher and muscle loss becomes a real risk if protein is not kept high. Consider refeed days or a two week maintenance break after 6 weeks.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'What if my weight loss stalls?',
+    a: 'After several weeks of a deficit, your metabolism adapts slightly and weight loss slows. The fix is usually to take a 1 to 2 week diet break at maintenance calories, then resume the deficit. Recalculate your TDEE at your new lower weight, since a smaller body burns fewer calories.',
+  },
+  {
+    q: 'Should I eat back exercise calories?',
+    a: 'For most people, no. Exercise calories are already accounted for in your activity multiplier when calculating TDEE. Eating them back double counts. The exception is if you do a long endurance session (over an hour of hard training) on top of a sedentary baseline, in which case a small post-workout meal is appropriate.',
+  },
+  {
+    q: 'Is a 1000 calorie deficit safe?',
+    a: 'For most adults yes, for short periods. Risks increase with deficit size: muscle loss, gallstones, hormonal disruption, and rebound bingeing. A 1000 calorie deficit should be reserved for significantly overweight individuals under medical supervision, and should not exceed 6 to 8 weeks without a maintenance break.',
+  },
+  {
+    q: 'Why does the calculator cap the deficit at 1000?',
+    a: 'Deficits above 1000 calories per day are rarely sustainable and carry meaningful health risks. If you are considering a larger deficit, please consult a registered dietitian or physician for individualized guidance.',
+  },
+];
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <CalorieDeficitCalculator />
+  </CalculatorPage>
+</Layout>

@@ -1,0 +1,216 @@
+---
+import { Calculator as CalcIcon } from '@lucide/astro';
+---
+
+<div class="glass-card rounded-3xl p-6 md:p-8 border border-zinc-800" data-calc-type="macro">
+  <div class="flex items-center space-x-3 border-b border-zinc-900 pb-5 mb-6">
+    <div class="p-3 bg-emerald-500/10 text-emerald-400 rounded-2xl border border-emerald-500/20">
+      <CalcIcon class="h-6 w-6" />
+    </div>
+    <div>
+      <h3 class="font-extrabold text-xl text-white tracking-tight">Macro calculator</h3>
+      <p class="text-zinc-500 text-xs mt-0.5">Get daily protein, carb, and fat targets in seconds</p>
+    </div>
+  </div>
+
+  <form id="calc-form-macro" class="space-y-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="space-y-2 md:col-span-2">
+        <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Gender</label>
+        <div class="grid grid-cols-2 gap-3">
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="male" checked class="accent-emerald-500" />
+            <span class="text-zinc-200">Male</span>
+          </label>
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="female" class="accent-emerald-500" />
+            <span class="text-zinc-200">Female</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <label for="age-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Age</label>
+        <input type="number" id="age-macro" name="age" required min="14" max="100" step="1" placeholder="e.g. 28"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2">
+        <label for="weight-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Weight (kg)</label>
+        <input type="number" id="weight-macro" name="weight" required min="30" max="300" step="0.1" placeholder="e.g. 75"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2">
+        <label for="height-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Height (cm)</label>
+        <input type="number" id="height-macro" name="height" required min="120" max="230" step="1" placeholder="e.g. 178"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2">
+        <label for="activity-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Activity level</label>
+        <select id="activity-macro" name="activity" required
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all appearance-none">
+          <option value="sedentary">Sedentary (desk job, no exercise)</option>
+          <option value="light">Lightly active (1 to 3 days/week)</option>
+          <option value="moderate" selected>Moderately active (3 to 5 days/week)</option>
+          <option value="active">Very active (6 to 7 days/week)</option>
+          <option value="extreme">Extra active (physical job or 2x daily training)</option>
+        </select>
+      </div>
+      <div class="space-y-2">
+        <label for="goal-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Goal</label>
+        <select id="goal-macro" name="goal" required
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all appearance-none">
+          <option value="loss">Lose weight (minus 500 kcal)</option>
+          <option value="maintenance" selected>Maintain weight</option>
+          <option value="gain">Build muscle (plus 350 kcal)</option>
+        </select>
+      </div>
+      <div class="space-y-2 md:col-span-2">
+        <label for="diet-macro" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Diet approach</label>
+        <select id="diet-macro" name="diet" required
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all appearance-none">
+          <option value="balanced" selected>Balanced (30/40/30)</option>
+          <option value="high-protein">High protein (40/35/25)</option>
+          <option value="low-carb">Low carb (35/20/45)</option>
+          <option value="keto">Keto (25/5/70)</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="submit"
+      class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold text-sm uppercase tracking-wider rounded-xl cursor-pointer shadow-lg shadow-emerald-500/15 hover:shadow-emerald-500/25 transition-all flex items-center justify-center space-x-2">
+      <CalcIcon class="h-4 w-4" />
+      <span>Calculate macros</span>
+    </button>
+  </form>
+
+  <div id="calc-results-macro" class="hidden mt-8 border-t border-zinc-900 pt-6">
+    <h4 class="font-extrabold text-lg text-white mb-4">Your daily targets</h4>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Target calories</span>
+        <span class="text-2xl font-black text-emerald-400 mt-1 block" id="macro-cal">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">BMR</span>
+        <span class="text-2xl font-black text-zinc-300 mt-1 block" id="macro-bmr">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">TDEE</span>
+        <span class="text-2xl font-black text-zinc-300 mt-1 block" id="macro-tdee">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Protein per kg</span>
+        <span class="text-2xl font-black text-amber-400 mt-1 block" id="macro-perkg">--</span>
+      </div>
+    </div>
+
+    <div class="space-y-3">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+            <span class="text-sm font-bold text-white">Protein</span>
+          </div>
+          <div class="text-right">
+            <span class="text-xl font-black text-emerald-400" id="macro-protein-g">--</span>
+            <span class="text-xs text-zinc-500 ml-1" id="macro-protein-pct">--</span>
+          </div>
+        </div>
+        <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+          <div id="macro-protein-bar" class="h-full bg-emerald-500 transition-all duration-500" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+            <span class="text-sm font-bold text-white">Carbohydrates</span>
+          </div>
+          <div class="text-right">
+            <span class="text-xl font-black text-blue-400" id="macro-carb-g">--</span>
+            <span class="text-xs text-zinc-500 ml-1" id="macro-carb-pct">--</span>
+          </div>
+        </div>
+        <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+          <div id="macro-carb-bar" class="h-full bg-blue-500 transition-all duration-500" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+            <span class="text-sm font-bold text-white">Fat</span>
+          </div>
+          <div class="text-right">
+            <span class="text-xl font-black text-amber-400" id="macro-fat-g">--</span>
+            <span class="text-xs text-zinc-500 ml-1" id="macro-fat-pct">--</span>
+          </div>
+        </div>
+        <div class="h-2 bg-zinc-800 rounded-full overflow-hidden">
+          <div id="macro-fat-bar" class="h-full bg-amber-500 transition-all duration-500" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-emerald-500/5 border border-emerald-500/20 rounded-2xl">
+      <p class="text-xs text-emerald-300 leading-relaxed">
+        <strong class="text-emerald-400">Pro tip:</strong> Hit your protein target first, then fill remaining calories with carbs and fat based on personal preference. Spread protein across 3 to 4 meals of 25 to 40 grams each for best results.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { calculateMacro } from './macro';
+
+  const form = document.getElementById('calc-form-macro') as HTMLFormElement;
+  const results = document.getElementById('calc-results-macro');
+
+  if (form && results) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const weight = parseFloat(fd.get('weight') as string);
+      const height = parseFloat(fd.get('height') as string);
+      const age = parseInt(fd.get('age') as string);
+      const gender = fd.get('gender') as 'male' | 'female';
+      const activity = fd.get('activity') as any;
+      const goal = fd.get('goal') as any;
+      const diet = fd.get('diet') as any;
+
+      if (!weight || !height || !age) return;
+
+      const r = calculateMacro(weight, height, age, gender, activity, goal, diet);
+
+      const set = (id: string, val: string | number) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = String(val);
+      };
+      const setWidth = (id: string, pct: number) => {
+        const el = document.getElementById(id) as HTMLElement | null;
+        if (el) el.style.width = pct + '%';
+      };
+
+      set('macro-cal', r.targetCalories.toLocaleString() + ' kcal');
+      set('macro-bmr', r.bmr.toLocaleString());
+      set('macro-tdee', r.tdee.toLocaleString());
+      set('macro-perkg', r.proteinPerKg + ' g/kg');
+      set('macro-protein-g', r.proteinGrams + ' g');
+      set('macro-protein-pct', '(' + r.proteinPct + '%)');
+      set('macro-carb-g', r.carbGrams + ' g');
+      set('macro-carb-pct', '(' + r.carbPct + '%)');
+      set('macro-fat-g', r.fatGrams + ' g');
+      set('macro-fat-pct', '(' + r.fatPct + '%)');
+
+      setWidth('macro-protein-bar', r.proteinPct);
+      setWidth('macro-carb-bar', r.carbPct);
+      setWidth('macro-fat-bar', r.fatPct);
+
+      results.classList.remove('hidden');
+      results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+</script>

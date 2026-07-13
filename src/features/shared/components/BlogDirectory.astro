@@ -1,41 +1,56 @@
 ---
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
-import { BookOpen } from '@lucide/astro';
+import { BookOpen, Clock, ArrowRight } from '@lucide/astro';
 
 interface Props {
   posts: any[];
 }
 
 const { posts } = Astro.props;
+const sorted = [...posts].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
   <Breadcrumb items={[{ label: 'Blog', url: '/blog' }]} />
 
-  <div class="space-y-3">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Health & Nutrition Blog</h1>
-    <p class="text-zinc-400 text-sm max-w-2xl">
-      Evidence-based, medically verified articles to help you achieve your dietary and metabolic goals.
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+      <BookOpen class="h-4 w-4" />
+      <span>{posts.length} articles</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+      Health and nutrition blog
+    </h1>
+    <p class="text-zinc-400 text-base max-w-3xl leading-relaxed">
+      Evidence-backed guides on macros, energy balance, and reading nutrition labels. Written by Dr. Sarah Jenkins,
+      a clinical dietitian with a PhD in nutritional science. Short enough to skim, deep enough to actually use.
     </p>
   </div>
 
   <!-- Blog Grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
-    {posts.map((post) => (
-      <a href={`/blog/${post.id}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex flex-col justify-between group">
-        <div class="space-y-4">
-          <div class="flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
-            <BookOpen class="h-4 w-4" />
-            <span>Nutrition Guide</span>
-          </div>
-          <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors leading-tight">
-            {post.data.title}
-          </h2>
-          <p class="text-zinc-400 text-sm leading-relaxed">{post.data.description}</p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {sorted.map((post) => (
+      <a href={`/blog/${post.id}`} class="glass-card rounded-3xl p-7 flex flex-col group h-full">
+        <div class="flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-4">
+          <BookOpen class="h-4 w-4" />
+          <span>{post.data.category}</span>
         </div>
-        <div class="mt-8 pt-4 border-t border-zinc-900 flex items-center justify-between text-xs text-zinc-500">
-          <span>By {post.data.author} • {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-          <span class="text-emerald-400 font-extrabold group-hover:translate-x-1 transition-transform">Read Guide →</span>
+        <h2 class="font-bold text-xl text-white group-hover:text-emerald-400 transition-colors leading-tight mb-3 flex-grow">
+          {post.data.title}
+        </h2>
+        <p class="text-zinc-400 text-sm leading-relaxed line-clamp-3 mb-5">
+          {post.data.description}
+        </p>
+        <div class="pt-4 border-t border-zinc-900/80 flex items-center justify-between text-xs text-zinc-500">
+          <span class="inline-flex items-center gap-1.5">
+            <Clock class="h-3 w-3" />
+            {post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+          </span>
+          <span class="text-emerald-400 font-bold inline-flex items-center gap-1">
+            Read
+            <ArrowRight class="h-3 w-3 transform group-hover:translate-x-0.5 transition-transform" />
+          </span>
         </div>
       </a>
     ))}

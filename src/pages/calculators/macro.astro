@@ -1,0 +1,69 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import MacroCalculator from '@/features/calculators/macro/MacroCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('macro')!;
+
+const about = 'This calculator estimates your daily energy needs using the Mifflin-St Jeor equation, then splits those calories into protein, carbohydrate, and fat targets based on your chosen diet approach. The four preset splits cover the most common dietary patterns. Pick balanced if you have no specific preference, high protein if your priority is muscle or satiety, low carb or keto if you specifically want to restrict carbohydrates.';
+
+const sections = [
+  {
+    heading: 'Why macros, not just calories',
+    body: [
+      'Calories determine whether you gain, lose, or maintain weight. Macros determine what kind of weight that is. Eat at a calorie surplus with insufficient protein and you will gain fat. Eat at a deficit with high protein and resistance training and you will lose fat while preserving muscle.',
+      'Tracking macros gives you control over body composition in a way that calorie counting alone cannot. Once you know your daily protein target, you can plan meals around hitting it, then fill the remaining calories with carbs and fat based on preference and performance needs.',
+    ],
+  },
+  {
+    heading: 'How the targets are built',
+    body: [
+      'First we calculate your BMR using the Mifflin-St Jeor equation, which is the most accurate formula in widespread clinical use. We multiply that by an activity factor to get your TDEE. If your goal is weight loss we subtract 500 calories, if muscle gain we add 350.',
+      'Then we apply the diet split you selected. Balanced is 30 percent protein, 40 percent carbs, 30 percent fat. High protein is 40/35/25. Low carb is 35/20/45. Keto is 25/5/70, which keeps net carbs low enough for most people to enter ketosis. Protein and carbs are divided by 4 (calories per gram), fat by 9.',
+    ],
+  },
+  {
+    heading: 'Hitting your protein first',
+    body: [
+      'Of the three macros, protein matters most for body composition. A good rule of thumb is 1.6 to 2.2 grams per kilogram of body weight for active people, scaled up during a calorie deficit to preserve muscle. Once you hit your protein target, the remaining calories can be split between carbs and fat however you prefer.',
+      'If you find protein hard to hit, spread it across 3 to 4 meals of 25 to 40 grams each. The body can only use so much protein per meal for muscle protein synthesis, so front-loading or back-loading all your protein into one meal is less effective than distributing it.',
+    ],
+  },
+  {
+    heading: 'Tracking without obsessing',
+    body: [
+      'You do not need to track macros forever. Most people benefit from a few weeks of strict tracking to calibrate their portions, then transitioning to an intuitive approach where they eyeball protein and use the scale to confirm progress.',
+      'If the scale stalls for two weeks, return to strict tracking for a few days to identify where extra calories are sneaking in. Common culprits are cooking oils, sauces, snacks, and restaurant portions that are larger than the menu states.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'Which diet approach should I pick?',
+    a: 'If you have no specific preference, pick balanced. It works for most people and is the easiest to sustain. Pick high protein if your priority is building or preserving muscle. Pick low carb or keto only if you specifically want to restrict carbohydrates for medical, performance, or personal reasons.',
+  },
+  {
+    q: 'Are these targets accurate for athletes?',
+    a: 'These targets are a useful starting point for recreational athletes. Competitive endurance or strength athletes may need more carbohydrate to support training volume, and should consult a sports dietitian for individualized recommendations.',
+  },
+  {
+    q: 'Why is my TDEE different from another calculator?',
+    a: 'Most calculators use slightly different activity multipliers or BMR equations. A 100 to 200 calorie difference between calculators is normal. Pick one calculator, use it consistently for two to three weeks, and adjust based on what actually happens to your weight.',
+  },
+  {
+    q: 'What if I want to count net carbs for keto?',
+    a: 'Net carbs equal total carbs minus fiber. The keto preset gives you a total carb target. To stay in ketosis, track net carbs and aim to keep them under 20 to 30 grams per day. Most of your calories should come from fat on this approach.',
+  },
+];
+---
+
+<Layout
+  title={meta.name}
+  description={meta.description}
+>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <MacroCalculator />
+  </CalculatorPage>
+</Layout>

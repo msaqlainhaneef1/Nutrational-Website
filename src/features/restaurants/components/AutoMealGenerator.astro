@@ -1,0 +1,165 @@
+---
+import { Wand2, X } from '@lucide/astro';
+---
+
+<!-- Auto Meal Generator - constraint solver that composes a meal from menu items -->
+<div class="glass-card rounded-2xl p-5 border border-emerald-500/20 bg-emerald-500/[0.02]">
+  <div class="flex items-center gap-2 mb-3">
+    <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20">
+      <Wand2 class="h-4 w-4" />
+    </div>
+    <div>
+      <h3 class="font-bold text-white text-sm">Auto meal generator</h3>
+      <p class="text-[10px] text-zinc-500">Pick items that fit your targets automatically</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-3 mb-3">
+    <div>
+      <label for="solver-max-cal" class="block text-[10px] font-bold uppercase tracking-wider text-zinc-500 mb-1">Max calories</label>
+      <input type="number" id="solver-max-cal" min="100" max="3000" step="50" placeholder="e.g. 600"
+        class="w-full px-3 py-2 bg-zinc-900 border border-zinc-800 rounded-lg text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500" />
+    </div>
+    <div>
+      <label for="solver-min-pro" class="block text-[10px] font-bold uppercase tracking-wider text-zinc-500 mb-1">Min protein (g)</label>
+      <input type="number" id="solver-min-pro" min="0" max="200" step="5" placeholder="e.g. 40"
+        class="w-full px-3 py-2 bg-zinc-900 border border-zinc-800 rounded-lg text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500" />
+    </div>
+  </div>
+
+  <button id="solver-run" type="button"
+    class="w-full py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-xs uppercase tracking-wider rounded-lg transition-colors flex items-center justify-center gap-1.5">
+    <Wand2 class="h-3.5 w-3.5" />
+    <span>Generate meal</span>
+  </button>
+
+  <div id="solver-result" class="hidden mt-3 pt-3 border-t border-zinc-800 text-xs text-zinc-400"></div>
+</div>
+
+<script is:inline>
+  (function() {
+    const runBtn = document.getElementById('solver-run');
+    const maxCalInput = document.getElementById('solver-max-cal');
+    const minProInput = document.getElementById('solver-min-pro');
+    const resultEl = document.getElementById('solver-result');
+
+    if (!runBtn) return;
+
+    /**
+     * Greedy knapsack-like solver: tries to build a meal under maxCal with at least minPro.
+     * Strategy: prioritize items by protein-to-calorie ratio, then fill remaining calories
+     * with high-protein items until we hit the protein target or run out of calorie budget.
+     */
+    function solve(menuItems, maxCal, minPro) {
+      // Filter out zero-calorie items (sauces, etc.) for the solver
+      const pool = menuItems.filter((it) => it.calories > 0 && it.protein >= 0);
+      // Sort by protein/calorie ratio descending, then by calories ascending
+      const sorted = [...pool].sort((a, b) => {
+        const ratioA = a.calories > 0 ? a.protein / a.calories : 0;
+        const ratioB = b.calories > 0 ? b.protein / b.calories : 0;
+        if (ratioB !== ratioA) return ratioB - ratioA;
+        return a.calories - b.calories;
+      });
+
+      let totalCal = 0;
+      let totalPro = 0;
+      const selected = [];
+
+      // Phase 1: add highest-protein items until we hit minPro
+      for (const item of sorted) {
+        if (totalPro >= minPro) break;
+        if (totalCal + item.calories > maxCal) continue;
+        selected.push(item);
+        totalCal += item.calories;
+        totalPro += item.protein;
+      }
+
+      // Phase 2: if we still have calorie budget, add a side to round out the meal
+      if (totalCal < maxCal - 50 && selected.length > 0) {
+        const remaining = maxCal - totalCal;
+        const sides = sorted.filter((it) => !selected.includes(it) && it.calories <= remaining && it.calories < 300);
+        if (sides.length > 0) {
+          // Pick a smaller item to fill remaining budget
+          const side = sides[sides.length - 1];
+          selected.push(side);
+          totalCal += side.calories;
+          totalPro += side.protein;
+        }
+      }
+
+      return { selected, totalCal, totalPro, success: totalPro >= minPro && totalCal <= maxCal };
+    }
+
+    runBtn.addEventListener('click', () => {
+      const maxCal = parseInt(maxCalInput.value, 10);
+      const minPro = parseInt(minProInput.value, 10);
+
+      if (!maxCal || maxCal < 100) {
+        resultEl.textContent = 'Please enter a maximum calorie target of at least 100.';
+        resultEl.classList.remove('hidden');
+        return;
+      }
+
+      // Pull menu items from the page DOM (data attributes set by RestaurantMenu.astro)
+      const cards = document.querySelectorAll('.menu-item-card');
+      const menuItems = Array.from(cards).map((card) => {
+        const el = card as HTMLElement;
+        const name = el.dataset.itemName || '';
+        const category = el.dataset.itemCategory || '';
+        // Parse from the card's data attributes if set, otherwise parse from inner HTML
+        const calText = el.querySelector('[data-cal]')?.getAttribute('data-cal') || '0';
+        const proText = el.querySelector('[data-pro]')?.getAttribute('data-pro') || '0';
+        // Fallback: parse from visible card text
+        const allText = el.textContent || '';
+        return {
+          id: `${category}::${name}`,
+          name: name.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+          source: category,
+          calories: parseFloat(calText) || 0,
+          protein: parseFloat(proText) || 0,
+          carbs: 0, // not used by solver
+          fat: 0,
+        };
+      }).filter((it) => it.calories > 0);
+
+      if (menuItems.length === 0) {
+        resultEl.textContent = 'No menu items found on this page to compose a meal from.';
+        resultEl.classList.remove('hidden');
+        return;
+      }
+
+      const targetPro = isNaN(minPro) ? 0 : minPro;
+      const result = solve(menuItems, maxCal, targetPro);
+
+      if (result.selected.length === 0) {
+        resultEl.innerHTML = `Could not build a meal under ${maxCal} calories from this menu. Try increasing the calorie limit.`;
+        resultEl.classList.remove('hidden');
+        return;
+      }
+
+      if (!result.success) {
+        resultEl.innerHTML = `<strong class="text-amber-400">Close but not quite:</strong> Found a ${result.totalCal} calorie meal with ${result.totalPro}g protein. Increase calories or lower the protein target for a better match.`;
+      } else {
+        resultEl.innerHTML = `<strong class="text-emerald-400">Match found:</strong> ${result.totalCal} calories, ${result.totalPro}g protein.`;
+      }
+
+      // Clear current meal and add the solver's picks
+      if (window.nsAddToMeal && confirm(`Add ${result.selected.length} items to your meal? This will replace your current meal.`)) {
+        localStorage.removeItem('ns-meal-items');
+        result.selected.forEach((item) => {
+          window.nsAddToMeal(item);
+        });
+      }
+
+      // Highlight selected items on the page briefly
+      document.querySelectorAll('.menu-item-card').forEach((card) => {
+        card.classList.remove('ring-2', 'ring-emerald-500');
+      });
+      result.selected.forEach((item) => {
+        const card = document.querySelector(`.menu-item-card[data-item-name="${item.name.toLowerCase()}"]`);
+        card?.classList.add('ring-2', 'ring-emerald-500');
+        setTimeout(() => card?.classList.remove('ring-2', 'ring-emerald-500'), 3000);
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,116 @@
+# =============================================================================
+# NutriFlow - Hostinger shared hosting configuration
+# Works on Apache + LiteSpeed (Hostinger's default webservers)
+# =============================================================================
+
+# ---------- Default character set ----------
+AddDefaultCharset UTF-8
+
+# ---------- HTTPS redirect ----------
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ---------- Force non-www (optional, comment out to keep www) ----------
+# RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+# RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+# ---------- Pretty URL trailing slash handling ----------
+# Astro outputs /restaurants/x/index.html which is served as /restaurants/x/
+# This rule lets visitors hit /restaurants/x without the trailing slash
+DirectorySlash Off
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^(.+)/$
+RewriteRule ^(.+)$ $1/ [L,R=301]
+
+# ---------- Hide dotfiles and sensitive files ----------
+<FilesMatch "^\.(git|env|htaccess|htpasswd)">
+  Require all denied
+</FilesMatch>
+
+# ---------- Protect data files (the JSON source files are bundled at build) ----------
+# Nothing to protect in dist/ but this is a safety net if backend is added later
+<FilesMatch "\.(md|ts|tsx|astro)$">
+  Require all denied
+</FilesMatch>
+
+# ---------- Compression (GZIP / Brotli) ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+  AddOutputFilterByType DEFLATE application/json application/ld+json
+  AddOutputFilterByType DEFLATE image/svg+xml application/xml
+</IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/xml
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript application/x-javascript
+  AddOutputFilterByType BROTLI_COMPRESS application/json application/ld+json
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml application/xml
+</IfModule>
+
+# ---------- Browser caching ----------
+# Astro content-hashes assets in /_astro/ so they can be cached aggressively
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Hashed assets - 1 year (immutable)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType application/x-javascript "access plus 1 year"
+
+  # HTML - short cache so updates show quickly
+  ExpiresByType text/html "access plus 5 minutes"
+  ExpiresByType application/ld+json "access plus 5 minutes"
+
+  # JSON data - 1 hour
+  ExpiresByType application/json "access plus 1 hour"
+
+  # Images and fonts - 1 year
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Hashed assets - immutable
+  <FilesMatch "\.(js|css|woff2?|svg|png|jpg|jpeg|gif|webp|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # HTML - must revalidate
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=300, must-revalidate"
+  </FilesMatch>
+
+  # Security headers
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header set X-XSS-Protection "1; mode=block"
+
+  # HSTS (only enable once HTTPS is confirmed working)
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+
+# ---------- Custom 404 page ----------
+ErrorDocument 404 /404/
+
+# ---------- MIME types (just in case server config is loose) ----------
+<IfModule mod_mime.c>
+  AddType application/ld+json .json
+  AddType image/svg+xml .svg
+  AddType font/woff2 .woff2
+</IfModule>
+
+# ---------- Directory index priority ----------
+DirectoryIndex index.html

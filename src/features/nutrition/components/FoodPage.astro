@@ -13,7 +13,6 @@ interface Props {
 
 const { food } = Astro.props;
 
-// Dynamic Table of Contents headings
 const headings = [
   { text: 'Overview', slug: 'overview', depth: 2 },
   { text: 'Macronutrient Breakdown', slug: 'macronutrient-breakdown', depth: 2 },
@@ -25,7 +24,9 @@ const headings = [
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
   <!-- Left sidebar TOC (desktop only) -->
   <aside class="hidden lg:block lg:col-span-3">
-    <TOC headings={headings} />
+    <div class="lg:sticky lg:top-24">
+      <TOC headings={headings} />
+    </div>
   </aside>
 
   <!-- Main content body -->
@@ -36,57 +37,59 @@ const headings = [
         <Sparkles class="h-3.5 w-3.5" />
         <span>Category: {food.category}</span>
       </div>
-      
+
       <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
         {food.name} nutrition profile
       </h2>
-      
-      <p class="text-zinc-300 text-sm leading-relaxed">
+
+      <p class="text-zinc-300 text-sm md:text-base leading-relaxed">
         {food.description || `Get verified calorie data, macronutrient breakdown, and vitamin content for ${food.name}.`}
       </p>
     </section>
 
     <!-- Macro Breakdown with Lazy Loaded Chart -->
     <section id="macronutrient-breakdown" class="space-y-4 scroll-mt-20">
-      <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">Macronutrient Breakdown</h2>
-      <p class="text-zinc-400 text-xs leading-normal">
+      <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">Macronutrient Breakdown</h2>
+      <p class="text-zinc-400 text-xs md:text-sm leading-relaxed">
         Visual distribution of energy in {food.name} per {food.servingSize} serving. Check protein, carbs, and fat weights.
       </p>
-      <MacroChart 
-        protein={food.macros.protein.value} 
-        carbs={food.macros.carbs.value} 
-        fat={food.macros.fat.value} 
+      <MacroChart
+        protein={food.macros.protein.value}
+        carbs={food.macros.carbs.value}
+        fat={food.macros.fat.value}
       />
     </section>
 
     <!-- Micros & Benefits -->
     <section id="micronutrients-benefits" class="space-y-4 scroll-mt-20">
-      <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">Micronutrient Profile</h2>
-      <p class="text-zinc-300 text-sm leading-relaxed">
-        {food.name} is a rich source of nutrients. A {food.servingSize} serving provides a balanced mix of micronutrients essential for bodily functions and metabolic health.
+      <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">Micronutrient Profile</h2>
+      <p class="text-zinc-300 text-sm md:text-base leading-relaxed">
+        {food.name} is a source of essential micronutrients. A {food.servingSize} serving provides a mix of vitamins and minerals that support bodily functions and metabolic health.
       </p>
-      <div class="grid grid-cols-2 gap-3 text-xs">
-        {food.micros && Object.entries(food.micros).map(([key, val]) => (
-          <div class="bg-zinc-900 border border-zinc-800/80 p-3.5 rounded-xl flex items-center justify-between">
-            <span class="text-zinc-400 font-semibold uppercase tracking-wider text-[10px]">{key.replace(/([A-Z])/g, ' $1')}</span>
-            <span class="font-extrabold text-white">{val.value}{val.unit}</span>
-          </div>
-        ))}
-      </div>
+      {food.micros && Object.keys(food.micros).length > 0 && (
+        <div class="grid grid-cols-2 gap-3 text-xs">
+          {Object.entries(food.micros).map(([key, val]: [string, any]) => (
+            <div class="bg-zinc-900 border border-zinc-800/80 p-3.5 rounded-xl flex items-center justify-between">
+              <span class="text-zinc-400 font-semibold uppercase tracking-wider text-[10px]">{key.replace(/([A-Z])/g, ' $1')}</span>
+              <span class="font-extrabold text-white">{val.value}{val.unit}</span>
+            </div>
+          ))}
+        </div>
+      )}
     </section>
 
     <!-- FAQs -->
     {food.faqs && food.faqs.length > 0 && (
       <section id="faqs" class="space-y-4 scroll-mt-20">
-        <h2 class="text-xl font-bold text-white border-l-4 border-emerald-500 pl-3">FAQs</h2>
+        <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">FAQs</h2>
         <FAQ faqs={food.faqs} />
       </section>
     )}
   </article>
 
   <!-- Right sidebar widgets -->
-  <aside class="lg:col-span-4 space-y-8">
-    <NutritionTable 
+  <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
+    <NutritionTable
       name={food.name}
       servingSize={food.servingSize}
       calories={food.calories}
@@ -94,9 +97,9 @@ const headings = [
       micros={food.micros}
     />
 
-    <AuthorBox 
+    <AuthorBox
       name="Dr. Sarah Jenkins"
-      role="Clinical Dietitian & Nutritionist"
+      role="Clinical Dietitian and Nutritionist"
       bio="Specializing in nutritional science and dietetics with over a decade of clinical experience in metabolic health."
       credentials={["PhD Nutritional Science", "RDN License #48291"]}
     />

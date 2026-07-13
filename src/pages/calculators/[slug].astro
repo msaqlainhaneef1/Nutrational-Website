@@ -1,12 +1,14 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import Calculator from '@/features/calculators/shared/Calculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
 
 export async function getStaticPaths() {
   return [
-    { params: { slug: 'bmi' }, props: { type: 'bmi' } },
-    { params: { slug: 'bmr' }, props: { type: 'bmr' } },
-    { params: { slug: 'tdee' }, props: { type: 'tdee' } },
+    { params: { slug: 'bmi' }, props: { type: 'bmi' as const } },
+    { params: { slug: 'bmr' }, props: { type: 'bmr' as const } },
+    { params: { slug: 'tdee' }, props: { type: 'tdee' as const } },
   ];
 }
 
@@ -15,26 +17,107 @@ interface Props {
 }
 
 const { type } = Astro.props;
+const meta = getCalculatorBySlug(type)!;
 
-const metaInfo = {
-  bmi: {
-    title: "Body Mass Index (BMI) Calculator",
-    desc: "Calculate your Body Mass Index (BMI) to determine if you are underweight, normal weight, overweight, or obese.",
-    about: "Body Mass Index (BMI) is a simple estimate of body fat based on height and weight. It is widely used by healthcare providers to screen for weight categories that may lead to health problems. It is calculated by dividing weight in kilograms by the square of height in meters."
-  },
-  bmr: {
-    title: "Basal Metabolic Rate (BMR) Calculator",
-    desc: "Calculate your BMR to understand how many calories your body burns at rest to support vital organ systems.",
-    about: "Your Basal Metabolic Rate (BMR) represents the absolute minimum number of calories your body needs to survive (heart beating, brain function, breathing) while in a resting state. This calculator utilizes the highly accurate Mifflin-St Jeor equation, which is standard in clinical practice."
-  },
-  tdee: {
-    title: "Total Daily Energy Expenditure (TDEE) Calculator",
-    desc: "Find out your daily maintenance calories, or scale down for weight loss or up for weight gain.",
-    about: "Total Daily Energy Expenditure (TDEE) is an estimation of how many calories you burn per day, including physical activity. It is calculated by taking your Basal Metabolic Rate (BMR) and multiplying it by an activity multiplier based on how often you exercise. TDEE is the starting point for structuring a weight loss or muscle building diet."
-  }
-}[type];
+const aboutMap = {
+  bmi: 'Body Mass Index (BMI) is a simple estimate of body fat based on height and weight. It is widely used by healthcare providers to screen for weight categories that may lead to health problems. It is calculated by dividing weight in kilograms by the square of height in meters.',
+  bmr: 'Your Basal Metabolic Rate (BMR) represents the absolute minimum number of calories your body needs to survive, including heart beating, brain function, and breathing, while in a resting state. This calculator uses the Mifflin-St Jeor equation, which is the standard in clinical practice and more accurate than older formulas like Harris-Benedict.',
+  tdee: 'Total Daily Energy Expenditure (TDEE) estimates how many calories you burn per day, including physical activity. It is calculated by taking your BMR and multiplying by an activity multiplier. TDEE is the starting point for structuring a weight loss or muscle building diet. Subtract 500 for loss, add 350 to 500 for gain.',
+};
+
+const sectionsMap = {
+  bmi: [
+    {
+      heading: 'What BMI actually measures',
+      body: [
+        'BMI is a screening tool, not a diagnostic one. It uses height and weight to estimate whether your weight falls in a range associated with higher or lower metabolic risk. The calculation is simple: weight in kilograms divided by height in meters squared.',
+        'A BMI between 18.5 and 24.9 is associated with the lowest statistical risk of cardiovascular disease, diabetes, and all cause mortality. Below 18.5 is underweight, 25 to 29.9 is overweight, and 30 or above is obese. These bands are population statistics, not individual predictions.',
+      ],
+    },
+    {
+      heading: 'What BMI gets wrong',
+      body: [
+        'BMI does not distinguish between fat and muscle. A heavily muscled athlete can register as overweight or obese on BMI while having very low body fat. Older adults can register as normal weight while having lost significant muscle and gained fat, a condition called sarcopenic obesity.',
+        'BMI also does not account for fat distribution. Visceral fat around the abdomen carries more health risk than subcutaneous fat around the hips and thighs, even at the same BMI. For this reason, BMI is best used alongside a waist circumference measurement and body fat percentage estimate.',
+      ],
+    },
+    {
+      heading: 'When BMI is most useful',
+      body: [
+        'BMI shines as a quick population level screening tool. For most sedentary adults, it correlates well with body fat percentage and metabolic risk. It is also useful for tracking changes over time, since the math is the same every time.',
+        'For athletes, bodybuilders, pregnant women, older adults with muscle loss, and very tall or short individuals, BMI should be supplemented with body fat percentage or waist measurements for a more accurate picture.',
+      ],
+    },
+  ],
+  bmr: [
+    {
+      heading: 'Why BMR matters',
+      body: [
+        'BMR is the foundation of every calorie calculation. It is the number of calories your body would burn if you stayed in bed all day, did not eat, and did not move. Even at complete rest, your body needs significant energy to keep your heart beating, lungs breathing, brain thinking, and cells maintaining themselves.',
+        'BMR typically accounts for 60 to 70 percent of total daily energy expenditure in sedentary people. Understanding your BMR helps you set realistic calorie targets. If your BMR is 1600, eating below that for an extended period is rarely sustainable.',
+      ],
+    },
+    {
+      heading: 'The Mifflin-St Jeor equation',
+      body: [
+        'The Mifflin-St Jeor equation was published in 1990 and is currently considered the most accurate BMR formula for most people. It improved on the older Harris-Benedict equation, which tended to overestimate BMR by about 5 percent.',
+        'For men: BMR equals 10 times weight in kilograms plus 6.25 times height in centimeters minus 5 times age in years plus 5. For women, the same formula minus 161. The gender offset reflects differences in lean mass at the same weight.',
+      ],
+    },
+    {
+      heading: 'How to use BMR',
+      body: [
+        'BMR alone is not your daily calorie target. It is the floor. To get your actual daily energy needs, multiply BMR by an activity factor (1.2 for sedentary, up to 1.9 for extreme athletes) to get TDEE.',
+        'A common mistake is eating below BMR to lose weight faster. This rarely works long term because the body adapts by reducing metabolic rate. A more sustainable approach is a modest deficit from TDEE while keeping intake at or above BMR.',
+      ],
+    },
+  ],
+  tdee: [
+    {
+      heading: 'How TDEE is built',
+      body: [
+        'TDEE combines four components. BMR is the largest at 60 to 70 percent of total. The thermic effect of food, the energy your body spends digesting what you eat, adds another 10 percent. Exercise activity is the calories you burn during structured workouts. Non-exercise activity thermogenesis, or NEAT, is everything else, walking, fidgeting, standing, doing chores.',
+        'NEAT is the most variable component. Two people of the same size, same workout routine, and same BMR can have TDEEs that differ by 500 calories or more based on how much they move outside the gym. This is why TDEE calculators are estimates, not exact numbers.',
+      ],
+    },
+    {
+      heading: 'Choosing the right activity level',
+      body: [
+        'The biggest mistake people make with TDEE calculators is overestimating their activity level. If you work a desk job and do three 45 minute workouts per week, you are moderately active at best, not very active. Pick the lower option if you are unsure.',
+        'Sedentary means desk job, no exercise, and little walking. Lightly active means desk job plus 1 to 3 workouts per week or lots of walking. Moderately active means 3 to 5 workouts per week plus some daily movement. Very active means 6 to 7 workouts per week or a physical job. Extra active is reserved for athletes training twice a day or people in physically demanding jobs.',
+      ],
+    },
+    {
+      heading: 'Using TDEE for weight goals',
+      body: [
+        'For maintenance, eat at your TDEE. For weight loss, subtract 500 calories to lose about 0.5 kg per week, or subtract 750 to 1000 for faster loss. For muscle gain, add 200 to 400 calories, focusing on a small surplus to minimize fat gain while supporting muscle growth.',
+        'Recalculate your TDEE every 5 to 10 kilograms of weight change, since a smaller body burns fewer calories. If weight loss stalls, it is usually because your TDEE has dropped along with your weight, not because the calculator was wrong.',
+      ],
+    },
+  ],
+};
+
+const faqsMap = {
+  bmi: [
+    { q: 'Is BMI accurate for muscular people?', a: 'No. BMI does not distinguish muscle from fat. A bodybuilder at 12 percent body fat can register as obese on BMI. Use body fat percentage or waist measurements if you carry significant muscle mass.' },
+    { q: 'What is a healthy BMI for older adults?', a: 'Some research suggests a slightly higher BMI (23 to 27) is associated with better outcomes in adults over 65. Very low BMI in older adults is linked to frailty and bone loss. Talk to your doctor about your individual risk profile.' },
+    { q: 'Does BMI work for teenagers?', a: 'BMI for children and teens uses percentiles rather than fixed cutoffs. If you are under 18, ask your pediatrician to interpret your BMI using age-specific growth charts.' },
+  ],
+  bmr: [
+    { q: 'Should I eat below my BMR to lose weight?', a: 'Generally no. Eating below BMR for extended periods causes metabolic adaptation and muscle loss. A better approach is a modest deficit from your TDEE while keeping intake at or above BMR.' },
+    { q: 'Why does my BMR decrease as I age?', a: 'BMR drops about 1 to 2 percent per decade after age 20, mostly due to loss of lean muscle mass. Resistance training is the most effective way to slow this decline.' },
+    { q: 'Which BMR formula is most accurate?', a: 'Mifflin-St Jeor is currently the most accurate for most people. Katch-McArdle, which uses lean body mass, is more accurate for muscular individuals but requires knowing your body fat percentage.' },
+  ],
+  tdee: [
+    { q: 'Why is my real TDEE different from the calculator?', a: 'TDEE calculators estimate based on population averages. Real TDEE varies based on NEAT, body composition, hormonal factors, and diet induced thermogenesis. Track your food and weight for 2 to 3 weeks to find your real TDEE.' },
+    { q: 'Should I eat back exercise calories?', a: 'For most people no. Your activity level in the TDEE calculation already accounts for exercise. Eating back exercise calories double counts. The exception is significant endurance training on top of a sedentary baseline.' },
+    { q: 'How often should I recalculate TDEE?', a: 'Every 5 to 10 kilograms of weight change. A smaller body burns fewer calories, so a TDEE that worked at 85 kg will produce weight gain at 75 kg if not adjusted.' },
+  ],
+};
 ---
 
-<Layout title={metaInfo.title} description={metaInfo.desc}>
-  <CalculatorPage type={type} metaInfo={metaInfo} />
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={aboutMap[type]} sections={sectionsMap[type]} faqs={faqsMap[type]}>
+    <Calculator type={type} />
+  </CalculatorPage>
 </Layout>

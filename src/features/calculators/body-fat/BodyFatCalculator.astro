@@ -1,0 +1,143 @@
+---
+import { Calculator as CalcIcon } from '@lucide/astro';
+---
+
+<div class="glass-card rounded-3xl p-6 md:p-8 border border-zinc-800">
+  <div class="flex items-center space-x-3 border-b border-zinc-900 pb-5 mb-6">
+    <div class="p-3 bg-purple-500/10 text-purple-400 rounded-2xl border border-purple-500/20">
+      <CalcIcon class="h-6 w-6" />
+    </div>
+    <div>
+      <h3 class="font-extrabold text-xl text-white tracking-tight">Body fat calculator</h3>
+      <p class="text-zinc-500 text-xs mt-0.5">U.S. Navy circumference method</p>
+    </div>
+  </div>
+
+  <form id="calc-form-bodyfat" class="space-y-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="space-y-2 md:col-span-2">
+        <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Gender</label>
+        <div class="grid grid-cols-2 gap-3">
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="male" checked class="accent-emerald-500" />
+            <span class="text-zinc-200">Male</span>
+          </label>
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="female" class="accent-emerald-500" />
+            <span class="text-zinc-200">Female</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <label for="height-bf" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Height (cm)</label>
+        <input type="number" id="height-bf" name="height" required min="120" max="230" step="1" placeholder="e.g. 178"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2">
+        <label for="neck-bf" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Neck circumference (cm)</label>
+        <input type="number" id="neck-bf" name="neck" required min="20" max="70" step="0.5" placeholder="e.g. 38"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2">
+        <label for="waist-bf" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Waist circumference (cm)</label>
+        <input type="number" id="waist-bf" name="waist" required min="50" max="200" step="0.5" placeholder="e.g. 84"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+      <div class="space-y-2" id="hip-field-wrap">
+        <label for="hip-bf" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Hip circumference (cm)</label>
+        <input type="number" id="hip-bf" name="hip" min="50" max="200" step="0.5" placeholder="Required for females"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+    </div>
+
+    <button type="submit"
+      class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold text-sm uppercase tracking-wider rounded-xl cursor-pointer shadow-lg shadow-emerald-500/15 hover:shadow-emerald-500/25 transition-all flex items-center justify-center space-x-2">
+      <CalcIcon class="h-4 w-4" />
+      <span>Calculate body fat</span>
+    </button>
+  </form>
+
+  <div id="calc-results-bodyfat" class="hidden mt-8 border-t border-zinc-900 pt-6">
+    <h4 class="font-extrabold text-lg text-white mb-4">Your body fat result</h4>
+
+    <div class="grid grid-cols-2 gap-3 mb-5">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+        <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Body fat percentage</span>
+        <span class="text-4xl font-black text-purple-400 mt-1 block" id="bf-pct">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl">
+        <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Category</span>
+        <span class="text-lg font-black text-white mt-3 block" id="bf-cat">--</span>
+      </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-purple-500/5 border border-purple-500/20 rounded-2xl">
+      <p class="text-xs text-purple-200 leading-relaxed">
+        <strong class="text-purple-300">Measurement tips:</strong> Measure waist at the navel, neck just below the larynx, and hips at the widest point. Measure in the morning before eating for consistency. The Navy method has a 3 to 4 percent margin of error compared to DEXA, but it tracks changes well over time.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { calculateBodyFat } from './bodyFat';
+
+  const form = document.getElementById('calc-form-bodyfat') as HTMLFormElement;
+  const results = document.getElementById('calc-results-bodyfat');
+  const hipWrap = document.getElementById('hip-field-wrap');
+  const genderRadios = document.querySelectorAll('input[name="gender"]');
+
+  // Show/hide hip field based on gender
+  function updateHipVisibility() {
+    const selected = (document.querySelector('input[name="gender"]:checked') as HTMLInputElement)?.value;
+    if (hipWrap) {
+      hipWrap.style.display = selected === 'female' ? '' : 'none';
+    }
+  }
+  genderRadios.forEach((r) => r.addEventListener('change', updateHipVisibility));
+  updateHipVisibility();
+
+  if (form && results) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const gender = fd.get('gender') as 'male' | 'female';
+      const height = parseFloat(fd.get('height') as string);
+      const neck = parseFloat(fd.get('neck') as string);
+      const waist = parseFloat(fd.get('waist') as string);
+      const hip = parseFloat(fd.get('hip') as string) || undefined;
+
+      if (!height || !neck || !waist) return;
+      if (gender === 'female' && !hip) return;
+
+      const r = calculateBodyFat(gender, height, waist, neck, hip);
+
+      const set = (id: string, val: string) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = val;
+      };
+
+      set('bf-pct', r.bodyFatPercentage + '%');
+      set('bf-cat', r.category);
+
+      // Color the category
+      const catEl = document.getElementById('bf-cat');
+      if (catEl) {
+        catEl.className = 'text-lg font-black mt-3 block ';
+        if (r.category === 'Essential fat' || r.category === 'Athletes') {
+          catEl.classList.add('text-emerald-400');
+        } else if (r.category === 'Fitness') {
+          catEl.classList.add('text-blue-400');
+        } else if (r.category === 'Average') {
+          catEl.classList.add('text-amber-400');
+        } else {
+          catEl.classList.add('text-red-400');
+        }
+      }
+
+      results.classList.remove('hidden');
+      results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+</script>

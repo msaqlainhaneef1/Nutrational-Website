@@ -51,7 +51,7 @@ const schema = {
   description={`Browse ${totalItems} menu items from ${restaurant.name} with full calorie, protein, carb, fat, fiber, sodium, and sugar data. Filter by category and search by name.`}
   schema={schema}
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
     <div class="flex items-center justify-between">
       <Breadcrumb items={[
         { label: 'Restaurants', url: '/restaurants' },
@@ -64,22 +64,22 @@ const schema = {
     </div>
 
     <!-- Header -->
-    <div class="border-b border-zinc-900 pb-6 space-y-3">
-      <div class="flex items-center gap-3">
-        <span class="text-5xl">{restaurant.emoji || '🍽'}</span>
-        <div>
-          <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">{restaurant.name}</h1>
-          <div class="flex items-center gap-2 mt-1.5">
-            <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
+    <div class="border-b border-zinc-900 pb-8 space-y-4">
+      <div class="flex items-start gap-4">
+        <span class="text-6xl leading-none">{restaurant.emoji || '🍽'}</span>
+        <div class="flex-grow">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
               {restaurant.category || 'Restaurant'}
             </span>
-            <span class="text-xs text-zinc-500">{totalItems} menu items</span>
+            <span class="text-xs text-zinc-500">{totalItems} menu items indexed</span>
           </div>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">{restaurant.name}</h1>
+          {restaurant.description && (
+            <p class="text-zinc-400 text-sm md:text-base max-w-3xl leading-relaxed pt-3">{restaurant.description}</p>
+          )}
         </div>
       </div>
-      {restaurant.description && (
-        <p class="text-zinc-400 text-sm max-w-3xl leading-relaxed pt-2">{restaurant.description}</p>
-      )}
     </div>
 
     <RestaurantPage restaurant={restaurant} />

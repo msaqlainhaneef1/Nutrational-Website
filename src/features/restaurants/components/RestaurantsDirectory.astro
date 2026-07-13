@@ -17,16 +17,17 @@ const totalItems = restaurants.reduce((s, r) => s + (r.itemCount || r.categories
 
   <!-- Header -->
   <div class="space-y-4">
-    <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+    <div class="inline-flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
       <Database class="h-4 w-4" />
-      <span>{restaurants.length} chains, {totalItems.toLocaleString()} menu items</span>
+      <span>{restaurants.length} chains and {totalItems.toLocaleString()} menu items</span>
     </div>
     <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
       Restaurant nutrition database
     </h1>
     <p class="text-zinc-400 text-base max-w-3xl leading-relaxed">
       Pick a chain to see every menu item with full calorie and macro data. Use the search to filter by name,
-      or jump to a cuisine category. All data is sourced from public restaurant disclosures.
+      or jump to a cuisine category. Every restaurant page includes an auto meal generator, meal builder,
+      and a combined FDA nutrition label view.
     </p>
   </div>
 
@@ -136,7 +137,6 @@ const totalItems = restaurants.reduce((s, r) => s + (r.itemCount || r.categories
     let query = '';
     let activeCategory = 'all';
 
-    // Pre-compute normalized name + category for each card
     const cardData = cards.map((card) => ({
       el: card,
       name: (card.dataset.name || '').toLowerCase(),

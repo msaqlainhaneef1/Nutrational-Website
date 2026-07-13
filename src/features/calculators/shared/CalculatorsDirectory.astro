@@ -1,62 +1,110 @@
 ---
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
-import { Scale, Flame, Activity, ArrowRight } from '@lucide/astro';
+import { ArrowRight, Lock } from '@lucide/astro';
+import { CALCULATORS, CALCULATOR_CATEGORIES, getPopularCalculators } from '@/features/calculators/shared/registry';
+import { getRestaurantStats } from '@/features/restaurants/services/restaurant';
 
-const calculators = [
-  {
-    name: "Body Mass Index (BMI) Calculator",
-    slug: "bmi",
-    desc: "Calculate your body mass index to check if you are within a healthy weight range for your height. Recommended for a quick weight assessment.",
-    icon: Scale,
-    color: "text-blue-400 bg-blue-500/10 border-blue-500/20"
-  },
-  {
-    name: "Basal Metabolic Rate (BMR) Calculator",
-    slug: "bmr",
-    desc: "Calculate your BMR using the Mifflin-St Jeor formula to discover how many calories your body burns in a state of complete rest.",
-    icon: Flame,
-    color: "text-amber-400 bg-amber-500/10 border-amber-500/20"
-  },
-  {
-    name: "Total Daily Energy Expenditure (TDEE) Calculator",
-    slug: "tdee",
-    desc: "Determine your maintenance, fat loss, or muscle gain calories by scaling your BMR with your daily physical activity levels.",
-    icon: Activity,
-    color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20"
-  }
-];
+const popular = getPopularCalculators(4);
+const stats = getRestaurantStats();
 ---
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
   <Breadcrumb items={[{ label: 'Calculators', url: '/calculators' }]} />
 
-  <div class="space-y-3">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Health & Fitness Calculators</h1>
-    <p class="text-zinc-400 text-sm max-w-2xl">
-      Compute essential body metrics and calorie requirements securely on your device. None of your inputs are saved or sent to a server.
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center space-x-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+      <span class="w-8 h-px bg-emerald-500/50"></span>
+      <span>{CALCULATORS.length} free tools, no signup required</span>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+      Health and fitness calculators
+    </h1>
+    <p class="text-zinc-400 text-base max-w-3xl leading-relaxed">
+      Compute essential body metrics and calorie requirements securely on your device. None of your inputs are saved or sent to a server. All math runs locally in your browser, powered by standard clinical formulas.
     </p>
   </div>
 
-  <!-- Calculators grid -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
-    {calculators.map((calc) => {
-      const Icon = calc.icon;
-      return (
-        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-3xl p-6 border border-zinc-800 flex flex-col justify-between h-full group">
-          <div class="space-y-4">
-            <div class={`p-3 w-12 h-12 rounded-xl border flex items-center justify-center ${calc.color}`}>
-              <Icon class="h-6 w-6" />
-            </div>
-            <h2 class="font-extrabold text-xl text-white group-hover:text-emerald-400 transition-colors">{calc.name}</h2>
-            <p class="text-zinc-400 text-sm leading-relaxed">{calc.desc}</p>
+  <!-- Popular calculators -->
+  <section class="space-y-5">
+    <div class="flex items-center justify-between">
+      <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+        <span class="text-amber-400 text-xl">★</span>
+        <span>Most popular</span>
+      </h2>
+      <span class="text-xs text-zinc-500 font-semibold">{popular.length} tools</span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {popular.map((calc) => (
+        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-2xl p-5 flex flex-col group h-full">
+          <div class="flex items-start justify-between mb-3">
+            <div class="text-3xl">{calc.icon}</div>
           </div>
-          
-          <div class="mt-8 pt-4 border-t border-zinc-900 flex items-center justify-between text-xs text-emerald-400 font-extrabold">
-            <span>Open Calculator</span>
-            <ArrowRight class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
+          <div class="flex-grow">
+            <div class="text-[10px] font-bold uppercase tracking-wider text-zinc-500">{calc.tagline}</div>
+            <h3 class="font-bold text-base text-white group-hover:text-emerald-400 transition-colors leading-snug mt-0.5">
+              {calc.shortName}
+            </h3>
+            <p class="text-xs text-zinc-500 mt-1.5 leading-relaxed line-clamp-2">{calc.description}</p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-zinc-900/80 flex items-center justify-between text-xs">
+            <span class="inline-flex items-center gap-1 text-zinc-500">
+              <Lock class="h-3 w-3" />
+              Private
+            </span>
+            <span class="text-emerald-400 font-bold">Open →</span>
           </div>
         </a>
-      );
-    })}
-  </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- All calculators by category -->
+  {CALCULATOR_CATEGORIES.map((cat) => {
+    const calcs = CALCULATORS.filter((c) => c.category === cat.name);
+    return (
+      <section class="space-y-5">
+        <div class="flex items-baseline justify-between border-b border-zinc-900 pb-3">
+          <div>
+            <h2 class="text-2xl font-bold text-white">{cat.name}</h2>
+            <p class="text-zinc-500 text-sm mt-0.5">{cat.description}</p>
+          </div>
+          <span class="text-xs text-zinc-600 font-semibold whitespace-nowrap ml-4">{calcs.length} tools</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {calcs.map((calc) => (
+            <a href={`/calculators/${calc.slug}`} class="glass-card rounded-2xl p-5 flex items-start gap-4 group h-full">
+              <div class={`p-2.5 rounded-xl border flex-shrink-0 ${calc.accent}`}>
+                <span class="text-xl leading-none">{calc.icon}</span>
+              </div>
+              <div class="flex-grow min-w-0">
+                <div class="text-[10px] font-bold uppercase tracking-wider text-zinc-500">{calc.tagline}</div>
+                <h3 class="font-bold text-base text-white group-hover:text-emerald-400 transition-colors leading-snug">
+                  {calc.name}
+                </h3>
+                <p class="text-xs text-zinc-500 mt-1.5 leading-relaxed line-clamp-2">{calc.description}</p>
+              </div>
+              <ArrowRight class="h-4 w-4 text-zinc-600 group-hover:text-emerald-400 transform group-hover:translate-x-1 transition-all flex-shrink-0 mt-1" />
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <!-- Restaurant calculators CTA -->
+  <section class="glass-card rounded-3xl p-8 md:p-10 space-y-4 text-center relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-teal-500/5 to-transparent pointer-events-none"></div>
+    <div class="relative z-10">
+      <div class="text-5xl mb-3">🍽️</div>
+      <h2 class="text-2xl md:text-3xl font-bold text-white">Looking for restaurant nutrition?</h2>
+      <p class="text-zinc-400 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
+        We also have {stats.totalRestaurants} restaurant chains with {stats.totalItems.toLocaleString()} menu items indexed. Each restaurant has its own nutrition calculator with search, filters, an auto meal generator, and a meal builder with shareable links.
+      </p>
+      <a href="/restaurants" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-colors shadow-lg shadow-emerald-500/15">
+        <span>Browse restaurants</span>
+        <ArrowRight class="h-4 w-4" />
+      </a>
+    </div>
+  </section>
 </div>

@@ -1,0 +1,131 @@
+---
+import { Calculator as CalcIcon } from '@lucide/astro';
+---
+
+<div class="glass-card rounded-3xl p-6 md:p-8 border border-zinc-800">
+  <div class="flex items-center space-x-3 border-b border-zinc-900 pb-5 mb-6">
+    <div class="p-3 bg-cyan-500/10 text-cyan-400 rounded-2xl border border-cyan-500/20">
+      <CalcIcon class="h-6 w-6" />
+    </div>
+    <div>
+      <h3 class="font-extrabold text-xl text-white tracking-tight">Ideal body weight</h3>
+      <p class="text-zinc-500 text-xs mt-0.5">Four clinical formulas, one easy answer</p>
+    </div>
+  </div>
+
+  <form id="calc-form-ideal" class="space-y-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="space-y-2 md:col-span-2">
+        <label class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Gender</label>
+        <div class="grid grid-cols-2 gap-3">
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="male" checked class="accent-emerald-500" />
+            <span class="text-zinc-200">Male</span>
+          </label>
+          <label class="flex items-center justify-center p-3 rounded-xl border border-zinc-800 bg-zinc-900/40 text-sm font-semibold cursor-pointer hover:border-zinc-700 transition-all select-none gap-2">
+            <input type="radio" name="gender" value="female" class="accent-emerald-500" />
+            <span class="text-zinc-200">Female</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <label for="height-ideal" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Height (cm)</label>
+        <input type="number" id="height-ideal" name="height" required min="120" max="230" step="1" placeholder="e.g. 178"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+      </div>
+
+      <div class="space-y-2">
+        <label for="frame-ideal" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Body frame</label>
+        <select id="frame-ideal" name="frame" required
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all appearance-none">
+          <option value="medium" selected>Medium</option>
+          <option value="small">Small (narrow wrists, slender build)</option>
+          <option value="large">Large (broad shoulders, thick wrists)</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="submit"
+      class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold text-sm uppercase tracking-wider rounded-xl cursor-pointer shadow-lg shadow-emerald-500/15 hover:shadow-emerald-500/25 transition-all flex items-center justify-center space-x-2">
+      <CalcIcon class="h-4 w-4" />
+      <span>Calculate ideal weight</span>
+    </button>
+  </form>
+
+  <div id="calc-results-ideal" class="hidden mt-8 border-t border-zinc-900 pt-6">
+    <h4 class="font-extrabold text-lg text-white mb-4">Your ideal weight range</h4>
+
+    <div class="bg-zinc-900/60 border border-zinc-800 p-5 rounded-2xl mb-4 text-center">
+      <span class="text-xs font-bold uppercase tracking-wider text-zinc-500 block">Recommended average</span>
+      <span class="text-4xl font-black text-emerald-400 mt-2 block" id="ideal-avg">--</span>
+      <span class="text-xs text-zinc-500 mt-1 block">Based on your frame and gender</span>
+    </div>
+
+    <div class="bg-zinc-900/40 border border-zinc-800/60 rounded-2xl p-4 mb-4">
+      <div class="text-xs text-zinc-500 mb-2">Healthy BMI range (18.5 to 24.9)</div>
+      <div class="text-lg font-bold text-white" id="ideal-range">--</div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Devine</span>
+        <span class="text-xl font-black text-zinc-200 mt-1 block" id="ideal-devine">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Robinson</span>
+        <span class="text-xl font-black text-zinc-200 mt-1 block" id="ideal-robinson">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Miller</span>
+        <span class="text-xl font-black text-zinc-200 mt-1 block" id="ideal-miller">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Hamwi</span>
+        <span class="text-xl font-black text-zinc-200 mt-1 block" id="ideal-hamwi">--</span>
+      </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-cyan-500/5 border border-cyan-500/20 rounded-2xl">
+      <p class="text-xs text-cyan-200 leading-relaxed">
+        <strong class="text-cyan-300">Pro tip:</strong> Ideal weight formulas are rough clinical estimates, not gospel. Use the healthy BMI range as your anchor and adjust based on body composition, muscle mass, and how you feel at different weights.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { calculateIdealWeight } from './idealWeight';
+
+  const form = document.getElementById('calc-form-ideal') as HTMLFormElement;
+  const results = document.getElementById('calc-results-ideal');
+
+  if (form && results) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const height = parseFloat(fd.get('height') as string);
+      const gender = fd.get('gender') as 'male' | 'female';
+      const frame = fd.get('frame') as 'small' | 'medium' | 'large';
+
+      if (!height) return;
+
+      const r = calculateIdealWeight(height, gender, frame);
+
+      const set = (id: string, val: string | number) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = String(val);
+      };
+
+      set('ideal-avg', r.average + ' kg');
+      set('ideal-range', r.healthyRange.min + ' to ' + r.healthyRange.max + ' kg');
+      set('ideal-devine', r.devine + ' kg');
+      set('ideal-robinson', r.robinson + ' kg');
+      set('ideal-miller', r.miller + ' kg');
+      set('ideal-hamwi', r.hamwi + ' kg');
+
+      results.classList.remove('hidden');
+      results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+</script>

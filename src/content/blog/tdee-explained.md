@@ -24,13 +24,13 @@ This is why the standard advice is to use the calculator output as a starting es
 
 A pound of body fat contains roughly 3,500 calories of stored energy. To lose one pound per week you need a daily deficit of about 500 calories. To lose half a kilogram (about 1.1 pounds) per week, which is the rate most clinicians recommend, you need a daily deficit of around 550 to 600 calories.
 
-This is why the NutriFlow TDEE calculator includes weight loss and weight gain targets at plus or minus 500 calories. It gives you a sensible starting point that should produce steady, sustainable change rather than aggressive crash dieting.
+This is why the Nutrition Solver TDEE calculator includes weight loss and weight gain targets at plus or minus 500 calories. It gives you a sensible starting point that should produce steady, sustainable change rather than aggressive crash dieting.
 
 Two important caveats. First, as you lose weight your TDEE drops, because a smaller body burns fewer calories. You will need to recalculate every 5 to 10 pounds. Second, the body adapts to caloric deficits by slightly reducing NEAT and lowering metabolic rate, so real world weight loss is usually a bit slower than the math predicts.
 
 ## How to use TDEE with restaurant data
 
-This is where the rest of NutriFlow comes in. Once you know your TDEE, every menu item on this site becomes a decision tool. If your maintenance is 2,200 calories and your goal is a 500 calorie deficit, then a 1,500 calorie burger combo at a fast food chain leaves you 800 calories for the entire rest of the day. That is doable but tight. A 700 calorie grilled chicken bowl leaves far more flexibility.
+This is where the rest of Nutrition Solver comes in. Once you know your TDEE, every menu item on this site becomes a decision tool. If your maintenance is 2,200 calories and your goal is a 500 calorie deficit, then a 1,500 calorie burger combo at a fast food chain leaves you 800 calories for the entire rest of the day. That is doable but tight. A 700 calorie grilled chicken bowl leaves far more flexibility.
 
 The point is not to track every gram of food forever. The point is to build an intuitive sense of which menu items fit your daily budget and which ones blow through it in a single sitting. After a few weeks of checking numbers, you start to recognize patterns. The 1,500 calorie restaurant burger is not an exception. It is the default. Most sit-down restaurant entrees are sized for two people, and recognizing that is the first step toward eating out without undoing a week of progress.
 

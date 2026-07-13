@@ -1,0 +1,340 @@
+---
+import { Plus, Minus, Trash2, Share2, X, Flame, ShoppingBag } from '@lucide/astro';
+---
+
+<!-- Meal builder widget - sticky sidebar on restaurant pages -->
+<div id="meal-builder" class="space-y-4" data-meal-storage-key="ns-meal-items">
+  <!-- Meal header -->
+  <div class="glass-card rounded-2xl p-4 border border-zinc-800">
+    <div class="flex items-center justify-between mb-3">
+      <div class="flex items-center gap-2">
+        <div class="p-1.5 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20">
+          <ShoppingBag class="h-4 w-4" />
+        </div>
+        <div>
+          <h3 class="font-bold text-white text-sm">My meal</h3>
+          <p class="text-[10px] text-zinc-500"><span id="meal-item-count">0</span> items</p>
+        </div>
+      </div>
+      <button id="meal-clear" type="button" class="text-xs text-zinc-500 hover:text-red-400 font-semibold transition-colors" aria-label="Clear meal">
+        <Trash2 class="h-4 w-4" />
+      </button>
+    </div>
+
+    <!-- Empty state -->
+    <div id="meal-empty" class="text-center py-6 text-zinc-500">
+      <ShoppingBag class="h-8 w-8 mx-auto mb-2 text-zinc-700" />
+      <p class="text-xs">Click any menu item to add it to your meal.</p>
+    </div>
+
+    <!-- Items list -->
+    <div id="meal-items" class="space-y-2 hidden max-h-72 overflow-y-auto no-scrollbar"></div>
+  </div>
+
+  <!-- Totals -->
+  <div id="meal-totals" class="glass-card rounded-2xl p-4 border border-zinc-800 hidden">
+    <div class="text-center pb-3 border-b border-zinc-900">
+      <div class="text-[10px] font-bold uppercase tracking-wider text-zinc-500">Total calories</div>
+      <div class="flex items-center justify-center gap-1.5 mt-1">
+        <Flame class="h-5 w-5 text-amber-500 fill-amber-500" />
+        <span class="text-3xl font-black text-amber-400 stat-number" id="meal-total-cal">0</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-2 mt-3 text-center">
+      <div>
+        <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Protein</div>
+        <div class="text-base font-black text-emerald-400"><span id="meal-total-pro">0</span>g</div>
+      </div>
+      <div>
+        <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Carbs</div>
+        <div class="text-base font-black text-blue-400"><span id="meal-total-carb">0</span>g</div>
+      </div>
+      <div>
+        <div class="text-[10px] uppercase font-bold tracking-wider text-zinc-500">Fat</div>
+        <div class="text-base font-black text-amber-400"><span id="meal-total-fat">0</span>g</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Calorie goal progress (optional) -->
+  <div id="meal-goal-wrap" class="glass-card rounded-2xl p-4 border border-zinc-800 hidden">
+    <div class="flex items-center justify-between mb-2">
+      <label for="meal-goal-input" class="text-xs font-bold uppercase tracking-wider text-zinc-500">Daily calorie goal</label>
+      <span class="text-xs text-zinc-400"><span id="meal-goal-pct">0</span>%</span>
+    </div>
+    <input type="number" id="meal-goal-input" min="800" max="6000" step="50" placeholder="e.g. 2000"
+      class="w-full px-3 py-2 bg-zinc-900 border border-zinc-800 rounded-lg text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500" />
+    <div class="mt-2 h-2 bg-zinc-800 rounded-full overflow-hidden">
+      <div id="meal-goal-bar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500" style="width: 0%"></div>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div id="meal-actions" class="hidden grid grid-cols-2 gap-2">
+    <button id="meal-share" type="button" class="flex items-center justify-center gap-1.5 px-3 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-300 hover:text-white text-xs font-bold rounded-xl transition-colors">
+      <Share2 class="h-3.5 w-3.5" />
+      <span>Share meal</span>
+    </button>
+    <button id="meal-print" type="button" class="flex items-center justify-center gap-1.5 px-3 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-300 hover:text-white text-xs font-bold rounded-xl transition-colors">
+      <Flame class="h-3.5 w-3.5" />
+      <span>FDA label</span>
+    </button>
+  </div>
+</div>
+
+<!-- Hidden modal for FDA label view -->
+<div id="fda-modal" class="hidden fixed inset-0 z-[80] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+  <div class="bg-zinc-950 border border-zinc-800 rounded-2xl max-w-md w-full p-6 relative">
+    <button id="fda-modal-close" class="absolute top-3 right-3 p-1.5 text-zinc-400 hover:text-white" aria-label="Close">
+      <X class="h-5 w-5" />
+    </button>
+    <h3 class="font-extrabold text-2xl tracking-tight text-white uppercase mb-1 border-b border-zinc-800 pb-2">Nutrition Facts</h3>
+    <p class="text-xs text-zinc-400 mb-3">Combined meal of <span id="fda-item-count">0</span> items</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex justify-between items-baseline border-b-4 border-zinc-800 pb-2">
+        <span class="font-bold text-white">Calories</span>
+        <span class="text-3xl font-black text-emerald-400" id="fda-cal">0</span>
+      </div>
+      <div class="text-right text-xs font-bold text-zinc-500 border-b border-zinc-800 pb-1">% Daily Value *</div>
+      <div class="flex justify-between border-b border-zinc-900 py-1.5">
+        <span class="text-white"><strong>Total Fat</strong> <span id="fda-fat">0</span>g</span>
+        <span class="font-bold text-white" id="fda-fat-pct">--</span>
+      </div>
+      <div class="flex justify-between border-b border-zinc-900 py-1.5">
+        <span class="text-white"><strong>Total Carbohydrate</strong> <span id="fda-carb">0</span>g</span>
+        <span class="font-bold text-white" id="fda-carb-pct">--</span>
+      </div>
+      <div class="flex justify-between border-b border-zinc-900 py-1.5">
+        <span class="text-white"><strong>Protein</strong> <span id="fda-pro">0</span>g</span>
+        <span class="font-bold text-white" id="fda-pro-pct">--</span>
+      </div>
+    </div>
+    <p class="text-[10px] text-zinc-500 mt-4 leading-normal">
+      * Percent Daily Values based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+    </p>
+  </div>
+</div>
+
+<script is:inline>
+  (function() {
+    const STORAGE_KEY = 'ns-meal-items';
+    const GOAL_KEY = 'ns-meal-goal';
+
+    const itemsContainer = document.getElementById('meal-items');
+    const emptyState = document.getElementById('meal-empty');
+    const totalsEl = document.getElementById('meal-totals');
+    const actionsEl = document.getElementById('meal-actions');
+    const goalWrap = document.getElementById('meal-goal-wrap');
+    const goalInput = document.getElementById('meal-goal-input');
+    const goalBar = document.getElementById('meal-goal-bar');
+    const goalPct = document.getElementById('meal-goal-pct');
+    const itemCountEl = document.getElementById('meal-item-count');
+    const clearBtn = document.getElementById('meal-clear');
+    const shareBtn = document.getElementById('meal-share');
+    const printBtn = document.getElementById('meal-print');
+    const fdaModal = document.getElementById('fda-modal');
+    const fdaModalClose = document.getElementById('fda-modal-close');
+
+    // Item schema: { id, name, source, calories, protein, carbs, fat, qty }
+
+    function load() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); }
+      catch (e) { return []; }
+    }
+    function save(items) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    }
+    function loadGoal() {
+      const g = parseInt(localStorage.getItem(GOAL_KEY) || '0', 10);
+      return isNaN(g) ? 0 : g;
+    }
+    function saveGoal(g) {
+      localStorage.setItem(GOAL_KEY, String(g));
+    }
+
+    function computeTotals(items) {
+      return items.reduce((acc, it) => {
+        acc.calories += it.calories * it.qty;
+        acc.protein += it.protein * it.qty;
+        acc.carbs += it.carbs * it.qty;
+        acc.fat += it.fat * it.qty;
+        return acc;
+      }, { calories: 0, protein: 0, carbs: 0, fat: 0 });
+    }
+
+    function render() {
+      const items = load();
+      const totals = computeTotals(items);
+
+      itemCountEl.textContent = items.reduce((s, it) => s + it.qty, 0);
+
+      if (items.length === 0) {
+        emptyState?.classList.remove('hidden');
+        itemsContainer?.classList.add('hidden');
+        itemsContainer && (itemsContainer.innerHTML = '');
+        totalsEl?.classList.add('hidden');
+        actionsEl?.classList.add('hidden');
+        goalWrap?.classList.add('hidden');
+      } else {
+        emptyState?.classList.add('hidden');
+        itemsContainer?.classList.remove('hidden');
+        totalsEl?.classList.remove('hidden');
+        actionsEl?.classList.remove('hidden');
+        goalWrap?.classList.remove('hidden');
+
+        itemsContainer.innerHTML = items.map((it) => `
+          <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-2.5 flex items-center gap-2" data-id="${it.id}">
+            <div class="flex-grow min-w-0">
+              <div class="text-xs font-bold text-white truncate">${escapeHtml(it.name)}</div>
+              <div class="text-[10px] text-zinc-500">${it.calories} cal · ${it.source}</div>
+            </div>
+            <div class="flex items-center gap-1 flex-shrink-0">
+              <button class="qty-dec p-1 text-zinc-400 hover:text-white" data-id="${it.id}" aria-label="Decrease">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12h14"/></svg>
+              </button>
+              <span class="text-xs font-bold text-white w-4 text-center">${it.qty}</span>
+              <button class="qty-inc p-1 text-zinc-400 hover:text-white" data-id="${it.id}" aria-label="Increase">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+              </button>
+              <button class="item-remove p-1 text-zinc-400 hover:text-red-400 ml-1" data-id="${it.id}" aria-label="Remove">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              </button>
+            </div>
+          </div>
+        `).join('');
+
+        // Wire up qty buttons
+        itemsContainer.querySelectorAll('.qty-inc').forEach((btn) => {
+          btn.addEventListener('click', () => updateQty(btn.dataset.id, 1));
+        });
+        itemsContainer.querySelectorAll('.qty-dec').forEach((btn) => {
+          btn.addEventListener('click', () => updateQty(btn.dataset.id, -1));
+        });
+        itemsContainer.querySelectorAll('.item-remove').forEach((btn) => {
+          btn.addEventListener('click', () => removeItem(btn.dataset.id));
+        });
+      }
+
+      // Update totals
+      document.getElementById('meal-total-cal').textContent = Math.round(totals.calories);
+      document.getElementById('meal-total-pro').textContent = Math.round(totals.protein);
+      document.getElementById('meal-total-carb').textContent = Math.round(totals.carbs);
+      document.getElementById('meal-total-fat').textContent = Math.round(totals.fat);
+
+      // Update goal progress
+      const goal = loadGoal();
+      if (goal > 0 && goalInput.value !== String(goal)) goalInput.value = String(goal);
+      if (goal > 0) {
+        const pct = Math.min(100, Math.round((totals.calories / goal) * 100));
+        if (goalBar) goalBar.style.width = pct + '%';
+        if (goalPct) goalPct.textContent = pct;
+      } else {
+        if (goalBar) goalBar.style.width = '0%';
+        if (goalPct) goalPct.textContent = '0';
+      }
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+
+    function addItem(item) {
+      const items = load();
+      const existing = items.find((it) => it.id === item.id);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        items.push({ ...item, qty: 1 });
+      }
+      save(items);
+      render();
+    }
+    window.nsAddToMeal = addItem;
+
+    function updateQty(id, delta) {
+      const items = load();
+      const it = items.find((x) => x.id === id);
+      if (!it) return;
+      it.qty += delta;
+      if (it.qty <= 0) {
+        const idx = items.indexOf(it);
+        items.splice(idx, 1);
+      }
+      save(items);
+      render();
+    }
+
+    function removeItem(id) {
+      const items = load().filter((x) => x.id !== id);
+      save(items);
+      render();
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (confirm('Clear all items from your meal?')) {
+          localStorage.removeItem(STORAGE_KEY);
+          render();
+        }
+      });
+    }
+
+    if (goalInput) {
+      goalInput.addEventListener('change', () => {
+        const v = parseInt(goalInput.value, 10);
+        saveGoal(isNaN(v) ? 0 : v);
+        render();
+      });
+    }
+
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async () => {
+        const items = load();
+        if (items.length === 0) return;
+        const encoded = btoa(encodeURIComponent(JSON.stringify(items)));
+        const url = `${window.location.origin}${window.location.pathname}?meal=${encoded}`;
+        try {
+          if (navigator.share) {
+            await navigator.share({ title: 'My Nutrition Solver meal', url });
+          } else {
+            await navigator.clipboard.writeText(url);
+            alert('Shareable meal link copied to clipboard.');
+          }
+        } catch (e) {
+          // user cancelled or no clipboard
+        }
+      });
+    }
+
+    if (printBtn) {
+      printBtn.addEventListener('click', () => {
+        const items = load();
+        if (items.length === 0) return;
+        const totals = computeTotals(items);
+        document.getElementById('fda-item-count').textContent = items.reduce((s, it) => s + it.qty, 0);
+        document.getElementById('fda-cal').textContent = Math.round(totals.calories);
+        document.getElementById('fda-fat').textContent = Math.round(totals.fat);
+        document.getElementById('fda-carb').textContent = Math.round(totals.carbs);
+        document.getElementById('fda-pro').textContent = Math.round(totals.protein);
+        const dvFat = Math.round((totals.fat / 78) * 100);
+        const dvCarb = Math.round((totals.carbs / 275) * 100);
+        const dvPro = Math.round((totals.protein / 50) * 100);
+        document.getElementById('fda-fat-pct').textContent = dvFat + '%';
+        document.getElementById('fda-carb-pct').textContent = dvCarb + '%';
+        document.getElementById('fda-pro-pct').textContent = dvPro + '%';
+        fdaModal?.classList.remove('hidden');
+      });
+    }
+
+    if (fdaModalClose) {
+      fdaModalClose.addEventListener('click', () => fdaModal?.classList.add('hidden'));
+      fdaModal?.addEventListener('click', (e) => {
+        if (e.target === fdaModal) fdaModal.classList.add('hidden');
+      });
+    }
+
+    // Expose render for restaurant menu pages to call after wiring add buttons
+    window.nsRenderMeal = render;
+    render();
+  })();
+</script>

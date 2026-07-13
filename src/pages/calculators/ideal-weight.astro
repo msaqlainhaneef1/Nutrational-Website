@@ -1,0 +1,55 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CalculatorPage from '@/features/calculators/shared/CalculatorPage.astro';
+import IdealWeightCalculator from '@/features/calculators/ideal-weight/IdealWeightCalculator.astro';
+import { getCalculatorBySlug } from '@/features/calculators/shared/registry';
+
+const meta = getCalculatorBySlug('ideal-weight')!;
+
+const about = 'The ideal body weight concept dates back to the 1960s and 1970s, when researchers developed formulas to estimate healthy weight for drug dosing and insurance tables. This calculator runs four classic formulas (Devine, Robinson, Miller, Hamwi) side by side and adjusts for body frame size. The healthy BMI range is shown alongside for context.';
+
+const sections = [
+  {
+    heading: 'Where these formulas come from',
+    body: [
+      'The Devine formula was published in 1974 by Dr. BJ Devine, originally to standardize drug dosing. It became the most widely cited ideal weight formula in clinical literature. Robinson, Miller, and Hamwi published variations in the 1980s based on different population data.',
+      'All four formulas share the same structure. They start with a base weight for someone who is exactly 5 feet tall (about 152 cm), then add a fixed amount of weight for each inch above 5 feet. The base weight and per-inch addition differ by gender and by formula.',
+    ],
+  },
+  {
+    heading: 'Why there are four answers',
+    body: [
+      'The four formulas were derived from different populations and for different purposes, so they give slightly different results. The Devine formula tends to give the highest estimate for tall men, while Miller tends to give the lowest. The average of all four is a reasonable middle ground.',
+      'Frame size adjusts this further. People with narrow wrists and slender builds tend to weigh less at the same height, while broader framed people naturally carry more weight. We adjust the average by plus or minus 10 percent based on the frame you select.',
+    ],
+  },
+  {
+    heading: 'How to use this number',
+    body: [
+      'Ideal weight is a reference point, not a target. If you are above your ideal weight but active, fit, and metabolically healthy, the number on the scale matters less than your body composition and lifestyle.',
+      'A more practical anchor is the healthy BMI range (18.5 to 24.9), which is shown alongside the four formulas. If you fall within that range, your weight is statistically associated with the lowest risk of metabolic disease. Outside that range, body composition and metabolic markers matter more than the absolute number.',
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: 'How do I know my body frame size?',
+    a: 'A quick test is to wrap your thumb and middle finger around your opposite wrist. If your fingers overlap easily, you have a small frame. If they just touch, medium. If they do not touch, large. This is a rough estimate, not a clinical measurement.',
+  },
+  {
+    q: 'Is ideal weight accurate for muscular people?',
+    a: 'No. Ideal weight formulas were developed before resistance training became common. A heavily muscled person will weigh more than the formulas suggest and still be perfectly healthy. Use body fat percentage or waist measurements instead if you carry significant muscle mass.',
+  },
+  {
+    q: 'Why is the healthy BMI range different from the formula average?',
+    a: 'The BMI range is based on population statistics linking weight to disease risk. The formula averages are based on height alone. They use different methodologies and serve different purposes. The BMI range is the more evidence backed of the two.',
+  },
+];
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
+    <IdealWeightCalculator />
+  </CalculatorPage>
+</Layout>

@@ -18,12 +18,12 @@ const { food } = Astro.props;
 const schema = createFoodSchema(food, Astro.site?.toString() || Astro.url.origin);
 ---
 
-<Layout 
-  title={`${food.name} Nutrition Facts & Calories`} 
+<Layout
+  title={`${food.name} Nutrition Facts and Calories`}
   description={`Detailed nutritional profile of ${food.name} per ${food.servingSize}. Learn about its calories, protein, carbs, fats, vitamins, and minerals.`}
   schema={schema}
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
     <div class="flex items-center justify-between">
       <Breadcrumb items={[
         { label: 'Foods', url: '/foods' },
@@ -31,14 +31,13 @@ const schema = createFoodSchema(food, Astro.site?.toString() || Astro.url.origin
       ]} />
       <a href="/foods" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
         <ArrowLeft class="h-3.5 w-3.5 mr-1" />
-        Back to Directory
+        Back to foods
       </a>
     </div>
 
     <!-- SEO Critical H1 -->
-    <h1 class="sr-only">{food.name} Nutrition Facts & Calorie Information</h1>
+    <h1 class="sr-only">{food.name} nutrition facts and calorie information</h1>
 
-    <!-- Delegate layout & presentation to Feature Orchestrator -->
     <FoodPage food={food} />
   </div>
 </Layout>

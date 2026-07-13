@@ -25,7 +25,7 @@ async function syncFoodItem(barcode: string, fileSlug: string) {
 
   try {
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'NutriFlow - Web App - Version 1.0' },
+      headers: { 'User-Agent': 'Nutrition Solver - Web App - Version 1.0' },
     });
 
     if (!res.ok) throw new Error(`OFF API returned status: ${res.status}`);

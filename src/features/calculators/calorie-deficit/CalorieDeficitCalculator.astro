@@ -1,0 +1,141 @@
+---
+import { Calculator as CalcIcon } from '@lucide/astro';
+---
+
+<div class="glass-card rounded-3xl p-6 md:p-8 border border-zinc-800">
+  <div class="flex items-center space-x-3 border-b border-zinc-900 pb-5 mb-6">
+    <div class="p-3 bg-red-500/10 text-red-400 rounded-2xl border border-red-500/20">
+      <CalcIcon class="h-6 w-6" />
+    </div>
+    <div>
+      <h3 class="font-extrabold text-xl text-white tracking-tight">Calorie deficit calculator</h3>
+      <p class="text-zinc-500 text-xs mt-0.5">Project your weight loss timeline</p>
+    </div>
+  </div>
+
+  <form id="calc-form-deficit" class="space-y-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="space-y-2">
+        <label for="tdee-deficit" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Your TDEE (maintenance calories)</label>
+        <input type="number" id="tdee-deficit" name="tdee" required min="1200" max="6000" step="10" placeholder="e.g. 2400"
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all" />
+        <p class="text-[10px] text-zinc-500">Don't know your TDEE? <a href="/calculators/tdee" class="text-emerald-400 underline">Calculate it first</a>.</p>
+      </div>
+
+      <div class="space-y-2">
+        <label for="deficit-amount" class="block text-xs font-bold uppercase tracking-wider text-zinc-400">Daily deficit (kcal)</label>
+        <select id="deficit-amount" name="deficit" required
+          class="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 text-sm transition-all appearance-none">
+          <option value="250">250 (slow, sustainable loss)</option>
+          <option value="500" selected>500 (standard, ~0.5 kg per week)</option>
+          <option value="750">750 (aggressive, ~0.75 kg per week)</option>
+          <option value="1000">1000 (very aggressive, ~1 kg per week)</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="submit"
+      class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-extrabold text-sm uppercase tracking-wider rounded-xl cursor-pointer shadow-lg shadow-emerald-500/15 hover:shadow-emerald-500/25 transition-all flex items-center justify-center space-x-2">
+      <CalcIcon class="h-4 w-4" />
+      <span>Calculate timeline</span>
+    </button>
+  </form>
+
+  <div id="calc-results-deficit" class="hidden mt-8 border-t border-zinc-900 pt-6">
+    <h4 class="font-extrabold text-lg text-white mb-4">Your weight loss projection</h4>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Daily target</span>
+        <span class="text-xl font-black text-emerald-400 mt-1 block" id="def-target">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Weekly loss</span>
+        <span class="text-xl font-black text-blue-400 mt-1 block" id="def-weekly">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Monthly loss</span>
+        <span class="text-xl font-black text-blue-400 mt-1 block" id="def-monthly">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-zinc-500 block">Weekly deficit</span>
+        <span class="text-xl font-black text-amber-400 mt-1 block" id="def-week-total">--</span>
+      </div>
+    </div>
+
+    <div class="space-y-3">
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl flex items-center justify-between">
+        <div>
+          <div class="text-sm font-bold text-white">Time to lose 1 kg</div>
+          <div class="text-xs text-zinc-500 mt-0.5">About 7700 kcal of total deficit</div>
+        </div>
+        <span class="text-2xl font-black text-emerald-400" id="def-1kg">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl flex items-center justify-between">
+        <div>
+          <div class="text-sm font-bold text-white">Time to lose 5 kg</div>
+          <div class="text-xs text-zinc-500 mt-0.5">A meaningful, sustainable milestone</div>
+        </div>
+        <span class="text-2xl font-black text-emerald-400" id="def-5kg">--</span>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 p-4 rounded-2xl flex items-center justify-between">
+        <div>
+          <div class="text-sm font-bold text-white">Time to lose 10 kg</div>
+          <div class="text-xs text-zinc-500 mt-0.5">A significant transformation</div>
+        </div>
+        <span class="text-2xl font-black text-emerald-400" id="def-10kg">--</span>
+      </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-amber-500/5 border border-amber-500/20 rounded-2xl">
+      <p class="text-xs text-amber-200 leading-relaxed">
+        <strong class="text-amber-300">Reality check:</strong> These numbers assume a perfectly consistent deficit, which almost never happens. Real world weight loss is non-linear due to water retention, glycogen changes, metabolic adaptation, and natural variations in daily intake. Track for two to three weeks, then evaluate based on the trend, not individual weigh-ins.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { calculateDeficitTimeline } from './calorieDeficit';
+
+  const form = document.getElementById('calc-form-deficit') as HTMLFormElement;
+  const results = document.getElementById('calc-results-deficit');
+
+  if (form && results) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const tdee = parseFloat(fd.get('tdee') as string);
+      const deficit = parseInt(fd.get('deficit') as string);
+
+      if (!tdee) return;
+
+      const r = calculateDeficitTimeline(tdee, deficit);
+
+      const set = (id: string, val: string | number) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = String(val);
+      };
+
+      const daysToText = (days: number) => {
+        if (days <= 0) return 'N/A';
+        const weeks = Math.round(days / 7);
+        if (weeks < 1) return days + ' days';
+        if (weeks < 8) return weeks + ' weeks';
+        const months = (weeks / 4.33).toFixed(1);
+        return weeks + ' weeks (' + months + ' months)';
+      };
+
+      set('def-target', r.targetCalories + ' kcal');
+      set('def-weekly', r.projectedWeeklyLossKg + ' kg');
+      set('def-monthly', r.projectedMonthlyLossKg + ' kg');
+      set('def-week-total', r.weeklyDeficit + ' kcal');
+      set('def-1kg', daysToText(r.daysToLose1Kg));
+      set('def-5kg', daysToText(r.daysToLose5Kg));
+      set('def-10kg', daysToText(r.daysToLose10Kg));
+
+      results.classList.remove('hidden');
+      results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+</script>

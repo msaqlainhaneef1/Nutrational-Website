@@ -1,0 +1,31 @@
+# Nutrition Solver
+
+> Privacy-first nutrition reference covering 100 restaurant chains, 16,000+ menu items, whole food nutrition data, and a full library of health calculators. Built with Astro. No tracking, no signup, no fluff.
+
+## Core pages
+
+- [Home](https://nutritionsolver.com/): Search 100 restaurants and 16,000+ menu items. Free BMI, BMR, TDEE, macro, and calorie deficit calculators.
+- [Restaurants database](https://nutritionsolver.com/restaurants/): Browse nutrition data for 100 fast food and sit-down chains. Each restaurant page includes a full menu, search, category filters, an auto meal generator, and a meal builder with shareable links.
+- [Foods reference](https://nutritionsolver.com/foods/): Plain nutrition facts for whole foods. Calories, macros, and key micronutrients per 100 gram serving.
+- [Health calculators](https://nutritionsolver.com/calculators/): BMI, BMR, TDEE, macro, calorie deficit, ideal weight, body fat, water intake, and protein calculators. All run client-side.
+- [Blog](https://nutritionsolver.com/blog/): Short evidence-backed guides on macros, energy balance, and reading nutrition labels.
+- [Search](https://nutritionsolver.com/search/): Static site search across every restaurant, food, calculator, and article.
+
+## Calculators
+
+- [BMI calculator](https://nutritionsolver.com/calculators/bmi/): Body Mass Index from height and weight. Returns BMI score, category, and healthy weight range.
+- [BMR calculator](https://nutritionsolver.com/calculators/bmr/): Basal Metabolic Rate using Mifflin-St Jeor equation.
+- [TDEE calculator](https://nutritionsolver.com/calculators/tdee/): Total Daily Energy Expenditure with maintenance, loss, and gain targets.
+- [Macro calculator](https://nutritionsolver.com/calculators/macro/): Daily protein, carb, and fat targets based on goals.
+- [Calorie deficit calculator](https://nutritionsolver.com/calculators/calorie-deficit/): Calorie target and timeline for weight loss.
+- [Ideal weight calculator](https://nutritionsolver.com/calculators/ideal-weight/): Healthy weight range using Devine, Robinson, Miller, and Hamwi formulas.
+- [Body fat calculator](https://nutritionsolver.com/calculators/body-fat/): U.S. Navy body fat percentage from circumference measurements.
+- [Water intake calculator](https://nutritionsolver.com/calculators/water-intake/): Daily water requirement from weight and activity.
+- [Protein calculator](https://nutritionsolver.com/calculators/protein/): Daily protein target from weight, goal, and activity.
+
+## Policies
+
+- [About](https://nutritionsolver.com/about/)
+- [Privacy policy](https://nutritionsolver.com/privacy/)
+- [Terms](https://nutritionsolver.com/terms/)
+- [Disclaimer](https://nutritionsolver.com/disclaimer/)

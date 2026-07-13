@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
-import { Leaf, Search, Menu, X, Calculator, Utensils, Apple, BookOpen } from '@lucide/astro';
+import { Search, Menu, X, Calculator, Utensils, Apple, BookOpen, ChevronDown, ArrowUp, ShieldCheck, Leaf } from '@lucide/astro';
+import BrandLogo from '@/features/shared/components/BrandLogo.astro';
+import { CALCULATORS, CALCULATOR_CATEGORIES, getPopularCalculators } from '@/features/calculators/shared/registry';
 
 interface Props {
   title: string;
@@ -15,16 +17,16 @@ interface Props {
 
 const {
   title,
-  description = "Browse nutrition data for 100+ restaurants and 16,000+ menu items. Free health calculators for BMI, BMR, and TDEE. No sign up, no tracking, no fluff.",
+  description = "Browse nutrition data for 100+ restaurants and 16,000+ menu items. Free BMI, BMR, TDEE, macro, calorie deficit, ideal weight, body fat, water intake, and protein calculators. No tracking, no signup.",
   canonicalUrl = Astro.url.href,
-  image = "/images/og-default.jpg",
+  image = "/favicon.svg",
   type = "website",
   publishedTime,
   authorName,
   schema,
 } = Astro.props;
 
-const siteName = "NutriFlow";
+const siteName = "Nutrition Solver";
 
 const navItems = [
   { label: 'Restaurants', href: '/restaurants', icon: Utensils },
@@ -34,6 +36,28 @@ const navItems = [
 ];
 
 const currentPath = Astro.url.pathname;
+const popularCalcs = getPopularCalculators(4);
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": siteName,
+  "url": Astro.site?.toString() || Astro.url.origin,
+  "logo": `${Astro.site?.toString() || Astro.url.origin}/favicon.svg`,
+  "description": "Privacy-first nutrition reference covering 100 restaurant chains and 16,000+ menu items, plus free health calculators.",
+};
+
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": siteName,
+  "url": Astro.site?.toString() || Astro.url.origin,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${Astro.site?.toString() || Astro.url.origin}/search?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+};
 ---
 
 <!doctype html>
@@ -42,7 +66,13 @@ const currentPath = Astro.url.pathname;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="application-name" content={siteName} />
+    <meta name="apple-mobile-web-app-title" content={siteName} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <title>{title} | {siteName}</title>
     <meta name="title" content={`${title} | ${siteName}`} />
@@ -68,16 +98,18 @@ const currentPath = Astro.url.pathname;
     <meta name="twitter:image" content={image} />
 
     <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(orgSchema)} />
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(siteSchema)} />
     <script type="application/ld+json" is:inline set:html={JSON.stringify({
       "@context": "https://schema.org",
-      "@type": type === 'article' ? 'BlogPosting' : 'WebSite',
+      "@type": type === 'article' ? 'BlogPosting' : 'WebPage',
       "name": siteName,
       "url": Astro.site || Astro.url.origin,
       "headline": title,
       "description": description,
       ...(type === 'article' ? {
         "datePublished": publishedTime,
-        "author": { "@type": "Person", "name": authorName || "NutriFlow Editorial" }
+        "author": { "@type": "Person", "name": authorName || "Nutrition Solver Editorial" }
       } : {})
     })}/>
 
@@ -86,16 +118,25 @@ const currentPath = Astro.url.pathname;
     )}
   </head>
   <body class="min-h-screen bg-zinc-950 text-zinc-100 antialiased flex flex-col mesh-bg">
+    <!-- Scroll progress bar -->
+    <div id="scroll-progress" class="fixed top-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-500 to-teal-400 z-[60] transition-[width] duration-100"></div>
+
+    <!-- Announcement bar -->
+    <div id="announcement-bar" class="relative bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-emerald-500/10 border-b border-emerald-500/20 text-emerald-300 text-xs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-3 text-center">
+        <span class="font-semibold">✨ New: 9 free health calculators now live, including macro and calorie deficit tools.</span>
+        <a href="/calculators" class="font-bold underline hover:no-underline whitespace-nowrap">Try them →</a>
+        <button id="announcement-close" type="button" class="absolute right-4 text-emerald-400 hover:text-white" aria-label="Dismiss announcement">
+          <X class="h-3.5 w-3.5" />
+        </button>
+      </div>
+    </div>
+
     <!-- Header -->
     <header class="sticky top-0 z-50 glass-panel border-b border-zinc-800/60">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-          <a href="/" class="flex items-center space-x-2.5 group" id="nav-logo">
-            <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 shadow-lg shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition-shadow">
-              <Leaf class="h-5 w-5 text-white" />
-            </span>
-            <span class="font-extrabold text-lg tracking-tight text-white">{siteName}</span>
-          </a>
+          <BrandLogo size="md" />
 
           <!-- Desktop Navigation -->
           <nav class="hidden md:flex items-center space-x-1">
@@ -117,6 +158,38 @@ const currentPath = Astro.url.pathname;
                 </a>
               );
             })}
+
+            <!-- Calculators mega-menu trigger -->
+            <div class="relative group">
+              <button class="flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium text-zinc-300 hover:text-white hover:bg-zinc-800/60 transition-colors" aria-haspopup="true" aria-expanded="false" id="mega-menu-trigger">
+                <span>More</span>
+                <ChevronDown class="h-3.5 w-3.5" />
+              </button>
+              <div id="mega-menu" class="hidden absolute right-0 top-full mt-2 w-[680px] glass-panel rounded-2xl border border-zinc-800 p-5 shadow-2xl shadow-black/40">
+                <div class="grid grid-cols-3 gap-5">
+                  {CALCULATOR_CATEGORIES.map((cat) => {
+                    const calcs = CALCULATORS.filter((c) => c.category === cat.name);
+                    return (
+                      <div>
+                        <div class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 mb-2">{cat.name}</div>
+                        <div class="space-y-1">
+                          {calcs.map((calc) => (
+                            <a href={`/calculators/${calc.slug}`} class="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-zinc-800/60 text-zinc-300 hover:text-white text-xs transition-colors">
+                              <span class="text-base">{calc.icon}</span>
+                              <span>{calc.shortName}</span>
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div class="mt-5 pt-4 border-t border-zinc-800 flex items-center justify-between">
+                  <span class="text-xs text-zinc-500">{CALCULATORS.length} calculators, all free, no signup</span>
+                  <a href="/calculators" class="text-xs font-bold text-emerald-400 hover:text-emerald-300">View all →</a>
+                </div>
+              </div>
+            </div>
           </nav>
 
           <div class="flex items-center space-x-2">
@@ -124,16 +197,15 @@ const currentPath = Astro.url.pathname;
               href="/search"
               class="p-2 text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800/60 rounded-lg transition-all"
               aria-label="Search"
-              id="nav-search"
             >
               <Search class="h-5 w-5" />
             </a>
             <a
-              href="/calculators/bmi"
+              href="/calculators/macro"
               class="hidden sm:inline-flex items-center space-x-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-lg transition-colors shadow-lg shadow-emerald-500/15"
             >
               <Calculator class="h-4 w-4" />
-              <span>Calculate BMI</span>
+              <span>Macro calculator</span>
             </a>
             <button
               type="button"
@@ -161,6 +233,23 @@ const currentPath = Astro.url.pathname;
               </a>
             );
           })}
+
+          <!-- Mobile calculators expandable -->
+          <details class="group">
+            <summary class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900 cursor-pointer list-none">
+              <Calculator class="h-5 w-5" />
+              <span>All calculators</span>
+              <ChevronDown class="h-4 w-4 ml-auto group-open:rotate-180 transition-transform" />
+            </summary>
+            <div class="pl-10 pt-1 space-y-1">
+              {CALCULATORS.map((calc) => (
+                <a href={`/calculators/${calc.slug}`} class="block px-3 py-2 rounded-lg text-sm text-zinc-400 hover:text-emerald-400 hover:bg-zinc-900">
+                  {calc.icon} {calc.shortName}
+                </a>
+              ))}
+            </div>
+          </details>
+
           <a href="/search" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
             <Search class="h-5 w-5" />
             <span>Search</span>
@@ -178,18 +267,13 @@ const currentPath = Astro.url.pathname;
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
           <div class="col-span-2 space-y-4">
-            <a href="/" class="flex items-center space-x-2.5">
-              <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600">
-                <Leaf class="h-5 w-5 text-white" />
-              </span>
-              <span class="font-extrabold text-lg text-white">{siteName}</span>
-            </a>
+            <BrandLogo size="md" />
             <p class="text-zinc-400 text-sm leading-relaxed max-w-sm">
               A privacy-first nutrition reference covering 100 restaurant chains and thousands of menu items. Built for people who want the numbers without the noise.
             </p>
             <div class="flex items-center space-x-3 pt-2">
               <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-semibold">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse-soft"></span>
                 No tracking
               </span>
               <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 font-semibold">
@@ -210,18 +294,20 @@ const currentPath = Astro.url.pathname;
             <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">Calculators</h3>
             <ul class="space-y-2.5 text-sm text-zinc-400">
               <li><a href="/calculators/bmi" class="hover:text-emerald-400 transition-colors">BMI</a></li>
-              <li><a href="/calculators/bmr" class="hover:text-emerald-400 transition-colors">BMR</a></li>
               <li><a href="/calculators/tdee" class="hover:text-emerald-400 transition-colors">TDEE</a></li>
-              <li><a href="/blog" class="hover:text-emerald-400 transition-colors">Guides</a></li>
+              <li><a href="/calculators/macro" class="hover:text-emerald-400 transition-colors">Macros</a></li>
+              <li><a href="/calculators/calorie-deficit" class="hover:text-emerald-400 transition-colors">Calorie deficit</a></li>
+              <li><a href="/calculators/protein" class="hover:text-emerald-400 transition-colors">Protein</a></li>
             </ul>
           </div>
           <div>
             <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">About</h3>
             <ul class="space-y-2.5 text-sm text-zinc-400">
               <li><a href="/blog" class="hover:text-emerald-400 transition-colors">Blog</a></li>
-              <li><span class="text-zinc-600 cursor-default">Privacy</span></li>
-              <li><span class="text-zinc-600 cursor-default">Terms</span></li>
-              <li><span class="text-zinc-600 cursor-default">Disclaimer</span></li>
+              <li><a href="/about" class="hover:text-emerald-400 transition-colors">About us</a></li>
+              <li><a href="/privacy" class="hover:text-emerald-400 transition-colors">Privacy policy</a></li>
+              <li><a href="/terms" class="hover:text-emerald-400 transition-colors">Terms</a></li>
+              <li><a href="/disclaimer" class="hover:text-emerald-400 transition-colors">Disclaimer</a></li>
             </ul>
           </div>
         </div>
@@ -232,22 +318,125 @@ const currentPath = Astro.url.pathname;
       </div>
     </footer>
 
-    <!-- Mobile Menu Toggle Script -->
-    <script is:inline>
-      const menuBtn = document.getElementById('mobile-menu-button');
-      const mobileMenu = document.getElementById('mobile-menu');
-      const openIcon = document.getElementById('menu-icon-open');
-      const closeIcon = document.getElementById('menu-icon-close');
+    <!-- Back to top button -->
+    <button id="back-to-top" type="button" class="hidden fixed bottom-6 right-6 z-50 p-3 bg-zinc-900 border border-zinc-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 text-zinc-300 hover:text-emerald-400 rounded-full shadow-lg transition-all" aria-label="Back to top">
+      <ArrowUp class="h-5 w-5" />
+    </button>
 
-      if (menuBtn && mobileMenu) {
-        menuBtn.addEventListener('click', () => {
-          const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
-          menuBtn.setAttribute('aria-expanded', !isExpanded);
-          mobileMenu.classList.toggle('hidden');
-          openIcon.classList.toggle('hidden');
-          closeIcon.classList.toggle('hidden');
+    <!-- Cookie consent banner -->
+    <div id="cookie-banner" class="hidden fixed bottom-0 left-0 right-0 z-50 glass-panel border-t border-zinc-800 p-4 md:p-5">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3 text-center md:text-left">
+          <div class="hidden md:flex p-2 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20">
+            <ShieldCheck class="h-5 w-5" />
+          </div>
+          <div>
+            <p class="text-sm text-zinc-300 font-medium">We use zero tracking cookies.</p>
+            <p class="text-xs text-zinc-500 mt-0.5">All calculator inputs stay in your browser. <a href="/privacy" class="text-emerald-400 underline">Read the privacy policy</a>.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="cookie-ack" type="button" class="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-xs rounded-lg transition-colors">Got it</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- All scripts -->
+    <script is:inline>
+      // Mobile menu
+      (function() {
+        const menuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const openIcon = document.getElementById('menu-icon-open');
+        const closeIcon = document.getElementById('menu-icon-close');
+        if (menuBtn && mobileMenu) {
+          menuBtn.addEventListener('click', () => {
+            const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+            menuBtn.setAttribute('aria-expanded', String(!expanded));
+            mobileMenu.classList.toggle('hidden');
+            openIcon?.classList.toggle('hidden');
+            closeIcon?.classList.toggle('hidden');
+          });
+        }
+      })();
+
+      // Mega menu (click to open, click outside to close)
+      (function() {
+        const trigger = document.getElementById('mega-menu-trigger');
+        const menu = document.getElementById('mega-menu');
+        if (trigger && menu) {
+          trigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const expanded = trigger.getAttribute('aria-expanded') === 'true';
+            trigger.setAttribute('aria-expanded', String(!expanded));
+            menu.classList.toggle('hidden');
+          });
+          document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && !trigger.contains(e.target)) {
+              menu.classList.add('hidden');
+              trigger.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+      })();
+
+      // Scroll progress bar
+      (function() {
+        const bar = document.getElementById('scroll-progress');
+        if (!bar) return;
+        const update = () => {
+          const scrollTop = window.scrollY;
+          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+          bar.style.width = pct + '%';
+        };
+        window.addEventListener('scroll', update, { passive: true });
+        update();
+      })();
+
+      // Back to top button
+      (function() {
+        const btn = document.getElementById('back-to-top');
+        if (!btn) return;
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 600) {
+            btn.classList.remove('hidden');
+          } else {
+            btn.classList.add('hidden');
+          }
+        }, { passive: true });
+        btn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-      }
+      })();
+
+      // Announcement bar dismiss
+      (function() {
+        const closeBtn = document.getElementById('announcement-close');
+        const bar = document.getElementById('announcement-bar');
+        if (closeBtn && bar) {
+          if (sessionStorage.getItem('ns-announcement-dismissed') === '1') {
+            bar.style.display = 'none';
+          }
+          closeBtn.addEventListener('click', () => {
+            bar.style.display = 'none';
+            sessionStorage.setItem('ns-announcement-dismissed', '1');
+          });
+        }
+      })();
+
+      // Cookie consent
+      (function() {
+        const banner = document.getElementById('cookie-banner');
+        const ack = document.getElementById('cookie-ack');
+        if (!banner || !ack) return;
+        if (localStorage.getItem('ns-cookie-ack') === '1') return;
+        setTimeout(() => { banner.classList.remove('hidden'); }, 2500);
+        ack.addEventListener('click', () => {
+          localStorage.setItem('ns-cookie-ack', '1');
+          banner.classList.add('hidden');
+        });
+      })();
     </script>
   </body>
 </html>

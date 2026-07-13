@@ -5,7 +5,7 @@ import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import TOC from '@/features/shared/components/TOC.astro';
 import { getCollection, render } from 'astro:content';
 import { createArticleSchema } from '@/features/nutrition/schemas/schema-generator';
-import { ArrowLeft } from '@lucide/astro';
+import { ArrowLeft, Clock, BookOpen } from '@lucide/astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -27,12 +27,15 @@ const schema = createArticleSchema(
 );
 ---
 
-<Layout 
-  title={post.data.title} 
+<Layout
+  title={post.data.title}
   description={post.data.description}
   schema={schema}
+  type="article"
+  publishedTime={post.data.pubDate.toISOString()}
+  authorName={post.data.author}
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
     <div class="flex items-center justify-between">
       <Breadcrumb items={[
         { label: 'Blog', url: '/blog' },
@@ -40,8 +43,34 @@ const schema = createArticleSchema(
       ]} />
       <a href="/blog" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
         <ArrowLeft class="h-3.5 w-3.5 mr-1" />
-        Back to Blog
+        Back to blog
       </a>
+    </div>
+
+    <!-- Article header -->
+    <div class="max-w-3xl mx-auto space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
+          <BookOpen class="h-3 w-3" />
+          {post.data.category}
+        </span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+        {post.data.title}
+      </h1>
+      <p class="text-zinc-400 text-base md:text-lg leading-relaxed">
+        {post.data.description}
+      </p>
+      <div class="flex items-center gap-3 pt-2 text-xs text-zinc-500">
+        <span class="inline-flex items-center gap-1.5">
+          <Clock class="h-3.5 w-3.5" />
+          {post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+        </span>
+        <span class="text-zinc-700">·</span>
+        <span>By {post.data.author}</span>
+        <span class="text-zinc-700">·</span>
+        <span>Reviewed July 2026</span>
+      </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -51,22 +80,13 @@ const schema = createArticleSchema(
       </aside>
 
       <!-- Main Article body -->
-      <article class="lg:col-span-6 space-y-8 prose prose-invert max-w-none">
-        <div class="border-b border-zinc-900 pb-6 space-y-3">
-          <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-            {post.data.title}
-          </h1>
-          <p class="text-zinc-500 text-xs font-semibold">
-            Published on {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          </p>
-        </div>
-
+      <article class="lg:col-span-6 prose-invert">
         <Content />
       </article>
 
-      <!-- EEAT Verification sidebar -->
-      <aside class="lg:col-span-3">
-        <AuthorBox 
+      <!-- Author sidebar -->
+      <aside class="lg:col-span-3 lg:sticky lg:top-24">
+        <AuthorBox
           name={post.data.author}
           role="Registered Dietitian Nutritionist (RDN)"
           bio="Clinically reviewed guide ensuring healthy nutrient alignment and scientifically sound advice."
