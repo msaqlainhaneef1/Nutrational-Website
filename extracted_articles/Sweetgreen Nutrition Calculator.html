@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Sweetgreen Nutrition Calculator
+  </title>
+<link href="article_styles.css" rel="stylesheet"/>
+</head>
+<body>
+<main class="article-container">
+<h1 class="c16" id="h.zgsounvar33x">
+<span class="c25 c5">
+     Sweetgreen Nutrition Calculator
+    </span>
+</h1>
+<p class="c3">
+<span class="c2">
+     Sweetgreen is no longer only a salad restaurant.
+    </span>
+</p>
+<p class="c3">
+<span>
+     The current menu includes
+    </span>
+<span class="c5">
+     salads, warm bowls, protein plates, wraps, kids meals, sides, seasonal recipes, and build-your-own meals
+    </span>
+<span class="c2">
+     . Most named dishes already come with a complete combination of protein, grains, greens, vegetables, cheese, crunchy toppings, and dressing, while Create Your Own lets you build the meal ingredient by ingredient.
+    </span>
+</p>
+<p class="c3">
+<span>
+     Use the
+    </span>
+<span class="c5">
+     Sweetgreen Nutrition Calculator above
+    </span>
+<span class="c2">
+     to start with the exact recipe you ordered, then account for any ingredients you removed, replaced, or added.
+    </span>
+</p>
+<h2 class="c7" id="h.ouqliaszfdaf">
+<span class="c9 c5">
+     Start With the Complete Sweetgreen Recipe
+    </span>
+</h2>
+<p class="c3">
+<span>
+     For a signature Sweetgreen meal, start with the restaurant's published nutrition for the
+    </span>
+<span class="c5">
+     complete standard recipe
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For example, the current Harvest Bowl contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     antibiotic-free roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted sweet potatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     apples
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     goat cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted almonds
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     wild rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     organic shredded kale
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     balsamic vinaigrette
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently lists the finished Harvest Bowl at approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     740 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     32g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     60g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     41g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If you eat the standard bowl, use that complete value.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not add chicken, rice, almonds, goat cheese, and dressing a second time.
+    </span>
+</p>
+<h2 class="c7" id="h.lixijlhhqsml">
+<span class="c9 c5">
+     Customization Should Change the Standard Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     If you modify a Harvest Bowl, calculate the change from the standard recipe.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For example:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Harvest Bowl
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     minus:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     goat cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     plus:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     extra chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     is different from building a completely unrelated bowl.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The calculator should therefore support:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Standard Recipe → Remove Ingredient → Swap Ingredient → Add Ingredient
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     rather than requiring users to rebuild every signature meal from zero.
+    </span>
+</p>
+<h2 class="c7" id="h.zdiifhjthgqc">
+<span class="c9 c5">
+     Sweetgreen Bowls Are Not All Built the Same Way
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current bowls include very different combinations of grains, greens, protein, toppings, and dressing.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Examples include approximately:
+    </span>
+</p>
+<div class="table-responsive">
+<table class="c24">
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c22">
+<span class="c5">
+         Current Bowl
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c22">
+<span class="c5">
+         Calories
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c22">
+<span class="c5">
+         Protein
+        </span>
+</p>
+</td>
+</tr>
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         Chicken Pesto Parm
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         525
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         35g
+        </span>
+</p>
+</td>
+</tr>
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         Crispy Rice Bowl
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         640
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         28g
+        </span>
+</p>
+</td>
+</tr>
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         Chicken Avocado Ranch
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         715
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         23g
+        </span>
+</p>
+</td>
+</tr>
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         Harvest Bowl
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         740
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         32g
+        </span>
+</p>
+</td>
+</tr>
+<tr class="c13">
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         Fish Taco
+        </span>
+</p>
+</td>
+<td class="c15" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         835
+        </span>
+</p>
+</td>
+<td class="c20" colspan="1" rowspan="1">
+<p class="c12">
+<span class="c2">
+         36g
+        </span>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="c3">
+<span class="c2">
+     These values are for different complete recipes.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A Sweetgreen bowl should therefore be selected by its actual name before any modification is applied.
+    </span>
+</p>
+<h2 class="c7" id="h.dnkfsufptk3q">
+<span class="c9 c5">
+     Chicken Pesto Parm Is Currently About 525 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Chicken Pesto Parm combines:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     spicy broccoli
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     shaved parmesan
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     garlic breadcrumbs
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     golden quinoa
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     baby spinach
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Sweetgreen hot sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     pesto vinaigrette
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current Sweetgreen nutrition lists approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     525 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     35g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     38g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     23g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This is a useful example of a meal where the dressing, breadcrumbs, parmesan, quinoa, vegetables, and chicken are all already represented in the published total.
+    </span>
+</p>
+<h2 class="c7" id="h.werz5yqnlvfm">
+<span class="c9 c5">
+     Crispy Rice Bowl Is Currently About 640 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Crispy Rice Bowl contains blackened chicken, carrots, cabbage, cucumber, cilantro, almonds, crispy rice, wild rice, arugula, lime, and spicy cashew dressing.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently lists approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     640 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     28g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     61g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     30g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If you remove crispy rice or spicy cashew dressing, the finished bowl should no longer retain the full standard nutrition.
+    </span>
+</p>
+<h2 class="c7" id="h.as4rfn3o3ved">
+<span class="c9 c5">
+     Chicken Avocado Ranch Is Currently About 715 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Chicken Avocado Ranch contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     blackened chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     avocado
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     pickled onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     apples
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tortilla chips
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     romaine
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     green goddess ranch
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The complete current recipe is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     715 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     23g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     59g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     42g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Because both avocado and ranch are part of the recipe, removing either one should update more than the visible ingredient list.
+    </span>
+</p>
+<h2 class="c7" id="h.p70x96bsce13">
+<span class="c9 c5">
+     Protein Plates Need Their Own Menu Path
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Sweetgreen's current Protein Plates are a distinct menu family.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current examples include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Caramelized Garlic Steak
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Miso Glazed Salmon
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Hot Honey Chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak Mezze
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These should not be grouped together with ordinary salads simply because they contain vegetables.
+    </span>
+</p>
+<h2 class="c7" id="h.kfdm70z88myu">
+<span class="c9 c5">
+     Miso Glazed Salmon Is Currently About 930 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Miso Glazed Salmon Protein Plate contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     miso glazed salmon
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     avocado
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cucumbers
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     pickled onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     crispy onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     nori sesame seasoning
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     spicy cashew
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently publishes approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     930 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     35g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     88g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     48g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The salmon alone is only one component of that number.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not treat 930 calories as the nutrition of a plain salmon portion.
+    </span>
+</p>
+<h2 class="c7" id="h.l6yd0ltwgqxi">
+<span class="c9 c5">
+     Hot Honey Chicken Is Currently About 875 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Hot Honey Chicken Protein Plate contains blackened chicken, sweet potatoes, napa cabbage slaw, crispy onions, golden quinoa, and hot honey mustard sauce.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current nutrition is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     875 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     49g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     68g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     41g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That makes it one of the higher-protein standard plates currently on the menu.
+    </span>
+</p>
+<h2 class="c7" id="h.s345bsvwb55z">
+<span class="c9 c5">
+     Steak Mezze Is a Different Steak Meal
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Steak Mezze contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     caramelized garlic steak
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     hummus
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cucumbers
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     crispy onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     pickled onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white rice
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     lime cilantro jalapeño sauce
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The standard recipe is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     755 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     34g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     76g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     38g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not use the same complete nutrition as Caramelized Garlic Steak just because both contain the same steak protein.
+    </span>
+</p>
+<h2 class="c7" id="h.uq488pp2668c">
+<span class="c9 c5">
+     Salads Still Need Recipe-Level Nutrition
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Sweetgreen salads are also complete combinations.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current options include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Chicken Sesame Crunch
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Kale Caesar
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Guacamole Greens
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Super Green Goddess
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     BBQ Chicken Salad
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Hummus Crunch
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Buffalo Chicken
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The dressing is especially important because the standard published nutrition generally represents the named recipe as served.
+    </span>
+</p>
+<h2 class="c7" id="h.waglp3rtxexa">
+<span class="c9 c5">
+     Kale Caesar Is Currently About 490 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Kale Caesar contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     shaved parmesan
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     parmesan crisps
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     organic shredded kale
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     romaine
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lime
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Caesar dressing
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently lists approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     490 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     35g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     14g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     32g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If the dressing is ordered on the side and only part is consumed, the actual intake may be lower than the published standard recipe.
+    </span>
+</p>
+<h2 class="c7" id="h.4prvnyfm5o58">
+<span class="c9 c5">
+     Guacamole Greens Is Currently About 555 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Guacamole Greens contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     avocado
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     pickled onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     shredded cabbage
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tortilla chips
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     spring mix
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     romaine
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lime
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     lime cilantro jalapeño sauce
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current Sweetgreen nutrition is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     555 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     23g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     35g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     33g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.70k4ql4vtazj">
+<span class="c9 c5">
+     Chicken Sesame Crunch Is a Current 2026 Salad
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Chicken Sesame Crunch is part of Sweetgreen's newer 2026 menu.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The current recipe contains roasted chicken, napa cabbage slaw, sesame crunch, crispy noodles, cabbage, carrots, kale, romaine, and citrus sesame vinaigrette.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently lists:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     615 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     35g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     54g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     29g fat
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     21g sugar
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This belongs in the active Salad category, not a seasonal or historical section.
+    </span>
+</p>
+<h2 class="c7" id="h.vibb52ddzwyo">
+<span class="c9 c5">
+     Wraps Are Now a Major Sweetgreen Category
+    </span>
+</h2>
+<p class="c3">
+<span>
+     Sweetgreen introduced wraps nationwide on
+    </span>
+<span class="c5">
+     May 6, 2026
+    </span>
+<span class="c2">
+     , describing the launch as its biggest category expansion beyond bowls, salads, and plates. The wraps use a custom extra virgin olive oil tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current standard wraps include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Classic Chicken Caesar
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cali Chicken Club
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Chicken Jalapeño Ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Saucy KBBQ Chicken
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These need their own first-class section in the calculator.
+    </span>
+</p>
+<h2 class="c7" id="h.j65wsg25cpcm">
+<span class="c9 c5">
+     Classic Chicken Caesar Wrap Is About 830 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Classic Chicken Caesar Wrap combines roasted chicken, romaine, garlic breadcrumbs, parmesan crisps, shaved parmesan, Caesar dressing, lemon, and the olive oil tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen currently publishes approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     830 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     47g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     64g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     60g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The same general Caesar ingredients in a salad format do not produce the same nutrition because the wrap adds a substantial tortilla and can use different ingredient portions.
+    </span>
+</p>
+<h2 class="c7" id="h.w5oex6qjllqp">
+<span class="c9 c5">
+     Cali Chicken Club Is Currently About 1,085 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Cali Chicken Club Wrap contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     romaine
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     bacon
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     garlic breadcrumbs
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     avocado
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     garlic aioli
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and the olive oil tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Its current complete nutrition is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     1,085 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     49g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     76g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     86g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This is a good example of why a Sweetgreen wrap should not be assumed to be nutritionally equivalent to a salad.
+    </span>
+</p>
+<h2 class="c7" id="h.4qlthhb2ayoj">
+<span class="c9 c5">
+     Chicken Jalapeño Ranch Wrap Is About 1,150 Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current ingredients include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     blackened chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white cheddar
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     corn salsa
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     pickled onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     shredded cabbage
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     charred jalapeño ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     olive oil tortilla
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The current standard recipe is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     1,150 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     41g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     110g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     78g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.pqf7vav9kn34">
+<span class="c9 c5">
+     Saucy KBBQ Chicken Is a Current Limited-Time Wrap
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Saucy KBBQ Chicken contains roasted chicken, white rice, napa cabbage slaw, carrots, crispy onions, apple kimchi sauce, KBBQ dressing, garlic aioli, and the olive oil tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current Sweetgreen nutrition is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     1,055 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     37g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     130g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     60g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span>
+     Sweetgreen's May launch announcement says KBBQ Chicken is available for a limited period through
+    </span>
+<span class="c5">
+     August 11, 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     It should therefore be marked:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Current Limited-Time
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     rather than permanent core.
+    </span>
+</p>
+<h2 class="c7" id="h.pmbcm4hsbect">
+<span class="c9 c5">
+     Summer 2026 Needs Its Own Live Menu Section
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Sweetgreen launched its 2026 summer menu on June 9.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The Summer 2026 lineup includes:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Picnic Bowl
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Summer Market Bowl
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and seasonal produce-driven salads released during different windows.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current official menu nutrition lists:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Picnic Bowl:
+    </span>
+<span class="c2">
+     580 calories, 29g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Summer Market Bowl:
+    </span>
+<span class="c2">
+     730 calories, 43g protein.
+    </span>
+</p>
+<p class="c3">
+<span>
+     Both are scheduled through
+    </span>
+<span class="c5">
+     August 10, 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.vdw3ai6neq">
+<span class="c9 c5">
+     Tomato Panzanella Is No Longer a Current Seasonal Item
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Tomato Panzanella launched June 9 with the first stage of Sweetgreen's summer menu.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen explicitly scheduled it from:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     June 9 through July 6, 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Its recipe appeared at approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     510 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     18g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     38g carbohydrates
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     31g fat
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Because July 6 has passed, it should now be classified:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Historical Seasonal, Summer 2026
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     even if an older cached menu crawl still surfaces it.
+    </span>
+</p>
+<h2 class="c7" id="h.7z0rrsh012iq">
+<span class="c9 c5">
+     Alice Waters’ Peach &amp; Goat Cheese Salad Is Current Through August 10
+    </span>
+</h2>
+<p class="c3">
+<span>
+     Sweetgreen launched the Alice Waters’ Peach &amp; Goat Cheese Salad nationwide on
+    </span>
+<span class="c5">
+     July 7, 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     It contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     organic arugula and spring mix
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     peaches
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     goat cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cucumber
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     basil
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     mint
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     almonds
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lemon tarragon vinaigrette
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     garlic parm crunch
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span>
+     Sweetgreen says the salad is available through
+    </span>
+<span class="c5">
+     August 10, 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     As of August 9, it is still a current limited-time item, but it should automatically move to Historical Seasonal after the promotion ends unless Sweetgreen extends availability.
+    </span>
+</p>
+<h2 class="c7" id="h.fhctg9s2sx6c">
+<span class="c9 c5">
+     Create Your Own Should Never Display Zero Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     A Create Your Own Sweetgreen meal has no fixed calorie value before ingredients are selected.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The correct label is:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Nutrition varies by selected ingredients
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     not:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     0 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Start the builder with:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Base
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     then:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Grain
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Toppings
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Premium ingredients
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Dressing
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     extras
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Only calculate a total after ingredients are selected.
+    </span>
+</p>
+<h2 class="c7" id="h.5hkkd52y8qvt">
+<span class="c9 c5">
+     Start Create Your Own With Greens or Grains
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     A useful Sweetgreen builder should begin with the base.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Examples may include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     romaine
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     kale
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     arugula
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     spinach
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     wild rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     white rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     quinoa
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     or another current base.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The exact available ingredients should come from Sweetgreen's current ordering menu.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not hardcode an ingredient permanently if Sweetgreen rotates it seasonally.
+    </span>
+</p>
+<h2 class="c7" id="h.4m3u6t5ox4j0">
+<span class="c9 c5">
+     Protein Should Be a Separate Step
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current menu recipes use proteins including:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     blackened chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     caramelized garlic steak
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     miso glazed salmon
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tofu
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and plant-based proteins such as chickpeas or hummus depending on the recipe.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Protein selection materially changes calories, protein, fat, sodium, and allergens.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The calculator should use the current Sweetgreen portion rather than generic USDA chicken or steak values when official restaurant component nutrition is available.
+    </span>
+</p>
+<h2 class="c7" id="h.n40zamkcczer">
+<span class="c9 c5">
+     Dressings Need Full, Half, and On-the-Side Logic
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Dressing can contribute substantially to the finished meal.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen frequently allows customers to adjust dressing during ordering.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should support:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Standard
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Light / Half
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     On the Side
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     None
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Extra
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     where those configurations can be modeled reliably.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If a user orders dressing on the side, do not automatically assume the entire serving was consumed.
+    </span>
+</p>
+<h2 class="c7" id="h.mujtnqa94ktq">
+<span class="c9 c5">
+     Sides Should Remain Separate From Entrées
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current sides include products such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Roasted Sweet Potatoes + Green Goddess Ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Roasted Sweet Potatoes + Hot Honey Mustard
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Rosemary Focaccia
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Hummus + Focaccia
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver currently lists approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     315 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     290 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     230 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     290 calories
+    </span>
+<span class="c2">
+     , respectively.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These should remain independent additions to the meal rather than becoming hidden inside an entrée total.
+    </span>
+</p>
+<h2 class="c7" id="h.u3qguiygtreq">
+<span class="c9 c5">
+     Kids Meals Need Their Current Recipes
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Sweetgreen kids meals include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Ranchy Chicken + Rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Little Harvest
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Mini Mezze
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current official headline nutrition is approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Ranchy Chicken + Rice:
+    </span>
+<span class="c2">
+     530 calories, 27g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Little Harvest:
+    </span>
+<span class="c2">
+     410 calories, 18g protein
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Mini Mezze:
+    </span>
+<span class="c2">
+     255 calories, 22g protein.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These should stay separate from adult bowls because the portions and recipe structure differ.
+    </span>
+</p>
+<h2 class="c7" id="h.l1xnve8tlue7">
+<span class="c9 c5">
+     Packaged Drinks Should Use Their Own Label Data
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Sweetgreen also sells packaged products such as water, sparkling beverages, kombucha, and other retail drinks.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These are manufacturer products, not Sweetgreen recipes.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Their nutrition should come from:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     the current manufacturer label
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and be tagged separately from:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Sweetgreen prepared food
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.efqqsqa7xsqv">
+<span class="c9 c5">
+     Retail Snacks Need the Same Separation
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Products such as packaged chocolate, chips, and other retail snacks should not be treated as restaurant recipes.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Store:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     manufacturer
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     package size
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     label serving
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     source date
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     alongside the nutrition.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This helps prevent an outdated retail package from being confused with a current Sweetgreen recipe.
+    </span>
+</p>
+<h2 class="c7" id="h.a9ny6m0sf20">
+<span class="c9 c5">
+     Sweetgreen Nutrition Questions
+    </span>
+</h2><div class="faq-accordion-container space-y-3 my-6"><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Sweetgreen Harvest Bowl?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Chicken Pesto Parm?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Sweetgreen Kale Caesar?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Guacamole Greens?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Sweetgreen Hot Honey Chicken?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Sweetgreen Miso Glazed Salmon?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Does Sweetgreen have wraps?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Sweetgreen Chicken Caesar Wrap?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>What is on Sweetgreen's current summer menu?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="c7" id="h.4gd5cxoj1h">
+<span class="c9 c5">
+     Calculate Sweetgreen From the Recipe Outward
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     For a named meal:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Choose Recipe → Remove Ingredients → Swap Ingredients → Add Extras
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For Create Your Own:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Base → Grain → Protein → Toppings → Premium Ingredients → Dressing
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Then add:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Side → Packaged Drink → Retail Snack
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Keep:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Salads
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Bowls
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Protein Plates
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Wraps
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Kids Meals
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Seasonal
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as separate menu paths.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Sweetgreen already publishes clear nutrition for its standard recipes. The strongest calculator is one that keeps those complete recipes intact while allowing the customer to accurately model the changes they make.
+    </span>
+</p>
+<p class="c11">
+<span class="c2">
+</span>
+</p>
+<div class="meta-info-card">
+<p class="c19 title" id="h.bx3hfpalrhbj">
+<span class="c8">
+      Meta Title: Taco Bell Nutrition Calculator: Calor…
+     </span>
+</p>
+<p class="c3">
+<span class="c5">
+      Meta Title:
+     </span>
+<span class="c2">
+      Taco Bell Nutrition Calculator: Calories &amp; Macros
+     </span>
+</p>
+<p class="c3">
+<span class="c5">
+      Meta Description:
+     </span>
+<span class="c2">
+      Calculate Taco Bell calories, protein, carbs, fat, fiber, and sodium for tacos, burritos, Crunchwraps, Cantina Chicken, quesadillas, Nacho Fries, sauces, drinks, combos, and custom orders.
+     </span>
+</p>
+</div>
+</main>
+</body>
+</html>

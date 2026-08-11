@@ -8,6 +8,7 @@ export default defineConfig({
   site: 'https://nutritionsolver.com',
   build: {
     inlineStylesheets: 'never',
+    assets: 'assets',
   },
   integrations: [
     sitemap({

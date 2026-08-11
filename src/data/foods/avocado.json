@@ -6,26 +6,73 @@
   "servingSize": "100g",
   "calories": 160,
   "macros": {
-    "protein": { "value": 2.0, "unit": "g", "pctDailyValue": 4 },
-    "fat": { "value": 14.7, "unit": "g", "pctDailyValue": 23 },
-    "carbs": { "value": 8.5, "unit": "g", "pctDailyValue": 3 },
-    "fiber": { "value": 6.7, "unit": "g", "pctDailyValue": 27 },
-    "sugar": { "value": 0.7, "unit": "g", "pctDailyValue": 1 }
+    "protein": {
+      "value": 2.0,
+      "unit": "g",
+      "pctDailyValue": 4
+    },
+    "fat": {
+      "value": 14.7,
+      "unit": "g",
+      "pctDailyValue": 23
+    },
+    "carbs": {
+      "value": 8.5,
+      "unit": "g",
+      "pctDailyValue": 3
+    },
+    "fiber": {
+      "value": 6.7,
+      "unit": "g",
+      "pctDailyValue": 27
+    },
+    "sugar": {
+      "value": 0.7,
+      "unit": "g",
+      "pctDailyValue": 1
+    }
   },
   "micros": {
-    "sodium": { "value": 7, "unit": "mg", "pctDailyValue": 0 },
-    "potassium": { "value": 485, "unit": "mg", "pctDailyValue": 14 },
-    "vitaminC": { "value": 10, "unit": "mg", "pctDailyValue": 17 },
-    "calcium": { "value": 12, "unit": "mg", "pctDailyValue": 1 }
+    "sodium": {
+      "value": 7,
+      "unit": "mg",
+      "pctDailyValue": 0
+    },
+    "potassium": {
+      "value": 485,
+      "unit": "mg",
+      "pctDailyValue": 14
+    },
+    "vitaminC": {
+      "value": 10,
+      "unit": "mg",
+      "pctDailyValue": 17
+    },
+    "calcium": {
+      "value": 12,
+      "unit": "mg",
+      "pctDailyValue": 1
+    }
   },
   "faqs": [
     {
-      "q": "Is avocado good for weight loss?",
-      "a": "Avocados are calorie dense but very satiating thanks to their fiber and fat content. Used in moderation they can support weight management by keeping you fuller for longer, but large daily portions can add up quickly."
+      "q": "How many calories are in 100g of avocado?",
+      "a": "A 100g serving of avocado contains approximately\n    \n\n     160 calories\n    \n\n     ."
     },
     {
-      "q": "Why is avocado so high in fat?",
-      "a": "Most of the fat in avocado is oleic acid, the same monounsaturated fat found in olive oil. This type of fat is associated with cardiovascular benefits when it replaces saturated fat in the diet."
+      "q": "Is avocado high in fat?",
+      "a": "Yes. Avocado contains about\n    \n\n     14.7g of fat per 100g\n    \n\n     , with much of its fat coming from unsaturated fatty acids."
+    },
+    {
+      "q": "Is avocado high in carbs?",
+      "a": "Avocado contains about\n    \n\n     8.5g of total carbohydrates per 100g\n    \n\n     , including approximately 6.7g of dietary fiber and only 0.7g of total sugars."
+    },
+    {
+      "q": "How much protein is in avocado?",
+      "a": "Avocado provides about\n    \n\n     2g of protein per 100g\n    \n\n     , so it is not considered a high-protein food."
     }
-  ]
+  ],
+  "articleHtml": "<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Avocado Nutrition Facts\n    </span>\n</p>\n<div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Avocado has a very different nutrition profile from most fruits. Instead of getting most of its calories from carbohydrates and natural sugars, avocado gets much of its energy from fat and also provides a notable amount of fiber.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A\n    </span>\n<span>\n     100g serving of avocado contains about 160 calories\n    </span>\n<span>\n     , 14.7g of fat, 8.5g of carbohydrates, 6.7g of fiber, and 2g of protein.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.mxd6cptcatch\">\n<span>\n     Avocado Nutrition per 100g\n    </span>\n</h2>\n<div>\n<div><div><div><div class=\"overflow-x-auto my-6 rounded-xl border border-zinc-800/80 glass-card-static\"><table class=\"w-full text-left border-collapse\">\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Nutrient\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Amount\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Calories\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         160 kcal\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Total Fat\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         14.7 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Carbohydrates\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         8.5 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Dietary Fiber\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         6.7 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Total Sugars\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         0.7 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Protein\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         2 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Potassium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         485 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Vitamin C\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         10 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Sodium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         7 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Calcium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         12 mg\n        </span>\n</p>\n</td>\n</tr>\n</table></div></div></div></div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     These values use\n    </span>\n<span>\n     100 grams of edible avocado\n    </span>\n<span>\n     as a standard reference, making it easier to compare avocado with other foods in the NutritionSolver database.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.m96oz8gcnjs1\">\n<span>\n     Why Is Avocado High in Fat?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Avocado is unusual among fruits because fat makes up a significant part of its calorie content.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Most of that fat is unsaturated, with monounsaturated fat making up a large share. This is also why avocado contains substantially more calories per 100g than fruits such as apples or bananas.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Its higher fat content does not make avocado inherently \u201cgood\u201d or \u201cbad.\u201d It simply means portion size has a larger effect on total calorie intake than it does with many lower-calorie fruits.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.mqy9orq33ql9\">\n<span>\n     How Many Carbs Are in Avocado?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     There are approximately\n    </span>\n<span>\n     8.5g of total carbohydrates in 100g of avocado\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     However, 6.7g of those carbohydrates come from dietary fiber, while total sugars account for only about 0.7g.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     This combination gives avocado a very different carbohydrate profile from sweeter fruits, where a larger share of total carbohydrates usually comes from naturally occurring sugars.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.bgsi2ayvwm26\">\n<span>\n     Avocado Is a Good Source of Fiber\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     With about\n    </span>\n<span>\n     6.7g of dietary fiber per 100g\n    </span>\n<span>\n     , avocado provides considerably more fiber than many commonly eaten fruits.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Fiber is part of the total carbohydrate value shown on the nutrition panel, so it is useful to look at both total carbohydrates and fiber rather than focusing on carbohydrates alone.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.y2tme2hk9ow\">\n<span>\n     Potassium in Avocado\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Avocado provides approximately\n    </span>\n<span>\n     485mg of potassium per 100g\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Potassium is an essential mineral involved in normal nerve signaling, muscle function, and fluid balance. Avocado also contributes smaller amounts of vitamin C, calcium, and other micronutrients.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.m9z4196f0z2u\">\n<span>\n     What About a Whole Avocado?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The figures on this page are based on\n    </span>\n<span>\n     100g\n    </span>\n<span>\n     , not one whole avocado.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Avocados vary considerably in size, so the calories and nutrients in an entire fruit depend on how much edible flesh it contains. If you eat more than 100g, your calorie, fat, fiber, and other nutrient intake will increase proportionally.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Using a 100g reference avoids assuming that every avocado is the same size.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.lw9xofosoo7t\">\n<span>\n     Quick Avocado Nutrition Questions\n    </span>\n</h2><div class=\"faq-accordion-container space-y-3 my-6\"><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many calories are in 100g of avocado?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Is avocado high in fat?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Is avocado high in carbs?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How much protein is in avocado?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details></div>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.q61vf6kbapsf\">\n<span>\n     Nutrition Data Source\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     NutritionSolver presents avocado nutrition values per 100g using food composition reference data from\n    </span>\n<span>\n     USDA FoodData Central\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Nutrient values can vary somewhat between avocado varieties, growing conditions, ripeness, and individual fruit, so the figures should be treated as reference values rather than exact values for every avocado.\n    </span>\n</p>",
+  "seoTitle": "Avocado Nutrition Facts: Calories, Fat, Carbs & Fiber",
+  "seoDescription": "Explore avocado nutrition facts per 100g, including 160 calories, healthy fats, carbs, fiber, protein, potassium, vitamin C, and more."
 }

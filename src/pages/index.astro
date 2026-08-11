@@ -6,7 +6,6 @@ import HomeRestaurants from '@/features/shared/components/HomeRestaurants.astro'
 import HomeCalculators from '@/features/shared/components/HomeCalculators.astro';
 import HomeFoods from '@/features/shared/components/HomeFoods.astro';
 import HomeHowItWorks from '@/features/shared/components/HomeHowItWorks.astro';
-import HomeBlog from '@/features/shared/components/HomeBlog.astro';
 import HomePrivacy from '@/features/shared/components/HomePrivacy.astro';
 import { getAllFoods } from '@/features/nutrition/services/food';
 import { getFeaturedRestaurants, getRestaurantStats } from '@/features/restaurants/services/restaurant';
@@ -20,14 +19,11 @@ const featuredRestaurants = getFeaturedRestaurants(8);
   title="Nutrition data for 100+ restaurants and free health calculators"
   description="Browse calorie and macro data for 100 restaurant chains and 16,000+ menu items. Free BMI, BMR, TDEE, macro, and calorie deficit calculators. No tracking, no signup, no fluff."
 >
-  <h1 class="sr-only">Nutrition Solver, nutrition data and calculators for 100+ restaurants</h1>
-
   <HomeHero stats={stats} />
   <HomeStats stats={stats} />
   <HomeRestaurants restaurants={featuredRestaurants} categories={stats.categories} />
   <HomeCalculators />
   <HomeFoods featuredFoods={featuredFoods} />
   <HomeHowItWorks />
-  <HomeBlog />
   <HomePrivacy />
 </Layout>

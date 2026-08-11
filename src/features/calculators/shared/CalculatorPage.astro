@@ -2,6 +2,7 @@
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import { ArrowLeft, ShieldCheck, Clock, BookOpen } from '@lucide/astro';
+import ArticleRenderer from '@/features/shared/components/ArticleRenderer.astro';
 import type { CalculatorMeta } from '../registry';
 
 interface Props {
@@ -56,6 +57,10 @@ const { meta, about, sections = [], faqs = [] } = Astro.props;
 
       <!-- Calculator widget (slot) -->
       <slot />
+
+      {meta.articleHtml && (
+        <ArticleRenderer content={meta.articleHtml} className="mt-8" />
+      )}
     </div>
 
     <aside class="lg:col-span-4 space-y-5 lg:sticky lg:top-24">
@@ -75,8 +80,8 @@ const { meta, about, sections = [], faqs = [] } = Astro.props;
     </aside>
   </div>
 
-  <!-- Long-form educational sections -->
-  {sections.length > 0 && (
+  <!-- Fallback educational sections (only rendered if articleHtml is missing) -->
+  {!meta.articleHtml && sections.length > 0 && (
     <div class="max-w-3xl mx-auto space-y-10 pt-10 border-t border-zinc-900">
       {sections.map((section) => (
         <section class="space-y-3">
@@ -89,8 +94,8 @@ const { meta, about, sections = [], faqs = [] } = Astro.props;
     </div>
   )}
 
-  <!-- FAQ -->
-  {faqs.length > 0 && (
+  <!-- Fallback FAQ (only rendered if articleHtml is missing) -->
+  {!meta.articleHtml && faqs.length > 0 && (
     <div class="max-w-3xl mx-auto space-y-4 pt-10 border-t border-zinc-900">
       <div class="space-y-1">
         <h2 class="text-2xl md:text-3xl font-bold text-white tracking-tight">Frequently asked questions</h2>

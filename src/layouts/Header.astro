@@ -1,0 +1,157 @@
+---
+import { Search, Menu, X, Calculator, Utensils, Apple, ChevronDown } from '@lucide/astro';
+import BrandLogo from '@/features/shared/components/BrandLogo.astro';
+import { CALCULATORS, CALCULATOR_CATEGORIES } from '@/features/calculators/shared/registry';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+  { label: 'Restaurants', href: '/restaurants', icon: Utensils },
+  { label: 'Foods', href: '/foods', icon: Apple },
+  { label: 'Calculators', href: '/calculators', icon: Calculator },
+];
+---
+
+<!-- Announcement bar -->
+<div id="announcement-bar" class="relative bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-emerald-500/10 border-b border-emerald-500/20 text-emerald-300 text-xs">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-3 text-center">
+    <span class="font-semibold">✨ New: 9 free health calculators now live, including macro and calorie deficit tools.</span>
+    <a href="/calculators" class="font-bold underline hover:no-underline whitespace-nowrap">Try them →</a>
+    <button id="announcement-close" type="button" class="absolute right-4 text-emerald-400 hover:text-white" aria-label="Dismiss announcement">
+      <X class="h-3.5 w-3.5" />
+    </button>
+  </div>
+</div>
+
+<!-- Main Global Header -->
+<header class="sticky top-0 z-50 glass-panel border-b border-zinc-800/60">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <BrandLogo size="md" />
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center space-x-1">
+        <a
+          href="/restaurants"
+          class:list={[
+            'flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium transition-colors',
+            currentPath.startsWith('/restaurants') ? 'text-emerald-400 bg-emerald-500/10' : 'text-zinc-300 hover:text-white hover:bg-zinc-800/60'
+          ]}
+        >
+          <span>Restaurants</span>
+        </a>
+        <a
+          href="/foods"
+          class:list={[
+            'flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium transition-colors',
+            currentPath.startsWith('/foods') ? 'text-emerald-400 bg-emerald-500/10' : 'text-zinc-300 hover:text-white hover:bg-zinc-800/60'
+          ]}
+        >
+          <span>Foods</span>
+        </a>
+        <a
+          href="/calculators"
+          class:list={[
+            'flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium transition-colors',
+            currentPath.startsWith('/calculators') ? 'text-emerald-400 bg-emerald-500/10' : 'text-zinc-300 hover:text-white hover:bg-zinc-800/60'
+          ]}
+        >
+          <span>Calculators</span>
+        </a>
+
+        <!-- Calculators mega-menu trigger -->
+        <div class="relative group">
+          <button class="flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium text-zinc-300 hover:text-white hover:bg-zinc-800/60 transition-colors" aria-haspopup="true" aria-expanded="false" id="mega-menu-trigger">
+            <span>More</span>
+            <ChevronDown class="h-3.5 w-3.5" />
+          </button>
+          <div id="mega-menu" class="hidden absolute right-0 top-full mt-2 w-[680px] glass-panel rounded-2xl border border-zinc-800 p-5 shadow-2xl shadow-black/40">
+            <div class="grid grid-cols-3 gap-5">
+              {CALCULATOR_CATEGORIES.map((cat) => {
+                const calcs = CALCULATORS.filter((c) => c.category === cat.name);
+                return (
+                  <div>
+                    <div class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 mb-2">{cat.name}</div>
+                    <div class="space-y-1">
+                      {calcs.map((calc) => (
+                        <a href={`/calculators/${calc.slug}`} class="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-zinc-800/60 text-zinc-300 hover:text-white text-xs transition-colors">
+                          <span class="text-base">{calc.icon}</span>
+                          <span>{calc.shortName}</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div class="mt-5 pt-4 border-t border-zinc-800 flex items-center justify-between">
+              <span class="text-xs text-zinc-500">{CALCULATORS.length} calculators, all free, no signup</span>
+              <a href="/calculators" class="text-xs font-bold text-emerald-400 hover:text-emerald-300">View all →</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="flex items-center space-x-2">
+        <a
+          href="/search"
+          class="p-2 text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800/60 rounded-lg transition-all"
+          aria-label="Search"
+        >
+          <Search class="h-5 w-5" />
+        </a>
+
+        <button
+          type="button"
+          class="md:hidden p-2 text-zinc-400 hover:text-white focus:outline-none rounded-lg hover:bg-zinc-800/60"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          id="mobile-menu-button"
+        >
+          <Menu class="h-6 w-6 block" id="menu-icon-open" />
+          <X class="h-6 w-6 hidden" id="menu-icon-close" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="hidden md:hidden border-t border-zinc-800/80 bg-zinc-950/95" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      <a href="/restaurants" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
+        <span>Restaurants</span>
+      </a>
+      <a href="/foods" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
+        <span>Foods</span>
+      </a>
+      <a href="/calculators" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
+        <span>Calculators</span>
+      </a>
+
+      <!-- Mobile calculators expandable -->
+      <details class="group">
+        <summary class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900 cursor-pointer list-none">
+          <Calculator class="h-5 w-5" />
+          <span>All calculators</span>
+          <ChevronDown class="h-4 w-4 ml-auto group-open:rotate-180 transition-transform" />
+        </summary>
+        <div class="pl-10 pt-1 space-y-1">
+          {CALCULATORS.map((calc) => (
+            <a href={`/calculators/${calc.slug}`} class="block px-3 py-2 rounded-lg text-sm text-zinc-400 hover:text-emerald-400 hover:bg-zinc-900">
+              {calc.icon} {calc.shortName}
+            </a>
+          ))}
+        </div>
+      </details>
+
+      <a href="/search" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
+        <Search class="h-5 w-5" />
+        <span>Search</span>
+      </a>
+    </div>
+  </div>
+</header>

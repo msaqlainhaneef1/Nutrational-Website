@@ -4,6 +4,7 @@ import MealBuilder from '@/features/shared/components/MealBuilder.astro';
 import AutoMealGenerator from './AutoMealGenerator.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import { Info, Utensils } from '@lucide/astro';
+import ArticleRenderer from '@/features/shared/components/ArticleRenderer.astro';
 import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
@@ -23,17 +24,15 @@ const heaviestPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) =>
 ---
 
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-  <div class="lg:col-span-8">
+  <div class="lg:col-span-8 space-y-8">
     <RestaurantMenu restaurant={restaurant} />
+
+    {restaurant.articleHtml && (
+      <ArticleRenderer content={restaurant.articleHtml} />
+    )}
   </div>
 
-  <aside class="lg:col-span-4 space-y-4 lg:sticky lg:top-24">
-    <!-- Auto meal generator -->
-    <AutoMealGenerator />
-
-    <!-- Meal builder -->
-    <MealBuilder />
-
+  <aside class="lg:col-span-4 space-y-4">
     <!-- Restaurant info card -->
     <div class="glass-card rounded-2xl p-5 space-y-4">
       <div class="flex items-center gap-3 pb-4 border-b border-zinc-900">
@@ -100,5 +99,14 @@ const heaviestPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) =>
       role="Clinical Dietitian and Nutritionist"
       bio="Helps patients navigate eating out and restaurant menus using evidence-based healthy dietary substitutions."
     />
+
+    <!-- Sticky Interactive Tools -->
+    <div class="lg:sticky lg:top-24 space-y-4">
+      <!-- Auto meal generator -->
+      <AutoMealGenerator />
+
+      <!-- Meal builder -->
+      <MealBuilder />
+    </div>
   </aside>
 </div>

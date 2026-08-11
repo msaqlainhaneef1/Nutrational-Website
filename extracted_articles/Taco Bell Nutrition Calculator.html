@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Taco Bell Nutrition Calculator
+  </title>
+<link href="article_styles.css" rel="stylesheet"/>
+</head>
+<body>
+<main class="article-container">
+<h1 class="c16" id="h.ttjq3j6tf7nt">
+<span class="c25 c5">
+     Taco Bell Nutrition Calculator
+    </span>
+</h1>
+<p class="c3">
+<span class="c2">
+     A Taco Bell order can change substantially before it reaches the bag.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     You can start with a Crunchy Taco, Crunchwrap Supreme, burrito, quesadilla, Cantina Chicken item, Nacho Fries, or another recipe, then change the protein, remove cheese, make it Fresco, add potatoes, add rice, add beans, change sauces, add guacamole, or turn several individual foods into a combo.
+    </span>
+</p>
+<p class="c3">
+<span>
+     That makes Taco Bell especially well suited to a
+    </span>
+<span class="c5">
+     recipe-based nutrition calculator
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Use the Taco Bell Nutrition Calculator above to start with the standard menu item, then make the same changes you made when ordering.
+    </span>
+</p>
+<h2 class="c7" id="h.bdia7vz1tnwk">
+<span class="c9 c5">
+     Start With the Standard Taco Bell Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     For a named Taco Bell item, use the restaurant's standard recipe as the starting point.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For example, the current Crunchwrap Supreme contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Nacho Cheese sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     crispy tostada shell
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lettuce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     reduced-fat sour cream
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     inside a grilled flour tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If you order it exactly that way, use the standard Crunchwrap nutrition.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If you change the recipe, update only the ingredients that changed.
+    </span>
+</p>
+<h2 class="c7" id="h.oa28t1gxtyxi">
+<span class="c9 c5">
+     Taco Bell Already Publishes Customization Calories
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell's live ordering system provides calorie changes for many add-ons.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     On a current Crunchwrap Supreme, available additions can include approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chicken:
+    </span>
+<span class="c2">
+     +45 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak:
+    </span>
+<span class="c2">
+     +60
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Beans:
+    </span>
+<span class="c2">
+     +60
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Black Beans:
+    </span>
+<span class="c2">
+     +50
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Potatoes:
+    </span>
+<span class="c2">
+     +100
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Seasoned Rice:
+    </span>
+<span class="c2">
+     +50
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Fiesta Strips:
+    </span>
+<span class="c2">
+     +80
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Guacamole:
+    </span>
+<span class="c2">
+     around +35 to +40
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chipotle Sauce:
+    </span>
+<span class="c2">
+     +70
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Spicy Ranch:
+    </span>
+<span class="c2">
+     +70.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This data should power the calculator directly.
+    </span>
+</p>
+<h2 class="c7" id="h.is43xy15vyu8">
+<span class="c9 c5">
+     Use Recipe Plus Modifiers, Not Thousands of Duplicate Foods
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     NutritionSolver does not need a separate database record for every possible combination such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Crunchwrap + chicken + potatoes + guacamole
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Crunchwrap + steak + rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Crunchwrap + beans + spicy ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Instead store:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Base Recipe: Crunchwrap Supreme
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     then:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Remove Ingredients
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Swap Protein
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Add Ingredients
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Add Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and calculate the resulting order.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That is much closer to Taco Bell's own digital ordering experience.
+    </span>
+</p>
+<h2 class="c7" id="h.oivfc9c8g51d">
+<span class="c9 c5">
+     Crunchy Taco Is a Good Example of Component-Based Nutrition
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Crunchy Taco contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lettuce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     shredded cheddar cheese
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The standard item is currently shown around:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     170 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The same ordering page allows additions such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     beans +60
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     potatoes +100
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     chicken +45
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     steak +60
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned rice +50
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     three-cheese blend +20
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and numerous sauces.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A customized Crunchy Taco should therefore recalculate rather than continue displaying the original 170-calorie total.
+    </span>
+</p>
+<h2 class="c7" id="h.ibnmihmfmpdm">
+<span class="c9 c5">
+     Soft Taco Has a Different Base
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The standard current Soft Taco also uses:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     lettuce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cheddar cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     but uses a soft flour tortilla instead of the crunchy shell.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current live menu listings show it around:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     180 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Keep:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Crunchy Taco
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Soft Taco
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as separate base recipes.
+    </span>
+</p>
+<h2 class="c7" id="h.afgb6nhwvp48">
+<span class="c9 c5">
+     “Make It Fresco” Should Be a Real Calculator Action
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell has long offered a Fresco customization system that replaces dairy and mayo-based sauces with freshly prepared tomato or pico-style ingredients where supported.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Taco Bell's own nutrition guidance specifically directs customers to its nutrition calculator because adding and removing ingredients changes nutrition in real time.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should therefore offer:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Make It Fresco
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as a one-click transformation when Taco Bell currently supports it for that item.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The calculator should remove the relevant standard ingredients rather than assigning a generic calorie discount to every food.
+    </span>
+</p>
+<h2 class="c7" id="h.asxj8dvvitpa">
+<span class="c9 c5">
+     Supreme Should Also Modify the Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell ordering pages commonly show:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Make It Supreme
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     which adds ingredients such as sour cream and tomatoes depending on the base product.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Treat:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Standard
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Supreme
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Fresco
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as recipe states rather than unrelated foods.
+    </span>
+</p>
+<h2 class="c7" id="h.5n4q9cko16fi">
+<span class="c9 c5">
+     Bean Burrito Needs Current Recipe Data
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Bean Burrito contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     refried beans
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Red Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cheddar cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     inside a flour tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current store listings can show the standard product around the mid-300-calorie range, with minor recipe or location-source differences.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That means the calculator should preserve:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     source date
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     current standard configuration
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     rather than treating one old calorie value as permanent forever.
+    </span>
+</p>
+<h2 class="c7" id="h.gbtlsa9dauqt">
+<span class="c9 c5">
+     Burritos Need Their Exact Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell currently sells burritos with very different combinations of:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     slow-roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     beans
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     sour cream
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     nacho cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     sauces
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Fiesta Strips
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and other ingredients.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Two burritos can contain similar calories while having very different protein, fat, carbohydrates, and sodium.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Choose the exact burrito first.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Then apply modifications.
+    </span>
+</p>
+<h2 class="c7" id="h.joque516uxb3">
+<span class="c9 c5">
+     Protein Swaps Need the Ingredient Difference
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell ordering pages commonly support additions or swaps involving:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     steak
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     slow-roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     beans
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     black beans
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For example, current customization pages commonly show approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chicken:
+    </span>
+<span class="c2">
+     +45 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak:
+    </span>
+<span class="c2">
+     +60
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Slow-Roasted Chicken:
+    </span>
+<span class="c2">
+     +60
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Seasoned Beef:
+    </span>
+<span class="c2">
+     +70
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Beans:
+    </span>
+<span class="c2">
+     +60
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Black Beans:
+    </span>
+<span class="c2">
+     +50
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     when added as a serving to compatible items.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should use the relevant Taco Bell component serving instead of generic USDA chicken or beef.
+    </span>
+</p>
+<h2 class="c7" id="h.1fcn6prjymuc">
+<span class="c9 c5">
+     Cantina Chicken Needs Its Own Permanent Menu Path
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Cantina Chicken is now a permanent Taco Bell platform.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Taco Bell describes it as slow-roasted chicken and currently lists products including:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Burrito
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Soft Taco
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Crispy Taco
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Quesadilla
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Bowl
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not bury those products among generic chicken tacos or burritos.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Create a dedicated:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     filter.
+    </span>
+</p>
+<h2 class="c7" id="h.kbvlhobk5trw">
+<span class="c9 c5">
+     Current Cantina Nutrition Needs a Fresh Import
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell ordering pages show approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Soft Taco:
+    </span>
+<span class="c2">
+     around 260 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Crispy Taco:
+    </span>
+<span class="c2">
+     around 340
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Burrito:
+    </span>
+<span class="c2">
+     around 590
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Quesadilla:
+    </span>
+<span class="c2">
+     around 670
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Bowl:
+    </span>
+<span class="c2">
+     around 540
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     at a currently crawled U.S. store.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These current values differ from several NutritionSolver records.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That is a strong indication that the Cantina dataset needs a recipe-version refresh.
+    </span>
+</p>
+<h2 class="c7" id="h.4iaxpqiolp0d">
+<span class="c9 c5">
+     Cantina Chicken Mexican Pizza Is Current Too
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Taco Bell New menu includes:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Mexican Pizza:
+    </span>
+<span class="c2">
+     approximately 520 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Veggie Mexican Pizza:
+    </span>
+<span class="c2">
+     approximately 450 calories.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These belong under:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     or:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mexican Pizza
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     with clear current-menu status.
+    </span>
+</p>
+<h2 class="c7" id="h.xf5hfohc69wm">
+<span class="c9 c5">
+     Mexican Pizza Is Highly Customizable
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current standard Mexican Pizza contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     seasoned beef
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     beans
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     three-cheese blend
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     tomatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Mexican Pizza Sauce
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current customization options can add:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     rice
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     black beans
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     potatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     steak
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     slow-roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     guacamole
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     nacho cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Chipotle Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and other toppings.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This is another ideal recipe-plus-modifier item.
+    </span>
+</p>
+<h2 class="c7" id="h.tv29cz92ldkm">
+<span class="c9 c5">
+     Quesadillas Need a 2026 Refresh
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Taco Bell Quesadilla menu shows approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chicken Quesadilla:
+    </span>
+<span class="c2">
+     490 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak Quesadilla:
+    </span>
+<span class="c2">
+     500
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cheese Quesadilla:
+    </span>
+<span class="c2">
+     440.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A current Chicken Quesadilla contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     three-cheese blend
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Creamy Jalapeño Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     inside a grilled flour tortilla.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These standard recipes should be used before customization.
+    </span>
+</p>
+<h2 class="c7" id="h.r4tcil1afw00">
+<span class="c9 c5">
+     Extra Cheese Can Be a Major Change
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Some current Chicken Quesadilla ordering pages show a full extra-cheese add-on adding roughly:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     220 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That is large enough that the calculator should display extra cheese clearly in the meal summary.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not treat extra cheese as a negligible topping.
+    </span>
+</p>
+<h2 class="c7" id="h.axwqmbownj5x">
+<span class="c9 c5">
+     Sauces Need Context
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell uses two broad sauce systems:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     sauce packets
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     recipe/dipping sauces
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     They should not be mixed blindly.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Examples include:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mild
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Hot
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Fire
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Diablo
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     plus calorie-containing sauces such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Creamy Jalapeño
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Chipotle
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Avocado Ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Spicy Ranch
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Guacamole
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Nacho Cheese
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and others.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Some packet sauces legitimately contribute very few or zero rounded calories.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Creamy sauces can add substantially more.
+    </span>
+</p>
+<h2 class="c7" id="h.d4ax9uuewryt">
+<span class="c9 c5">
+     Sauce Calories Can Depend on the Product Context
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     A current Taco Bell Soft Taco ordering flow may show approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Creamy Jalapeño:
+    </span>
+<span class="c2">
+     +25 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chipotle:
+    </span>
+<span class="c2">
+     +25
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Avocado Ranch:
+    </span>
+<span class="c2">
+     +30
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Spicy Ranch:
+    </span>
+<span class="c2">
+     +25
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     for that specific compatible customization.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Other products can show larger portions, such as around 60 to 80 calories for some creamy sauces.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     That tells us something important:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Do not assume one universal sauce serving across every Taco Bell product.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Store:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     ingredient + serving context + product configuration
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.pdphlpvzlj7h">
+<span class="c9 c5">
+     Taco Bell's New 2026 Fajita Menu Needs Current Coverage
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell launched Fajita Street Chalupas and Chicken Fajita Nacho Fries nationwide on June 18, 2026 for a limited time.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current menu listings show:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak Fajita Street Chalupas:
+    </span>
+<span class="c2">
+     about 720 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Slow-Roasted Chicken Fajita Street Chalupas:
+    </span>
+<span class="c2">
+     about 720 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chicken Fajita Nacho Fries:
+    </span>
+<span class="c2">
+     about 540 calories.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These should be marked:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Current Limited-Time, Summer 2026
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.sfyl9cb2ink2">
+<span class="c9 c5">
+     Fajita Street Chalupas Are Sold as Two
+    </span>
+</h2>
+<p class="c3">
+<span>
+     The current Street Chalupa listing describes the order as a
+    </span>
+<span class="c5">
+     set of two
+    </span>
+<span class="c2">
+     small cheesy chalupa shells.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The Slow-Roasted Chicken version contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     slow-roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     fajita vegetables
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Creamy Jalapeño Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     onion and cilantro blend
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The serving label should therefore say:
+    </span>
+</p>
+<p class="c3 c26">
+<span class="c6 c5">
+     2 Street Chalupas
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     so users do not mistake the calories for one individual mini chalupa.
+    </span>
+</p>
+<h2 class="c7" id="h.j4dy17ryvqq9">
+<span class="c9 c5">
+     Chicken Fajita Nacho Fries Are a Complete Loaded Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current recipe contains:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Nacho Fries
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     slow-roasted chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     fajita peppers and onions
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Creamy Jalapeño Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Nacho Cheese Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     three-cheese blend
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     sour cream
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     If using the complete 540-calorie standard value, do not add those toppings a second time.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Only calculate changes beyond the standard recipe.
+    </span>
+</p>
+<h2 class="c7" id="h.ub53wjrgl7tk">
+<span class="c9 c5">
+     Nacho Fries Need Size
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell menus show both regular and large Nacho Fries.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A currently crawled store lists Large Nacho Fries at approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     500 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should therefore store:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Regular Nacho Fries
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Large Nacho Fries
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     rather than one universal Nacho Fries record.
+    </span>
+</p>
+<h2 class="c7" id="h.35antiwqckru">
+<span class="c9 c5">
+     Luxe Value Menu Is a Major 2026 Category
+    </span>
+</h2>
+<p class="c3">
+<span>
+     Taco Bell replaced the older value-menu concept with its
+    </span>
+<span class="c5">
+     Luxe Value Menu
+    </span>
+<span class="c2">
+     nationwide in January 2026.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Taco Bell describes it as ten value items, combining new products with returning value favorites.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current live versions include products such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mini Taco Salad
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Beefy Loaded Potato Griller
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Chips and Nacho Supreme Dip
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Avocado Ranch Chicken Stacker
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cheesy Fiesta Potatoes
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cheesy Double Beef Burrito
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and other rotating items.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should add:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Luxe Value Menu
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as a current first-class filter.
+    </span>
+</p>
+<h2 class="c7" id="h.51840be2have">
+<span class="c9 c5">
+     Mini Taco Salad Is a Current Value Item
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current live listings show the Mini Taco Salad at approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     280 calories
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     It should not be mixed with an older full Taco Salad recipe or historical Taco Bell salad without menu-status context.
+    </span>
+</p>
+<h2 class="c7" id="h.igamlpmt2oy9">
+<span class="c9 c5">
+     Current Taco Bell “New” Menu Is Actively Changing
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     As of the current August 2026 crawl, Taco Bell's New menu includes items such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chili Cheese Burrito:
+    </span>
+<span class="c2">
+     380 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Steak Fajita Street Chalupas:
+    </span>
+<span class="c2">
+     720
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Slow-Roasted Chicken Fajita Street Chalupas:
+    </span>
+<span class="c2">
+     720
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Chicken Fajita Nacho Fries:
+    </span>
+<span class="c2">
+     540
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Enchirito:
+    </span>
+<span class="c2">
+     350
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cinnamon Sugar Churros, 3 pack:
+    </span>
+<span class="c2">
+     190
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Mexican Pizza:
+    </span>
+<span class="c2">
+     520.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     This current-menu layer should be checked frequently.
+    </span>
+</p>
+<h2 class="c7" id="h.j8rnwc999an">
+<span class="c9 c5">
+     Limited-Time Status Is Essential for Taco Bell
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell rotates products unusually often.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A food can disappear, return, become permanent, or return only in a selected region.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The database therefore needs:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Core
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Permanent Platform
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Current Limited-Time
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Test Market
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Select Locations
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Historical
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Future Announced
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Without status, a 2022 or 2024 product can appear beside a current 2026 taco as though both are nationally available.
+    </span>
+</p>
+<h2 class="c7" id="h.cul9kwk9b9k9">
+<span class="c9 c5">
+     Fan Favorites Tests Need Regional Status
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     As of early August 2026, selected Midwest markets are testing a Fan Favorites lineup containing returning discontinued items such as Quesarito and Grande Nachos.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Those products should not be automatically labeled nationwide current items.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Use:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Test Market / Select Locations
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     until Taco Bell announces broader availability.
+    </span>
+</p>
+<h2 class="c7" id="h.jsyk8f5ve7g4">
+<span class="c9 c5">
+     Breakfast Is Current, but Only at Select Locations
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell still maintains a current breakfast menu and dedicated breakfast locator.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Current breakfast products include items such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cheesy Toasted Breakfast Burrito Bacon:
+    </span>
+<span class="c2">
+     around 350 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cheesy Toasted Breakfast Burrito Sausage:
+    </span>
+<span class="c2">
+     around 350
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cheesy Toasted Breakfast Burrito Potato:
+    </span>
+<span class="c2">
+     around 340
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Grande Toasted Breakfast Burrito Steak:
+    </span>
+<span class="c2">
+     around 560
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Grande Toasted Breakfast Burrito Sausage:
+    </span>
+<span class="c2">
+     around 570.
+    </span>
+</p>
+<p class="c3">
+<span>
+     However, Taco Bell explicitly says breakfast is available at
+    </span>
+<span class="c5">
+     select locations
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Therefore the category should read:
+    </span>
+</p>
+<p class="c3 c26">
+<span class="c6 c5">
+     Breakfast, Select Locations
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     not simply:
+    </span>
+</p>
+<p class="c3 c26">
+<span class="c6 c5">
+     Breakfast
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as if every U.S. Taco Bell currently serves it.
+    </span>
+</p>
+<h2 class="c7" id="h.p4nhmnoqsdk7">
+<span class="c9 c5">
+     Cinnabon Delights Need Piece Count
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell sells:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cinnabon Delights 2 Pack
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cinnabon Delights 12 Pack
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The current live menu shows approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     2 Pack:
+    </span>
+<span class="c2">
+     170 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     12 Pack:
+    </span>
+<span class="c2">
+     1,010 calories.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The serving count must appear directly in the product name.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A generic:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cinnabon Delights
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     record is not enough.
+    </span>
+</p>
+<h2 class="c7" id="h.tz5oerv9afiy">
+<span class="c9 c5">
+     Drinks Need Exact Flavor and Size
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Taco Bell's current drink menu includes a wide range of products, including:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Pepsi
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Diet Pepsi
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Pepsi Zero Sugar
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mountain Dew
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Baja Blast
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Baja Blast Zero Sugar
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mug Root Beer
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Starry
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Agua Refrescas
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Rockstar Energy Refrescas
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Freezes
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Dirty Sodas
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These need:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     drink + size
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     rather than a single generic fountain-beverage value.
+    </span>
+</p>
+<h2 class="c7" id="h.wsjpp0uvdwl3">
+<span class="c9 c5">
+     Current Large Soda Calories Show Why the Exact Drink Matters
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current live Taco Bell menu values include approximately:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Pepsi:
+    </span>
+<span class="c2">
+     380 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Mountain Dew:
+    </span>
+<span class="c2">
+     420
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Baja Blast:
+    </span>
+<span class="c2">
+     420
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Mug Root Beer:
+    </span>
+<span class="c2">
+     360
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Starry:
+    </span>
+<span class="c2">
+     370
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     while:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Diet Pepsi:
+    </span>
+<span class="c2">
+     0
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Pepsi Zero Sugar:
+    </span>
+<span class="c2">
+     0
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Large Baja Blast Zero Sugar:
+    </span>
+<span class="c2">
+     around 15 calories.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A Taco Bell drink database should never show all regular sodas as zero.
+    </span>
+</p>
+<h2 class="c7" id="h.ssnp13vygc1i">
+<span class="c9 c5">
+     Dirty Sodas Need Their Own Recipe
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current drink menu also includes drinks such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Baja Blast Dirty Soda
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Baja Blast Zero Sugar Dirty Soda
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Baja Midnight Dirty Soda
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Pepsi Dirty Soda
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Tropicana Dirty Lemonade
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     These are distinct mixed drinks.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not calculate them as ordinary fountain soda.
+    </span>
+</p>
+<h2 class="c7" id="h.l4smaiboh9xt">
+<span class="c9 c5">
+     Refreshers and Agua Refrescas Are Current Beverage Families
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     The current Taco Bell beverage menu includes Agua Refresca flavors such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Strawberry Passionfruit
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Mango Peach
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Dragonfruit Berry
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     at around 170 calories in current listings.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Energy-style Rockstar Refrescas are also currently present.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Create dedicated beverage subcategories rather than burying everything under Drinks.
+    </span>
+</p>
+<h2 class="c7" id="h.pvn5ljtdd5q4">
+<span class="c9 c5">
+     Freezes Need Current Product Status
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Freeze flavors rotate regularly.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A Freeze still sitting in an old database should not remain Current unless it appears in the live menu or current location ordering data.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Use:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Current Freeze
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Current LTO Freeze
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Historical Freeze
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<h2 class="c7" id="h.7q0ifcv0v7fg">
+<span class="c9 c5">
+     Combos Should Be Built, Not Hardcoded
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current Taco Bell combo calorie totals are normally displayed as ranges because the selected drink can change the result.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For example, current Cantina Chicken meals are presented with ranges such as:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Crispy Taco Meal: approximately 890 to 1,170 calories
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken Burrito Meal: approximately 980 to 1,260
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     Cantina Chicken Quesadilla Meal: approximately 1,060 to 1,340
+    </span>
+<span class="c2">
+     at one current location.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The range exists for a reason.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     NutritionSolver should calculate:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Entrée + Side + Drink + Drink Size
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     instead of assigning one fixed combo total.
+    </span>
+</p>
+<h2 class="c7" id="h.e8zijlkwmdm4">
+<span class="c9 c5">
+     Boxes Need Component Logic Too
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     Current boxes can combine multiple foods.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     The Taco Bell New menu currently shows a Discovery Luxe Box with a broad calorie range depending on configuration.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     A user should be able to see:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     each included item
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c5">
+     the combined meal nutrition
+    </span>
+<span class="c2">
+     .
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Do not represent a box as a mysterious one-line calorie total if the components are known.
+    </span>
+</p>
+<h2 class="c7" id="h.xjofslofzom">
+<span class="c9 c5">
+     Taco Bell Nutrition Questions
+    </span>
+</h2><div class="faq-accordion-container space-y-3 my-6"><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Crunchy Taco?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Soft Taco?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Chicken Quesadilla?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Steak Quesadilla?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Cantina Chicken Bowl?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Taco Bell Cinnabon Delights?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Chicken Fajita Nacho Fries?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in Fajita Street Chalupas?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Does Taco Bell still have breakfast?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Does Taco Bell let you customize nutrition?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="c7" id="h.3hfjkyagknpu">
+<span class="c9 c5">
+     Build the Taco Bell Order in the Same Order You Customize It
+    </span>
+</h2>
+<p class="c3">
+<span class="c2">
+     For an individual item:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Choose Recipe → Standard/Supreme/Fresco → Protein → Remove Ingredients → Add Ingredients → Sauces
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For Nacho Fries:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Size → Standard or Loaded Recipe → Protein → Toppings → Sauce
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For drinks:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Beverage → Flavor → Size → Dirty/Standard where applicable
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     For combos:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Entrée → Side → Drink → Drink Size
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Keep:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Core Menu
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Cantina Chicken
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Luxe Value Menu
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Breakfast, Select Locations
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Current Limited-Time
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Regional/Test
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     and:
+    </span>
+</p>
+<p class="c3">
+<span class="c6 c5">
+     Historical
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     as separate menu states.
+    </span>
+</p>
+<p class="c3">
+<span class="c2">
+     Taco Bell already exposes much of the component information required to calculate customized orders. NutritionSolver can become more useful than a static nutrition chart by connecting that component data to the exact item the customer actually ordered.
+    </span>
+</p>
+<p class="c11">
+<span class="c2">
+</span>
+</p>
+<div class="meta-info-card">
+<p class="c19 title" id="h.qtp30uc12wxk">
+<span class="c8">
+      Meta Title: Taim Nutrition Calculator: Pita, Fala…
+     </span>
+</p>
+<p class="c3">
+<span class="c5">
+      Meta Title:
+     </span>
+<span class="c2">
+      Taim Nutrition Calculator: Pita, Falafel &amp; Plate Calories
+     </span>
+</p>
+<p class="c3">
+<span class="c5">
+      Meta Description:
+     </span>
+<span class="c2">
+      Calculate Taim Mediterranean Kitchen calories, protein, carbs, fat, and sodium for falafel, shawarma, pita, plates, rice, hummus, toppings, sauces, fries, and more.
+     </span>
+</p>
+</div>
+</main>
+</body>
+</html>

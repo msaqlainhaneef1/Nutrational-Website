@@ -2,53 +2,77 @@
 import Layout from '@/layouts/Layout.astro';
 import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
 import RestaurantPage from '@/features/restaurants/components/RestaurantPage.astro';
-import { getAllRestaurants } from '@/features/restaurants/services/restaurant';
+import { getAllRestaurants, getFullRestaurantBySlug } from '@/features/restaurants/services/restaurant';
 import { ArrowLeft } from '@lucide/astro';
 
 export async function getStaticPaths() {
   const restaurants = getAllRestaurants();
-  return restaurants.map((restaurant) => ({
-    params: { slug: restaurant.slug },
-    props: { restaurant },
-  }));
+  return restaurants.map((r) => {
+    const restaurant = getFullRestaurantBySlug(r.slug)!;
+    return {
+      params: { slug: r.slug },
+      props: { restaurant },
+    };
+  });
 }
 
-const { restaurant } = Astro.props;
+const { restaurant: propsRestaurant } = Astro.props;
+const { slug } = Astro.params;
+const restaurant = propsRestaurant || (slug ? getFullRestaurantBySlug(slug) : undefined);
+
+if (!restaurant) {
+  return Astro.redirect('/404');
+}
+
 const totalItems = restaurant.categories.reduce((s, c) => s + c.items.length, 0);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Restaurant",
-  "name": restaurant.name,
-  "description": restaurant.description || restaurant.tagline,
-  "servesCuisine": restaurant.category,
-  "hasMenu": {
-    "@type": "Menu",
-    "hasMenuSection": restaurant.categories.map((cat) => ({
-      "@type": "MenuSection",
-      "name": cat.name,
-      "hasMenuItem": cat.items.map((item) => ({
-        "@type": "MenuItem",
-        "name": item.name,
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": `${item.calories} kcal`,
-          "proteinContent": `${item.protein} g`,
-          "fatContent": `${item.fat} g`,
-          "carbohydrateContent": `${item.carbs} g`,
-          ...(item.fiber != null ? { "fiberContent": `${item.fiber} g` } : {}),
-          ...(item.sodium != null ? { "sodiumContent": `${item.sodium} mg` } : {}),
-          ...(item.sugars != null ? { "sugarContent": `${item.sugars} g` } : {}),
-        }
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": restaurant.name,
+    "description": restaurant.seoDescription || restaurant.description || restaurant.tagline,
+    "servesCuisine": restaurant.category,
+    "hasMenu": {
+      "@type": "Menu",
+      "hasMenuSection": restaurant.categories.map((cat) => ({
+        "@type": "MenuSection",
+        "name": cat.name,
+        "hasMenuItem": cat.items.map((item) => ({
+          "@type": "MenuItem",
+          "name": item.name,
+          "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": `${item.calories} kcal`,
+            "proteinContent": `${item.protein} g`,
+            "fatContent": `${item.fat} g`,
+            "carbohydrateContent": `${item.carbs} g`,
+            ...(item.fiber != null ? { "fiberContent": `${item.fiber} g` } : {}),
+            ...(item.sodium != null ? { "sodiumContent": `${item.sodium} mg` } : {}),
+            ...(item.sugars != null ? { "sugarContent": `${item.sugars} g` } : {}),
+          }
+        }))
       }))
+    }
+  },
+  ...(restaurant.faqs && restaurant.faqs.length > 0 ? [{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": restaurant.faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
+      }
     }))
-  }
-};
+  }] : [])
+];
 ---
 
 <Layout
-  title={`${restaurant.name} Nutrition and Calories`}
-  description={`Browse ${totalItems} menu items from ${restaurant.name} with full calorie, protein, carb, fat, fiber, sodium, and sugar data. Filter by category and search by name.`}
+  title={restaurant.seoTitle || `${restaurant.name} Nutrition Calculator: Calories, Protein & Macros`}
+  description={restaurant.seoDescription || `Browse ${totalItems} menu items from ${restaurant.name} with full calorie, protein, carb, fat, fiber, sodium, and sugar data.`}
   schema={schema}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">

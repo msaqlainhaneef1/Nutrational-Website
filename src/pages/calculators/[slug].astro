@@ -16,8 +16,14 @@ interface Props {
   type: 'bmi' | 'bmr' | 'tdee';
 }
 
-const { type } = Astro.props;
-const meta = getCalculatorBySlug(type)!;
+const { type: propsType } = Astro.props;
+const { slug } = Astro.params;
+const type = propsType || (slug as any);
+const meta = type ? getCalculatorBySlug(type) : undefined;
+
+if (!meta) {
+  return Astro.redirect('/404');
+}
 
 const aboutMap = {
   bmi: 'Body Mass Index (BMI) is a simple estimate of body fat based on height and weight. It is widely used by healthcare providers to screen for weight categories that may lead to health problems. It is calculated by dividing weight in kilograms by the square of height in meters.',
@@ -114,9 +120,33 @@ const faqsMap = {
     { q: 'How often should I recalculate TDEE?', a: 'Every 5 to 10 kilograms of weight change. A smaller body burns fewer calories, so a TDEE that worked at 85 kg will produce weight gain at 75 kg if not adjusted.' },
   ],
 };
+const faqs = faqsMap[type] || [];
+const faqSchema = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((faq) => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+} : null;
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": meta.name,
+    "description": meta.description,
+    "applicationCategory": "HealthApplication"
+  },
+  ...(faqSchema ? [faqSchema] : [])
+];
 ---
 
-<Layout title={meta.name} description={meta.description}>
+<Layout title={meta.name} description={meta.description} schema={schema}>
   <CalculatorPage meta={meta} about={aboutMap[type]} sections={sectionsMap[type]} faqs={faqsMap[type]}>
     <Calculator type={type} />
   </CalculatorPage>

@@ -103,17 +103,14 @@ import { Wand2, X } from '@lucide/astro';
       // Pull menu items from the page DOM (data attributes set by RestaurantMenu.astro)
       const cards = document.querySelectorAll('.menu-item-card');
       const menuItems = Array.from(cards).map((card) => {
-        const el = card as HTMLElement;
-        const name = el.dataset.itemName || '';
-        const category = el.dataset.itemCategory || '';
+        const name = card.dataset.itemName || '';
+        const category = card.dataset.itemCategory || '';
         // Parse from the card's data attributes if set, otherwise parse from inner HTML
-        const calText = el.querySelector('[data-cal]')?.getAttribute('data-cal') || '0';
-        const proText = el.querySelector('[data-pro]')?.getAttribute('data-pro') || '0';
-        // Fallback: parse from visible card text
-        const allText = el.textContent || '';
+        const calText = card.querySelector('[data-cal]')?.getAttribute('data-cal') || '0';
+        const proText = card.querySelector('[data-pro]')?.getAttribute('data-pro') || '0';
         return {
           id: `${category}::${name}`,
-          name: name.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+          name: name.split(' ').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
           source: category,
           calories: parseFloat(calText) || 0,
           protein: parseFloat(proText) || 0,

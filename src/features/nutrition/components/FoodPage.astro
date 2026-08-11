@@ -4,6 +4,7 @@ import MacroChart from '@/features/nutrition/components/MacroChart.astro';
 import FAQ from '@/features/shared/components/FAQ.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import TOC from '@/features/shared/components/TOC.astro';
+import ArticleRenderer from '@/features/shared/components/ArticleRenderer.astro';
 import { Sparkles } from '@lucide/astro';
 import type { Food } from '../schemas/food';
 
@@ -30,28 +31,16 @@ const headings = [
   </aside>
 
   <!-- Main content body -->
-  <article class="lg:col-span-5 space-y-10">
-    <!-- Overview -->
-    <section id="overview" class="space-y-4">
+  <article class="lg:col-span-5 space-y-8">
+    <!-- Macro Breakdown with Lazy Loaded Chart -->
+    <section id="macronutrient-breakdown" class="space-y-4 scroll-mt-20">
       <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs font-bold uppercase tracking-wider">
         <Sparkles class="h-3.5 w-3.5" />
         <span>Category: {food.category}</span>
       </div>
-
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-        {food.name} nutrition profile
-      </h2>
-
-      <p class="text-zinc-300 text-sm md:text-base leading-relaxed">
-        {food.description || `Get verified calorie data, macronutrient breakdown, and vitamin content for ${food.name}.`}
-      </p>
-    </section>
-
-    <!-- Macro Breakdown with Lazy Loaded Chart -->
-    <section id="macronutrient-breakdown" class="space-y-4 scroll-mt-20">
       <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">Macronutrient Breakdown</h2>
       <p class="text-zinc-400 text-xs md:text-sm leading-relaxed">
-        Visual distribution of energy in {food.name} per {food.servingSize} serving. Check protein, carbs, and fat weights.
+        Visual distribution of energy in {food.name} per {food.servingSize} serving.
       </p>
       <MacroChart
         protein={food.macros.protein.value}
@@ -60,30 +49,16 @@ const headings = [
       />
     </section>
 
-    <!-- Micros & Benefits -->
-    <section id="micronutrients-benefits" class="space-y-4 scroll-mt-20">
-      <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">Micronutrient Profile</h2>
-      <p class="text-zinc-300 text-sm md:text-base leading-relaxed">
-        {food.name} is a source of essential micronutrients. A {food.servingSize} serving provides a mix of vitamins and minerals that support bodily functions and metabolic health.
-      </p>
-      {food.micros && Object.keys(food.micros).length > 0 && (
-        <div class="grid grid-cols-2 gap-3 text-xs">
-          {Object.entries(food.micros).map(([key, val]: [string, any]) => (
-            <div class="bg-zinc-900 border border-zinc-800/80 p-3.5 rounded-xl flex items-center justify-between">
-              <span class="text-zinc-400 font-semibold uppercase tracking-wider text-[10px]">{key.replace(/([A-Z])/g, ' $1')}</span>
-              <span class="font-extrabold text-white">{val.value}{val.unit}</span>
-            </div>
-          ))}
-        </div>
-      )}
-    </section>
-
-    <!-- FAQs -->
-    {food.faqs && food.faqs.length > 0 && (
-      <section id="faqs" class="space-y-4 scroll-mt-20">
-        <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">FAQs</h2>
-        <FAQ faqs={food.faqs} />
-      </section>
+    {/* Injected Full Native Article Content */}
+    {food.articleHtml ? (
+      <ArticleRenderer content={food.articleHtml} />
+    ) : (
+      food.faqs && food.faqs.length > 0 && (
+        <section id="faqs" class="space-y-4 scroll-mt-20">
+          <h2 class="text-xl md:text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">FAQs</h2>
+          <FAQ faqs={food.faqs} />
+        </section>
+      )
     )}
   </article>
 

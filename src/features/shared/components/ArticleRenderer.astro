@@ -1,0 +1,14 @@
+---
+interface Props {
+  content: string;
+  className?: string;
+}
+
+const { content, className = '' } = Astro.props;
+---
+
+{content && (
+  <article class={`native-astro-article glass-card rounded-2xl p-6 md:p-8 border border-zinc-800/80 ${className}`}>
+    <Fragment set:html={content} />
+  </article>
+)}

@@ -6,26 +6,73 @@
   "servingSize": "100g",
   "calories": 52,
   "macros": {
-    "protein": { "value": 0.3, "unit": "g", "pctDailyValue": 1 },
-    "fat": { "value": 0.2, "unit": "g", "pctDailyValue": 0 },
-    "carbs": { "value": 13.8, "unit": "g", "pctDailyValue": 5 },
-    "fiber": { "value": 2.4, "unit": "g", "pctDailyValue": 10 },
-    "sugar": { "value": 10.4, "unit": "g", "pctDailyValue": 21 }
+    "protein": {
+      "value": 0.3,
+      "unit": "g",
+      "pctDailyValue": 1
+    },
+    "fat": {
+      "value": 0.2,
+      "unit": "g",
+      "pctDailyValue": 0
+    },
+    "carbs": {
+      "value": 13.8,
+      "unit": "g",
+      "pctDailyValue": 5
+    },
+    "fiber": {
+      "value": 2.4,
+      "unit": "g",
+      "pctDailyValue": 10
+    },
+    "sugar": {
+      "value": 10.4,
+      "unit": "g",
+      "pctDailyValue": 21
+    }
   },
   "micros": {
-    "sodium": { "value": 1.0, "unit": "mg", "pctDailyValue": 0 },
-    "potassium": { "value": 107.0, "unit": "mg", "pctDailyValue": 3 },
-    "vitaminC": { "value": 4.6, "unit": "mg", "pctDailyValue": 8 },
-    "calcium": { "value": 6.0, "unit": "mg", "pctDailyValue": 1 }
+    "sodium": {
+      "value": 1.0,
+      "unit": "mg",
+      "pctDailyValue": 0
+    },
+    "potassium": {
+      "value": 107.0,
+      "unit": "mg",
+      "pctDailyValue": 3
+    },
+    "vitaminC": {
+      "value": 4.6,
+      "unit": "mg",
+      "pctDailyValue": 8
+    },
+    "calcium": {
+      "value": 6.0,
+      "unit": "mg",
+      "pctDailyValue": 1
+    }
   },
   "faqs": [
     {
-      "q": "Are apples high in sugar?",
-      "a": "Apples contain natural sugar (fructose) but have a low glycemic index because they are high in fiber, which slows digestion and prevents blood sugar spikes."
+      "q": "How many calories are in 100g of apple?",
+      "a": "There are approximately\n    \n\n     52 calories in 100g of raw apple\n    \n\n     ."
     },
     {
-      "q": "Should you eat apple skin?",
-      "a": "Yes, much of the fiber and antioxidants (like quercetin) are concentrated in the skin, so eating apples whole is highly recommended."
+      "q": "How many carbs are in an apple?",
+      "a": "A 100g serving contains approximately\n    \n\n     13.8g of carbohydrates\n    \n\n     , including about 10.4g of naturally occurring sugars."
+    },
+    {
+      "q": "Does an apple contain vitamin C?",
+      "a": "Yes. A 100g serving provides approximately\n    \n\n     4.6mg of vitamin C\n    \n\n     ."
+    },
+    {
+      "q": "Does apple have potassium?",
+      "a": "Yes. Apple contains approximately\n    \n\n     107mg of potassium per 100g\n    \n\n     ."
     }
-  ]
+  ],
+  "articleHtml": "<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Apple Nutrition Facts\n    </span>\n</p>\n<div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Apples are mostly water and carbohydrates, with very little fat or protein. A\n    </span>\n<span>\n     100g serving of raw apple provides 52 calories\n    </span>\n<span>\n     , making it easy to compare its nutrition with other fruits using a consistent serving size.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.h70qcbdc0l9n\">\n<span>\n     Apple Nutrition per 100g\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A 100g serving of apple provides approximately:\n    </span>\n</p>\n<div>\n<div><div><div><div class=\"overflow-x-auto my-6 rounded-xl border border-zinc-800/80 glass-card-static\"><table class=\"w-full text-left border-collapse\">\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Nutrient\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Amount\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Calories\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         52 kcal\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Carbohydrates\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         13.8 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Total sugars\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         10.4 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Dietary fiber\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         2.4 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Protein\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         0.3 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Total fat\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         0.2 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Potassium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         107 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Vitamin C\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         4.6 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Sodium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         1 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Calcium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         6 mg\n        </span>\n</p>\n</td>\n</tr>\n</table></div></div></div></div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Most of the calories in an apple come from carbohydrates. Apples contain naturally occurring sugars along with dietary fiber, while contributing only small amounts of protein and fat.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.8r1rgx3zcwg0\">\n<span>\n     How Many Calories Are in an Apple?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The nutrition table above uses\n    </span>\n<span>\n     100 grams\n    </span>\n<span>\n     as a standard reference. An actual apple may weigh more or less than 100g, so its calorie content will depend on its size and edible weight.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     For example, a larger apple will naturally contain more calories, carbohydrates, and sugar than a smaller apple because you are eating a greater amount of fruit.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Using nutrition per 100g makes it easier to compare apples with bananas, berries, oranges, and other foods on the same basis.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.2jtw9vx5pc3v\">\n<span>\n     Are Apples High in Sugar?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Apples contain natural sugars, with approximately\n    </span>\n<span>\n     10.4g of total sugar per 100g\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     That number should be considered together with the whole food rather than viewed in isolation. A raw apple also contains water and dietary fiber, and its sugar occurs naturally within the fruit.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The amount of sugar you consume will ultimately depend on the size and amount of apple you eat.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.vkufglz8tmsb\">\n<span>\n     Do Apples Contain Fiber?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Yes. Apple provides approximately\n    </span>\n<span>\n     2.4g of dietary fiber per 100g\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The skin contributes to the fiber content, so the nutrition profile of a peeled apple can differ from an apple eaten with its skin.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.mi11dvll3xb6\">\n<span>\n     Apples Are Low in Protein and Fat\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Apple is not a significant source of either protein or fat.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A 100g serving contains only about\n    </span>\n<span>\n     0.3g of protein and 0.2g of fat\n    </span>\n<span>\n     . Its nutritional profile is therefore very different from protein-rich foods such as meat, eggs, dairy products, beans, or nuts.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.qpd25jvhzkwo\">\n<span>\n     Apple Nutrition: Quick Answers\n    </span>\n</h2><div class=\"faq-accordion-container space-y-3 my-6\"><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many calories are in 100g of apple?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many carbs are in an apple?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Does an apple contain vitamin C?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Does apple have potassium?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details></div>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.t9j38vssqup\">\n<span>\n     Data Source\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Nutrition values are presented per 100g of edible food to make comparisons consistent across the NutritionSolver food database. Food composition data is based on\n    </span>\n<span>\n     USDA FoodData Central\n    </span>\n<span>\n     reference data.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Actual nutrient values can vary slightly between apple varieties, growing conditions, ripeness, and individual fruit.\n    </span>\n</p>",
+  "seoTitle": "Apple Nutrition Facts: Calories, Carbs, Sugar & Fiber",
+  "seoDescription": "See apple nutrition facts per 100g, including calories, carbs, sugar, fiber, protein, fat, potassium, and vitamin C."
 }

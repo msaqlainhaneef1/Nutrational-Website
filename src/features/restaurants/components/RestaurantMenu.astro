@@ -254,15 +254,14 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
     // Wire up "Add to meal" buttons
     document.querySelectorAll('.add-to-meal-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
-        const el = btn as HTMLElement;
         const item = {
-          id: el.dataset.id || el.dataset.name || Math.random().toString(36),
-          name: el.dataset.name || 'Unknown item',
-          source: el.dataset.source || 'Restaurant',
-          calories: parseFloat(el.dataset.cal || '0'),
-          protein: parseFloat(el.dataset.pro || '0'),
-          carbs: parseFloat(el.dataset.carb || '0'),
-          fat: parseFloat(el.dataset.fat || '0'),
+          id: btn.dataset.id || btn.dataset.name || Math.random().toString(36),
+          name: btn.dataset.name || 'Unknown item',
+          source: btn.dataset.source || 'Restaurant',
+          calories: parseFloat(btn.dataset.cal || '0'),
+          protein: parseFloat(btn.dataset.pro || '0'),
+          carbs: parseFloat(btn.dataset.carb || '0'),
+          fat: parseFloat(btn.dataset.fat || '0'),
         };
         if (window.nsAddToMeal) {
           window.nsAddToMeal(item);

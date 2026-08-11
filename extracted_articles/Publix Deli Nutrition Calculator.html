@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Publix Deli Nutrition Calculator
+  </title>
+<link href="article_styles.css" rel="stylesheet"/>
+</head>
+<body>
+<main class="article-container">
+<h1 class="c0" id="h.t0hygcq5vjcb">
+<span class="c14 c8">
+     Publix Deli Nutrition Calculator
+    </span>
+</h1>
+<p class="c2">
+<span class="c4">
+     Publix Deli nutrition is different from a typical sandwich restaurant because there is rarely just one way to order an item.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A turkey Pub Sub can use Publix turkey or Boar’s Head OvenGold turkey. You can order a Half or Whole sub, change the bread, switch the cheese, add double meat, remove mayonnaise, add avocado, choose a different sauce, or turn some sandwiches into wraps.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Then the Deli extends well beyond subs into chicken tenders, fried chicken, prepared meals, sliced meats and cheeses, Grab &amp; Go foods, salads, soups, family meals, and party platters.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Use the
+    </span>
+<span class="c8">
+     Publix Deli Nutrition Calculator above
+    </span>
+<span class="c4">
+     to match the exact product and customization you actually order.
+    </span>
+</p>
+<h2 class="c5" id="h.18161fjt242h">
+<span class="c3">
+     Start With the Serving Format
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     For a Publix sub, identify:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Half or Whole
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     before calculating anything else.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Publix currently sells many of its made-to-order subs in both portions.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The serving size matters because the bread, meat, cheese, toppings, and condiments all scale with the order.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A Half Turkey Sub should therefore never inherit the nutrition of a Whole Turkey Sub.
+    </span>
+</p>
+<h2 class="c5" id="h.hkrla7ddqdj3">
+<span class="c3">
+     A Pub Sub Is a Custom Meal, Not One Fixed Number
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix's current online ordering system lets customers customize sandwiches with:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Bread
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cheese
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Meat
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Extra meat
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Vegetables
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Condiments
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Sauces
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other additions.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This means a Pub Sub name is better treated as a starting recipe.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For example:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Turkey Sub + Provolone + lettuce + tomato
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     is not nutritionally identical to:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Turkey Sub + double meat + Swiss + mayonnaise + avocado + sub dressing
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calculator should build the order from the selected configuration.
+    </span>
+</p>
+<h2 class="c5" id="h.cugqm0j2w5tx">
+<span class="c3">
+     Bread Can Add Hundreds of Calories Before the Filling
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current Publix online product information lists whole-sub bread choices around:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     White Sub Roll:
+    </span>
+<span class="c4">
+     approximately 470 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Whole Wheat Sub Roll:
+    </span>
+<span class="c4">
+     approximately 440 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Italian Five-Grain Sub Roll:
+    </span>
+<span class="c4">
+     approximately 540 calories.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Availability can vary by location.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The bread alone is therefore a substantial part of a Whole Pub Sub.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If you switch from one roll to another, NutritionSolver should adjust the bread component rather than keeping the original sandwich total unchanged.
+    </span>
+</p>
+<h2 class="c5" id="h.jr510i7luork">
+<span class="c3">
+     Do Not Assume Wheat Is Always Available
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix's current online ordering pages sometimes specifically note that wheat rolls are unavailable for the selected market.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This is important for the calculator.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The nutrition database can preserve the wheat option, but the page should not imply that every bread is available at every Publix store at all times.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Availability and nutrition are separate fields.
+    </span>
+</p>
+<h2 class="c5" id="h.3e0egif1pucw">
+<span class="c3">
+     Publix Meat and Boar’s Head Meat Need Separate Records
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix Deli sells its own sliced meats and Boar’s Head products.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Those should not be merged just because the meat type sounds similar.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For example:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Publix Oven Roasted Turkey
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Boar’s Head OvenGold Turkey
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     can have different serving nutrition and sodium.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The same distinction applies to ham, roast beef, and other deli meats.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A strong calculator should first ask:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Publix Deli or Boar’s Head?
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and then apply the correct meat portion.
+    </span>
+</p>
+<h2 class="c5" id="h.jhq8ao9w1500">
+<span class="c3">
+     The Publix Turkey Sub Is Currently Around 650 Calories Before Heavy Customization
+    </span>
+</h2>
+<p class="c2">
+<span>
+     The current Publix online ordering page lists a standard
+    </span>
+<span class="c8">
+     Publix Deli Turkey Sub
+    </span>
+<span class="c4">
+     at approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     650 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     with oven-roasted turkey, Provolone, lettuce, and tomato.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The sandwich can then be modified with different cheese, extra meat, bacon, avocado, sauces, vegetables, and condiments.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That makes the 650-calorie figure a useful standard starting configuration rather than a guarantee for every Turkey Sub.
+    </span>
+</p>
+<h2 class="c5" id="h.fld42zhe8ges">
+<span class="c3">
+     Boar’s Head Turkey Has a Similar Starting Point but Different Ingredients
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current Boar’s Head Turkey Sub is also shown around:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     650 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     in a standard current configuration.
+    </span>
+</p>
+<p class="c2">
+<span>
+     It uses
+    </span>
+<span class="c8">
+     Boar’s Head OvenGold Turkey Breast
+    </span>
+<span class="c4">
+     rather than the Publix-branded turkey.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Even when two finished sandwiches have similar headline calories, their underlying meat nutrition and sodium can differ.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Keep them as distinct menu entities.
+    </span>
+</p>
+<h2 class="c5" id="h.yweg9lqx98rp">
+<span class="c3">
+     The Ultimate Sub Should Be Built From Three Meats
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix's current Ultimate Sub contains:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tavern Ham
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Oven Roasted Turkey Breast
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Top Round Roast Beef
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     plus cheese, lettuce, tomato, bread, and selected condiments.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The current online ordering configuration is approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     680 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     before optional customizations change the meal.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This should remain separate from Boar’s Head Ultimate because the meat products are not identical.
+    </span>
+</p>
+<h2 class="c5" id="h.vns8bnssz2g8">
+<span class="c3">
+     Italian Subs Need Publix vs Boar’s Head Distinction Too
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix currently sells both Publix and Boar’s Head Italian-style subs.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The Publix Italian uses:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Genoa salami
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tavern ham
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cappy
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Provolone
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     lettuce
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     tomato
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current standard online configuration is approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     830 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The Boar’s Head Italian uses its own branded meats and currently appears around:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     800 calories
+    </span>
+<span class="c4">
+     in a standard online configuration.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Do not combine those two products under one generic
+    </span>
+<span class="c27">
+     Italian Sub
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<h2 class="c5" id="h.xuitxon3sp5e">
+<span class="c3">
+     Chicken Tender Sub Needs a Real Builder
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The Chicken Tender Sub is one of Publix Deli's most recognizable sandwiches.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Publix currently describes it as hand-breaded chicken tenders with cheese, lettuce, tomato, and customer-selected fixings.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current standard online configuration is shown at approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     1,040 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     But Publix's broader current Deli catalog gives a much wider range of approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     450 to 1,955 calories per sub
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     because size and customization can change the order dramatically.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That is why one fixed Chicken Tender Sub calorie value is not enough.
+    </span>
+</p>
+<h2 class="c5" id="h.ouiqq22elol8">
+<span class="c3">
+     Chicken Tender Sub Should Start With the Tenders
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     A useful calculator flow is:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Half or Whole
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     then:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     then:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Bread
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     then:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cheese
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     then:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Toppings
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     then:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Sauce or condiment
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This is more accurate than starting with one 1,000-plus-calorie sandwich and trying to subtract modifications afterward.
+    </span>
+</p>
+<h2 class="c5" id="h.uvtod0bpk8ok">
+<span class="c3">
+     Buffalo Chicken Tender Sub Is a Different Current Recipe
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix currently sells a Buffalo Chicken Tender Sub made with:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Buffalo sauce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     cheese
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and selected vegetables.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The live online ordering system currently shows a standard configuration around:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     1,200 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Buffalo sauce is therefore part of the finished recipe and should not simply be treated as a plain Chicken Tender Sub with an identical total.
+    </span>
+</p>
+<h2 class="c5" id="h.8avbam7qu7bx">
+<span class="c3">
+     Sweet &amp; Spicy Chicken Tender Sub Needs Its Own Record
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current Sweet &amp; Spicy version uses:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Publix chicken tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     sweet sriracha sauce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     spicy three-pepper cheese
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     plus the selected toppings.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current configuration is approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     1,220 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This should be searchable by its exact product name rather than grouped under generic chicken tender subs.
+    </span>
+</p>
+<h2 class="c5" id="h.11s387b0dmxf">
+<span class="c3">
+     Chicken Bacon Ranch Can Be Much Higher
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current Chicken Bacon Ranch Tender Sub combines:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     bacon
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Provolone
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     lettuce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     tomato
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Buttermilk Ranch
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The current online configuration is shown at approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     1,835 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This demonstrates how sauces and added meats can alter a Pub Sub far more than a few vegetable toppings.
+    </span>
+</p>
+<h2 class="c5" id="h.p878vz28l2ur">
+<span class="c3">
+     Publix Also Has Current Specialty Tender Subs
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current online Publix listings include additional chicken-tender preparations such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Hot Honey Chicken Tender Sub
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken Parmesan Tender Sub
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Nashville Hot Chicken Tender Sub
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     along with Buffalo and Sweet &amp; Spicy options.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     These should have a dedicated:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken Tender Subs
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     category.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Do not bury them among only nine generic
+    </span>
+<span class="c27">
+     Subs
+    </span>
+<span class="c4">
+     records.
+    </span>
+</p>
+<h2 class="c5" id="h.p0te9i942zaa">
+<span class="c3">
+     Mayonnaise Can Change the Total More Than Several Vegetables Combined
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current Publix online customizers show approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Mayonnaise:
+    </span>
+<span class="c4">
+     220 calories for the displayed whole-sub portion
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     while vegetable additions such as tomato or onion contribute far less.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This makes condiments one of the most important customization steps.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A user removing mayo needs the calculator to remove the actual published serving, not an arbitrary generic tablespoon estimate.
+    </span>
+</p>
+<h2 class="c5" id="h.ashxet7dupb6">
+<span class="c3">
+     Sub Dressing Is Another Large Addition
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current online customization data shows Boar’s Head Sub Dressing around:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     200 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     for the displayed whole-sub serving.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That means:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Sub without dressing
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Sub with full dressing portion
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     can differ significantly.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calculator should also distinguish regular sub dressing from other deli sauces.
+    </span>
+</p>
+<h2 class="c5" id="h.gkcsml3h4ma2">
+<span class="c3">
+     Ranch Can Be Even More Substantial
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current Chicken Tender Sub customizer shows Buttermilk Ranch around:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     410 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     for the displayed serving.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That means a creamy condiment can sometimes alter the meal more than changing the meat by a small amount.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Keep condiments visible in the nutrition total rather than hiding them under
+    </span>
+<span class="c27">
+     toppings
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<h2 class="c5" id="h.qka3gtiiwdtt">
+<span class="c3">
+     Honey Mustard Needs Current Serving Context
+    </span>
+</h2>
+<p class="c2">
+<span>
+     Publix's current customizer shows Boar’s Head Honey Mustard around
+    </span>
+<span class="c8">
+     45 calories
+    </span>
+<span class="c4">
+     for one displayed sandwich serving.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The exact amount can depend on the product and serving context.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver should therefore store:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     ingredient + portion + source
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     instead of one universal Honey Mustard value with no serving label.
+    </span>
+</p>
+<h2 class="c5" id="h.ws9mc6hkpjzy">
+<span class="c3">
+     Cheese Choice Should Be Part of the Builder
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current online Publix sub options include cheeses such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Provolone
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     White American
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Yellow American
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Swiss
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cheddar
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Muenster
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pepper Jack
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other store-dependent choices.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current Whole sub cheese portion can be around 70 to 90 calories in the online customizer depending on the cheese.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If someone removes cheese or changes the variety, the nutrition total should change.
+    </span>
+</p>
+<h2 class="c5" id="h.i2sa81xn9uqr">
+<span class="c3">
+     Double Meat Should Use the Actual Sandwich Protein
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix lets customers add double meat to many subs.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calorie addition depends on which meat is in the sandwich.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For example, adding more turkey is not the same as adding more salami or a mixed Ultimate meat portion.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calculator should link:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Double Meat
+    </span>
+</p>
+<p class="c2">
+<span>
+     to the selected sandwich protein rather than apply one universal
+    </span>
+<span class="c27">
+     extra meat
+    </span>
+<span class="c4">
+     value.
+    </span>
+</p>
+<h2 class="c5" id="h.kl5zgxlxo4ks">
+<span class="c3">
+     Vegetables Should Still Be Counted, but Their Effect Is Smaller
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix currently offers toppings such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Lettuce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tomato
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Onions
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Black olives
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Green peppers
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Banana peppers
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Jalapeños
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pickles
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cucumbers
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Spinach
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and seasonings.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Most contribute relatively few calories compared with bread, cheese, mayonnaise, ranch, bacon, or chicken tenders.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     They still belong in the builder, especially where sodium or other nutrient information is available.
+    </span>
+</p>
+<h2 class="c5" id="h.qibno3xoxa5q">
+<span class="c3">
+     Wraps Need Their Own Bread Replacement
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix Deli also sells wraps.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Current options can include:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     White Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Whole Wheat Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Spinach Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tomato Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Gluten-Free White Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other products depending on location.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A wrap should replace the sub roll in the calculation.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Do not add a wrap on top of a normal sub bread serving.
+    </span>
+</p>
+<h2 class="c5" id="h.e6qlck9dy35d">
+<span class="c3">
+     Chicken Tender Wrap Is Not the Same as the Chicken Tender Sub
+    </span>
+</h2>
+<p class="c2">
+<span>
+     Publix's current Deli catalog separately lists a
+    </span>
+<span class="c8">
+     Chicken Tender Wrap
+    </span>
+<span class="c4">
+     , with a broad calorie range because of customization.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That means:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken Tender Sub
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chicken Tender Wrap
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     need different base records.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The protein may be similar, but the bread format changes the final meal.
+    </span>
+</p>
+<h2 class="c5" id="h.jhbpkcaxk2r3">
+<span class="c3">
+     Publix Deli Is Much More Than Pub Subs
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The Deli currently includes categories such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Deli Subs
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Deli Meats and Cheeses
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Fried Chicken
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Oven-Roasted Chicken
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Prepared Meals
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Wraps
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Salads
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Soups
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Grab &amp; Go Sandwiches
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Party Platters
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Drinks
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other ready-to-eat foods.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A useful Publix Deli calculator should reflect those actual departments rather than behaving only like a sandwich shop.
+    </span>
+</p>
+<h2 class="c5" id="h.2uwdzom1h88a">
+<span class="c3">
+     Chicken Tenders Need Piece Count or Serving Weight
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     NutritionSolver currently has a Chicken Tenders record near 940 calories.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That value is not useful without telling the customer:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     how many tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     or:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     what serving weight
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     it represents.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Publix also sells tender meals in defined piece counts.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Every tender record should therefore include a count or weight.
+    </span>
+</p>
+<h2 class="c5" id="h.i6l3sdt84n8m">
+<span class="c3">
+     Family Chicken Meals Need Shared-Meal Logic
+    </span>
+</h2>
+<p class="c2">
+<span>
+     Publix currently sells a
+    </span>
+<span class="c8">
+     Chicken Tenders Meal for Four
+    </span>
+<span class="c4">
+     with:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     12 chicken tenders
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     two 16 oz sides
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     bread
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     sauce
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Publix lists the complete meal around:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     3,480 to 6,760 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     or roughly:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     870 to 1,690 calories per serving
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     depending on the selected sides and accompaniments.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That is exactly the kind of product that needs a family-meal builder.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Do not show the entire package total as though it were one person's meal.
+    </span>
+</p>
+<h2 class="c5" id="h.9stb03so1fz8">
+<span class="c3">
+     Fried Chicken Wings Need Piece Count
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix Deli currently sells fried chicken wings in multiple quantities, including large party orders.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current 50-piece plain breaded wing listing gives approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     180 calories per wing
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver should therefore calculate:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     wing type + number eaten
+    </span>
+</p>
+<p class="c2">
+<span>
+     rather than store an unexplained single
+    </span>
+<span class="c27">
+     Fried Chicken Wing
+    </span>
+<span class="c4">
+     result.
+    </span>
+</p>
+<h2 class="c5" id="h.ngdu4gxhkwbs">
+<span class="c3">
+     Prepared Meals Need Their Included Sides
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     A Publix fried chicken or tender meal can include:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     chicken
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     sides
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     bread
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     sauce
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The meal nutrition therefore depends on the exact configuration.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This is similar to a restaurant combo, but the grocery Deli can also sell components individually.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Keep both:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     complete prepared meal
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     individual component
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     available without double-counting.
+    </span>
+</p>
+<h2 class="c5" id="h.uzyud1n5y6zg">
+<span class="c3">
+     Sliced Deli Meat Should Use Weight-Based Serving Sizes
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix sells sliced meat by weight.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A useful meat record should therefore state something like:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     2 oz
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     or:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     28g
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     rather than simply:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tavern Ham
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     with no context.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This is particularly important for shoppers using sliced meat at home rather than inside a Pub Sub.
+    </span>
+</p>
+<h2 class="c5" id="h.13cmvufx3hvb">
+<span class="c3">
+     Sliced Cheese Needs the Same Serving Discipline
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Cheese sold at the Deli counter can be ordered by weight, while cheese used on a sub uses a sandwich portion.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Those two serving contexts may not be identical.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver should distinguish:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Deli-counter serving
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     from:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Whole-sub cheese portion
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     instead of using one unlabeled Provolone value everywhere.
+    </span>
+</p>
+<h2 class="c5" id="h.y4dtzln3fwje">
+<span class="c3">
+     Grab &amp; Go Foods Are Their Own Product Type
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Publix also sells premade sandwiches and other Grab &amp; Go Deli products.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For example, a packaged Cuban Sandwich has its own defined nutrition and does not necessarily match a made-to-order customizable Cuban-style sub.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Keep:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Made to Order
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Grab &amp; Go
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     as separate product statuses.
+    </span>
+</p>
+<h2 class="c5" id="h.tcxlo0pw7n27">
+<span class="c3">
+     Party Platters Need Per-Person or Per-Piece Values
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current Publix Sub Selections platters can contain many individual sandwiches.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A current Medium platter is approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     3,120 to 6,960 calories per platter
+    </span>
+</p>
+<p class="c2">
+<span>
+     and serves around
+    </span>
+<span class="c8">
+     18 people
+    </span>
+<span>
+     , with individual sub portions around
+    </span>
+<span class="c8">
+     130 to 290 calories
+    </span>
+<span class="c4">
+     depending on selection.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For catering, the useful calculation is:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     whole platter
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     or:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     number of pieces eaten
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A catering platter should never distort normal individual-meal statistics.
+    </span>
+</p>
+<h2 class="c5" id="h.q3ed6xrawpc6">
+<span class="c3">
+     Publix Deli Nutrition Questions
+    </span>
+</h2><div class="faq-accordion-container space-y-3 my-6"><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Publix Chicken Tender Sub?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Publix Turkey Sub?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Publix Ultimate Sub?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Publix Italian Sub?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Publix sub roll?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories does mayonnaise add to a Pub Sub?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Does Publix have Boar’s Head subs?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Where does Publix publish Deli nutrition?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="c5" id="h.1u8x6s4awz5p">
+<span class="c3">
+     Build a Publix Deli Order From the Counter Forward
+    </span>
+</h2>
+<p class="c2">
+<span>
+     For a
+    </span>
+<span class="c8">
+     Pub Sub
+    </span>
+<span class="c4">
+     , choose:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Publix or Boar’s Head → Half or Whole → Bread → Meat → Cheese → Toppings → Condiments → Extras
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span>
+     For
+    </span>
+<span class="c8">
+     chicken
+    </span>
+<span class="c4">
+     , choose the exact item and piece count, then add the selected sides, bread, and sauce.
+    </span>
+</p>
+<p class="c2">
+<span>
+     For
+    </span>
+<span class="c8">
+     Grab &amp; Go
+    </span>
+<span class="c4">
+     , use the packaged product's own serving information.
+    </span>
+</p>
+<p class="c2">
+<span>
+     For
+    </span>
+<span class="c8">
+     family meals and platters
+    </span>
+<span class="c4">
+     , calculate either the entire package or the portion actually eaten.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Publix Deli has enough customization that one static calorie value is rarely the best answer. Matching the exact counter order produces a much more useful nutrition total.
+    </span>
+</p>
+<p class="c7 c23">
+<span class="c4">
+</span>
+</p>
+<div class="meta-info-card">
+<p class="c24 title" id="h.32n7gc6nj4bm">
+<span class="c12">
+      Meta Title: QDOBA Nutrition Calculator: Calories,…
+     </span>
+</p>
+<p class="c2">
+<span class="c8">
+      Meta Title:
+     </span>
+<span class="c4">
+      QDOBA Nutrition Calculator: Calories, Protein &amp; Macros
+     </span>
+</p>
+<p class="c2">
+<span class="c8">
+      Meta Description:
+     </span>
+<span class="c4">
+      Calculate QDOBA calories, protein, carbs, fat, and sodium for burritos, bowls, tacos, quesadillas, nachos, chicken, steak, queso, guacamole, and more.
+     </span>
+</p>
+</div>
+</main>
+</body>
+</html>

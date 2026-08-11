@@ -10,7 +10,7 @@ const { stats } = Astro.props;
 const formatNum = (n: number) => n.toLocaleString('en-US');
 ---
 
-<section class="relative overflow-hidden pt-20 pb-24 md:pt-28 md:pb-32 border-b border-zinc-900/80">
+<section class="relative overflow-hidden pt-12 pb-16 md:pt-16 md:pb-20 border-b border-zinc-900/80">
   <!-- Background decoration -->
   <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-emerald-500/10 rounded-full blur-[160px] pointer-events-none"></div>
   <div class="absolute top-1/4 -left-20 w-[400px] h-[400px] bg-teal-500/8 rounded-full blur-[120px] pointer-events-none"></div>
@@ -20,7 +20,7 @@ const formatNum = (n: number) => n.toLocaleString('en-US');
   <div class="absolute inset-0 opacity-[0.025] pointer-events-none" style="background-image: linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px); background-size: 48px 48px;"></div>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="text-center space-y-8 max-w-4xl mx-auto">
+    <div class="text-center space-y-6 max-w-3xl mx-auto">
       <!-- Badge -->
       <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/25 px-4 py-1.5 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-wider animate-fade-in">
         <Sparkles class="h-3.5 w-3.5" />
@@ -28,34 +28,34 @@ const formatNum = (n: number) => n.toLocaleString('en-US');
       </div>
 
       <!-- Headline -->
-      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-white leading-[1.05] animate-slide-up">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-zinc-200 leading-[1.1] animate-slide-up">
         Nutrition data,<br/>
         <span class="text-gradient">without the noise.</span>
       </h1>
 
       <!-- Subhead -->
-      <p class="text-zinc-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed animate-slide-up" style="animation-delay: 0.1s">
+      <p class="text-zinc-300 text-sm sm:text-base md:text-lg max-w-xl mx-auto leading-relaxed animate-slide-up" style="animation-delay: 0.1s">
         Browse calorie and macro information for 100 restaurant chains, run a quick health calculator,
-        and skip the popups, signups, and tracking cookies. Built for people who just want the numbers.
+        and skip the popups, signups, and tracking.
       </p>
 
       <!-- Search + CTAs -->
-      <div class="flex flex-col items-center gap-4 pt-2 animate-slide-up" style="animation-delay: 0.2s">
-        <form action="/restaurants" method="get" class="w-full max-w-2xl">
-          <div class="relative glass-card rounded-2xl p-2 flex items-center gap-2 focus-within:border-emerald-500/40">
-            <div class="pl-3 text-zinc-500">
+      <div class="flex flex-col items-center gap-4 pt-1.5 animate-slide-up" style="animation-delay: 0.2s">
+        <form action="/restaurants" method="get" class="w-full max-w-xl">
+          <div class="relative glass-card rounded-full p-1.5 pl-4 flex items-center gap-2 border border-zinc-800 focus-within:border-emerald-500/40">
+            <div class="text-zinc-500">
               <Search class="h-5 w-5" />
             </div>
             <input
               type="text"
               name="q"
-              placeholder="Search a restaurant, like Starbucks or McDonald's..."
-              class="flex-1 bg-transparent border-0 outline-none text-white placeholder-zinc-500 text-base py-2.5"
+              placeholder="Search a restaurant..."
+              class="flex-1 bg-transparent border-0 outline-none text-zinc-100 placeholder-zinc-500 text-sm py-2"
               aria-label="Search restaurants"
             />
             <button
               type="submit"
-              class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-colors shadow-lg shadow-emerald-500/20"
+              class="inline-flex items-center space-x-1.5 px-5 py-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-sm rounded-full transition-colors"
             >
               <span>Search</span>
               <ArrowRight class="h-4 w-4" />
@@ -63,20 +63,20 @@ const formatNum = (n: number) => n.toLocaleString('en-US');
           </div>
         </form>
 
-        <div class="flex flex-wrap justify-center gap-3 pt-2">
-          <a href="/restaurants" class="inline-flex items-center space-x-2 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-sm rounded-xl transition-colors">
-            <Database class="h-4 w-4" />
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="/restaurants" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
+            <Database class="h-3.5 w-3.5" />
             <span>Browse all restaurants</span>
           </a>
-          <a href="/calculators/macro" class="inline-flex items-center space-x-2 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-sm rounded-xl transition-colors">
+          <a href="/calculators/macro" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
             <span>Try macro calculator</span>
-            <ArrowRight class="h-4 w-4" />
+            <ArrowRight class="h-3.5 w-3.5" />
           </a>
         </div>
       </div>
 
       <!-- Trust strip -->
-      <div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 pt-8 text-xs text-zinc-500 animate-fade-in" style="animation-delay: 0.3s">
+      <div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 pt-4 text-xs text-zinc-500 animate-fade-in" style="animation-delay: 0.3s">
         <span class="inline-flex items-center gap-1.5">
           <ShieldCheck class="h-4 w-4 text-emerald-500" />
           No tracking cookies

@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Mucho Burrito Nutrition Calculator
+  </title>
+<link href="article_styles.css" rel="stylesheet"/>
+</head>
+<body>
+<main class="article-container">
+<h1 class="c0" id="h.tumvaslvqgmq">
+<span class="c14 c8">
+     Mucho Burrito Nutrition Calculator
+    </span>
+</h1>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito meals are built one ingredient at a time, so there is rarely one calorie number that represents every burrito or bowl.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A Small burrito with grilled chicken, rice, beans, salsa, and vegetables is a different serving from a Mucho burrito loaded with chorizo, cheese, guacamole, sour cream, and additional sauces. A bowl removes the tortilla but can use a different base, while tacos and quesadillas start with their own serving formats.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Use the
+    </span>
+<span class="c8">
+     Mucho Burrito Nutrition Calculator above
+    </span>
+<span class="c4">
+     to build the meal you actually order and see how each ingredient changes the available calories and macros.
+    </span>
+</p>
+<h2 class="c5" id="h.rw35y3oa1s7q">
+<span class="c3">
+     Think in Layers, Not Just Menu Names
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The easiest way to understand Mucho Burrito nutrition is to build the meal in layers.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Start with:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Size and format
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Then choose:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Tortilla or bowl base
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Rice and beans
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Protein
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cheese
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Fresh toppings
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Salsa
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Sauces
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Guacamole or queso
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Finally, add any side, dessert, or drink you order separately.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This matches Mucho Burrito's current build-your-own approach, where customers choose the individual components of burritos, bowls, salads, tacos, and quesadillas.
+    </span>
+</p>
+<h2 class="c5" id="h.6dso5jxr0yky">
+<span class="c3">
+     Small, Regular, and Mucho Are Different Serving Sizes
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently recognizes three main burrito sizes:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Small
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Regular
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Mucho
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The larger serving is not simply the same nutrition value with a different name.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     More tortilla, rice, beans, protein, cheese, and toppings can all change the final total.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver should therefore preserve size-specific ingredient portions wherever Mucho Burrito provides them.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A Small burrito should never automatically inherit the ingredient quantities of a Mucho burrito.
+    </span>
+</p>
+<h2 class="c5" id="h.9g41xqdihvd4">
+<span class="c3">
+     The Tortilla Can Be a Large Part of the Burrito
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently lets customers choose between white flour and whole-wheat tortillas.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Your current NutritionSolver data lists a 10-inch white flour tortilla at approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     340 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     9g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     52g carbohydrates
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     10g fat
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The current 10-inch whole-wheat tortilla is also listed around 340 calories in the existing database.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That means the tortilla alone can account for a meaningful part of the burrito's total calories and carbohydrates.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If you choose a bowl instead, do not simply subtract a random tortilla estimate. Use the actual bowl ingredients and portions.
+    </span>
+</p>
+<h2 class="c5" id="h.v8522z3pwg3g">
+<span class="c3">
+     A Bowl Starts With a Different Decision
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito's current bowl builder lets customers choose among bases such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cilantro-Lime Rice
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Mexican Brown Rice
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Romaine Lettuce
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and combinations of rice and greens.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That makes the bowl more flexible than simply being a burrito without a tortilla.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A rice-heavy bowl and a greens-based bowl can have very different carbohydrate and calorie totals before the protein or toppings are added.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     For bowls, calculate:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Base → protein → beans → cheese → toppings → sauces
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     rather than starting from a burrito total.
+    </span>
+</p>
+<h2 class="c5" id="h.fxd6oxa458ui">
+<span class="c3">
+     Rice Choice Changes the Base
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently uses both Cilantro-Lime Rice and Mexican Brown Rice.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The current NutritionSolver database lists Mexican Brown Rice at approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Mucho portion: 180 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Regular portion: 90 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This is a good example of why serving size belongs directly in the ingredient name.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     However, Cilantro-Lime Rice should also have its own current nutrition entry rather than being represented by the brown-rice value.
+    </span>
+</p>
+<h2 class="c5" id="h.vc9gxq4zn3tm">
+<span class="c3">
+     Beans Should Be Selected Separately
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current Mucho Burrito ordering materials include:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chipotle Black Beans
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pinto Beans
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     as separate choices.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Your current NutritionSolver database already contains separate black-bean and pinto-bean records, which is the right approach.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If you skip beans, remove them from the build.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If you use both, count both portions where the restaurant allows that customization.
+    </span>
+</p>
+<h2 class="c5" id="h.7lixe9lgdm0t">
+<span class="c3">
+     Protein Is Where Many Builds Separate Quickly
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently offers a broad protein lineup that includes options such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Grilled Chicken
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Crispy Chicken
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Steak
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Beef Barbacoa
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pork Carnitas
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Chorizo
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Ancho Ground Beef
+    </span>
+</p>
+<p class="c2">
+<span>
+     and a plant-based
+    </span>
+<span class="c8">
+     Shiitake Carnitas
+    </span>
+<span class="c4">
+     option.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     These proteins do not have interchangeable nutrition.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Current NutritionSolver examples include approximately:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Grilled Chicken:
+    </span>
+<span class="c4">
+     109 calories and 18g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Pork Carnitas:
+    </span>
+<span class="c4">
+     140 calories and 22g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Beef Barbacoa:
+    </span>
+<span class="c4">
+     190 calories and 30g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Steak:
+    </span>
+<span class="c4">
+     210 calories and 24g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Chorizo:
+    </span>
+<span class="c4">
+     300 calories and 21g protein
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Choosing a protein can therefore change both the calorie total and the balance of protein and fat.
+    </span>
+</p>
+<h2 class="c5" id="h.3f803wn7m5ey">
+<span class="c3">
+     Grilled and Crispy Chicken Need Separate Records
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently offers both fire-grilled chicken and Crispy Chicken Tenders.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Those are different preparations and should never share the same nutrition record.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The breading and cooking method used for crispy chicken can change calories, carbs, fat, and sodium compared with grilled chicken.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver should therefore make the preparation obvious in the item name.
+    </span>
+</p>
+<h2 class="c5" id="h.yw5whprznv67">
+<span class="c3">
+     Shiitake Carnitas Should Not Be Treated as Pork
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently describes Shiitake Carnitas as a plant-based option made from seasoned shiitake mushrooms with a carnitas-style texture.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Despite the name, it is not pork carnitas.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     It needs its own nutrition record and dietary labeling.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A search for “Mucho Burrito carnitas calories” should distinguish:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pork Carnitas
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     from
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Shiitake Carnitas
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     rather than combining them.
+    </span>
+</p>
+<h2 class="c5" id="h.6v1gjjklopus">
+<span class="c3">
+     Cheese and Plant-Based Cheese Are Separate Choices
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Current Mucho Burrito ordering materials include standard cheese and plant-based cheese.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     These ingredients can differ in calories, protein, fat, sodium, and allergens.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If plant-based cheese is selected, the calculator should replace the standard cheese rather than adding it on top of the regular cheese value.
+    </span>
+</p>
+<h2 class="c5" id="h.h7jno2c4hwdk">
+<span class="c3">
+     Fresh Toppings Are a Bigger Part of the Current Menu
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito's current topping lineup includes ingredients such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pico de Gallo
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Charred Corn
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pickled Onions
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Roasted Chickpeas
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Citrus Slaw
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Romaine Lettuce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Crispy Onions
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other rotating choices.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Not every topping makes the same nutritional contribution.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Fresh lettuce and pico can add relatively little energy, while chickpeas, crispy toppings, corn, and other ingredients can contribute more calories or carbohydrates.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Use the actual topping rather than one generic “vegetables” record.
+    </span>
+</p>
+<h2 class="c5" id="h.n34khe433qga">
+<span class="c3">
+     Made-in-Casa Salsa Should Be Chosen by Recipe
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito emphasizes fresh, in-house salsa preparation.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Current selections include:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Pico de Gallo
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Medium Salsa
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Salsa Cruda
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Hot Salsa
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and additional seasonal choices.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Your current NutritionSolver data lists:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Pico de Gallo, 60g:
+    </span>
+<span class="c4">
+     about 10 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Medium Salsa:
+    </span>
+<span class="c4">
+     about 15 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Small values can still matter when several sauces and toppings are combined, but the larger nutritional changes usually come from tortilla, protein, cheese, guac, queso, rice, and creamy sauces.
+    </span>
+</p>
+<h2 class="c5" id="h.2nv7zsg9ln5r">
+<span class="c3">
+     Sauces Deserve Their Own Step
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current Mucho Burrito menu contains a wider sauce selection than a basic salsa bar.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Depending on the entrée and location, current choices include sauces such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     MUCHO Burrito Sauce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Guajillo Sauce
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Sour Cream
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Avocado-Lime Vinaigrette
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Spicy Rancho
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Amarillo Sauce
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and other promotional sauces.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A creamy sauce should not inherit the nutrition of salsa.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If you choose two sauces, count both verified portions.
+    </span>
+</p>
+<h2 class="c5" id="h.i9eyap5t4h0y">
+<span class="c3">
+     Guacamole Should Be Counted by Portion
+    </span>
+</h2>
+<p class="c2">
+<span>
+     Current NutritionSolver data lists a 30g guacamole serving at approximately
+    </span>
+<span class="c8">
+     25 calories
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The important detail is the serving size.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Guacamole inside a burrito and a side order of guacamole may not contain the same amount.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Always match the serving context instead of using one guacamole number for every situation.
+    </span>
+</p>
+<h2 class="c5" id="h.a1b9hyz5ryxo">
+<span class="c3">
+     Current Signature Builds Need More Than a Zero-Calorie Parent Record
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito now promotes signature builds in addition to fully customized meals.
+    </span>
+</p>
+<p class="c2">
+<span>
+     One current example is
+    </span>
+<span class="c8">
+     MUCHO's Way Burrito &amp; Bowl
+    </span>
+<span class="c4">
+     , which combines Mexican brown rice, fajita vegetables, black beans, cheese, salsa, pico de gallo, house-made sauces, and a chosen protein.
+    </span>
+</p>
+<p class="c2">
+<span>
+     Another is the current limited-time
+    </span>
+<span class="c8">
+     Cali Crunch
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     These finished recipes should either have verified complete nutrition or work as preloaded ingredient configurations inside the calculator.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     They should not display as zero-calorie meals.
+    </span>
+</p>
+<h2 class="c5" id="h.psh5np15tori">
+<span class="c3">
+     Cali Crunch Uses Fries Inside the Burrito
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Cali Crunch has a particularly distinctive structure.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The current burrito uses Spiced Mercado Fries in place of rice and combines them with grilled chicken, fajita vegetables, black beans, cheese, pico de gallo, charred corn, crispy onions, guacamole, and Amarillo sauce.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The bowl version is different because the current official description says the bowl includes rice along with the Mercado Fries.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That means:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cali Crunch Burrito
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Cali Crunch Bowl
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     should not automatically share the same nutrition formula.
+    </span>
+</p>
+<h2 class="c5" id="h.te6kz2bow1x3">
+<span class="c3">
+     Mercado Fries Are More Than a Side
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently uses Spiced Mercado Fries both as a side and as an ingredient in Cali Crunch.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     This creates two different serving contexts:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Fries ordered separately
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Fries used inside an entrée
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calculator should use the serving amount that matches the selected context.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A full side portion should not automatically be added inside a Cali Crunch recipe unless that is the verified amount used.
+    </span>
+</p>
+<h2 class="c5" id="h.1scjg9ly3wks">
+<span class="c3">
+     Tacos Need Shell Count and Filling
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito's taco builder allows customers to choose protein, cheese, toppings, and sauces.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver currently lists:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Soft Flour Tacos, 3 count:
+    </span>
+<span class="c4">
+     about 270 calories for the shells
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     and
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Hard Corn Tacos, 2 count:
+    </span>
+<span class="c4">
+     about 50 calories for the shells.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Those are only base values.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Protein, cheese, guacamole, salsa, sauces, and other fillings still need to be added.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The calculator should therefore work as:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     Shell type and count → protein → cheese → toppings → sauce
+    </span>
+</p>
+<h2 class="c5" id="h.4k9p96o98i4y">
+<span class="c3">
+     Quesadillas Need Their Own Cheese-Forward Calculation
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     A quesadilla starts differently from a burrito or taco.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     The tortilla and melted cheese form a major part of the base, followed by the selected protein and toppings.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     NutritionSolver currently contains older named quesadilla records such as:
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     El Clasico:
+    </span>
+<span class="c4">
+     about 800 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c8">
+     Super Suiza:
+    </span>
+<span class="c4">
+     about 1,000 calories
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     but current build-your-own quesadilla options should also be available ingredient by ingredient.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Do not calculate a quesadilla by taking a burrito and removing rice and beans.
+    </span>
+</p>
+<h2 class="c5" id="h.b960t3ft3zfn">
+<span class="c3">
+     Salsa Flight Is Designed for Sharing
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     The current menu includes a Salsa Flight pairing tortilla chips with four house-made salsas.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A shared appetizer should clearly state whether its nutrition represents:
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     the whole order
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     or
+    </span>
+</p>
+<p class="c2">
+<span class="c1">
+     one serving
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     If several people share it, the calculator can only estimate your personal intake based on the amount you actually eat.
+    </span>
+</p>
+<h2 class="c5" id="h.k4kcgy2rthjg">
+<span class="c3">
+     Drinks Need Exact Product Selection
+    </span>
+</h2>
+<p class="c2">
+<span class="c4">
+     Mucho Burrito currently sells beverages such as canned and bottled soft drinks, Jarritos, iced tea, juice, water, sparkling water, and other products.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A bottled water can genuinely contain zero calories.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     A regular Jarritos or sugar-sweetened soft drink cannot reasonably be assumed to contain zero calories.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     Each branded drink needs the exact product and serving size before a nutrition value is assigned.
+    </span>
+</p>
+<h2 class="c5" id="h.7m24k2pufloj">
+<span class="c3">
+     Mucho Burrito Nutrition Questions
+    </span>
+</h2><div class="faq-accordion-container space-y-3 my-6"><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How many calories are in a Mucho Burrito?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>What sizes does Mucho Burrito offer?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Does a Mucho Burrito bowl have fewer calories than a burrito?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>What proteins does Mucho Burrito offer?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>Is Shiitake Carnitas meat?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>What is Cali Crunch?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details><details class="faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group"><summary class="faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors"><span>How should I calculate a Mucho Burrito quesadilla?</span><span class="faq-icon text-emerald-400 text-lg leading-none transition-transform group-open:rotate-45 ml-2">+</span></summary><div class="faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40"></div></details></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="c5" id="h.g9bvbg4xb9pf">
+<span class="c3">
+     Build Your Mucho Burrito Meal in the Same Order You Build It In-Store
+    </span>
+</h2>
+<p class="c2">
+<span>
+     First choose the
+    </span>
+<span class="c8">
+     Small, Regular, or Mucho serving
+    </span>
+<span>
+     and whether you want a
+    </span>
+<span class="c8">
+     burrito, bowl, taco, quesadilla, or salad
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span>
+     Then select the correct
+    </span>
+<span class="c8">
+     tortilla or base, rice, beans, protein, cheese, fresh toppings, salsa, sauces, guacamole, or queso
+    </span>
+<span class="c4">
+     .
+    </span>
+</p>
+<p class="c2">
+<span>
+     Finish by adding any
+    </span>
+<span class="c8">
+     Mercado Fries, chips and salsa, Salsa Flight, dessert, or beverage
+    </span>
+<span class="c4">
+     you actually consume.
+    </span>
+</p>
+<p class="c2">
+<span class="c4">
+     That produces a much more useful Mucho Burrito nutrition estimate than treating every customizable meal as one fixed menu item.
+    </span>
+</p>
+<p class="c7 c23">
+<span class="c4">
+</span>
+</p>
+</main>
+</body>
+</html>

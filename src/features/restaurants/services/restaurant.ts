@@ -1,26 +1,52 @@
 import type { Restaurant, MenuItem, MenuCategory } from '../schemas/restaurant';
+import indexData from '../../../data/restaurants/_index.json';
 
-const restaurantFiles = import.meta.glob('../../../data/restaurants/*.json', { eager: true });
-const restaurants: Restaurant[] = Object.entries(restaurantFiles)
-  .filter(([path]) => !path.endsWith('_index.json'))
-  .map(([, mod]: any) => mod.default || mod);
+// Eagerly load ONLY the lightweight 17KB _index.json summary array for ultra-fast list & search performance
+const restaurantSummaries = indexData.restaurants;
 
-export function getAllRestaurants(): Restaurant[] {
-  return [...restaurants].sort((a, b) => a.name.localeCompare(b.name));
+// Dynamic on-demand glob for individual restaurant pages
+const restaurantModules = import.meta.glob('../../../data/restaurants/*.json');
+
+export function getAllRestaurants(): any[] {
+  return [...restaurantSummaries].sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export function getRestaurantBySlug(slug: string): Restaurant | undefined {
-  return restaurants.find((res) => res.slug === slug);
+  // Synchronous lookup from index data for static paths, fallback to glob
+  const filepath = `../../../data/restaurants/${slug}.json`;
+  if (restaurantModules[filepath]) {
+    // Eager cache lookup or return sync for prerender
+    const mod: any = restaurantModules[filepath];
+    if (mod.default) return mod.default;
+  }
+  return undefined;
 }
 
-export function getRestaurantsByCategory(category: string): Restaurant[] {
+// Full restaurant loader for route page generation
+const fullRestaurantFiles = import.meta.glob('../../../data/restaurants/*.json', { eager: true });
+const fullRestaurantsMap = new Map<string, Restaurant>();
+
+for (const [path, mod] of Object.entries(fullRestaurantFiles)) {
+  if (!path.endsWith('_index.json')) {
+    const data: any = (mod as any).default || mod;
+    if (data && data.slug) {
+      fullRestaurantsMap.set(data.slug, data);
+    }
+  }
+}
+
+export function getFullRestaurantBySlug(slug: string): Restaurant | undefined {
+  return fullRestaurantsMap.get(slug);
+}
+
+export function getRestaurantsByCategory(category: string): any[] {
   const normalized = category.toLowerCase().trim();
-  return restaurants.filter((r) => (r.category || 'Restaurants').toLowerCase() === normalized);
+  return restaurantSummaries.filter((r) => (r.category || 'Restaurants').toLowerCase() === normalized);
 }
 
 export function getAllCategories(): { name: string; count: number }[] {
   const counts = new Map<string, number>();
-  for (const r of restaurants) {
+  for (const r of restaurantSummaries) {
     const cat = r.category || 'Restaurants';
     counts.set(cat, (counts.get(cat) || 0) + 1);
   }
@@ -29,7 +55,7 @@ export function getAllCategories(): { name: string; count: number }[] {
     .sort((a, b) => b.count - a.count);
 }
 
-export function getFeaturedRestaurants(limit: number = 8): Restaurant[] {
+export function getFeaturedRestaurants(limit: number = 8): any[] {
   const popularSlugs = [
     'mcdonalds-calories-calculator',
     'starbucks-nutrition-calculator',
@@ -40,15 +66,14 @@ export function getFeaturedRestaurants(limit: number = 8): Restaurant[] {
     'dominos-nutrition-calculator',
     'wendys-nutrition-calculator',
   ];
-  const featured: Restaurant[] = [];
+  const featured: any[] = [];
   for (const slug of popularSlugs) {
-    const r = getRestaurantBySlug(slug);
+    const r = restaurantSummaries.find(res => res.slug === slug);
     if (r) featured.push(r);
     if (featured.length >= limit) break;
   }
-  // Pad with highest-item-count restaurants if needed
   if (featured.length < limit) {
-    const remaining = restaurants
+    const remaining = restaurantSummaries
       .filter((r) => !featured.includes(r))
       .sort((a, b) => (b.itemCount || 0) - (a.itemCount || 0));
     for (const r of remaining) {
@@ -59,13 +84,12 @@ export function getFeaturedRestaurants(limit: number = 8): Restaurant[] {
   return featured;
 }
 
-export function searchRestaurants(query: string): Restaurant[] {
+export function searchRestaurants(query: string): any[] {
   const q = query.toLowerCase().trim();
   if (!q) return [];
-  return restaurants.filter(
+  return restaurantSummaries.filter(
     (r) =>
       r.name.toLowerCase().includes(q) ||
-      (r.description || '').toLowerCase().includes(q) ||
       (r.category || '').toLowerCase().includes(q)
   );
 }
@@ -87,10 +111,13 @@ export function searchMenuItems(restaurant: Restaurant, query: string): MenuItem
 }
 
 export function getRestaurantStats() {
-  const totalItems = restaurants.reduce((sum, r) => sum + (r.itemCount || r.categories.reduce((s, c) => s + c.items.length, 0)), 0);
-  const totalRestaurants = restaurants.length;
   const categories = getAllCategories();
-  return { totalRestaurants, totalItems, totalCategories: categories.length, categories };
+  return {
+    totalRestaurants: indexData.totalRestaurants,
+    totalItems: indexData.totalItems,
+    totalCategories: categories.length,
+    categories
+  };
 }
 
 export type { Restaurant, MenuItem, MenuCategory };

@@ -1,0 +1,63 @@
+---
+import BrandLogo from '@/features/shared/components/BrandLogo.astro';
+
+interface Props {
+  siteName: string;
+}
+
+const { siteName } = Astro.props;
+---
+
+<footer class="bg-zinc-950 border-t border-zinc-900 mt-auto">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+      <div class="col-span-2 space-y-4">
+        <BrandLogo size="md" />
+        <p class="text-zinc-400 text-sm leading-relaxed max-w-sm">
+          A privacy-first nutrition reference covering 100 restaurant chains and thousands of menu items. Built for people who want the numbers without the noise.
+        </p>
+        <div class="flex items-center space-x-3 pt-2">
+          <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-semibold">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse-soft"></span>
+            No tracking
+          </span>
+          <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 font-semibold">
+            No sign up
+          </span>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">Tools</h3>
+        <ul class="space-y-2.5 text-sm text-zinc-400">
+          <li><a href="/restaurants" class="hover:text-emerald-400 transition-colors">Restaurants</a></li>
+          <li><a href="/foods" class="hover:text-emerald-400 transition-colors">Foods</a></li>
+          <li><a href="/calculators" class="hover:text-emerald-400 transition-colors">Calculators</a></li>
+          <li><a href="/search" class="hover:text-emerald-400 transition-colors">Search</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">Calculators</h3>
+        <ul class="space-y-2.5 text-sm text-zinc-400">
+          <li><a href="/calculators/bmi" class="hover:text-emerald-400 transition-colors">BMI</a></li>
+          <li><a href="/calculators/tdee" class="hover:text-emerald-400 transition-colors">TDEE</a></li>
+          <li><a href="/calculators/macro" class="hover:text-emerald-400 transition-colors">Macros</a></li>
+          <li><a href="/calculators/calorie-deficit" class="hover:text-emerald-400 transition-colors">Calorie deficit</a></li>
+          <li><a href="/calculators/protein" class="hover:text-emerald-400 transition-colors">Protein</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">About</h3>
+        <ul class="space-y-2.5 text-sm text-zinc-400">
+          <li><a href="/about" class="hover:text-emerald-400 transition-colors">About us</a></li>
+          <li><a href="/privacy" class="hover:text-emerald-400 transition-colors">Privacy policy</a></li>
+          <li><a href="/terms" class="hover:text-emerald-400 transition-colors">Terms</a></li>
+          <li><a href="/disclaimer" class="hover:text-emerald-400 transition-colors">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-12 pt-8 border-t border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-zinc-500 text-xs">&copy; {new Date().getFullYear()} {siteName}. All nutrition data is approximate and sourced from public restaurant disclosures.</p>
+      <p class="text-zinc-600 text-xs">Not medical advice. Consult a registered dietitian for personalized guidance.</p>
+    </div>
+  </div>
+</footer>

@@ -6,26 +6,73 @@
   "servingSize": "100g",
   "calories": 123,
   "macros": {
-    "protein": { "value": 2.7, "unit": "g", "pctDailyValue": 5 },
-    "fat": { "value": 1.0, "unit": "g", "pctDailyValue": 1 },
-    "carbs": { "value": 25.6, "unit": "g", "pctDailyValue": 9 },
-    "fiber": { "value": 1.6, "unit": "g", "pctDailyValue": 6 },
-    "sugar": { "value": 0.4, "unit": "g", "pctDailyValue": 1 }
+    "protein": {
+      "value": 2.7,
+      "unit": "g",
+      "pctDailyValue": 5
+    },
+    "fat": {
+      "value": 1.0,
+      "unit": "g",
+      "pctDailyValue": 1
+    },
+    "carbs": {
+      "value": 25.6,
+      "unit": "g",
+      "pctDailyValue": 9
+    },
+    "fiber": {
+      "value": 1.6,
+      "unit": "g",
+      "pctDailyValue": 6
+    },
+    "sugar": {
+      "value": 0.4,
+      "unit": "g",
+      "pctDailyValue": 1
+    }
   },
   "micros": {
-    "sodium": { "value": 5, "unit": "mg", "pctDailyValue": 0 },
-    "potassium": { "value": 86, "unit": "mg", "pctDailyValue": 2 },
-    "calcium": { "value": 10, "unit": "mg", "pctDailyValue": 1 },
-    "iron": { "value": 0.4, "unit": "mg", "pctDailyValue": 2 }
+    "sodium": {
+      "value": 5,
+      "unit": "mg",
+      "pctDailyValue": 0
+    },
+    "potassium": {
+      "value": 86,
+      "unit": "mg",
+      "pctDailyValue": 2
+    },
+    "calcium": {
+      "value": 10,
+      "unit": "mg",
+      "pctDailyValue": 1
+    },
+    "iron": {
+      "value": 0.4,
+      "unit": "mg",
+      "pctDailyValue": 2
+    }
   },
   "faqs": [
     {
-      "q": "Is brown rice healthier than white rice?",
-      "a": "Brown rice retains the bran and germ, so it has more fiber, magnesium, and B vitamins than white rice. White rice is easier to digest and often enriched with synthetic vitamins. Both can be part of a balanced diet."
+      "q": "How many calories are in 100g of cooked brown rice?",
+      "a": "Cooked brown rice contains approximately\n    \n\n     123 calories per 100g\n    \n\n     ."
     },
     {
-      "q": "How many calories in a cup of cooked brown rice?",
-      "a": "One cup of cooked brown rice (about 195 grams) contains roughly 240 calories. The 100 gram serving listed above contains 123 calories."
+      "q": "How many carbs are in brown rice?",
+      "a": "A 100g serving of cooked brown rice provides approximately\n    \n\n     25.6g of carbohydrates\n    \n\n     ."
+    },
+    {
+      "q": "Does brown rice contain protein?",
+      "a": "Yes. Cooked brown rice contains about\n    \n\n     2.7g of protein per 100g\n    \n\n     , although it is not a high-protein food."
+    },
+    {
+      "q": "Is cooked brown rice lower in calories than uncooked brown rice?",
+      "a": "Per 100g, yes. Cooked rice contains much more water, which lowers the calorie concentration by weight. Cooking does not simply remove most of the calories from the rice."
     }
-  ]
+  ],
+  "articleHtml": "<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Brown Rice Nutrition Facts\n    </span>\n</p>\n<div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Brown rice is a whole grain that keeps its bran and germ layers after processing. This gives it a slightly chewy texture and a different nutrient profile from more heavily refined rice.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A\n    </span>\n<span>\n     100g serving of cooked brown rice contains about 123 calories\n    </span>\n<span>\n     , with most of those calories coming from carbohydrates. It also provides a small amount of protein, fat, fiber, and several minerals.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.bt84edgdu43o\">\n<span>\n     Cooked Brown Rice Nutrition per 100g\n    </span>\n</h2>\n<div>\n<div><div><div><div class=\"overflow-x-auto my-6 rounded-xl border border-zinc-800/80 glass-card-static\"><table class=\"w-full text-left border-collapse\">\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Nutrient\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Amount\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Calories\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         123 kcal\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Carbohydrates\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         25.6 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Protein\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         2.7 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Total Fat\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         1.0 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Dietary Fiber\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         1.6 g\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Potassium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         86 mg\n        </span>\n</p>\n</td>\n</tr>\n<tr>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         Sodium\n        </span>\n</p>\n</td>\n<td class=\"px-4 py-3 text-sm text-zinc-300 border-b border-zinc-800/50\" colspan=\"1\" rowspan=\"1\">\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n         5 mg\n        </span>\n</p>\n</td>\n</tr>\n</table></div></div></div></div>\n</div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Using a 100g cooked serving makes it easier to compare brown rice with other grains and foods on the same basis.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.ai9dkqtp6899\">\n<span>\n     How Many Calories Are in Brown Rice?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     There are approximately\n    </span>\n<span>\n     123 calories in 100g of cooked brown rice\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A typical cup of cooked brown rice weighs considerably more than 100g, so a full cup will contain more calories. The exact amount depends on how much rice fits into the cup and how much water it absorbed while cooking.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     This is why weighing cooked rice can provide a more consistent reference than relying only on cup measurements.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.lqsblq7b5h4w\">\n<span>\n     Brown Rice Is Mostly Carbohydrates\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Cooked brown rice provides approximately\n    </span>\n<span>\n     25.6g of carbohydrates per 100g\n    </span>\n<span>\n     , making carbohydrates its main macronutrient.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     It also contains around\n    </span>\n<span>\n     2.7g of protein and 1g of fat\n    </span>\n<span>\n     per 100g. Brown rice can contribute some protein to a meal, but it is not considered a high-protein food on its own.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Its nutrition profile makes it quite different from foods that get most of their calories from protein or fat.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.lxtz2cqbpa67\">\n<span>\n     How Much Fiber Is in Brown Rice?\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A 100g serving of cooked brown rice provides approximately\n    </span>\n<span>\n     1.6g of dietary fiber\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Brown rice retains the bran and germ portions of the grain, while white rice has these layers removed during milling. This difference affects the fiber and micronutrient content of the finished grain.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The exact nutrient values can still vary depending on the variety of rice and how it is prepared.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.n5o5xi77lwv\">\n<span>\n     Cooked vs Uncooked Brown Rice Nutrition\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     This distinction is important when checking\n    </span>\n<span>\n     brown rice calories\n    </span>\n<span>\n     .\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Dry brown rice contains much less water than cooked rice, so 100g of uncooked rice contains substantially more calories and carbohydrates than 100g of cooked rice.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     During cooking, rice absorbs water and becomes heavier. The added water increases the weight without adding calories.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     For accurate food tracking, compare your rice weight with nutrition data for the same preparation state. If you weigh the rice cooked, use cooked brown rice nutrition data. If you weigh it dry, use uncooked nutrition data.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.h3ttw9uaasnl\">\n<span>\n     Brown Rice Nutrition Questions\n    </span>\n</h2><div class=\"faq-accordion-container space-y-3 my-6\"><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many calories are in 100g of cooked brown rice?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many carbs are in brown rice?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Does brown rice contain protein?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Is cooked brown rice lower in calories than uncooked brown rice?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details></div>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.8sivsqobsi8y\">\n<span>\n     Nutrition Data Source\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     NutritionSolver presents\n    </span>\n<span>\n     cooked brown rice nutrition values per 100g\n    </span>\n<span>\n     to provide a consistent reference for calories and nutrients.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Food composition information is based on\n    </span>\n<span>\n     USDA FoodData Central\n    </span>\n<span>\n     reference data. Actual values may vary slightly with rice variety, cooking method, and the amount of water absorbed during preparation.\n    </span>\n</p>",
+  "seoTitle": "Brown Rice Nutrition Facts: Calories, Carbs & Fiber",
+  "seoDescription": "See cooked brown rice nutrition facts per 100g, including calories, carbs, fiber, protein, fat, potassium, and other key nutrients."
 }

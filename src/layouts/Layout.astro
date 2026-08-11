@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
-import { Search, Menu, X, Calculator, Utensils, Apple, BookOpen, ChevronDown, ArrowUp, ShieldCheck, Leaf } from '@lucide/astro';
-import BrandLogo from '@/features/shared/components/BrandLogo.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import { ArrowUp, ShieldCheck } from '@lucide/astro';
 import { CALCULATORS, CALCULATOR_CATEGORIES, getPopularCalculators } from '@/features/calculators/shared/registry';
 
 interface Props {
@@ -27,13 +28,6 @@ const {
 } = Astro.props;
 
 const siteName = "Nutrition Solver";
-
-const navItems = [
-  { label: 'Restaurants', href: '/restaurants', icon: Utensils },
-  { label: 'Foods', href: '/foods', icon: Apple },
-  { label: 'Calculators', href: '/calculators', icon: Calculator },
-  { label: 'Blog', href: '/blog', icon: BookOpen },
-];
 
 const currentPath = Astro.url.pathname;
 const popularCalcs = getPopularCalculators(4);
@@ -65,14 +59,20 @@ const siteSchema = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg?v=2" />
     <meta name="generator" content={Astro.generator} />
     <meta name="application-name" content={siteName} />
     <meta name="apple-mobile-web-app-title" content={siteName} />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Core Web Vitals Font Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
     <title>{title} | {siteName}</title>
     <meta name="title" content={`${title} | ${siteName}`} />
@@ -122,201 +122,15 @@ const siteSchema = {
     <div id="scroll-progress" class="fixed top-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-500 to-teal-400 z-[60] transition-[width] duration-100"></div>
 
     <!-- Announcement bar -->
-    <div id="announcement-bar" class="relative bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-emerald-500/10 border-b border-emerald-500/20 text-emerald-300 text-xs">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-3 text-center">
-        <span class="font-semibold">✨ New: 9 free health calculators now live, including macro and calorie deficit tools.</span>
-        <a href="/calculators" class="font-bold underline hover:no-underline whitespace-nowrap">Try them →</a>
-        <button id="announcement-close" type="button" class="absolute right-4 text-emerald-400 hover:text-white" aria-label="Dismiss announcement">
-          <X class="h-3.5 w-3.5" />
-        </button>
-      </div>
-    </div>
-
-    <!-- Header -->
-    <header class="sticky top-0 z-50 glass-panel border-b border-zinc-800/60">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
-          <BrandLogo size="md" />
-
-          <!-- Desktop Navigation -->
-          <nav class="hidden md:flex items-center space-x-1">
-            {navItems.map((item) => {
-              const Icon = item.icon;
-              const isActive = currentPath === item.href || currentPath.startsWith(item.href + '/');
-              return (
-                <a
-                  href={item.href}
-                  class:list={[
-                    'flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium transition-colors',
-                    isActive
-                      ? 'text-emerald-400 bg-emerald-500/10'
-                      : 'text-zinc-300 hover:text-white hover:bg-zinc-800/60'
-                  ]}
-                >
-                  <Icon class="h-4 w-4" />
-                  <span>{item.label}</span>
-                </a>
-              );
-            })}
-
-            <!-- Calculators mega-menu trigger -->
-            <div class="relative group">
-              <button class="flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-sm font-medium text-zinc-300 hover:text-white hover:bg-zinc-800/60 transition-colors" aria-haspopup="true" aria-expanded="false" id="mega-menu-trigger">
-                <span>More</span>
-                <ChevronDown class="h-3.5 w-3.5" />
-              </button>
-              <div id="mega-menu" class="hidden absolute right-0 top-full mt-2 w-[680px] glass-panel rounded-2xl border border-zinc-800 p-5 shadow-2xl shadow-black/40">
-                <div class="grid grid-cols-3 gap-5">
-                  {CALCULATOR_CATEGORIES.map((cat) => {
-                    const calcs = CALCULATORS.filter((c) => c.category === cat.name);
-                    return (
-                      <div>
-                        <div class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 mb-2">{cat.name}</div>
-                        <div class="space-y-1">
-                          {calcs.map((calc) => (
-                            <a href={`/calculators/${calc.slug}`} class="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-zinc-800/60 text-zinc-300 hover:text-white text-xs transition-colors">
-                              <span class="text-base">{calc.icon}</span>
-                              <span>{calc.shortName}</span>
-                            </a>
-                          ))}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-                <div class="mt-5 pt-4 border-t border-zinc-800 flex items-center justify-between">
-                  <span class="text-xs text-zinc-500">{CALCULATORS.length} calculators, all free, no signup</span>
-                  <a href="/calculators" class="text-xs font-bold text-emerald-400 hover:text-emerald-300">View all →</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-          <div class="flex items-center space-x-2">
-            <a
-              href="/search"
-              class="p-2 text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800/60 rounded-lg transition-all"
-              aria-label="Search"
-            >
-              <Search class="h-5 w-5" />
-            </a>
-            <a
-              href="/calculators/macro"
-              class="hidden sm:inline-flex items-center space-x-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-lg transition-colors shadow-lg shadow-emerald-500/15"
-            >
-              <Calculator class="h-4 w-4" />
-              <span>Macro calculator</span>
-            </a>
-            <button
-              type="button"
-              class="md:hidden p-2 text-zinc-400 hover:text-white focus:outline-none rounded-lg hover:bg-zinc-800/60"
-              aria-controls="mobile-menu"
-              aria-expanded="false"
-              id="mobile-menu-button"
-            >
-              <Menu class="h-6 w-6 block" id="menu-icon-open" />
-              <X class="h-6 w-6 hidden" id="menu-icon-close" />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Mobile Menu -->
-      <div class="hidden md:hidden border-t border-zinc-800/80 bg-zinc-950/95" id="mobile-menu">
-        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {navItems.map((item) => {
-            const Icon = item.icon;
-            return (
-              <a href={item.href} class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
-                <Icon class="h-5 w-5" />
-                <span>{item.label}</span>
-              </a>
-            );
-          })}
-
-          <!-- Mobile calculators expandable -->
-          <details class="group">
-            <summary class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900 cursor-pointer list-none">
-              <Calculator class="h-5 w-5" />
-              <span>All calculators</span>
-              <ChevronDown class="h-4 w-4 ml-auto group-open:rotate-180 transition-transform" />
-            </summary>
-            <div class="pl-10 pt-1 space-y-1">
-              {CALCULATORS.map((calc) => (
-                <a href={`/calculators/${calc.slug}`} class="block px-3 py-2 rounded-lg text-sm text-zinc-400 hover:text-emerald-400 hover:bg-zinc-900">
-                  {calc.icon} {calc.shortName}
-                </a>
-              ))}
-            </div>
-          </details>
-
-          <a href="/search" class="flex items-center space-x-2 px-3 py-2.5 rounded-lg text-base font-medium text-zinc-300 hover:text-emerald-400 hover:bg-zinc-900">
-            <Search class="h-5 w-5" />
-            <span>Search</span>
-          </a>
-        </div>
-      </div>
-    </header>
+    <!-- Common Centralized Header Component -->
+    <Header currentPath={currentPath} />
 
     <main class="flex-grow" data-pagefind-body>
       <slot />
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-zinc-950 border-t border-zinc-900 mt-auto">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
-          <div class="col-span-2 space-y-4">
-            <BrandLogo size="md" />
-            <p class="text-zinc-400 text-sm leading-relaxed max-w-sm">
-              A privacy-first nutrition reference covering 100 restaurant chains and thousands of menu items. Built for people who want the numbers without the noise.
-            </p>
-            <div class="flex items-center space-x-3 pt-2">
-              <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-semibold">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse-soft"></span>
-                No tracking
-              </span>
-              <span class="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 font-semibold">
-                No sign up
-              </span>
-            </div>
-          </div>
-          <div>
-            <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">Tools</h3>
-            <ul class="space-y-2.5 text-sm text-zinc-400">
-              <li><a href="/restaurants" class="hover:text-emerald-400 transition-colors">Restaurants</a></li>
-              <li><a href="/foods" class="hover:text-emerald-400 transition-colors">Foods</a></li>
-              <li><a href="/calculators" class="hover:text-emerald-400 transition-colors">Calculators</a></li>
-              <li><a href="/search" class="hover:text-emerald-400 transition-colors">Search</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">Calculators</h3>
-            <ul class="space-y-2.5 text-sm text-zinc-400">
-              <li><a href="/calculators/bmi" class="hover:text-emerald-400 transition-colors">BMI</a></li>
-              <li><a href="/calculators/tdee" class="hover:text-emerald-400 transition-colors">TDEE</a></li>
-              <li><a href="/calculators/macro" class="hover:text-emerald-400 transition-colors">Macros</a></li>
-              <li><a href="/calculators/calorie-deficit" class="hover:text-emerald-400 transition-colors">Calorie deficit</a></li>
-              <li><a href="/calculators/protein" class="hover:text-emerald-400 transition-colors">Protein</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-zinc-200 font-semibold text-xs uppercase tracking-wider mb-4">About</h3>
-            <ul class="space-y-2.5 text-sm text-zinc-400">
-              <li><a href="/blog" class="hover:text-emerald-400 transition-colors">Blog</a></li>
-              <li><a href="/about" class="hover:text-emerald-400 transition-colors">About us</a></li>
-              <li><a href="/privacy" class="hover:text-emerald-400 transition-colors">Privacy policy</a></li>
-              <li><a href="/terms" class="hover:text-emerald-400 transition-colors">Terms</a></li>
-              <li><a href="/disclaimer" class="hover:text-emerald-400 transition-colors">Disclaimer</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="mt-12 pt-8 border-t border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p class="text-zinc-500 text-xs">&copy; {new Date().getFullYear()} {siteName}. All nutrition data is approximate and sourced from public restaurant disclosures.</p>
-          <p class="text-zinc-600 text-xs">Not medical advice. Consult a registered dietitian for personalized guidance.</p>
-        </div>
-      </div>
-    </footer>
+    <!-- Common Centralized Footer Component -->
+    <Footer siteName={siteName} />
 
     <!-- Back to top button -->
     <button id="back-to-top" type="button" class="hidden fixed bottom-6 right-6 z-50 p-3 bg-zinc-900 border border-zinc-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 text-zinc-300 hover:text-emerald-400 rounded-full shadow-lg transition-all" aria-label="Back to top">

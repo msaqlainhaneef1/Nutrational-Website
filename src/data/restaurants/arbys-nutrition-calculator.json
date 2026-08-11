@@ -4,7 +4,7 @@
   "tagline": "Analyze calories and macros for Arby's sandwiches and sides.",
   "description": "Analyze calories and macros for Arby's sandwiches and sides.",
   "category": "Sandwiches & Deli",
-  "emoji": "🥩",
+  "emoji": "\ud83e\udd69",
   "itemCount": 132,
   "categories": [
     {
@@ -111,7 +111,7 @@
           "trans_fat": 0.5
         },
         {
-          "name": "White Cheddar Mac ‘n Cheese",
+          "name": "White Cheddar Mac \u2018n Cheese",
           "calories": 470,
           "protein": 17,
           "fat": 27,
@@ -177,7 +177,7 @@
       "name": "Slow Roasted Beef",
       "items": [
         {
-          "name": "Classic Beef ‘n Cheddar",
+          "name": "Classic Beef \u2018n Cheddar",
           "calories": 450,
           "protein": 23,
           "fat": 20,
@@ -190,7 +190,7 @@
           "trans_fat": 1
         },
         {
-          "name": "Double Beef ‘n Cheddar",
+          "name": "Double Beef \u2018n Cheddar",
           "calories": 630,
           "protein": 39,
           "fat": 32,
@@ -203,7 +203,7 @@
           "trans_fat": 1.5
         },
         {
-          "name": "Half Pound Beef ‘n Cheddar",
+          "name": "Half Pound Beef \u2018n Cheddar",
           "calories": 740,
           "protein": 49,
           "fat": 39,
@@ -255,7 +255,7 @@
           "trans_fat": 2
         },
         {
-          "name": "Arby’s Sauce®",
+          "name": "Arby\u2019s Sauce\u00ae",
           "calories": 15,
           "protein": 0,
           "fat": 0,
@@ -265,7 +265,7 @@
           "sugars": 2
         },
         {
-          "name": "Horsey Sauce®",
+          "name": "Horsey Sauce\u00ae",
           "calories": 60,
           "protein": 0,
           "fat": 5,
@@ -797,7 +797,7 @@
           "sugars": 3
         },
         {
-          "name": "Jalapeno Bites® (5)",
+          "name": "Jalapeno Bites\u00ae (5)",
           "calories": 290,
           "protein": 5,
           "fat": 17,
@@ -809,7 +809,7 @@
           "sugars": 3
         },
         {
-          "name": "Jalapeno Bites® (8)",
+          "name": "Jalapeno Bites\u00ae (8)",
           "calories": 470,
           "protein": 8,
           "fat": 27,
@@ -822,7 +822,7 @@
           "trans_fat": 0.5
         },
         {
-          "name": "Bronco Berry Sauce®",
+          "name": "Bronco Berry Sauce\u00ae",
           "calories": 60,
           "protein": 0,
           "fat": 0,
@@ -1036,7 +1036,7 @@
           "sugars": 1
         },
         {
-          "name": "Tree Top® Applesauce",
+          "name": "Tree Top\u00ae Applesauce",
           "calories": 45,
           "protein": 0,
           "fat": 0,
@@ -1076,7 +1076,7 @@
           "saturated_fat": 2
         },
         {
-          "name": "Honest Kids® Apple Juice Drink",
+          "name": "Honest Kids\u00ae Apple Juice Drink",
           "calories": 45,
           "protein": 1,
           "fat": 0,
@@ -1086,7 +1086,7 @@
           "sugars": 8
         },
         {
-          "name": "Nestle® Pure Life® Bottled Water",
+          "name": "Nestle\u00ae Pure Life\u00ae Bottled Water",
           "calories": 0,
           "protein": 0,
           "fat": 0,
@@ -1095,7 +1095,7 @@
           "sodium": 0
         },
         {
-          "name": "Shamrock Farms® Lowfat White Milk",
+          "name": "Shamrock Farms\u00ae Lowfat White Milk",
           "calories": 90,
           "protein": 7,
           "fat": 2,
@@ -1107,7 +1107,7 @@
           "sugars": 10
         },
         {
-          "name": "Shamrock Farms® Lowfat Chocolate Milk",
+          "name": "Shamrock Farms\u00ae Lowfat Chocolate Milk",
           "calories": 150,
           "protein": 7,
           "fat": 2.5,
@@ -1440,7 +1440,7 @@
           "sodium": 5
         },
         {
-          "name": "Simply Orange® Juice",
+          "name": "Simply Orange\u00ae Juice",
           "calories": 160,
           "protein": 2,
           "fat": 0,
@@ -1571,7 +1571,7 @@
           "trans_fat": 1
         },
         {
-          "name": "Arby’s Melt",
+          "name": "Arby\u2019s Melt",
           "calories": 330,
           "protein": 18,
           "fat": 12,
@@ -1596,6 +1596,31 @@
           "sugars": 15
         }
       ]
+    }
+  ],
+  "articleHtml": "<main>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s Nutrition Calculator\n    </span>\n</p>\n<div>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n      Meta Title:\n     </span>\n<span>\n      Arby\u2019s Nutrition Calculator: Calories, Protein &amp; Macros\n     </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n      Meta Description:\n     </span>\n<span>\n      Check Arby\u2019s calories, protein, carbs, fat, sodium, and nutrition facts for roast beef sandwiches, Beef \u2019n Cheddar, chicken, sliders, fries, sides, and more.\n     </span>\n</p>\n</div>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.mor2f07kgjaq\">\n<span>\n     Arby\u2019s Nutrition Calculator\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s is best known for roast beef, but the nutrition of an order can change considerably depending on the sandwich size, cheese, sauce, side, and drink you choose.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Use the\n    </span>\n<span>\n     Arby\u2019s Nutrition Calculator above\n    </span>\n<span>\n     to find individual menu items, compare calories and macros, and combine several items to estimate the nutrition of your complete order.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.dt2w0htin50j\">\n<span>\n     Roast Beef Portions Can Change More Than Just Calories\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s offers several versions of its signature roast beef sandwiches, including Classic, Double, and Half Pound options.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     As the amount of roast beef increases, protein usually increases too, but so can the total calories, sodium, cholesterol, and other nutrients in the sandwich.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     That makes portion size an important part of comparing Arby\u2019s nutrition.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Instead of assuming that two roast beef sandwiches are nutritionally similar, compare the exact size you intend to order.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.6nvkjlh1uonf\">\n<span>\n     Beef \u2019n Cheddar Is Different From Classic Roast Beef\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     A Classic Roast Beef and a Beef \u2019n Cheddar may share roast beef as the main ingredient, but they are not the same meal nutritionally.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Beef \u2019n Cheddar includes cheddar cheese sauce and Red Ranch on an onion roll. Those additions change the calorie, fat, carbohydrate, and sodium profile compared with a more basic roast beef sandwich.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     The same principle applies throughout the menu. Cheese, bacon, breading, sauces, and different breads can significantly change the nutrition of otherwise similar-looking items.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Use the calculator to compare the finished menu item, not only the type of meat it contains.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.u40ab53ih7n\">\n<span>\n     Protein Is Only One Part of the Comparison\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Many Arby\u2019s meat-based menu items provide a meaningful amount of protein.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     However, choosing an item based only on its protein number can hide important differences in the rest of its nutrition profile.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     When comparing sandwiches, chicken items, sliders, or larger meals, look at:\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Calories\n    </span>\n<span>\n     to understand total energy.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Protein\n    </span>\n<span>\n     to compare how much each item provides.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Fat and saturated fat\n    </span>\n<span>\n     to see how preparation and toppings affect the meal.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Carbohydrates\n    </span>\n<span>\n     to account for buns, breading, sauces, and sides.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Sodium\n    </span>\n<span>\n     because restaurant sandwiches and sides can contain substantial amounts even when their calorie totals appear moderate.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Looking at these values together gives you a much more useful comparison than selecting an item from calories alone.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.otasi2t8a4k0\">\n<span>\n     Curly Fries, Crinkle Fries, and Other Sides Count Separately\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     An Arby\u2019s sandwich does not automatically represent the nutrition of an entire meal.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Curly Fries and Crinkle Fries are separate menu items, along with options such as mozzarella sticks, jalape\u00f1o bites, chicken tenders, and other sides.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     If you order a sandwich with fries and a drink, add each part of the order to the meal builder.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     This gives you the nutrition of the meal you actually eat rather than the sandwich by itself.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.2pgi2oyrdhe9\">\n<span>\n     Remember the Sauce\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s Sauce and Horsey Sauce are closely associated with the roast beef menu, while other sandwiches and chicken items may use different sauces.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Even a relatively small sauce portion adds its own calories, carbohydrates, sodium, or fat depending on the recipe.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     If sauce nutrition is available separately in the database, include the amount you actually use when building your meal.\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.72g5jbso1gok\">\n<span>\n     Smaller Items Can Make Comparisons Easier\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s also offers sliders and smaller menu items.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     These can be useful when you want to compare how portion size affects calories and protein without switching to a completely different type of food.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     For example, a Roast Beef Slider and a full-size roast beef sandwich use similar core ingredients but come in different portions.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     That makes the calculator useful not only for comparing different foods, but also for understanding the effect of\n    </span>\n<span>\n     portion size within the same menu family\n    </span>\n<span>\n     .\n    </span>\n</p>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.ryiuqjrnth6x\">\n<span>\n     Questions About Arby\u2019s Nutrition\n    </span>\n</h2><div class=\"faq-accordion-container space-y-3 my-6\"><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>How many calories are in an Arby\u2019s roast beef sandwich?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Which Arby\u2019s items have the most protein?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Do Arby\u2019s sauces add calories?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Should fries be included in the sandwich calories?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details><details class=\"faq-accordion-item glass-card-static rounded-xl border border-zinc-800/80 p-0 mb-3 overflow-hidden group\"><summary class=\"faq-accordion-summary font-bold text-white text-sm md:text-base cursor-pointer list-none flex items-center justify-between p-4 bg-zinc-900/60 hover:bg-zinc-900 transition-colors\"><span>Why can Arby\u2019s nutrition information change?</span><span>+</span></summary><div class=\"faq-accordion-answer p-4 text-zinc-300 text-sm leading-relaxed border-t border-zinc-800/60 bg-zinc-950/40\"></div></details></div>\n<h2 class=\"text-xl md:text-2xl font-bold text-white mb-4 mt-8 pb-2 border-b border-emerald-500/20 flex items-center gap-2.5\" id=\"h.pug3rhc6wo5s\">\n<span>\n     About the Arby\u2019s Nutrition Data\n    </span>\n</h2>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     NutritionSolver organizes available\n    </span>\n<span>\n     Arby\u2019s nutrition information\n    </span>\n<span>\n     into a searchable calculator so you can compare sandwiches, chicken, sides, sliders, and other menu items and calculate a multi-item order.\n    </span>\n</p>\n<p class=\"text-zinc-300 text-sm md:text-base leading-relaxed mb-4\">\n<span>\n     Arby\u2019s also publishes official nutrition, allergen, ingredient, and gluten-free resources. Use current official information when you need product-specific dietary or allergen details.\n    </span>\n</p>\n</main>",
+  "seoTitle": "Arby\u2019s Nutrition Calculator: Calories, Protein & Macros",
+  "seoDescription": "Check Arby\u2019s calories, protein, carbs, fat, sodium, and nutrition facts for roast beef sandwiches, Beef \u2019n Cheddar, chicken, sliders, fries, sides, and more.",
+  "faqs": [
+    {
+      "q": "How many calories are in an Arby\u2019s roast beef sandwich?",
+      "a": "The calorie count depends on the specific roast beef sandwich and portion size. Classic, Double, and Half Pound versions should be checked separately in the calculator."
+    },
+    {
+      "q": "Which Arby\u2019s items have the most protein?",
+      "a": "Larger roast beef sandwiches and several other meat-heavy items can provide substantial protein. Use the protein values above to compare current menu items directly."
+    },
+    {
+      "q": "Do Arby\u2019s sauces add calories?",
+      "a": "Yes. Sauces have their own nutrition values and can change the calorie, carbohydrate, fat, and sodium content of the finished order."
+    },
+    {
+      "q": "Should fries be included in the sandwich calories?",
+      "a": "No. If fries are listed as a separate menu item, their nutrition should be added separately when calculating a complete meal."
+    },
+    {
+      "q": "Why can Arby\u2019s nutrition information change?",
+      "a": "Restaurant menus, recipes, serving sizes, limited-time items, and ingredient formulations can change. Nutrition values should therefore be matched with the current menu item whenever possible."
     }
   ]
 }

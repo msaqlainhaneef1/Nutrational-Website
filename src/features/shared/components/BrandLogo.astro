@@ -19,15 +19,17 @@ const s = sizeMap[size];
 <a href="/" class={`flex items-center space-x-2.5 group ${className}`}>
   <span class={`inline-flex items-center justify-center ${s.box} rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 shadow-lg shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition-shadow`}>
     <svg viewBox="0 0 64 64" class={s.icon} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Leaf shape -->
-      <path d="M 18 44 Q 16 30 26 22 Q 36 14 44 18 Q 42 30 32 38 Q 24 44 18 44 Z" fill="white"/>
-      <!-- Leaf vein -->
-      <path d="M 22 42 Q 30 32 42 20" stroke="#10b981" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-      <!-- Checkmark -->
-      <path d="M 38 38 L 44 44 L 54 30" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Symmetric geometric leaf outline with subtle glassmorphic fill -->
+      <path d="M 32 6 C 14 18 14 46 32 58 C 50 46 50 18 32 6 Z" fill="rgba(255, 255, 255, 0.15)" stroke="white" stroke-width="4.5" stroke-linejoin="round"/>
+      <!-- Center stem/vein -->
+      <path d="M 32 58 L 32 44" stroke="white" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Integrated bold checkmark representing solver -->
+      <path d="M 18 30 L 28 42 L 48 18" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </span>
   {showText && (
-    <span class={`font-extrabold ${s.text} tracking-tight text-white`}>Nutrition Solver</span>
+    <span class={`font-extrabold ${s.text} tracking-tight text-zinc-100`}>
+      Nutrition <span class="text-emerald-600">Solver</span>
+    </span>
   )}
 </a>
