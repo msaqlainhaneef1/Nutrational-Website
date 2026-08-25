@@ -1,0 +1,1301 @@
+{
+  "name": "Hardee's",
+  "slug": "hardees-nutrition-calculator",
+  "tagline": "Track nutrition for Hardee's menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 113 menu items at Hardee's.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 113,
+  "categories": [
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Bacon, Egg & Cheese Biscuit",
+          "calories": 520,
+          "protein": 20,
+          "fat": 29,
+          "carbs": 44,
+          "fiber": 2,
+          "sodium": 1410,
+          "cholesterol": 225,
+          "saturated_fat": 14,
+          "sugars": 4
+        },
+        {
+          "name": "Biscuit \u2018N\u2019 Gravy",
+          "calories": 500,
+          "protein": 10,
+          "fat": 27,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 1460,
+          "cholesterol": 10,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "Breakfast Cinnamon Roll",
+          "calories": 520,
+          "protein": 6,
+          "fat": 16,
+          "carbs": 89,
+          "fiber": 1,
+          "sodium": 1060,
+          "saturated_fat": 9,
+          "sugars": 57
+        },
+        {
+          "name": "Country-Fried Steak Biscuit",
+          "calories": 550,
+          "protein": 14,
+          "fat": 33,
+          "carbs": 49,
+          "fiber": 2,
+          "sodium": 1240,
+          "cholesterol": 25,
+          "saturated_fat": 14,
+          "sugars": 4
+        },
+        {
+          "name": "Country Ham Biscuit",
+          "calories": 410,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 42,
+          "fiber": 2,
+          "sodium": 1670,
+          "cholesterol": 35,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "French Toast Dips Entree",
+          "calories": 620,
+          "protein": 9,
+          "fat": 19,
+          "carbs": 106,
+          "fiber": 3,
+          "sodium": 670,
+          "saturated_fat": 3.5,
+          "sugars": 30
+        },
+        {
+          "name": "Frisco Breakfast Sandwich",
+          "calories": 450,
+          "protein": 24,
+          "fat": 21,
+          "carbs": 42,
+          "fiber": 2,
+          "sodium": 1300,
+          "cholesterol": 235,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Grits",
+          "calories": 100,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 17,
+          "sodium": 320
+        },
+        {
+          "name": "Hand-Breaded Chicken Biscuit",
+          "calories": 610,
+          "protein": 30,
+          "fat": 31,
+          "carbs": 52,
+          "fiber": 2,
+          "sodium": 2780,
+          "cholesterol": 75,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Hardee Breakfast Platter with Bacon",
+          "calories": 950,
+          "protein": 31,
+          "fat": 56,
+          "carbs": 76,
+          "fiber": 12,
+          "sodium": 2300,
+          "cholesterol": 430,
+          "saturated_fat": 20,
+          "sugars": 5
+        },
+        {
+          "name": "Hardee Breakfast Platter with Ham",
+          "calories": 860,
+          "protein": 28,
+          "fat": 48,
+          "carbs": 75,
+          "fiber": 4,
+          "sodium": 2210,
+          "cholesterol": 415,
+          "saturated_fat": 17,
+          "sugars": 6
+        },
+        {
+          "name": "Hardee Breakfast Platter with Sausage",
+          "calories": 1050,
+          "protein": 30,
+          "fat": 68,
+          "carbs": 76,
+          "fiber": 12,
+          "sodium": 2310,
+          "cholesterol": 435,
+          "saturated_fat": 24,
+          "sugars": 5
+        },
+        {
+          "name": "Hash Rounds, Large",
+          "calories": 450,
+          "protein": 4,
+          "fat": 27,
+          "carbs": 40,
+          "fiber": 4,
+          "sodium": 560,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Rounds, Medium",
+          "calories": 320,
+          "protein": 3,
+          "fat": 19,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 400,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Rounds, Small",
+          "calories": 260,
+          "protein": 2,
+          "fat": 160,
+          "carbs": 23,
+          "fiber": 2,
+          "sodium": 320,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Loaded Breakfast Burrito",
+          "calories": 580,
+          "protein": 30,
+          "fat": 30,
+          "carbs": 46,
+          "fiber": 3,
+          "sodium": 1320,
+          "cholesterol": 445,
+          "saturated_fat": 12,
+          "sugars": 2
+        },
+        {
+          "name": "Loaded Omelet Biscuit",
+          "calories": 520,
+          "protein": 19,
+          "fat": 30,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 1370,
+          "cholesterol": 230,
+          "saturated_fat": 15,
+          "sugars": 4
+        },
+        {
+          "name": "Monster Biscuit",
+          "calories": 790,
+          "protein": 35,
+          "fat": 52,
+          "carbs": 45,
+          "fiber": 2,
+          "sodium": 2370,
+          "cholesterol": 280,
+          "saturated_fat": 23,
+          "sugars": 6
+        },
+        {
+          "name": "Plain Biscuit",
+          "calories": 340,
+          "protein": 6,
+          "fat": 16,
+          "carbs": 41,
+          "fiber": 2,
+          "sodium": 840,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Pork Chop \u2018N\u2019 Gravy Biscuit",
+          "calories": 600,
+          "protein": 24,
+          "fat": 31,
+          "carbs": 56,
+          "fiber": 3,
+          "sodium": 1430,
+          "cholesterol": 55,
+          "saturated_fat": 12,
+          "sugars": 4
+        },
+        {
+          "name": "Sausage & Egg Biscuit",
+          "calories": 600,
+          "protein": 19,
+          "fat": 39,
+          "carbs": 44,
+          "fiber": 2,
+          "sodium": 1290,
+          "cholesterol": 225,
+          "saturated_fat": 16,
+          "sugars": 4
+        },
+        {
+          "name": "Sausage Biscuit",
+          "calories": 530,
+          "protein": 13,
+          "fat": 34,
+          "carbs": 42,
+          "fiber": 2,
+          "sodium": 1210,
+          "cholesterol": 30,
+          "saturated_fat": 15,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Sandwiches",
+      "items": [
+        {
+          "name": "Bacon Cheeseburger, Double",
+          "calories": 1020,
+          "protein": 58,
+          "fat": 68,
+          "carbs": 50,
+          "sodium": 1930,
+          "cholesterol": 205,
+          "saturated_fat": 24,
+          "sugars": 10
+        },
+        {
+          "name": "Bacon Cheeseburger, Single",
+          "calories": 740,
+          "protein": 36,
+          "fat": 48,
+          "carbs": 49,
+          "sodium": 1410,
+          "cholesterol": 120,
+          "saturated_fat": 14,
+          "sugars": 9
+        },
+        {
+          "name": "Big Cheeseburger, Double",
+          "calories": 760,
+          "protein": 46,
+          "fat": 42,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1600,
+          "cholesterol": 155,
+          "saturated_fat": 17,
+          "sugars": 13
+        },
+        {
+          "name": "Big Cheeseburger, Single",
+          "calories": 540,
+          "protein": 28,
+          "fat": 24,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1360,
+          "cholesterol": 85,
+          "saturated_fat": 10,
+          "sugars": 12
+        },
+        {
+          "name": "Big Hot Ham \u2018N\u2019 Cheese Sandwich",
+          "calories": 460,
+          "protein": 31,
+          "fat": 15,
+          "carbs": 50,
+          "fiber": 2,
+          "sodium": 2210,
+          "cholesterol": 75,
+          "saturated_fat": 7,
+          "sugars": 8
+        },
+        {
+          "name": "Big Roast Beef Sandwich",
+          "calories": 520,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 48,
+          "fiber": 2,
+          "sodium": 1860,
+          "cholesterol": 65,
+          "saturated_fat": 3,
+          "sugars": 6
+        },
+        {
+          "name": "Famous Star with Cheese",
+          "calories": 670,
+          "protein": 28,
+          "fat": 40,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 1370,
+          "cholesterol": 100,
+          "saturated_fat": 13,
+          "sugars": 11
+        },
+        {
+          "name": "Frisco Burger, Double",
+          "calories": 1130,
+          "protein": 61,
+          "fat": 81,
+          "carbs": 44,
+          "fiber": 4,
+          "sodium": 2130,
+          "cholesterol": 220,
+          "saturated_fat": 28,
+          "sugars": 8
+        },
+        {
+          "name": "Frisco Burger, Single",
+          "calories": 850,
+          "protein": 40,
+          "fat": 59,
+          "carbs": 43,
+          "fiber": 3,
+          "sodium": 1640,
+          "cholesterol": 135,
+          "saturated_fat": 19,
+          "sugars": 7
+        },
+        {
+          "name": "Jumbo Chili Dog",
+          "calories": 400,
+          "protein": 16,
+          "fat": 26,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 1410,
+          "cholesterol": 55,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Monster Burger",
+          "calories": 1160,
+          "protein": 68,
+          "fat": 79,
+          "carbs": 49,
+          "sodium": 2580,
+          "cholesterol": 240,
+          "saturated_fat": 29,
+          "sugars": 10
+        },
+        {
+          "name": "Mushroom & Swiss Burger, Double",
+          "calories": 790,
+          "protein": 49,
+          "fat": 46,
+          "carbs": 49,
+          "fiber": 4,
+          "sodium": 1570,
+          "cholesterol": 170,
+          "saturated_fat": 19,
+          "sugars": 8
+        },
+        {
+          "name": "Mushroom & Swiss Burger, Single",
+          "calories": 560,
+          "protein": 30,
+          "fat": 29,
+          "carbs": 49,
+          "fiber": 3,
+          "sodium": 1330,
+          "cholesterol": 100,
+          "saturated_fat": 12,
+          "sugars": 8
+        },
+        {
+          "name": "Original Hot Ham \u2018N\u2019 Cheese Sandwich",
+          "calories": 360,
+          "protein": 21,
+          "fat": 9,
+          "carbs": 51,
+          "fiber": 2,
+          "sodium": 1380,
+          "cholesterol": 35,
+          "saturated_fat": 4,
+          "sugars": 9
+        },
+        {
+          "name": "Original Roast Beef Sandwich",
+          "calories": 390,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 50,
+          "fiber": 2,
+          "sodium": 1210,
+          "cholesterol": 30,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Super Star with Cheese",
+          "calories": 950,
+          "protein": 50,
+          "fat": 62,
+          "carbs": 54,
+          "fiber": 5,
+          "sodium": 1890,
+          "cholesterol": 185,
+          "saturated_fat": 22,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Chicken & More",
+      "items": [
+        {
+          "name": "3-Piece Hand-Breaded Chicken Tenders",
+          "calories": 260,
+          "protein": 25,
+          "fat": 13,
+          "carbs": 13,
+          "fiber": 2,
+          "sodium": 770,
+          "cholesterol": 70,
+          "saturated_fat": 3
+        },
+        {
+          "name": "5-Piece Hand-Breaded Chicken Tenders",
+          "calories": 440,
+          "protein": 41,
+          "fat": 21,
+          "carbs": 21,
+          "fiber": 3,
+          "sodium": 1290,
+          "cholesterol": 115,
+          "saturated_fat": 5
+        },
+        {
+          "name": "10-Piece Hand-Breaded Chicken Tenders",
+          "calories": 880,
+          "protein": 82,
+          "fat": 43,
+          "carbs": 43,
+          "fiber": 6,
+          "sodium": 2580,
+          "cholesterol": 230,
+          "saturated_fat": 9,
+          "sugars": 1
+        },
+        {
+          "name": "Hand-Breaded Chicken BLT",
+          "calories": 730,
+          "protein": 39,
+          "fat": 38,
+          "carbs": 59,
+          "sodium": 2840,
+          "cholesterol": 110,
+          "saturated_fat": 7,
+          "sugars": 8
+        },
+        {
+          "name": "Hand-Breaded Chicken Sandwich",
+          "calories": 650,
+          "protein": 30,
+          "fat": 32,
+          "carbs": 59,
+          "fiber": 2,
+          "sodium": 2660,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Star Pals Kids Meals",
+      "items": [
+        {
+          "name": "Kids Meal, 2-Piece Chicken Tenders",
+          "calories": 410,
+          "protein": 19,
+          "fat": 20,
+          "carbs": 39,
+          "fiber": 4,
+          "sodium": 980,
+          "cholesterol": 45,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Kids Meal, Cheeseburger",
+          "calories": 620,
+          "protein": 18,
+          "fat": 25,
+          "carbs": 84,
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 35,
+          "saturated_fat": 8,
+          "sugars": 10
+        },
+        {
+          "name": "Kids Meal, Grilled Cheese",
+          "calories": 600,
+          "protein": 16,
+          "fat": 28,
+          "carbs": 71,
+          "fiber": 3,
+          "sodium": 1430,
+          "cholesterol": 30,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Kids Meal, Hamburger",
+          "calories": 580,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 84,
+          "fiber": 5,
+          "sodium": 1600,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Kids Meal, Hot Dog",
+          "calories": 580,
+          "protein": 15,
+          "fat": 35,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 1530,
+          "cholesterol": 45,
+          "saturated_fat": 10,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Crispy Curls, Large",
+          "calories": 420,
+          "protein": 5,
+          "fat": 21,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1050,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Crispy Curls, Medium",
+          "calories": 340,
+          "protein": 4,
+          "fat": 17,
+          "carbs": 43,
+          "fiber": 4,
+          "sodium": 840,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Crispy Curls, Small",
+          "calories": 240,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 31,
+          "fiber": 3,
+          "sodium": 600,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Fries, Kids",
+          "calories": 240,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 31,
+          "fiber": 3,
+          "sodium": 480,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Fries, Large",
+          "calories": 470,
+          "protein": 5,
+          "fat": 23,
+          "carbs": 61,
+          "fiber": 6,
+          "sodium": 940,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Fries, Medium",
+          "calories": 420,
+          "protein": 5,
+          "fat": 21,
+          "carbs": 55,
+          "fiber": 5,
+          "sodium": 850,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Fries, Small",
+          "calories": 300,
+          "protein": 3,
+          "fat": 15,
+          "carbs": 39,
+          "fiber": 4,
+          "sodium": 600,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Apple Turnover",
+          "calories": 270,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 260,
+          "cholesterol": 5,
+          "saturated_fat": 4,
+          "sugars": 11
+        },
+        {
+          "name": "Cinnamon Roll",
+          "calories": 520,
+          "protein": 6,
+          "fat": 16,
+          "carbs": 89,
+          "fiber": 1,
+          "sodium": 1060,
+          "saturated_fat": 9,
+          "sugars": 57
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake, Chocolate",
+          "calories": 710,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 86,
+          "fiber": 1,
+          "sodium": 270,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 64
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake, Strawberry",
+          "calories": 710,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 85,
+          "sodium": 220,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 69
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake, Vanilla",
+          "calories": 740,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 87,
+          "sodium": 220,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 70
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Dasani Water, 16.9 fl oz",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Decaffeinated Coffee, 12 fl oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 1
+        },
+        {
+          "name": "Decaffeinated Coffee, 16 fl oz",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 1
+        },
+        {
+          "name": "Decaffeinated Coffee, 20 fl oz",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "fiber": 2
+        },
+        {
+          "name": "Regular Coffee, 12 fl oz",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 1
+        },
+        {
+          "name": "Regular Coffee, 16 fl oz",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 1
+        },
+        {
+          "name": "Regular Coffee, 20 fl oz",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "fiber": 2
+        },
+        {
+          "name": "Regular Milk, 1%, 7 fl oz",
+          "calories": 90,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 10,
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 10
+        },
+        {
+          "name": "Simply Orange Juice, 11.5 fl oz",
+          "calories": 160,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 37,
+          "sugars": 33
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "items": [
+        {
+          "name": "Spicy Hand-Breaded Chicken Biscuit",
+          "calories": 620,
+          "protein": 30,
+          "fat": 31,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 2810,
+          "cholesterol": 75,
+          "saturated_fat": 12,
+          "sugars": 4
+        },
+        {
+          "name": "Sunrise Croissant",
+          "calories": 410,
+          "protein": 21,
+          "fat": 24,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 1100,
+          "cholesterol": 235,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Smoked Sausage, Egg & Cheese",
+          "calories": 710,
+          "protein": 24,
+          "fat": 49,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 1910,
+          "cholesterol": 270,
+          "saturated_fat": 20,
+          "sugars": 5
+        },
+        {
+          "name": "Super Bacon Biscuit",
+          "calories": 600,
+          "protein": 27,
+          "fat": 36,
+          "carbs": 45,
+          "fiber": 2,
+          "sodium": 1810,
+          "cholesterol": 255,
+          "saturated_fat": 17,
+          "sugars": 5
+        },
+        {
+          "name": "Super Sausage Biscuit",
+          "calories": 880,
+          "protein": 30,
+          "fat": 64,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 2100,
+          "cholesterol": 290,
+          "saturated_fat": 27,
+          "sugars": 5
+        },
+        {
+          "name": "Pork Chop 'N' Gravy Biscuit",
+          "calories": 600,
+          "protein": 24,
+          "fat": 31,
+          "carbs": 56,
+          "fiber": 3,
+          "sodium": 1430,
+          "cholesterol": 55,
+          "saturated_fat": 12,
+          "sugars": 4
+        },
+        {
+          "name": "Biscuit 'N' Gravy\u2122",
+          "calories": 500,
+          "protein": 10,
+          "fat": 27,
+          "carbs": 54,
+          "fiber": 2,
+          "sodium": 1460,
+          "cholesterol": 10,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "Homestyle Sausage, Egg & Cheese Burrito",
+          "calories": 930,
+          "protein": 35,
+          "fat": 63,
+          "carbs": 54,
+          "fiber": 3,
+          "sodium": 1740,
+          "cholesterol": 480,
+          "saturated_fat": 22,
+          "sugars": 2
+        },
+        {
+          "name": "Homestyle Loaded Breakfast Burrito",
+          "calories": 810,
+          "protein": 36,
+          "fat": 50,
+          "carbs": 53,
+          "fiber": 3,
+          "sodium": 1800,
+          "cholesterol": 475,
+          "saturated_fat": 19,
+          "sugars": 1
+        },
+        {
+          "name": "Sausage, Egg & Cheese Burrito",
+          "calories": 930,
+          "protein": 35,
+          "fat": 63,
+          "carbs": 54,
+          "fiber": 3,
+          "sodium": 1740,
+          "cholesterol": 480,
+          "saturated_fat": 22,
+          "sugars": 2
+        },
+        {
+          "name": "Hardee Breakfast Platter\u00ae - Bacon",
+          "calories": 970,
+          "protein": 30,
+          "fat": 56,
+          "carbs": 80,
+          "fiber": 5,
+          "sodium": 2240,
+          "cholesterol": 440,
+          "saturated_fat": 20,
+          "sugars": 7
+        },
+        {
+          "name": "Hardee Breakfast Platter\u00ae - Ham",
+          "calories": 970,
+          "protein": 33,
+          "fat": 56,
+          "carbs": 80,
+          "fiber": 2,
+          "sodium": 2770,
+          "cholesterol": 460,
+          "saturated_fat": 20,
+          "sugars": 6
+        },
+        {
+          "name": "Hash Rounds - Small",
+          "calories": 240,
+          "protein": 2,
+          "fat": 15,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 300,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Rounds - Medium",
+          "calories": 320,
+          "protein": 3,
+          "fat": 19,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 400,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Hash Rounds - Large",
+          "calories": 450,
+          "protein": 4,
+          "fat": 27,
+          "carbs": 40,
+          "fiber": 4,
+          "sodium": 560,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Double Bacon Cheeseburger",
+          "calories": 910,
+          "protein": 55,
+          "fat": 64,
+          "carbs": 41,
+          "fiber": 4,
+          "sodium": 1620,
+          "cholesterol": 185,
+          "saturated_fat": 24,
+          "sugars": 10
+        },
+        {
+          "name": "Mushroom & Swiss - Single",
+          "calories": 580,
+          "protein": 31,
+          "fat": 38,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1280,
+          "cholesterol": 100,
+          "saturated_fat": 14,
+          "sugars": 9
+        },
+        {
+          "name": "Mushroom & Swiss - Double",
+          "calories": 860,
+          "protein": 52,
+          "fat": 60,
+          "carbs": 41,
+          "fiber": 3,
+          "sodium": 1770,
+          "cholesterol": 185,
+          "saturated_fat": 24,
+          "sugars": 10
+        },
+        {
+          "name": "Big Cheeseburger - Single",
+          "calories": 520,
+          "protein": 27,
+          "fat": 33,
+          "carbs": 40,
+          "fiber": 1,
+          "sodium": 1080,
+          "cholesterol": 85,
+          "saturated_fat": 12,
+          "sugars": 10
+        },
+        {
+          "name": "Big Cheeseburger - Double",
+          "calories": 790,
+          "protein": 48,
+          "fat": 54,
+          "carbs": 40,
+          "fiber": 3,
+          "sodium": 1540,
+          "cholesterol": 165,
+          "saturated_fat": 21,
+          "sugars": 11
+        },
+        {
+          "name": "Big Hot Ham 'N' Cheese\u2122",
+          "calories": 450,
+          "protein": 29,
+          "fat": 23,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 1930,
+          "cholesterol": 65,
+          "saturated_fat": 9,
+          "sugars": 9
+        },
+        {
+          "name": "Original Hot Ham 'N' Cheese\u2122",
+          "calories": 270,
+          "protein": 17,
+          "fat": 8,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 1110,
+          "cholesterol": 35,
+          "saturated_fat": 4,
+          "sugars": 5
+        },
+        {
+          "name": "Big Roast Beef",
+          "calories": 530,
+          "protein": 29,
+          "fat": 16,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 1880,
+          "cholesterol": 65,
+          "saturated_fat": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Original Roast Beef",
+          "calories": 300,
+          "protein": 17,
+          "fat": 4,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 1030,
+          "cholesterol": 30,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Monster Roast Beef",
+          "calories": 760,
+          "protein": 47,
+          "fat": 33,
+          "carbs": 40,
+          "sodium": 2930,
+          "cholesterol": 120,
+          "saturated_fat": 13,
+          "sugars": 9
+        },
+        {
+          "name": "Nashville Hot Hand-Breaded Chicken Sandwich",
+          "calories": 570,
+          "protein": 30,
+          "fat": 32,
+          "carbs": 49,
+          "fiber": 2,
+          "sodium": 2530,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 8
+        },
+        {
+          "name": "BLT Hand-Breaded Chicken Sandwich",
+          "calories": 640,
+          "protein": 37,
+          "fat": 36,
+          "carbs": 50,
+          "fiber": 2,
+          "sodium": 2640,
+          "cholesterol": 95,
+          "saturated_fat": 8,
+          "sugars": 9
+        },
+        {
+          "name": "Fries - Kids",
+          "calories": 190,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 25,
+          "fiber": 2,
+          "sodium": 390,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Fries - Small",
+          "calories": 280,
+          "protein": 3,
+          "fat": 14,
+          "carbs": 36,
+          "fiber": 3,
+          "sodium": 560,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Fries - Medium",
+          "calories": 400,
+          "protein": 4,
+          "fat": 19,
+          "carbs": 51,
+          "fiber": 5,
+          "sodium": 800,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Fries - Large",
+          "calories": 450,
+          "protein": 5,
+          "fat": 22,
+          "carbs": 59,
+          "fiber": 6,
+          "sodium": 910,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Crispy Curls\u00ae - Small",
+          "calories": 240,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 31,
+          "fiber": 3,
+          "sodium": 600,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Crispy Curls\u00ae - Medium",
+          "calories": 340,
+          "protein": 4,
+          "fat": 17,
+          "carbs": 43,
+          "fiber": 4,
+          "sodium": 840,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Crispy Curls\u00ae - Large",
+          "calories": 410,
+          "protein": 5,
+          "fat": 21,
+          "carbs": 51,
+          "fiber": 4,
+          "sodium": 1020,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake\u2122- Vanilla",
+          "calories": 700,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 83,
+          "fiber": 2,
+          "sodium": 220,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 66
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake\u2122- Chocolate",
+          "calories": 730,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 91,
+          "fiber": 3,
+          "sodium": 280,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 71
+        },
+        {
+          "name": "Hand-Scooped Ice-Cream Shake\u2122- Strawberry",
+          "calories": 710,
+          "protein": 13,
+          "fat": 36,
+          "carbs": 85,
+          "fiber": 2,
+          "sodium": 220,
+          "cholesterol": 105,
+          "saturated_fat": 24,
+          "sugars": 68
+        },
+        {
+          "name": "Buddy Fruits\u00ae Organic Apple Sauce Pouch",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "fiber": 1,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Red Burrito",
+      "items": [
+        {
+          "name": "Red Burrito (Beef)",
+          "calories": 650,
+          "protein": 34,
+          "fat": 30,
+          "carbs": 62,
+          "sodium": 2170
+        },
+        {
+          "name": "Red Burrito (Chicken)",
+          "calories": 610,
+          "protein": 31,
+          "fat": 26,
+          "carbs": 60,
+          "sodium": 2320
+        },
+        {
+          "name": "Red Burrito Chicken Bowl",
+          "calories": 430,
+          "protein": 27,
+          "fat": 11,
+          "carbs": 55,
+          "sodium": 1210
+        }
+      ]
+    },
+    {
+      "name": "Discontinued",
+      "items": [
+        {
+          "name": "1/3 LB Low Carb Thickburger",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Original Turkey Burger",
+          "calories": 460,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Beer Cheese Bacon Burger",
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    }
+  ]
+}

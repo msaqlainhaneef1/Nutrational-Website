@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Classic Burgers"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_big_mac",
+      "name": "Big Mac",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Mouthwatering perfection starts with two 100% pure beef patties and Big Mac sauce sandwiched between a sesame seed bun. It's topped with pickles, crisp shredded lettuce, finely chopped onion and a slice of American cheese.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (211g)",
+        "weight_g": 211.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 25.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "100% Pure Beef Patties",
+        "Sesame Seed Bun",
+        "Big Mac Sauce (Soybean Oil, Sweet Relish, Pickle Relish, High Fructose Corn Syrup, Distilled Vinegar, Corn Syrup, Salt, Egg Yolk, Mustard Seed, Xanthan Gum, Dehydrated Onion, Spice, Extractives of Paprika, Caramel Color)",
+        "Pasteurized Process American Cheese",
+        "Shredded Lettuce",
+        "Pickle Slices",
+        "Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/big-mac.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/big-mac.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

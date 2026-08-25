@@ -1,0 +1,105 @@
+{
+  "name": "Mission BBQ",
+  "slug": "mission-bbq-nutrition-calculator",
+  "tagline": "Track nutrition for Mission BBQ menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 6 menu items at Mission BBQ.",
+  "category": "Sandwiches & Deli",
+  "emoji": "\ud83e\udd6a",
+  "itemCount": 6,
+  "categories": [
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Pulled Pork Sandwich",
+          "calories": 620,
+          "protein": 38,
+          "fat": 26,
+          "carbs": 54,
+          "servingSize": "1 sandwich (310g)",
+          "fiber": 3,
+          "sodium": 980,
+          "cholesterol": 115,
+          "saturated_fat": 8,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Market Plates & Meats",
+      "items": [
+        {
+          "name": "Texas Style Brisket (Plate)",
+          "calories": 540,
+          "protein": 44,
+          "fat": 38,
+          "carbs": 2,
+          "servingSize": "1/2 lb meat portion (226g)",
+          "sodium": 760,
+          "cholesterol": 140,
+          "saturated_fat": 15
+        },
+        {
+          "name": "Smoked Turkey (Plate)",
+          "calories": 280,
+          "protein": 52,
+          "fat": 7,
+          "carbs": 1,
+          "servingSize": "1/2 lb meat portion (226g)",
+          "sodium": 680,
+          "cholesterol": 160,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Maggie's Mac-N-Cheese",
+          "calories": 420,
+          "protein": 16,
+          "fat": 22,
+          "carbs": 38,
+          "servingSize": "Regular side (180g)",
+          "fiber": 2,
+          "sodium": 720,
+          "cholesterol": 60,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "Baked Beans with Brisket",
+          "calories": 340,
+          "protein": 14,
+          "fat": 12,
+          "carbs": 45,
+          "servingSize": "Regular side (190g)",
+          "fiber": 7,
+          "sodium": 890,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 22
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Homemade Peach Cobbler",
+          "calories": 410,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 58,
+          "servingSize": "1 portion (160g)",
+          "fiber": 2,
+          "sodium": 310,
+          "cholesterol": 25,
+          "saturated_fat": 8,
+          "sugars": 42
+        }
+      ]
+    }
+  ]
+}

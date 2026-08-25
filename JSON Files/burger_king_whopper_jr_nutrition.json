@@ -1,0 +1,337 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Whopper Jr. Burgers",
+    "Cheese Whopper Jr. Burgers",
+    "Bacon Whopper Jr. Burgers",
+    "Plant-Based Whopper Jr."
+  ],
+  "products": [
+    {
+      "product_id": "bk_whopper_jr",
+      "name": "Whopper Jr.",
+      "category": "Whopper Jr. Burgers",
+      "subcategory": "Junior Burgers",
+      "description": "Our Whopper Jr. features one savory flame-grilled beef patty topped with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, pickles, and sliced white onions on a toasted sesame seed bun.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (150g)",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 10.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 530.0,
+        "potassium_mg": 240.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/whopper-jr.png",
+      "product_url": "https://www.bk.com/menu/item-30001",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_jr_cheese",
+      "name": "Whopper Jr. with Cheese",
+      "category": "Cheese Whopper Jr. Burgers",
+      "subcategory": "Junior Burgers",
+      "description": "Our Whopper Jr. with Cheese features one savory flame-grilled beef patty with American cheese, juicy tomatoes, fresh lettuce, mayonnaise, ketchup, pickles, and sliced white onions on a toasted sesame seed bun.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (168g)",
+        "weight_g": 168.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 14.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 730.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "American Cheese",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/whopper-jr-cheese.png",
+      "product_url": "https://www.bk.com/menu/item-30002",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bacon_whopper_jr",
+      "name": "Bacon Whopper Jr.",
+      "category": "Bacon Whopper Jr. Burgers",
+      "subcategory": "Junior Burgers",
+      "description": "Our Bacon Whopper Jr. features a flame-grilled beef patty topped with thick-cut smoked bacon, tomatoes, lettuce, mayonnaise, ketchup, pickles, and onions on a sesame seed bun.",
+      "price": 4.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (162g)",
+        "weight_g": 162.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 14.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 65.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "Thick-Cut Smoked Bacon",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/bacon-whopper-jr.png",
+      "product_url": "https://www.bk.com/menu/item-30003",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bacon_and_cheese_whopper_jr",
+      "name": "Bacon & Cheese Whopper Jr.",
+      "category": "Bacon Whopper Jr. Burgers",
+      "subcategory": "Junior Burgers",
+      "description": "Flame-grilled beef patty with American cheese, thick-cut smoked bacon, tomatoes, lettuce, mayonnaise, ketchup, pickles, and onions on a sesame seed bun.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (180g)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 18.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 910.0,
+        "potassium_mg": 300.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 165.0,
+        "iron_mg": 2.4,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "American Cheese",
+        "Thick-Cut Smoked Bacon",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/bacon-cheese-whopper-jr.png",
+      "product_url": "https://www.bk.com/menu/item-30004",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_impossible_whopper_jr",
+      "name": "Impossible Whopper Jr.",
+      "category": "Plant-Based Whopper Jr.",
+      "subcategory": "Plant-Based",
+      "description": "Flame-grilled plant-based patty made from plants, topped with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, pickles, and white onions on a sesame seed bun.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (152g)",
+        "weight_g": 152.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 11.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 580.0,
+        "potassium_mg": 250.0,
+        "carbohydrates_g": 33.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 70.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Plant-Based Patty",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/impossible-whopper-jr.png",
+      "product_url": "https://www.bk.com/menu/item-30005",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

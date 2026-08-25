@@ -1,0 +1,99 @@
+{
+  "name": "Peppermint Mocha",
+  "slug": "peppermint-mocha-nutrition-calculator",
+  "tagline": "Track nutrition for Peppermint Mocha menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Peppermint Mocha.",
+  "category": "Fast Casual & Dining",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Hot Peppermint Mocha",
+      "items": [
+        {
+          "name": "Classic Hot Peppermint Mocha",
+          "calories": 440,
+          "protein": 13,
+          "fat": 15,
+          "carbs": 62,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 4,
+          "sodium": 160,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 54
+        }
+      ]
+    },
+    {
+      "name": "Iced Peppermint Mocha",
+      "items": [
+        {
+          "name": "Iced Peppermint Mocha",
+          "calories": 420,
+          "protein": 11,
+          "fat": 14,
+          "carbs": 60,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 3.5,
+          "sodium": 150,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 52
+        }
+      ]
+    },
+    {
+      "name": "Blended Peppermint Mocha",
+      "items": [
+        {
+          "name": "Peppermint Mocha Frappe",
+          "calories": 510,
+          "protein": 9,
+          "fat": 18,
+          "carbs": 78,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 3,
+          "sodium": 210,
+          "cholesterol": 50,
+          "saturated_fat": 11,
+          "sugars": 68
+        }
+      ]
+    },
+    {
+      "name": "Peppermint Mocha Variations",
+      "items": [
+        {
+          "name": "Oat Milk Peppermint Mocha",
+          "calories": 390,
+          "protein": 4,
+          "fat": 10,
+          "carbs": 70,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 5,
+          "sodium": 180,
+          "saturated_fat": 3,
+          "sugars": 48
+        }
+      ]
+    },
+    {
+      "name": "Toppings & Add-ons",
+      "items": [
+        {
+          "name": "Dark Chocolate Curls Topping",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 9,
+          "servingSize": "1 portion (15g)",
+          "fiber": 1.5,
+          "sodium": 5,
+          "saturated_fat": 3,
+          "sugars": 7
+        }
+      ]
+    }
+  ]
+}

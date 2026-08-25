@@ -1,0 +1,354 @@
+{
+  "brand": {
+    "name": "Caffeine",
+    "website": "https://www.caffeine.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Coffee",
+    "Iced & Cold Brew",
+    "Espresso Drinks",
+    "Teas & Infusions",
+    "Energy & Specialty Drinks",
+    "Bakery & Snacks"
+  ],
+  "products": [
+    {
+      "product_id": "caff_house_blend_coffee",
+      "name": "House Blend Drip Coffee",
+      "category": "Hot Coffee",
+      "subcategory": "Drip Coffee",
+      "description": "Freshly brewed signature roast drip coffee with rich notes of caramel and cocoa.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0.3,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 10.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 195.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed Arabica Coffee"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/house-blend.png",
+      "product_url": "https://www.caffeine.com/menu/coffee/house-blend",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/caffeine",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "caff_caramel_macchiato",
+      "name": "Caramel Macchiato",
+      "category": "Espresso Drinks",
+      "subcategory": "Macchiato",
+      "description": "Freshly steamed milk with vanilla-flavored syrup, marked with espresso and topped with a caramel drizzle.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 150.0,
+        "potassium_mg": 420.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 0.0,
+        "sugars_g": 35.0,
+        "added_sugars_g": 30.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Espresso",
+        "Steamed Whole Milk",
+        "Vanilla Syrup",
+        "Caramel Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/caramel-macchiato.png",
+      "product_url": "https://www.caffeine.com/menu/espresso/caramel-macchiato",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "caff_nitro_cold_brew",
+      "name": "Nitro Cold Brew",
+      "category": "Iced & Cold Brew",
+      "subcategory": "Cold Brew",
+      "description": "Slow-steeped cold brew coffee infused with nitrogen gas for a velvety, creamy texture without dairy.",
+      "price": 4.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 280.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Cold Brew Coffee",
+        "Nitrogen"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/nitro-cold-brew.png",
+      "product_url": "https://www.caffeine.com/menu/cold-brew/nitro",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "caff_matcha_green_tea_latte",
+      "name": "Iced Matcha Green Tea Latte",
+      "category": "Teas & Infusions",
+      "subcategory": "Matcha",
+      "description": "Smooth, premium green tea matcha powder blended with sweetened milk and served over ice.",
+      "price": 5.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 8.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15.0,
+        "sodium_mg": 110.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 1.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 32.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 80.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Matcha Green Tea Powder",
+        "Whole Milk",
+        "Sugar Cane Syrup",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/iced-matcha.png",
+      "product_url": "https://www.caffeine.com/menu/teas/matcha-latte",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "caff_blueberry_muffin",
+      "name": "Fresh Blueberry Muffin",
+      "category": "Bakery & Snacks",
+      "subcategory": "Muffins",
+      "description": "Moist, golden bakery muffin packed with sweet whole blueberries and a crumb topping.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 muffin (130g)",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 440,
+        "protein_g": 6.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 60.0,
+        "fiber_g": 2.0,
+        "sugars_g": 34.0,
+        "added_sugars_g": 28.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour",
+        "Blueberries",
+        "Sugar",
+        "Eggs",
+        "Butter",
+        "Baking Soda"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/blueberry-muffin.png",
+      "product_url": "https://www.caffeine.com/menu/bakery/blueberry-muffin",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "caff_energy_citrus_blast",
+      "name": "Citrus Energy Blast",
+      "category": "Energy & Specialty Drinks",
+      "subcategory": "Energy Drinks",
+      "description": "Sparkling caffeinated energy beverage flavored with vibrant tropical citrus and passion fruit.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 60.0,
+        "potassium_mg": 45.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 0.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 36.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 160.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "Caffeine",
+        "Citric Acid",
+        "Natural Citrus Flavors",
+        "Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caffeine.com/media/menu/energy-citrus.png",
+      "product_url": "https://www.caffeine.com/menu/energy/citrus-blast",
+      "sources": [
+        {
+          "url": "https://www.caffeine.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

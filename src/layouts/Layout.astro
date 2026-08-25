@@ -29,28 +29,68 @@ const {
 
 const siteName = "Nutrition Solver";
 
+const baseUrl = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const pathname = Astro.url.pathname.replace(/\/$/, '');
+const resolvedCanonical = canonicalUrl || (pathname ? `${baseUrl}${pathname}/` : `${baseUrl}/`);
+
+// Form formatted title to ensure length stays within 50-60 characters and prevent double branding
+let formattedTitle = title.trim();
+if (!formattedTitle.toLowerCase().includes('nutrition solver')) {
+  formattedTitle = `${formattedTitle} | ${siteName}`;
+}
+
 const currentPath = Astro.url.pathname;
 const popularCalcs = getPopularCalculators(4);
 
-const orgSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": siteName,
-  "url": Astro.site?.toString() || Astro.url.origin,
-  "logo": `${Astro.site?.toString() || Astro.url.origin}/favicon.svg`,
-  "description": "Privacy-first nutrition reference covering 100 restaurant chains and 16,000+ menu items, plus free health calculators.",
-};
-
-const siteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": siteName,
-  "url": Astro.site?.toString() || Astro.url.origin,
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": `${Astro.site?.toString() || Astro.url.origin}/search?q={search_term_string}`,
-    "query-input": "required name=search_term_string"
+const baseGraph: any[] = [
+  {
+    "@type": "Organization",
+    "@id": `${baseUrl}/#organization`,
+    "name": siteName,
+    "url": `${baseUrl}/`,
+    "logo": `${baseUrl}/favicon.svg`,
+    "description": "Privacy-first nutrition reference covering 100+ restaurant chains and 16,000+ menu items, plus free health calculators."
+  },
+  {
+    "@type": "WebSite",
+    "@id": `${baseUrl}/#website`,
+    "name": siteName,
+    "url": `${baseUrl}/`,
+    "publisher": { "@id": `${baseUrl}/#organization` },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": `${baseUrl}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@type": type === 'article' ? 'BlogPosting' : 'WebPage',
+    "@id": `${resolvedCanonical}#webpage`,
+    "url": resolvedCanonical,
+    "name": formattedTitle,
+    "headline": title,
+    "description": description,
+    "isPartOf": { "@id": `${baseUrl}/#website` },
+    ...(type === 'article' && publishedTime ? {
+      "datePublished": publishedTime,
+      "author": { "@type": "Person", "name": authorName || "Nutrition Solver Editorial" }
+    } : {})
   }
+];
+
+if (schema) {
+  const customSchemas = Array.isArray(schema) ? schema : [schema];
+  for (const s of customSchemas) {
+    if (s && typeof s === 'object') {
+      const { ['@context']: _, ...rest } = s as Record<string, any>;
+      baseGraph.push(rest);
+    }
+  }
+}
+
+const finalLdJson = {
+  "@context": "https://schema.org",
+  "@graph": baseGraph
 };
 ---
 
@@ -74,16 +114,16 @@ const siteSchema = {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <title>{title} | {siteName}</title>
-    <meta name="title" content={`${title} | ${siteName}`} />
+    <title>{formattedTitle}</title>
+    <meta name="title" content={formattedTitle} />
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonicalUrl} />
+    <link rel="canonical" href={resolvedCanonical} />
     <meta name="theme-color" content="#09090b" />
 
     <!-- Open Graph -->
     <meta property="og:type" content={type} />
-    <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:title" content={`${title} | ${siteName}`} />
+    <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:title" content={formattedTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
     <meta property="og:site_name" content={siteName} />
@@ -92,30 +132,13 @@ const siteSchema = {
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content={canonicalUrl} />
-    <meta name="twitter:title" content={`${title} | ${siteName}`} />
+    <meta name="twitter:url" content={resolvedCanonical} />
+    <meta name="twitter:title" content={formattedTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
 
     <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(orgSchema)} />
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(siteSchema)} />
-    <script type="application/ld+json" is:inline set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": type === 'article' ? 'BlogPosting' : 'WebPage',
-      "name": siteName,
-      "url": Astro.site || Astro.url.origin,
-      "headline": title,
-      "description": description,
-      ...(type === 'article' ? {
-        "datePublished": publishedTime,
-        "author": { "@type": "Person", "name": authorName || "Nutrition Solver Editorial" }
-      } : {})
-    })}/>
-
-    {schema && (
-      <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
-    )}
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(finalLdJson)} />
   </head>
   <body class="min-h-screen bg-zinc-950 text-zinc-100 antialiased flex flex-col mesh-bg">
     <!-- Scroll progress bar -->
@@ -146,7 +169,7 @@ const siteSchema = {
           </div>
           <div>
             <p class="text-sm text-zinc-300 font-medium">We use zero tracking cookies.</p>
-            <p class="text-xs text-zinc-500 mt-0.5">All calculator inputs stay in your browser. <a href="/privacy" class="text-emerald-400 underline">Read the privacy policy</a>.</p>
+            <p class="text-xs text-zinc-500 mt-0.5">All calculator inputs stay in your browser. <a href="/privacy/" class="text-emerald-400 underline">Read the privacy policy</a>.</p>
           </div>
         </div>
         <div class="flex items-center gap-2">

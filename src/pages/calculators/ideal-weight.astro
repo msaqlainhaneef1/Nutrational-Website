@@ -46,9 +46,14 @@ const faqs = [
     a: 'The BMI range is based on population statistics linking weight to disease risk. The formula averages are based on height alone. They use different methodologies and serve different purposes. The BMI range is the more evidence backed of the two.',
   },
 ];
+import { createCalculatorSchema } from '@/features/calculators/shared/calculatorSchema';
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/calculators/${meta.slug}/`;
+const schema = createCalculatorSchema(meta, siteOrigin, faqs);
 ---
 
-<Layout title={meta.name} description={meta.description}>
+<Layout title={meta.name} description={meta.description} canonicalUrl={canonicalUrl} schema={schema}>
   <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
     <IdealWeightCalculator />
   </CalculatorPage>

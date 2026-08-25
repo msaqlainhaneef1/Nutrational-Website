@@ -1,0 +1,315 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Tacos",
+    "Burritos",
+    "Specialties",
+    "Cravings Value Menu",
+    "Sides & Sweets",
+    "Drinks"
+  ],
+  "products": [
+    {
+      "product_id": "tb_crunchwrap_supreme",
+      "name": "Crunchwrap Supreme",
+      "category": "Specialties",
+      "subcategory": "Wraps",
+      "description": "A flour tortilla layered with seasoned beef, crunchy tostada shell, warm nacho cheese sauce, lettuce, tomatoes, and reduced-fat sour cream.",
+      "price": 5.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 item (247g)",
+        "weight_g": 247.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 16.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 1200.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 71.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Seasoned Beef",
+        "Tostada Shell",
+        "Nacho Cheese Sauce",
+        "Sour Cream",
+        "Lettuce",
+        "Tomatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/crunchwrap-supreme.png",
+      "product_url": "https://www.tacobell.com/food/specialties/crunchwrap-supreme",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/taco-bell/crunchwrap-supreme",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "tb_doritos_locos_tacos",
+      "name": "Doritos Locos Tacos",
+      "category": "Tacos",
+      "subcategory": "Tacos",
+      "description": "A crunchy taco shell made from Nacho Cheese Doritos flavor, filled with seasoned beef, crisp lettuce, and cheddar cheese.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco (84g)",
+        "weight_g": 84.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 8.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 370.0,
+        "potassium_mg": 160.0,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Nacho Cheese Doritos Shell",
+        "Seasoned Beef",
+        "Lettuce",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/doritos-locos-tacos.png",
+      "product_url": "https://www.tacobell.com/food/tacos/doritos-locos-tacos",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_bean_burrito",
+      "name": "Bean Burrito",
+      "category": "Cravings Value Menu",
+      "subcategory": "Burritos",
+      "description": "Warm flour tortilla filled with refried beans, cheddar cheese, onions, and red sauce.",
+      "price": 2.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burrito (204g)",
+        "weight_g": 204.0
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 12.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 8.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Refried Beans",
+        "Cheddar Cheese",
+        "Onions",
+        "Red Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/bean-burrito.png",
+      "product_url": "https://www.tacobell.com/food/burritos/bean-burrito",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_baja_blast",
+      "name": "Mountain Dew Baja Blast",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Exclusive tropical lime flavored Mountain Dew carbonated soft drink.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 oz)",
+        "weight_g": 591.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 70.0,
+        "potassium_mg": 0.0,
+        "carbohydrates_g": 74.0,
+        "fiber_g": 0.0,
+        "sugars_g": 73.0,
+        "added_sugars_g": 73.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 72.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "High Fructose Corn Syrup",
+        "Citric Acid",
+        "Natural and Artificial Flavor",
+        "Sodium Benzoate",
+        "Yellow 5",
+        "Blue 1"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/baja-blast.png",
+      "product_url": "https://www.tacobell.com/food/drinks/mountain-dew-baja-blast",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_cinnabon_delights",
+      "name": "Cinnabon Delights 2 Pack",
+      "category": "Sides & Sweets",
+      "subcategory": "Desserts",
+      "description": "Warm, bite-sized pastries filled with Cinnabon cream cheese frosting and coated in cinnamon sugar.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "2 pack (59g)",
+        "weight_g": 59.0
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 4.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 200.0,
+        "potassium_mg": 90.0,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 1.0,
+        "sugars_g": 20.0,
+        "added_sugars_g": 18.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Pastry Dough",
+        "Cinnabon Cream Cheese Filling",
+        "Cinnamon Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/cinnabon-delights.png",
+      "product_url": "https://www.tacobell.com/food/sweets/cinnabon-delights-2-pack",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

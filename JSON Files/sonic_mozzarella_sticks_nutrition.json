@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Sonic Drive-In",
+    "website": "https://www.sonicdrivein.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Snacks & Sides",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "sonic_mozzarella_sticks_medium",
+      "name": "Mozzarella Sticks (Medium, 6 Pc.)",
+      "category": "Snacks & Sides",
+      "subcategory": "Sides",
+      "description": "Crispy on the outside, gooey on the inside! Melty, real mozzarella cheese breaded and perfectly fried, served with marinara sauce.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces (Medium)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 23.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1490.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 61.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": 450.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Mozzarella Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzymes)",
+        "Breading & Batter (Enriched Bleached Wheat Flour, Water, Modified Corn Starch, Yellow Corn Flour, Sugar, Salt, Yeast, Spices, Soybean Oil, Dextrose, Whey)",
+        "Fried in Vegetable Oil (Soybean Oil, Corn Oil, Cottonside Oil, Hydrogenated Soybean Oil)"
+      ],
+      "customizations": [
+        "Choice of Dipping Sauce (Marinara Sauce, Ranch, Honey Mustard, BBQ)"
+      ],
+      "image_url": "https://www.sonicdrivein.com/menu/categories/snacks-sides/sides/mozzarella-sticks/",
+      "product_url": "https://www.sonicdrivein.com/menu/categories/snacks-sides/sides/mozzarella-sticks/",
+      "sources": [
+        {
+          "url": "https://offers.sonicdrivein.com/nutrition/nutrition.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/sonic/mozzarella-sticks-5/medium",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

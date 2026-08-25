@@ -5,7 +5,7 @@
   "description": "Calculate Pancheros calories, protein, carbs and fat. Free Pancheros nutrition calculator with complete menu data for all items.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 97,
+  "itemCount": 118,
   "categories": [
     {
       "name": "Entrees",
@@ -127,6 +127,52 @@
           "fat": 0,
           "carbs": 0,
           "sodium": 40
+        },
+        {
+          "name": "Steak",
+          "calories": 150,
+          "protein": 20,
+          "fat": 7,
+          "carbs": 2,
+          "servingSize": "2.8 oz",
+          "sodium": 660,
+          "cholesterol": 55,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Chicken",
+          "calories": 85,
+          "protein": 12,
+          "fat": 4,
+          "carbs": 1,
+          "servingSize": "2.8 oz",
+          "sodium": 390,
+          "cholesterol": 30,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Carnitas",
+          "calories": 150,
+          "protein": 20,
+          "fat": 6,
+          "carbs": 3,
+          "servingSize": "4 oz",
+          "sodium": 480,
+          "cholesterol": 80,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Tofurizo",
+          "calories": 160,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "4 oz",
+          "fiber": 2,
+          "sodium": 600,
+          "saturated_fat": 1
         }
       ]
     },
@@ -250,6 +296,58 @@
           "sodium": 135,
           "saturated_fat": 1.5,
           "sugars": 3
+        },
+        {
+          "name": "White Cheddar Cheese",
+          "calories": 70,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 0,
+          "servingSize": "0.6 oz",
+          "sodium": 110,
+          "cholesterol": 20,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Guacamole",
+          "calories": 70,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 5,
+          "servingSize": "2.1 oz",
+          "fiber": 3,
+          "sodium": 260,
+          "sugars": 1
+        },
+        {
+          "name": "Queso",
+          "calories": 190,
+          "protein": 11,
+          "fat": 15,
+          "carbs": 2,
+          "servingSize": "1.9 oz",
+          "sodium": 570,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Lettuce",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "0.75 oz"
+        },
+        {
+          "name": "Fajita Veggies",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "1.7 oz",
+          "fiber": 1,
+          "sugars": 2
         }
       ]
     },
@@ -327,6 +425,60 @@
           "fat": 0,
           "carbs": 0,
           "sodium": 90
+        },
+        {
+          "name": "Pico de Gallo",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1.5 oz",
+          "sodium": 65,
+          "sugars": 1
+        },
+        {
+          "name": "Roasted Corn Salsa",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 9,
+          "servingSize": "1.62 oz",
+          "fiber": 1,
+          "sodium": 115,
+          "sugars": 3
+        },
+        {
+          "name": "Mild Ancho Salsa",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "2.16 oz",
+          "fiber": 1,
+          "sodium": 250,
+          "sugars": 2
+        },
+        {
+          "name": "Medium Salsa Verde",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1.62 oz",
+          "fiber": 1,
+          "sodium": 480,
+          "sugars": 1
+        },
+        {
+          "name": "Hot Tomatillo Salsa",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1.74 oz",
+          "fiber": 1,
+          "sodium": 200,
+          "sugars": 2
         }
       ]
     },
@@ -359,6 +511,24 @@
           "cholesterol": 70,
           "saturated_fat": 15,
           "trans_fat": 0.5
+        },
+        {
+          "name": "Kids Single Taco",
+          "calories": 180,
+          "protein": 10,
+          "fat": 8,
+          "carbs": 15,
+          "servingSize": "1 taco",
+          "sodium": 450
+        },
+        {
+          "name": "Kids Side of Rice",
+          "calories": 210,
+          "protein": 4,
+          "fat": 2,
+          "carbs": 44,
+          "servingSize": "1 serving",
+          "sodium": 800
         }
       ]
     },
@@ -441,6 +611,14 @@
           "protein": 0,
           "fat": 0,
           "carbs": 0
+        },
+        {
+          "name": "Bottled Water (Dasani)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 oz"
         }
       ]
     },
@@ -1176,6 +1354,51 @@
           "saturated_fat": 0,
           "sugars": 0,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Chips & Sides",
+      "items": [
+        {
+          "name": "Blue Corn Tortilla Chips",
+          "calories": 455,
+          "protein": 6,
+          "fat": 23,
+          "carbs": 60,
+          "servingSize": "1 bag",
+          "fiber": 3,
+          "sodium": 350,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Catering",
+      "items": [
+        {
+          "name": "Taco Bar (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Per Person"
+        },
+        {
+          "name": "Bowl Bar (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Per Person"
+        },
+        {
+          "name": "Chip, Chip Hooray Bundle",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Per Bundle"
         }
       ]
     }

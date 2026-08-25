@@ -5,7 +5,7 @@
   "description": "Build your Freebirds burrito, bowl, or taco and calculate complete macros and calories.",
   "category": "Mexican & Bowls",
   "emoji": "\ud83c\udf2f",
-  "itemCount": 30,
+  "itemCount": 37,
   "categories": [
     {
       "name": "Entrees",
@@ -445,6 +445,120 @@
           "saturated_fat": 0,
           "sugars": 2,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Chicken Sandwiches",
+      "items": [
+        {
+          "name": "Signature Crispy Chicken Sandwich",
+          "calories": 650,
+          "protein": 34,
+          "fat": 32,
+          "carbs": 58,
+          "servingSize": "1 sandwich",
+          "fiber": 3,
+          "sodium": 1250,
+          "cholesterol": 85,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Crispy Chicken Sandwich",
+          "calories": 710,
+          "protein": 34,
+          "fat": 36,
+          "carbs": 62,
+          "servingSize": "1 sandwich",
+          "fiber": 3,
+          "sodium": 1480,
+          "cholesterol": 85,
+          "saturated_fat": 7,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Tenders",
+      "items": [
+        {
+          "name": "Crispy Chicken Tenders (4 pc)",
+          "calories": 520,
+          "protein": 48,
+          "fat": 24,
+          "carbs": 26,
+          "servingSize": "4 pieces",
+          "fiber": 2,
+          "sodium": 1350,
+          "cholesterol": 130,
+          "saturated_fat": 4
+        }
+      ]
+    },
+    {
+      "name": "Wings",
+      "items": [
+        {
+          "name": "Traditional Wings (6 pc)",
+          "calories": 610,
+          "protein": 42,
+          "fat": 45,
+          "carbs": 2,
+          "servingSize": "6 pieces",
+          "sodium": 1180,
+          "cholesterol": 180,
+          "saturated_fat": 13,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Seasoned Crinkle Cut Fries",
+          "calories": 380,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 50,
+          "servingSize": "Regular order",
+          "fiber": 4,
+          "sodium": 540,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "ReeBirds Signature Dipping Sauce",
+          "calories": 140,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 4,
+          "servingSize": "1 dip cup (30g)",
+          "sodium": 260,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Southern Sweet Tea",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 50,
+          "servingSize": "20 fl oz cup",
+          "sodium": 15,
+          "sugars": 50
         }
       ]
     }

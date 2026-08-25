@@ -5,7 +5,7 @@
   "description": "Track calories for burritos, salads, and Mexican favorites.",
   "category": "Mexican & Bowls",
   "emoji": "\ud83c\udf2f",
-  "itemCount": 82,
+  "itemCount": 83,
   "categories": [
     {
       "name": "Entr\u00e9es",
@@ -918,6 +918,24 @@
           "saturated_fat": 1.5,
           "sugars": 30,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Mexican Grill",
+      "items": [
+        {
+          "name": "Sweet Pork Salad (Weight Watchers Custom)",
+          "calories": 650,
+          "protein": 32,
+          "fat": 22,
+          "carbs": 82,
+          "servingSize": "1 salad (450g)",
+          "fiber": 9,
+          "sodium": 1250,
+          "cholesterol": 75,
+          "saturated_fat": 8,
+          "sugars": 12
         }
       ]
     }

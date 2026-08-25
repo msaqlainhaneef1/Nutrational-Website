@@ -1,0 +1,301 @@
+{
+  "brand": {
+    "name": "Matcha Cream Frappuccino",
+    "website": "https://www.matchacreamfrappuccino.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Classic Matcha Cream Frappuccino",
+    "Nonfat Milk Matcha Cream Frappuccino",
+    "Oat Milk Matcha Cream Frappuccino",
+    "Almond Milk Matcha Cream Frappuccino",
+    "Matcha Frappuccino Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "mcf_grande_whole_milk",
+      "name": "Matcha Cream Frappuccino with Whole Milk",
+      "category": "Classic Matcha Cream Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Blended beverage combining sweetened premium matcha green tea, milk and ice, topped with sweetened whipped cream.",
+      "price": 5.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 6.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 65.0,
+        "fiber_g": 1.5,
+        "sugars_g": 61.0,
+        "added_sugars_g": 54.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 95.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Whole Milk",
+        "Crème Frappuccino Syrup",
+        "Matcha Green Tea Blend",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matchacreamfrappuccino.com/media/menu/matcha-cream-frap-whole.png",
+      "product_url": "https://www.matchacreamfrappuccino.com/menu/classic/whole-milk",
+      "sources": [
+        {
+          "url": "https://www.matchacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/matcha-cream-frappuccino",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "mcf_grande_nonfat_milk",
+      "name": "Matcha Cream Frappuccino with Nonfat Milk (No Whip)",
+      "category": "Nonfat Milk Matcha Cream Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Lighter version made with nonfat milk, sweetened matcha green tea, and no whipped cream.",
+      "price": 5.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 455.0
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 7.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.1,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 1.5,
+        "sugars_g": 58.0,
+        "added_sugars_g": 50.0,
+        "calcium_mg": 260.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 95.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Nonfat Milk",
+        "Crème Base",
+        "Matcha Green Tea Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matchacreamfrappuccino.com/media/menu/matcha-cream-frap-nonfat.png",
+      "product_url": "https://www.matchacreamfrappuccino.com/menu/nonfat/nonfat-milk",
+      "sources": [
+        {
+          "url": "https://www.matchacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcf_grande_oat_milk",
+      "name": "Matcha Cream Frappuccino with Oat Milk",
+      "category": "Oat Milk Matcha Cream Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Matcha green tea blended beverage crafted with creamy oat milk.",
+      "price": 6.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 4.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 250.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 69.0,
+        "fiber_g": 3.5,
+        "sugars_g": 59.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 95.0
+      },
+      "allergens": [
+        "Gluten (Oat)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Oat Milk",
+        "Crème Base",
+        "Matcha Green Tea Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matchacreamfrappuccino.com/media/menu/matcha-cream-frap-oat.png",
+      "product_url": "https://www.matchacreamfrappuccino.com/menu/plant-based/oat-milk",
+      "sources": [
+        {
+          "url": "https://www.matchacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcf_grande_almond_milk",
+      "name": "Matcha Cream Frappuccino with Almond Milk",
+      "category": "Almond Milk Matcha Cream Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Matcha green tea blended beverage made with nutritious almond milk.",
+      "price": 6.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 3.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 64.0,
+        "fiber_g": 2.5,
+        "sugars_g": 57.0,
+        "added_sugars_g": 50.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 95.0
+      },
+      "allergens": [
+        "Tree Nuts (Almonds)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Almond Milk",
+        "Crème Base",
+        "Matcha Green Tea Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matchacreamfrappuccino.com/media/menu/matcha-cream-frap-almond.png",
+      "product_url": "https://www.matchacreamfrappuccino.com/menu/plant-based/almond-milk",
+      "sources": [
+        {
+          "url": "https://www.matchacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcf_whipped_cream_topping",
+      "name": "Sweetened Whipped Cream Topping",
+      "category": "Matcha Frappuccino Toppings & Add-ons",
+      "subcategory": "Toppings",
+      "description": "Rich whipped cream sweetened with vanilla syrup.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 serving (15g)",
+        "weight_g": 15.0
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 0.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 5.0,
+        "potassium_mg": 10.0,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Heavy Cream",
+        "Vanilla Syrup (Sugar, Water, Natural Flavors, Citric Acid, Potassium Sorbate)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matchacreamfrappuccino.com/media/menu/whipped-cream.png",
+      "product_url": "https://www.matchacreamfrappuccino.com/menu/addons/whipped-cream",
+      "sources": [
+        {
+          "url": "https://www.matchacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Flame-Grilled Burgers"
+  ],
+  "products": [
+    {
+      "product_id": "burger_king_bacon_king",
+      "name": "Bacon King",
+      "category": "Burgers",
+      "subcategory": "Beef",
+      "description": "Two savory flame-grilled beef patties, topped with a hearty portion of thick-cut smoked bacon, melted American cheese, ketchup, and creamy mayonnaise on a toasted sesame seed bun.",
+      "price": 8.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (309g)",
+        "weight_g": 309.0
+      },
+      "nutrition": {
+        "calories": 1050,
+        "protein_g": 61.0,
+        "fat_g": 74.0,
+        "saturated_fat_g": 27.0,
+        "trans_fat_g": 3.0,
+        "cholesterol_mg": 215.0,
+        "sodium_mg": 2150.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Flame-grilled beef patties",
+        "thick-cut smoked bacon",
+        "American cheese",
+        "ketchup",
+        "mayonnaise",
+        "sesame seed bun"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/products/product-bacon-king.png",
+      "product_url": "https://www.bk.com/menu/product-bacon-king",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-summary",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

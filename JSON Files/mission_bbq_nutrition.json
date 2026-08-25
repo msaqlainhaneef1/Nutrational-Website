@@ -1,0 +1,362 @@
+{
+  "brand": {
+    "name": "Mission BBQ",
+    "website": "https://mission-bbq.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Market Plates & Meats",
+    "Sides",
+    "Desserts",
+    "Beverages",
+    "Sauces"
+  ],
+  "products": [
+    {
+      "product_id": "mbbq_pulled_pork_sandwich",
+      "name": "Pulled Pork Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "Sandwiches",
+      "description": "Slow-smoked pulled pork served on a fresh brioche bun with choice of BBQ sauce.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (310g)",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 38.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 3.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 3.4,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Pork",
+        "Brioche Bun",
+        "BBQ Rub",
+        "Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/pulled-pork.png",
+      "product_url": "https://mission-bbq.com/menu/sandwiches/pulled-pork",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/mission-bbq",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "mbbq_texas_style_brisket",
+      "name": "Texas Style Brisket (Plate)",
+      "category": "Market Plates & Meats",
+      "subcategory": "Meats",
+      "description": "Hand-carved slow-smoked beef brisket seasoned with coarse salt and black pepper.",
+      "price": 16.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1/2 lb meat portion (226g)",
+        "weight_g": 226.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 44.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 760.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 4.2,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Beef Brisket",
+        "Salt",
+        "Black Pepper",
+        "Wood Smoke"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/brisket.png",
+      "product_url": "https://mission-bbq.com/menu/meats/brisket",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mbbq_smoked_turkey",
+      "name": "Smoked Turkey (Plate)",
+      "category": "Market Plates & Meats",
+      "subcategory": "Meats",
+      "description": "Slow-smoked tender turkey breast, perfectly seasoned.",
+      "price": 14.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1/2 lb meat portion (226g)",
+        "weight_g": 226.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 52.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 25.0,
+        "iron_mg": 2.1,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Turkey Breast",
+        "Rub",
+        "Wood Smoke"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/turkey.png",
+      "product_url": "https://mission-bbq.com/menu/meats/turkey",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mbbq_Maggie_mac_cheese",
+      "name": "Maggie's Mac-N-Cheese",
+      "category": "Sides",
+      "subcategory": "Sides",
+      "description": "Rich, creamy homemade macaroni and cheese baked to perfection.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular side (180g)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 16.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 720.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Macaroni",
+        "Cheddar Cheese",
+        "Milk",
+        "Butter"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/mac-cheese.png",
+      "product_url": "https://mission-bbq.com/menu/sides/mac-n-cheese",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mbbq_baked_beans",
+      "name": "Baked Beans with Brisket",
+      "category": "Sides",
+      "subcategory": "Sides",
+      "description": "Slow-simmered baked beans loaded with chunks of smoked brisket.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular side (190g)",
+        "weight_g": 190.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 14.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 890.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 7.0,
+        "sugars_g": 22.0,
+        "added_sugars_g": 16.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [
+        "Beans",
+        "Smoked Brisket",
+        "Brown Sugar",
+        "Molasses",
+        "BBQ Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/baked-beans.png",
+      "product_url": "https://mission-bbq.com/menu/sides/baked-beans",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mbbq_peach_cobbler",
+      "name": "Homemade Peach Cobbler",
+      "category": "Desserts",
+      "subcategory": "Cobblers",
+      "description": "Warm baked peaches with a golden flaky crust topping.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 portion (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 4.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 2.0,
+        "sugars_g": 42.0,
+        "added_sugars_g": 36.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Peaches",
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Cinnamon"
+      ],
+      "customizations": [],
+      "image_url": "https://mission-bbq.com/media/menu/peach-cobbler.png",
+      "product_url": "https://mission-bbq.com/menu/desserts/peach-cobbler",
+      "sources": [
+        {
+          "url": "https://mission-bbq.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

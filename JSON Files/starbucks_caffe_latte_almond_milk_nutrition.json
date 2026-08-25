@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Coffees",
+    "Caffe Lattes"
+  ],
+  "products": [
+    {
+      "product_id": "starbucks_caffe_latte_almond_milk_grande",
+      "name": "Caffe Latte (Almondmilk, Grande)",
+      "category": "Hot Coffees",
+      "subcategory": "Caffe Lattes",
+      "description": "Rich, full-bodied espresso combined with steamed almondmilk and topped with a light layer of foam.",
+      "price": 5.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "16 fl oz (Grande)",
+        "weight_g": 473.0
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 3.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 170.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": 2.0,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Brewed Espresso",
+        "Almondmilk (Filtered Water, Almonds, Sugar, Tricalcium Phosphate, Sunflower Lecithin, Sea Salt, Xanthan Gum, Guar Gum, Vitamin A Palmitate, Vitamin D2)"
+      ],
+      "customizations": [
+        "Add Syrup (Vanilla, Caramel, Hazelnut)",
+        "Extra Espresso Shot",
+        "No Foam"
+      ],
+      "image_url": "https://www.starbucks.com/menu/product/407/hot",
+      "product_url": "https://www.starbucks.com/menu/product/407/hot",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/starbucks/caffe-latte-almond-milk/grande",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.starbucks.com/menu/product/407/hot/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

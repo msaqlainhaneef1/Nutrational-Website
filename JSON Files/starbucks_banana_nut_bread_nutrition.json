@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Bakery"
+  ],
+  "products": [
+    {
+      "product_id": "starbucks_banana_walnut_pecan_loaf",
+      "name": "Banana, Walnut & Pecan Loaf",
+      "category": "Bakery",
+      "subcategory": "Loaves & Cakes",
+      "description": "Sweet, ripe bananas, walnuts and pecans mixed into a moist, nutty, classic banana bread.",
+      "price": 3.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 piece (113 g)",
+        "weight_g": 113.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 6.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 300.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 2.0,
+        "sugars_g": 26.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Egg",
+        "Pecans",
+        "Soy",
+        "Walnuts",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Bananas",
+        "Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)",
+        "Sugar",
+        "Eggs",
+        "Soybean Oil",
+        "Walnuts",
+        "Pecans",
+        "Baking Soda",
+        "Salt",
+        "Cinnamon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.starbucks.com/menu/product/1256/single",
+      "product_url": "https://www.starbucks.com/menu/product/1256/single",
+      "sources": [
+        {
+          "url": "https://www.starbucks.com/menu/product/1256/single/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/starbucks/banana-nut-bread",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

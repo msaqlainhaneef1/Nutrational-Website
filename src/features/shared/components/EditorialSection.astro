@@ -1,0 +1,156 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { ShieldCheck, CheckCircle, FileText, RefreshCw, Scale, Award, BookOpen, AlertCircle } from '@lucide/astro';
+
+const principles = [
+  {
+    title: 'Evidence-Based Sourcing',
+    desc: 'We prioritize primary scientific literature, registered clinical guidelines (e.g., Mifflin-St Jeor, Harris-Benedict), official USDA FoodData Central datasets, and direct restaurant laboratory nutritional disclosures.',
+    icon: BookOpen
+  },
+  {
+    title: 'Expert Medical & Dietetic Review',
+    desc: 'All calculator algorithms, educational articles, and dietary guides are authored or clinically audited by registered dietitian nutritionists (RDN) and health science researchers.',
+    icon: Award
+  },
+  {
+    title: 'Commercial Independence',
+    desc: 'Editorial content and mathematical formulas are strictly independent of advertising relationships. Advertisers never influence rankings, nutritional values, or educational conclusions.',
+    icon: Scale
+  },
+  {
+    title: 'Transparent Corrections',
+    desc: 'When nutrition facts change or an error is discovered, we promptly update the data and log updates with clear date stamps to maintain unwavering data integrity.',
+    icon: RefreshCw
+  }
+];
+
+const workflowSteps = [
+  {
+    step: '01',
+    title: 'Primary Data Extraction',
+    desc: 'We gather raw nutrition factsheets directly from restaurant corporate portals and federal nutritional databases (USDA SR Legacy & FNDDS), standardizing serving sizes and macronutrient splits.'
+  },
+  {
+    step: '02',
+    title: 'Mathematical & Algorithm Verification',
+    desc: 'Calculators are implemented using peer-reviewed equations. We test edge cases, unit conversions (Imperial/Metric), and physiological constraints to ensure computational accuracy.'
+  },
+  {
+    step: '03',
+    title: 'Dietetic Clinical Review',
+    desc: 'Credentialed professionals review the practical guidance, ensuring safety notes, medical disclaimers, and contextual advice align with current metabolic health recommendations.'
+  },
+  {
+    step: '04',
+    title: 'Routine Auditing & Updates',
+    desc: 'Menus and USDA datasets undergo quarterly audits. If a restaurant chain alters formulations or sodium/calorie content, our database is updated accordingly.'
+  }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Editorial Policy', url: '/editorial-policy' }]} />
+
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <ShieldCheck class="h-3.5 w-3.5" />
+      <span>E-E-A-T Quality & Fact-Checking Standards</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Editorial Policy & <span class="text-gradient">Medical Standards</span>
+    </h1>
+    <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-3xl">
+      At Nutrition Solver, our mission is to provide accurate, unbiased, and accessible nutritional data. Health decisions require trustworthy information, and we uphold rigorous editorial and scientific standards across all our tools and content.
+    </p>
+  </div>
+
+  <!-- Core Pillars -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {principles.map((p) => {
+      const Icon = p.icon;
+      return (
+        <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-3">
+          <div class="h-10 w-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <Icon class="h-5 w-5" />
+          </div>
+          <h3 class="text-lg font-bold text-white">{p.title}</h3>
+          <p class="text-sm text-zinc-400 leading-relaxed">{p.desc}</p>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- Review Workflow -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-6">
+    <div class="space-y-2">
+      <h2 class="text-2xl font-bold text-white">Our 4-Step Verification Workflow</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        How we take raw data and turn it into verified, accessible health tools:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+      {workflowSteps.map((ws) => (
+        <div class="p-5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 space-y-2 relative overflow-hidden">
+          <div class="text-3xl font-black text-zinc-800 select-none absolute top-3 right-4">{ws.step}</div>
+          <h4 class="text-base font-bold text-emerald-400">{ws.title}</h4>
+          <p class="text-sm text-zinc-400 leading-relaxed pr-6">{ws.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Detailed Sections -->
+  <div class="space-y-8 text-zinc-300">
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Primary Source Standards</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Nutrition Solver enforces a strict hierarchy of data sources. We do not aggregate data from secondary blogs or unverified user submissions. Our data sources include:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li><strong>Government & Institutional Databases:</strong> U.S. Department of Agriculture (USDA) FoodData Central, National Institutes of Health (NIH), and Centers for Disease Control and Prevention (CDC).</li>
+        <li><strong>Peer-Reviewed Literature:</strong> Clinical studies published in recognized journals including <em>The American Journal of Clinical Nutrition</em>, <em>Journal of the Academy of Nutrition and Dietetics</em>, and <em>Metabolism</em>.</li>
+        <li><strong>Corporate Nutrition Disclosures:</strong> Direct nutritional PDFs and laboratory analyses published officially by restaurant brands.</li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Editorial Independence & Advertising Policy</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Nutrition Solver maintains a strict division between editorial content and advertising or commercial partnerships:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li>Advertisers and sponsors do not have advance access to editorial copy, data metrics, or calculator equations.</li>
+        <li>We do not accept payment to favorably inflate nutritional scores, lower calorie counts, or artificially promote any restaurant chain or food product.</li>
+        <li>All advertisements served on the website are clearly demarcated from educational reference material.</li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Fact-Checking & Correction Protocol</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Despite our stringent verification steps, recipes evolve and regional restaurant preparations may change. If a reader or researcher discovers an inconsistency:
+      </p>
+      <div class="p-5 rounded-xl bg-zinc-900 border border-zinc-800 space-y-3">
+        <p class="text-sm text-zinc-300 leading-relaxed">
+          1. Submit the discrepancy via our <a href="/contact/" class="text-emerald-400 underline font-medium">Contact & Corrections Form</a> or email <a href="mailto:corrections@nutritionsolver.com" class="text-emerald-400 underline font-medium">corrections@nutritionsolver.com</a> with supporting links.
+        </p>
+        <p class="text-sm text-zinc-300 leading-relaxed">
+          2. Our team verifies the item against current corporate disclosures within 48 hours.
+        </p>
+        <p class="text-sm text-zinc-300 leading-relaxed">
+          3. When confirmed, our database and static assets are updated immediately and re-indexed.
+        </p>
+      </div>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Meet Our Editorial Board</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Our content and scientific methodologies are guided by credentialed nutrition experts. Learn more about our authors, reviewers, and scientific advisors on our <a href="/authors/" class="text-emerald-400 underline font-medium">Authors & Editorial Board</a> page.
+      </p>
+    </section>
+  </div>
+</div>

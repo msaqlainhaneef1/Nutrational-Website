@@ -1,0 +1,488 @@
+{
+  "brand": {
+    "name": "Cook Out",
+    "website": "https://www.cookout.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Cook Out Trays",
+    "Burgers",
+    "Chicken",
+    "Sides",
+    "Milkshakes",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "cookout_tray_original",
+      "name": "Cook Out Tray",
+      "category": "Cook Out Trays",
+      "subcategory": "Trays",
+      "description": "Famous combo tray including a main entree (burger, BBQ, or chicken) with two sides and a drink.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 complete tray combo",
+        "weight_g": 650.0
+      },
+      "nutrition": {
+        "calories": 1250,
+        "protein_g": 42.0,
+        "fat_g": 65.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 1850.0,
+        "potassium_mg": 720.0,
+        "carbohydrates_g": 128.0,
+        "fiber_g": 6.0,
+        "sugars_g": 45.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 5.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Main Entree",
+        "Two Sides",
+        "Medium Fountain Drink"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/cookout-tray.png",
+      "product_url": "https://www.cookout.com/menu/trays",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/cook-out",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_outwest_burger",
+      "name": "Out West Burger",
+      "category": "Burgers",
+      "subcategory": "Specialty Burgers",
+      "description": "Charbroiled beef patty topped with cheese, bacon, barbecue sauce, and onion ring.",
+      "price": 4.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 250.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 28.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1120.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 2.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Sesame Bun",
+        "American Cheese",
+        "Bacon",
+        "BBQ Sauce",
+        "Onion Ring"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/outwest-burger.png",
+      "product_url": "https://www.cookout.com/menu/burgers",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_cheddar_style_burger",
+      "name": "Cheddar Style Burger",
+      "category": "Burgers",
+      "subcategory": "Specialty Burgers",
+      "description": "Charbroiled beef patty with melted cheddar cheese, bacon, mayonnaise, and grilled onions.",
+      "price": 4.39,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 30.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1080.0,
+        "potassium_mg": 360.0,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 310.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Bun",
+        "Cheddar Cheese",
+        "Bacon",
+        "Mayonnaise",
+        "Grilled Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/cheddar-burger.png",
+      "product_url": "https://www.cookout.com/menu/burgers",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_big_double_burger",
+      "name": "Big Double Burger",
+      "category": "Burgers",
+      "subcategory": "Standard Burgers",
+      "description": "Two charbroiled beef patties with lettuce, tomato, pickles, onions, ketchup, mustard, and mayonnaise.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 750,
+        "protein_g": 38.0,
+        "fat_g": 49.0,
+        "saturated_fat_g": 17.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 1250.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Two Beef Patties",
+        "Bun",
+        "Lettuce",
+        "Tomato",
+        "Pickles",
+        "Onions",
+        "Condiments"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/big-double.png",
+      "product_url": "https://www.cookout.com/menu/burgers",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_chicken_strips",
+      "name": "Chicken Strips (4 pc)",
+      "category": "Chicken",
+      "subcategory": "Tenders",
+      "description": "Crispy fried all-white meat chicken strips served with choice of dipping sauce.",
+      "price": 4.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 32.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1150.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken Breast Tenders",
+        "Wheat Flour",
+        "Breadcrumbs",
+        "Vegetable Oil",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/chicken-strips.png",
+      "product_url": "https://www.cookout.com/menu/chicken",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_french_fries",
+      "name": "French Fries",
+      "category": "Sides",
+      "subcategory": "Sides",
+      "description": "Golden, crispy french fries seasoned with Cook Out seasoning salt.",
+      "price": 2.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular order",
+        "weight_g": 120.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 4.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 520.0,
+        "potassium_mg": 420.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Seasoning Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/french-fries.png",
+      "product_url": "https://www.cookout.com/menu/sides",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_peanut_butter_fudge_shake",
+      "name": "Peanut Butter Fudge Milkshake",
+      "category": "Milkshakes",
+      "subcategory": "Shakes",
+      "description": "Hand-spun thick milkshake blended with creamy peanut butter and fudge.",
+      "price": 3.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular cup (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 18.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 580.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 105.0,
+        "fiber_g": 3.0,
+        "sugars_g": 92.0,
+        "added_sugars_g": 80.0,
+        "calcium_mg": 510.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 2.0
+      },
+      "allergens": [
+        "Milk",
+        "Peanuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Ice Cream",
+        "Whole Milk",
+        "Peanut Butter",
+        "Fudge Sauce",
+        "Whipped Topping"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/pb-fudge-shake.png",
+      "product_url": "https://www.cookout.com/menu/milkshakes",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cookout_sweet_tea_regular",
+      "name": "Cook Out Style Sweet Tea",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Southern-style freshly brewed sweet iced tea.",
+      "price": 1.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz cup",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 35.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 0.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 50.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Brewed Black Tea",
+        "Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.cookout.com/media/menu/sweet-tea.png",
+      "product_url": "https://www.cookout.com/menu/beverages",
+      "sources": [
+        {
+          "url": "https://www.cookout.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

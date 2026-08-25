@@ -1,0 +1,173 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Cookie, ShieldAlert, CheckCircle2, Settings, ExternalLink, Info } from '@lucide/astro';
+
+const cookieTypes = [
+  {
+    category: 'Strictly Necessary & Functional Storage',
+    purpose: 'Essential for site operation, remembering meal builder items, storing calorie deficit targets, and recording your consent preferences.',
+    duration: 'Session & LocalStorage',
+    provider: 'Nutrition Solver (First-Party)',
+    essential: true
+  },
+  {
+    category: 'Advertising & Google DoubleClick Cookies',
+    purpose: 'Used by Google and third-party advertising partners to serve relevant advertisements based on prior visits to this and other websites.',
+    duration: 'Up to 24 Months',
+    provider: 'Google AdSense / Third-Party Vendors',
+    essential: false
+  },
+  {
+    category: 'Performance & Aggregated Metrics',
+    purpose: 'Helps us understand which calculators and restaurant guides are most visited to improve page speed and layout utility.',
+    duration: 'Aggregated / Non-persistent',
+    provider: 'Nutrition Solver / First-Party',
+    essential: false
+  }
+];
+
+const storageKeys = [
+  { key: 'nf-meal-items', description: 'Stores user-selected food items inside the Meal Builder tool' },
+  { key: 'nf-meal-goal', description: 'Remembers daily calorie and macronutrient goal presets' },
+  { key: 'ns-cookie-ack', description: 'Records user acknowledgment of the privacy & cookie notice' },
+  { key: 'ns-announcement-dismissed', description: 'Records temporary dismissal of the notification banner' }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Cookie Policy', url: '/cookie-policy' }]} />
+
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <Cookie class="h-3.5 w-3.5" />
+      <span>Cookie Transparency & Consent Framework</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Cookie & <span class="text-gradient">Advertising Policy</span>
+    </h1>
+    <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-3xl">
+      This Cookie Policy explains how Nutrition Solver uses cookies, browser local storage, and related technologies to provide our services and support our free access model through advertising.
+    </p>
+  </div>
+
+  <!-- Key Summary -->
+  <div class="glass-card rounded-2xl p-6 border border-emerald-500/20 bg-emerald-500/[0.02] space-y-3">
+    <h3 class="font-bold text-white text-base flex items-center gap-2">
+      <Info class="h-5 w-5 text-emerald-400" />
+      Summary of Our Policy
+    </h3>
+    <p class="text-sm text-zinc-300 leading-relaxed">
+      Nutrition Solver stores your calculator values and custom meals directly in your browser's local storage so that your health inputs remain private on your device. We use standard web technologies and Google AdSense to serve advertisements that keep our comprehensive databases and calculators 100% free to the public.
+    </p>
+  </div>
+
+  <!-- Cookie Breakdown Table -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-6">
+    <h2 class="text-2xl font-bold text-white">Technologies & Cookies We Use</h2>
+
+    <div class="overflow-x-auto">
+      <table class="w-full text-left text-sm text-zinc-300 border-collapse">
+        <thead>
+          <tr class="border-b border-zinc-800 text-xs uppercase tracking-wider text-zinc-400">
+            <th class="py-3 px-4">Category</th>
+            <th class="py-3 px-4">Purpose</th>
+            <th class="py-3 px-4">Provider</th>
+            <th class="py-3 px-4">Status</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-zinc-800/60">
+          {cookieTypes.map((c) => (
+            <tr class="hover:bg-zinc-900/40 transition-colors">
+              <td class="py-3.5 px-4 font-semibold text-white">{c.category}</td>
+              <td class="py-3.5 px-4 text-zinc-400 leading-relaxed text-xs sm:text-sm">{c.purpose}</td>
+              <td class="py-3.5 px-4 text-xs font-mono text-emerald-400">{c.provider}</td>
+              <td class="py-3.5 px-4">
+                {c.essential ? (
+                  <span class="inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Essential</span>
+                ) : (
+                  <span class="inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold bg-zinc-800 text-zinc-400 border border-zinc-700">Optional</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Local Storage Keys -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-5">
+    <div class="space-y-1">
+      <h3 class="text-xl font-bold text-white">First-Party Browser LocalStorage Items</h3>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        These keys are stored exclusively inside your browser's private storage sandbox:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+      {storageKeys.map((item) => (
+        <div class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800/80 space-y-1.5">
+          <code class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">{item.key}</code>
+          <p class="text-xs text-zinc-400 leading-relaxed">{item.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Google AdSense & Third Party Section -->
+  <div class="space-y-6 text-zinc-300">
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Google AdSense & DoubleClick Cookies</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Google is a third-party vendor on our site. Google uses cookies, known as DART cookies, to serve ads to our site visitors based on their visit to <code>nutritionsolver.com</code> and other sites on the internet.
+      </p>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Visitors may choose to opt out of personalized advertising by visiting:
+      </p>
+      <div class="flex flex-wrap gap-3 pt-1">
+        <a
+          href="https://adssettings.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-emerald-500/40 text-emerald-400 text-xs font-semibold transition-colors"
+        >
+          <span>Google Ads Settings</span>
+          <ExternalLink class="h-3.5 w-3.5" />
+        </a>
+        <a
+          href="https://optout.aboutads.info"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-emerald-500/40 text-zinc-300 text-xs font-semibold transition-colors"
+        >
+          <span>Digital Advertising Alliance (DAA) Opt-Out</span>
+          <ExternalLink class="h-3.5 w-3.5" />
+        </a>
+      </div>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">How to Manage & Disable Cookies</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        You can control or delete cookies at any time through your browser settings. Most modern web browsers allow you to block third-party cookies or wipe all browsing data upon closing the window:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li><strong>Google Chrome:</strong> Settings → Privacy and Security → Third-Party Cookies.</li>
+        <li><strong>Apple Safari:</strong> Preferences → Privacy → Prevent cross-site tracking.</li>
+        <li><strong>Mozilla Firefox:</strong> Settings → Privacy & Security → Enhanced Tracking Protection.</li>
+        <li><strong>Microsoft Edge:</strong> Settings → Cookies and site permissions → Manage and delete cookies.</li>
+      </ul>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Please note that disabling cookies or clearing local storage will reset your saved custom meals and theme preferences.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Contact Our Privacy Team</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        If you have questions about our cookie policy or data handling practices, please email <a href="mailto:privacy@nutritionsolver.com" class="text-emerald-400 underline font-medium">privacy@nutritionsolver.com</a> or visit our <a href="/contact/" class="text-emerald-400 underline font-medium">Contact Us</a> page.
+      </p>
+    </section>
+  </div>
+</div>

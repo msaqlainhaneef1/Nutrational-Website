@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Jersey Mike's Subs",
+    "website": "https://www.jerseymikes.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Subs",
+    "Cheese Steaks"
+  ],
+  "products": [
+    {
+      "product_id": "jersey_mikes_big_kahuna_chicken_cheese_steak_regular",
+      "name": "The Big Kahuna Chicken Cheese Steak (Regular)",
+      "category": "Hot Subs",
+      "subcategory": "Cheese Steaks",
+      "description": "Grilled chicken cheese steak loaded with onions, peppers, mushrooms, jalape\u00f1os, and melted American cheese on freshly baked white bread.",
+      "price": 11.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular sub (395g)",
+        "weight_g": 395.0
+      },
+      "nutrition": {
+        "calories": 810,
+        "protein_g": 52.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 2190.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Freshly baked white bread",
+        "grilled chicken",
+        "grilled onions",
+        "bell peppers",
+        "mushrooms",
+        "jalape\u00f1o peppers",
+        "melted American cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jerseymikes.com/images/subs/56-big-kahuna-chicken-cheese-steak.png",
+      "product_url": "https://www.jerseymikes.com/menu/hot-subs/the-big-kahuna-chicken-cheese-steak",
+      "sources": [
+        {
+          "url": "https://www.jerseymikes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -57,11 +57,18 @@ const faqs = [
     a: 'Net carbs equal total carbs minus fiber. The keto preset gives you a total carb target. To stay in ketosis, track net carbs and aim to keep them under 20 to 30 grams per day. Most of your calories should come from fat on this approach.',
   },
 ];
+import { createCalculatorSchema } from '@/features/calculators/shared/calculatorSchema';
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/calculators/${meta.slug}/`;
+const schema = createCalculatorSchema(meta, siteOrigin, faqs);
 ---
 
 <Layout
   title={meta.name}
   description={meta.description}
+  canonicalUrl={canonicalUrl}
+  schema={schema}
 >
   <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
     <MacroCalculator />

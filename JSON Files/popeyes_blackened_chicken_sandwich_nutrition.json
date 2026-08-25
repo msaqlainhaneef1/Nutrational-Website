@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Popeyes",
+    "website": "https://www.popeyes.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "popeyes_blackened_chicken_sandwich",
+      "name": "Blackened Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "An unbreaded, whole chicken breast marinated, blackened with bold Cajun spices, served on a toasted brioche bun with barrel-cured pickles and classic mayo.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (210g)",
+        "weight_g": 210.0
+      },
+      "nutrition": {
+        "calories": 550,
+        "protein_g": 35.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1390.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Whole chicken breast",
+        "blackened seasoning (paprika, salt, spices, garlic powder, onion powder)",
+        "brioche bun",
+        "pickle slices",
+        "classic mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.popeyes.com/sites/default/files/2023-03/blackened-chicken-sandwich.png",
+      "product_url": "https://www.popeyes.com/menu/chicken-sandwich/blackened-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.popeyes.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

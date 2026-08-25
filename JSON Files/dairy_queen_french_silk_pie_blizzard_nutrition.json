@@ -1,0 +1,285 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Blizzard\u00ae Treats"
+  ],
+  "products": [
+    {
+      "product_id": "dairy_queen_french_silk_pie_blizzard_mini",
+      "name": "French Silk Pie BLIZZARD\u00ae Treat (Mini)",
+      "category": "Blizzard\u00ae Treats",
+      "subcategory": "Seasonal & Featured Blizzards",
+      "description": "Chocolate pie pieces, choco chunks and cocoa fudge blended with creamy vanilla soft serve.",
+      "price": 4.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Mini",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 9.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 57.0,
+        "fiber_g": 1.0,
+        "sugars_g": 48.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Egg"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Chocolate Pie Pieces",
+        "Choco Chunks",
+        "Cocoa Fudge"
+      ],
+      "customizations": [
+        "Extra Choco Chunks",
+        "Extra Cocoa Fudge",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/french-silk-pie-blizzard/mini",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dairy_queen_french_silk_pie_blizzard_small",
+      "name": "French Silk Pie BLIZZARD\u00ae Treat (Small)",
+      "category": "Blizzard\u00ae Treats",
+      "subcategory": "Seasonal & Featured Blizzards",
+      "description": "Chocolate pie pieces, choco chunks and cocoa fudge blended with creamy vanilla soft serve.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 14.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 410.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 90.0,
+        "fiber_g": 1.5,
+        "sugars_g": 75.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Egg"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Chocolate Pie Pieces",
+        "Choco Chunks",
+        "Cocoa Fudge"
+      ],
+      "customizations": [
+        "Extra Choco Chunks",
+        "Extra Cocoa Fudge",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/french-silk-pie-blizzard/small",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dairy_queen_french_silk_pie_blizzard_medium",
+      "name": "French Silk Pie BLIZZARD\u00ae Treat (Medium)",
+      "category": "Blizzard\u00ae Treats",
+      "subcategory": "Seasonal & Featured Blizzards",
+      "description": "Chocolate pie pieces, choco chunks and cocoa fudge blended with creamy vanilla soft serve.",
+      "price": 6.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 900,
+        "protein_g": 18.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 27.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 550.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 120.0,
+        "fiber_g": 2.0,
+        "sugars_g": 100.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Egg"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Chocolate Pie Pieces",
+        "Choco Chunks",
+        "Cocoa Fudge"
+      ],
+      "customizations": [
+        "Extra Choco Chunks",
+        "Extra Cocoa Fudge",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/french-silk-pie-blizzard/medium",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dairy_queen_french_silk_pie_blizzard_large",
+      "name": "French Silk Pie BLIZZARD\u00ae Treat (Large)",
+      "category": "Blizzard\u00ae Treats",
+      "subcategory": "Seasonal & Featured Blizzards",
+      "description": "Chocolate pie pieces, choco chunks and cocoa fudge blended with creamy vanilla soft serve.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large",
+        "weight_g": 670.0
+      },
+      "nutrition": {
+        "calories": 1320,
+        "protein_g": 26.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 40.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 810.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 176.0,
+        "fiber_g": 3.0,
+        "sugars_g": 148.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Egg"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Chocolate Pie Pieces",
+        "Choco Chunks",
+        "Cocoa Fudge"
+      ],
+      "customizations": [
+        "Extra Choco Chunks",
+        "Extra Cocoa Fudge",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/treats/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/french-silk-pie-blizzard/large",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "description": "Customize your favorite Starbucks drinks and track complete nutrition information.",
   "category": "Coffee & Drinks",
   "emoji": "\u2615",
-  "itemCount": 1517,
+  "itemCount": 1520,
   "categories": [
     {
       "name": "Croissants & Danishes",
@@ -16722,6 +16722,47 @@
           "fiber": 25.7,
           "sodium": 924,
           "sugars": 25.7
+        },
+        {
+          "name": "Banana, Walnut & Pecan Loaf",
+          "calories": 380,
+          "protein": 6,
+          "fat": 20,
+          "carbs": 46,
+          "servingSize": "1 piece (113 g)",
+          "fiber": 2,
+          "sodium": 300,
+          "cholesterol": 35,
+          "saturated_fat": 2.5,
+          "sugars": 26
+        }
+      ]
+    },
+    {
+      "name": "Hot Coffees",
+      "items": [
+        {
+          "name": "Caffe Latte (Almondmilk, Grande)",
+          "calories": 100,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 10,
+          "servingSize": "16 fl oz (Grande)",
+          "fiber": 1,
+          "sodium": 170,
+          "saturated_fat": 0.5,
+          "sugars": 5
+        },
+        {
+          "name": "Caffe Latte (Nonfat Milk, Grande)",
+          "calories": 130,
+          "protein": 12,
+          "fat": 0,
+          "carbs": 19,
+          "servingSize": "16 fl oz (Grande)",
+          "sodium": 160,
+          "cholesterol": 5,
+          "sugars": 18
         }
       ]
     }

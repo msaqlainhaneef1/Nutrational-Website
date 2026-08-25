@@ -1,0 +1,176 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Espresso Drinks",
+    "Shakin' Espresso"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_brown_sugar_shakin_espresso_medium",
+      "name": "Brown Sugar Cookie Shakin' Espresso (Medium)",
+      "category": "Espresso Drinks",
+      "subcategory": "Shakin' Espresso",
+      "description": "Bold espresso hand-shaken with brown sugar cookie flavored syrup and ice, topped with oatmilk for a rich and creamy finish.",
+      "price": 4.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (24 fl oz)",
+        "weight_g": 680.0
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 2.0,
+        "fat_g": 3.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 140.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 29.0,
+        "added_sugars_g": 28.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 255.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed Espresso",
+        "Oatmilk",
+        "Brown Sugar Cookie Flavored Syrup",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/brown-sugar-shakin-espresso.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/espresso/brown-sugar-cookie-shakin-espresso",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_brown_sugar_shakin_espresso_small",
+      "name": "Brown Sugar Cookie Shakin' Espresso (Small)",
+      "category": "Espresso Drinks",
+      "subcategory": "Shakin' Espresso",
+      "description": "Bold espresso hand-shaken with brown sugar cookie flavored syrup and ice, topped with oatmilk in a small size.",
+      "price": 4.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (16 fl oz)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 1.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 95.0,
+        "potassium_mg": 150.0,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 21.0,
+        "added_sugars_g": 20.0,
+        "calcium_mg": 70.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 170.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed Espresso",
+        "Oatmilk",
+        "Brown Sugar Cookie Flavored Syrup",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/brown-sugar-shakin-espresso-small.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/espresso/brown-sugar-cookie-shakin-espresso",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_brown_sugar_shakin_espresso_large",
+      "name": "Brown Sugar Cookie Shakin' Espresso (Large)",
+      "category": "Espresso Drinks",
+      "subcategory": "Shakin' Espresso",
+      "description": "Bold espresso hand-shaken with brown sugar cookie flavored syrup and ice, topped with oatmilk in a large size.",
+      "price": 5.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (32 fl oz)",
+        "weight_g": 910.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 3.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 180.0,
+        "potassium_mg": 300.0,
+        "carbohydrates_g": 47.0,
+        "fiber_g": 1.0,
+        "sugars_g": 39.0,
+        "added_sugars_g": 38.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 340.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed Espresso",
+        "Oatmilk",
+        "Brown Sugar Cookie Flavored Syrup",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/brown-sugar-shakin-espresso-large.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/espresso/brown-sugar-cookie-shakin-espresso",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

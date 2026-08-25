@@ -5,7 +5,7 @@
   "description": "Calculate Port of Subs calories, protein, carbs and fat. Free Port of Subs nutrition calculator with complete menu data for all items.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 812,
+  "itemCount": 854,
   "categories": [
     {
       "name": "Desserts",
@@ -8436,6 +8436,362 @@
           "carbs": 1,
           "sodium": 95,
           "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Hot Subs",
+      "items": [
+        {
+          "name": "Griller w/ Hot Pastrami & Provolone - Small",
+          "calories": 624,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Grillers"
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Wrap w/ Ham, Turkey & Provolone",
+          "calories": 591,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Roast Beef & Provolone",
+          "calories": 591,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Turkey & Provolone",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Turkey, Provolone, Bacon & Ranch Dressing",
+          "calories": 590,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Chicken, Pepperoni & Pepperjack",
+          "calories": 647,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Peppered Pastrami, Turkey & Swiss",
+          "calories": 614,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        },
+        {
+          "name": "Wrap w/ Smoked Ham & Swiss",
+          "calories": 633,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wheat Wraps"
+        }
+      ]
+    },
+    {
+      "name": "Flatbreads",
+      "items": [
+        {
+          "name": "Flatbread w/ Ham, Capicolla, Salami, Pepperoni & Provolone - Medium",
+          "calories": 780,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Ham, Turkey & Provolone - Medium",
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Salami, Turkey & Provolone - Medium",
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Ham, Salami & Provolone - Medium",
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Roast Beef & Provolone - Medium",
+          "calories": 570,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Turkey & Provolone - Medium",
+          "calories": 640,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Peppered Pastrami & Swiss - Medium",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Roasted Chicken & Provolone - Medium",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Ham & American Cheese - Medium",
+          "calories": 720,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Salami & Provolone - Medium",
+          "calories": 680,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Peppered Pastrami, Turkey & Swiss - Medium",
+          "calories": 630,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Smoked Ham & Swiss - Medium",
+          "calories": 660,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Salami, Pepperoni & Provolone - Medium",
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Chicken, Pepperoni & Pepperjack - Medium",
+          "calories": 530,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Tuna & Provolone - Medium",
+          "calories": 740,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        },
+        {
+          "name": "Flatbread w/ Roast Beef, Turkey & Provolone - Medium",
+          "calories": 640,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Flatbreads"
+        }
+      ]
+    },
+    {
+      "name": "Stackers",
+      "items": [
+        {
+          "name": "Stacker w/ Ham, Capicolla, Salami, Pepperoni & Provolone - Medium",
+          "calories": 1085,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Ham, Turkey & Provolone - Medium",
+          "calories": 833,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Salami, Turkey & Provolone - Medium",
+          "calories": 929,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Ham, Salami & Provolone - Medium",
+          "calories": 890,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Smoked Ham, Turkey & Smokey Cheddar - Medium",
+          "calories": 870,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Vegetarian, Provolone, Swiss & Smokey Cheddar - Medium",
+          "calories": 1033,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Roast Beef & Provolone - Medium",
+          "calories": 833,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Turkey & Provolone - Medium",
+          "calories": 872,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Peppered Pastrami & Swiss - Medium",
+          "calories": 815,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Roasted Chicken & Provolone - Medium",
+          "calories": 779,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Ham & American Cheese - Medium",
+          "calories": 1134,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Salami & Provolone - Medium",
+          "calories": 986,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Peppered Pastrami, Turkey & Swiss - Medium",
+          "calories": 880,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Smoked Ham & Swiss - Medium",
+          "calories": 917,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Salami, Pepperoni & Provolone - Medium",
+          "calories": 1017,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Chicken, Pepperoni & Pepperjack - Medium",
+          "calories": 945,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Tuna & Provolone - Medium",
+          "calories": 1311,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
+        },
+        {
+          "name": "Stacker w/ Roast Beef, Turkey & Provolone - Medium",
+          "calories": 852,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Stackers"
         }
       ]
     }

@@ -1,0 +1,231 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Mail, MessageSquare, ShieldCheck, HelpCircle, CheckCircle2, Clock, Send, FileSpreadsheet, Sparkles } from '@lucide/astro';
+
+const departments = [
+  {
+    icon: FileSpreadsheet,
+    title: 'Data & Menu Corrections',
+    desc: 'Found a discrepancy in restaurant nutrition facts or USDA food data?',
+    email: 'corrections@nutritionsolver.com',
+    label: 'Report Data Issue'
+  },
+  {
+    icon: Sparkles,
+    title: 'Editorial & Content Feedback',
+    desc: 'Questions regarding our calculator algorithms, clinical formulas, or articles?',
+    email: 'editorial@nutritionsolver.com',
+    label: 'Contact Editorial Board'
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Privacy & Data Rights',
+    desc: 'Inquiries about cookie preferences, GDPR/CCPA requests, and user privacy.',
+    email: 'privacy@nutritionsolver.com',
+    label: 'Privacy Officer'
+  },
+  {
+    icon: Mail,
+    title: 'General & Partnerships',
+    desc: 'Media inquiries, licensing questions, or general site feedback.',
+    email: 'hello@nutritionsolver.com',
+    label: 'General Inquiries'
+  }
+];
+
+const faqs = [
+  {
+    q: 'How quickly will I receive a response?',
+    a: 'Our editorial and support team typically reviews and replies to all inquiries within 24 to 48 business hours.'
+  },
+  {
+    q: 'Can I request nutrition advice for my personal health condition?',
+    a: 'Nutrition Solver is an informational and reference platform. We cannot provide personalized medical or dietary diagnoses. Please consult a registered dietitian (RDN) or your personal physician for clinical advice.'
+  },
+  {
+    q: 'How do you verify reported nutrition inaccuracies?',
+    a: 'When you submit a data correction, our research team cross-references the latest official nutrition disclosures published directly by the restaurant chain or the USDA FoodData Central database before publishing updates.'
+  }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Contact Us', url: '/contact' }]} />
+
+  <!-- Hero Header -->
+  <div class="space-y-4 text-center sm:text-left">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <Clock class="h-3.5 w-3.5" />
+      <span>Prompt human response within 24–48 hours</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Get in Touch with <span class="text-gradient">Nutrition Solver</span>
+    </h1>
+    <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-2xl">
+      Have a question about our nutrition data, spotted a menu update, or want to suggest a new calculator? We would love to hear from you.
+    </p>
+  </div>
+
+  <!-- Department Channels -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {departments.map((dept) => {
+      const Icon = dept.icon;
+      return (
+        <div class="glass-card rounded-2xl p-6 border border-zinc-800 hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="h-10 w-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+              <Icon class="h-5 w-5" />
+            </div>
+            <h3 class="text-lg font-bold text-white">{dept.title}</h3>
+            <p class="text-sm text-zinc-400 leading-relaxed">{dept.desc}</p>
+          </div>
+          <div class="pt-2">
+            <a
+              href={`mailto:${dept.email}`}
+              class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors"
+            >
+              <span>{dept.email}</span>
+              <Send class="h-3.5 w-3.5" />
+            </a>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- Contact Form & Info -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+    <div class="lg:col-span-2 glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-6">
+      <div class="space-y-2">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <MessageSquare class="h-6 w-6 text-emerald-400" />
+          Send a Direct Message
+        </h2>
+        <p class="text-sm text-zinc-400 leading-relaxed">
+          Fill out the form below and our team will get in touch with you promptly.
+        </p>
+      </div>
+
+      <form id="contact-form" class="space-y-5" onsubmit="event.preventDefault(); document.getElementById('form-feedback').classList.remove('hidden'); this.reset();">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="space-y-1.5">
+            <label for="contact-name" class="block text-xs font-semibold uppercase tracking-wider text-zinc-300">Your Name</label>
+            <input
+              type="text"
+              id="contact-name"
+              required
+              placeholder="e.g. Alex Morgan"
+              class="w-full px-4 py-3 rounded-xl bg-zinc-900/80 border border-zinc-800 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors text-sm"
+            />
+          </div>
+          <div class="space-y-1.5">
+            <label for="contact-email" class="block text-xs font-semibold uppercase tracking-wider text-zinc-300">Email Address</label>
+            <input
+              type="email"
+              id="contact-email"
+              required
+              placeholder="alex@example.com"
+              class="w-full px-4 py-3 rounded-xl bg-zinc-900/80 border border-zinc-800 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors text-sm"
+            />
+          </div>
+        </div>
+
+        <div class="space-y-1.5">
+          <label for="contact-topic" class="block text-xs font-semibold uppercase tracking-wider text-zinc-300">Inquiry Topic</label>
+          <select
+            id="contact-topic"
+            required
+            class="w-full px-4 py-3 rounded-xl bg-zinc-900/80 border border-zinc-800 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors text-sm"
+          >
+            <option value="data-correction">Data Correction or Discrepancy</option>
+            <option value="restaurant-request">Suggest a Restaurant Chain or Food</option>
+            <option value="calculator-feedback">Calculator Formula or Feature Request</option>
+            <option value="editorial">Editorial & Review Board Inquiry</option>
+            <option value="press-business">Press, Media & Business Inquiry</option>
+            <option value="other">Other General Feedback</option>
+          </select>
+        </div>
+
+        <div class="space-y-1.5">
+          <label for="contact-message" class="block text-xs font-semibold uppercase tracking-wider text-zinc-300">Message</label>
+          <textarea
+            id="contact-message"
+            rows="5"
+            required
+            placeholder="Please provide details, including specific restaurant names or food URLs if applicable..."
+            class="w-full px-4 py-3 rounded-xl bg-zinc-900/80 border border-zinc-800 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors text-sm leading-relaxed"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-all shadow-lg hover:shadow-emerald-500/20"
+        >
+          <Send class="h-4 w-4" />
+          <span>Send Inquiry</span>
+        </button>
+
+        <div id="form-feedback" class="hidden p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-sm flex items-center gap-3">
+          <CheckCircle2 class="h-5 w-5 flex-shrink-0 text-emerald-400" />
+          <span>Thank you! Your message has been received. Our editorial team will review it shortly.</span>
+        </div>
+      </form>
+    </div>
+
+    <!-- Trust & Verification Highlights -->
+    <div class="space-y-6">
+      <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-4">
+        <h3 class="font-bold text-white text-base">Our Communication Principles</h3>
+        <ul class="space-y-3 text-sm text-zinc-400 leading-relaxed">
+          <li class="flex items-start gap-2.5">
+            <CheckCircle2 class="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+            <span><strong>No Marketing Spam:</strong> Your contact details are never shared, sold, or used for email marketing lists.</span>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <CheckCircle2 class="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+            <span><strong>Transparent Sourcing:</strong> Every correction is validated against verified laboratory disclosures or USDA tables.</span>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <CheckCircle2 class="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+            <span><strong>Expert Attention:</strong> Technical and formula feedback is directly addressed by registered nutritionists.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-3 bg-zinc-900/40">
+        <h4 class="font-semibold text-white text-sm">Need Legal or Privacy Details?</h4>
+        <p class="text-xs text-zinc-400 leading-relaxed">
+          Review our complete policies regarding data handling, terms, and editorial integrity:
+        </p>
+        <div class="pt-1 flex flex-wrap gap-2 text-xs">
+          <a href="/privacy/" class="text-emerald-400 hover:underline">Privacy Policy</a>
+          <span class="text-zinc-600">•</span>
+          <a href="/terms/" class="text-emerald-400 hover:underline">Terms of Service</a>
+          <span class="text-zinc-600">•</span>
+          <a href="/editorial-policy/" class="text-emerald-400 hover:underline">Editorial Policy</a>
+          <span class="text-zinc-600">•</span>
+          <a href="/disclaimer/" class="text-emerald-400 hover:underline">Medical Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQs -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-6">
+    <div class="flex items-center gap-3">
+      <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400">
+        <HelpCircle class="h-5 w-5" />
+      </div>
+      <h2 class="text-2xl font-bold text-white">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="divide-y divide-zinc-800/80">
+      {faqs.map((faq) => (
+        <div class="py-4 first:pt-0 last:pb-0 space-y-1.5">
+          <h4 class="text-base font-semibold text-zinc-200">{faq.q}</h4>
+          <p class="text-sm text-zinc-400 leading-relaxed">{faq.a}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>

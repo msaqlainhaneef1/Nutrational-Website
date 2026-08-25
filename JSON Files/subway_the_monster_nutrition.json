@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "SubSandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_monster_footlong",
+      "name": "The Monster (Footlong)",
+      "category": "Subway Series",
+      "subcategory": "Steak & Bacon",
+      "description": "Tender shaved steak, crisp bacon, double American cheese, green peppers, red onions, and Baja Chipotle sauce on Artisan Italian bread.",
+      "price": 12.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 footlong (398g)",
+        "weight_g": 398.0
+      },
+      "nutrition": {
+        "calories": 1180,
+        "protein_g": 72.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 180.0,
+        "sodium_mg": 2850.0,
+        "potassium_mg": 840.0,
+        "carbohydrates_g": 80.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 550.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Shaved Steak",
+        "Bacon",
+        "Double American Cheese",
+        "Green Peppers",
+        "Red Onions",
+        "Baja Chipotle Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/-/media/images/subway/menu/sandwiches/the-monster/subway-menu-subway-series-the-monster-1235x725.png",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menu/all-menu-items/subway-series/the-monster",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutritioninformation",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

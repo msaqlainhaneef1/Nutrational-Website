@@ -1,0 +1,474 @@
+{
+  "name": "Newk's Eatery",
+  "slug": "newks-eatery-nutrition-calculator",
+  "tagline": "Track nutrition for Newk's Eatery menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 41 menu items at Newk's Eatery.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 41,
+  "categories": [
+    {
+      "name": "Gluten-Free Salads",
+      "items": [
+        {
+          "name": "Chicken Caesar Salad (Gluten-Free)",
+          "calories": 520,
+          "protein": 38,
+          "fat": 34,
+          "carbs": 12,
+          "servingSize": "1 salad (380g)",
+          "fiber": 3,
+          "sodium": 1180,
+          "cholesterol": 115,
+          "saturated_fat": 8,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Gluten-Free Pizzas",
+      "items": [
+        {
+          "name": "Gluten-Free Crust Pepperoni Pizza",
+          "calories": 780,
+          "protein": 34,
+          "fat": 42,
+          "carbs": 68,
+          "servingSize": "1 personal pizza (310g)",
+          "fiber": 5,
+          "sodium": 1650,
+          "cholesterol": 85,
+          "saturated_fat": 18,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "name": "Newk's \"Q\" Pizza",
+          "calories": 1110,
+          "protein": 55,
+          "fat": 72,
+          "carbs": 52,
+          "fiber": 3,
+          "sodium": 3360,
+          "sugars": 6
+        },
+        {
+          "name": "Sausage & Pepperoni Pizza",
+          "calories": 880,
+          "protein": 43,
+          "fat": 51,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 2340,
+          "sugars": 5
+        },
+        {
+          "name": "Mediterranean Pizza",
+          "calories": 740,
+          "protein": 53,
+          "fat": 32,
+          "carbs": 54,
+          "fiber": 4,
+          "sodium": 2300,
+          "sugars": 5
+        },
+        {
+          "name": "BBQ Chicken Pizza",
+          "calories": 770,
+          "protein": 49,
+          "fat": 24,
+          "carbs": 86,
+          "fiber": 3,
+          "sodium": 1810,
+          "sugars": 35
+        },
+        {
+          "name": "Supreme Pizza",
+          "calories": 810,
+          "protein": 36,
+          "fat": 45,
+          "carbs": 57,
+          "fiber": 5,
+          "sodium": 2530,
+          "sugars": 8
+        },
+        {
+          "name": "Margherita Pizza",
+          "calories": 510,
+          "protein": 25,
+          "fat": 21,
+          "carbs": 52,
+          "fiber": 3,
+          "sodium": 1310,
+          "sugars": 3
+        },
+        {
+          "name": "The Debra Pizza",
+          "calories": 830,
+          "protein": 36,
+          "fat": 51,
+          "carbs": 52,
+          "fiber": 3,
+          "sodium": 2200,
+          "sugars": 3
+        },
+        {
+          "name": "Spicy Shrimp Pizza",
+          "calories": 770,
+          "protein": 47,
+          "fat": 39,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1500,
+          "sugars": 5
+        },
+        {
+          "name": "Five Cheese Pesto Pizza",
+          "calories": 830,
+          "protein": 31,
+          "fat": 51,
+          "carbs": 57,
+          "fiber": 3,
+          "sodium": 1550,
+          "sugars": 3
+        },
+        {
+          "name": "Spicy Chicken Pizza",
+          "calories": 770,
+          "protein": 47,
+          "fat": 39,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1500,
+          "sugars": 5
+        },
+        {
+          "name": "Veggie Pizza",
+          "calories": 830,
+          "protein": 31,
+          "fat": 51,
+          "carbs": 57,
+          "fiber": 5,
+          "sodium": 1550,
+          "sugars": 6
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "calories": 730,
+          "protein": 36,
+          "fat": 39,
+          "carbs": 50,
+          "fiber": 3,
+          "sodium": 1960,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Ultimate Salad",
+          "calories": 660,
+          "protein": 64,
+          "fat": 32,
+          "carbs": 23,
+          "fiber": 3,
+          "sodium": 1710,
+          "sugars": 4
+        },
+        {
+          "name": "Newk's Favorite Salad",
+          "calories": 740,
+          "protein": 43,
+          "fat": 33,
+          "carbs": 62,
+          "fiber": 7,
+          "sodium": 970,
+          "sugars": 36
+        },
+        {
+          "name": "Southern Salad",
+          "calories": 560,
+          "protein": 27,
+          "fat": 41,
+          "carbs": 22,
+          "fiber": 4,
+          "sodium": 690,
+          "sugars": 4
+        },
+        {
+          "name": "Cobb Salad",
+          "calories": 910,
+          "protein": 55,
+          "fat": 54,
+          "carbs": 44,
+          "fiber": 9,
+          "sodium": 1240,
+          "sugars": 6
+        },
+        {
+          "name": "Shrimp & Avocado Salad",
+          "calories": 380,
+          "protein": 25,
+          "fat": 22,
+          "carbs": 12,
+          "fiber": 6,
+          "sodium": 620,
+          "sugars": 2
+        },
+        {
+          "name": "Greek Salad",
+          "calories": 200,
+          "protein": 7,
+          "fat": 11,
+          "carbs": 14,
+          "fiber": 4,
+          "sodium": 1260,
+          "sugars": 4
+        },
+        {
+          "name": "Caesar Salad",
+          "calories": 230,
+          "protein": 7,
+          "fat": 13,
+          "carbs": 19,
+          "fiber": 3,
+          "sodium": 330,
+          "sugars": 1
+        },
+        {
+          "name": "Garden Salad",
+          "calories": 310,
+          "protein": 10,
+          "fat": 19,
+          "carbs": 25,
+          "fiber": 4,
+          "sodium": 350,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Newk's \"Q\" Sandwich",
+          "calories": 1080,
+          "protein": 56,
+          "fat": 58,
+          "carbs": 78,
+          "fiber": 2,
+          "sodium": 2100,
+          "sugars": 6
+        },
+        {
+          "name": "Newk's Club Sandwich",
+          "calories": 880,
+          "protein": 46,
+          "fat": 35,
+          "carbs": 88,
+          "fiber": 2,
+          "sodium": 2550,
+          "sugars": 13
+        },
+        {
+          "name": "The Italian Sandwich",
+          "calories": 1170,
+          "protein": 38,
+          "fat": 70,
+          "carbs": 76,
+          "fiber": 3,
+          "sodium": 3860,
+          "sugars": 3
+        },
+        {
+          "name": "Chicken Bacon Club Sandwich",
+          "calories": 1010,
+          "protein": 56,
+          "fat": 45,
+          "carbs": 88,
+          "fiber": 3,
+          "sodium": 1400,
+          "sugars": 12
+        },
+        {
+          "name": "Pesto Chicken Sandwich",
+          "calories": 830,
+          "protein": 56,
+          "fat": 31,
+          "carbs": 77,
+          "fiber": 8,
+          "sodium": 1440,
+          "sugars": 7
+        },
+        {
+          "name": "Turkey Avocado Sandwich",
+          "calories": 790,
+          "protein": 44,
+          "fat": 28,
+          "carbs": 84,
+          "fiber": 13,
+          "sodium": 2030,
+          "sugars": 8
+        },
+        {
+          "name": "Shrimp Po'Boy Sandwich",
+          "calories": 670,
+          "protein": 31,
+          "fat": 21,
+          "carbs": 83,
+          "fiber": 3,
+          "sodium": 1840,
+          "sugars": 11
+        },
+        {
+          "name": "Chicken Salad Sandwich",
+          "calories": 940,
+          "protein": 43,
+          "fat": 51,
+          "carbs": 75,
+          "fiber": 8,
+          "sodium": 1690,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Chicken Caesar Wrap",
+          "calories": 820,
+          "protein": 30,
+          "fat": 55,
+          "carbs": 52,
+          "fiber": 3,
+          "sodium": 1510,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Salad Wrap",
+          "calories": 610,
+          "protein": 26,
+          "fat": 33,
+          "carbs": 52,
+          "fiber": 4,
+          "sodium": 1080,
+          "sugars": 2
+        },
+        {
+          "name": "Chipotle Shrimp Caesar Wrap",
+          "calories": 900,
+          "protein": 27,
+          "fat": 60,
+          "carbs": 63,
+          "fiber": 4,
+          "sodium": 1660,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Tomato Basil Soup",
+          "calories": 580,
+          "protein": 8,
+          "fat": 43,
+          "carbs": 40,
+          "fiber": 4,
+          "sodium": 2290,
+          "sugars": 12
+        },
+        {
+          "name": "Loaded Potato Soup",
+          "calories": 650,
+          "protein": 13,
+          "fat": 51,
+          "carbs": 34,
+          "sodium": 2140,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Mac & Cheese",
+      "items": [
+        {
+          "name": "Five Cheese Mac & Cheese",
+          "calories": 790,
+          "protein": 28,
+          "fat": 49,
+          "carbs": 55,
+          "fiber": 2,
+          "sodium": 1990,
+          "sugars": 2
+        },
+        {
+          "name": "Six Cheese Pimiento Mac & Cheese with Bacon",
+          "calories": 1090,
+          "protein": 39,
+          "fat": 82,
+          "carbs": 43,
+          "fiber": 2,
+          "sodium": 2440,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Fresh Fruit",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 10,
+          "sugars": 9
+        },
+        {
+          "name": "Pasta Salad",
+          "calories": 230,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 450,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Caramel Cake Slice",
+          "calories": 680,
+          "protein": 7,
+          "fat": 29,
+          "carbs": 106,
+          "sodium": 700,
+          "sugars": 84
+        },
+        {
+          "name": "Chocolate Cake Slice",
+          "calories": 830,
+          "protein": 8,
+          "fat": 36,
+          "carbs": 128,
+          "fiber": 3,
+          "sodium": 580,
+          "sugars": 104
+        }
+      ]
+    }
+  ]
+}

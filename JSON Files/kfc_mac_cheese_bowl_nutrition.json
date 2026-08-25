@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "KFC",
+    "website": "https://www.kfc.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Famous Bowls",
+    "Entrees"
+  ],
+  "products": [
+    {
+      "product_id": "kfc_mac_cheese_bowl",
+      "name": "Mac & Cheese Bowl",
+      "category": "Famous Bowls",
+      "subcategory": "Bowls",
+      "description": "Warm, creamy Kraft Macaroni & Cheese topped with crispy popcorn chicken and a three-cheese blend.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl (370g)",
+        "weight_g": 370.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 31.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 71.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Kraft Macaroni & Cheese (enriched macaroni, cheddar cheese sauce)",
+        "Popcorn Chicken (chicken breast pieces, breading, seasoning)",
+        "Three-cheese blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/mac-cheese-bowl.png",
+      "product_url": "https://www.kfc.com/menu/famous-bowls/mac-and-cheese-bowl",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

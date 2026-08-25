@@ -5,7 +5,7 @@
   "description": "Calculate Costa Vida calories, protein, carbs and fat. Free Costa Vida nutrition calculator with complete menu data for all items.",
   "category": "Mexican & Bowls",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 272,
+  "itemCount": 278,
   "categories": [
     {
       "name": "Burritos",
@@ -2173,6 +2173,104 @@
           "protein": 0,
           "fat": 0,
           "carbs": 105
+        },
+        {
+          "name": "Traditional Horchata",
+          "calories": 310,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 62,
+          "servingSize": "Medium (20 fl oz)",
+          "fiber": 0.5,
+          "sodium": 140,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 54
+        }
+      ]
+    },
+    {
+      "name": "Burritos & Enchiladas",
+      "items": [
+        {
+          "name": "Sweet Pork Burrito",
+          "calories": 980,
+          "protein": 42,
+          "fat": 32,
+          "carbs": 128,
+          "servingSize": "1 large burrito (520g)",
+          "fiber": 9,
+          "sodium": 1640,
+          "cholesterol": 95,
+          "saturated_fat": 12,
+          "sugars": 18
+        }
+      ]
+    },
+    {
+      "name": "Salads & Nachos",
+      "items": [
+        {
+          "name": "Grilled Chicken Salads",
+          "calories": 620,
+          "protein": 46,
+          "fat": 28,
+          "carbs": 42,
+          "servingSize": "1 salad portion (480g)",
+          "fiber": 8,
+          "sodium": 1220,
+          "cholesterol": 120,
+          "saturated_fat": 8,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Tacos & Quesadillas",
+      "items": [
+        {
+          "name": "Sweet Pork Quesadilla",
+          "calories": 1140,
+          "protein": 48,
+          "fat": 54,
+          "carbs": 104,
+          "servingSize": "1 quesadilla (450g)",
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 140,
+          "saturated_fat": 24,
+          "sugars": 22
+        },
+        {
+          "name": "Baja Shrimp Tacos (2 pcs)",
+          "calories": 520,
+          "protein": 26,
+          "fat": 18,
+          "carbs": 62,
+          "servingSize": "2 tacos (320g)",
+          "fiber": 5,
+          "sodium": 980,
+          "cholesterol": 145,
+          "saturated_fat": 4,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sides & Desserts",
+      "items": [
+        {
+          "name": "Raspberry Cheesecake Chimichanga",
+          "calories": 610,
+          "protein": 9,
+          "fat": 32,
+          "carbs": 74,
+          "servingSize": "1 dessert (180g)",
+          "fiber": 2,
+          "sodium": 410,
+          "cholesterol": 65,
+          "saturated_fat": 14,
+          "sugars": 38
         }
       ]
     }

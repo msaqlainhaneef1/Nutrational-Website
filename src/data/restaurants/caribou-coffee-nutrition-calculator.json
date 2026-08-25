@@ -5,7 +5,7 @@
   "description": "Calculate Caribou Coffee calories, protein, carbs and fat. Free Caribou Coffee nutrition calculator with complete menu data for all items.",
   "category": "Coffee & Drinks",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 507,
+  "itemCount": 512,
   "categories": [
     {
       "name": "Beverage",
@@ -5297,6 +5297,79 @@
           "cholesterol": 50,
           "saturated_fat": 8,
           "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Espresso Drinks",
+      "items": [
+        {
+          "name": "Cinnamon Sugar Latte, Hot",
+          "calories": 330,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 48,
+          "servingSize": "Medium (16 oz)",
+          "sodium": 170,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 38
+        },
+        {
+          "name": "Cinnamon Sugar Mocha, Hot",
+          "calories": 390,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 54,
+          "servingSize": "Medium (16 oz)",
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 40,
+          "saturated_fat": 9,
+          "sugars": 44
+        },
+        {
+          "name": "Cinnamon Sugar Caramel Espresso Shaker",
+          "calories": 290,
+          "protein": 4,
+          "fat": 7,
+          "carbs": 52,
+          "servingSize": "Medium (16 oz)",
+          "sodium": 130,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 46
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Bowls",
+      "items": [
+        {
+          "name": "Denver Breakfast Bowl",
+          "calories": 250,
+          "protein": 16,
+          "fat": 13,
+          "carbs": 10,
+          "servingSize": "1 bowl (164g)",
+          "fiber": 1,
+          "sodium": 670,
+          "cholesterol": 35,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Vegetarian Breakfast Bowl",
+          "calories": 200,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 15,
+          "servingSize": "1 bowl (164g)",
+          "fiber": 2,
+          "sodium": 540,
+          "cholesterol": 30,
+          "saturated_fat": 3,
+          "sugars": 3
         }
       ]
     }

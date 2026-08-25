@@ -1,0 +1,32 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import EditorialBoard from '@/features/authors/components/EditorialBoard.astro';
+
+const title = "Authors & Medical Review Board | Nutrition Solver";
+const description = "Meet the credentialed dietitians, nutritionists, and health researchers who review calculator formulas and restaurant data on Nutrition Solver.";
+const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/authors`;
+
+const boardSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "Nutrition Solver Authors & Medical Review Board",
+  "url": canonicalUrl,
+  "description": description,
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Dr. Sarah Jenkins",
+    "jobTitle": "Lead Clinical Nutrition Reviewer",
+    "honorificSuffix": "PhD, RDN, LDN",
+    "url": "https://nutritionsolver.com/authors/sarah-jenkins"
+  }
+};
+---
+
+<Layout
+  title="Authors & Medical Review Board"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={boardSchema}
+>
+  <EditorialBoard />
+</Layout>

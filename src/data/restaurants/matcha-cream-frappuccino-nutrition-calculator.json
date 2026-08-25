@@ -1,0 +1,98 @@
+{
+  "name": "Matcha Cream Frappuccino",
+  "slug": "matcha-cream-frappuccino-nutrition-calculator",
+  "tagline": "Track nutrition for Matcha Cream Frappuccino menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Matcha Cream Frappuccino.",
+  "category": "Fast Casual & Dining",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Classic Matcha Cream Frappuccino",
+      "items": [
+        {
+          "name": "Matcha Cream Frappuccino with Whole Milk",
+          "calories": 420,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 65,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1.5,
+          "sodium": 230,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 61
+        }
+      ]
+    },
+    {
+      "name": "Nonfat Milk Matcha Cream Frappuccino",
+      "items": [
+        {
+          "name": "Matcha Cream Frappuccino with Nonfat Milk (No Whip)",
+          "calories": 300,
+          "protein": 7,
+          "fat": 0.5,
+          "carbs": 62,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1.5,
+          "sodium": 210,
+          "cholesterol": 5,
+          "saturated_fat": 0.1,
+          "sugars": 58
+        }
+      ]
+    },
+    {
+      "name": "Oat Milk Matcha Cream Frappuccino",
+      "items": [
+        {
+          "name": "Matcha Cream Frappuccino with Oat Milk",
+          "calories": 380,
+          "protein": 4,
+          "fat": 9,
+          "carbs": 69,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 3.5,
+          "sodium": 250,
+          "saturated_fat": 3,
+          "sugars": 59
+        }
+      ]
+    },
+    {
+      "name": "Almond Milk Matcha Cream Frappuccino",
+      "items": [
+        {
+          "name": "Matcha Cream Frappuccino with Almond Milk",
+          "calories": 340,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 64,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 2.5,
+          "sodium": 260,
+          "saturated_fat": 0.5,
+          "sugars": 57
+        }
+      ]
+    },
+    {
+      "name": "Matcha Frappuccino Toppings & Add-ons",
+      "items": [
+        {
+          "name": "Sweetened Whipped Cream Topping",
+          "calories": 50,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 2,
+          "servingSize": "1 serving (15g)",
+          "sodium": 5,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 2
+        }
+      ]
+    }
+  ]
+}

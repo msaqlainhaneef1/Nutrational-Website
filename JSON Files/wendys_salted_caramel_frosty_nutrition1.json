@@ -1,0 +1,142 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Frosty Desserts",
+    "Limited Time Offerings"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_salted_caramel_frosty_medium",
+      "name": "Salted Caramel Frosty (Medium)",
+      "category": "Frosty Desserts",
+      "subcategory": "Limited Time Frosty",
+      "description": "The legendary smooth and creamy Wendy's Frosty infused with rich, sweet salted caramel flavor.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (450g / 16 fl oz)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 11.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 0.0,
+        "sugars_g": 67.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Cream",
+        "Nonfat Milk",
+        "Whey",
+        "Salted Caramel Syrup",
+        "Cocoa (Processed with Alkali)",
+        "Guar Gum",
+        "Mono and Diglycerides",
+        "Cellulose Gum",
+        "Carrageenan"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/salted-caramel-frosty-medium.png",
+      "product_url": "https://www.wendys.com/menu/frosty/salted-caramel-frosty",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_salted_caramel_frosty_large",
+      "name": "Salted Caramel Frosty (Large)",
+      "category": "Frosty Desserts",
+      "subcategory": "Limited Time Frosty",
+      "description": "The legendary smooth and creamy Wendy's Frosty infused with rich, sweet salted caramel flavor in a large size.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (600g / 20 fl oz)",
+        "weight_g": 600.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 14.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 360.0,
+        "potassium_mg": 600.0,
+        "carbohydrates_g": 101.0,
+        "fiber_g": 0.0,
+        "sugars_g": 87.0,
+        "added_sugars_g": 68.0,
+        "calcium_mg": 500.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Cream",
+        "Nonfat Milk",
+        "Whey",
+        "Salted Caramel Syrup",
+        "Cocoa (Processed with Alkali)",
+        "Guar Gum",
+        "Mono and Diglycerides",
+        "Cellulose Gum",
+        "Carrageenan"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/salted-caramel-frosty-large.png",
+      "product_url": "https://www.wendys.com/menu/frosty/salted-caramel-frosty",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

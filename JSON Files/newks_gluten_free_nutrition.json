@@ -1,0 +1,129 @@
+{
+  "brand": {
+    "name": "Newk's Eatery",
+    "website": "https://www.newks.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Gluten-Free Salads",
+    "Gluten-Free Pizzas"
+  ],
+  "products": [
+    {
+      "product_id": "newks_chicken_caesar_salad_gf",
+      "name": "Chicken Caesar Salad (Gluten-Free)",
+      "category": "Gluten-Free Salads",
+      "subcategory": "Salads",
+      "description": "Crisp romaine lettuce, all-natural grilled chicken breast, grated Parmesan cheese, and gluten-free Caesar dressing (ordered without croutons).",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (380g)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 38.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 490.0,
+        "carbohydrates_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Fish",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Romaine Lettuce",
+        "Grilled Chicken Breast",
+        "Parmesan Cheese",
+        "Caesar Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.newks.com/images/chicken-caesar-salad.png",
+      "product_url": "https://www.newks.com/menu/salads/chicken-caesar-salad",
+      "sources": [
+        {
+          "url": "https://www.newks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "newks_gf_pepperoni_pizza",
+      "name": "Gluten-Free Crust Pepperoni Pizza",
+      "category": "Gluten-Free Pizzas",
+      "subcategory": "Pizzas",
+      "description": "Gluten-free cauliflower/rice flour crust topped with robust tomato sauce, mozzarella cheese, and sliced pepperoni.",
+      "price": 12.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 personal pizza (310g)",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 34.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1650.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 480.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Gluten-Free Pizza Crust",
+        "Tomato Sauce",
+        "Mozzarella Cheese",
+        "Pepperoni"
+      ],
+      "customizations": [],
+      "image_url": "https://www.newks.com/images/gf-pepperoni-pizza.png",
+      "product_url": "https://www.newks.com/menu/pizzas/gluten-free-pepperoni-pizza",
+      "sources": [
+        {
+          "url": "https://www.newks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

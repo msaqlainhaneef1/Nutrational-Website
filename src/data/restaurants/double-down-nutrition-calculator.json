@@ -1,0 +1,100 @@
+{
+  "name": "Double Down",
+  "slug": "double-down-nutrition-calculator",
+  "tagline": "Track nutrition for Double Down menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Double Down.",
+  "category": "American & Grill",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Original Double Down",
+      "items": [
+        {
+          "name": "Original KFC Double Down",
+          "calories": 700,
+          "protein": 54,
+          "fat": 41,
+          "carbs": 16,
+          "servingSize": "1 sandwich (277g)",
+          "fiber": 1,
+          "sodium": 1820,
+          "cholesterol": 170,
+          "saturated_fat": 12,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Spicy Double Down",
+      "items": [
+        {
+          "name": "Spicy KFC Double Down",
+          "calories": 740,
+          "protein": 55,
+          "fat": 43,
+          "carbs": 18,
+          "servingSize": "1 sandwich (280g)",
+          "fiber": 1,
+          "sodium": 1980,
+          "cholesterol": 175,
+          "saturated_fat": 13,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Bacon & Cheese Double Down",
+      "items": [
+        {
+          "name": "Bacon & Cheese Double Down",
+          "calories": 790,
+          "protein": 58,
+          "fat": 48,
+          "carbs": 15,
+          "servingSize": "1 sandwich (290g)",
+          "fiber": 0.5,
+          "sodium": 1900,
+          "cholesterol": 185,
+          "saturated_fat": 15,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Grilled Double Down",
+      "items": [
+        {
+          "name": "Grilled Double Down",
+          "calories": 460,
+          "protein": 52,
+          "fat": 23,
+          "carbs": 9,
+          "servingSize": "1 sandwich (250g)",
+          "fiber": 0.5,
+          "sodium": 1430,
+          "cholesterol": 140,
+          "saturated_fat": 7,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Double Down Meal Sides & Beverages",
+      "items": [
+        {
+          "name": "Secret Recipe Fries (Side)",
+          "calories": 320,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 43,
+          "servingSize": "Individual (115g)",
+          "fiber": 4,
+          "sodium": 730,
+          "saturated_fat": 2,
+          "sugars": 1
+        }
+      ]
+    }
+  ]
+}

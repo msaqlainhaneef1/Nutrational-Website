@@ -1,0 +1,505 @@
+{
+  "name": "DiBella's Subs",
+  "slug": "dibellas-nutrition-calculator",
+  "tagline": "Track nutrition for DiBella's Subs menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 41 menu items at DiBella's Subs.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 41,
+  "categories": [
+    {
+      "name": "Specialty Submarines (5 inch)",
+      "items": [
+        {
+          "name": "Albacore Tuna Salad Sub",
+          "calories": 410,
+          "protein": 22,
+          "fat": 12,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 790,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "All-American Cheesesteak Sub",
+          "calories": 560,
+          "protein": 25,
+          "fat": 25,
+          "carbs": 0,
+          "fiber": 4,
+          "sodium": 1180,
+          "cholesterol": 55,
+          "saturated_fat": 7,
+          "sugars": 4
+        },
+        {
+          "name": "Buffalo Chicken Sub with Blue Cheese",
+          "calories": 430,
+          "protein": 30,
+          "fat": 11,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 1250,
+          "cholesterol": 75,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Buffalo Chicken Sub with Ranch",
+          "calories": 430,
+          "protein": 30,
+          "fat": 10,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 1250,
+          "cholesterol": 75,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Cheese Sub",
+          "calories": 570,
+          "protein": 29,
+          "fat": 25,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 1220,
+          "cholesterol": 65,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Chicken Caesar Sub",
+          "calories": 600,
+          "protein": 42,
+          "fat": 24,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1480,
+          "cholesterol": 95,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Cordon Bleu Sub",
+          "calories": 470,
+          "protein": 37,
+          "fat": 12,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 1360,
+          "cholesterol": 95,
+          "saturated_fat": 3.5,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Philly Sub",
+          "calories": 410,
+          "protein": 31,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1150,
+          "cholesterol": 75,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Dagwood Sub",
+          "calories": 400,
+          "protein": 27,
+          "fat": 8,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1350,
+          "cholesterol": 50,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "DiBella's BLT Sub",
+          "calories": 550,
+          "protein": 31,
+          "fat": 23,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1510,
+          "cholesterol": 65,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "DiBella's Cheesesteak Sub",
+          "calories": 460,
+          "protein": 25,
+          "fat": 15,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 980,
+          "cholesterol": 50,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Godfather Sub",
+          "calories": 480,
+          "protein": 29,
+          "fat": 17,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1990,
+          "cholesterol": 75,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Assorted Sub",
+          "calories": 520,
+          "protein": 30,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 2130,
+          "cholesterol": 80,
+          "saturated_fat": 8,
+          "sugars": 3
+        },
+        {
+          "name": "Italian Meatball Sub",
+          "calories": 630,
+          "protein": 32,
+          "fat": 30,
+          "carbs": 0,
+          "fiber": 4,
+          "sodium": 1540,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Old Fashioned Sub",
+          "calories": 460,
+          "protein": 26,
+          "fat": 16,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1560,
+          "cholesterol": 65,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Sicilian Cheesesteak Sub",
+          "calories": 520,
+          "protein": 26,
+          "fat": 22,
+          "carbs": 0,
+          "fiber": 4,
+          "sodium": 1290,
+          "cholesterol": 45,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Cheesesteak Sub",
+          "calories": 660,
+          "protein": 25,
+          "fat": 38,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1600,
+          "cholesterol": 75,
+          "saturated_fat": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Spicy Turkey Club Sub",
+          "calories": 650,
+          "protein": 30,
+          "fat": 34,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1920,
+          "cholesterol": 80,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "The Cowboy Sub",
+          "calories": 500,
+          "protein": 37,
+          "fat": 15,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 1380,
+          "cholesterol": 100,
+          "saturated_fat": 5,
+          "sugars": 3
+        },
+        {
+          "name": "Uncle Louie Sub",
+          "calories": 400,
+          "protein": 27,
+          "fat": 8,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 1300,
+          "cholesterol": 50,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Veggie Sub",
+          "calories": 350,
+          "protein": 12,
+          "fat": 6,
+          "carbs": 0,
+          "fiber": 7,
+          "sodium": 1630,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Specialty Submarines (sides)",
+      "items": [
+        {
+          "name": "Baked Lay's",
+          "calories": 140,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 180,
+          "saturated_fat": 0.5,
+          "sugars": 3
+        },
+        {
+          "name": "Lay's Classic",
+          "calories": 240,
+          "protein": 3,
+          "fat": 16,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 250,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Macaroni Salad",
+          "calories": 260,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 1,
+          "sodium": 780,
+          "cholesterol": 25,
+          "saturated_fat": 2,
+          "sugars": 10
+        },
+        {
+          "name": "Potato Salad",
+          "calories": 210,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 390,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 10
+        },
+        {
+          "name": "Pickle",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 7,
+          "sodium": 1700
+        }
+      ]
+    },
+    {
+      "name": "Specialty Submarines (cookies)",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 380,
+          "protein": 4,
+          "fat": 20,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 300,
+          "cholesterol": 20,
+          "saturated_fat": 10,
+          "sugars": 32
+        },
+        {
+          "name": "Chocolate Chip Cookie with Walnuts",
+          "calories": 400,
+          "protein": 5,
+          "fat": 23,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 280,
+          "cholesterol": 20,
+          "saturated_fat": 9,
+          "sugars": 28
+        },
+        {
+          "name": "Oatmeal Raisin Cookie",
+          "calories": 350,
+          "protein": 5,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 230,
+          "cholesterol": 5,
+          "saturated_fat": 6,
+          "sugars": 28
+        }
+      ]
+    },
+    {
+      "name": "Specialty Submarines (beverages)",
+      "items": [
+        {
+          "name": "Pepsi (20oz Bottle)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 55,
+          "sugars": 69
+        },
+        {
+          "name": "Diet Pepsi (20oz Bottle)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Starry Lemon Lime (20oz Bottle)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 50,
+          "sugars": 64
+        },
+        {
+          "name": "Aquafina Water (20oz Bottle)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Specialty Submarines (salads)",
+      "items": [
+        {
+          "name": "Antipasto Salad",
+          "calories": 510,
+          "protein": 36,
+          "fat": 32,
+          "carbs": 0,
+          "fiber": 7,
+          "sodium": 3000,
+          "cholesterol": 120,
+          "saturated_fat": 11,
+          "sugars": 6
+        },
+        {
+          "name": "Buffalo Chicken Salad",
+          "calories": 400,
+          "protein": 39,
+          "fat": 18,
+          "carbs": 0,
+          "fiber": 5,
+          "sodium": 1920,
+          "cholesterol": 125,
+          "saturated_fat": 5,
+          "sugars": 3
+        },
+        {
+          "name": "Caesar Salad",
+          "calories": 160,
+          "protein": 15,
+          "fat": 8,
+          "carbs": 0,
+          "fiber": 5,
+          "sodium": 230,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        },
+        {
+          "name": "Chicken Bacon Ranch Salad",
+          "calories": 480,
+          "protein": 49,
+          "fat": 23,
+          "carbs": 0,
+          "fiber": 5,
+          "sodium": 1260,
+          "cholesterol": 145,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "Chicken Caesar Salad",
+          "calories": 440,
+          "protein": 54,
+          "fat": 19,
+          "carbs": 0,
+          "fiber": 5,
+          "sodium": 1330,
+          "cholesterol": 140,
+          "saturated_fat": 7,
+          "sugars": 3
+        },
+        {
+          "name": "Chicken Philly Salad",
+          "calories": 310,
+          "protein": 34,
+          "fat": 12,
+          "carbs": 0,
+          "fiber": 4,
+          "sodium": 960,
+          "cholesterol": 100,
+          "saturated_fat": 4.5,
+          "sugars": 3
+        },
+        {
+          "name": "Garden Salad",
+          "calories": 340,
+          "protein": 16,
+          "fat": 15,
+          "carbs": 0,
+          "fiber": 11,
+          "sodium": 610,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 7
+        },
+        {
+          "name": "Turkey Club Salad",
+          "calories": 470,
+          "protein": 40,
+          "fat": 25,
+          "carbs": 0,
+          "fiber": 6,
+          "sodium": 1920,
+          "cholesterol": 95,
+          "saturated_fat": 9,
+          "sugars": 6
+        }
+      ]
+    }
+  ]
+}

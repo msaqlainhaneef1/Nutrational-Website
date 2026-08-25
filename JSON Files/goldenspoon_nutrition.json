@@ -1,0 +1,362 @@
+{
+  "brand": {
+    "name": "Golden Spoon Frozen Yogurt",
+    "website": "https://goldenspoonyogurt.com/",
+    "country": "USA",
+    "last_updated": "2026-08-06"
+  },
+  "categories": [
+    "Nonfat Frozen Yogurt",
+    "Lowfat Frozen Yogurt",
+    "No Sugar Added (NSA) Frozen Yogurt",
+    "Sorbet (Dairy-Free)",
+    "Tart Frozen Yogurt",
+    "Toppings",
+    "Treats & Others"
+  ],
+  "products": [
+    {
+      "product_id": "GS-NF-VAN",
+      "name": "Old Fashioned Vanilla Frozen Yogurt",
+      "category": "Nonfat Frozen Yogurt",
+      "subcategory": "Classic",
+      "description": "Creamy vanilla frozen yogurt that brings back memories of classic ice cream.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "0.5 cup",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 3,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 115,
+        "potassium_mg": null,
+        "carbohydrates_g": 24,
+        "fiber_g": 0,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": 120,
+        "iron_mg": 0.7,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "ingredients": ["Grade-A California Milk", "Vanilla Extract", "Active Cultures"],
+      "customizations": [],
+      "image_url": "https://goldenspoonyogurt.com/wp-content/uploads/2021/09/OldFashionedVanilla250.png",
+      "product_url": "https://goldenspoonyogurt.com/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/golden-spoon-frozen-yogurt/menu/premium",
+          "source_type": "Official Nutrition Portal",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "GS-NF-PB",
+      "name": "Peanut Butter Frozen Yogurt",
+      "category": "Lowfat Frozen Yogurt",
+      "subcategory": "Nutty",
+      "description": "Mouthwatering spin on one of America's favorite foods.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "0.5 cup",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 4,
+        "fat_g": 3,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 135,
+        "potassium_mg": null,
+        "carbohydrates_g": 24,
+        "fiber_g": 1,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk", "Peanuts"],
+      "ingredients": ["Grade-A California Milk", "Peanuts", "Active Cultures"],
+      "customizations": [],
+      "image_url": "https://goldenspoonyogurt.com/wp-content/uploads/2021/09/PeanutButter250.png",
+      "product_url": "https://goldenspoonyogurt.com/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/golden-spoon-frozen-yogurt/menu/premium",
+          "source_type": "Official Nutrition Portal",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "GS-NF-CHOC",
+      "name": "Just Chocolate Frozen Yogurt",
+      "category": "Nonfat Frozen Yogurt",
+      "subcategory": "Classic",
+      "description": "A flavor that will make you think you are biting into a decadent chocolate truffle.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "0.5 cup",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 4,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 105,
+        "potassium_mg": null,
+        "carbohydrates_g": 24,
+        "fiber_g": 1,
+        "sugars_g": 16,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "ingredients": ["Grade-A California Milk", "Cocoa", "Active Cultures"],
+      "customizations": [],
+      "image_url": "https://goldenspoonyogurt.com/wp-content/uploads/2021/09/JustChocolate250.png",
+      "product_url": "https://goldenspoonyogurt.com/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/golden-spoon-frozen-yogurt/menu/premium",
+          "source_type": "Official Nutrition Portal",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "GS-NSA-VAN",
+      "name": "French Vanilla Frozen Yogurt (NSA)",
+      "category": "No Sugar Added (NSA) Frozen Yogurt",
+      "subcategory": "Classic",
+      "description": "Rich vanilla flavor with no added sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "0.5 cup",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 3,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 3,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "ingredients": ["Grade-A California Milk", "Natural Vanilla", "Active Cultures"],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://goldenspoonyogurt.com/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/golden-spoon-frozen-yogurt/menu/premium",
+          "source_type": "Official Nutrition Portal",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "GS-SOR-PINE",
+      "name": "Pineapple Sorbet",
+      "category": "Sorbet (Dairy-Free)",
+      "subcategory": "Fruit",
+      "description": "Refreshing dairy-free pineapple sorbet.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "0.5 cup",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 3,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 100,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 0,
+        "sugars_g": 19,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "ingredients": ["Water", "Pineapple Puree", "Sugar"],
+      "customizations": [],
+      "image_url": "https://goldenspoonmv.com/wp-content/uploads/2022/07/PineappleSorbet_02_250.png",
+      "product_url": "https://goldenspoonmv.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/golden-spoon-frozen-yogurt/menu/premium",
+          "source_type": "Official Nutrition Portal",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "GS-TOP-GUM",
+      "name": "Gummy Bears",
+      "category": "Toppings",
+      "subcategory": "Candy",
+      "description": "Sweet and chewy gummy bears.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "1 scoop",
+        "weight_g": 14
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 1,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "potassium_mg": null,
+        "carbohydrates_g": 11,
+        "fiber_g": 0,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "ingredients": ["Sugar", "Gelatin", "Corn Syrup"],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://goldenspoonscottsdale.com/menu",
+      "sources": [
+        {
+          "url": "https://goldenspoonscottsdale.com/menu",
+          "source_type": "Franchise Menu",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "GS-CD-EDIBLE",
+      "name": "Edible Cookie Dough",
+      "category": "Treats & Others",
+      "subcategory": "Dessert",
+      "description": "Safe-to-eat cookie dough with M&Ms and sprinkles.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "serving": {
+        "size": "1 oz",
+        "weight_g": 28
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 1,
+        "fat_g": 6,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "potassium_mg": null,
+        "carbohydrates_g": 18,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Wheat", "Soy", "Milk"],
+      "ingredients": ["Heat-treated Flour", "Sugar", "Butter", "M&Ms", "Sprinkles"],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://goldenspoonyogurt.com/",
+      "sources": [
+        {
+          "url": "https://postmates.com/store/golden-spoon/8cF-rw8VVzaNlnYdkr_dCg",
+          "source_type": "Delivery Menu",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

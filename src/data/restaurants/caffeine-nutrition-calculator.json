@@ -1,0 +1,107 @@
+{
+  "name": "Caffeine",
+  "slug": "caffeine-nutrition-calculator",
+  "tagline": "Track nutrition for Caffeine menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 6 menu items at Caffeine.",
+  "category": "Coffee & Drinks",
+  "emoji": "\u2615",
+  "itemCount": 6,
+  "categories": [
+    {
+      "name": "Hot Coffee",
+      "items": [
+        {
+          "name": "House Blend Drip Coffee",
+          "calories": 5,
+          "protein": 0.3,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Medium (16 fl oz)",
+          "sodium": 10
+        }
+      ]
+    },
+    {
+      "name": "Espresso Drinks",
+      "items": [
+        {
+          "name": "Caramel Macchiato",
+          "calories": 250,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 38,
+          "servingSize": "Medium (16 fl oz)",
+          "sodium": 150,
+          "cholesterol": 25,
+          "saturated_fat": 3.5,
+          "sugars": 35
+        }
+      ]
+    },
+    {
+      "name": "Iced & Cold Brew",
+      "items": [
+        {
+          "name": "Nitro Cold Brew",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Medium (16 fl oz)",
+          "sodium": 15
+        }
+      ]
+    },
+    {
+      "name": "Teas & Infusions",
+      "items": [
+        {
+          "name": "Iced Matcha Green Tea Latte",
+          "calories": 240,
+          "protein": 8,
+          "fat": 4.5,
+          "carbs": 42,
+          "servingSize": "Medium (16 fl oz)",
+          "fiber": 1,
+          "sodium": 110,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 38
+        }
+      ]
+    },
+    {
+      "name": "Bakery & Snacks",
+      "items": [
+        {
+          "name": "Fresh Blueberry Muffin",
+          "calories": 440,
+          "protein": 6,
+          "fat": 20,
+          "carbs": 60,
+          "servingSize": "1 muffin (130g)",
+          "fiber": 2,
+          "sodium": 380,
+          "cholesterol": 55,
+          "saturated_fat": 4.5,
+          "sugars": 34
+        }
+      ]
+    },
+    {
+      "name": "Energy & Specialty Drinks",
+      "items": [
+        {
+          "name": "Citrus Energy Blast",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "Medium (16 fl oz)",
+          "sodium": 60,
+          "sugars": 38
+        }
+      ]
+    }
+  ]
+}

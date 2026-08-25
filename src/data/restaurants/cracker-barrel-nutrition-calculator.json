@@ -1,0 +1,137 @@
+{
+  "name": "Cracker Barrel",
+  "slug": "cracker-barrel-nutrition-calculator",
+  "tagline": "Track nutrition for Cracker Barrel menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at Cracker Barrel.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Old Timer's Breakfast (with Bacon)",
+          "calories": 950,
+          "protein": 32,
+          "fat": 58,
+          "carbs": 72,
+          "servingSize": "1 meal",
+          "fiber": 3,
+          "sodium": 1820,
+          "cholesterol": 440,
+          "saturated_fat": 18,
+          "sugars": 12
+        },
+        {
+          "name": "Momma's Pancake Breakfast",
+          "calories": 1080,
+          "protein": 30,
+          "fat": 46,
+          "carbs": 138,
+          "servingSize": "1 meal",
+          "fiber": 4,
+          "sodium": 1690,
+          "cholesterol": 430,
+          "saturated_fat": 14,
+          "sugars": 54
+        }
+      ]
+    },
+    {
+      "name": "Country Dinners",
+      "items": [
+        {
+          "name": "Chicken n' Dumplins Country Dinner",
+          "calories": 650,
+          "protein": 38,
+          "fat": 24,
+          "carbs": 70,
+          "servingSize": "1 dinner entr\u00e9e",
+          "fiber": 3,
+          "sodium": 1480,
+          "cholesterol": 145,
+          "saturated_fat": 7,
+          "sugars": 5
+        },
+        {
+          "name": "Country Fried Steak Dinner",
+          "calories": 840,
+          "protein": 36,
+          "fat": 52,
+          "carbs": 54,
+          "servingSize": "1 dinner entr\u00e9e",
+          "fiber": 4,
+          "sodium": 1720,
+          "cholesterol": 120,
+          "saturated_fat": 16,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Sides & Country Vegetables",
+      "items": [
+        {
+          "name": "Fried Apples",
+          "calories": 170,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 38,
+          "servingSize": "1 side order (130g)",
+          "fiber": 2,
+          "sodium": 65,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 31
+        },
+        {
+          "name": "Hashbrown Casserole",
+          "calories": 190,
+          "protein": 5,
+          "fat": 12,
+          "carbs": 16,
+          "servingSize": "1 side order (140g)",
+          "fiber": 1,
+          "sodium": 480,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Double Chocolate Fudge Coca-Cola Cake",
+          "calories": 610,
+          "protein": 7,
+          "fat": 28,
+          "carbs": 88,
+          "servingSize": "1 slice with ice cream (180g)",
+          "fiber": 3,
+          "sodium": 380,
+          "cholesterol": 65,
+          "saturated_fat": 14,
+          "sugars": 68
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Country Freshly Brewed Sweet Tea",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "20 fl oz glass",
+          "sodium": 15,
+          "sugars": 54
+        }
+      ]
+    }
+  ]
+}

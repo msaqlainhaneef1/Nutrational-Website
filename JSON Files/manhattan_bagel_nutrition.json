@@ -1,0 +1,2525 @@
+{
+  "brand": {
+    "name": "Manhattan Bagel",
+    "website": "https://www.manhattanbagel.com",
+    "country": "USA",
+    "last_updated": "2026-08-04"
+  },
+  "categories": [
+    "Bagels",
+    "Spreads",
+    "Breakfast",
+    "Lunch",
+    "Beverages",
+    "Coffee",
+    "Sweets",
+    "Toppings",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "c66fa480-0966-437f-86e7-de0b738e87dc",
+      "name": "Plain",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Classic Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 11,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 610,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ca9b5f23-1c9e-4a3d-ae40-485e920cbb2b",
+      "name": "Honey Wheat",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Honey Wheat Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 11,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 500,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 3,
+        "sugars_g": 10,
+        "added_sugars_g": 8,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d063c909-f1f0-4a4f-8cd6-a76bf6ee344a",
+      "name": "Whole Wheat Bagel Thin",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Whole Wheat Bagel Thin",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Thin",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 7,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 6,
+        "added_sugars_g": 5,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "046d611b-22a9-4ca5-aeae-7678a1f7366d",
+      "name": "Blueberry",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Blueberry Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 11,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 500,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 3,
+        "sugars_g": 11,
+        "added_sugars_g": 8,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c8c7d4f9-1e29-45da-b7f0-41492bf07ec9",
+      "name": "Chocolate Chip",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Chocolate Chip Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 10,
+        "fat_g": 3,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 470,
+        "potassium_mg": null,
+        "carbohydrates_g": 58,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": 9,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8c522a8c-7891-42fb-b06f-a21fb7c4135d",
+      "name": "Cheddar",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Cheddar Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 12,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 590,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": 2,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "38fd1b18-bd7d-4ca7-ab6c-96d102f6e337",
+      "name": "Cinnamon Raisin",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Cinnamon Raisin Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 11,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 550,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 0,
+        "sugars_g": 9,
+        "added_sugars_g": 3,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f9a93567-e69d-4614-8a2b-b8aace985c65",
+      "name": "Egg",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Egg Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 11,
+        "fat_g": 1.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 780,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 2,
+        "sugars_g": 4,
+        "added_sugars_g": 2,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "360b50dc-4943-43f0-8a9a-4c898bafd0b4",
+      "name": "Everything",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Everything Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 12,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1040,
+        "potassium_mg": null,
+        "carbohydrates_g": 62,
+        "fiber_g": 3,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a32d0e67-8a1f-4781-8b93-093ff4df7f76",
+      "name": "Asiago",
+      "category": "Bagels",
+      "subcategory": "Gourmet",
+      "description": "Asiago Cheese Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 15,
+        "fat_g": 4,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 750,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "19cfc2e9-f2ba-450b-9a53-6415ce9d28f3",
+      "name": "Cheesy Hash Brown",
+      "category": "Bagels",
+      "subcategory": "Gourmet",
+      "description": "Cheesy Hash Brown Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 13,
+        "fat_g": 11,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 650,
+        "potassium_mg": null,
+        "carbohydrates_g": 59,
+        "fiber_g": 3,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0f88bcfa-9a23-43c1-9297-1ab26a9407ae",
+      "name": "Jalape\u00f1o Cheddar",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Jalape\u00f1o Cheddar Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 11,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 62,
+        "fiber_g": 3,
+        "sugars_g": 4,
+        "added_sugars_g": 2,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cc0466d9-69ea-4c80-bc00-f130737cc169",
+      "name": "Sesame Seed",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Sesame Seed Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 13,
+        "fat_g": 5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 610,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "59f3754d-ad18-4760-abdb-483be7a4fe60",
+      "name": "Multigrain",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Multigrain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 12,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 670,
+        "potassium_mg": null,
+        "carbohydrates_g": 68,
+        "fiber_g": 4,
+        "sugars_g": 12,
+        "added_sugars_g": 10,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9221ca50-f879-4e04-a9df-63a0067cbacc",
+      "name": "Poppy Seed",
+      "category": "Bagels",
+      "subcategory": "Classic",
+      "description": "Poppy Seed Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bagel",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 12,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 610,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 3,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ec42abdc-5f25-429c-b123-f25dbc23065a",
+      "name": "Plain Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Classic Plain Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 2,
+        "fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 120,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8d94cb27-4e41-46df-9db4-a2b605399605",
+      "name": "Garden Veggie Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Garden Veggie Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 2,
+        "fat_g": 9,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5c643d25-d947-4b4d-af3b-f3e1382b510a",
+      "name": "Honey Almond Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Honey Almond Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 2,
+        "fat_g": 9,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 80,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": 5,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Tree Nuts"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9a1dadc9-b573-4536-93e5-e414cfbd1a30",
+      "name": "Jalape\u00f1o Salsa Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Jalape\u00f1o Salsa Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 2,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "7a60590c-442b-481b-b165-27f3ef33965d",
+      "name": "Onion & Chive Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Onion & Chive Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 2,
+        "fat_g": 10,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 105,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "087d3e7f-0c2f-44fe-9235-eb173aeb52d2",
+      "name": "Strawberry Cream Cheese",
+      "category": "Spreads",
+      "subcategory": "Cream Cheese",
+      "description": "Strawberry Cream Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 1,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 90,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": 5,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e1f5e339-acd7-4639-96fa-235ef17b4782",
+      "name": "Whipped Butter",
+      "category": "Spreads",
+      "subcategory": "Butter",
+      "description": "Whipped Butter",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "0.5 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0,
+        "fat_g": 12,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8a043dc1-ff43-44b7-928e-a38e0500bcde",
+      "name": "Original Bagel Classic (Cheese)",
+      "category": "Breakfast",
+      "subcategory": "Bagel Classics",
+      "description": "Egg and Cheese on a Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "6.9 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 24,
+        "fat_g": 15,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 215,
+        "sodium_mg": 1280,
+        "potassium_mg": null,
+        "carbohydrates_g": 65,
+        "fiber_g": 4,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "31d84821-65e7-4c04-9b84-49faeb90cc83",
+      "name": "Original Bagel Classic (Bacon)",
+      "category": "Breakfast",
+      "subcategory": "Bagel Classics",
+      "description": "Bacon, Egg and Cheese on a Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "7.0 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 28,
+        "fat_g": 19,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 225,
+        "sodium_mg": 1470,
+        "potassium_mg": null,
+        "carbohydrates_g": 66,
+        "fiber_g": 4,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f266f270-0218-4c46-831a-3ab7ba04010c",
+      "name": "Original Bagel Classic (Ham)",
+      "category": "Breakfast",
+      "subcategory": "Bagel Classics",
+      "description": "Ham, Egg and Cheese on a Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8.4 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 31,
+        "fat_g": 17,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 235,
+        "sodium_mg": 1780,
+        "potassium_mg": null,
+        "carbohydrates_g": 66,
+        "fiber_g": 4,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a3b86747-f151-44e8-903b-a170faa4f845",
+      "name": "Original Bagel Classic (Pork Roll)",
+      "category": "Breakfast",
+      "subcategory": "Bagel Classics",
+      "description": "Pork Roll, Egg and Cheese on a Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "9.9 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 39,
+        "fat_g": 33,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 280,
+        "sodium_mg": 2080,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 4,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c51a105d-0546-4756-8a35-1c878e3b9a80",
+      "name": "Farmhouse",
+      "category": "Breakfast",
+      "subcategory": "Signature",
+      "description": "Bacon, Ham, Cheddar, Egg, Country Pepper Cream Cheese on an Everything Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "9.7 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 38,
+        "fat_g": 26,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 265,
+        "sodium_mg": 1930,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "6f85ab59-706c-466d-bb28-868424a2f86e",
+      "name": "All American Egg Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Signature",
+      "description": "Double Bacon, American Cheese, Egg on a Plain Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "10.4 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 35,
+        "fat_g": 48,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 425,
+        "sodium_mg": 2310,
+        "potassium_mg": null,
+        "carbohydrates_g": 69,
+        "fiber_g": 3,
+        "sugars_g": 6,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "7c66e923-6b3c-4c7d-b9c9-562e4fc599c2",
+      "name": "Avocado Egg White",
+      "category": "Breakfast",
+      "subcategory": "Signature",
+      "description": "Egg Whites, Avocado, Tomato, Spinach on a Honey Whole Wheat Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "10.8 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 24,
+        "fat_g": 15,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 1330,
+        "potassium_mg": null,
+        "carbohydrates_g": 72,
+        "fiber_g": 3,
+        "sugars_g": 5,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bc7bfb1c-2a39-49e8-81f6-d8ff91a31db0",
+      "name": "Big Breakfast Burrito",
+      "category": "Breakfast",
+      "subcategory": "Burritos",
+      "description": "Eggs, Bacon, Ham, Cheese, Potatoes in a Flour Tortilla",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "14.0 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1050,
+        "protein_g": 50,
+        "fat_g": 60,
+        "saturated_fat_g": 27,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 500,
+        "sodium_mg": 2320,
+        "potassium_mg": null,
+        "carbohydrates_g": 76,
+        "fiber_g": 4,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "567648ca-9b7d-4f8a-a14d-8e676d397e0e",
+      "name": "Santa Fe Egg White Wrap",
+      "category": "Breakfast",
+      "subcategory": "Wraps",
+      "description": "Egg Whites, Turkey Sausage, Pepper Jack, Salsa in a Whole Wheat Wrap",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8.8 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 25,
+        "fat_g": 23,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1270,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d68da04e-a469-437f-adc4-81b47183879d",
+      "name": "Manhattan Cheesesteak",
+      "category": "Lunch",
+      "subcategory": "Signature",
+      "description": "Steak, Peppers, Onions, American Cheese on a Roll",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "11.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 39,
+        "fat_g": 30,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 2050,
+        "potassium_mg": null,
+        "carbohydrates_g": 59,
+        "fiber_g": 5,
+        "sugars_g": 10,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bc7c0d62-6a95-44a0-aa4d-69f53da45f35",
+      "name": "Ellis Island Hot Pastrami",
+      "category": "Lunch",
+      "subcategory": "Signature",
+      "description": "Pastrami, Swiss, Mustard on a Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "9.4 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 36,
+        "fat_g": 15,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 2000,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 5,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c1590653-3409-4c60-aac1-dda0635cc73d",
+      "name": "Empire State Club",
+      "category": "Lunch",
+      "subcategory": "Signature",
+      "description": "Turkey, Bacon, Cheddar, Lettuce, Tomato, Mayo on a Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8.8 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 26,
+        "fat_g": 34,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 1230,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 3,
+        "sugars_g": 7,
+        "added_sugars_g": 3,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "6dbec70e-b69e-45d3-b2d9-426e85b84dab",
+      "name": "East Side Reuban",
+      "category": "Lunch",
+      "subcategory": "Signature",
+      "description": "Corned Beef, Swiss, Sauerkraut, Russian Dressing on Marble Rye",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "10.6 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 36,
+        "fat_g": 27,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 2250,
+        "potassium_mg": null,
+        "carbohydrates_g": 51,
+        "fiber_g": 2,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "30c2058d-a789-4922-bdf5-3df050feaeeb",
+      "name": "Nova Lox",
+      "category": "Lunch",
+      "subcategory": "Deli",
+      "description": "Nova Lox, Cream Cheese, Capers, Tomato, Onion on a Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "9.6 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 28,
+        "fat_g": 35,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 110,
+        "sodium_mg": 1610,
+        "potassium_mg": null,
+        "carbohydrates_g": 65,
+        "fiber_g": 3,
+        "sugars_g": 7,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Fish"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5dbe4a46-59f9-4247-a2b2-34ad23a9ed9f",
+      "name": "White Albacore Tuna",
+      "category": "Lunch",
+      "subcategory": "Deli",
+      "description": "Tuna Salad, Lettuce, Tomato on a Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "9.3 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580,
+        "protein_g": 28,
+        "fat_g": 25,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 900,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Fish"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5e24d887-cd53-454c-b6f8-b42393e2dbda",
+      "name": "Vanilla Cream Cold Brew (16 oz)",
+      "category": "Beverages",
+      "subcategory": "Cold Brew",
+      "description": "Cold Brew with Vanilla and Cream",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 2,
+        "fat_g": 7,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": 0,
+        "sugars_g": 25,
+        "added_sugars_g": 25,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 139
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b1df5428-d722-4495-8207-2e5308ff9074",
+      "name": "Classic Cold Brew Shake (16 oz)",
+      "category": "Beverages",
+      "subcategory": "Shakes",
+      "description": "Classic Cold Brew Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 7,
+        "fat_g": 7,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 210,
+        "potassium_mg": null,
+        "carbohydrates_g": 49,
+        "fiber_g": 0,
+        "sugars_g": 43,
+        "added_sugars_g": 35,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 209
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "29911386-e90b-4630-bfed-9ac5518a7894",
+      "name": "Lemonade (16 oz)",
+      "category": "Beverages",
+      "subcategory": "Poured",
+      "description": "Classic Lemonade",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 47,
+        "fiber_g": 0,
+        "sugars_g": 43,
+        "added_sugars_g": 43,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b0306c7b-8481-4afd-823b-7f65674c6c4c",
+      "name": "Orange Juice (16 oz)",
+      "category": "Beverages",
+      "subcategory": "Poured",
+      "description": "100% Orange Juice",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 4,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 54,
+        "fiber_g": 0,
+        "sugars_g": 48,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e1beede6-9652-4a0e-8111-42c30af53fe3",
+      "name": "Chocolate Chip Cookie",
+      "category": "Sweets",
+      "subcategory": "Cookies",
+      "description": "Heavenly Chocolate Chip Cookie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3.5 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 5,
+        "fat_g": 24,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 58,
+        "fiber_g": 2,
+        "sugars_g": 33,
+        "added_sugars_g": 33,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ab180546-d57e-4008-af71-bbc487706906",
+      "name": "Original Crumb Cake",
+      "category": "Sweets",
+      "subcategory": "Cakes",
+      "description": "Original Crumb Cake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "6.0 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 4,
+        "fat_g": 58,
+        "saturated_fat_g": 28,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 100,
+        "sodium_mg": 760,
+        "potassium_mg": null,
+        "carbohydrates_g": 79,
+        "fiber_g": 1,
+        "sugars_g": 57,
+        "added_sugars_g": 54,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0ca85bf0-8452-45d5-898a-0874caf2125a",
+      "name": "Blueberry Muffin",
+      "category": "Sweets",
+      "subcategory": "Muffins",
+      "description": "Blueberry Muffin",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "7.2 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 8,
+        "fat_g": 36,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 470,
+        "potassium_mg": null,
+        "carbohydrates_g": 95,
+        "fiber_g": 2,
+        "sugars_g": 51,
+        "added_sugars_g": 51,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "59963061-56e9-455f-be2c-3d545e8afef9",
+      "name": "Avocado",
+      "category": "Toppings",
+      "subcategory": "Add-ons",
+      "description": "Fresh Avocado",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "2.0 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1,
+        "fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 3,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9280d6e1-8b12-4f92-ab36-a02d0262aa62",
+      "name": "Bacon",
+      "category": "Toppings",
+      "subcategory": "Meat",
+      "description": "Crispy Bacon",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "0.5 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 5,
+        "fat_g": 5,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Pork"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "43b385fc-10ac-4a97-a7a5-7f748eaf1bd5",
+      "name": "Turkey Sausage",
+      "category": "Toppings",
+      "subcategory": "Meat",
+      "description": "Turkey Sausage Patty",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.5 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 7,
+        "fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "391ca638-af0b-488a-b02a-62568e4fa88e",
+      "name": "Manhattan Pastrami",
+      "category": "Lunch",
+      "subcategory": "Signature",
+      "description": "Pastrami, Swiss, Mustard on a Bagel",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.manhattanbagel.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.manhattanbagel.com/wp-content/uploads/2023/04/MCB-Nutrition-Guide-Master-2025-1.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "The Habit Burger Grill",
+  "slug": "the-habit-burger-grill-nutrition-calculator",
+  "tagline": "Track nutrition for The Habit Burger Grill menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at The Habit Burger Grill.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Charburgers",
+      "items": [
+        {
+          "name": "Original Charburger",
+          "calories": 610,
+          "protein": 27,
+          "fat": 36,
+          "carbs": 44,
+          "servingSize": "1 burger",
+          "fiber": 3,
+          "sodium": 1050,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Double Charburger with Cheese",
+          "calories": 870,
+          "protein": 45,
+          "fat": 55,
+          "carbs": 45,
+          "servingSize": "1 burger",
+          "fiber": 3,
+          "sodium": 1410,
+          "cholesterol": 135,
+          "saturated_fat": 20,
+          "sugars": 8
+        },
+        {
+          "name": "Portabella Charburger",
+          "calories": 740,
+          "protein": 34,
+          "fat": 46,
+          "carbs": 46,
+          "servingSize": "1 burger",
+          "fiber": 4,
+          "sodium": 1320,
+          "cholesterol": 95,
+          "saturated_fat": 15,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Crispy Chicken Sandwich",
+          "calories": 670,
+          "protein": 26,
+          "fat": 35,
+          "carbs": 64,
+          "servingSize": "1 sandwich",
+          "fiber": 3,
+          "sodium": 1280,
+          "cholesterol": 50,
+          "saturated_fat": 6,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Santa Barbara Cobb Salad (Grilled Chicken)",
+          "calories": 690,
+          "protein": 44,
+          "fat": 51,
+          "carbs": 16,
+          "servingSize": "1 salad bowl",
+          "fiber": 6,
+          "sodium": 1350,
+          "cholesterol": 240,
+          "saturated_fat": 14,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "French Fries (Regular)",
+          "calories": 390,
+          "protein": 4,
+          "fat": 19,
+          "carbs": 51,
+          "servingSize": "Regular order",
+          "fiber": 4,
+          "sodium": 460,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Onion Rings",
+          "calories": 480,
+          "protein": 5,
+          "fat": 26,
+          "carbs": 58,
+          "servingSize": "1 regular order",
+          "fiber": 4,
+          "sodium": 820,
+          "saturated_fat": 3.5,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Shakes & Desserts",
+      "items": [
+        {
+          "name": "Chocolate Malt",
+          "calories": 780,
+          "protein": 18,
+          "fat": 28,
+          "carbs": 115,
+          "servingSize": "Regular size (16 fl oz)",
+          "fiber": 2,
+          "sodium": 410,
+          "cholesterol": 90,
+          "saturated_fat": 17,
+          "sugars": 92
+        }
+      ]
+    }
+  ]
+}

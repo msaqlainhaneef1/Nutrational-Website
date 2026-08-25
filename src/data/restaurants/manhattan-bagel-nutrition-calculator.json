@@ -1,0 +1,617 @@
+{
+  "name": "Manhattan Bagel",
+  "slug": "manhattan-bagel-nutrition-calculator",
+  "tagline": "Track nutrition for Manhattan Bagel menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 48 menu items at Manhattan Bagel.",
+  "category": "Coffee & Drinks",
+  "emoji": "\ud83c\udf75",
+  "itemCount": 48,
+  "categories": [
+    {
+      "name": "Bagels",
+      "items": [
+        {
+          "name": "Plain",
+          "calories": 300,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 60,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 610,
+          "sugars": 3
+        },
+        {
+          "name": "Honey Wheat",
+          "calories": 300,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 63,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 500,
+          "sugars": 10
+        },
+        {
+          "name": "Whole Wheat Bagel Thin",
+          "calories": 190,
+          "protein": 7,
+          "fat": 0.5,
+          "carbs": 40,
+          "servingSize": "1 Thin",
+          "fiber": 2,
+          "sodium": 320,
+          "sugars": 6
+        },
+        {
+          "name": "Blueberry",
+          "calories": 310,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 67,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 500,
+          "sugars": 11
+        },
+        {
+          "name": "Chocolate Chip",
+          "calories": 290,
+          "protein": 10,
+          "fat": 3,
+          "carbs": 58,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 470,
+          "saturated_fat": 1.5,
+          "sugars": 10
+        },
+        {
+          "name": "Cheddar",
+          "calories": 300,
+          "protein": 12,
+          "fat": 1,
+          "carbs": 60,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 590,
+          "sugars": 3
+        },
+        {
+          "name": "Cinnamon Raisin",
+          "calories": 310,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 63,
+          "servingSize": "1 Bagel",
+          "sodium": 550,
+          "sugars": 9
+        },
+        {
+          "name": "Egg",
+          "calories": 310,
+          "protein": 11,
+          "fat": 1.5,
+          "carbs": 63,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 780,
+          "sugars": 4
+        },
+        {
+          "name": "Everything",
+          "calories": 330,
+          "protein": 12,
+          "fat": 2.5,
+          "carbs": 62,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 1040,
+          "sugars": 3
+        },
+        {
+          "name": "Asiago",
+          "calories": 340,
+          "protein": 15,
+          "fat": 4,
+          "carbs": 60,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 750,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Cheesy Hash Brown",
+          "calories": 390,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 59,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 650,
+          "cholesterol": 10,
+          "saturated_fat": 4.5,
+          "sugars": 5
+        },
+        {
+          "name": "Jalape\u00f1o Cheddar",
+          "calories": 310,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 62,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 600,
+          "sugars": 4
+        },
+        {
+          "name": "Sesame Seed",
+          "calories": 340,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 60,
+          "servingSize": "1 Bagel",
+          "fiber": 2,
+          "sodium": 610,
+          "sugars": 3
+        },
+        {
+          "name": "Multigrain",
+          "calories": 330,
+          "protein": 12,
+          "fat": 2.5,
+          "carbs": 68,
+          "servingSize": "1 Bagel",
+          "fiber": 4,
+          "sodium": 670,
+          "sugars": 12
+        },
+        {
+          "name": "Poppy Seed",
+          "calories": 310,
+          "protein": 12,
+          "fat": 2.5,
+          "carbs": 60,
+          "servingSize": "1 Bagel",
+          "fiber": 3,
+          "sodium": 610,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Spreads",
+      "items": [
+        {
+          "name": "Plain Cream Cheese",
+          "calories": 120,
+          "protein": 2,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "1.2 oz",
+          "sodium": 120,
+          "cholesterol": 40,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Garden Veggie Cream Cheese",
+          "calories": 100,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 5,
+          "servingSize": "1.2 oz",
+          "sodium": 190,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Honey Almond Cream Cheese",
+          "calories": 120,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 10,
+          "servingSize": "1.2 oz",
+          "sodium": 80,
+          "cholesterol": 25,
+          "saturated_fat": 4.5,
+          "sugars": 7
+        },
+        {
+          "name": "Jalape\u00f1o Salsa Cream Cheese",
+          "calories": 100,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 5,
+          "servingSize": "1.2 oz",
+          "fiber": 1,
+          "sodium": 190,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Onion & Chive Cream Cheese",
+          "calories": 110,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 4,
+          "servingSize": "1.2 oz",
+          "sodium": 105,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Strawberry Cream Cheese",
+          "calories": 120,
+          "protein": 1,
+          "fat": 9,
+          "carbs": 9,
+          "servingSize": "1.2 oz",
+          "sodium": 90,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 6
+        },
+        {
+          "name": "Whipped Butter",
+          "calories": 110,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 0,
+          "servingSize": "0.5 oz",
+          "sodium": 85,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Original Bagel Classic (Cheese)",
+          "calories": 490,
+          "protein": 24,
+          "fat": 15,
+          "carbs": 65,
+          "servingSize": "6.9 oz",
+          "fiber": 4,
+          "sodium": 1280,
+          "cholesterol": 215,
+          "saturated_fat": 7,
+          "sugars": 4
+        },
+        {
+          "name": "Original Bagel Classic (Bacon)",
+          "calories": 540,
+          "protein": 28,
+          "fat": 19,
+          "carbs": 66,
+          "servingSize": "7.0 oz",
+          "fiber": 4,
+          "sodium": 1470,
+          "cholesterol": 225,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Original Bagel Classic (Ham)",
+          "calories": 540,
+          "protein": 31,
+          "fat": 17,
+          "carbs": 66,
+          "servingSize": "8.4 oz",
+          "fiber": 4,
+          "sodium": 1780,
+          "cholesterol": 235,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Original Bagel Classic (Pork Roll)",
+          "calories": 720,
+          "protein": 39,
+          "fat": 33,
+          "carbs": 67,
+          "servingSize": "9.9 oz",
+          "fiber": 4,
+          "sodium": 2080,
+          "cholesterol": 280,
+          "saturated_fat": 14,
+          "sugars": 6
+        },
+        {
+          "name": "Farmhouse",
+          "calories": 660,
+          "protein": 38,
+          "fat": 26,
+          "carbs": 67,
+          "servingSize": "9.7 oz",
+          "fiber": 2,
+          "sodium": 1930,
+          "cholesterol": 265,
+          "saturated_fat": 12,
+          "sugars": 8
+        },
+        {
+          "name": "All American Egg Sandwich",
+          "calories": 840,
+          "protein": 35,
+          "fat": 48,
+          "carbs": 69,
+          "servingSize": "10.4 oz",
+          "fiber": 3,
+          "sodium": 2310,
+          "cholesterol": 425,
+          "saturated_fat": 14,
+          "sugars": 6
+        },
+        {
+          "name": "Avocado Egg White",
+          "calories": 520,
+          "protein": 24,
+          "fat": 15,
+          "carbs": 72,
+          "servingSize": "10.8 oz",
+          "fiber": 3,
+          "sodium": 1330,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 5
+        },
+        {
+          "name": "Big Breakfast Burrito",
+          "calories": 1050,
+          "protein": 50,
+          "fat": 60,
+          "carbs": 76,
+          "servingSize": "14.0 oz",
+          "fiber": 4,
+          "sodium": 2320,
+          "cholesterol": 500,
+          "saturated_fat": 27,
+          "sugars": 5
+        },
+        {
+          "name": "Santa Fe Egg White Wrap",
+          "calories": 540,
+          "protein": 25,
+          "fat": 23,
+          "carbs": 56,
+          "servingSize": "8.8 oz",
+          "fiber": 2,
+          "sodium": 1270,
+          "cholesterol": 70,
+          "saturated_fat": 10,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "items": [
+        {
+          "name": "Manhattan Cheesesteak",
+          "calories": 660,
+          "protein": 39,
+          "fat": 30,
+          "carbs": 59,
+          "servingSize": "11.2 oz",
+          "fiber": 5,
+          "sodium": 2050,
+          "cholesterol": 105,
+          "saturated_fat": 12,
+          "sugars": 10
+        },
+        {
+          "name": "Ellis Island Hot Pastrami",
+          "calories": 560,
+          "protein": 36,
+          "fat": 15,
+          "carbs": 67,
+          "servingSize": "9.4 oz",
+          "fiber": 5,
+          "sodium": 2000,
+          "cholesterol": 70,
+          "saturated_fat": 7,
+          "sugars": 3
+        },
+        {
+          "name": "Empire State Club",
+          "calories": 510,
+          "protein": 26,
+          "fat": 34,
+          "carbs": 40,
+          "servingSize": "8.8 oz",
+          "fiber": 3,
+          "sodium": 1230,
+          "cholesterol": 75,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "East Side Reuban",
+          "calories": 610,
+          "protein": 36,
+          "fat": 27,
+          "carbs": 51,
+          "servingSize": "10.6 oz",
+          "fiber": 2,
+          "sodium": 2250,
+          "cholesterol": 75,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Nova Lox",
+          "calories": 680,
+          "protein": 28,
+          "fat": 35,
+          "carbs": 65,
+          "servingSize": "9.6 oz",
+          "fiber": 3,
+          "sodium": 1610,
+          "cholesterol": 110,
+          "saturated_fat": 19,
+          "sugars": 7
+        },
+        {
+          "name": "White Albacore Tuna",
+          "calories": 580,
+          "protein": 28,
+          "fat": 25,
+          "carbs": 67,
+          "servingSize": "9.3 oz",
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 4
+        },
+        {
+          "name": "Manhattan Pastrami",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 sandwich"
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Vanilla Cream Cold Brew (16 oz)",
+          "calories": 200,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 31,
+          "servingSize": "16 fl oz",
+          "sodium": 40,
+          "cholesterol": 20,
+          "saturated_fat": 4,
+          "sugars": 25
+        },
+        {
+          "name": "Classic Cold Brew Shake (16 oz)",
+          "calories": 300,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 49,
+          "servingSize": "16 fl oz",
+          "sodium": 210,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 43
+        },
+        {
+          "name": "Lemonade (16 oz)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 47,
+          "servingSize": "16 fl oz",
+          "sodium": 10,
+          "sugars": 43
+        },
+        {
+          "name": "Orange Juice (16 oz)",
+          "calories": 230,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "16 fl oz",
+          "sugars": 48
+        }
+      ]
+    },
+    {
+      "name": "Sweets",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 460,
+          "protein": 5,
+          "fat": 24,
+          "carbs": 58,
+          "servingSize": "3.5 oz",
+          "fiber": 2,
+          "sodium": 290,
+          "cholesterol": 65,
+          "saturated_fat": 13,
+          "sugars": 33
+        },
+        {
+          "name": "Original Crumb Cake",
+          "calories": 840,
+          "protein": 4,
+          "fat": 58,
+          "carbs": 79,
+          "servingSize": "6.0 oz",
+          "fiber": 1,
+          "sodium": 760,
+          "cholesterol": 100,
+          "saturated_fat": 28,
+          "sugars": 57
+        },
+        {
+          "name": "Blueberry Muffin",
+          "calories": 740,
+          "protein": 8,
+          "fat": 36,
+          "carbs": 95,
+          "servingSize": "7.2 oz",
+          "fiber": 2,
+          "sodium": 470,
+          "cholesterol": 110,
+          "saturated_fat": 7,
+          "sugars": 51
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Avocado",
+          "calories": 100,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "2.0 oz",
+          "fiber": 3,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bacon",
+          "calories": 70,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 1,
+          "servingSize": "0.5 oz",
+          "sodium": 240,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Turkey Sausage",
+          "calories": 90,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 0,
+          "servingSize": "1.5 oz",
+          "sodium": 280,
+          "cholesterol": 40,
+          "saturated_fat": 2
+        }
+      ]
+    }
+  ]
+}

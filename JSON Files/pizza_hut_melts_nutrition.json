@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "Pizza Hut",
+    "website": "https://www.pizzahut.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Melts"
+  ],
+  "products": [
+    {
+      "product_id": "ph_pepperoni_lover_melt",
+      "name": "Pepperoni Lover's Melt",
+      "category": "Melts",
+      "subcategory": "Melts",
+      "description": "Folded thin crust loaded with pepperoni and melted mozzarella cheese, baked to crisp perfection and served with a side of marinara dipping sauce.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 slices / 238g)",
+        "weight_g": 238.0
+      },
+      "nutrition": {
+        "calories": 760,
+        "protein_g": 32.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 500.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Thin Crust Dough",
+        "Mozzarella Cheese",
+        "Pepperoni",
+        "Seasoning",
+        "Marinara Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pizzahut.com/images/pepperoni-lovers-melt.png",
+      "product_url": "https://www.pizzahut.com/index.php#/menu/melts/pepperoni-lovers-melt",
+      "sources": [
+        {
+          "url": "https://www.pizzahut.com/assets/h/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ph_buffalo_chicken_melt",
+      "name": "Buffalo Chicken Melt",
+      "category": "Melts",
+      "subcategory": "Melts",
+      "description": "Folded thin crust filled with grilled chicken, buffalo sauce, and melted cheese, served with ranch or blue cheese dipping sauce.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 slices / 232g)",
+        "weight_g": 232.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 36.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 90.0,
+        "sodium_mg": 2180.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Thin Crust Dough",
+        "Grilled Chicken",
+        "Buffalo Sauce",
+        "Mozzarella Cheese",
+        "Ranch Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pizzahut.com/images/buffalo-chicken-melt.png",
+      "product_url": "https://www.pizzahut.com/index.php#/menu/melts/buffalo-chicken-melt",
+      "sources": [
+        {
+          "url": "https://www.pizzahut.com/assets/h/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ph_chicken_bacon_parm_melt",
+      "name": "Chicken Bacon Parmesan Melt",
+      "category": "Melts",
+      "subcategory": "Melts",
+      "description": "Folded thin crust loaded with grilled chicken, bacon, creamy garlic parmesan sauce, and melted cheese.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 slices / 240g)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 38.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 17.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1950.0,
+        "potassium_mg": 430.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 420.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Thin Crust Dough",
+        "Grilled Chicken",
+        "Bacon",
+        "Garlic Parmesan Sauce",
+        "Mozzarella Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pizzahut.com/images/chicken-bacon-parm-melt.png",
+      "product_url": "https://www.pizzahut.com/index.php#/menu/melts/chicken-bacon-parm-melt",
+      "sources": [
+        {
+          "url": "https://www.pizzahut.com/assets/h/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ph_the_works_melt",
+      "name": "The Works Melt",
+      "category": "Melts",
+      "subcategory": "Melts",
+      "description": "Folded thin crust packed with pepperoni, Italian sausage, ham, bacon, green peppers, red onions, mushrooms, and melted mozzarella cheese.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 slices / 250g)",
+        "weight_g": 250.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 35.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 21.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 2040.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 55.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 460.0,
+        "iron_mg": 4.2,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Thin Crust Dough",
+        "Pepperoni",
+        "Italian Sausage",
+        "Ham",
+        "Bacon",
+        "Green Peppers",
+        "Red Onions",
+        "Mushrooms",
+        "Mozzarella Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pizzahut.com/images/the-works-melt.png",
+      "product_url": "https://www.pizzahut.com/index.php#/menu/melts/the-works-melt",
+      "sources": [
+        {
+          "url": "https://www.pizzahut.com/assets/h/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

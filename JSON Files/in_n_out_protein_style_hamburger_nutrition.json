@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "name": "In-N-Out Burger",
+    "website": "https://www.in-n-out.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Not So Secret Menu"
+  ],
+  "products": [
+    {
+      "product_id": "in_n_out_protein_style_hamburger",
+      "name": "Hamburger - Protein Style\u00ae",
+      "category": "Burgers",
+      "subcategory": "Secret Menu",
+      "description": "100% pure beef patty, hand-leafed lettuce, tomato, spread, and optional onions wrapped in fresh whole-leaf lettuce instead of a bun.",
+      "price": 3.15,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger (211 g)",
+        "weight_g": 211.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 13.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 370.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "100% Pure Beef Patty",
+        "Fresh Whole-Leaf Lettuce",
+        "Tomato Slice",
+        "Spread (Soybean Oil, Egg Yolks, Water, Distilled Vinegar, Sugar, Salt, Spice, Paprika)",
+        "Onion (Optional)"
+      ],
+      "customizations": [
+        "Add Cheese (Cheeseburger Protein Style)",
+        "Double Meat (Double-Double Protein Style)",
+        "Grilled Onions",
+        "Extra Spread",
+        "Mustard Fried"
+      ],
+      "image_url": "https://www.in-n-out.com/menu/nutrition-info",
+      "product_url": "https://www.in-n-out.com/menu/nutrition-info",
+      "sources": [
+        {
+          "url": "https://www.in-n-out.com/menu/nutrition-info",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.calorieking.com/us/en/foods/f/calories-in-sandwiches-burgers-protein-style-hamburger-with-onion-spread/yACvGCZ1TkiuqhbH2b2NHw",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

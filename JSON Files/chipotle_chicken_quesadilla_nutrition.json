@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Chipotle",
+    "website": "https://www.chipotle.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Quesadillas"
+  ],
+  "products": [
+    {
+      "product_id": "chipotle_chicken_quesadilla",
+      "name": "Chicken Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "Entrees",
+      "description": "Custom crafted quesadilla filled with freshly grilled adobo chicken and melted Monterey Jack cheese in a warm flour tortilla, served with three sides including rice, beans, or salsa, and sour cream or vinaigrette.",
+      "price": 10.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 quesadilla with standard sides",
+        "weight_g": 350.0
+      },
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 58.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 1850.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Flour Tortilla (Enriched Bleached Flour, Water, Whole Wheat Flour, Canola Oil, Salt, Yeast, Sugar)",
+        "Monterey Jack Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)",
+        "Chicken (Raised without antibiotics or added hormones, marinated in chipotle adobo, grilled)"
+      ],
+      "customizations": [
+        "Choice of Protein (Chicken, Steak, Barbacoa, Carnitas, Sofritas, Honey Chicken)",
+        "Choice of 3 included sides (Rice, Beans, Salsa, Guacamole, Sour Cream)",
+        "Side of Quesadilla Vinaigrette"
+      ],
+      "image_url": "https://www.chipotle.com/quesadilla",
+      "product_url": "https://www.chipotle.com/quesadilla",
+      "sources": [
+        {
+          "url": "https://www.chipotle.com/content/dam/chipotle/menu/nutrition/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chipotle/chicken-quesadilla",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

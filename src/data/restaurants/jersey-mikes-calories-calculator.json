@@ -5,7 +5,7 @@
   "description": "Estimate calories and nutrition for subs and wraps.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd6a",
-  "itemCount": 34,
+  "itemCount": 36,
   "categories": [
     {
       "name": "Cold Subs",
@@ -230,6 +230,32 @@
           "carbs": 69,
           "fiber": 0,
           "sodium": 920
+        },
+        {
+          "name": "The Big Kahuna Beef Cheese Steak (Regular)",
+          "calories": 860,
+          "protein": 54,
+          "fat": 36,
+          "carbs": 79,
+          "servingSize": "1 regular sub (410g)",
+          "fiber": 4,
+          "sodium": 2250,
+          "cholesterol": 150,
+          "saturated_fat": 16,
+          "sugars": 6
+        },
+        {
+          "name": "The Big Kahuna Chicken Cheese Steak (Regular)",
+          "calories": 810,
+          "protein": 52,
+          "fat": 32,
+          "carbs": 78,
+          "servingSize": "1 regular sub (395g)",
+          "fiber": 4,
+          "sodium": 2190,
+          "cholesterol": 140,
+          "saturated_fat": 14,
+          "sugars": 6
         }
       ]
     },

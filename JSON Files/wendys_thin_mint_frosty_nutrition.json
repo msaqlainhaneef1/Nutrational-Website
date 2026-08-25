@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Desserts & Treats"
+  ],
+  "products": [
+    {
+      "product_id": "wendys-thin-mint-chocolate-frosty-medium",
+      "name": "Thin Mint Chocolate Frosty (Medium)",
+      "category": "Desserts & Treats",
+      "subcategory": "Frosty",
+      "description": "Wendy's classic chocolate Frosty combined with minty cookie crumble sauce and crushed Girl Scout Thin Mints cookies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 13.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 340.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 80.0,
+        "fiber_g": 2.0,
+        "sugars_g": 65.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Cream",
+        "Cocoa",
+        "Mint Cookie Crumble Sauce",
+        "Girl Scout Thin Mints Cookies"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/blog/wendys-thin-mints-frosty-is-back",
+      "product_url": "https://www.wendys.com/blog/wendys-thin-mints-frosty-is-back",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/wendys/thin-mint-chocolate-frosty/medium",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.wendys.com/blog/wendys-thin-mints-frosty-is-back",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

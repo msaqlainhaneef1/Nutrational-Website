@@ -5,7 +5,7 @@
   "description": "Build your salad or bowl and view nutrition breakdown.",
   "category": "Breakfast & Healthy",
   "emoji": "\ud83e\udd57",
-  "itemCount": 52,
+  "itemCount": 57,
   "categories": [
     {
       "name": "Signature Salads",
@@ -424,6 +424,25 @@
           "fiber": 0,
           "sodium": 0,
           "sugars": 20
+        },
+        {
+          "name": "Organic Iced Green Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "16 fl oz cup",
+          "sodium": 10
+        },
+        {
+          "name": "Hibiscus Lime Ade",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "16 fl oz cup",
+          "sodium": 15,
+          "sugars": 26
         }
       ]
     },
@@ -605,6 +624,60 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        }
+      ]
+    },
+    {
+      "name": "Warm Bowls",
+      "items": [
+        {
+          "name": "Spicy-Tuna Bowl",
+          "calories": 510,
+          "protein": 29,
+          "fat": 22,
+          "carbs": 52,
+          "servingSize": "1 regular bowl",
+          "fiber": 5,
+          "sodium": 710,
+          "cholesterol": 45,
+          "saturated_fat": 3,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Crispy Chicken Salad",
+          "calories": 520,
+          "protein": 34,
+          "fat": 26,
+          "carbs": 40,
+          "servingSize": "1 regular salad",
+          "fiber": 6,
+          "sodium": 740,
+          "cholesterol": 75,
+          "saturated_fat": 3.5,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Protein Plates",
+      "items": [
+        {
+          "name": "Shrimp Protein Plate",
+          "calories": 540,
+          "protein": 38,
+          "fat": 24,
+          "carbs": 45,
+          "servingSize": "1 plate",
+          "fiber": 6,
+          "sodium": 890,
+          "cholesterol": 195,
+          "saturated_fat": 4,
+          "sugars": 6
         }
       ]
     }

@@ -3,9 +3,9 @@
   "slug": "zaxbys-nutrition-calculator",
   "tagline": "Check calories, protein, carbs and fat for Zaxby's chicken fingers, wings, salads and Zalads.",
   "description": "Check calories, protein, carbs and fat for Zaxby's chicken fingers, wings, salads and Zalads.",
-  "category": "Chicken",
+  "category": "Chicken & Wings",
   "emoji": "\ud83c\udf57",
-  "itemCount": 21,
+  "itemCount": 119,
   "categories": [
     {
       "name": "Zalads",
@@ -113,6 +113,201 @@
           "saturated_fat": 12,
           "sugars": 5,
           "trans_fat": 0
+        },
+        {
+          "name": "Cobb Zalad with Fried Chicken",
+          "calories": 870,
+          "protein": 51,
+          "fat": 52,
+          "carbs": 45,
+          "servingSize": "1 salad (520g)",
+          "fiber": 5,
+          "sodium": 1940,
+          "cholesterol": 285,
+          "saturated_fat": 18,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Zalad with Grilled Chicken",
+          "calories": 670,
+          "protein": 55,
+          "fat": 35,
+          "carbs": 37,
+          "servingSize": "1 salad (490g)",
+          "fiber": 5,
+          "sodium": 1650,
+          "cholesterol": 295,
+          "saturated_fat": 14,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Zalad with Blackened Chicken",
+          "calories": 680,
+          "protein": 56,
+          "fat": 35,
+          "carbs": 37,
+          "servingSize": "1 salad (492g)",
+          "fiber": 5,
+          "sodium": 1780,
+          "cholesterol": 295,
+          "saturated_fat": 14,
+          "sugars": 8
+        },
+        {
+          "name": "Cobb Zalad (House / No Chicken)",
+          "calories": 480,
+          "protein": 22,
+          "fat": 28,
+          "carbs": 35,
+          "servingSize": "1 salad (380g)",
+          "fiber": 4,
+          "sodium": 1120,
+          "cholesterol": 215,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "The Fried Asian Zensation Zalad",
+          "calories": 640,
+          "protein": 35,
+          "fat": 29,
+          "carbs": 62,
+          "fiber": 6,
+          "sodium": 2160,
+          "cholesterol": 55,
+          "saturated_fat": 4.5,
+          "sugars": 18
+        },
+        {
+          "name": "The Fried Blue Zalad",
+          "calories": 680,
+          "protein": 39,
+          "fat": 39,
+          "carbs": 43,
+          "fiber": 4,
+          "sodium": 2890,
+          "cholesterol": 80,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "The Fried Cobb Zalad",
+          "calories": 780,
+          "protein": 55,
+          "fat": 45,
+          "carbs": 43,
+          "fiber": 4,
+          "sodium": 2130,
+          "cholesterol": 315,
+          "saturated_fat": 16,
+          "sugars": 5
+        },
+        {
+          "name": "The Fried House Zalad",
+          "calories": 660,
+          "protein": 44,
+          "fat": 37,
+          "carbs": 42,
+          "fiber": 4,
+          "sodium": 1920,
+          "cholesterol": 90,
+          "saturated_fat": 13,
+          "sugars": 4
+        },
+        {
+          "name": "The Garden Asian Zensation Zalad",
+          "calories": 390,
+          "protein": 8,
+          "fat": 17,
+          "carbs": 53,
+          "fiber": 6,
+          "sodium": 940,
+          "saturated_fat": 3,
+          "sugars": 18
+        },
+        {
+          "name": "The Garden Blue Zalad",
+          "calories": 370,
+          "protein": 12,
+          "fat": 22,
+          "carbs": 32,
+          "fiber": 4,
+          "sodium": 860,
+          "cholesterol": 20,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "The Garden Cobb Zalad",
+          "calories": 530,
+          "protein": 27,
+          "fat": 34,
+          "carbs": 34,
+          "fiber": 4,
+          "sodium": 910,
+          "cholesterol": 260,
+          "saturated_fat": 14,
+          "sugars": 5
+        },
+        {
+          "name": "The Garden House Zalad",
+          "calories": 410,
+          "protein": 17,
+          "fat": 25,
+          "carbs": 33,
+          "fiber": 4,
+          "sodium": 700,
+          "cholesterol": 35,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "The Grilled Asian Zensation Zalad",
+          "calories": 530,
+          "protein": 39,
+          "fat": 19,
+          "carbs": 54,
+          "fiber": 7,
+          "sodium": 1850,
+          "cholesterol": 95,
+          "saturated_fat": 3.5,
+          "sugars": 18
+        },
+        {
+          "name": "The Grilled Blue Zalad",
+          "calories": 510,
+          "protein": 43,
+          "fat": 24,
+          "carbs": 34,
+          "fiber": 4,
+          "sodium": 1760,
+          "cholesterol": 115,
+          "saturated_fat": 10,
+          "sugars": 5
+        },
+        {
+          "name": "The Grilled Cobb Zalad",
+          "calories": 680,
+          "protein": 58,
+          "fat": 35,
+          "carbs": 35,
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 355,
+          "saturated_fat": 14,
+          "sugars": 5
+        },
+        {
+          "name": "The Grilled House Zalad",
+          "calories": 560,
+          "protein": 48,
+          "fat": 27,
+          "carbs": 34,
+          "fiber": 5,
+          "sodium": 1600,
+          "cholesterol": 130,
+          "saturated_fat": 12,
+          "sugars": 5
         }
       ]
     },
@@ -183,6 +378,26 @@
           "saturated_fat": 5,
           "sugars": 8,
           "trans_fat": 0
+        },
+        {
+          "name": "Add Bacon (2 Slices)",
+          "calories": 60,
+          "protein": 6,
+          "fat": 4.5,
+          "carbs": 0,
+          "sodium": 290,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Add Cheese (1 Slice)",
+          "calories": 50,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 1,
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
         }
       ]
     },
@@ -240,6 +455,73 @@
           "saturated_fat": 1,
           "sugars": 2,
           "trans_fat": 0
+        },
+        {
+          "name": "Asian Slaw, side",
+          "calories": 100,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 10,
+          "sodium": 140,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Chicken Bacon Ranch Loaded Fries",
+          "calories": 1270,
+          "protein": 61,
+          "fat": 78,
+          "carbs": 88,
+          "fiber": 8,
+          "sodium": 3070,
+          "cholesterol": 145,
+          "saturated_fat": 22,
+          "sugars": 2
+        },
+        {
+          "name": "Cole Slaw, side",
+          "calories": 140,
+          "protein": 1,
+          "fat": 10,
+          "carbs": 13,
+          "fiber": 2,
+          "sodium": 170,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 11
+        },
+        {
+          "name": "Crinkle Fries, Large",
+          "calories": 530,
+          "protein": 8,
+          "fat": 23,
+          "carbs": 75,
+          "fiber": 7,
+          "sodium": 930,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Texas Toast, Basket",
+          "calories": 450,
+          "protein": 9,
+          "fat": 21,
+          "carbs": 57,
+          "fiber": 3,
+          "sodium": 1020,
+          "saturated_fat": 3.5,
+          "sugars": 5
+        },
+        {
+          "name": "Veggie Eggroll, 1 Eggroll",
+          "calories": 140,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 19,
+          "fiber": 1,
+          "sodium": 350,
+          "saturated_fat": 1,
+          "sugars": 2
         }
       ]
     },
@@ -297,6 +579,855 @@
           "saturated_fat": 0,
           "sugars": 11,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Chicken Fingerz & Wings",
+      "items": [
+        {
+          "name": "5 Piece Chicken Fingerz",
+          "calories": 610,
+          "protein": 46,
+          "fat": 39,
+          "carbs": 19,
+          "servingSize": "5 pieces",
+          "fiber": 1,
+          "sodium": 1890,
+          "cholesterol": 130,
+          "saturated_fat": 5.5,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Meals",
+      "items": [
+        {
+          "name": "Big Zax Snak Meal",
+          "calories": 890,
+          "protein": 36,
+          "fat": 48,
+          "carbs": 80,
+          "fiber": 6,
+          "sodium": 2650,
+          "cholesterol": 70,
+          "saturated_fat": 7,
+          "sugars": 5
+        },
+        {
+          "name": "Boneless Wings & Things",
+          "calories": 1450,
+          "protein": 62,
+          "fat": 87,
+          "carbs": 106,
+          "fiber": 8,
+          "sodium": 4620,
+          "cholesterol": 125,
+          "saturated_fat": 13,
+          "sugars": 7
+        },
+        {
+          "name": "Boneless Wings Meal (5)",
+          "calories": 1040,
+          "protein": 34,
+          "fat": 60,
+          "carbs": 92,
+          "fiber": 7,
+          "sodium": 2890,
+          "cholesterol": 60,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Buffalo Big Zax Snak Meal",
+          "calories": 900,
+          "protein": 36,
+          "fat": 50,
+          "carbs": 79,
+          "fiber": 6,
+          "sodium": 2980,
+          "cholesterol": 70,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "Buffalo Boneless Wings & Things",
+          "calories": 1460,
+          "protein": 63,
+          "fat": 88,
+          "carbs": 105,
+          "fiber": 8,
+          "sodium": 4950,
+          "cholesterol": 125,
+          "saturated_fat": 14,
+          "sugars": 6
+        },
+        {
+          "name": "Buffalo Chicken Finger Plate (4)",
+          "calories": 1130,
+          "protein": 46,
+          "fat": 62,
+          "carbs": 98,
+          "fiber": 8,
+          "sodium": 3750,
+          "cholesterol": 95,
+          "saturated_fat": 10,
+          "sugars": 15
+        },
+        {
+          "name": "Buffalo Chicken Finger Plate (5)",
+          "calories": 1220,
+          "protein": 55,
+          "fat": 66,
+          "carbs": 102,
+          "fiber": 8,
+          "sodium": 4340,
+          "cholesterol": 110,
+          "saturated_fat": 10,
+          "sugars": 15
+        },
+        {
+          "name": "Buffalo Chicken Finger Plate (6)",
+          "calories": 1460,
+          "protein": 65,
+          "fat": 86,
+          "carbs": 108,
+          "fiber": 8,
+          "sodium": 5220,
+          "cholesterol": 140,
+          "saturated_fat": 13,
+          "sugars": 16
+        },
+        {
+          "name": "Buffalo Traditional Wings & Things",
+          "calories": 1450,
+          "protein": 79,
+          "fat": 89,
+          "carbs": 83,
+          "fiber": 6,
+          "sodium": 4850,
+          "cholesterol": 265,
+          "saturated_fat": 16,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Finger Plate (4)",
+          "calories": 1110,
+          "protein": 45,
+          "fat": 60,
+          "carbs": 98,
+          "fiber": 8,
+          "sodium": 3230,
+          "cholesterol": 95,
+          "saturated_fat": 9,
+          "sugars": 16
+        },
+        {
+          "name": "Chicken Finger Plate (5)",
+          "calories": 1190,
+          "protein": 54,
+          "fat": 64,
+          "carbs": 101,
+          "fiber": 8,
+          "sodium": 3640,
+          "cholesterol": 110,
+          "saturated_fat": 10,
+          "sugars": 16
+        },
+        {
+          "name": "Chicken Finger Plate (6)",
+          "calories": 1430,
+          "protein": 64,
+          "fat": 83,
+          "carbs": 109,
+          "fiber": 8,
+          "sodium": 4560,
+          "cholesterol": 140,
+          "saturated_fat": 13,
+          "sugars": 19
+        },
+        {
+          "name": "Traditional Wings & Things",
+          "calories": 1440,
+          "protein": 79,
+          "fat": 88,
+          "carbs": 84,
+          "fiber": 6,
+          "sodium": 4520,
+          "cholesterol": 265,
+          "saturated_fat": 16,
+          "sugars": 7
+        },
+        {
+          "name": "Traditional Wings Meal (5)",
+          "calories": 1030,
+          "protein": 51,
+          "fat": 61,
+          "carbs": 70,
+          "fiber": 6,
+          "sodium": 2780,
+          "cholesterol": 195,
+          "saturated_fat": 12,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Wings & Fingers",
+      "items": [
+        {
+          "name": "Boneless Wings (No Sauce), 1 Each",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 4,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Boneless Wings (No Sauce), 5 Each",
+          "calories": 390,
+          "protein": 26,
+          "fat": 22,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 1090,
+          "cholesterol": 45,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Boneless Wings, BBQ, 1 Each",
+          "calories": 90,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 7,
+          "sodium": 300,
+          "cholesterol": 10,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Boneless Wings, BBQ, 5 Each",
+          "calories": 450,
+          "protein": 26,
+          "fat": 22,
+          "carbs": 36,
+          "fiber": 2,
+          "sodium": 1500,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 11
+        },
+        {
+          "name": "Boneless Wings, Buffalo Garlic Blaze, 1 Each",
+          "calories": 90,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 5,
+          "sodium": 400,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Boneless Wings, Buffalo Garlic Blaze, 5 Each",
+          "calories": 450,
+          "protein": 26,
+          "fat": 29,
+          "carbs": 23,
+          "fiber": 2,
+          "sodium": 1990,
+          "cholesterol": 50,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Boneless Wings, HHM, 1 Each",
+          "calories": 100,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 6,
+          "sodium": 280,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Boneless Wings, HHM, 5 Each",
+          "calories": 480,
+          "protein": 26,
+          "fat": 30,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 1390,
+          "cholesterol": 55,
+          "saturated_fat": 4.5,
+          "sugars": 4
+        },
+        {
+          "name": "Boneless Wings, Nuclear, 1 Each",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 5,
+          "sodium": 320,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Boneless Wings, Nuclear, 5 Each",
+          "calories": 400,
+          "protein": 26,
+          "fat": 23,
+          "carbs": 24,
+          "fiber": 2,
+          "sodium": 1600,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Boneless Wings, Sweet & Spicy, 1 Each",
+          "calories": 90,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 7,
+          "sodium": 260,
+          "cholesterol": 10,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Boneless Wings, Sweet & Spicy, 5 Each",
+          "calories": 450,
+          "protein": 26,
+          "fat": 23,
+          "carbs": 35,
+          "fiber": 1,
+          "sodium": 1310,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 11
+        },
+        {
+          "name": "Boneless Wings, Teriyaki, 1 Each",
+          "calories": 90,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 6,
+          "sodium": 280,
+          "cholesterol": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Boneless Wings, Teriyaki, 5 Each",
+          "calories": 430,
+          "protein": 26,
+          "fat": 23,
+          "carbs": 31,
+          "fiber": 1,
+          "sodium": 1420,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 8
+        },
+        {
+          "name": "Boneless Wings, Tongue Torch, 1 Each",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 5,
+          "sodium": 340,
+          "cholesterol": 10,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Boneless Wings, Tongue Torch, 5 Each",
+          "calories": 400,
+          "protein": 26,
+          "fat": 23,
+          "carbs": 24,
+          "fiber": 2,
+          "sodium": 1680,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Boneless Wings, Wimpy, 1 Each",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.5,
+          "carbs": 5,
+          "sodium": 320,
+          "cholesterol": 10,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        },
+        {
+          "name": "Boneless Wings, Wimpy, 5 Each",
+          "calories": 410,
+          "protein": 26,
+          "fat": 22,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 1590,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Treats",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 170,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 125,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 15
+        },
+        {
+          "name": "Fried Cheesecake Bites (No Sauce)",
+          "calories": 520,
+          "protein": 7,
+          "fat": 31,
+          "carbs": 53,
+          "fiber": 2,
+          "sodium": 700,
+          "cholesterol": 55,
+          "saturated_fat": 15,
+          "sugars": 16
+        },
+        {
+          "name": "Handcrafted Birthday Cake Milkshake",
+          "calories": 730,
+          "protein": 13,
+          "fat": 19,
+          "carbs": 129,
+          "sodium": 600,
+          "cholesterol": 60,
+          "saturated_fat": 13,
+          "sugars": 113
+        },
+        {
+          "name": "Handcrafted Chocolate Milkshake",
+          "calories": 670,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 119,
+          "sodium": 670,
+          "cholesterol": 60,
+          "saturated_fat": 12,
+          "sugars": 111
+        },
+        {
+          "name": "Handcrafted Strawberry Milkshake",
+          "calories": 680,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 121,
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 60,
+          "saturated_fat": 11,
+          "sugars": 110
+        },
+        {
+          "name": "Handcrafted Vanilla Milkshake",
+          "calories": 570,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 94,
+          "sodium": 600,
+          "cholesterol": 60,
+          "saturated_fat": 11,
+          "sugars": 93
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Buffalo Garlic Blaze, 2 oz",
+          "calories": 120,
+          "protein": 1,
+          "fat": 12,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 1730,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Honey Mustard Dip Cup",
+          "calories": 130,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 7,
+          "sodium": 210,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Hot Honey Mustard, 2 oz",
+          "calories": 200,
+          "protein": 1,
+          "fat": 16,
+          "carbs": 13,
+          "sodium": 640,
+          "cholesterol": 20,
+          "saturated_fat": 2.5,
+          "sugars": 8
+        },
+        {
+          "name": "Nuclear, 2 oz",
+          "calories": 30,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 1290,
+          "sugars": 2
+        },
+        {
+          "name": "Sweet & Spicy Dip Cup",
+          "calories": 90,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 19,
+          "sodium": 330,
+          "sugars": 16
+        },
+        {
+          "name": "Teriyaki, 2 oz",
+          "calories": 110,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 25,
+          "sodium": 850,
+          "sugars": 21
+        },
+        {
+          "name": "Tongue Torch Dip Cup",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 950,
+          "sugars": 2
+        },
+        {
+          "name": "Wimpy, 2 oz",
+          "calories": 50,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 10,
+          "fiber": 1,
+          "sodium": 1180,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Chicken Fingerz with Zax Sauce",
+          "calories": 320,
+          "protein": 19,
+          "fat": 23,
+          "carbs": 11,
+          "sodium": 1330,
+          "cholesterol": 50,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        },
+        {
+          "name": "Goldfish Giant Grahams, Vanilla",
+          "calories": 120,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 19,
+          "fiber": 1,
+          "sodium": 105,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Grilled Cheese Sandwich Only",
+          "calories": 410,
+          "protein": 11,
+          "fat": 23,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 1060,
+          "cholesterol": 30,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "Kid's Crinkle Fries",
+          "calories": 200,
+          "protein": 3,
+          "fat": 8,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 350,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Rice Krispie Treat",
+          "calories": 45,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 8,
+          "sodium": 50,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Apple Juice",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 21,
+          "sodium": 15,
+          "sugars": 19
+        },
+        {
+          "name": "Frozen Lemonade",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "sodium": 55,
+          "sugars": 76
+        },
+        {
+          "name": "Frozen Strawberry Lemonade",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 103,
+          "sodium": 55,
+          "sugars": 97
+        },
+        {
+          "name": "Handcrafted Lemonade",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 91,
+          "sodium": 65,
+          "sugars": 86
+        },
+        {
+          "name": "Handcrafted Strawberry Lemonade",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 102,
+          "sodium": 65,
+          "sugars": 96
+        },
+        {
+          "name": "Sweet Tea, Small",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sugars": 66
+        },
+        {
+          "name": "Sweet Tea, Medium",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 103,
+          "sugars": 100
+        },
+        {
+          "name": "Sweet Tea, Large",
+          "calories": 550,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 137,
+          "sugars": 133
+        },
+        {
+          "name": "Unsweet Tea, Small",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Unsweet Tea, Medium",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Unsweet Tea, Large",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Platters",
+      "items": [
+        {
+          "name": "Chicken Fingerz Platter (40-60)",
+          "calories": 4920,
+          "protein": 360,
+          "fat": 240,
+          "carbs": 320,
+          "fiber": 8,
+          "sodium": 16240,
+          "cholesterol": 800,
+          "saturated_fat": 40
+        },
+        {
+          "name": "Traditional Wings Platter (40-60)",
+          "calories": 4150,
+          "protein": 340,
+          "fat": 240,
+          "carbs": 0,
+          "sodium": 8000,
+          "cholesterol": 1400,
+          "saturated_fat": 60
+        },
+        {
+          "name": "Boneless Wings Platter (40-60)",
+          "calories": 4940,
+          "protein": 260,
+          "fat": 280,
+          "carbs": 280,
+          "fiber": 12,
+          "sodium": 12000,
+          "cholesterol": 450,
+          "saturated_fat": 45
+        },
+        {
+          "name": "Nibblerz Platter (20 count)",
+          "calories": 6500,
+          "protein": 250,
+          "fat": 380,
+          "carbs": 510,
+          "fiber": 27,
+          "sodium": 18000,
+          "cholesterol": 470,
+          "saturated_fat": 75,
+          "sugars": 107
+        }
+      ]
+    },
+    {
+      "name": "Boxed Lunches",
+      "items": [
+        {
+          "name": "Zaxby's Signature Sandwich Boxed Lunch",
+          "calories": 1440,
+          "protein": 31,
+          "fat": 53,
+          "carbs": 52,
+          "fiber": 3,
+          "sodium": 3100,
+          "cholesterol": 90,
+          "saturated_fat": 9,
+          "sugars": 13
+        },
+        {
+          "name": "Grilled Chicken Sandwich Boxed Lunch",
+          "calories": 970,
+          "protein": 38,
+          "fat": 29,
+          "carbs": 36,
+          "fiber": 3,
+          "sodium": 1610,
+          "cholesterol": 105,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Chicken Fingerz Boxed Lunch",
+          "calories": 830,
+          "protein": 36,
+          "fat": 54,
+          "carbs": 66,
+          "fiber": 2,
+          "sodium": 2200,
+          "cholesterol": 90,
+          "saturated_fat": 9,
+          "sugars": 2
+        },
+        {
+          "name": "Nibbler Boxed Lunch",
+          "calories": 1130,
+          "protein": 110,
+          "fat": 69,
+          "carbs": 131,
+          "fiber": 16,
+          "sodium": 2600,
+          "cholesterol": 110,
+          "saturated_fat": 11,
+          "sugars": 16
+        },
+        {
+          "name": "Asian Zensation Zalad Boxed Lunch",
+          "calories": 630,
+          "protein": 49,
+          "fat": 39,
+          "carbs": 77,
+          "fiber": 7,
+          "sodium": 2509,
+          "cholesterol": 105,
+          "saturated_fat": 7,
+          "sugars": 18
+        },
+        {
+          "name": "House Zalad Boxed Lunch",
+          "calories": 570,
+          "protein": 44,
+          "fat": 37,
+          "carbs": 42,
+          "fiber": 4,
+          "sodium": 1920,
+          "cholesterol": 200,
+          "saturated_fat": 13,
+          "sugars": 4
+        },
+        {
+          "name": "Cobb Zalad Boxed Lunch",
+          "calories": 690,
+          "protein": 58,
+          "fat": 35,
+          "carbs": 43,
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 315,
+          "saturated_fat": 14,
+          "sugars": 5
         }
       ]
     }

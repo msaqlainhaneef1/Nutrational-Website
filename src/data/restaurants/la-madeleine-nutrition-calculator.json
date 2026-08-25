@@ -5,7 +5,7 @@
   "description": "Calculate la Madeleine calories, protein, carbs and fat. Free la Madeleine nutrition calculator with complete menu data for all items.",
   "category": "Sit-Down Dining",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 244,
+  "itemCount": 251,
   "categories": [
     {
       "name": "Breakfast & Brunch",
@@ -2362,6 +2362,13 @@
           "cholesterol": 175,
           "saturated_fat": 31,
           "sugars": 9
+        },
+        {
+          "name": "Tarte Au Citron (Mini)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ]
     },
@@ -2835,6 +2842,69 @@
           "fiber": 6,
           "sodium": 290,
           "sugars": 215
+        }
+      ]
+    },
+    {
+      "name": "Entrees & Pastas",
+      "items": [
+        {
+          "name": "Chicken Cordon Bleu Baked Pasta",
+          "calories": 1110,
+          "protein": 62,
+          "fat": 47,
+          "carbs": 0,
+          "sodium": 2600,
+          "cholesterol": 245
+        },
+        {
+          "name": "Four-Cheese Baked Pasta",
+          "calories": 940,
+          "protein": 39,
+          "fat": 54,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Espresso - Customizations - NEW",
+      "items": [
+        {
+          "name": "Brown Butter Toffee Syrup",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "French Madeleine Syrup",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pistachio Syrup",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        }
+      ]
+    },
+    {
+      "name": "Cr\u00eapes",
+      "items": [
+        {
+          "name": "Egg Cr\u00eape Champignon",
+          "calories": 860,
+          "protein": 45,
+          "fat": 60,
+          "carbs": 0,
+          "sodium": 740,
+          "cholesterol": 850
         }
       ]
     }

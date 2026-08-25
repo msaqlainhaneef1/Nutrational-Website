@@ -1,0 +1,129 @@
+{
+  "name": "Little Caesars",
+  "slug": "little-caesars-nutrition-calculator",
+  "tagline": "Track nutrition for Little Caesars menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at Little Caesars.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "name": "Classic Pepperoni Pizza (Large)",
+          "calories": 280,
+          "protein": 11,
+          "fat": 12,
+          "carbs": 31,
+          "servingSize": "1 slice (1/8 of pizza)",
+          "fiber": 2,
+          "sodium": 570,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 3
+        },
+        {
+          "name": "Classic Cheese Pizza (Large)",
+          "calories": 250,
+          "protein": 10,
+          "fat": 9,
+          "carbs": 31,
+          "servingSize": "1 slice (1/8 of pizza)",
+          "fiber": 2,
+          "sodium": 510,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 3
+        },
+        {
+          "name": "Extra Most Bestest Pepperoni Pizza",
+          "calories": 330,
+          "protein": 14,
+          "fat": 16,
+          "carbs": 32,
+          "servingSize": "1 slice (1/8 of pizza)",
+          "fiber": 2,
+          "sodium": 710,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Crazy Bread & Sides",
+      "items": [
+        {
+          "name": "Crazy Bread (Order of 8)",
+          "calories": 80,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 11,
+          "servingSize": "1 bread stick",
+          "fiber": 1,
+          "sodium": 130,
+          "saturated_fat": 1,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Wings",
+      "items": [
+        {
+          "name": "Caesar Wings (Oven Roasted - 8 pc)",
+          "calories": 560,
+          "protein": 52,
+          "fat": 38,
+          "carbs": 1,
+          "servingSize": "8 pieces",
+          "sodium": 1420,
+          "cholesterol": 220,
+          "saturated_fat": 11
+        }
+      ]
+    },
+    {
+      "name": "Dipping Sauces",
+      "items": [
+        {
+          "name": "Crazy Sauce",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 7,
+          "servingSize": "1 cup (57g)",
+          "fiber": 1,
+          "sodium": 310,
+          "sugars": 4
+        },
+        {
+          "name": "Butter Garlic Flavored Sauce",
+          "calories": 180,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "1 container (28g)",
+          "sodium": 230,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Pepsi (20 fl oz)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 69,
+          "servingSize": "20 fl oz bottle",
+          "sodium": 60,
+          "sugars": 69
+        }
+      ]
+    }
+  ]
+}

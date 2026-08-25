@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Snacks & Wraps",
+    "Chicken"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_chicken_roasted_pepper_wrap",
+      "name": "Chicken & Roasted Pepper Wrap",
+      "category": "Snacks & Wraps",
+      "subcategory": "Wraps",
+      "description": "Savory chicken, roasted peppers, and melted cheese folded in a warm tortilla.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (120g)",
+        "weight_g": 120.0
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 15.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 780.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Diced Chicken",
+        "Roasted Red Peppers",
+        "Cheddar Cheese Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/chicken-roasted-pepper-wrap.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/wraps/chicken-roasted-pepper-wrap",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "brand": {
+    "name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Entrees",
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "chick_fil_a_spicy_chicken_sandwich",
+      "name": "Spicy Chicken Sandwich",
+      "category": "Entrees",
+      "subcategory": "Sandwiches",
+      "description": "A boneless breast of chicken seasoned with a spicy blend of peppers, hand-breaded, pressured cooked in 100% refined peanut oil and served on a toasted, buttered bun with dill pickle chips.",
+      "price": 5.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (178g)",
+        "weight_g": 178.0
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 28.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 1810.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk"
+      ],
+      "ingredients": [
+        "Boneless chicken breast",
+        "water",
+        "seasoning (salt, monosodium glutamate, sugar, spices, paprika)",
+        "modified corn starch",
+        "chicken fat",
+        "chicken flavor (chicken broth, salt, natural flavors)",
+        "yeast extract",
+        "chicken skin",
+        "breaded and pressure cooked in 100% refined peanut oil",
+        "buttered bun (enriched flour, water, sugar, yeast, wheat gluten, soybean oil, dairy product solids, salt)",
+        "dill pickle slices"
+      ],
+      "customizations": [
+        {
+          "modifier": "No Pickles",
+          "nutrition_change": {
+            "calories": -5,
+            "carbohydrates_g": -1.0
+          }
+        },
+        {
+          "modifier": "Add Pepper Jack Cheese",
+          "nutrition_change": {
+            "calories": 110,
+            "protein_g": 6.0,
+            "fat_g": 9.0,
+            "sodium_mg": 240.0
+          }
+        }
+      ],
+      "image_url": "https://www.chick-fil-a.com/-/media/images/cfanext/menu/entrees/spicy-chicken-sandwich/spicysandwich_portrait.png",
+      "product_url": "https://www.chick-fil-a.com/menu/spicy-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

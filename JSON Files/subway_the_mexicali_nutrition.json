@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "SubSandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_mexicali_footlong",
+      "name": "The Mexicali (Footlong)",
+      "category": "Subway Series",
+      "subcategory": "Chicken",
+      "description": "Rotisserie-style chicken, double cheese (Provolone and Monterey Cheddar), smashed avocado, lettuce, tomatoes, and smoky honey mustard on Artisan Italian bread.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 footlong (372g)",
+        "weight_g": 372.0
+      },
+      "nutrition": {
+        "calories": 1130,
+        "protein_g": 70.0,
+        "fat_g": 54.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 2180.0,
+        "potassium_mg": 920.0,
+        "carbohydrates_g": 85.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 600.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Rotisserie-Style Chicken",
+        "Provolone Cheese",
+        "Monterey Cheddar Cheese",
+        "Smashed Avocado",
+        "Lettuce",
+        "Tomatoes",
+        "Smoky Honey Mustard"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/-/media/images/subway/menu/sandwiches/mexicali/subway-menu-subway-series-the-mexicali-1235x725.png",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menu/all-menu-items/subway-series/the-mexicali",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutritioninformation",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

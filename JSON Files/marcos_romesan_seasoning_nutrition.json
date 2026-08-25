@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Marco's Pizza",
+    "website": "https://www.marcos.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Seasonings & Crust Toppings"
+  ],
+  "products": [
+    {
+      "product_id": "marcos_romesan_seasoning_crust",
+      "name": "Romesan Crust Seasoning",
+      "category": "Seasonings & Crust Toppings",
+      "subcategory": "Seasonings",
+      "description": "Marco's signature blend of three Italian cheeses (Romano and Parmesan) and secret herbs sprinkled on pizza crust.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Per pizza crust seasoning (2g)",
+        "weight_g": 2.0
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 1.0,
+        "fat_g": 1.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 110.0,
+        "potassium_mg": 10.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Romano Cheese",
+        "Parmesan Cheese",
+        "Oregano",
+        "Basil",
+        "Garlic Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.marcos.com/images/romesan-seasoning.png",
+      "product_url": "https://www.marcos.com/menu/seasonings/romesan",
+      "sources": [
+        {
+          "url": "https://www.marcos.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

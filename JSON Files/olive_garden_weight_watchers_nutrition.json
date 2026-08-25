@@ -1,0 +1,212 @@
+{
+  "brand": {
+    "name": "Olive Garden",
+    "website": "https://www.olivegarden.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Appetizers",
+    "Soups & Salads",
+    "Entrees",
+    "Desserts"
+  ],
+  "products": [
+    {
+      "product_id": "olive_garden_house_salad_dressing",
+      "name": "House Salad with Signature Italian Dressing",
+      "category": "Soups & Salads",
+      "subcategory": "Salads",
+      "description": "Fresh lettuce, tomatoes, olives, pepperoncini, onions, and croutons tossed in Olive Garden's famous Italian dressing.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad with dressing (260g)",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 3.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 10,
+        "smart_points": 10,
+        "pts": 10
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Iceberg Lettuce",
+        "Romaine Lettuce",
+        "Tomatoes",
+        "Olives",
+        "Pepperoncini",
+        "Red Onions",
+        "Croutons",
+        "Italian Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.olivegarden.com/images/house-salad.png",
+      "product_url": "https://www.olivegarden.com/menu/soups-salads/house-salad",
+      "sources": [
+        {
+          "url": "https://www.olivegarden.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "olive_garden_minestrone_soup",
+      "name": "Minestrone Soup",
+      "category": "Soups & Salads",
+      "subcategory": "Soups",
+      "description": "Fresh vegetables, beans and pasta in a light tomato broth - a delicious vegetarian choice.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl (340g)",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 6.0,
+        "fat_g": 1.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 870.0,
+        "potassium_mg": 420.0,
+        "carbohydrates_g": 22.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 50.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 3,
+        "smart_points": 3,
+        "pts": 3
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vegetable Broth",
+        "Beans",
+        "Pasta",
+        "Tomatoes",
+        "Carrots",
+        "Celery",
+        "Onions",
+        "Spinach"
+      ],
+      "customizations": [],
+      "image_url": "https://www.olivegarden.com/images/minestrone-soup.png",
+      "product_url": "https://www.olivegarden.com/menu/soups-salads/minestrone-soup",
+      "sources": [
+        {
+          "url": "https://www.olivegarden.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "olive_garden_chicken_alfredo",
+      "name": "Chicken Alfredo",
+      "category": "Entrees",
+      "subcategory": "Pasta",
+      "description": "Sliced grilled chicken breast over fettuccine tossed in our homemade alfredo sauce made with fresh cream, garlic, and parmesan cheese.",
+      "price": 20.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (580g)",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 1570,
+        "protein_g": 56.0,
+        "fat_g": 105.0,
+        "saturated_fat_g": 63.0,
+        "trans_fat_g": 4.0,
+        "cholesterol_mg": 350.0,
+        "sodium_mg": 1390.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 86.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 650.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 39,
+        "smart_points": 43,
+        "pts": 39
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Fettuccine Pasta",
+        "Grilled Chicken Breast",
+        "Heavy Cream",
+        "Parmesan Cheese",
+        "Garlic",
+        "Butter"
+      ],
+      "customizations": [],
+      "image_url": "https://www.olivegarden.com/images/chicken-alfredo.png",
+      "product_url": "https://www.olivegarden.com/menu/entrees/chicken-alfredo",
+      "sources": [
+        {
+          "url": "https://www.olivegarden.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

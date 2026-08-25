@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Donuts",
+    "Classic Donuts"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_original_glazed_donut",
+      "name": "Original Glazed Donut",
+      "category": "Donuts",
+      "subcategory": "Classic Donuts",
+      "description": "Dunkin's signature yeast donut coated with a sweet, classic glaze.",
+      "price": 1.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 donut (56g)",
+        "weight_g": 56.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 3.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": 45.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 11.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Enriched Bleached Wheat Flour",
+        "Water",
+        "Palm Oil",
+        "Sugar",
+        "Soybean Oil",
+        "Whey",
+        "Egg Yolks",
+        "Leavening",
+        "Salt",
+        "Glaze (Sugar, Water, Corn Syrup, Artificial Flavor)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/original-glazed-donut.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/donuts/original-glazed-donut",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

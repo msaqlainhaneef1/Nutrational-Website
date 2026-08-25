@@ -3,9 +3,9 @@
   "slug": "daves-hot-chicken-nutrition-calculator",
   "tagline": "Track calories and macros for hot chicken and sides.",
   "description": "Track calories and macros for hot chicken and sides.",
-  "category": "Chicken",
+  "category": "Chicken & Wings",
   "emoji": "\ud83c\udf57",
-  "itemCount": 36,
+  "itemCount": 42,
   "categories": [
     {
       "name": "Hot Meals (Combos)",
@@ -368,6 +368,98 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        }
+      ]
+    },
+    {
+      "name": "Combos & Meals",
+      "items": [
+        {
+          "name": "Dave's #1 (1 Slider & Fries Meal)",
+          "calories": 1150,
+          "protein": 45,
+          "fat": 62,
+          "carbs": 105,
+          "servingSize": "1 combo meal",
+          "fiber": 7,
+          "sodium": 2400,
+          "cholesterol": 110,
+          "saturated_fat": 12,
+          "sugars": 9
+        },
+        {
+          "name": "Dave's #2 (2 Sliders & Fries Meal)",
+          "calories": 1780,
+          "protein": 78,
+          "fat": 92,
+          "carbs": 152,
+          "servingSize": "1 combo meal",
+          "fiber": 10,
+          "sodium": 3850,
+          "cholesterol": 190,
+          "saturated_fat": 18,
+          "sugars": 13
+        },
+        {
+          "name": "Dave's #3 (2 Tenders & Fries Meal)",
+          "calories": 1220,
+          "protein": 62,
+          "fat": 58,
+          "carbs": 104,
+          "servingSize": "1 combo meal",
+          "fiber": 8,
+          "sodium": 2900,
+          "cholesterol": 160,
+          "saturated_fat": 10,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Tenders & Sliders",
+      "items": [
+        {
+          "name": "Dave's Single Slider",
+          "calories": 740,
+          "protein": 36,
+          "fat": 41,
+          "carbs": 58,
+          "servingSize": "1 slider",
+          "fiber": 4,
+          "sodium": 1650,
+          "cholesterol": 90,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Single Hot Chicken Tender",
+          "calories": 420,
+          "protein": 45,
+          "fat": 18,
+          "carbs": 20,
+          "servingSize": "1 tender",
+          "fiber": 2,
+          "sodium": 1350,
+          "cholesterol": 125,
+          "saturated_fat": 3,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Dave's Fries",
+          "calories": 410,
+          "protein": 5,
+          "fat": 20,
+          "carbs": 52,
+          "servingSize": "1 regular order",
+          "fiber": 5,
+          "sodium": 750,
+          "saturated_fat": 3,
+          "sugars": 1
         }
       ]
     }

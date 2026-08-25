@@ -5,7 +5,7 @@
   "description": "Calculate calories and macros for subs and sides.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd6a",
-  "itemCount": 41,
+  "itemCount": 42,
   "categories": [
     {
       "name": "Little Johns",
@@ -440,6 +440,24 @@
           "fiber": 0,
           "sodium": 3200,
           "saturated_fat": 22
+        }
+      ]
+    },
+    {
+      "name": "Sub Sandwiches",
+      "items": [
+        {
+          "name": "The Veggie (JJ #6 - Regular)",
+          "calories": 790,
+          "protein": 24,
+          "fat": 43,
+          "carbs": 78,
+          "servingSize": "1 regular sub (335g)",
+          "fiber": 6,
+          "sodium": 1540,
+          "cholesterol": 45,
+          "saturated_fat": 13,
+          "sugars": 6
         }
       ]
     }

@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "name": "Sonic Drive-In",
+    "website": "https://www.sonicdrivein.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "National Burgers"
+  ],
+  "products": [
+    {
+      "product_id": "sonic_cheeseburger",
+      "name": "SONIC\u00ae Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "National Burgers",
+      "description": "A 100% pure seasoned beef patty layered with melty American cheese, crinkle-cut pickles, ketchup, onions, creamy mayo, lettuce, and tomatoes on a golden bakery bun.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger (235 g)",
+        "weight_g": 235.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 30.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1190.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 2.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": null,
+        "calcium_mg": 250.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Egg",
+        "Gluten"
+      ],
+      "ingredients": [
+        "100% Pure Beef Patty",
+        "American Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Water, Sodium Citrate)",
+        "Bakery Bun (Enriched Wheat Flour, Water, Sugar, Yeast, Soybean Oil, Salt)",
+        "Mayonnaise (Soybean Oil, Water, Egg Yolks, Vinegar, Salt)",
+        "Ketchup",
+        "Crinkle-Cut Pickles",
+        "Diced Onions",
+        "Lettuce",
+        "Tomatoes"
+      ],
+      "customizations": [
+        "Sub Mustard for Mayo",
+        "Add Bacon",
+        "Extra Cheese",
+        "No Onions"
+      ],
+      "image_url": "https://www.sonicdrivein.com/menu/categories/burgers/national-burgers/sonic-cheeseburger/",
+      "product_url": "https://www.sonicdrivein.com/menu/categories/burgers/national-burgers/sonic-cheeseburger/",
+      "sources": [
+        {
+          "url": "https://offers.sonicdrivein.com/nutrition/nutrition.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/sonic/sonic-cheeseburger",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

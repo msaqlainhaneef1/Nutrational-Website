@@ -1,0 +1,320 @@
+{
+  "brand": {
+    "name": "Royal Crispy Wrap",
+    "website": "https://www.bk.com/menu/burgers-wraps/royal-crispy-wrap",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Classic Royal Crispy Wrap",
+    "Spicy Royal Crispy Wrap",
+    "Honey Mustard Royal Crispy Wrap",
+    "Guacamole Royal Crispy Wrap",
+    "Wrap Sides & Meal Drinks"
+  ],
+  "products": [
+    {
+      "product_id": "rcw_classic",
+      "name": "Classic Royal Crispy Wrap",
+      "category": "Classic Royal Crispy Wrap",
+      "subcategory": "Wraps",
+      "description": "Crispy white meat white chicken tender wrapped in a soft tortilla with crisp lettuce, sliced tomato, and creamy mayonnaise.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 13.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.5,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Crispy Chicken Tender",
+        "Lettuce",
+        "Tomato",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/royal-crispy-wrap.png",
+      "product_url": "https://www.bk.com/menu/royal-crispy-wrap",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/burger-king/royal-crispy-wrap",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "rcw_spicy",
+      "name": "Spicy Royal Crispy Wrap",
+      "category": "Spicy Royal Crispy Wrap",
+      "subcategory": "Wraps",
+      "description": "Crispy white meat chicken tender tossed in fiery spicy glaze, wrapped in a warm tortilla with crunchy lettuce and creamy mayo.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (165g)",
+        "weight_g": 165.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 13.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 230.0,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Crispy Chicken Tender",
+        "Spicy Glaze",
+        "Lettuce",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/spicy-royal-crispy-wrap.png",
+      "product_url": "https://www.bk.com/menu/spicy-royal-crispy-wrap",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "rcw_honey_mustard",
+      "name": "Honey Mustard Royal Crispy Wrap",
+      "category": "Honey Mustard Royal Crispy Wrap",
+      "subcategory": "Wraps",
+      "description": "Crispy chicken tender wrapped with fresh lettuce and sweet tangy honey mustard sauce in a flour tortilla.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (162g)",
+        "weight_g": 162.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 13.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Crispy Chicken Tender",
+        "Lettuce",
+        "Honey Mustard Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/honey-mustard-royal-crispy-wrap.png",
+      "product_url": "https://www.bk.com/menu/honey-mustard-royal-crispy-wrap",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "rcw_guacamole",
+      "name": "Guacamole Royal Crispy Wrap",
+      "category": "Guacamole Royal Crispy Wrap",
+      "subcategory": "Wraps",
+      "description": "Crispy chicken tender wrapped with fresh guacamole, crisp lettuce, and cheddar cheese in a soft tortilla.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": true,
+        "discontinued": true,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (170g)",
+        "weight_g": 170.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 14.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 990.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.5,
+        "calcium_mg": 110.0,
+        "iron_mg": 1.9,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Crispy Chicken Tender",
+        "Guacamole",
+        "Lettuce",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/guacamole-royal-crispy-wrap.png",
+      "product_url": "https://www.bk.com/menu/guacamole-royal-crispy-wrap",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "rcw_onion_rings",
+      "name": "Onion Rings (Medium Side)",
+      "category": "Wrap Sides & Meal Drinks",
+      "subcategory": "Sides",
+      "description": "Crispy breaded onion rings fried golden brown.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (118g)",
+        "weight_g": 118.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 5.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 850.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Onions",
+        "Wheat Flour",
+        "Vegetable Oil",
+        "Corn Flour",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/onion-rings.png",
+      "product_url": "https://www.bk.com/menu/sides/onion-rings",
+      "sources": [
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

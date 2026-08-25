@@ -46,9 +46,14 @@ const faqs = [
     a: 'Yes. Add 0.35 to 0.7 liters per hour of exercise depending on intensity and sweat rate. For sessions over an hour, especially in heat, consider an electrolyte drink to replace sodium lost in sweat.',
   },
 ];
+import { createCalculatorSchema } from '@/features/calculators/shared/calculatorSchema';
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/calculators/${meta.slug}/`;
+const schema = createCalculatorSchema(meta, siteOrigin, faqs);
 ---
 
-<Layout title={meta.name} description={meta.description}>
+<Layout title={meta.name} description={meta.description} canonicalUrl={canonicalUrl} schema={schema}>
   <CalculatorPage meta={meta} about={about} sections={sections} faqs={faqs}>
     <WaterCalculator />
   </CalculatorPage>

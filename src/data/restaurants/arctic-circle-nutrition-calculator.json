@@ -1,0 +1,570 @@
+{
+  "name": "Arctic Circle",
+  "slug": "arctic-circle-nutrition-calculator",
+  "tagline": "Track nutrition for Arctic Circle menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 59 menu items at Arctic Circle.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 59,
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "1/2 lb. Black Angus Burger",
+          "calories": 622,
+          "protein": 24,
+          "fat": 45,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 919,
+          "cholesterol": 110
+        },
+        {
+          "name": "1/2 lb. Black Angus Cheese",
+          "calories": 711,
+          "protein": 29,
+          "fat": 52,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 1359,
+          "cholesterol": 130
+        },
+        {
+          "name": "1/2 lb. Black Angus Deluxe",
+          "calories": 724,
+          "protein": 31,
+          "fat": 52,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 1359,
+          "cholesterol": 130
+        },
+        {
+          "name": "1/4 lb. Black Angus Burger",
+          "calories": 416,
+          "protein": 14,
+          "fat": 28,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 738,
+          "cholesterol": 57
+        },
+        {
+          "name": "1/4 lb. Black Angus Cheese",
+          "calories": 461,
+          "protein": 16,
+          "fat": 31,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 958,
+          "cholesterol": 67
+        },
+        {
+          "name": "1/4 lb. Black Angus Deluxe",
+          "calories": 473,
+          "protein": 18,
+          "fat": 31,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 958,
+          "cholesterol": 67
+        },
+        {
+          "name": "1/4 lb. Black Angus Bacon Cheese",
+          "calories": 543,
+          "protein": 20,
+          "fat": 38,
+          "carbs": 27,
+          "fiber": 1,
+          "sodium": 1138,
+          "cholesterol": 79
+        },
+        {
+          "name": "1/4 lb. Black Angus Mushroom 'n Swiss",
+          "calories": 472,
+          "protein": 19,
+          "fat": 32,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 829,
+          "cholesterol": 67
+        },
+        {
+          "name": "Black Angus Ranch Burger",
+          "calories": 508,
+          "protein": 18,
+          "fat": 32,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 921,
+          "cholesterol": 67
+        },
+        {
+          "name": "Black Angus Double Cheeseburger",
+          "calories": 457,
+          "protein": 19,
+          "fat": 30,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 1028,
+          "cholesterol": 75
+        },
+        {
+          "name": "Black Angus Hamburger",
+          "calories": 264,
+          "protein": 8,
+          "fat": 15,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 497,
+          "cholesterol": 29
+        },
+        {
+          "name": "Black Angus Cheeseburger",
+          "calories": 309,
+          "protein": 11,
+          "fat": 18,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 717,
+          "cholesterol": 39
+        },
+        {
+          "name": "Black Angus Double Burger",
+          "calories": 367,
+          "protein": 14,
+          "fat": 23,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 588,
+          "cholesterol": 55
+        },
+        {
+          "name": "Black Angus Bacon Double Cheeseburger",
+          "calories": 526,
+          "protein": 22,
+          "fat": 37,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 1283,
+          "cholesterol": 87
+        },
+        {
+          "name": "Black Angus BBQ Bacon Cheeseburger",
+          "calories": 384,
+          "protein": 14,
+          "fat": 25,
+          "carbs": 25,
+          "fiber": 1,
+          "sodium": 914,
+          "cholesterol": 51
+        },
+        {
+          "name": "Pastrami n' Swiss",
+          "calories": 650,
+          "protein": 40,
+          "fat": 30,
+          "carbs": 50
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Crispy Chicken Salad",
+          "calories": 647,
+          "protein": 29,
+          "fat": 38,
+          "carbs": 48,
+          "fiber": 7,
+          "sodium": 1313,
+          "cholesterol": 59
+        },
+        {
+          "name": "Grilled Chicken Southwest Chicken Salad",
+          "calories": 810,
+          "protein": 43,
+          "fat": 43,
+          "carbs": 55,
+          "fiber": 9,
+          "sodium": 1806,
+          "cholesterol": 116
+        },
+        {
+          "name": "Taco Salad",
+          "calories": 880,
+          "protein": 29,
+          "fat": 62,
+          "carbs": 50,
+          "fiber": 8,
+          "sodium": 1081,
+          "cholesterol": 83
+        },
+        {
+          "name": "Seafood Salad",
+          "calories": 249,
+          "protein": 18,
+          "fat": 12,
+          "carbs": 17,
+          "fiber": 3,
+          "sodium": 826,
+          "cholesterol": 64
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "French Fry (Small)",
+          "calories": 258,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 30,
+          "sodium": 124,
+          "cholesterol": 5
+        },
+        {
+          "name": "French Fry (Regular)",
+          "calories": 376,
+          "protein": 5,
+          "fat": 20,
+          "carbs": 44,
+          "sodium": 180,
+          "cholesterol": 7
+        },
+        {
+          "name": "French Fry (Large)",
+          "calories": 564,
+          "protein": 8,
+          "fat": 30,
+          "carbs": 66,
+          "sodium": 270,
+          "cholesterol": 10
+        },
+        {
+          "name": "Onion Rings",
+          "calories": 784,
+          "protein": 11,
+          "fat": 37,
+          "carbs": 96,
+          "sodium": 656,
+          "cholesterol": 4
+        },
+        {
+          "name": "Cheese Curds (Regular)",
+          "calories": 502,
+          "protein": 21,
+          "fat": 38,
+          "carbs": 17
+        }
+      ]
+    },
+    {
+      "name": "Fish/Chicken",
+      "items": [
+        {
+          "name": "Halibut (2 pc.)",
+          "calories": 220,
+          "protein": 15,
+          "fat": 11,
+          "carbs": 13,
+          "sodium": 390,
+          "cholesterol": 25
+        },
+        {
+          "name": "1/4 lb. Black Angus Hot Dog",
+          "calories": 415,
+          "protein": 12,
+          "fat": 34,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 965,
+          "cholesterol": 33
+        },
+        {
+          "name": "Grilled Lemon Pepper Chicken Sandwich",
+          "calories": 375,
+          "protein": 31,
+          "fat": 13,
+          "carbs": 29,
+          "fiber": 1,
+          "sodium": 1255,
+          "cholesterol": 72
+        },
+        {
+          "name": "2 pc. Chicken Fingers",
+          "calories": 260,
+          "protein": 14,
+          "fat": 15,
+          "carbs": 17,
+          "fiber": 1,
+          "sodium": 680,
+          "cholesterol": 25
+        },
+        {
+          "name": "Chicken Rings (5 pc.)",
+          "calories": 260,
+          "protein": 16,
+          "fat": 16,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 730
+        },
+        {
+          "name": "Halibut Sandwich",
+          "calories": 451,
+          "protein": 22,
+          "fat": 16,
+          "carbs": 53
+        }
+      ]
+    },
+    {
+      "name": "Shakes/Treats",
+      "items": [
+        {
+          "name": "Small Shake (10 oz.)",
+          "calories": 270,
+          "protein": 10,
+          "fat": 10,
+          "carbs": 38,
+          "sodium": 38,
+          "cholesterol": 138
+        },
+        {
+          "name": "Regular Shake (14 oz.)",
+          "calories": 378,
+          "protein": 14,
+          "fat": 14,
+          "carbs": 53,
+          "sodium": 53,
+          "cholesterol": 193
+        },
+        {
+          "name": "Large Shake (18 oz.)",
+          "calories": 486,
+          "protein": 18,
+          "fat": 18,
+          "carbs": 68,
+          "sodium": 68,
+          "cholesterol": 248
+        },
+        {
+          "name": "Sundae (6 oz.)",
+          "calories": 162,
+          "protein": 6,
+          "fat": 6,
+          "carbs": 23,
+          "sodium": 23,
+          "cholesterol": 83
+        },
+        {
+          "name": "Ice Cream Cone (4.5 oz.)",
+          "calories": 137,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 20,
+          "sodium": 17,
+          "cholesterol": 72
+        },
+        {
+          "name": "Courtesy Cone (1 oz.)",
+          "calories": 32,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 5,
+          "sodium": 5,
+          "cholesterol": 19
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Breakfast Burrito",
+          "calories": 574,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35
+        },
+        {
+          "name": "French Toast Sticks with Syrup",
+          "calories": 518,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Egg, Sausage & Cheese Muffin Sandwich",
+          "calories": 444,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Egg, Bacon & Cheese Muffin Sandwich",
+          "calories": 336,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Breakfast Bowl",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Lime Rickey (Medium)",
+          "calories": 206,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52
+        },
+        {
+          "name": "Lime Rickey (Kids)",
+          "calories": 122,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31
+        },
+        {
+          "name": "Lime Squeeze (Large)",
+          "calories": 266,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68
+        },
+        {
+          "name": "Lime Squeeze (Medium)",
+          "calories": 177,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44
+        },
+        {
+          "name": "Lime Squeeze (Small)",
+          "calories": 136,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Original Fry Sauce (1 oz.)",
+          "calories": 75,
+          "protein": 0.5,
+          "fat": 4,
+          "carbs": 9,
+          "sodium": 312,
+          "cholesterol": 4
+        },
+        {
+          "name": "Chipotle Fry Sauce (1 oz.)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 2
+        },
+        {
+          "name": "White Sauce (1 oz.)",
+          "calories": 170,
+          "protein": 0.5,
+          "fat": 19,
+          "carbs": 0,
+          "sodium": 99,
+          "cholesterol": 8
+        },
+        {
+          "name": "Tartar Sauce (1 oz.)",
+          "calories": 165,
+          "protein": 0.5,
+          "fat": 6,
+          "carbs": 1,
+          "sodium": 170,
+          "cholesterol": 12
+        },
+        {
+          "name": "Salsa (1 oz.)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 210
+        },
+        {
+          "name": "Barbecue Sauce (1 oz.)",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 400
+        },
+        {
+          "name": "Ketchup (1 oz.)",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 380
+        },
+        {
+          "name": "Mustard (1 oz.)",
+          "calories": 24,
+          "protein": 0.1,
+          "fat": 0.1,
+          "carbs": 0.1,
+          "sodium": 330
+        },
+        {
+          "name": "Sweet 'n Sour Sauce (1 oz.)",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 13,
+          "sodium": 190
+        }
+      ]
+    },
+    {
+      "name": "Kid's Meals",
+      "items": [
+        {
+          "name": "Kid's Meal - Chicken Rings",
+          "calories": 640,
+          "protein": 26,
+          "fat": 28,
+          "carbs": 68
+        },
+        {
+          "name": "Kid's Meal - Mini Corn Dogs",
+          "calories": 520,
+          "protein": 12,
+          "fat": 28,
+          "carbs": 60
+        },
+        {
+          "name": "Kid's Meal - Corn Dog",
+          "calories": 480,
+          "protein": 9,
+          "fat": 22,
+          "carbs": 58
+        }
+      ]
+    }
+  ]
+}

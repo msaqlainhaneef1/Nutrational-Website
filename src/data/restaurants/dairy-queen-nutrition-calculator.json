@@ -5,7 +5,7 @@
   "description": "Calculate Dairy Queen calories, protein, carbs and fat. Free Dairy Queen nutrition calculator with complete menu data for all items.",
   "category": "Snacks & Treats",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 562,
+  "itemCount": 576,
   "categories": [
     {
       "name": "Limited Time",
@@ -4790,6 +4790,19 @@
           "cholesterol": 25,
           "saturated_fat": 4.5,
           "sugars": 26
+        },
+        {
+          "name": "Vanilla Cone (Medium)",
+          "calories": 320,
+          "protein": 8,
+          "fat": 10,
+          "carbs": 50,
+          "servingSize": "Medium cone (213 g)",
+          "fiber": 1,
+          "sodium": 110,
+          "cholesterol": 30,
+          "saturated_fat": 7,
+          "sugars": 38
         }
       ]
     },
@@ -6598,6 +6611,199 @@
           "sodium": 30,
           "cholesterol": 15,
           "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Blizzard\u00ae Treats",
+      "items": [
+        {
+          "name": "French Silk Pie BLIZZARD\u00ae Treat (Mini)",
+          "calories": 430,
+          "protein": 9,
+          "fat": 19,
+          "carbs": 57,
+          "servingSize": "Mini",
+          "fiber": 1,
+          "sodium": 260,
+          "cholesterol": 35,
+          "saturated_fat": 13,
+          "sugars": 48
+        },
+        {
+          "name": "French Silk Pie BLIZZARD\u00ae Treat (Small)",
+          "calories": 670,
+          "protein": 14,
+          "fat": 30,
+          "carbs": 90,
+          "servingSize": "Small",
+          "fiber": 1.5,
+          "sodium": 410,
+          "cholesterol": 55,
+          "saturated_fat": 20,
+          "sugars": 75
+        },
+        {
+          "name": "French Silk Pie BLIZZARD\u00ae Treat (Medium)",
+          "calories": 900,
+          "protein": 18,
+          "fat": 42,
+          "carbs": 120,
+          "servingSize": "Medium",
+          "fiber": 2,
+          "sodium": 550,
+          "cholesterol": 75,
+          "saturated_fat": 27,
+          "sugars": 100
+        },
+        {
+          "name": "French Silk Pie BLIZZARD\u00ae Treat (Large)",
+          "calories": 1320,
+          "protein": 26,
+          "fat": 62,
+          "carbs": 176,
+          "servingSize": "Large",
+          "fiber": 3,
+          "sodium": 810,
+          "cholesterol": 110,
+          "saturated_fat": 40,
+          "sugars": 148
+        }
+      ]
+    },
+    {
+      "name": "Treats & Soft Serve",
+      "items": [
+        {
+          "name": "Vanilla Soft Serve (Small Cone - Gluten Free)",
+          "calories": 230,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 35,
+          "servingSize": "Small cup (170g)",
+          "sodium": 100,
+          "cholesterol": 30,
+          "saturated_fat": 4.5,
+          "sugars": 28
+        },
+        {
+          "name": "Hot Fudge Sundae (Small - Gluten Free)",
+          "calories": 390,
+          "protein": 8,
+          "fat": 12,
+          "carbs": 62,
+          "servingSize": "Small (225g)",
+          "fiber": 1.5,
+          "sodium": 180,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 51
+        },
+        {
+          "name": "Peanut Buster Parfait (Gluten Free)",
+          "calories": 720,
+          "protein": 18,
+          "fat": 36,
+          "carbs": 86,
+          "servingSize": "1 regular size (360g)",
+          "fiber": 4,
+          "sodium": 290,
+          "cholesterol": 40,
+          "saturated_fat": 14,
+          "sugars": 68
+        }
+      ]
+    },
+    {
+      "name": "Treats",
+      "items": [
+        {
+          "name": "Hot Fudge Sundae (Medium)",
+          "calories": 430,
+          "protein": 9,
+          "fat": 15,
+          "carbs": 66,
+          "servingSize": "Medium",
+          "fiber": 1,
+          "sodium": 190,
+          "cholesterol": 35,
+          "saturated_fat": 11,
+          "sugars": 52
+        },
+        {
+          "name": "Hawaiian Blizzard (Medium)",
+          "calories": 710,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 111,
+          "servingSize": "1 medium (383g)",
+          "fiber": 3,
+          "sodium": 240,
+          "cholesterol": 65,
+          "saturated_fat": 16,
+          "sugars": 89
+        }
+      ]
+    },
+    {
+      "name": "Shakes & MooLattes",
+      "items": [
+        {
+          "name": "Oreo\u00ae Shake (Small)",
+          "calories": 620,
+          "protein": 13,
+          "fat": 25,
+          "carbs": 85,
+          "servingSize": "Small",
+          "fiber": 1,
+          "sodium": 310,
+          "cholesterol": 55,
+          "saturated_fat": 16,
+          "sugars": 65
+        },
+        {
+          "name": "Oreo\u00ae Shake (Medium)",
+          "calories": 840,
+          "protein": 17,
+          "fat": 34,
+          "carbs": 118,
+          "servingSize": "Medium",
+          "fiber": 1.5,
+          "sodium": 420,
+          "cholesterol": 75,
+          "saturated_fat": 22,
+          "sugars": 92
+        },
+        {
+          "name": "Oreo\u00ae Shake (Large)",
+          "calories": 1100,
+          "protein": 23,
+          "fat": 44,
+          "carbs": 155,
+          "servingSize": "Large",
+          "fiber": 2,
+          "sodium": 560,
+          "cholesterol": 100,
+          "saturated_fat": 28,
+          "sugars": 116
+        }
+      ]
+    },
+    {
+      "name": "Blizzard Treats",
+      "items": [
+        {
+          "name": "Salted Caramel Truffle Blizzard (Medium)",
+          "calories": 810,
+          "protein": 16,
+          "fat": 33,
+          "carbs": 115,
+          "servingSize": "Medium (393g / 16 fl oz)",
+          "fiber": 2,
+          "sodium": 530,
+          "cholesterol": 85,
+          "saturated_fat": 20,
+          "sugars": 93
         }
       ]
     }

@@ -1,0 +1,131 @@
+{
+  "name": "Saladworks",
+  "slug": "saladworks-nutrition-calculator",
+  "tagline": "Track nutrition for Saladworks menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at Saladworks.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Signature Salads",
+      "items": [
+        {
+          "name": "Buffalo Blue Salad",
+          "calories": 480,
+          "protein": 32,
+          "fat": 28,
+          "carbs": 18,
+          "servingSize": "1 regular salad",
+          "fiber": 4,
+          "sodium": 1120,
+          "cholesterol": 85,
+          "saturated_fat": 7,
+          "sugars": 6
+        },
+        {
+          "name": "The Saratoga Salad",
+          "calories": 510,
+          "protein": 29,
+          "fat": 22,
+          "carbs": 52,
+          "servingSize": "1 regular salad",
+          "fiber": 6,
+          "sodium": 580,
+          "cholesterol": 65,
+          "saturated_fat": 4.5,
+          "sugars": 42
+        }
+      ]
+    },
+    {
+      "name": "Warm Grain Bowls",
+      "items": [
+        {
+          "name": "Southwest Chipotle Grain Bowl",
+          "calories": 620,
+          "protein": 38,
+          "fat": 24,
+          "carbs": 64,
+          "servingSize": "1 bowl",
+          "fiber": 9,
+          "sodium": 940,
+          "cholesterol": 75,
+          "saturated_fat": 6,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "El Paso Wrap",
+          "calories": 680,
+          "protein": 36,
+          "fat": 30,
+          "carbs": 68,
+          "servingSize": "1 wrap",
+          "fiber": 6,
+          "sodium": 1210,
+          "cholesterol": 75,
+          "saturated_fat": 7,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Homestyle Chicken Noodle Soup",
+          "calories": 160,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 20,
+          "servingSize": "1 regular bowl (8 oz)",
+          "fiber": 1,
+          "sodium": 780,
+          "cholesterol": 35,
+          "saturated_fat": 1,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Dressings & Beverages",
+      "items": [
+        {
+          "name": "Balsamic Vinaigrette Dressing",
+          "calories": 160,
+          "protein": 0,
+          "fat": 16,
+          "carbs": 4,
+          "servingSize": "2 fl oz cup",
+          "sodium": 310,
+          "saturated_fat": 2.5,
+          "sugars": 3
+        },
+        {
+          "name": "Fresh Lemonade",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "servingSize": "20 fl oz cup",
+          "sodium": 15,
+          "sugars": 60
+        },
+        {
+          "name": "Freshly Brewed Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 fl oz cup",
+          "sodium": 10
+        }
+      ]
+    }
+  ]
+}

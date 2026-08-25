@@ -3,6 +3,7 @@ import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import { ArrowLeft, ShieldCheck, Clock, BookOpen } from '@lucide/astro';
 import ArticleRenderer from '@/features/shared/components/ArticleRenderer.astro';
+import CalculatorCrossLinks from './CalculatorCrossLinks.astro';
 import type { CalculatorMeta } from '../registry';
 
 interface Props {
@@ -18,10 +19,10 @@ const { meta, about, sections = [], faqs = [] } = Astro.props;
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
   <div class="flex items-center justify-between">
     <Breadcrumb items={[
-      { label: 'Calculators', url: '/calculators' },
+      { label: 'Calculators', url: '/calculators/' },
       { label: meta.shortName }
     ]} />
-    <a href="/calculators" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+    <a href="/calculators/" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
       <ArrowLeft class="h-3.5 w-3.5 mr-1" />
       All calculators
     </a>
@@ -114,4 +115,10 @@ const { meta, about, sections = [], faqs = [] } = Astro.props;
       </div>
     </div>
   )}
+
+  <!-- Dynamic Cross-Linking Component -->
+  <CalculatorCrossLinks
+    currentCalculatorSlug={meta.slug}
+    calculatorName={meta.name}
+  />
 </div>

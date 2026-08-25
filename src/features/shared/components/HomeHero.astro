@@ -41,7 +41,7 @@ const formatNum = (n: number) => n.toLocaleString('en-US');
 
       <!-- Search + CTAs -->
       <div class="flex flex-col items-center gap-4 pt-1.5 animate-slide-up" style="animation-delay: 0.2s">
-        <form action="/restaurants" method="get" class="w-full max-w-xl">
+        <form action="/restaurants/" method="get" class="w-full max-w-xl">
           <div class="relative glass-card rounded-full p-1.5 pl-4 flex items-center gap-2 border border-zinc-800 focus-within:border-emerald-500/40">
             <div class="text-zinc-500">
               <Search class="h-5 w-5" />
@@ -64,11 +64,11 @@ const formatNum = (n: number) => n.toLocaleString('en-US');
         </form>
 
         <div class="flex flex-wrap justify-center gap-3">
-          <a href="/restaurants" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
+          <a href="/restaurants/" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
             <Database class="h-3.5 w-3.5" />
             <span>Browse all restaurants</span>
           </a>
-          <a href="/calculators/macro" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
+          <a href="/calculators/macro/" class="inline-flex items-center space-x-1.5 px-4 py-2 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs rounded-full transition-colors">
             <span>Try macro calculator</span>
             <ArrowRight class="h-3.5 w-3.5" />
           </a>

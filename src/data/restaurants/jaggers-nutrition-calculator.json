@@ -1,0 +1,1684 @@
+{
+  "name": "Jaggers",
+  "slug": "jaggers-nutrition-calculator",
+  "tagline": "Track nutrition for Jaggers menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 142 menu items at Jaggers.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 142,
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Bacon Avocado Burger - Double",
+          "calories": 980,
+          "protein": 36,
+          "fat": 70,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 4,
+          "sodium": 1150,
+          "cholesterol": 175,
+          "saturated_fat": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Bacon Avocado Burger - Single",
+          "calories": 740,
+          "protein": 24,
+          "fat": 52,
+          "carbs": 37,
+          "servingSize": "Regular",
+          "fiber": 4,
+          "sodium": 990,
+          "cholesterol": 100,
+          "saturated_fat": 17,
+          "sugars": 6
+        },
+        {
+          "name": "Bacon Cheeseburger - Double",
+          "calories": 840,
+          "protein": 29,
+          "fat": 55,
+          "carbs": 39,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1540,
+          "cholesterol": 165,
+          "saturated_fat": 22,
+          "sugars": 12
+        },
+        {
+          "name": "Bacon Cheeseburger - Single",
+          "calories": 620,
+          "protein": 21,
+          "fat": 38,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1190,
+          "cholesterol": 95,
+          "saturated_fat": 14,
+          "sugars": 11
+        },
+        {
+          "name": "BBQ Cheddar Burger - Double",
+          "calories": 860,
+          "protein": 24,
+          "fat": 58,
+          "carbs": 41,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 1200,
+          "cholesterol": 155,
+          "saturated_fat": 22,
+          "sugars": 13
+        },
+        {
+          "name": "BBQ Cheddar Burger - Single",
+          "calories": 690,
+          "protein": 18,
+          "fat": 46,
+          "carbs": 41,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 1080,
+          "cholesterol": 95,
+          "saturated_fat": 17,
+          "sugars": 13
+        },
+        {
+          "name": "Black Bean Veggie Burger",
+          "calories": 640,
+          "protein": 17,
+          "fat": 34,
+          "carbs": 69,
+          "servingSize": "Regular",
+          "fiber": 10,
+          "sodium": 1320,
+          "cholesterol": 65,
+          "saturated_fat": 10,
+          "sugars": 16
+        },
+        {
+          "name": "Crazy Good Cheeseburger - Double",
+          "calories": 760,
+          "protein": 23,
+          "fat": 50,
+          "carbs": 39,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1210,
+          "cholesterol": 145,
+          "saturated_fat": 20,
+          "sugars": 12
+        },
+        {
+          "name": "Crazy Good Cheeseburger - Single",
+          "calories": 540,
+          "protein": 14,
+          "fat": 33,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 860,
+          "cholesterol": 75,
+          "saturated_fat": 12,
+          "sugars": 11
+        },
+        {
+          "name": "Green Chile Cheeseburger - Double",
+          "calories": 850,
+          "protein": 24,
+          "fat": 59,
+          "carbs": 36,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 1510,
+          "cholesterol": 165,
+          "saturated_fat": 23,
+          "sugars": 7
+        },
+        {
+          "name": "Green Chile Cheeseburger - Single",
+          "calories": 610,
+          "protein": 15,
+          "fat": 41,
+          "carbs": 35,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1070,
+          "cholesterol": 85,
+          "saturated_fat": 14,
+          "sugars": 7
+        },
+        {
+          "name": "Mushroom Swiss Burger - Double",
+          "calories": 890,
+          "protein": 31,
+          "fat": 60,
+          "carbs": 39,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 1530,
+          "cholesterol": 160,
+          "saturated_fat": 23,
+          "sugars": 5
+        },
+        {
+          "name": "Mushroom Swiss Burger - Single",
+          "calories": 640,
+          "protein": 19,
+          "fat": 42,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 1370,
+          "cholesterol": 80,
+          "saturated_fat": 14,
+          "sugars": 5
+        },
+        {
+          "name": "Sunrise Burger - Double",
+          "calories": 1040,
+          "protein": 38,
+          "fat": 75,
+          "carbs": 36,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 2010,
+          "cholesterol": 365,
+          "saturated_fat": 26,
+          "sugars": 8
+        },
+        {
+          "name": "Sunrise Burger - Single",
+          "calories": 820,
+          "protein": 30,
+          "fat": 58,
+          "carbs": 36,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1660,
+          "cholesterol": 295,
+          "saturated_fat": 19,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Chicken Sandwiches",
+      "items": [
+        {
+          "name": "California Grilled Chicken Sandwich",
+          "calories": 660,
+          "protein": 41,
+          "fat": 40,
+          "carbs": 37,
+          "servingSize": "Regular",
+          "fiber": 4,
+          "sodium": 1190,
+          "cholesterol": 110,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "Country Fried Chicken Sandwich",
+          "calories": 770,
+          "protein": 39,
+          "fat": 46,
+          "carbs": 49,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1680,
+          "cholesterol": 280,
+          "saturated_fat": 15,
+          "sugars": 7
+        },
+        {
+          "name": "Crispy Chicken Deluxe Sandwich",
+          "calories": 640,
+          "protein": 32,
+          "fat": 34,
+          "carbs": 52,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1590,
+          "cholesterol": 85,
+          "saturated_fat": 10,
+          "sugars": 11
+        },
+        {
+          "name": "Crispy Chicken Sandwich",
+          "calories": 580,
+          "protein": 29,
+          "fat": 29,
+          "carbs": 49,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1360,
+          "cholesterol": 75,
+          "saturated_fat": 7,
+          "sugars": 9
+        },
+        {
+          "name": "Grilled Chicken Deluxe Sandwich",
+          "calories": 480,
+          "protein": 30,
+          "fat": 23,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 1070,
+          "cholesterol": 85,
+          "saturated_fat": 8,
+          "sugars": 11
+        },
+        {
+          "name": "Spicy Crispy Chicken Sandwich",
+          "calories": 620,
+          "protein": 33,
+          "fat": 33,
+          "carbs": 48,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 1850,
+          "cholesterol": 90,
+          "saturated_fat": 10,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Chicken Tenders",
+      "items": [
+        {
+          "name": "Chicken Tenders - 4 Piece",
+          "calories": 310,
+          "protein": 31,
+          "fat": 15,
+          "carbs": 13,
+          "servingSize": "4/6/10 piece",
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 115,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Tenders - 6 Piece",
+          "calories": 460,
+          "protein": 47,
+          "fat": 22,
+          "carbs": 20,
+          "servingSize": "4/6/10 piece",
+          "fiber": 1,
+          "sodium": 1040,
+          "cholesterol": 170,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Tenders - 10 Piece",
+          "calories": 770,
+          "protein": 79,
+          "fat": 36,
+          "carbs": 33,
+          "servingSize": "4/6/10 piece",
+          "fiber": 2,
+          "sodium": 1740,
+          "cholesterol": 285,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "BBQ Sauce",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "servingSize": "2 oz",
+          "sodium": 580,
+          "sugars": 32
+        },
+        {
+          "name": "Buffalo Sauce",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "2 oz",
+          "sodium": 2890,
+          "sugars": 1
+        },
+        {
+          "name": "Cheese Sauce",
+          "calories": 140,
+          "protein": 7,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "2 oz",
+          "sodium": 450,
+          "cholesterol": 40,
+          "saturated_fat": 8,
+          "sugars": 1
+        },
+        {
+          "name": "Country Gravy",
+          "calories": 120,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 9,
+          "servingSize": "2 oz",
+          "sodium": 390,
+          "cholesterol": 20,
+          "saturated_fat": 4,
+          "sugars": 3
+        },
+        {
+          "name": "Honey Mustard Dressing",
+          "calories": 330,
+          "protein": 0,
+          "fat": 33,
+          "carbs": 11,
+          "servingSize": "2 oz",
+          "sodium": 230,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 8
+        },
+        {
+          "name": "Jaggers Sauce",
+          "calories": 180,
+          "protein": 1,
+          "fat": 10,
+          "carbs": 21,
+          "servingSize": "2 oz",
+          "sodium": 360,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 18
+        },
+        {
+          "name": "Ranch Dressing",
+          "calories": 270,
+          "protein": 1,
+          "fat": 29,
+          "carbs": 4,
+          "servingSize": "2 oz",
+          "sodium": 300,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Sweet Heat Sauce",
+          "calories": 310,
+          "protein": 0,
+          "fat": 27,
+          "carbs": 19,
+          "servingSize": "2 oz",
+          "fiber": 1,
+          "sodium": 510,
+          "cholesterol": 10,
+          "saturated_fat": 3.5,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Seasonal Specials",
+      "items": [
+        {
+          "name": "Crispy Fish Sandwich",
+          "calories": 710,
+          "protein": 25,
+          "fat": 45,
+          "carbs": 54,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 1160,
+          "cholesterol": 60,
+          "saturated_fat": 9,
+          "sugars": 10
+        },
+        {
+          "name": "Honey Ginger Chop Salad",
+          "calories": 780,
+          "protein": 34,
+          "fat": 56,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "fiber": 7,
+          "sodium": 960,
+          "cholesterol": 90,
+          "saturated_fat": 9,
+          "sugars": 27
+        },
+        {
+          "name": "Honey Ginger Chop Side Salad",
+          "calories": 150,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 11,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 70,
+          "saturated_fat": 1.5,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Berry Fresh Grilled Chicken Salad",
+          "calories": 310,
+          "protein": 29,
+          "fat": 10,
+          "carbs": 32,
+          "servingSize": "Regular",
+          "fiber": 6,
+          "sodium": 560,
+          "cholesterol": 80,
+          "saturated_fat": 3.5,
+          "sugars": 21
+        },
+        {
+          "name": "Grilled Chicken Cobb Salad",
+          "calories": 400,
+          "protein": 38,
+          "fat": 23,
+          "carbs": 12,
+          "servingSize": "Regular",
+          "fiber": 5,
+          "sodium": 1000,
+          "cholesterol": 205,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Jaggers Chicken Salad - Crispy",
+          "calories": 490,
+          "protein": 38,
+          "fat": 27,
+          "carbs": 27,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 910,
+          "cholesterol": 220,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "Jaggers Chicken Salad - Grilled",
+          "calories": 370,
+          "protein": 37,
+          "fat": 18,
+          "carbs": 18,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 730,
+          "cholesterol": 205,
+          "saturated_fat": 8,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Salad Toppings",
+      "items": [
+        {
+          "name": "Avocado",
+          "calories": 120,
+          "protein": 2,
+          "fat": 12,
+          "carbs": 6,
+          "servingSize": "Regular",
+          "fiber": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Bleu Cheese Crumbles",
+          "calories": 100,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 1,
+          "servingSize": "Regular",
+          "sodium": 380,
+          "cholesterol": 20,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Blueberries",
+          "calories": 50,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 13,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sugars": 9
+        },
+        {
+          "name": "Cheddar Cheese",
+          "calories": 110,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 0,
+          "servingSize": "Regular",
+          "sodium": 170,
+          "cholesterol": 30,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Crispy Fried Onions",
+          "calories": 110,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 9,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 170,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Croutons",
+          "calories": 70,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 10,
+          "servingSize": "Regular",
+          "sodium": 160,
+          "sugars": 2
+        },
+        {
+          "name": "Fried Egg",
+          "calories": 120,
+          "protein": 6,
+          "fat": 10,
+          "carbs": 1,
+          "servingSize": "Regular",
+          "sodium": 140,
+          "cholesterol": 185,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Grapes",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "Regular",
+          "sugars": 6
+        },
+        {
+          "name": "Parmesan Cheese",
+          "calories": 110,
+          "protein": 10,
+          "fat": 7,
+          "carbs": 0,
+          "servingSize": "Regular",
+          "sodium": 220,
+          "cholesterol": 25,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Sliced Bacon",
+          "calories": 50,
+          "protein": 5,
+          "fat": 3.5,
+          "carbs": 0,
+          "servingSize": "Regular",
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Strawberries",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Toasted Almonds",
+          "calories": 35,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 1,
+          "servingSize": "Regular",
+          "fiber": 1
+        },
+        {
+          "name": "Tomato",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Regular",
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Salad Dressings",
+      "items": [
+        {
+          "name": "Bleu Cheese Dressing",
+          "calories": 560,
+          "protein": 7,
+          "fat": 57,
+          "carbs": 7,
+          "servingSize": "4 oz",
+          "sodium": 890,
+          "cholesterol": 40,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Honey French Dressing",
+          "calories": 360,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 60,
+          "servingSize": "4 oz",
+          "sodium": 900,
+          "saturated_fat": 2,
+          "sugars": 55
+        },
+        {
+          "name": "Italian Dressing",
+          "calories": 540,
+          "protein": 1,
+          "fat": 49,
+          "carbs": 23,
+          "servingSize": "4 oz",
+          "fiber": 1,
+          "sodium": 850,
+          "saturated_fat": 7,
+          "sugars": 21
+        },
+        {
+          "name": "Light Berry Vinaigrette",
+          "calories": 180,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 32,
+          "servingSize": "4 oz",
+          "sodium": 2400,
+          "sugars": 28
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Edamame",
+          "calories": 190,
+          "protein": 17,
+          "fat": 8,
+          "carbs": 12,
+          "servingSize": "Regular",
+          "fiber": 8,
+          "sodium": 720,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Fruit Cup - Large",
+          "calories": 110,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 30,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sugars": 24
+        },
+        {
+          "name": "Fruit Cup - Small",
+          "calories": 45,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 11,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Mac 'n Cheese",
+          "calories": 310,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 40,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Shoestring Fries - Large",
+          "calories": 600,
+          "protein": 8,
+          "fat": 34,
+          "carbs": 66,
+          "servingSize": "Regular",
+          "fiber": 5,
+          "sodium": 840,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Shoestring Fries - Regular",
+          "calories": 480,
+          "protein": 6,
+          "fat": 27,
+          "carbs": 53,
+          "servingSize": "Regular",
+          "fiber": 4,
+          "sodium": 670,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Side Salad",
+          "calories": 250,
+          "protein": 14,
+          "fat": 16,
+          "carbs": 15,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 380,
+          "cholesterol": 135,
+          "saturated_fat": 7,
+          "sugars": 6
+        },
+        {
+          "name": "Tater Tots - Large",
+          "calories": 610,
+          "protein": 6,
+          "fat": 36,
+          "carbs": 65,
+          "servingSize": "Regular",
+          "fiber": 6,
+          "sodium": 900,
+          "cholesterol": 130,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Tater Tots - Regular",
+          "calories": 460,
+          "protein": 4,
+          "fat": 27,
+          "carbs": 49,
+          "servingSize": "Regular",
+          "fiber": 4,
+          "sodium": 680,
+          "cholesterol": 100,
+          "saturated_fat": 5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Shakes",
+      "items": [
+        {
+          "name": "Banana Split Shake - Large",
+          "calories": 730,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 114,
+          "servingSize": "Large",
+          "fiber": 1,
+          "sodium": 380,
+          "cholesterol": 85,
+          "saturated_fat": 17,
+          "sugars": 98
+        },
+        {
+          "name": "Banana Split Shake - Regular",
+          "calories": 540,
+          "protein": 10,
+          "fat": 18,
+          "carbs": 84,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 280,
+          "cholesterol": 60,
+          "saturated_fat": 14,
+          "sugars": 72
+        },
+        {
+          "name": "Birthday Cake Shake - Large",
+          "calories": 860,
+          "protein": 14,
+          "fat": 31,
+          "carbs": 131,
+          "servingSize": "Large",
+          "sodium": 400,
+          "cholesterol": 90,
+          "saturated_fat": 23,
+          "sugars": 110
+        },
+        {
+          "name": "Birthday Cake Shake - Regular",
+          "calories": 660,
+          "protein": 10,
+          "fat": 25,
+          "carbs": 99,
+          "servingSize": "Regular",
+          "sodium": 280,
+          "cholesterol": 65,
+          "saturated_fat": 19,
+          "sugars": 81
+        },
+        {
+          "name": "Chocolate Shake - Large",
+          "calories": 820,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 136,
+          "servingSize": "Large",
+          "fiber": 2,
+          "sodium": 400,
+          "cholesterol": 85,
+          "saturated_fat": 17,
+          "sugars": 118
+        },
+        {
+          "name": "Chocolate Shake - Regular",
+          "calories": 600,
+          "protein": 10,
+          "fat": 18,
+          "carbs": 98,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 280,
+          "cholesterol": 60,
+          "saturated_fat": 13,
+          "sugars": 85
+        },
+        {
+          "name": "Ghirardelli Brownie Shake - Large",
+          "calories": 890,
+          "protein": 14,
+          "fat": 30,
+          "carbs": 139,
+          "servingSize": "Large",
+          "fiber": 2,
+          "sodium": 500,
+          "cholesterol": 80,
+          "saturated_fat": 18,
+          "sugars": 116
+        },
+        {
+          "name": "Ghirardelli Brownie Shake - Regular",
+          "calories": 620,
+          "protein": 10,
+          "fat": 22,
+          "carbs": 95,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 350,
+          "cholesterol": 60,
+          "saturated_fat": 14,
+          "sugars": 79
+        },
+        {
+          "name": "Hershey's Chocolate Chip Cookie Shake - Large",
+          "calories": 850,
+          "protein": 15,
+          "fat": 35,
+          "carbs": 121,
+          "servingSize": "Large",
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 95,
+          "saturated_fat": 21,
+          "sugars": 101
+        },
+        {
+          "name": "Hershey's Chocolate Chip Cookie Shake - Regular",
+          "calories": 610,
+          "protein": 10,
+          "fat": 26,
+          "carbs": 85,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 420,
+          "cholesterol": 70,
+          "saturated_fat": 16,
+          "sugars": 70
+        },
+        {
+          "name": "Oreo Cookies 'n Cream Shake - Large",
+          "calories": 790,
+          "protein": 14,
+          "fat": 29,
+          "carbs": 119,
+          "servingSize": "Large",
+          "fiber": 1,
+          "sodium": 470,
+          "cholesterol": 80,
+          "saturated_fat": 18,
+          "sugars": 99
+        },
+        {
+          "name": "Oreo Cookies 'n Cream Shake - Regular",
+          "calories": 550,
+          "protein": 10,
+          "fat": 21,
+          "carbs": 81,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 320,
+          "cholesterol": 60,
+          "saturated_fat": 14,
+          "sugars": 68
+        },
+        {
+          "name": "Peanut Butter Pie Shake - Large",
+          "calories": 960,
+          "protein": 22,
+          "fat": 46,
+          "carbs": 116,
+          "servingSize": "Large",
+          "fiber": 4,
+          "sodium": 620,
+          "cholesterol": 70,
+          "saturated_fat": 21,
+          "sugars": 93
+        },
+        {
+          "name": "Peanut Butter Pie Shake - Regular",
+          "calories": 700,
+          "protein": 15,
+          "fat": 34,
+          "carbs": 85,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 460,
+          "cholesterol": 45,
+          "saturated_fat": 16,
+          "sugars": 66
+        },
+        {
+          "name": "Strawberry Shake - Large",
+          "calories": 690,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 104,
+          "servingSize": "Large",
+          "sodium": 370,
+          "cholesterol": 85,
+          "saturated_fat": 17,
+          "sugars": 92
+        },
+        {
+          "name": "Strawberry Shake - Regular",
+          "calories": 500,
+          "protein": 10,
+          "fat": 18,
+          "carbs": 75,
+          "servingSize": "Regular",
+          "sodium": 260,
+          "cholesterol": 60,
+          "saturated_fat": 13,
+          "sugars": 66
+        },
+        {
+          "name": "Vanilla Bean Shake - Large",
+          "calories": 720,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 113,
+          "servingSize": "Large",
+          "sodium": 370,
+          "cholesterol": 85,
+          "saturated_fat": 17,
+          "sugars": 103
+        },
+        {
+          "name": "Vanilla Bean Shake - Regular",
+          "calories": 510,
+          "protein": 10,
+          "fat": 18,
+          "carbs": 77,
+          "servingSize": "Regular",
+          "sodium": 270,
+          "cholesterol": 60,
+          "saturated_fat": 14,
+          "sugars": 70
+        }
+      ]
+    },
+    {
+      "name": "Sweets",
+      "items": [
+        {
+          "name": "Ghirardelli Brownie",
+          "calories": 810,
+          "protein": 6,
+          "fat": 28,
+          "carbs": 130,
+          "servingSize": "Regular",
+          "fiber": 5,
+          "sodium": 540,
+          "cholesterol": 25,
+          "saturated_fat": 9,
+          "sugars": 93
+        },
+        {
+          "name": "Hershey's Chocolate Chip Cookie",
+          "calories": 630,
+          "protein": 6,
+          "fat": 35,
+          "carbs": 78,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 700,
+          "cholesterol": 55,
+          "saturated_fat": 13,
+          "sugars": 49
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Kids Cheeseburger",
+          "calories": 490,
+          "protein": 14,
+          "fat": 30,
+          "carbs": 30,
+          "servingSize": "Kids portion",
+          "fiber": 1,
+          "sodium": 770,
+          "cholesterol": 70,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "Kids Chicken Tender Bites - Crispy",
+          "calories": 230,
+          "protein": 26,
+          "fat": 10,
+          "carbs": 9,
+          "servingSize": "Kids portion",
+          "fiber": 1,
+          "sodium": 420,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Kids Chicken Tender Bites - Grilled",
+          "calories": 90,
+          "protein": 20,
+          "fat": 1,
+          "carbs": 0,
+          "servingSize": "Kids portion",
+          "sodium": 125,
+          "cholesterol": 60
+        },
+        {
+          "name": "Kids Grilled Cheese",
+          "calories": 460,
+          "protein": 10,
+          "fat": 34,
+          "carbs": 31,
+          "servingSize": "Kids portion",
+          "fiber": 1,
+          "sodium": 1010,
+          "cholesterol": 25,
+          "saturated_fat": 13,
+          "sugars": 6
+        },
+        {
+          "name": "Kids Hamburger",
+          "calories": 440,
+          "protein": 11,
+          "fat": 26,
+          "carbs": 30,
+          "servingSize": "Kids portion",
+          "fiber": 1,
+          "sodium": 540,
+          "cholesterol": 60,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Kids Hot Dog",
+          "calories": 590,
+          "protein": 14,
+          "fat": 45,
+          "carbs": 27,
+          "servingSize": "Kids portion",
+          "sodium": 1290,
+          "cholesterol": 50,
+          "saturated_fat": 17,
+          "sugars": 4
+        },
+        {
+          "name": "Kids Mac 'n Cheese",
+          "calories": 310,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 40,
+          "servingSize": "Kids portion",
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Shoestring Fries",
+          "calories": 240,
+          "protein": 3,
+          "fat": 14,
+          "carbs": 27,
+          "servingSize": "Kids portion",
+          "fiber": 2,
+          "sodium": 330,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Tater Tots",
+          "calories": 270,
+          "protein": 3,
+          "fat": 16,
+          "carbs": 28,
+          "servingSize": "Kids portion",
+          "fiber": 2,
+          "sodium": 400,
+          "cholesterol": 55,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Chocolate Chip Cookies",
+          "calories": 210,
+          "protein": 2,
+          "fat": 12,
+          "carbs": 26,
+          "servingSize": "Kids portion",
+          "fiber": 1,
+          "sodium": 230,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Barq's Root Beer",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "servingSize": "Regular",
+          "sodium": 55
+        },
+        {
+          "name": "Cherry Coke",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Regular",
+          "sugars": 35
+        },
+        {
+          "name": "Coca-Cola",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "servingSize": "Regular",
+          "cholesterol": 5
+        },
+        {
+          "name": "Coca-Cola Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular"
+        },
+        {
+          "name": "Dasani Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular"
+        },
+        {
+          "name": "Diet Coke",
+          "calories": 0,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular",
+          "sodium": 10
+        },
+        {
+          "name": "Dr Pepper",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "servingSize": "Regular",
+          "sodium": 50,
+          "sugars": 32
+        },
+        {
+          "name": "Fresh Lemonade",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "servingSize": "Regular",
+          "sodium": 10,
+          "sugars": 46
+        },
+        {
+          "name": "Fresh Lemonade - Strawberry",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 51,
+          "servingSize": "Regular",
+          "sodium": 10,
+          "sugars": 48
+        },
+        {
+          "name": "Hi-C Orange",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "servingSize": "Regular",
+          "sodium": 30,
+          "sugars": 40
+        },
+        {
+          "name": "Iced Tea - Original Sweet",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "Regular",
+          "sodium": 5,
+          "sugars": 27
+        },
+        {
+          "name": "Iced Tea - Original Unsweet",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular"
+        },
+        {
+          "name": "Mr. Pibb",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "servingSize": "Regular",
+          "sodium": 35,
+          "sugars": 32
+        },
+        {
+          "name": "Sprite",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "servingSize": "Regular",
+          "sodium": 55,
+          "sugars": 32
+        },
+        {
+          "name": "Sweet Iced Tea with Fresh Lemonade",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "sodium": 5,
+          "sugars": 37
+        },
+        {
+          "name": "Unsweet Iced Tea with Fresh Lemonade",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 24,
+          "servingSize": "Regular",
+          "sugars": 23
+        },
+        {
+          "name": "Barq's Root Beer - Large",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "servingSize": "Large",
+          "sodium": 85
+        },
+        {
+          "name": "Cherry Coke - Large",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "Large",
+          "sugars": 56
+        },
+        {
+          "name": "Coca-Cola - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "Large",
+          "cholesterol": 5
+        },
+        {
+          "name": "Coca-Cola Zero - Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large",
+          "sodium": 5
+        },
+        {
+          "name": "Dasani Bottled Water - Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large"
+        },
+        {
+          "name": "Diet Coke - Large",
+          "calories": 0,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large",
+          "sodium": 20
+        },
+        {
+          "name": "Dr Pepper - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 53,
+          "servingSize": "Large",
+          "sodium": 80,
+          "sugars": 51
+        },
+        {
+          "name": "Fresh Lemonade - Large",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "servingSize": "Large",
+          "sodium": 15,
+          "sugars": 74
+        },
+        {
+          "name": "Fresh Lemonade - Strawberry - Large",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 81,
+          "servingSize": "Large",
+          "sodium": 15,
+          "sugars": 77
+        },
+        {
+          "name": "Hi-C Orange - Large",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "servingSize": "Large",
+          "sodium": 50,
+          "sugars": 64
+        },
+        {
+          "name": "Iced Tea - Original Sweet - Large",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "servingSize": "Large",
+          "sodium": 10,
+          "sugars": 43
+        },
+        {
+          "name": "Iced Tea - Original Unsweet - Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large"
+        },
+        {
+          "name": "Mr. Pibb - Large",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 51,
+          "servingSize": "Large",
+          "sodium": 55,
+          "sugars": 51
+        },
+        {
+          "name": "Sprite - Large",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 51,
+          "servingSize": "Large",
+          "sodium": 85,
+          "sugars": 51
+        },
+        {
+          "name": "Sweet Iced Tea with Fresh Lemonade - Large",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 61,
+          "servingSize": "Large",
+          "sodium": 10,
+          "sugars": 58
+        },
+        {
+          "name": "Unsweet Iced Tea with Fresh Lemonade - Large",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 38,
+          "servingSize": "Large",
+          "sodium": 5,
+          "sugars": 37
+        }
+      ]
+    },
+    {
+      "name": "Kids Beverages",
+      "items": [
+        {
+          "name": "Barq's Root Beer (Kids)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "servingSize": "Kids size",
+          "sodium": 45,
+          "sugars": 29
+        },
+        {
+          "name": "Cherry Coke (Kids)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "servingSize": "Kids size",
+          "sodium": 25,
+          "sugars": 27
+        },
+        {
+          "name": "Coca-Cola (Kids)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "Kids size",
+          "sodium": 20,
+          "sugars": 25
+        },
+        {
+          "name": "Coca-Cola Zero (Kids)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Kids size",
+          "sodium": 25
+        },
+        {
+          "name": "Diet Coke (Kids)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Kids size",
+          "sodium": 30
+        },
+        {
+          "name": "Hi-C Orange LavaBurst (Kids)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "servingSize": "Kids size",
+          "sodium": 25,
+          "sugars": 28
+        },
+        {
+          "name": "Pibb Xtra (Kids)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "Kids size",
+          "sodium": 25,
+          "sugars": 25
+        },
+        {
+          "name": "Sprite (Kids)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "Kids size",
+          "sodium": 30,
+          "sugars": 25
+        },
+        {
+          "name": "Fresh Lemonade - Regular (Kids)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "servingSize": "Kids size",
+          "sodium": 5,
+          "sugars": 32
+        },
+        {
+          "name": "Fresh Lemonade - Strawberry (Kids)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "servingSize": "Kids size",
+          "sodium": 5,
+          "sugars": 32
+        },
+        {
+          "name": "Iced Tea - Sweet (Kids)",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 19,
+          "servingSize": "Kids size",
+          "sodium": 5,
+          "sugars": 19
+        },
+        {
+          "name": "Iced Tea - Unsweet (Kids)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Kids size"
+        },
+        {
+          "name": "Milk - Regular (Kids)",
+          "calories": 90,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 10,
+          "servingSize": "Kids size",
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 10
+        },
+        {
+          "name": "Milk - Chocolate (Kids)",
+          "calories": 150,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 26,
+          "servingSize": "Kids size",
+          "fiber": 1,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 23
+        },
+        {
+          "name": "Apple Juice (Kids)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 21,
+          "servingSize": "Kids size",
+          "sodium": 15,
+          "sugars": 19
+        }
+      ]
+    }
+  ]
+}

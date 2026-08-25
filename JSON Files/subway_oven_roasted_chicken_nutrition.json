@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "SubSandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway_oven_roasted_chicken_footlong",
+      "name": "Oven Roasted Chicken (Footlong)",
+      "category": "Subway Series",
+      "subcategory": "Chicken",
+      "description": "Tender, juicy oven-roasted chicken breast topped with lettuce, tomatoes, cucumbers, green peppers, and red onions on Artisan Italian bread.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 footlong (325g)",
+        "weight_g": 325.0
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 52.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 1380.0,
+        "potassium_mg": 720.0,
+        "carbohydrates_g": 88.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Oven Roasted Chicken Breast",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumbers",
+        "Green Peppers",
+        "Red Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/-/media/images/subway/menu/sandwiches/oven-roasted-chicken/subway-menu-subway-series-oven-roasted-chicken-1235x725.png",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menu/all-menu-items/subway-series/oven-roasted-chicken",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutritioninformation",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

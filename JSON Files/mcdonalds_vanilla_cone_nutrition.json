@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Desserts"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds-vanilla-cone",
+      "name": "Vanilla Cone",
+      "category": "Desserts",
+      "subcategory": "Ice Cream & Desserts",
+      "description": "The McDonald's Vanilla Cone features creamy vanilla reduced fat ice cream in a crispy cone.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 cone",
+        "weight_g": 89.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 5.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 80.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 33.0,
+        "fiber_g": 0.0,
+        "sugars_g": 23.0,
+        "added_sugars_g": null,
+        "calcium_mg": 150.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vanilla Reduced Fat Ice Cream",
+        "Cone"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/us/en-us/product/vanilla-cone.html",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/vanilla-cone.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/product/vanilla-cone.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/mcdonalds/vanilla-reduced-fat-ice-cream-cone",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

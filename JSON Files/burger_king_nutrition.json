@@ -1,0 +1,1832 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "USA/Global",
+    "last_updated": "2026-07-29"
+  },
+  "categories": [
+    "Chicken",
+    "Desserts",
+    "Flame Grilled Beef",
+    "King's Collection",
+    "Limited Time",
+    "Plant Based",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "bk_whopper_jr",
+      "name": "Whopper Jr",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Jr",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "154g",
+        "weight_g": 154.0
+      },
+      "nutrition": {
+        "calories": 361,
+        "protein_g": 15.5,
+        "fat_g": 16.2,
+        "saturated_fat_g": 4.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 455,
+        "potassium_mg": null,
+        "carbohydrates_g": 37.6,
+        "fiber_g": null,
+        "sugars_g": 7.1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_jr_with_cheese",
+      "name": "Whopper Jr with Cheese",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Jr with Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "166g",
+        "weight_g": 166.0
+      },
+      "nutrition": {
+        "calories": 399,
+        "protein_g": 18.6,
+        "fat_g": 20.2,
+        "saturated_fat_g": 6.8,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 811,
+        "potassium_mg": null,
+        "carbohydrates_g": 32.9,
+        "fiber_g": null,
+        "sugars_g": 7.1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper",
+      "name": "Whopper",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "318g",
+        "weight_g": 318.0
+      },
+      "nutrition": {
+        "calories": 766,
+        "protein_g": 32.9,
+        "fat_g": 44.3,
+        "saturated_fat_g": 12.2,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1140,
+        "potassium_mg": null,
+        "carbohydrates_g": 56.6,
+        "fiber_g": null,
+        "sugars_g": 12.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_with_cheese",
+      "name": "Whopper with Cheese",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper with Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "329g",
+        "weight_g": 329.0
+      },
+      "nutrition": {
+        "calories": 811,
+        "protein_g": 37.6,
+        "fat_g": 49.1,
+        "saturated_fat_g": 15.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1250,
+        "potassium_mg": null,
+        "carbohydrates_g": 53.1,
+        "fiber_g": null,
+        "sugars_g": 12.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_double",
+      "name": "Whopper Double",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Double",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "443g",
+        "weight_g": 443.0
+      },
+      "nutrition": {
+        "calories": 1140,
+        "protein_g": 66.6,
+        "fat_g": 75.1,
+        "saturated_fat_g": 23.3,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1240,
+        "potassium_mg": null,
+        "carbohydrates_g": 46.1,
+        "fiber_g": null,
+        "sugars_g": 12.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_double_with_cheese",
+      "name": "Whopper Double with Cheese",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Double with Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "466g",
+        "weight_g": 466.0
+      },
+      "nutrition": {
+        "calories": 1216,
+        "protein_g": 71.5,
+        "fat_g": 81.0,
+        "saturated_fat_g": 26.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1314,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.8,
+        "fiber_g": null,
+        "sugars_g": 12.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_triple",
+      "name": "Whopper Triple",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Triple",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "568g",
+        "weight_g": 568.0
+      },
+      "nutrition": {
+        "calories": 1515,
+        "protein_g": 95.0,
+        "fat_g": 104.0,
+        "saturated_fat_g": 35.2,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1288,
+        "potassium_mg": null,
+        "carbohydrates_g": 44.9,
+        "fiber_g": null,
+        "sugars_g": 13.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_whopper_triple_with_cheese",
+      "name": "Whopper Triple with Cheese",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Whopper Triple with Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "592g",
+        "weight_g": 592.0
+      },
+      "nutrition": {
+        "calories": 1592,
+        "protein_g": 101.0,
+        "fat_g": 110.0,
+        "saturated_fat_g": 42.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1550,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.0,
+        "fiber_g": null,
+        "sugars_g": 12.6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_hamburger",
+      "name": "Hamburger",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Hamburger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "115g",
+        "weight_g": 115.0
+      },
+      "nutrition": {
+        "calories": 291,
+        "protein_g": 16.7,
+        "fat_g": 13.9,
+        "saturated_fat_g": 5.9,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 638,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.0,
+        "fiber_g": null,
+        "sugars_g": 5.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_cheeseburger",
+      "name": "Cheeseburger",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Cheeseburger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "127g",
+        "weight_g": 127.0
+      },
+      "nutrition": {
+        "calories": 329,
+        "protein_g": 19.1,
+        "fat_g": 16.9,
+        "saturated_fat_g": 7.9,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 870,
+        "potassium_mg": null,
+        "carbohydrates_g": 25.3,
+        "fiber_g": null,
+        "sugars_g": 5.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_double_cheeseburger",
+      "name": "Double Cheeseburger",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Double Cheeseburger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "185g",
+        "weight_g": 185.0
+      },
+      "nutrition": {
+        "calories": 507,
+        "protein_g": 32.5,
+        "fat_g": 30.8,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1190,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.4,
+        "fiber_g": null,
+        "sugars_g": 5.3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_triple_cheeseburger",
+      "name": "Triple Cheeseburger",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Triple Cheeseburger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "250g",
+        "weight_g": 250.0
+      },
+      "nutrition": {
+        "calories": 697,
+        "protein_g": 46.3,
+        "fat_g": 45.0,
+        "saturated_fat_g": 21.4,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1720,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.4,
+        "fiber_g": null,
+        "sugars_g": 5.7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bacon_double_cheeseburger",
+      "name": "Bacon Double Cheeseburger",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Bacon Double Cheeseburger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "187g",
+        "weight_g": 187.0
+      },
+      "nutrition": {
+        "calories": 511,
+        "protein_g": 35.2,
+        "fat_g": 34.6,
+        "saturated_fat_g": 16.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 938,
+        "potassium_mg": null,
+        "carbohydrates_g": 15.3,
+        "fiber_g": null,
+        "sugars_g": 1.9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_rodeo_mega_stacker___beef_single",
+      "name": "Rodeo Mega Stacker - Beef Single",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Rodeo Mega Stacker - Beef Single",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "296g",
+        "weight_g": 296.0
+      },
+      "nutrition": {
+        "calories": 805,
+        "protein_g": 45.2,
+        "fat_g": 52.0,
+        "saturated_fat_g": 19.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 966,
+        "potassium_mg": null,
+        "carbohydrates_g": 40.8,
+        "fiber_g": null,
+        "sugars_g": 12.3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_rodeo_mega_stacker___beef_double",
+      "name": "Rodeo Mega Stacker - Beef Double",
+      "category": "Flame Grilled Beef",
+      "subcategory": "",
+      "description": "Burger King Rodeo Mega Stacker - Beef Double",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "432g",
+        "weight_g": 432.0
+      },
+      "nutrition": {
+        "calories": 1217,
+        "protein_g": 76.5,
+        "fat_g": 83.7,
+        "saturated_fat_g": 35.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 966,
+        "potassium_mg": null,
+        "carbohydrates_g": 40.9,
+        "fiber_g": null,
+        "sugars_g": 12.3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_all_american_steakhouse",
+      "name": "All American Steakhouse",
+      "category": "King's Collection",
+      "subcategory": "",
+      "description": "Burger King All American Steakhouse",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "320g",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 54.7,
+        "fat_g": 55.5,
+        "saturated_fat_g": 19.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1150,
+        "potassium_mg": null,
+        "carbohydrates_g": 25.6,
+        "fiber_g": null,
+        "sugars_g": 11.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_new_york_steakhouse",
+      "name": "New York Steakhouse",
+      "category": "King's Collection",
+      "subcategory": "",
+      "description": "Burger King New York Steakhouse",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "400g",
+        "weight_g": 400.0
+      },
+      "nutrition": {
+        "calories": 1006,
+        "protein_g": 59.3,
+        "fat_g": 68.5,
+        "saturated_fat_g": 25.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1420,
+        "potassium_mg": null,
+        "carbohydrates_g": 28.4,
+        "fiber_g": null,
+        "sugars_g": 11.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_streaky_bacon_steakhouse",
+      "name": "Streaky Bacon Steakhouse",
+      "category": "King's Collection",
+      "subcategory": "",
+      "description": "Burger King Streaky Bacon Steakhouse",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "326g",
+        "weight_g": 326.0
+      },
+      "nutrition": {
+        "calories": 932,
+        "protein_g": 55.5,
+        "fat_g": 59.3,
+        "saturated_fat_g": 26.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1450,
+        "potassium_mg": null,
+        "carbohydrates_g": 28.6,
+        "fiber_g": null,
+        "sugars_g": 12.1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bk_chicken",
+      "name": "BK Chicken",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King BK Chicken",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "198g",
+        "weight_g": 198.0
+      },
+      "nutrition": {
+        "calories": 593,
+        "protein_g": 26.4,
+        "fat_g": 34.0,
+        "saturated_fat_g": 5.4,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 877,
+        "potassium_mg": null,
+        "carbohydrates_g": 43.9,
+        "fiber_g": null,
+        "sugars_g": 7.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bk_chicken_with_cheese",
+      "name": "BK Chicken with Cheese",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King BK Chicken with Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "222g",
+        "weight_g": 222.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 31.1,
+        "fat_g": 40.0,
+        "saturated_fat_g": 9.3,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1265,
+        "potassium_mg": null,
+        "carbohydrates_g": 45.0,
+        "fiber_g": null,
+        "sugars_g": 7.7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bk_double_chicken",
+      "name": "BK Double Chicken",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King BK Double Chicken",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "284g",
+        "weight_g": 284.0
+      },
+      "nutrition": {
+        "calories": 796,
+        "protein_g": 45.1,
+        "fat_g": 42.0,
+        "saturated_fat_g": 6.7,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1371,
+        "potassium_mg": null,
+        "carbohydrates_g": 57.0,
+        "fiber_g": null,
+        "sugars_g": 7.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_crispy_chicken_burger",
+      "name": "Crispy Chicken Burger",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King Crispy Chicken Burger",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "189g",
+        "weight_g": 189.0
+      },
+      "nutrition": {
+        "calories": 483,
+        "protein_g": 18.9,
+        "fat_g": 28.0,
+        "saturated_fat_g": 6.8,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1067,
+        "potassium_mg": null,
+        "carbohydrates_g": 43.8,
+        "fiber_g": null,
+        "sugars_g": 6.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_original_fried_chicken",
+      "name": "Original Fried Chicken",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King Original Fried Chicken",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "270g",
+        "weight_g": 270.0
+      },
+      "nutrition": {
+        "calories": 759,
+        "protein_g": 26.0,
+        "fat_g": 37.3,
+        "saturated_fat_g": 7.8,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 590,
+        "potassium_mg": null,
+        "carbohydrates_g": 30.4,
+        "fiber_g": null,
+        "sugars_g": 6.9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_spicy_southern_fried_chicken",
+      "name": "Spicy Southern Fried Chicken",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King Spicy Southern Fried Chicken",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "297g",
+        "weight_g": 297.0
+      },
+      "nutrition": {
+        "calories": 732,
+        "protein_g": 28.8,
+        "fat_g": 35.9,
+        "saturated_fat_g": 5.2,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 871,
+        "potassium_mg": null,
+        "carbohydrates_g": 75.7,
+        "fiber_g": null,
+        "sugars_g": 91.6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chicken_nuggets_10pc",
+      "name": "Chicken Nuggets (10pc)",
+      "category": "Chicken",
+      "subcategory": "",
+      "description": "Burger King Chicken Nuggets (10pc)",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "170g",
+        "weight_g": 170.0
+      },
+      "nutrition": {
+        "calories": 504,
+        "protein_g": 23.7,
+        "fat_g": 20.5,
+        "saturated_fat_g": 4.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1160,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.9,
+        "fiber_g": null,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_plant_based_whopper",
+      "name": "Plant Based Whopper",
+      "category": "Plant Based",
+      "subcategory": "",
+      "description": "Burger King Plant Based Whopper",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "298g",
+        "weight_g": 298.0
+      },
+      "nutrition": {
+        "calories": 563,
+        "protein_g": 23.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 980,
+        "potassium_mg": null,
+        "carbohydrates_g": 48.0,
+        "fiber_g": null,
+        "sugars_g": 11.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_plant_based_bk_chook",
+      "name": "Plant Based BK Chook",
+      "category": "Plant Based",
+      "subcategory": "",
+      "description": "Burger King Plant Based BK Chook",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "208g",
+        "weight_g": 208.0
+      },
+      "nutrition": {
+        "calories": 504,
+        "protein_g": 21.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1050,
+        "potassium_mg": null,
+        "carbohydrates_g": 51.0,
+        "fiber_g": null,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_thick_cut_fries___small",
+      "name": "Thick Cut Fries - Small",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Burger King Thick Cut Fries - Small",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "128g",
+        "weight_g": 128.0
+      },
+      "nutrition": {
+        "calories": 311,
+        "protein_g": 4.3,
+        "fat_g": 13.2,
+        "saturated_fat_g": 1.7,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 315,
+        "potassium_mg": null,
+        "carbohydrates_g": 46.2,
+        "fiber_g": null,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_thick_cut_fries___regular",
+      "name": "Thick Cut Fries - Regular",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Burger King Thick Cut Fries - Regular",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "180g",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 443,
+        "protein_g": 6.1,
+        "fat_g": 18.8,
+        "saturated_fat_g": 2.4,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 445,
+        "potassium_mg": null,
+        "carbohydrates_g": 61.1,
+        "fiber_g": null,
+        "sugars_g": 0.7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_thick_cut_fries___large",
+      "name": "Thick Cut Fries - Large",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Burger King Thick Cut Fries - Large",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "231g",
+        "weight_g": 231.0
+      },
+      "nutrition": {
+        "calories": 568,
+        "protein_g": 7.8,
+        "fat_g": 24.1,
+        "saturated_fat_g": 3.1,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 570,
+        "potassium_mg": null,
+        "carbohydrates_g": 78.3,
+        "fiber_g": null,
+        "sugars_g": 0.9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_onion_rings_6pc",
+      "name": "Onion Rings (6pc)",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Burger King Onion Rings (6pc)",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "109g",
+        "weight_g": 109.0
+      },
+      "nutrition": {
+        "calories": 402,
+        "protein_g": 4.4,
+        "fat_g": 28.7,
+        "saturated_fat_g": 2.9,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 870,
+        "potassium_mg": null,
+        "carbohydrates_g": 31.1,
+        "fiber_g": null,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_hash_bites___regular",
+      "name": "Hash Bites - Regular",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Burger King Hash Bites - Regular",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "150g",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 3.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 650,
+        "potassium_mg": null,
+        "carbohydrates_g": 35.0,
+        "fiber_g": null,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chocolate_shake___medium",
+      "name": "Chocolate Shake - Medium",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Burger King Chocolate Shake - Medium",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "310g",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 558,
+        "protein_g": 10.6,
+        "fat_g": 10.0,
+        "saturated_fat_g": 7.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.6,
+        "fiber_g": null,
+        "sugars_g": 62.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_strawberry_shake___medium",
+      "name": "Strawberry Shake - Medium",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Burger King Strawberry Shake - Medium",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "310g",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 558,
+        "protein_g": 10.6,
+        "fat_g": 10.0,
+        "saturated_fat_g": 7.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.6,
+        "fiber_g": null,
+        "sugars_g": 62.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_king_fusion_cookies_&_cream",
+      "name": "King Fusion Cookies & Cream",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Burger King King Fusion Cookies & Cream",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "200g",
+        "weight_g": 200.0
+      },
+      "nutrition": {
+        "calories": 573,
+        "protein_g": 7.2,
+        "fat_g": 13.2,
+        "saturated_fat_g": 7.96,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 259,
+        "potassium_mg": null,
+        "carbohydrates_g": 70.9,
+        "fiber_g": null,
+        "sugars_g": 53.3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chilli_cheese_bites_6pc",
+      "name": "Chilli Cheese Bites (6pc)",
+      "category": "Limited Time",
+      "subcategory": "",
+      "description": "Burger King Chilli Cheese Bites (6pc)",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "120g",
+        "weight_g": 120.0
+      },
+      "nutrition": {
+        "calories": 353,
+        "protein_g": 7.8,
+        "fat_g": 20.4,
+        "saturated_fat_g": 6.6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 852,
+        "potassium_mg": null,
+        "carbohydrates_g": 34.8,
+        "fiber_g": null,
+        "sugars_g": 1.68,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bk_galactic_whopper",
+      "name": "Galactic Whopper",
+      "category": "Limited Time",
+      "subcategory": "",
+      "description": "Burger King Galactic Whopper",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "Global/NZ"
+      },
+      "serving": {
+        "size": "318g",
+        "weight_g": 318.0
+      },
+      "nutrition": {
+        "calories": 766,
+        "protein_g": 39.0,
+        "fat_g": 56.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1159,
+        "potassium_mg": null,
+        "carbohydrates_g": 37.0,
+        "fiber_g": null,
+        "sugars_g": 9.2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.bk.com/menu",
+      "sources": [
+        {
+          "url": "https://bknzpublic.z8.web.core.windows.net/nutritionalguide/nutritionalguide.pdf",
+          "source_type": "official_pdf",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

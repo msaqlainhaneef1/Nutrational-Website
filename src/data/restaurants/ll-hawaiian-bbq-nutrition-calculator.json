@@ -1,0 +1,201 @@
+{
+  "name": "L&L Hawaiian Barbecue",
+  "slug": "ll-hawaiian-bbq-nutrition-calculator",
+  "tagline": "Track nutrition for L&L Hawaiian Barbecue menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 17 menu items at L&L Hawaiian Barbecue.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 17,
+  "categories": [
+    {
+      "name": "Plate Lunch",
+      "items": [
+        {
+          "name": "BBQ Chicken",
+          "calories": 1174,
+          "protein": 66.4,
+          "fat": 55.4,
+          "carbs": 100.2,
+          "sodium": 1830,
+          "saturated_fat": 5
+        },
+        {
+          "name": "BBQ Mix",
+          "calories": 1274,
+          "protein": 70.4,
+          "fat": 61.4,
+          "carbs": 106.2,
+          "sodium": 2290,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Chicken Katsu",
+          "calories": 1811,
+          "protein": 76.4,
+          "fat": 98.4,
+          "carbs": 153.3,
+          "sodium": 868,
+          "saturated_fat": 25
+        },
+        {
+          "name": "Loco Moco",
+          "calories": 1311,
+          "protein": 55.0,
+          "fat": 76.4,
+          "carbs": 102.0,
+          "sodium": 1718,
+          "cholesterol": 420,
+          "saturated_fat": 24,
+          "sugars": 2
+        },
+        {
+          "name": "Kalua Pork with Cabbage",
+          "calories": 1030,
+          "protein": 53.4,
+          "fat": 48.4,
+          "carbs": 92.2,
+          "sodium": 1530,
+          "saturated_fat": 18
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "BBQ Chicken Bowl",
+          "calories": 459.5,
+          "protein": 0,
+          "fat": 10.5,
+          "carbs": 58.2,
+          "saturated_fat": 0.1
+        },
+        {
+          "name": "BBQ Beef Bowl",
+          "calories": 390,
+          "protein": 18,
+          "fat": 4,
+          "carbs": 74
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "BBQ Cheeseburger",
+          "calories": 550,
+          "protein": 24.2,
+          "fat": 12,
+          "carbs": 38.1,
+          "fiber": 2.5,
+          "sodium": 655.3,
+          "cholesterol": 86.6,
+          "saturated_fat": 5,
+          "sugars": 6.2
+        },
+        {
+          "name": "BBQ Hamburger",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Musubi",
+      "items": [
+        {
+          "name": "SPAM Musubi",
+          "calories": 258,
+          "protein": 7.5,
+          "fat": 8.1,
+          "carbs": 41.1,
+          "fiber": 0.5,
+          "sodium": 829,
+          "cholesterol": 24,
+          "saturated_fat": 3.4,
+          "sugars": 10.1
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        {
+          "name": "Garlic Shrimp",
+          "calories": 240,
+          "protein": 14.9,
+          "fat": 5.1,
+          "carbs": 33.7,
+          "fiber": 2.6,
+          "sodium": 351,
+          "saturated_fat": 1.2,
+          "sugars": 0.8
+        },
+        {
+          "name": "Fried Shrimp",
+          "calories": 760,
+          "protein": 30,
+          "fat": 48,
+          "carbs": 150,
+          "sodium": 2010
+        },
+        {
+          "name": "Seafood Combo",
+          "calories": 1398,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Healthy Garlic Ahi",
+          "calories": 313,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Lighter Options",
+      "items": [
+        {
+          "name": "Lighter BBQ Chicken",
+          "calories": 240,
+          "protein": 3.9,
+          "fat": 5.1,
+          "carbs": 30.7,
+          "fiber": 2.6,
+          "sodium": 21,
+          "saturated_fat": 0.2,
+          "sugars": 0.8
+        },
+        {
+          "name": "Lighter Garlic Shrimp",
+          "calories": 240,
+          "protein": 14.9,
+          "fat": 5.1,
+          "carbs": 33.7,
+          "fiber": 2.6,
+          "sodium": 351,
+          "saturated_fat": 1.2,
+          "sugars": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Brown Rice (1 scoop)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    }
+  ]
+}

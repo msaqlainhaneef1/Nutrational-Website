@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "McCrispy"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_mccrispy_strips_4pc",
+      "name": "McCrispy Strips (4 Piece)",
+      "category": "Chicken",
+      "subcategory": "McCrispy",
+      "description": "Tender, juicy chicken breast meat seasoned, breaded, and fried to golden perfection.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces (125g)",
+        "weight_g": 125.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 25.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken breast tenderloin",
+        "water",
+        "seasoning (salt, garlic powder, onion powder, spices, sugar)",
+        "breaded with bleached wheat flour",
+        "water",
+        "modified corn starch",
+        "salt",
+        "leavening (sodium acid pyrophosphate, baking soda)",
+        "spice",
+        "soybean oil",
+        "canola oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-mccrispy-strips.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/mccrispy-strips-4-piece.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

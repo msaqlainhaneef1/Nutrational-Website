@@ -1,0 +1,81 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "SubSandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_beast_footlong",
+      "name": "The Beast (Footlong)",
+      "category": "Subway Series",
+      "subcategory": "Italian B.M.T. / Meats",
+      "description": "Loaded with pepperoni, salami, capicola, turkey, and roast beef, topped with provolone cheese, lettuce, tomatoes, crisp cucumbers, green peppers, red onions, and MVP Parmesan Vinaigrette on Artisan Italian bread.",
+      "price": 12.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 footlong (410g)",
+        "weight_g": 410.0
+      },
+      "nutrition": {
+        "calories": 1350,
+        "protein_g": 74.0,
+        "fat_g": 82.0,
+        "saturated_fat_g": 27.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 210.0,
+        "sodium_mg": 3760.0,
+        "potassium_mg": 980.0,
+        "carbohydrates_g": 79.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Pepperoni",
+        "Salami",
+        "Capicola",
+        "Turkey",
+        "Roast Beef",
+        "Provolone Cheese",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumbers",
+        "Green Peppers",
+        "Red Onions",
+        "MVP Parmesan Vinaigrette"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/-/media/images/subway/menu/sandwiches/the-beast/subway-menu-subway-series-the-beast-1235x725.png",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menu/all-menu-items/subway-series/the-beast",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutritioninformation",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

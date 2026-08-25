@@ -1,0 +1,3245 @@
+{
+  "name": "Pita Pit",
+  "slug": "pita-pit-nutrition-calculator",
+  "tagline": "Track nutrition for Pita Pit menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 352 menu items at Pita Pit.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 352,
+  "categories": [
+    {
+      "name": "Signature Pitas",
+      "items": [
+        {
+          "name": "Mediterranean",
+          "calories": 640,
+          "protein": 38,
+          "fat": 22,
+          "carbs": 52,
+          "servingSize": "Regular",
+          "sodium": 1180
+        },
+        {
+          "name": "Smoked Pulled Pork",
+          "calories": 610,
+          "protein": 32,
+          "fat": 28,
+          "carbs": 48,
+          "servingSize": "Regular",
+          "sodium": 1240
+        },
+        {
+          "name": "Chicken Bacon Ranch",
+          "calories": 720,
+          "protein": 42,
+          "fat": 32,
+          "carbs": 44,
+          "servingSize": "Regular",
+          "sodium": 1380
+        },
+        {
+          "name": "Chicken Caesar",
+          "calories": 270,
+          "protein": 31,
+          "fat": 13,
+          "carbs": 3,
+          "servingSize": "Regular",
+          "sodium": 990,
+          "cholesterol": 90,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Buffalo Chicken",
+          "calories": 120,
+          "protein": 21,
+          "fat": 1,
+          "carbs": 4,
+          "servingSize": "Regular",
+          "sodium": 1210,
+          "cholesterol": 50
+        },
+        {
+          "name": "Super Greek",
+          "calories": 680,
+          "protein": 33,
+          "fat": 37,
+          "carbs": 60,
+          "servingSize": "Regular",
+          "fiber": 8,
+          "sodium": 2050,
+          "cholesterol": 110,
+          "saturated_fat": 15,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Classic Pitas",
+      "items": [
+        {
+          "name": "Falafel",
+          "calories": 210,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 24,
+          "servingSize": "Regular",
+          "fiber": 7,
+          "sodium": 370,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Hummus",
+          "calories": 70,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 4,
+          "servingSize": "Regular",
+          "fiber": 2,
+          "sodium": 120
+        },
+        {
+          "name": "Gyro",
+          "calories": 370,
+          "protein": 19,
+          "fat": 27,
+          "carbs": 12,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 910,
+          "cholesterol": 90,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken",
+          "calories": 650,
+          "protein": 41,
+          "fat": 35,
+          "carbs": 50,
+          "servingSize": "Regular",
+          "fiber": 6,
+          "sodium": 1450,
+          "cholesterol": 110,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Souvlaki",
+          "calories": 160,
+          "protein": 19,
+          "fat": 8,
+          "carbs": 3,
+          "servingSize": "Regular",
+          "sodium": 590,
+          "cholesterol": 95,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Philly",
+          "calories": 200,
+          "protein": 22,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "Regular",
+          "sodium": 680,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Greek Grilled Cheese",
+      "items": [
+        {
+          "name": "Chicken Club",
+          "calories": 450,
+          "protein": 32,
+          "fat": 18,
+          "carbs": 42,
+          "servingSize": "Regular",
+          "sodium": 950
+        },
+        {
+          "name": "Cowboy Steak",
+          "calories": 490,
+          "protein": 30,
+          "fat": 24,
+          "carbs": 38,
+          "servingSize": "Regular",
+          "sodium": 1150
+        },
+        {
+          "name": "Athens",
+          "calories": 430,
+          "protein": 30,
+          "fat": 16,
+          "carbs": 40,
+          "servingSize": "Regular",
+          "sodium": 900
+        }
+      ]
+    },
+    {
+      "name": "Fresh Bowls",
+      "items": [
+        {
+          "name": "Ode To Athens",
+          "calories": 690,
+          "protein": 34,
+          "fat": 40,
+          "carbs": 61,
+          "servingSize": "Regular",
+          "fiber": 6,
+          "sodium": 1560,
+          "cholesterol": 80,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "Hula Teriyaki",
+          "calories": 480,
+          "protein": 30,
+          "fat": 2.5,
+          "carbs": 80,
+          "servingSize": "Regular",
+          "fiber": 3,
+          "sodium": 2400,
+          "cholesterol": 50,
+          "sugars": 30
+        },
+        {
+          "name": "Bruschetta",
+          "calories": 340,
+          "protein": 34,
+          "fat": 16,
+          "carbs": 48,
+          "servingSize": "Regular",
+          "sodium": 860
+        }
+      ]
+    },
+    {
+      "name": "For The Little Legends",
+      "items": [
+        {
+          "name": "Kids Pita",
+          "calories": 270,
+          "protein": 15,
+          "fat": 10,
+          "carbs": 30,
+          "servingSize": "Regular",
+          "sodium": 600
+        },
+        {
+          "name": "Kids Meal",
+          "calories": 450,
+          "protein": 20,
+          "fat": 15,
+          "carbs": 60,
+          "servingSize": "Regular",
+          "sodium": 800
+        },
+        {
+          "name": "Say Cheese",
+          "calories": 410,
+          "protein": 21,
+          "fat": 20,
+          "carbs": 37,
+          "servingSize": "Regular",
+          "sodium": 750
+        }
+      ]
+    },
+    {
+      "name": "Bases",
+      "items": [
+        {
+          "name": "White Pocket Pita",
+          "calories": 180,
+          "protein": 6,
+          "fat": 1,
+          "carbs": 38,
+          "fiber": 3,
+          "sodium": 390,
+          "sugars": 2
+        },
+        {
+          "name": "Whole Wheat Pocket Pita",
+          "calories": 180,
+          "protein": 6,
+          "fat": 1,
+          "carbs": 33,
+          "fiber": 3,
+          "sodium": 330
+        },
+        {
+          "name": "Blended White/Wheat",
+          "calories": 180,
+          "protein": 7,
+          "fat": 1,
+          "carbs": 36,
+          "fiber": 3,
+          "sodium": 390,
+          "sugars": 2
+        },
+        {
+          "name": "Gluten Free Wrap",
+          "calories": 220,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 45,
+          "fiber": 4,
+          "sodium": 500,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Whole Grain Brown Rice and Quinoa",
+          "calories": 210,
+          "protein": 5,
+          "fat": 1.5,
+          "carbs": 43,
+          "fiber": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Hardwood Smoked Brisket",
+          "calories": 580,
+          "protein": 21,
+          "fat": 19,
+          "carbs": 65,
+          "fiber": 6,
+          "sodium": 1060,
+          "cholesterol": 80,
+          "saturated_fat": 7,
+          "sugars": 22
+        },
+        {
+          "name": "Baja Chicken Bacon Ranch",
+          "calories": 650,
+          "protein": 41,
+          "fat": 35,
+          "carbs": 50,
+          "fiber": 6,
+          "sodium": 1450,
+          "cholesterol": 110,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Pesto",
+          "calories": 490,
+          "protein": 35,
+          "fat": 20,
+          "carbs": 50,
+          "fiber": 7,
+          "sodium": 1330,
+          "cholesterol": 240,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Southwest Chicken Fajita",
+          "calories": 570,
+          "protein": 35,
+          "fat": 25,
+          "carbs": 55,
+          "fiber": 5,
+          "sodium": 1260,
+          "cholesterol": 235,
+          "saturated_fat": 10,
+          "sugars": 10
+        },
+        {
+          "name": "Southwest Steak Fajita",
+          "calories": 660,
+          "protein": 35,
+          "fat": 35,
+          "carbs": 53,
+          "fiber": 4,
+          "sodium": 1590,
+          "cholesterol": 240,
+          "saturated_fat": 13,
+          "sugars": 12
+        },
+        {
+          "name": "Thai Chicken",
+          "calories": 390,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 55,
+          "fiber": 5,
+          "sodium": 1235,
+          "cholesterol": 180,
+          "sugars": 9
+        },
+        {
+          "name": "Ode To Athens Souvlaki",
+          "calories": 690,
+          "protein": 34,
+          "fat": 40,
+          "carbs": 61,
+          "fiber": 6,
+          "sodium": 1560,
+          "cholesterol": 80,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "Ode To Athens Falafel",
+          "calories": 820,
+          "protein": 14,
+          "fat": 60,
+          "carbs": 80,
+          "fiber": 7,
+          "sodium": 1800,
+          "cholesterol": 540,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "Hula Teriyaki Chicken",
+          "calories": 480,
+          "protein": 30,
+          "fat": 2.5,
+          "carbs": 80,
+          "fiber": 3,
+          "sodium": 2400,
+          "cholesterol": 50,
+          "sugars": 30
+        },
+        {
+          "name": "Hula Teriyaki Steak",
+          "calories": 570,
+          "protein": 30,
+          "fat": 15,
+          "carbs": 80,
+          "fiber": 3,
+          "sodium": 2730,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 30
+        },
+        {
+          "name": "Smokin\u2019 BBQ",
+          "calories": 830,
+          "protein": 40,
+          "fat": 30,
+          "carbs": 100,
+          "fiber": 6,
+          "sodium": 2340,
+          "cholesterol": 110,
+          "saturated_fat": 8.5,
+          "sugars": 50
+        },
+        {
+          "name": "Thai Buddha",
+          "calories": 550,
+          "protein": 30,
+          "fat": 20,
+          "carbs": 70,
+          "fiber": 5,
+          "sodium": 1240,
+          "cholesterol": 50,
+          "saturated_fat": 1,
+          "sugars": 15
+        },
+        {
+          "name": "Chicken Caesar (Chicken, Bacon)",
+          "calories": 270,
+          "protein": 31,
+          "fat": 13,
+          "carbs": 3,
+          "sodium": 990,
+          "cholesterol": 90,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Buffalo Chicken (Chicken Breast, Buffalo Sauce)",
+          "calories": 120,
+          "protein": 21,
+          "fat": 1,
+          "carbs": 4,
+          "sodium": 1210,
+          "cholesterol": 50
+        },
+        {
+          "name": "Chicken Crave (Chicken, Ham)",
+          "calories": 150,
+          "protein": 27,
+          "fat": 2.5,
+          "carbs": 4,
+          "sodium": 630,
+          "cholesterol": 70,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Souvlaki (Souvlaki)",
+          "calories": 160,
+          "protein": 19,
+          "fat": 8,
+          "carbs": 3,
+          "sodium": 590,
+          "cholesterol": 95,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Breast (Chicken Breast)",
+          "calories": 110,
+          "protein": 21,
+          "fat": 1,
+          "carbs": 3,
+          "sodium": 350,
+          "cholesterol": 50
+        },
+        {
+          "name": "BLT (Bacon)",
+          "calories": 160,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 0,
+          "sodium": 640,
+          "cholesterol": 40,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Gyro (Gyro)",
+          "calories": 370,
+          "protein": 19,
+          "fat": 27,
+          "carbs": 12,
+          "fiber": 1,
+          "sodium": 910,
+          "cholesterol": 90,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Philly (Philly)",
+          "calories": 200,
+          "protein": 22,
+          "fat": 12,
+          "carbs": 2,
+          "sodium": 680,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Club (Turkey, Ham, Bacon)",
+          "calories": 160,
+          "protein": 18,
+          "fat": 8,
+          "carbs": 3,
+          "sodium": 990,
+          "cholesterol": 55,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Deli Ham (Ham)",
+          "calories": 100,
+          "protein": 15,
+          "fat": 4,
+          "carbs": 2,
+          "sodium": 700,
+          "cholesterol": 50,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Deli Turkey (Turkey)",
+          "calories": 100,
+          "protein": 18,
+          "fat": 1.5,
+          "carbs": 5,
+          "sodium": 980,
+          "cholesterol": 40,
+          "sugars": 2
+        },
+        {
+          "name": "Falafel (Falafel)",
+          "calories": 210,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 24,
+          "fiber": 7,
+          "sodium": 370,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Black Bean Patty (Black Bean Patty)",
+          "calories": 110,
+          "protein": 11,
+          "fat": 3,
+          "carbs": 16,
+          "fiber": 8,
+          "sodium": 730,
+          "sugars": 1
+        },
+        {
+          "name": "Garden Hummus (Hummus)",
+          "calories": 140,
+          "protein": 2,
+          "fat": 12,
+          "carbs": 8,
+          "fiber": 4,
+          "sodium": 240
+        },
+        {
+          "name": "All Day Breakfast (Bacon, Egg)",
+          "calories": 250,
+          "protein": 16,
+          "fat": 19,
+          "carbs": 1,
+          "sodium": 800,
+          "cholesterol": 165,
+          "saturated_fat": 6.5,
+          "sugars": 1
+        },
+        {
+          "name": "All Day Breakfast (Steak, Egg)",
+          "calories": 290,
+          "protein": 28,
+          "fat": 19,
+          "carbs": 3,
+          "sodium": 840,
+          "cholesterol": 185,
+          "saturated_fat": 55,
+          "sugars": 3
+        },
+        {
+          "name": "All Day Breakfast (Ham, Egg)",
+          "calories": 190,
+          "protein": 21,
+          "fat": 11,
+          "carbs": 3,
+          "sodium": 860,
+          "cholesterol": 175,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Feta Quesapita",
+          "calories": 420,
+          "protein": 21,
+          "fat": 19,
+          "carbs": 39,
+          "fiber": 5,
+          "sodium": 1350,
+          "cholesterol": 60,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Cheddar Quesapita",
+          "calories": 510,
+          "protein": 27,
+          "fat": 28,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 930,
+          "cholesterol": 75,
+          "saturated_fat": 15
+        },
+        {
+          "name": "Provolone Quesapita",
+          "calories": 420,
+          "protein": 23,
+          "fat": 20,
+          "carbs": 38,
+          "fiber": 2,
+          "sodium": 990,
+          "cholesterol": 50,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Pepperjack Quesapita",
+          "calories": 480,
+          "protein": 24,
+          "fat": 25,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 870,
+          "cholesterol": 75,
+          "saturated_fat": 12
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Bacon",
+          "calories": 160,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 0,
+          "sodium": 640,
+          "cholesterol": 40,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Black Bean Patty",
+          "calories": 110,
+          "protein": 11,
+          "fat": 3,
+          "carbs": 16,
+          "fiber": 8,
+          "sodium": 730,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Breast",
+          "calories": 110,
+          "protein": 21,
+          "fat": 1,
+          "carbs": 3,
+          "sodium": 350,
+          "cholesterol": 50
+        },
+        {
+          "name": "Deli Ham",
+          "calories": 100,
+          "protein": 15,
+          "fat": 4,
+          "carbs": 2,
+          "sodium": 700,
+          "cholesterol": 50,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Deli Turkey",
+          "calories": 100,
+          "protein": 18,
+          "fat": 1.5,
+          "carbs": 5,
+          "sodium": 980,
+          "cholesterol": 40,
+          "sugars": 2
+        },
+        {
+          "name": "Philly Steak",
+          "calories": 200,
+          "protein": 22,
+          "fat": 12,
+          "carbs": 2,
+          "sodium": 680,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Egg",
+          "calories": 90,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 1,
+          "sodium": 160,
+          "cholesterol": 125,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Avocado",
+          "calories": 60,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 3,
+          "fiber": 2,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Banana Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 200
+        },
+        {
+          "name": "Black Olives",
+          "calories": 20,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "sodium": 180
+        },
+        {
+          "name": "Black Pepper",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Carrots",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 15,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Cucumbers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Fire Roasted Corn",
+          "calories": 34,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 6,
+          "fiber": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Green Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "name": "Iceberg Lettuce",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Jalapenos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 340
+        },
+        {
+          "name": "Mushrooms",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Onions",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Pickles",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 180
+        },
+        {
+          "name": "Pineapple",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Roasted Red Peppers",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 85
+        },
+        {
+          "name": "Roasted Red Pepper Hummus",
+          "calories": 70,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 105
+        },
+        {
+          "name": "Romaine Lettuce",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 1,
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Salt",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 100
+        },
+        {
+          "name": "Spinach",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 35
+        },
+        {
+          "name": "Tomatoes",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Spreads",
+      "items": [
+        {
+          "name": "Ancho Chipotle",
+          "calories": 90,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 4,
+          "sodium": 260,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 4
+        },
+        {
+          "name": "Balsamic Vinaigrette",
+          "calories": 60,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 4,
+          "sodium": 190,
+          "saturated_fat": 0.5,
+          "sugars": 4
+        },
+        {
+          "name": "Buffalo Sauce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 430
+        },
+        {
+          "name": "Sriracha",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 230,
+          "sugars": 3
+        },
+        {
+          "name": "Yellow Mustard",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 160
+        }
+      ]
+    },
+    {
+      "name": "Cheeses",
+      "items": [
+        {
+          "name": "Cheddar",
+          "calories": 120,
+          "protein": 7,
+          "fat": 9,
+          "carbs": 1,
+          "sodium": 180,
+          "cholesterol": 25,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Feta",
+          "calories": 80,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 1,
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Parmesan",
+          "calories": 50,
+          "protein": 4,
+          "fat": 3.5,
+          "carbs": 0,
+          "sodium": 160,
+          "cholesterol": 5,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Pepper Jack",
+          "calories": 100,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 1,
+          "sodium": 160,
+          "cholesterol": 25,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Provolone",
+          "calories": 40,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 100,
+          "cholesterol": 8,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Seasonings",
+      "items": [
+        {
+          "name": "Pepper",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Garlic Romano",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "cholesterol": 55,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Mojito Lime",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 130
+        },
+        {
+          "name": "Smokehouse Maple",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 115
+        },
+        {
+          "name": "Bayou Cajun",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 60
+        },
+        {
+          "name": "Greek",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 160
+        }
+      ]
+    },
+    {
+      "name": "Sides & Snacks",
+      "items": [
+        {
+          "name": "Pita Chips",
+          "calories": 400,
+          "protein": 6,
+          "fat": 30,
+          "carbs": 36,
+          "fiber": 2,
+          "sodium": 390,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Carnival M&M",
+          "calories": 160,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 140,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 15
+        },
+        {
+          "name": "Choco Chip",
+          "calories": 170,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 120,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 15
+        },
+        {
+          "name": "Choco Chunk",
+          "calories": 160,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 125,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 14
+        },
+        {
+          "name": "Double Choco Chip",
+          "calories": 160,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 135,
+          "cholesterol": 10,
+          "saturated_fat": 5,
+          "sugars": 15
+        },
+        {
+          "name": "Oatmeal Raisin",
+          "calories": 160,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 23,
+          "fiber": 1,
+          "sodium": 130,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 13
+        },
+        {
+          "name": "Peanut Butter",
+          "calories": 170,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 20,
+          "fiber": 1,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 12
+        },
+        {
+          "name": "White Chocolate Macadamia Nut",
+          "calories": 170,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 22,
+          "sodium": 125,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "FUZE Brewed Tea Green Tea Sweet",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "sodium": 60,
+          "sugars": 37
+        },
+        {
+          "name": "FUZE Brewed Tea Raspberry Tea Sweet",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 60,
+          "sugars": 56
+        },
+        {
+          "name": "FUZE Brewed Tea Southern Tea Sweet",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 60,
+          "sugars": 68
+        },
+        {
+          "name": "FUZE Brewed Tea Strawberry Kiwi Tea Sweet",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 60,
+          "sugars": 62
+        },
+        {
+          "name": "FUZE Brewed Tea Half & Half Tea with Lemonade",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 60,
+          "sugars": 62
+        },
+        {
+          "name": "Gold Peak Classic Blend Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Gold Peak Green Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Gold Peak Passionfruit Mango Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Gold Peak Raspberry Lemonade Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 60,
+          "sugars": 33
+        },
+        {
+          "name": "Gold Peak Peach Papaya Green Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 60,
+          "sugars": 34
+        },
+        {
+          "name": "Gold Peak Strawberry Kiwi Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 60,
+          "sugars": 33
+        },
+        {
+          "name": "Honest Brewed Classic Green Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sodium": 75,
+          "sugars": 31
+        },
+        {
+          "name": "Honest Brewed Just Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Honest Brewed Lemon Herbal Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sodium": 75,
+          "sugars": 31
+        },
+        {
+          "name": "Honest Brewed Raspberry Tea",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "sodium": 75,
+          "sugars": 31
+        },
+        {
+          "name": "Barq's Root Beer",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Barq's Root Beer with Vanilla",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 65,
+          "sugars": 79
+        },
+        {
+          "name": "Caffeine Free Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 65,
+          "sugars": 79
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Cherry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Raspberry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Lemon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Caffeine Free Diet Coke with Cherry Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coca-Cola",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke with Orange",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 70,
+          "sodium": 60,
+          "sugars": 70
+        },
+        {
+          "name": "Coke with Cherry",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 70,
+          "sugars": 73
+        },
+        {
+          "name": "Coke with Lime",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke with Raspberry",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke with Lemon",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke with Vanilla",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke with Cherry Vanilla",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Coke Zero with Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Cherry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Raspberry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Lemon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Coke Zero with Cherry Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Cherry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Lime",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Raspberry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Lemon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Strawberry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Grape",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani with Peach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani Sparkling Seltzer Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Dasani Sparkling Lemon Lime Seltzer Water",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Barq's Root Beer",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Barq's Root Beer with Vanilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Diet Coke with Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Cherry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Raspberry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Lemon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Coke with Cherry Vanilla",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Orange",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Cherry",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 70,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Lime",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Raspberry",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Fruit Punch",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Strawberry",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Grape",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Peach",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Vanilla (Specialty)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 65,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Zero Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 78,
+          "sodium": 60,
+          "sugars": 78
+        },
+        {
+          "name": "Fanta Zero Cherry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Fanta Zero Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Zero Raspberry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Zero Fruit Punch",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Zero Strawberry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Zero Grape",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fanta Zero Peach",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Fanta Vanilla (Specialty)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Fruitwater Fizzy Lemonade",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fruitwater Fizzy Mixed Berry",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fruitwater Fizzy Strawberry Lemonade",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fruitwater Fizzy Lemon-Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fruitwater Fizzy Peach Lemonade",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Fruitwater Fizzy Cherry-Lime",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Sweet Tea",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Raspberry Tea",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 60,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Lemon Tea",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 60,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Strawberry Tea",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 65,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Peach Tea",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 60,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Raspberry Peach Tea",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 65,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Unsweetened Tea",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 65,
+          "sugars": 59
+        },
+        {
+          "name": "FUZE Diet Tea",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "FUZE Diet Raspberry Tea",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Diet Lemon Tea",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Diet Strawberry Tea",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Diet Peach Tea",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "FUZE Diet Raspberry Peach Tea",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Hi-C Orange",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Hi-C Cherry",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "sodium": 70,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Raspberry",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Lemon",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Fruit Punch",
+          "calories": 320,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 65,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Strawberry",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Grape",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Raspberry Lime",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Orange Vanilla",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 60,
+          "sugars": 79
+        },
+        {
+          "name": "Master Pour Black Cherry (Specialty)",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 65,
+          "sugars": 79
+        },
+        {
+          "name": "Master Pour Black Cherry Light (Speciality)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 65,
+          "sugars": 73
+        },
+        {
+          "name": "Mello Yello",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 65,
+          "sugars": 44
+        },
+        {
+          "name": "Mello Yello Orange",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Cherry",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "sodium": 70,
+          "sugars": 58
+        },
+        {
+          "name": "Mello Yello Raspberry",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Fruit Punch",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Strawberry",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Grape",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Peach",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello with Strawberry Peach (Specialty)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 65,
+          "sugars": 60
+        },
+        {
+          "name": "Mello Yello Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 65,
+          "sugars": 59
+        },
+        {
+          "name": "Mello Yello Zero Orange",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Cherry",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Raspberry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Fruit Punch",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Strawberry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Grape",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Mello Yello Zero Peach",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "diet Mello Yello with Strawberry Peach (Specialty)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Minute Maid Lemonade",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Minute Maid Lemonade with Orange",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Lemonade with Raspberry",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 125,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Lemonade with Strawberry",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Lemonade with Peach",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Pink Lemonade",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 125,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Lemonade with Lime",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Light Lemonade",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Minute Maid Light Lemonade with Orange",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Minute Maid Light Lemonade with Raspberry",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 130
+        },
+        {
+          "name": "Minute Maid Light Lemonade with Strawberry",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Minute Maid Light Lemonade with Peach",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Minute Maid Light Pink Lemonade",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Minute Maid Light Lemonade with Lime",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Pibb Xtra",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 125
+        },
+        {
+          "name": "Pibb Xtra Cherry",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Xtra Raspberry",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Xtra Vanilla",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Xtra Cherry Vanilla",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Xtra Raspberry Vanilla",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Zero",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 68
+        },
+        {
+          "name": "Pibb Zero Cherry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Pibb Zero Raspberry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Pibb Zero Vanilla",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Pibb Zero Cherry Vanilla",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Pibb Zero Raspberry Vanilla",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "POWERade Orange",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "POWERade Cherry",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Lime",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Raspberry",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Lemon",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Fruit Punch",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Strawberry",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Grape",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Zero Orange",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 200,
+          "sugars": 44
+        },
+        {
+          "name": "POWERade Zero Cherry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Lime",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Raspberry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Lemon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Fruit Punch",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Strawberry",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "POWERade Zero Grape",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "Sprite",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 200
+        },
+        {
+          "name": "Sprite with Orange",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Cherry",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 70,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Raspberry",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Vanilla",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Strawberry",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Grape",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Peach",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite with Peach Vanilla (Specialty)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite Zero",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "sodium": 65,
+          "sugars": 67
+        },
+        {
+          "name": "Sprite Zero with Orange",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Cherry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Raspberry",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Vanilla",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Strawberry",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Grape",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Peach",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sprite Zero with Peach Vanilla (Specialty)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Seagram's Ginger Ale",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Seagram's Ginger Ale with Orange",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 60,
+          "sugars": 45
+        },
+        {
+          "name": "Seagram's Ginger Ale with Cherry",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 65,
+          "sugars": 45
+        },
+        {
+          "name": "Seagram's Ginger Ale with Lime",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 60,
+          "sugars": 45
+        },
+        {
+          "name": "Seagram's Ginger Ale with Raspberry",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 60,
+          "sugars": 45
+        },
+        {
+          "name": "Seagram's Ginger Ale with Vanilla",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 60,
+          "sugars": 45
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 60,
+          "sugars": 45
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale with Orange",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale with Cherry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale with Lime",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale with Raspberry",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale with Vanilla",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Vitaminwater Orangeade-C",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Vitaminwater Lemonade-C",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 70,
+          "sugars": 32
+        },
+        {
+          "name": "Vitaminwater Pink Squeezed",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 34,
+          "sodium": 65,
+          "sugars": 33
+        },
+        {
+          "name": "Vitaminwater Tropical-C",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 65,
+          "sugars": 33
+        },
+        {
+          "name": "Barq's Caffeine Free Root Beer",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 86,
+          "sodium": 130,
+          "sugars": 86
+        },
+        {
+          "name": "Barq's Red Cr\u00e8me Soda",
+          "calories": 320,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 87,
+          "sodium": 115,
+          "sugars": 87
+        },
+        {
+          "name": "Caffeine-free Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 90
+        },
+        {
+          "name": "Cherry Coca-Cola",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "sodium": 75,
+          "sugars": 80
+        },
+        {
+          "name": "Coca-Cola Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Fanta Apple",
+          "calories": 320,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 85,
+          "sodium": 105,
+          "sugars": 85
+        },
+        {
+          "name": "Fanta Birch Beer",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 82,
+          "sodium": 95,
+          "sugars": 82
+        },
+        {
+          "name": "Fanta Blue Raspberry",
+          "calories": 330,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 89,
+          "sodium": 90,
+          "sugars": 89
+        },
+        {
+          "name": "Fanta Kiwi-Strawberry",
+          "calories": 340,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90,
+          "sodium": 90,
+          "sugars": 90
+        },
+        {
+          "name": "Fanta Red",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 82,
+          "sodium": 75,
+          "sugars": 81
+        },
+        {
+          "name": "Fanta Strawberry (Texas Only)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 70,
+          "sugars": 79
+        },
+        {
+          "name": "Fresca",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 85
+        },
+        {
+          "name": "Fruitopia Strawberry Passion Awareness",
+          "calories": 330,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90,
+          "sodium": 95,
+          "sugars": 87
+        },
+        {
+          "name": "Full Throttle Twisted",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 220,
+          "sugars": 79
+        },
+        {
+          "name": "Fuze Lemon Black Tea",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 80,
+          "sugars": 44
+        },
+        {
+          "name": "Fuze Unsweet Tea",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 80
+        },
+        {
+          "name": "Glaceau vitaminwater essential",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "sodium": 70,
+          "sugars": 35
+        },
+        {
+          "name": "Glaceau vitaminwater revive",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 70,
+          "sugars": 35
+        },
+        {
+          "name": "Glaceau vitaminwater XXX",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 70,
+          "sugars": 35
+        },
+        {
+          "name": "Glaceau vitaminwatersqueezed zero",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 70
+        },
+        {
+          "name": "Gold Peak Raspberry Tea",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 47,
+          "sodium": 80,
+          "sugars": 47
+        },
+        {
+          "name": "Gold Peak Peach Tea",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 80,
+          "sugars": 44
+        },
+        {
+          "name": "Gold Peak Citrus White Tea",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 80,
+          "sugars": 62
+        },
+        {
+          "name": "Gold Peak Sweetened Green Tea",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 47,
+          "sodium": 90,
+          "sugars": 47
+        },
+        {
+          "name": "Gold Peak Premium Unsweetened Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 80
+        },
+        {
+          "name": "Gold Peak Southern Style Tea",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 69,
+          "sodium": 85,
+          "sugars": 68
+        },
+        {
+          "name": "Gold Peak Sweetened Black Tea",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 85,
+          "sugars": 59
+        },
+        {
+          "name": "Hi-C Flashn' Fruit Punch",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 81,
+          "sodium": 100,
+          "sugars": 79
+        },
+        {
+          "name": "Hi-C Orange Lavaburst",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 86,
+          "sodium": 75,
+          "sugars": 84
+        },
+        {
+          "name": "Hi-C Poppin' Pink Lemonade",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 75,
+          "sodium": 190,
+          "sugars": 72
+        },
+        {
+          "name": "Minute Maid Light Pomegranate Lemonade",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "sodium": 115
+        },
+        {
+          "name": "Minute Maid Limeade",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 88,
+          "sodium": 95,
+          "sugars": 87
+        },
+        {
+          "name": "POWERade Lemon-Lime",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 42,
+          "sodium": 220,
+          "sugars": 41
+        },
+        {
+          "name": "POWERade Mountain Blast",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 42,
+          "sodium": 210,
+          "sugars": 42
+        },
+        {
+          "name": "Red Flash",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 120,
+          "sugars": 79
+        },
+        {
+          "name": "Seagram's Ginger Ale Reduced Calorie",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 47,
+          "sodium": 80,
+          "sugars": 47
+        },
+        {
+          "name": "Seagram's Tonic Water",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 90,
+          "sugars": 62
+        },
+        {
+          "name": "Vanilla Coke",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "sodium": 75,
+          "sugars": 79
+        }
+      ]
+    }
+  ]
+}

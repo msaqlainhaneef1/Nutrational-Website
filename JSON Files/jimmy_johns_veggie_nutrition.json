@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Jimmy John's",
+    "website": "https://www.jimmyjohns.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sub Sandwiches",
+    "Vegetarian"
+  ],
+  "products": [
+    {
+      "product_id": "jimmy_johns_veggie_jav_regular",
+      "name": "The Veggie (JJ #6 - Regular)",
+      "category": "Sub Sandwiches",
+      "subcategory": "Vegetarian",
+      "description": "Provolone cheese, avocado spread, provolone cheese, lettuce, tomato, and mayonnaise on fresh-baked French bread.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular sub (335g)",
+        "weight_g": 335.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 24.0,
+        "fat_g": 43.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1540.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 500.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "French bread",
+        "provolone cheese",
+        "avocado spread",
+        "lettuce",
+        "tomato",
+        "mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jimmyjohns.com/images/menu/subs/6-veggie.png",
+      "product_url": "https://www.jimmyjohns.com/menu/the-veggie",
+      "sources": [
+        {
+          "url": "https://www.jimmyjohns.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

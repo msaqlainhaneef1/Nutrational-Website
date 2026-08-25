@@ -4,8 +4,43 @@ import FoodsDirectory from '@/features/nutrition/components/FoodsDirectory.astro
 import { getAllFoods } from '@/features/nutrition/services/food';
 
 const foods = getAllFoods();
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/foods/`;
+
+const schema = [
+  {
+    "@type": "CollectionPage",
+    "@id": `${canonicalUrl}#collection`,
+    "url": canonicalUrl,
+    "name": "Whole Food Nutrition Database",
+    "description": "Browse whole food nutrition data sheets. Find calories, macros, vitamins, and minerals per 100g serving for common foods.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": `${siteOrigin}/`
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Foods",
+          "item": canonicalUrl
+        }
+      ]
+    }
+  }
+];
 ---
 
-<Layout title="Foods Directory" description="Browse our complete list of food nutrition data sheets, loaded with full macronutrient and micronutrient values.">
+<Layout
+  title="Whole Food Nutrition Database"
+  description="Browse whole food nutrition data sheets. Find calories, macros, vitamins, and minerals per 100g serving for common foods."
+  canonicalUrl={canonicalUrl}
+  schema={schema}
+>
   <FoodsDirectory foods={foods} />
 </Layout>

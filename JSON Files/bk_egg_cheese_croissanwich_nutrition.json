@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Croissan'wiches"
+  ],
+  "products": [
+    {
+      "product_id": "burger_king_egg_cheese_croissanwich",
+      "name": "Egg & Cheese Croissan'Wich\u00ae",
+      "category": "Breakfast",
+      "subcategory": "Croissan'wiches",
+      "description": "Fluffy eggs and a slice of melted American cheese on a warm, flaky, golden croissant.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (110 g)",
+        "weight_g": 110.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 11.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 165.0,
+        "sodium_mg": 560.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 29.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": 150.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Egg",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Flaky Croissant (Enriched Bleached Wheat Flour, Water, Butter, Margarine, Sugar, Yeast, Salt)",
+        "Whole Egg Patty (Whole Eggs, Water, Soybean Oil, Dry Whole Milk, Whey, Salt, Xanthan Gum, Citric Acid)",
+        "American Cheese Slice (Pasteurized Process American Cheese: Cultured Milk and Skim Milk, Cream, Sodium Citrate, Salt, Artificial Color, Enzymes)"
+      ],
+      "customizations": [
+        "Add Bacon",
+        "Add Sausage",
+        "Add Ham",
+        "Extra Cheese"
+      ],
+      "image_url": "https://www.bk.com/menu/item-b-26002",
+      "product_url": "https://www.bk.com/menu/item-b-26002",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/burger-king/croissanwich-egg-cheese",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.bk.com/nutrition-explorer",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

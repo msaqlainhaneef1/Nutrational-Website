@@ -5,7 +5,7 @@
   "description": "Calculate Chopt calories, protein, carbs and fat. Free Chopt nutrition calculator with complete menu data for all items.",
   "category": "Breakfast & Healthy",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 46,
+  "itemCount": 210,
   "categories": [
     {
       "name": "Salads",
@@ -137,6 +137,148 @@
           "protein": 0,
           "fat": 0,
           "carbs": 0
+        },
+        {
+          "name": "KALE CAESAR",
+          "calories": 300,
+          "protein": 15,
+          "fat": 14,
+          "carbs": 27,
+          "servingSize": "1 salad",
+          "fiber": 7,
+          "sodium": 685,
+          "cholesterol": 25,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "KALE CAESAR with grilled chicken",
+          "calories": 430,
+          "protein": 39,
+          "fat": 16,
+          "carbs": 27,
+          "servingSize": "1 salad",
+          "fiber": 7,
+          "sodium": 990,
+          "cholesterol": 88,
+          "saturated_fat": 6,
+          "sugars": 5
+        },
+        {
+          "name": "SANTA FE",
+          "calories": 450,
+          "protein": 22,
+          "fat": 30,
+          "carbs": 30,
+          "servingSize": "1 salad",
+          "fiber": 12,
+          "sodium": 403,
+          "cholesterol": 65,
+          "saturated_fat": 15,
+          "sugars": 8
+        },
+        {
+          "name": "SOUTHWEST STEAK     1",
+          "calories": 445,
+          "protein": 32,
+          "fat": 12,
+          "carbs": 54,
+          "servingSize": "1 salad",
+          "fiber": 15,
+          "sodium": 685,
+          "cholesterol": 60,
+          "saturated_fat": 3,
+          "sugars": 7
+        },
+        {
+          "name": "THE CHOPT GREEK",
+          "calories": 395,
+          "protein": 10,
+          "fat": 21,
+          "carbs": 33,
+          "servingSize": "1 salad",
+          "fiber": 6,
+          "sodium": 1070,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "SWEET APPLE ORCHARD",
+          "calories": 410,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 58,
+          "servingSize": "1 salad",
+          "fiber": 11,
+          "sodium": 136,
+          "cholesterol": 31,
+          "saturated_fat": 7,
+          "sugars": 41
+        },
+        {
+          "name": "MEXICAN CAESAR",
+          "calories": 265,
+          "protein": 11,
+          "fat": 15,
+          "carbs": 25,
+          "servingSize": "1 salad",
+          "fiber": 8,
+          "sodium": 475,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "MEXICAN CAESAR with grilled chicken",
+          "calories": 395,
+          "protein": 36,
+          "fat": 18,
+          "carbs": 25,
+          "servingSize": "1 salad",
+          "fiber": 8,
+          "sodium": 780,
+          "cholesterol": 93,
+          "saturated_fat": 7,
+          "sugars": 4
+        },
+        {
+          "name": "CLASSIC COBB",
+          "calories": 600,
+          "protein": 60,
+          "fat": 35,
+          "carbs": 17,
+          "servingSize": "1 salad",
+          "fiber": 10,
+          "sodium": 1838,
+          "cholesterol": 373,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "CRISPY CHICKEN RANCH",
+          "calories": 575,
+          "protein": 44,
+          "fat": 25,
+          "carbs": 45,
+          "servingSize": "1 salad",
+          "fiber": 8,
+          "sodium": 915,
+          "cholesterol": 140,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "SHRIMP SPRING ROLL",
+          "calories": 260,
+          "protein": 18,
+          "fat": 2,
+          "carbs": 16,
+          "servingSize": "1 salad",
+          "fiber": 7,
+          "sodium": 675,
+          "cholesterol": 135,
+          "sugars": 6
         }
       ]
     },
@@ -190,6 +332,280 @@
           "cholesterol": 109,
           "saturated_fat": 9,
           "sugars": 47
+        },
+        {
+          "name": "CHICKEN TINGA with brown rice",
+          "calories": 680,
+          "protein": 33,
+          "fat": 28,
+          "carbs": 77,
+          "servingSize": "1 bowl",
+          "fiber": 14,
+          "sodium": 1188,
+          "cholesterol": 100,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "CHICKEN TINGA with cauliflower rice",
+          "calories": 515,
+          "protein": 33,
+          "fat": 25,
+          "carbs": 45,
+          "servingSize": "1 bowl",
+          "fiber": 15,
+          "sodium": 798,
+          "cholesterol": 100,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "MEDITERRANEAN HUMMUS with brown rice",
+          "calories": 700,
+          "protein": 29,
+          "fat": 32,
+          "carbs": 72,
+          "servingSize": "1 bowl",
+          "fiber": 7,
+          "sodium": 1646,
+          "cholesterol": 103,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "MEDITERRANEAN HUMMUS with cauliflower rice",
+          "calories": 535,
+          "protein": 29,
+          "fat": 29,
+          "carbs": 40,
+          "servingSize": "1 bowl",
+          "fiber": 8,
+          "sodium": 1257,
+          "cholesterol": 103,
+          "saturated_fat": 8,
+          "sugars": 9
+        },
+        {
+          "name": "HARVEST with brown rice",
+          "calories": 840,
+          "protein": 30,
+          "fat": 32,
+          "carbs": 109,
+          "servingSize": "1 bowl",
+          "fiber": 11,
+          "sodium": 1101,
+          "cholesterol": 109,
+          "saturated_fat": 9,
+          "sugars": 44
+        },
+        {
+          "name": "HARVEST with cauliflower rice",
+          "calories": 675,
+          "protein": 30,
+          "fat": 29,
+          "carbs": 77,
+          "servingSize": "1 bowl",
+          "fiber": 12,
+          "sodium": 712,
+          "cholesterol": 109,
+          "saturated_fat": 9,
+          "sugars": 47
+        },
+        {
+          "name": "BEET HARVEST BOWL with brown rice",
+          "calories": 740,
+          "protein": 29,
+          "fat": 27,
+          "carbs": 96,
+          "servingSize": "1 bowl",
+          "fiber": 10,
+          "sodium": 856,
+          "cholesterol": 109,
+          "saturated_fat": 9,
+          "sugars": 43
+        },
+        {
+          "name": "BEET HARVEST BOWL with cauliflower rice",
+          "calories": 575,
+          "protein": 29,
+          "fat": 24,
+          "carbs": 64,
+          "servingSize": "1 bowl",
+          "fiber": 11,
+          "sodium": 467,
+          "cholesterol": 109,
+          "saturated_fat": 9,
+          "sugars": 46
+        },
+        {
+          "name": "SALMON AVOCADO BOWL brown rice",
+          "calories": 625,
+          "protein": 27,
+          "fat": 29,
+          "carbs": 62,
+          "servingSize": "1 bowl",
+          "fiber": 8,
+          "sodium": 1168,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 6
+        },
+        {
+          "name": "SALMON AVOCADO BOWL cauliflower rice",
+          "calories": 460,
+          "protein": 27,
+          "fat": 26,
+          "carbs": 30,
+          "servingSize": "1 bowl",
+          "fiber": 9,
+          "sodium": 778,
+          "cholesterol": 60,
+          "saturated_fat": 4,
+          "sugars": 8
+        },
+        {
+          "name": "CHICKEN AVOCADO BOWL brown rice",
+          "calories": 550,
+          "protein": 21,
+          "fat": 24,
+          "carbs": 62,
+          "servingSize": "1 bowl",
+          "fiber": 8,
+          "sodium": 1003,
+          "cholesterol": 78,
+          "saturated_fat": 3,
+          "sugars": 6
+        },
+        {
+          "name": "CHICKEN AVOCADO BOWL cauliflower rice",
+          "calories": 385,
+          "protein": 21,
+          "fat": 21,
+          "carbs": 31,
+          "servingSize": "1 bowl",
+          "fiber": 9,
+          "sodium": 613,
+          "cholesterol": 78,
+          "saturated_fat": 3,
+          "sugars": 8
+        },
+        {
+          "name": "RAW CORN SALAD",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 9,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 143,
+          "sugars": 3
+        },
+        {
+          "name": "FRESH PEACHES",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sugars": 5
+        },
+        {
+          "name": "FARRO + ARUGULA",
+          "calories": 235,
+          "protein": 12,
+          "fat": 2,
+          "carbs": 47,
+          "servingSize": "1 portion",
+          "fiber": 7,
+          "sodium": 29,
+          "sugars": 2
+        },
+        {
+          "name": "BURRATA",
+          "calories": 140,
+          "protein": 6,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "sodium": 120,
+          "cholesterol": 40,
+          "saturated_fat": 8
+        },
+        {
+          "name": "PISTACHIOS",
+          "calories": 80,
+          "protein": 3,
+          "fat": 7,
+          "carbs": 4,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sodium": 68,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "HOT HONEY",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 portion",
+          "sugars": 6
+        },
+        {
+          "name": "BASIL CAESAR",
+          "calories": 110,
+          "protein": 1,
+          "fat": 12,
+          "carbs": 1,
+          "servingSize": "30g",
+          "sodium": 280,
+          "cholesterol": 10,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "BASIL VINAIGRETTE",
+          "calories": 115,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 2,
+          "servingSize": "30g",
+          "sodium": 162,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "SALMON AVOCADO BOWL",
+          "calories": 460,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHICKEN TINGA BOWL",
+          "calories": 515,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "MEDITERRANEAN HUMMUS BOWL",
+          "calories": 535,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "HARVEST BOWL",
+          "calories": 675,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
         }
       ]
     },
@@ -219,6 +635,14 @@
           "cholesterol": 40,
           "saturated_fat": 9,
           "sugars": 17
+        },
+        {
+          "name": "SUMMER CORN CAESAR WRAP",
+          "calories": 745,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
         }
       ]
     },
@@ -326,6 +750,150 @@
           "cholesterol": 15,
           "saturated_fat": 1,
           "sugars": 2
+        },
+        {
+          "name": "BASIL CAESAR BOTTLE (12 OZ)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "BASIL VINAIGRETTE BOTTLE (12 OZ)",
+          "calories": 115,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "MEXICAN CAESAR BOTTLE (12 OZ)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CREAMY CAESAR BOTTLE (12 OZ)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CREAMY SESAME BOTTLE (12 OZ)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "MEXICAN GODDESS BOTTLE (12 OZ)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SWEET & SMOKY CHIPOTLE VINAIGRETTE BOTTLE (12 OZ)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "WHITE BALSAMIC VINAIGRETTE BOTTLE (12 OZ)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "BALSAMIC VINAIGRETTE BOTTLE (12 OZ)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "BUTTERMILK RANCH BOTTLE (12 OZ)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CARROT MISO BOTTLE (12 OZ)",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHOPT VINAIGRETTE BOTTLE (12 OZ)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "LEMON TAHINI BOTTLE (12 OZ)",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "YOGURT DILL BOTTLE (12 OZ)",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "FIERY FETA BOTTLE (12 OZ)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SMOKY BACON RUSSIAN BOTTLE (12 OZ)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHIPOTLE RANCH BOTTLE (12 OZ)",
+          "calories": 135,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "HONEY DIJON BOTTLE (12 OZ)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
         }
       ]
     },
@@ -508,6 +1076,1177 @@
           "sodium": 500,
           "cholesterol": 90,
           "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "MISSION HEARTY GRAINS WHOLE WHEAT TORTILLA",
+          "calories": 290,
+          "protein": 9,
+          "fat": 6,
+          "carbs": 50,
+          "servingSize": "1 wrap",
+          "fiber": 5,
+          "sodium": 510,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "PROTEIN WRAP",
+          "calories": 170,
+          "protein": 15,
+          "fat": 11,
+          "carbs": 36,
+          "servingSize": "1 wrap",
+          "fiber": 33,
+          "sodium": 640,
+          "saturated_fat": 1
+        },
+        {
+          "name": "CHICKEN CLUB WRAP",
+          "calories": 650,
+          "protein": 52,
+          "fat": 24,
+          "carbs": 61,
+          "servingSize": "1 wrap",
+          "fiber": 12,
+          "sodium": 1932,
+          "cholesterol": 88,
+          "saturated_fat": 7,
+          "sugars": 8
+        },
+        {
+          "name": "TURKEY CLUB WRAP",
+          "calories": 635,
+          "protein": 50,
+          "fat": 23,
+          "carbs": 59,
+          "servingSize": "1 wrap",
+          "fiber": 10,
+          "sodium": 2000,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "TURKEY PESTO WRAP",
+          "calories": 640,
+          "protein": 43,
+          "fat": 26,
+          "carbs": 57,
+          "servingSize": "1 wrap",
+          "fiber": 6,
+          "sodium": 1172,
+          "cholesterol": 84,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "SOUTHWEST STEAK WRAP",
+          "calories": 590,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHICKEN CAESAR WRAP",
+          "calories": 565,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "MEXICALI CHICKEN CAESAR WRAP",
+          "calories": 625,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHICKEN TINGA WRAP",
+          "calories": 693,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SANTA FE WRAP",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "KALE CAESAR WRAP",
+          "calories": 435,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "MEXICAN CAESAR WRAP",
+          "calories": 415,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CLASSIC COBB WRAP",
+          "calories": 750,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "THE CHOPT GREEK WRAP",
+          "calories": 545,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CRISPY CHICKEN RANCH WRAP",
+          "calories": 725,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SWEET APPLE ORCHARD WRAP",
+          "calories": 550,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SHRIMP SPRING ROLL WRAP",
+          "calories": 405,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "Crunch",
+      "items": [
+        {
+          "name": "HUMMUS CRUNCH WRAP",
+          "calories": 735,
+          "protein": 20,
+          "fat": 25,
+          "carbs": 108,
+          "servingSize": "1 wrap",
+          "fiber": 17,
+          "sodium": 1501,
+          "saturated_fat": 5,
+          "sugars": 13
+        },
+        {
+          "name": "SALMON AVOCADO WRAP",
+          "calories": 815,
+          "protein": 35,
+          "fat": 33,
+          "carbs": 93,
+          "servingSize": "1 wrap",
+          "fiber": 12,
+          "sodium": 1473,
+          "cholesterol": 60,
+          "saturated_fat": 6,
+          "sugars": 9
+        },
+        {
+          "name": "CHICKEN AVOCADO WRAP",
+          "calories": 740,
+          "protein": 29,
+          "fat": 28,
+          "carbs": 94,
+          "servingSize": "1 wrap",
+          "fiber": 12,
+          "sodium": 1308,
+          "cholesterol": 78,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "PARMESAN CRISPS",
+          "calories": 90,
+          "protein": 6,
+          "fat": 5,
+          "carbs": 4,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 150,
+          "cholesterol": 20,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "ROASTED ALMONDS",
+          "calories": 80,
+          "protein": 3,
+          "fat": 7,
+          "carbs": 3,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "DRIED CRANBERRIES",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sugars": 31
+        },
+        {
+          "name": "CRISPY WONTONS",
+          "calories": 70,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 8,
+          "servingSize": "1 portion",
+          "sodium": 10
+        },
+        {
+          "name": "PITA CHIPS",
+          "calories": 130,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 19,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 270,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        },
+        {
+          "name": "CRISPY SHALLOTS",
+          "calories": 20,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 3,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "TURKEY CLUB",
+          "calories": 620,
+          "protein": 38,
+          "fat": 22,
+          "carbs": 57,
+          "servingSize": "1 sandwich",
+          "fiber": 7,
+          "sodium": 1676,
+          "cholesterol": 73,
+          "saturated_fat": 3,
+          "sugars": 6
+        },
+        {
+          "name": "CHICKEN CLUB",
+          "calories": 640,
+          "protein": 40,
+          "fat": 24,
+          "carbs": 57,
+          "servingSize": "1 sandwich",
+          "fiber": 7,
+          "sodium": 1601,
+          "cholesterol": 81,
+          "saturated_fat": 4,
+          "sugars": 6
+        },
+        {
+          "name": "CAPRESE (VEGETARIAN)",
+          "calories": 665,
+          "protein": 27,
+          "fat": 37,
+          "carbs": 56,
+          "servingSize": "1 sandwich",
+          "fiber": 5,
+          "sodium": 1149,
+          "cholesterol": 47,
+          "saturated_fat": 13,
+          "sugars": 5
+        },
+        {
+          "name": "CHICKEN CAPRESE",
+          "calories": 795,
+          "protein": 52,
+          "fat": 40,
+          "carbs": 56,
+          "servingSize": "1 sandwich",
+          "fiber": 5,
+          "sodium": 1454,
+          "cholesterol": 110,
+          "saturated_fat": 14,
+          "sugars": 5
+        },
+        {
+          "name": "CHIPOTLE TURKEY",
+          "calories": 785,
+          "protein": 50,
+          "fat": 41,
+          "carbs": 55,
+          "servingSize": "1 sandwich",
+          "fiber": 7,
+          "sodium": 1648,
+          "cholesterol": 128,
+          "saturated_fat": 15,
+          "sugars": 3
+        },
+        {
+          "name": "CHIPOTLE CHICKEN",
+          "calories": 805,
+          "protein": 52,
+          "fat": 42,
+          "carbs": 55,
+          "servingSize": "1 sandwich",
+          "fiber": 7,
+          "sodium": 1573,
+          "cholesterol": 136,
+          "saturated_fat": 16,
+          "sugars": 3
+        },
+        {
+          "name": "SPICY AVOTUNA",
+          "calories": 990,
+          "protein": 56,
+          "fat": 60,
+          "carbs": 57,
+          "servingSize": "1 sandwich",
+          "fiber": 6,
+          "sodium": 2376,
+          "cholesterol": 155,
+          "saturated_fat": 16,
+          "sugars": 2
+        },
+        {
+          "name": "ORWASHERS CIABATTA",
+          "calories": 260,
+          "protein": 10,
+          "fat": 4,
+          "carbs": 47,
+          "servingSize": "1 roll",
+          "fiber": 4,
+          "sodium": 680,
+          "saturated_fat": 0.5,
+          "sugars": 0.5
+        },
+        {
+          "name": "LEMON AIOLI",
+          "calories": 170,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 2,
+          "servingSize": "30g",
+          "sodium": 275,
+          "cholesterol": 16,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "TUNA SALAD",
+          "calories": 450,
+          "protein": 31,
+          "fat": 34,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "sodium": 870,
+          "cholesterol": 95,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "BACON CABBAGE SLAW",
+          "calories": 100,
+          "protein": 3,
+          "fat": 7,
+          "carbs": 5,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 390,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "KALE JALAPE\u00d1O SLAW",
+          "calories": 40,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 69,
+          "sugars": 1
+        },
+        {
+          "name": "PESTO",
+          "calories": 65,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 1,
+          "servingSize": "1 portion",
+          "sodium": 53,
+          "cholesterol": 2,
+          "saturated_fat": 1
+        },
+        {
+          "name": "SPICY PICKLED PEPPERS",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1 portion",
+          "sodium": 460
+        },
+        {
+          "name": "CHOPT BLEND",
+          "calories": 70,
+          "protein": 6,
+          "fat": 1.5,
+          "carbs": 13,
+          "servingSize": "1 portion",
+          "fiber": 6,
+          "sodium": 95,
+          "sugars": 5
+        },
+        {
+          "name": "ROMAINE",
+          "calories": 45,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "1 portion",
+          "fiber": 5,
+          "sodium": 20,
+          "sugars": 3
+        },
+        {
+          "name": "KALE",
+          "calories": 90,
+          "protein": 6,
+          "fat": 0,
+          "carbs": 12,
+          "servingSize": "1 portion",
+          "fiber": 6,
+          "sodium": 60,
+          "sugars": 6
+        },
+        {
+          "name": "ARUGULA",
+          "calories": 30,
+          "protein": 6,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 portion",
+          "sodium": 60,
+          "sugars": 6
+        },
+        {
+          "name": "SPINACH",
+          "calories": 25,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "1 portion",
+          "fiber": 3,
+          "sodium": 84,
+          "sugars": 1
+        },
+        {
+          "name": "CABBAGE & CILANTRO BLEND",
+          "calories": 70,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 17,
+          "servingSize": "1 portion",
+          "fiber": 7,
+          "sodium": 70,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "GRAPE TOMATOES",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sugars": 2
+        },
+        {
+          "name": "CORN",
+          "calories": 45,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "JALAPE\u00d1O PEPPERS",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "RED BELL PEPPERS",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 1,
+          "sugars": 2
+        },
+        {
+          "name": "ENGLISH CUCUMBER",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "sugars": 1
+        },
+        {
+          "name": "SEASONAL APPLES",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sugars": 5
+        },
+        {
+          "name": "EDAMAME",
+          "calories": 60,
+          "protein": 6,
+          "fat": 2.5,
+          "carbs": 4,
+          "servingSize": "1 portion",
+          "fiber": 3,
+          "sugars": 1
+        },
+        {
+          "name": "CARROTS",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "SIMPLI OLIVES",
+          "calories": 90,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sodium": 480,
+          "saturated_fat": 1
+        },
+        {
+          "name": "MAMA LIL'S SPICY PEPPERS",
+          "calories": 50,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 6,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 190,
+          "sugars": 3
+        },
+        {
+          "name": "PICKLED RED ONIONS",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1 portion",
+          "sodium": 230,
+          "sugars": 1
+        },
+        {
+          "name": "PURPLE BEETS",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "SCALLIONS",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "1 portion"
+        },
+        {
+          "name": "CELERY",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "1 portion",
+          "fiber": 1,
+          "sodium": 35,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Cheese & Dairy",
+      "items": [
+        {
+          "name": "GOAT CHEESE",
+          "calories": 115,
+          "protein": 6,
+          "fat": 8,
+          "carbs": 4,
+          "servingSize": "1 portion",
+          "sodium": 106,
+          "cholesterol": 31,
+          "saturated_fat": 6
+        },
+        {
+          "name": "PEPPERJACK",
+          "calories": 250,
+          "protein": 16,
+          "fat": 20,
+          "carbs": 2,
+          "servingSize": "1 portion",
+          "sodium": 380,
+          "cholesterol": 65,
+          "saturated_fat": 13
+        }
+      ]
+    },
+    {
+      "name": "Grains & Beans",
+      "items": [
+        {
+          "name": "BROWN RICE",
+          "calories": 240,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 48,
+          "servingSize": "1 portion",
+          "fiber": 3,
+          "sodium": 900,
+          "sugars": 2
+        },
+        {
+          "name": "CAULIFLOWER RICE",
+          "calories": 40,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 7,
+          "servingSize": "1 portion",
+          "fiber": 4,
+          "sodium": 25,
+          "sugars": 3
+        },
+        {
+          "name": "HUMMUS",
+          "calories": 150,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 8,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sodium": 208,
+          "saturated_fat": 2
+        },
+        {
+          "name": "CHICKPEAS",
+          "calories": 40,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 7,
+          "servingSize": "1 portion",
+          "fiber": 2,
+          "sodium": 60,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "GRILLED CHICKEN/ROASTED CHICKEN BREAST",
+          "calories": 130,
+          "protein": 25,
+          "fat": 3,
+          "carbs": 0,
+          "servingSize": "1 portion",
+          "sodium": 305,
+          "cholesterol": 63,
+          "saturated_fat": 1
+        },
+        {
+          "name": "SHRIMP",
+          "calories": 80,
+          "protein": 15,
+          "fat": 1,
+          "carbs": 1,
+          "servingSize": "1 portion",
+          "sodium": 610,
+          "cholesterol": 135
+        },
+        {
+          "name": "CHICKPEA FALAFEL",
+          "calories": 140,
+          "protein": 6,
+          "fat": 4.5,
+          "carbs": 20,
+          "servingSize": "1 portion",
+          "fiber": 5,
+          "sodium": 510,
+          "sugars": 3
+        },
+        {
+          "name": "ROASTED TOFU",
+          "calories": 60,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 1,
+          "servingSize": "1 portion",
+          "saturated_fat": 1
+        },
+        {
+          "name": "AVOCADO HALF",
+          "calories": 80,
+          "protein": 1,
+          "fat": 7.5,
+          "carbs": 4.5,
+          "servingSize": "1 portion",
+          "fiber": 3.5,
+          "sodium": 2.5,
+          "saturated_fat": 1,
+          "sugars": 0.5
+        },
+        {
+          "name": "WARM ROASTED CHICKEN/ROASTED CHICKEN THIGH",
+          "calories": 145,
+          "protein": 15,
+          "fat": 9,
+          "carbs": 1,
+          "servingSize": "1 portion",
+          "sodium": 305,
+          "cholesterol": 78,
+          "saturated_fat": 2
+        },
+        {
+          "name": "NORWEGIAN SALMON",
+          "calories": 220,
+          "protein": 21,
+          "fat": 14,
+          "carbs": 0,
+          "servingSize": "1 portion",
+          "sodium": 470,
+          "cholesterol": 60,
+          "saturated_fat": 3
+        },
+        {
+          "name": "1 portion",
+          "calories": 6,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "140         54",
+          "fiber": 19,
+          "saturated_fat": 30
+        },
+        {
+          "name": "ROASTED TURKEY",
+          "calories": 110,
+          "protein": 23,
+          "fat": 1.5,
+          "carbs": 0,
+          "servingSize": "1 portion",
+          "sodium": 380,
+          "cholesterol": 55
+        }
+      ]
+    },
+    {
+      "name": "Dressings",
+      "items": [
+        {
+          "name": "WHITE BALSAMIC VINAIGRETTE",
+          "calories": 140,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "servingSize": "30g",
+          "sodium": 200,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "SWEET & SMOKY CHIPOTLE VINAIGRETTE",
+          "calories": 130,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 4,
+          "servingSize": "30g",
+          "sodium": 220,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "CHIPOTLE RANCH",
+          "calories": 135,
+          "protein": 0.5,
+          "fat": 13,
+          "carbs": 3,
+          "servingSize": "30g",
+          "sodium": 200,
+          "cholesterol": 7.5,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "FIERY FETA",
+          "calories": 140,
+          "protein": 1,
+          "fat": 15,
+          "carbs": 1,
+          "servingSize": "30g",
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 3
+        },
+        {
+          "name": "CREAMY SESAME",
+          "calories": 120,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 3,
+          "servingSize": "30g",
+          "sodium": 320,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "MEXICAN GODDESS",
+          "calories": 90,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 2,
+          "servingSize": "30g",
+          "fiber": 1,
+          "sodium": 30,
+          "saturated_fat": 1
+        },
+        {
+          "name": "YOGURT DILL",
+          "calories": 20,
+          "protein": 2,
+          "fat": 1,
+          "carbs": 1,
+          "servingSize": "30g",
+          "sodium": 630,
+          "sugars": 0.5
+        },
+        {
+          "name": "MISO CARROT",
+          "calories": 70,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 4,
+          "servingSize": "30g",
+          "sodium": 320,
+          "sugars": 3
+        },
+        {
+          "name": "BALSAMIC VINEGAR",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "30g",
+          "sodium": 5,
+          "sugars": 4
+        },
+        {
+          "name": "RED WINE VINEGAR",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "30g"
+        },
+        {
+          "name": "EXTRA VIRGIN OLIVE OIL",
+          "calories": 240,
+          "protein": 0,
+          "fat": 27,
+          "carbs": 0,
+          "servingSize": "30g",
+          "saturated_fat": 4
+        },
+        {
+          "name": "FRESH SQUEEZED LEMON",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "30g",
+          "sugars": 1
+        },
+        {
+          "name": "EXTRA VIRGIN OLIVE OIL & LEMON JUICE        60g",
+          "calories": 27,
+          "protein": 19,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "245         240",
+          "cholesterol": 2
+        },
+        {
+          "name": "EXTRA VIRGIN OLIVE OIL & BALSAMIC VINEGAR   60g",
+          "calories": 27,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "265         240",
+          "cholesterol": 5
+        },
+        {
+          "name": "EXTRA VIRGIN OLIVE OIL & RED WINE VINEGAR   60g",
+          "calories": 27,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "245         240"
+        }
+      ]
+    },
+    {
+      "name": "Craft Your Own",
+      "items": [
+        {
+          "name": "CRAFT YOUR OWN SALAD",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CRAFT YOUR OWN WRAP",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CRAFT YOUR OWN BOWL",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "Chopt Jr. Meals",
+      "items": [
+        {
+          "name": "CHOPT JR. SALAD",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHOPT JR. BOWL",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "OLIPOP - GRAPE",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "OLIPOP - STRAWBERRY VANILLA",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "OPEN WATER - STILL",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "OPEN WATER - SPARKLING",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "KIRRA MANGO BLACK TEA",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "KIRRA PASSIONFRUIT GUAVA BLACK TEA",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "COKE",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "DIET COKE",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SANPELLEGRINO - ARANCIATA",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SPINDRIFT SPARKLING WATER - RASPBERRY LIME",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "SPINDRIFT SPARKLING WATER - GRAPEFRUIT",
+          "calories": 17,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "items": [
+        {
+          "name": "CHOCOLATE CHIP COOKIE",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "CHOCOLATE BROWNIE",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "OATMEAL RAISIN COOKIE",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "INDIVIDUAL SEA SALT CARAMEL",
+          "calories": 65,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
         }
       ]
     }

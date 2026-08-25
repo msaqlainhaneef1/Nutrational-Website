@@ -1,0 +1,212 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Shakes & MooLattes",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "dairy_queen_oreo_shake_small",
+      "name": "Oreo\u00ae Shake (Small)",
+      "category": "Shakes & MooLattes",
+      "subcategory": "Shakes",
+      "description": "Hand-mixed creamy vanilla soft serve blended with OREO\u00ae cookie pieces and milk, finished with whipped topping.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small",
+        "weight_g": 412.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 13.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 85.0,
+        "fiber_g": 1.0,
+        "sugars_g": 65.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Milk",
+        "OREO\u00ae Cookie Pieces (Unbleached Enriched Flour, Sugar, Palm And/Or Canola Oil, Cocoa, High Fructose Corn Syrup, Levenings, Salt, Soy Lecithin, Chocolate, Artificial Flavor)",
+        "Whipped Topping"
+      ],
+      "customizations": [
+        "Extra Oreo",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/oreo-shake/small",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dairy_queen_oreo_shake_medium",
+      "name": "Oreo\u00ae Shake (Medium)",
+      "category": "Shakes & MooLattes",
+      "subcategory": "Shakes",
+      "description": "Hand-mixed creamy vanilla soft serve blended with OREO\u00ae cookie pieces and milk, finished with whipped topping.",
+      "price": 5.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": 515.0
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 17.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 420.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 118.0,
+        "fiber_g": 1.5,
+        "sugars_g": 92.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Milk",
+        "OREO\u00ae Cookie Pieces (Unbleached Enriched Flour, Sugar, Palm And/Or Canola Oil, Cocoa, High Fructose Corn Syrup, Levenings, Salt, Soy Lecithin, Chocolate, Artificial Flavor)",
+        "Whipped Topping"
+      ],
+      "customizations": [
+        "Extra Oreo",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/oreo-shake/medium",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dairy_queen_oreo_shake_large",
+      "name": "Oreo\u00ae Shake (Large)",
+      "category": "Shakes & MooLattes",
+      "subcategory": "Shakes",
+      "description": "Hand-mixed creamy vanilla soft serve blended with OREO\u00ae cookie pieces and milk, finished with whipped topping.",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large",
+        "weight_g": 617.0
+      },
+      "nutrition": {
+        "calories": 1100,
+        "protein_g": 23.0,
+        "fat_g": 44.0,
+        "saturated_fat_g": 28.0,
+        "trans_fat_g": 2.0,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 560.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 155.0,
+        "fiber_g": 2.0,
+        "sugars_g": 116.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Milk",
+        "OREO\u00ae Cookie Pieces (Unbleached Enriched Flour, Sugar, Palm And/Or Canola Oil, Cocoa, High Fructose Corn Syrup, Levenings, Salt, Soy Lecithin, Chocolate, Artificial Flavor)",
+        "Whipped Topping"
+      ],
+      "customizations": [
+        "Extra Oreo",
+        "No Whipped Topping"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/shakes/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/oreo-shake/large",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

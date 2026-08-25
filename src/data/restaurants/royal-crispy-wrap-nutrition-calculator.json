@@ -1,0 +1,100 @@
+{
+  "name": "Royal Crispy Wrap",
+  "slug": "royal-crispy-wrap-nutrition-calculator",
+  "tagline": "Track nutrition for Royal Crispy Wrap menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Royal Crispy Wrap.",
+  "category": "Fast Casual & Dining",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Classic Royal Crispy Wrap",
+      "items": [
+        {
+          "name": "Classic Royal Crispy Wrap",
+          "calories": 360,
+          "protein": 13,
+          "fat": 20,
+          "carbs": 32,
+          "servingSize": "1 wrap (160g)",
+          "fiber": 2,
+          "sodium": 920,
+          "cholesterol": 30,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Spicy Royal Crispy Wrap",
+      "items": [
+        {
+          "name": "Spicy Royal Crispy Wrap",
+          "calories": 380,
+          "protein": 13,
+          "fat": 21,
+          "carbs": 34,
+          "servingSize": "1 wrap (165g)",
+          "fiber": 2,
+          "sodium": 1050,
+          "cholesterol": 30,
+          "saturated_fat": 3.5,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Honey Mustard Royal Crispy Wrap",
+      "items": [
+        {
+          "name": "Honey Mustard Royal Crispy Wrap",
+          "calories": 370,
+          "protein": 13,
+          "fat": 19,
+          "carbs": 36,
+          "servingSize": "1 wrap (162g)",
+          "fiber": 2,
+          "sodium": 980,
+          "cholesterol": 30,
+          "saturated_fat": 3,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Guacamole Royal Crispy Wrap",
+      "items": [
+        {
+          "name": "Guacamole Royal Crispy Wrap",
+          "calories": 410,
+          "protein": 14,
+          "fat": 24,
+          "carbs": 34,
+          "servingSize": "1 wrap (170g)",
+          "fiber": 3,
+          "sodium": 990,
+          "cholesterol": 35,
+          "saturated_fat": 5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Wrap Sides & Meal Drinks",
+      "items": [
+        {
+          "name": "Onion Rings (Medium Side)",
+          "calories": 410,
+          "protein": 5,
+          "fat": 22,
+          "carbs": 50,
+          "servingSize": "Medium (118g)",
+          "fiber": 3,
+          "sodium": 850,
+          "saturated_fat": 3.5,
+          "sugars": 6
+        }
+      ]
+    }
+  ]
+}

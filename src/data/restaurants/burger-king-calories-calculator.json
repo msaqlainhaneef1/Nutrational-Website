@@ -3,9 +3,9 @@
   "slug": "burger-king-calories-calculator",
   "tagline": "Check nutrition for Whoppers, sides, and beverages.",
   "description": "Check nutrition for Whoppers, sides, and beverages.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf54",
-  "itemCount": 138,
+  "itemCount": 183,
   "categories": [
     {
       "name": "Whopper by You",
@@ -917,6 +917,19 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        },
+        {
+          "name": "Royal Crispy Chicken Sandwich",
+          "calories": 600,
+          "protein": 24,
+          "fat": 32,
+          "carbs": 56,
+          "servingSize": "1 sandwich (235g)",
+          "fiber": 3,
+          "sodium": 1150,
+          "cholesterol": 45,
+          "saturated_fat": 5,
+          "sugars": 7
         }
       ]
     },
@@ -1011,6 +1024,61 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        },
+        {
+          "name": "Thick Cut Fries - Small",
+          "calories": 311,
+          "protein": 4.3,
+          "fat": 13.2,
+          "carbs": 46.2,
+          "servingSize": "128g",
+          "sodium": 315,
+          "saturated_fat": 1.7,
+          "sugars": 0.5
+        },
+        {
+          "name": "Thick Cut Fries - Regular",
+          "calories": 443,
+          "protein": 6.1,
+          "fat": 18.8,
+          "carbs": 61.1,
+          "servingSize": "180g",
+          "sodium": 445,
+          "saturated_fat": 2.4,
+          "sugars": 0.7
+        },
+        {
+          "name": "Thick Cut Fries - Large",
+          "calories": 568,
+          "protein": 7.8,
+          "fat": 24.1,
+          "carbs": 78.3,
+          "servingSize": "231g",
+          "sodium": 570,
+          "saturated_fat": 3.1,
+          "sugars": 0.9
+        },
+        {
+          "name": "Onion Rings (6pc)",
+          "calories": 402,
+          "protein": 4.4,
+          "fat": 28.7,
+          "carbs": 31.1,
+          "servingSize": "109g",
+          "sodium": 870,
+          "saturated_fat": 2.9,
+          "sugars": 4
+        },
+        {
+          "name": "Hash Bites - Regular",
+          "calories": 330,
+          "protein": 3,
+          "fat": 20,
+          "carbs": 35,
+          "servingSize": "150g",
+          "sodium": 650,
+          "saturated_fat": 2.5,
+          "sugars": 0.5
         }
       ]
     },
@@ -1505,6 +1573,531 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Egg & Cheese Croissan'Wich\u00ae",
+          "calories": 320,
+          "protein": 11,
+          "fat": 17,
+          "carbs": 29,
+          "servingSize": "1 sandwich (110 g)",
+          "fiber": 1,
+          "sodium": 560,
+          "cholesterol": 165,
+          "saturated_fat": 9,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Chicken Nuggets",
+      "items": [
+        {
+          "name": "4 Pc. Chicken Nuggets",
+          "calories": 170,
+          "protein": 9,
+          "fat": 10,
+          "carbs": 11,
+          "servingSize": "4 pieces (62g)",
+          "fiber": 1,
+          "sodium": 320,
+          "cholesterol": 25,
+          "saturated_fat": 2
+        },
+        {
+          "name": "8 Pc. Chicken Nuggets",
+          "calories": 340,
+          "protein": 18,
+          "fat": 20,
+          "carbs": 21,
+          "servingSize": "8 pieces (125g)",
+          "fiber": 2,
+          "sodium": 640,
+          "cholesterol": 50,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "16 Pc. Chicken Nuggets",
+          "calories": 680,
+          "protein": 36,
+          "fat": 40,
+          "carbs": 43,
+          "servingSize": "16 pieces (250g)",
+          "fiber": 3,
+          "sodium": 1280,
+          "cholesterol": 100,
+          "saturated_fat": 7
+        }
+      ]
+    },
+    {
+      "name": "Spicy Chicken Nuggets",
+      "items": [
+        {
+          "name": "8 Pc. Spicy Chicken Nuggets",
+          "calories": 360,
+          "protein": 17,
+          "fat": 21,
+          "carbs": 23,
+          "servingSize": "8 pieces (128g)",
+          "fiber": 2,
+          "sodium": 920,
+          "cholesterol": 45,
+          "saturated_fat": 4,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Flame Grilled Beef",
+      "items": [
+        {
+          "name": "Whopper Jr",
+          "calories": 361,
+          "protein": 15.5,
+          "fat": 16.2,
+          "carbs": 37.6,
+          "servingSize": "154g",
+          "sodium": 455,
+          "saturated_fat": 4.6,
+          "sugars": 7.1
+        },
+        {
+          "name": "Whopper Jr with Cheese",
+          "calories": 399,
+          "protein": 18.6,
+          "fat": 20.2,
+          "carbs": 32.9,
+          "servingSize": "166g",
+          "sodium": 811,
+          "saturated_fat": 6.8,
+          "sugars": 7.1
+        },
+        {
+          "name": "Whopper with Cheese",
+          "calories": 811,
+          "protein": 37.6,
+          "fat": 49.1,
+          "carbs": 53.1,
+          "servingSize": "329g",
+          "sodium": 1250,
+          "saturated_fat": 15.5,
+          "sugars": 12.5
+        },
+        {
+          "name": "Whopper Double",
+          "calories": 1140,
+          "protein": 66.6,
+          "fat": 75.1,
+          "carbs": 46.1,
+          "servingSize": "443g",
+          "sodium": 1240,
+          "saturated_fat": 23.3,
+          "sugars": 12.5
+        },
+        {
+          "name": "Whopper Double with Cheese",
+          "calories": 1216,
+          "protein": 71.5,
+          "fat": 81,
+          "carbs": 42.8,
+          "servingSize": "466g",
+          "sodium": 1314,
+          "saturated_fat": 26.6,
+          "sugars": 12.8
+        },
+        {
+          "name": "Whopper Triple",
+          "calories": 1515,
+          "protein": 95,
+          "fat": 104,
+          "carbs": 44.9,
+          "servingSize": "568g",
+          "sodium": 1288,
+          "saturated_fat": 35.2,
+          "sugars": 13.2
+        },
+        {
+          "name": "Whopper Triple with Cheese",
+          "calories": 1592,
+          "protein": 101,
+          "fat": 110,
+          "carbs": 42,
+          "servingSize": "592g",
+          "sodium": 1550,
+          "saturated_fat": 42,
+          "sugars": 12.6
+        },
+        {
+          "name": "Triple Cheeseburger",
+          "calories": 697,
+          "protein": 46.3,
+          "fat": 45,
+          "carbs": 26.4,
+          "servingSize": "250g",
+          "sodium": 1720,
+          "saturated_fat": 21.4,
+          "sugars": 5.7
+        },
+        {
+          "name": "Rodeo Mega Stacker - Beef Single",
+          "calories": 805,
+          "protein": 45.2,
+          "fat": 52,
+          "carbs": 40.8,
+          "servingSize": "296g",
+          "sodium": 966,
+          "saturated_fat": 19.5,
+          "sugars": 12.3
+        },
+        {
+          "name": "Rodeo Mega Stacker - Beef Double",
+          "calories": 1217,
+          "protein": 76.5,
+          "fat": 83.7,
+          "carbs": 40.9,
+          "servingSize": "432g",
+          "sodium": 966,
+          "saturated_fat": 35.5,
+          "sugars": 12.3
+        }
+      ]
+    },
+    {
+      "name": "King's Collection",
+      "items": [
+        {
+          "name": "All American Steakhouse",
+          "calories": 820,
+          "protein": 54.7,
+          "fat": 55.5,
+          "carbs": 25.6,
+          "servingSize": "320g",
+          "sodium": 1150,
+          "saturated_fat": 19,
+          "sugars": 11.2
+        },
+        {
+          "name": "New York Steakhouse",
+          "calories": 1006,
+          "protein": 59.3,
+          "fat": 68.5,
+          "carbs": 28.4,
+          "servingSize": "400g",
+          "sodium": 1420,
+          "saturated_fat": 25.6,
+          "sugars": 11.8
+        },
+        {
+          "name": "Streaky Bacon Steakhouse",
+          "calories": 932,
+          "protein": 55.5,
+          "fat": 59.3,
+          "carbs": 28.6,
+          "servingSize": "326g",
+          "sodium": 1450,
+          "saturated_fat": 26,
+          "sugars": 12.1
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "BK Chicken",
+          "calories": 593,
+          "protein": 26.4,
+          "fat": 34,
+          "carbs": 43.9,
+          "servingSize": "198g",
+          "sodium": 877,
+          "saturated_fat": 5.4,
+          "sugars": 7.5
+        },
+        {
+          "name": "BK Chicken with Cheese",
+          "calories": 670,
+          "protein": 31.1,
+          "fat": 40,
+          "carbs": 45,
+          "servingSize": "222g",
+          "sodium": 1265,
+          "saturated_fat": 9.3,
+          "sugars": 7.7
+        },
+        {
+          "name": "BK Double Chicken",
+          "calories": 796,
+          "protein": 45.1,
+          "fat": 42,
+          "carbs": 57,
+          "servingSize": "284g",
+          "sodium": 1371,
+          "saturated_fat": 6.7,
+          "sugars": 7.8
+        },
+        {
+          "name": "Crispy Chicken Burger",
+          "calories": 483,
+          "protein": 18.9,
+          "fat": 28,
+          "carbs": 43.8,
+          "servingSize": "189g",
+          "sodium": 1067,
+          "saturated_fat": 6.8,
+          "sugars": 6.8
+        },
+        {
+          "name": "Original Fried Chicken",
+          "calories": 759,
+          "protein": 26,
+          "fat": 37.3,
+          "carbs": 30.4,
+          "servingSize": "270g",
+          "sodium": 590,
+          "saturated_fat": 7.8,
+          "sugars": 6.9
+        },
+        {
+          "name": "Spicy Southern Fried Chicken",
+          "calories": 732,
+          "protein": 28.8,
+          "fat": 35.9,
+          "carbs": 75.7,
+          "servingSize": "297g",
+          "sodium": 871,
+          "saturated_fat": 5.2,
+          "sugars": 91.6
+        },
+        {
+          "name": "Chicken Nuggets (10pc)",
+          "calories": 504,
+          "protein": 23.7,
+          "fat": 20.5,
+          "carbs": 26.9,
+          "servingSize": "170g",
+          "sodium": 1160,
+          "saturated_fat": 4.6,
+          "sugars": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Plant Based",
+      "items": [
+        {
+          "name": "Plant Based Whopper",
+          "calories": 563,
+          "protein": 23,
+          "fat": 31,
+          "carbs": 48,
+          "servingSize": "298g",
+          "sodium": 980,
+          "saturated_fat": 7,
+          "sugars": 11
+        },
+        {
+          "name": "Plant Based BK Chook",
+          "calories": 504,
+          "protein": 21,
+          "fat": 24,
+          "carbs": 51,
+          "servingSize": "208g",
+          "sodium": 1050,
+          "saturated_fat": 4.6,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Chocolate Shake - Medium",
+          "calories": 558,
+          "protein": 10.6,
+          "fat": 10,
+          "carbs": 10.6,
+          "servingSize": "310g",
+          "sodium": 180,
+          "saturated_fat": 7.5,
+          "sugars": 62
+        },
+        {
+          "name": "Strawberry Shake - Medium",
+          "calories": 558,
+          "protein": 10.6,
+          "fat": 10,
+          "carbs": 10.6,
+          "servingSize": "310g",
+          "sodium": 180,
+          "saturated_fat": 7.5,
+          "sugars": 62
+        },
+        {
+          "name": "King Fusion Cookies & Cream",
+          "calories": 573,
+          "protein": 7.2,
+          "fat": 13.2,
+          "carbs": 70.9,
+          "servingSize": "200g",
+          "sodium": 259,
+          "saturated_fat": 8.0,
+          "sugars": 53.3
+        }
+      ]
+    },
+    {
+      "name": "Limited Time",
+      "items": [
+        {
+          "name": "Chilli Cheese Bites (6pc)",
+          "calories": 353,
+          "protein": 7.8,
+          "fat": 20.4,
+          "carbs": 34.8,
+          "servingSize": "120g",
+          "sodium": 852,
+          "saturated_fat": 6.6,
+          "sugars": 1.7
+        },
+        {
+          "name": "Galactic Whopper",
+          "calories": 766,
+          "protein": 39,
+          "fat": 56,
+          "carbs": 37,
+          "servingSize": "318g",
+          "sodium": 1159,
+          "saturated_fat": 20,
+          "sugars": 9.2
+        }
+      ]
+    },
+    {
+      "name": "Cheese Whopper Jr. Burgers",
+      "items": [
+        {
+          "name": "Whopper Jr. with Cheese",
+          "calories": 410,
+          "protein": 14,
+          "fat": 25,
+          "carbs": 32,
+          "servingSize": "1 sandwich (168g)",
+          "fiber": 2,
+          "sodium": 730,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Bacon Whopper Jr. Burgers",
+      "items": [
+        {
+          "name": "Bacon Whopper Jr.",
+          "calories": 410,
+          "protein": 14,
+          "fat": 25,
+          "carbs": 31,
+          "servingSize": "1 sandwich (162g)",
+          "fiber": 2,
+          "sodium": 710,
+          "cholesterol": 40,
+          "saturated_fat": 7,
+          "sugars": 7
+        },
+        {
+          "name": "Bacon & Cheese Whopper Jr.",
+          "calories": 470,
+          "protein": 18,
+          "fat": 30,
+          "carbs": 32,
+          "servingSize": "1 sandwich (180g)",
+          "fiber": 2,
+          "sodium": 910,
+          "cholesterol": 55,
+          "saturated_fat": 11,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Plant-Based Whopper Jr.",
+      "items": [
+        {
+          "name": "Impossible Whopper Jr.",
+          "calories": 340,
+          "protein": 11,
+          "fat": 18,
+          "carbs": 33,
+          "servingSize": "1 sandwich (152g)",
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 10,
+          "saturated_fat": 4,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Triple Whopper Burgers",
+      "items": [
+        {
+          "name": "Triple Whopper with Cheese",
+          "calories": 1300,
+          "protein": 63,
+          "fat": 86,
+          "carbs": 56,
+          "servingSize": "1 sandwich (485g)",
+          "fiber": 3,
+          "sodium": 1650,
+          "cholesterol": 215,
+          "saturated_fat": 34,
+          "sugars": 11
+        }
+      ]
+    },
+    {
+      "name": "Specialty Whoppers",
+      "items": [
+        {
+          "name": "Bacon King Whopper",
+          "calories": 1150,
+          "protein": 55,
+          "fat": 79,
+          "carbs": 49,
+          "servingSize": "1 sandwich (353g)",
+          "fiber": 2,
+          "sodium": 1850,
+          "cholesterol": 205,
+          "saturated_fat": 30,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Plant-Based Whoppers",
+      "items": [
+        {
+          "name": "Impossible Whopper",
+          "calories": 630,
+          "protein": 25,
+          "fat": 34,
+          "carbs": 58,
+          "servingSize": "1 sandwich (279g)",
+          "fiber": 5,
+          "sodium": 1080,
+          "cholesterol": 10,
+          "saturated_fat": 8,
+          "sugars": 12
         }
       ]
     }

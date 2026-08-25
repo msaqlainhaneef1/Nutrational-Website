@@ -1,0 +1,133 @@
+{
+  "name": "The Cheesecake Factory",
+  "slug": "the-cheesecake-factory-nutrition-calculator",
+  "tagline": "Track nutrition for The Cheesecake Factory menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at The Cheesecake Factory.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Avocado Egg Rolls",
+          "calories": 1150,
+          "protein": 18,
+          "fat": 78,
+          "carbs": 102,
+          "servingSize": "1 order (4 egg rolls cut in half)",
+          "fiber": 12,
+          "sodium": 1560,
+          "cholesterol": 25,
+          "saturated_fat": 17,
+          "sugars": 24
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Sandwiches",
+      "items": [
+        {
+          "name": "The Factory Burger",
+          "calories": 1480,
+          "protein": 58,
+          "fat": 102,
+          "carbs": 69,
+          "servingSize": "1 burger with fries",
+          "fiber": 5,
+          "sodium": 1720,
+          "cholesterol": 210,
+          "saturated_fat": 38,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Pastas",
+      "items": [
+        {
+          "name": "Louisiana Chicken Pasta",
+          "calories": 2190,
+          "protein": 74,
+          "fat": 132,
+          "carbs": 164,
+          "servingSize": "1 entr\u00e9e plate",
+          "fiber": 9,
+          "sodium": 2320,
+          "cholesterol": 310,
+          "saturated_fat": 65,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Cheesecakes & Desserts",
+      "items": [
+        {
+          "name": "The Original Cheesecake",
+          "calories": 710,
+          "protein": 11,
+          "fat": 51,
+          "carbs": 53,
+          "servingSize": "1 slice",
+          "fiber": 1,
+          "sodium": 460,
+          "cholesterol": 190,
+          "saturated_fat": 32,
+          "sugars": 43
+        },
+        {
+          "name": "Oreo Dream Extreme Cheesecake",
+          "calories": 1180,
+          "protein": 15,
+          "fat": 79,
+          "carbs": 115,
+          "servingSize": "1 slice",
+          "fiber": 4,
+          "sodium": 780,
+          "cholesterol": 220,
+          "saturated_fat": 45,
+          "sugars": 86
+        },
+        {
+          "name": "Fresh Strawberry Cheesecake",
+          "calories": 840,
+          "protein": 12,
+          "fat": 53,
+          "carbs": 86,
+          "servingSize": "1 slice",
+          "fiber": 3,
+          "sodium": 480,
+          "cholesterol": 195,
+          "saturated_fat": 33,
+          "sugars": 68
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Freshly Brewed Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 fl oz glass",
+          "sodium": 10
+        },
+        {
+          "name": "The Factory Lemonade",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "servingSize": "20 fl oz glass",
+          "sodium": 15,
+          "sugars": 64
+        }
+      ]
+    }
+  ]
+}

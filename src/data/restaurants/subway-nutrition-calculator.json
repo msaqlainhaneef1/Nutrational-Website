@@ -5,7 +5,7 @@
   "description": "Customize sandwiches and check complete nutrition information.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd56",
-  "itemCount": 55,
+  "itemCount": 71,
   "categories": [
     {
       "name": "Sandwiches & Subs (US/Global Classics)",
@@ -552,6 +552,238 @@
           "carbs": 0,
           "fiber": 0,
           "sodium": 0
+        }
+      ]
+    },
+    {
+      "name": "Subway Series",
+      "items": [
+        {
+          "name": "Buffalo Chicken Sandwich (6-Inch)",
+          "calories": 340,
+          "protein": 27,
+          "fat": 12,
+          "carbs": 39,
+          "servingSize": "6-inch sub (248 g)",
+          "fiber": 2,
+          "sodium": 1100,
+          "cholesterol": 50,
+          "saturated_fat": 3,
+          "sugars": 5
+        },
+        {
+          "name": "The Boss (#1)",
+          "calories": 1130,
+          "protein": 51,
+          "fat": 57,
+          "carbs": 99,
+          "servingSize": "Footlong",
+          "fiber": 7,
+          "sodium": 2860,
+          "cholesterol": 115,
+          "saturated_fat": 22,
+          "sugars": 14
+        },
+        {
+          "name": "The Outlaw (#3)",
+          "calories": 980,
+          "protein": 56,
+          "fat": 42,
+          "carbs": 93,
+          "servingSize": "Footlong",
+          "fiber": 6,
+          "sodium": 2340,
+          "cholesterol": 105,
+          "saturated_fat": 18,
+          "sugars": 10
+        },
+        {
+          "name": "Oven Roasted Chicken (Footlong)",
+          "calories": 640,
+          "protein": 52,
+          "fat": 6,
+          "carbs": 88,
+          "servingSize": "1 footlong (325g)",
+          "fiber": 6,
+          "sodium": 1380,
+          "cholesterol": 110,
+          "saturated_fat": 1.5,
+          "sugars": 9
+        },
+        {
+          "name": "Sweet Onion Chicken Teriyaki (Footlong)",
+          "calories": 740,
+          "protein": 52,
+          "fat": 8,
+          "carbs": 118,
+          "servingSize": "1 footlong (358g)",
+          "fiber": 6,
+          "sodium": 1640,
+          "cholesterol": 110,
+          "saturated_fat": 2,
+          "sugars": 38
+        },
+        {
+          "name": "The Beast (Footlong)",
+          "calories": 1350,
+          "protein": 74,
+          "fat": 82,
+          "carbs": 79,
+          "servingSize": "1 footlong (410g)",
+          "fiber": 6,
+          "sodium": 3760,
+          "cholesterol": 210,
+          "saturated_fat": 27,
+          "sugars": 8
+        },
+        {
+          "name": "#6 The Boss (6-Inch)",
+          "calories": 580,
+          "protein": 29,
+          "fat": 31,
+          "carbs": 49,
+          "servingSize": "6-inch sub (270 g)",
+          "fiber": 3,
+          "sodium": 1400,
+          "cholesterol": 60,
+          "saturated_fat": 12,
+          "sugars": 8
+        },
+        {
+          "name": "The Mexicali (Footlong)",
+          "calories": 1130,
+          "protein": 70,
+          "fat": 54,
+          "carbs": 85,
+          "servingSize": "1 footlong (372g)",
+          "fiber": 7,
+          "sodium": 2180,
+          "cholesterol": 160,
+          "saturated_fat": 18,
+          "sugars": 9
+        },
+        {
+          "name": "The Monster (Footlong)",
+          "calories": 1180,
+          "protein": 72,
+          "fat": 62,
+          "carbs": 80,
+          "servingSize": "1 footlong (398g)",
+          "fiber": 5,
+          "sodium": 2850,
+          "cholesterol": 180,
+          "saturated_fat": 24,
+          "sugars": 8
+        },
+        {
+          "name": "#2 The Outlaw (6-Inch)",
+          "calories": 490,
+          "protein": 30,
+          "fat": 22,
+          "carbs": 44,
+          "servingSize": "6-inch sub",
+          "fiber": 2,
+          "sodium": 1440,
+          "cholesterol": 90,
+          "saturated_fat": 9,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Classic Subs",
+      "items": [
+        {
+          "name": "Tuna (Footlong)",
+          "calories": 860,
+          "protein": 38,
+          "fat": 50,
+          "carbs": 74,
+          "servingSize": "Footlong sub (446 g)",
+          "fiber": 4,
+          "sodium": 1960,
+          "cholesterol": 80,
+          "saturated_fat": 9,
+          "sugars": 9
+        },
+        {
+          "name": "Turkey Breast Sub",
+          "calories": 500,
+          "protein": 36,
+          "fat": 4.5,
+          "carbs": 81,
+          "servingSize": "Footlong (with lettuce, tomatoes, cucumbers, green peppers, onions)",
+          "fiber": 7,
+          "sodium": 1340,
+          "cholesterol": 50,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Tuna Sub",
+          "calories": 930,
+          "protein": 38,
+          "fat": 57,
+          "carbs": 74,
+          "servingSize": "Footlong",
+          "fiber": 5,
+          "sodium": 1180,
+          "cholesterol": 50,
+          "saturated_fat": 9,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "6\" Hearty Multigrain Bread",
+          "calories": 200,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 36,
+          "servingSize": "6 inch",
+          "fiber": 3,
+          "sodium": 360,
+          "saturated_fat": 0.5,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Sweet Onion Chicken Teriyaki Wrap",
+          "calories": 610,
+          "protein": 41,
+          "fat": 10,
+          "carbs": 90,
+          "servingSize": "1 wrap (340g)",
+          "fiber": 5,
+          "sodium": 1320,
+          "cholesterol": 85,
+          "saturated_fat": 2.5,
+          "sugars": 27
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "6\" Steak & Cheese",
+          "calories": 360,
+          "protein": 26,
+          "fat": 13,
+          "carbs": 37,
+          "servingSize": "6 inch",
+          "fiber": 3,
+          "sodium": 810,
+          "cholesterol": 50,
+          "saturated_fat": 5,
+          "sugars": 6
         }
       ]
     }

@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Classic Subs",
+    "Footlong Subs"
+  ],
+  "products": [
+    {
+      "product_id": "subway_footlong_tuna",
+      "name": "Tuna (Footlong)",
+      "category": "Classic Subs",
+      "subcategory": "Footlong Subs",
+      "description": "Flaked tuna mixed with creamy mayonnaise, topped with your choice of fresh veggies and condiments on freshly baked artisan Italian bread.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Footlong sub (446 g)",
+        "weight_g": 446.0
+      },
+      "nutrition": {
+        "calories": 860,
+        "protein_g": 38.0,
+        "fat_g": 50.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 80.0,
+        "sodium_mg": 1960.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 74.0,
+        "fiber_g": 4.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Fish",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Artisan Italian Footlong Bread",
+        "Tuna Salad (Tuna, Mayonnaise [Soybean Oil, Water, Egg Yolks, Vinegar, Salt, Sugar])",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumbers",
+        "Green Peppers",
+        "Red Onions"
+      ],
+      "customizations": [
+        "Choice of Bread (Artisan Italian, Multigrain, etc.)",
+        "Add Cheese",
+        "Choice of Sauces and Condiments"
+      ],
+      "image_url": "https://www.subway.com/en-us/menunutrition/menuitem/tuna",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menuitem/tuna",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/tuna/footlong",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,72 +1,38 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import AboutSection from '@/features/shared/components/AboutSection.astro';
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/about/`;
+const description = "Nutrition Solver is an evidence-based nutrition reference covering 100+ restaurants and clinical health calculators. Learn about our mission and data sources.";
+
+const aboutSchema = {
+  "@type": "AboutPage",
+  "@id": `${canonicalUrl}#about`,
+  "name": "About Nutrition Solver",
+  "url": canonicalUrl,
+  "description": description,
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": `${siteOrigin}/`,
+    "foundingDate": "2024",
+    "description": "Privacy-first nutrition reference covering 100 restaurant chains and 16,000+ menu items, plus clinically reviewed health calculators.",
+    "knowsAbout": [
+      "Nutrition Data",
+      "Calorie Tracking",
+      "Metabolic Health",
+      "Dietary Reference Intakes"
+    ]
+  }
+};
 ---
 
 <Layout
-  title="About Nutrition Solver"
-  description="Nutrition Solver is a privacy-first nutrition reference covering 100 restaurant chains and 16,000+ menu items. Learn why we built it and what makes us different."
+  title="About Us & Mission"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={aboutSchema}
 >
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-    <Breadcrumb items={[{ label: 'About', url: '/about' }]} />
-
-    <div class="space-y-3">
-      <h1 class="text-4xl font-extrabold text-white tracking-tight">About Nutrition Solver</h1>
-      <p class="text-zinc-400 text-base leading-relaxed">
-        Nutrition Solver is a static, privacy-first nutrition reference built for people who want the numbers without the noise. No tracking, no signup, no upsells.
-      </p>
-    </div>
-
-    <div class="space-y-6">
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Why we built this</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Most nutrition sites are front ends for ad networks. They load megabytes of tracking scripts, gate calculators behind email walls, and bury the actual data under popups and affiliate links. The information you came for is treated as bait.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Nutrition Solver is the opposite. The site is generated at build time as static HTML. Every page loads fast, every calculator runs in your browser, and no third party script ever touches your data. The restaurant database covers 100 chains and 16,000 menu items, the foods reference covers common whole foods, and the calculator library includes BMI, BMR, TDEE, macro, calorie deficit, ideal weight, body fat, water intake, and protein tools.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">What we are not</h2>
-        <ul class="space-y-2 text-zinc-400 text-sm leading-relaxed">
-          <li><strong class="text-zinc-200">Not a tracker.</strong> We do not run analytics cookies, fingerprint scripts, or third party trackers. The only client side state we use is localStorage for the meal builder, which stays on your device.</li>
-          <li><strong class="text-zinc-200">Not a SaaS.</strong> No backend, no database, no signup. The site works the same whether you visit once or daily.</li>
-          <li><strong class="text-zinc-200">Not medical advice.</strong> Everything here is reference data and educational content. For individualized guidance, consult a registered dietitian or your physician.</li>
-        </ul>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Where the data comes from</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Restaurant nutrition data is sourced from public disclosures published by each chain. Whole food data comes from USDA FoodData Central reference tables. Calculator formulas use standard clinical equations (Mifflin-St Jeor for BMR, U.S. Navy for body fat, Devine and Robinson for ideal weight). Where multiple formulas exist, we show them side by side.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          All data is approximate. Restaurant portions vary by location and preparation. Whole food values vary by variety and ripeness. Use the numbers as a guide, not a guarantee.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Who writes the content</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Educational content on calculator pages and the blog is written and reviewed by Dr. Sarah Jenkins, a clinical dietitian with a PhD in nutritional science and over a decade of clinical experience in metabolic health. Dr. Jenkins reviews each calculator formula and educational section before publication.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">How the site is built</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Nutrition Solver is built with Astro, a static site generator that pre-renders every page at build time. Styling uses Tailwind CSS v4 with a custom design system. Search is powered by Pagefind, which builds a static search index at deploy time and runs entirely in the browser. The site deploys as a flat folder of HTML, CSS, and JavaScript files that any static host can serve.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Get in touch</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Found a bug, want to suggest a restaurant or calculator, or have a question about the data! Email <a href="mailto:hello@nutritionsolver.com" class="text-emerald-400 underline">hello@nutritionsolver.com</a> and we will get back to you.
-        </p>
-      </section>
-    </div>
-  </div>
+  <AboutSection />
 </Layout>

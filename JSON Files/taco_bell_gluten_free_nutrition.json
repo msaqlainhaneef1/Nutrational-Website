@@ -1,0 +1,124 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Gluten-Free Sides",
+    "Gluten-Free Specialties"
+  ],
+  "products": [
+    {
+      "product_id": "tacobell_crunchy_taco_gf_modified",
+      "name": "Crunchy Taco (Gluten-Free Modified)",
+      "category": "Gluten-Free Specialties",
+      "subcategory": "Tacos",
+      "description": "Crunchy corn taco shell filled with seasoned beef, lettuce, and real cheddar cheese. Note: Taco Bell does not officially certify items as gluten-free due to shared cooking equipment, but ingredients for crunchy corn tacos contain no gluten ingredients.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco (78g)",
+        "weight_g": 78.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 8.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 3.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Crunchy Corn Taco Shell",
+        "Seasoned Beef",
+        "Cheddar Cheese",
+        "Lettuce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/crunchy-taco.png",
+      "product_url": "https://www.tacobell.com/food/tacos/crunchy-taco",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/info",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tacobell_chips_and_nacho_cheese_sauce",
+      "name": "Chips and Nacho Cheese Sauce (Gluten-Free)",
+      "category": "Gluten-Free Sides",
+      "subcategory": "Sides",
+      "description": "Crispy corn tortilla chips served with warm, creamy nacho cheese sauce.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (94g)",
+        "weight_g": 94.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 370.0,
+        "potassium_mg": 120.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Tortilla Chips (Ground Corn, Vegetable Oil, Salt)",
+        "Nacho Cheese Sauce (Milk, Cheese Culture, Jalapeno Peppers, Water, Modified Food Starch)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/chips-and-nacho-cheese.png",
+      "product_url": "https://www.tacobell.com/food/sides/chips-and-nacho-cheese-sauce",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/info",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

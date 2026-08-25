@@ -1,0 +1,490 @@
+{
+  "brand": {
+    "name": "Cracker Barrel",
+    "website": "https://www.crackerbarrel.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Lunch & Dinner Specials",
+    "Chicken",
+    "Country Dinners",
+    "Sides & Country Vegetables",
+    "Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "cb_old_timer_breakfast",
+      "name": "Old Timer's Breakfast (with Bacon)",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Favorites",
+      "description": "Two eggs cooked to order, grits, sawmill gravy, homemade buttermilk biscuits, butter, and jam, plus thick-sliced bacon.",
+      "price": 10.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 meal",
+        "weight_g": 520.0
+      },
+      "nutrition": {
+        "calories": 950,
+        "protein_g": 32.0,
+        "fat_g": 58.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 440.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 72.0,
+        "fiber_g": 3.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Bacon",
+        "Grits",
+        "Sawmill Gravy",
+        "Buttermilk Biscuits",
+        "Butter",
+        "Jam"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/old-timers-breakfast.png",
+      "product_url": "https://www.crackerbarrel.com/menu/breakfast/old-timers",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/cracker-barrel",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "cb_mommas_pancake_breakfast",
+      "name": "Momma's Pancake Breakfast",
+      "category": "Breakfast",
+      "subcategory": "Pancakes",
+      "description": "Three buttermilk pancakes served with 100% pure natural syrup, two eggs, and thick-sliced bacon.",
+      "price": 11.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 meal",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 1080,
+        "protein_g": 30.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 430.0,
+        "sodium_mg": 1690.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 138.0,
+        "fiber_g": 4.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 42.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 5.2,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Buttermilk Pancakes",
+        "Maple Syrup",
+        "Eggs",
+        "Bacon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/mommas-pancakes.png",
+      "product_url": "https://www.crackerbarrel.com/menu/breakfast/mommas-pancakes",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_chicken_n_dumplins",
+      "name": "Chicken n' Dumplins Country Dinner",
+      "category": "Country Dinners",
+      "subcategory": "Homestyle Dinners",
+      "description": "Tender tenderloin chicken simmered with homemade flat dumplins from scratch, served with choice of three country sides and cornbread or biscuits.",
+      "price": 14.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dinner entrée",
+        "weight_g": 550.0
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 38.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 145.0,
+        "sodium_mg": 1480.0,
+        "potassium_mg": 510.0,
+        "carbohydrates_g": 70.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken Tenderloin",
+        "Homemade Dumplins",
+        "Chicken Broth",
+        "Butter",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/chicken-n-dumplins.png",
+      "product_url": "https://www.crackerbarrel.com/menu/dinners/chicken-n-dumplins",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_country_fried_steak",
+      "name": "Country Fried Steak Dinner",
+      "category": "Country Dinners",
+      "subcategory": "Homestyle Dinners",
+      "description": "Hand-crafted fried steak topped with homemade sawmill gravy, served with three country sides and bread.",
+      "price": 15.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dinner entrée",
+        "weight_g": 600.0
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 36.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 120.0,
+        "sodium_mg": 1720.0,
+        "potassium_mg": 580.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 190.0,
+        "iron_mg": 4.9,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Cube Steak",
+        "Breading",
+        "Sawmill Gravy"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/country-fried-steak.png",
+      "product_url": "https://www.crackerbarrel.com/menu/dinners/country-fried-steak",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_fried_apples",
+      "name": "Fried Apples",
+      "category": "Sides & Country Vegetables",
+      "subcategory": "Sides",
+      "description": "Warm apple slices simmered in a sweet apple cider glaze and cinnamon.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 side order (130g)",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 0.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 65.0,
+        "potassium_mg": 120.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 2.0,
+        "sugars_g": 31.0,
+        "added_sugars_g": 25.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Apples",
+        "Sugar",
+        "Butter",
+        "Cinnamon",
+        "Apple Cider Glaze"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/fried-apples.png",
+      "product_url": "https://www.crackerbarrel.com/menu/sides/fried-apples",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_hashbrown_casserole",
+      "name": "Hashbrown Casserole",
+      "category": "Sides & Country Vegetables",
+      "subcategory": "Sides",
+      "description": "Cracker Barrel's signature shredded potato casserole with melted Colby cheese and onions.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 side order (140g)",
+        "weight_g": 140.0
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 5.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 480.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Potatoes",
+        "Colby Cheese",
+        "Onions",
+        "Cream of Chicken Soup",
+        "Butter",
+        "Seasonings"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/hashbrown-casserole.png",
+      "product_url": "https://www.crackerbarrel.com/menu/sides/hashbrown-casserole",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_double_chocolate_fudge_coca_cola_cake",
+      "name": "Double Chocolate Fudge Coca-Cola Cake",
+      "category": "Desserts",
+      "subcategory": "Cakes",
+      "description": "Rich homemade chocolate fudge cake made with Coca-Cola, served with a scoop of vanilla ice cream.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice with ice cream (180g)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 7.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 88.0,
+        "fiber_g": 3.0,
+        "sugars_g": 68.0,
+        "added_sugars_g": 60.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 15.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chocolate Cake",
+        "Coca-Cola",
+        "Fudge Frosting",
+        "Vanilla Ice Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/coca-cola-cake.png",
+      "product_url": "https://www.crackerbarrel.com/menu/desserts/coca-cola-cake",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cb_country_sweet_tea",
+      "name": "Country Freshly Brewed Sweet Tea",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Cracker Barrel's signature freshly brewed iced tea, perfectly sweetened.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz glass",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 35.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 0.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 50.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Black Tea Leaves",
+        "Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.crackerbarrel.com/media/menu/sweet-tea.png",
+      "product_url": "https://www.crackerbarrel.com/menu/beverages/sweet-tea",
+      "sources": [
+        {
+          "url": "https://www.crackerbarrel.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

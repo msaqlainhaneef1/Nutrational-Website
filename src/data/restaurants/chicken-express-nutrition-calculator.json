@@ -1,0 +1,704 @@
+{
+  "name": "Chicken Express",
+  "slug": "chicken-express-nutrition-calculator",
+  "tagline": "Track nutrition for Chicken Express menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 65 menu items at Chicken Express.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 65,
+  "categories": [
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Chicken Breast",
+          "calories": 614,
+          "protein": 58,
+          "fat": 32,
+          "carbs": 18,
+          "servingSize": "1 pc (267g)",
+          "sodium": 1975,
+          "cholesterol": 213,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Fried Chicken Wing",
+          "calories": 165,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 5,
+          "servingSize": "1 pc (61g)",
+          "sodium": 573,
+          "cholesterol": 61,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Fried Chicken Thigh",
+          "calories": 435,
+          "protein": 25,
+          "fat": 33,
+          "carbs": 12,
+          "servingSize": "1 pc (152g)",
+          "sodium": 1035,
+          "cholesterol": 150,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Fried Chicken Leg",
+          "calories": 198,
+          "protein": 18,
+          "fat": 12,
+          "carbs": 7.2,
+          "servingSize": "1 pc (90g)",
+          "sodium": 684,
+          "cholesterol": 99,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Fried Chicken Tender",
+          "calories": 140,
+          "protein": 10.5,
+          "fat": 7.5,
+          "carbs": 7.5,
+          "servingSize": "1 pc (50g)",
+          "fiber": 1,
+          "sodium": 400,
+          "cholesterol": 30,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Fried Chicken Liver",
+          "calories": 112,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 6,
+          "servingSize": "1 pc (28g)",
+          "sodium": 157,
+          "cholesterol": 91,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Fried Chicken Gizzard",
+          "calories": 126,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 7,
+          "servingSize": "1 pc (35g)",
+          "sodium": 315,
+          "cholesterol": 72,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Fried Hot Wing",
+          "calories": 280,
+          "protein": 24,
+          "fat": 16,
+          "carbs": 9,
+          "servingSize": "3.5oz (100g)",
+          "sodium": 1120,
+          "cholesterol": 115,
+          "saturated_fat": 6
+        }
+      ]
+    },
+    {
+      "name": "Fish",
+      "items": [
+        {
+          "name": "Fried Fish Fillet",
+          "calories": 100,
+          "protein": 17,
+          "fat": 3.5,
+          "carbs": 25.8,
+          "servingSize": "4oz (113g)",
+          "sodium": 40,
+          "cholesterol": 55,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Hushpuppies",
+          "calories": 130,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 20,
+          "servingSize": "3pcs (52g)",
+          "fiber": 1,
+          "sodium": 400,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Side Orders",
+      "items": [
+        {
+          "name": "Fried Okra",
+          "calories": 190,
+          "protein": 5,
+          "fat": 18,
+          "carbs": 42,
+          "servingSize": "27pcs",
+          "fiber": 3,
+          "sodium": 700,
+          "sugars": 2
+        },
+        {
+          "name": "French Fries",
+          "calories": 60,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 22,
+          "servingSize": "3oz (85g)",
+          "fiber": 2,
+          "sodium": 360,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Corn on the Cob",
+          "calories": 80,
+          "protein": 3,
+          "fat": 1,
+          "carbs": 18,
+          "servingSize": "1 Ear (85g)",
+          "fiber": 1,
+          "sodium": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Seasoned Italian Green Beans",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1/2 cup (128g)",
+          "fiber": 2,
+          "sodium": 600,
+          "sugars": 2
+        },
+        {
+          "name": "Cheese Sticks",
+          "calories": 70,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 8,
+          "servingSize": "1pc (30g)",
+          "sodium": 280,
+          "cholesterol": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Mini Poppers",
+          "calories": 130,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 16,
+          "servingSize": "3pcs (62g)",
+          "fiber": 1,
+          "sodium": 550,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 3
+        },
+        {
+          "name": "Corn Nuggets",
+          "calories": 190,
+          "protein": 3,
+          "fat": 6,
+          "carbs": 31,
+          "servingSize": "6pcs (82g)",
+          "fiber": 2,
+          "sodium": 420,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Fried Pickle Slices",
+          "calories": 124,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 15,
+          "servingSize": "4pcs (45g)",
+          "fiber": 2,
+          "sodium": 480,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Mashed Potatoes without Gravy",
+          "calories": 100,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 17,
+          "servingSize": "6oz (113g)",
+          "sodium": 380,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Deluxe Macaroni & Cheese",
+          "calories": 280,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 30,
+          "servingSize": "1 cup (241g)",
+          "fiber": 3,
+          "sodium": 900,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 3
+        },
+        {
+          "name": "Biscuits",
+          "calories": 178,
+          "protein": 2.7,
+          "fat": 8,
+          "carbs": 22,
+          "servingSize": "1.9oz (55g)",
+          "sodium": 390,
+          "saturated_fat": 3,
+          "sugars": 2.6
+        },
+        {
+          "name": "Yeast Roll",
+          "calories": 110,
+          "protein": 3,
+          "fat": 2,
+          "carbs": 22,
+          "servingSize": "1.5oz",
+          "fiber": 1,
+          "sodium": 140,
+          "sugars": 4
+        },
+        {
+          "name": "Cole Slaw",
+          "calories": 140,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 10,
+          "servingSize": "2tbsp (30g)",
+          "sodium": 340,
+          "cholesterol": 20,
+          "saturated_fat": 2,
+          "sugars": 10
+        },
+        {
+          "name": "Gravy",
+          "calories": 140,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 16,
+          "servingSize": "6oz",
+          "sodium": 820,
+          "saturated_fat": 2,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Fried Cherry Turnovers",
+          "calories": 200,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 33,
+          "servingSize": "1 pie (86g)",
+          "fiber": 1,
+          "sodium": 170,
+          "saturated_fat": 2.5,
+          "sugars": 15
+        },
+        {
+          "name": "Fried Apple Turnovers",
+          "calories": 230,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 40,
+          "servingSize": "1 pie (85g)",
+          "fiber": 1,
+          "sodium": 180,
+          "saturated_fat": 2.5,
+          "sugars": 13
+        },
+        {
+          "name": "Chunky Chocolate Chip Cookie",
+          "calories": 250,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 35,
+          "servingSize": "1 cookie (57g)",
+          "sodium": 210,
+          "saturated_fat": 6,
+          "sugars": 21
+        },
+        {
+          "name": "Chocolate Soft Serve Ice Cream",
+          "calories": 100,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 19,
+          "servingSize": "4 fl oz"
+        },
+        {
+          "name": "Vanilla Soft Serve Ice Cream",
+          "calories": 100,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 19,
+          "servingSize": "4 fl oz"
+        }
+      ]
+    },
+    {
+      "name": "Chicken E Blend Add-Ins",
+      "items": [
+        {
+          "name": "Butterfinger Add-In",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Caramel Add-In",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Chocolate Add-In",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Heath Add-In",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "M&M's Add-In",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Mango Add-In",
+          "calories": 18,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Oreo Add-In",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Peach Add-In",
+          "calories": 16,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Reese's Add-In",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Strawberry Add-In",
+          "calories": 16,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Strawberry Banana Add-In",
+          "calories": 16,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Heinz Ketchup",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1 Packet (9g)",
+          "sodium": 85,
+          "sugars": 2
+        },
+        {
+          "name": "Heinz Honey",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 Packet (9g)",
+          "sugars": 7
+        },
+        {
+          "name": "Buffalo Sauce",
+          "calories": 40,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 1,
+          "servingSize": "1 Serv Cup (35g)",
+          "sodium": 580,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Buttermilk Ranch Dressing",
+          "calories": 160,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 2,
+          "servingSize": "1 Serv Cup (30g)",
+          "sodium": 300,
+          "cholesterol": 5,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Cocktail Sauce",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 Serv Cup (34g)",
+          "sodium": 450,
+          "sugars": 7
+        },
+        {
+          "name": "Honey Mustard Dressing",
+          "calories": 140,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 8,
+          "servingSize": "1 Serv Cup (30g)",
+          "sodium": 220,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Tartar Sauce",
+          "calories": 90,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 4,
+          "servingSize": "1 Serv Cup (30g)",
+          "sodium": 270,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 3
+        },
+        {
+          "name": "BBQ Sauce",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "servingSize": "1 Serv Cup (30g)",
+          "sodium": 480,
+          "sugars": 9
+        },
+        {
+          "name": "Chipotle Ranch",
+          "calories": 150,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 3,
+          "servingSize": "1 Serv Cup (30g)",
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Marinara Sauce",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 Serv Cup"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Coca-Cola Classic",
+          "calories": 99,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "servingSize": "8oz",
+          "sodium": 6,
+          "sugars": 27
+        },
+        {
+          "name": "Coca-Cola Zero",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "8oz",
+          "sodium": 30
+        },
+        {
+          "name": "Diet Coke",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "8oz",
+          "sodium": 10
+        },
+        {
+          "name": "Sprite",
+          "calories": 97,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "servingSize": "8oz",
+          "sodium": 22,
+          "sugars": 26
+        },
+        {
+          "name": "Hi-C Flashin' Fruit Punch",
+          "calories": 104,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "8oz",
+          "sodium": 9,
+          "sugars": 27
+        },
+        {
+          "name": "Minute Maid Lemonade",
+          "calories": 97,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "servingSize": "8oz",
+          "sodium": 41,
+          "sugars": 26
+        },
+        {
+          "name": "Dr Pepper",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 66,
+          "servingSize": "20oz",
+          "sodium": 100,
+          "sugars": 64
+        },
+        {
+          "name": "Diet Dr Pepper",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20oz",
+          "sodium": 100
+        },
+        {
+          "name": "Chicken Express Sweet Tea",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "servingSize": "20oz",
+          "sugars": 12
+        },
+        {
+          "name": "Barq's Root Beer",
+          "calories": 111,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "8oz",
+          "sugars": 28
+        },
+        {
+          "name": "Red Flash",
+          "calories": 105,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "8oz",
+          "sodium": 21,
+          "sugars": 28
+        },
+        {
+          "name": "Minute Maid Mango Smoothie",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "8oz",
+          "sugars": 35
+        },
+        {
+          "name": "Minute Maid Peach Smoothie",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "servingSize": "8oz",
+          "sugars": 33
+        },
+        {
+          "name": "Minute Maid Strawberry Smoothie",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "servingSize": "8oz",
+          "sugars": 33
+        },
+        {
+          "name": "Minute Maid Strawberry and Banana Smoothie",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 31,
+          "servingSize": "8oz",
+          "sugars": 31
+        }
+      ]
+    }
+  ]
+}

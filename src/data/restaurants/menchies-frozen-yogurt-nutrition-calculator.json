@@ -1,0 +1,1408 @@
+{
+  "name": "Menchie's Frozen Yogurt",
+  "slug": "menchies-frozen-yogurt-nutrition-calculator",
+  "tagline": "Track nutrition for Menchie's Frozen Yogurt menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 143 menu items at Menchie's Frozen Yogurt.",
+  "category": "Desserts & Treats",
+  "emoji": "\ud83c\udf66",
+  "itemCount": 143,
+  "categories": [
+    {
+      "name": "Frozen Yogurt Flavors",
+      "items": [
+        {
+          "name": "Banana Pudding Made With Nilla\u00aeWafers",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Berry Berry",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Black Cherry Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Blackberry Burst",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 5
+        },
+        {
+          "name": "Blue Raspberry Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Blueberry Pomegranate Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Caramel Apple Pie",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 45,
+          "sugars": 6
+        },
+        {
+          "name": "Carbolite Low Carb Caramel Macchiato",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb Chocolate Caramel Macchiato",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Strawberry Shortcake",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Chocolate",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Chocolate Colombian Supremo Coffee",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Chocolate Mint",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Cookies \u2018N\u2019 Cream",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added German Chocolate Cake",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Peanut Butter",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Pecan Praline",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Peppermint",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Pistachio",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Sweet Cream",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Vanilla Bean",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Chocolate Dipped Churro Made With Hershey\u2019s\u00aeChocolate",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Chocolate Cake Batter Made With Hershey\u2019s\u00aeChocolate",
+          "calories": 45,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 7
+        },
+        {
+          "name": "Classic Banana Bread",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Classic Strawberry Shortcake",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Cold Brew Coffee",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Creamy Cocoa Hazelnut",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "cholesterol": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Creamy Country Vanilla",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Creamy Peanut Butter",
+          "calories": 40,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "sugars": 6
+        },
+        {
+          "name": "Dark Chocolate Candy Made With Dove\u00aeChocolate",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Dreamy Dulce De Leche",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "cholesterol": 5,
+          "sugars": 6
+        },
+        {
+          "name": "Fresh Shredded Coconut",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Golden Cereal Made With Cap\u2019N Crunch\u00ae",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Gourmet Peanut Butter Gelato",
+          "calories": 50,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Gourmet Pistachio Gelato",
+          "calories": 40,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Green Apple Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Hershey\u2019s\u00aeKisses\u00aeMilk Chocolate",
+          "calories": 45,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "saturated_fat": 0.5,
+          "sugars": 6
+        },
+        {
+          "name": "Holiday Eggnog",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "DOLE\u00aeSoft Serve Pineapple Flavor",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Harvest Pumpkin",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "I Dream Of Cookies N\u2019 Cream",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Jumpin\u2019 Java Latte",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Live From Ny Cheesecake",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Milk Chocolate Mania",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "Mudslide Pie",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "NSA Very Chocolate",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 2
+        },
+        {
+          "name": "NSA Very Vanilla",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 2
+        },
+        {
+          "name": "Original Strawberry",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 20,
+          "sugars": 6
+        },
+        {
+          "name": "Original Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 5
+        },
+        {
+          "name": "Peach Mango Tart",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Cotton Candy",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Rockin\u2019 Salted Caramel",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 75,
+          "sugars": 6
+        },
+        {
+          "name": "Takes The Cake Batter",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Vanilla Snow",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Vanilla Snow And Pure Chocolate Swirl",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "NSA Strawberry",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 2
+        },
+        {
+          "name": "Peachy Keen",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 5
+        },
+        {
+          "name": "Pure Chocolate",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "Sweet Cantaloupe",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Blueberry Lemonade Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Yumm Bubble Gum",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Cake Batter Made With Almond Milk",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 9,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Cherry Cola Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Dark Chocolate Mousse Made From Almond Milk",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Vegan Fudgy Chocolate Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Honeydew Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Meyer Lemon",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Oatly Vanilla",
+          "calories": 50,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 15,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Paradise Fruit Punch Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Pineapple Coconut-Milk Smoothie",
+          "calories": 45,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 5,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Pomegranate Razz Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Simply Mango Sorbet",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Sweet Juicy Peach Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Wild Cherry Sorbet With A Splash Of Lime",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "HI-CHEW\u00aeBlue Hawaii Tropical Candy",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Strawberry Kiwi Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added White Chocolate Macadamia",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 3
+        },
+        {
+          "name": "Orange Cream Bar",
+          "calories": 40,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "cholesterol": 5,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Peaches n Cream",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Whipped Lemonade",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "cholesterol": 5,
+          "sugars": 5
+        },
+        {
+          "name": "DOLE Soft Serve\u00aePomegranate Flavor",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Nerds\u00aeRainbow Candy Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 oz",
+          "sodium": 8,
+          "cholesterol": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Menchie Razzle Dazzle Vegan Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Menchie Snazzy Jazzy Vegan Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Peanut Butter \u2018n\u2019 Chocolate Fudge made with Reese\u2019s\u00aePeanut Butter",
+          "calories": 28,
+          "protein": 2,
+          "fat": 1.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Toasty Marshmallow",
+          "calories": 45,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 7
+        },
+        {
+          "name": "Vegan Cherry Rocket Pop Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Carbolite Low Carb Chocolate Mint",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 50,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "Carbolite Low Carb No Sugar Added Colombian Supremo Coffee",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 2
+        },
+        {
+          "name": "S\u2019mores made with Hershey\u2019s\u00aeMilk Chocolate",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Reese\u2019s\u00aePeanut Butter Cup",
+          "calories": 28,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Hawaiian POG Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Spiced Gingerbread Cookie",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Cookie Butter",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "HI-CHEW\u00aeRaspberry",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 5,
+          "sugars": 5
+        },
+        {
+          "name": "HI-CHEW\u00aeKey Lime Pie",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "sugars": 5
+        },
+        {
+          "name": "No Sugar Added Iced Coffee",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 2
+        },
+        {
+          "name": "Just The Cookie",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "sugars": 6
+        },
+        {
+          "name": "Just The Cr\u00e8me",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Sweet Plum",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Blue Raspberry Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Salted Caramel",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 oz",
+          "sodium": 60,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Mint Chocolate Chip Made With Almond Milk",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 9,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Watermelon Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Rocky Road",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "sugars": 5
+        },
+        {
+          "name": "Fruity Cereal",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 5
+        },
+        {
+          "name": "Dubai Chocolate",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 5
+        },
+        {
+          "name": "Chocolate Covered Raspberry made with Hershey\u2019s Chocolate",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 40,
+          "sugars": 5
+        },
+        {
+          "name": "White Peppermint Bark made with Hershey\u2019s Premier White Chips",
+          "calories": 40,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "No Sugar Added Blue Raspberry",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 2
+        },
+        {
+          "name": "Cinnamon Roll",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 35,
+          "sugars": 6
+        },
+        {
+          "name": "Iced Hazelnut Latte",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Classic Blueberry Muffin",
+          "calories": 28,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 6
+        },
+        {
+          "name": "Hi-Chew Grapefruit",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 10,
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Sweet White Peach Sorbet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Classic Vanilla Cupcake",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 25,
+          "sugars": 6
+        },
+        {
+          "name": "Vegan Juicy Mango Hibiscus Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Vegan Strawberry Lemonade Sorbet",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz",
+          "sugars": 4
+        },
+        {
+          "name": "watermelon sorbet made with jolly rancher\u00aeflavor",
+          "calories": 28,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sugars": 5
+        },
+        {
+          "name": "Gourmet Caf\u00e9 Gelato",
+          "calories": 28,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 20,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Creamy Rootbeer Float",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz",
+          "sodium": 30,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Almonds",
+          "calories": 160,
+          "protein": 6,
+          "fat": 14,
+          "carbs": 6,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Andes Mints",
+          "calories": 160,
+          "protein": 1,
+          "fat": 10,
+          "carbs": 18,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Blue Gummy Sharks",
+          "calories": 90,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 22,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Brownies",
+          "calories": 120,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 18,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Bursting Boba",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Butterfinger",
+          "calories": 140,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 20,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Cap'n Crunch's Crunch Berries",
+          "calories": 110,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 23,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Carob Chips",
+          "calories": 150,
+          "protein": 1,
+          "fat": 9,
+          "carbs": 18,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Cheesecake Pieces",
+          "calories": 100,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 10,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Chocolate Chip Cookie Dough",
+          "calories": 130,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 19,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Chocolate Sprinkles",
+          "calories": 140,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 22,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Coconut",
+          "calories": 100,
+          "protein": 1,
+          "fat": 9,
+          "carbs": 4,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Fresh Strawberries",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Fresh Bananas",
+          "calories": 25,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Fresh Blueberries",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Gummy Bears",
+          "calories": 100,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 23,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "M&M'S Minis",
+          "calories": 140,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 20,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Oreo Cookie Pieces",
+          "calories": 140,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 21,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Rainbow Sprinkles",
+          "calories": 140,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 22,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Reese's Peanut Butter Cups",
+          "calories": 150,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 15,
+          "servingSize": "1 oz"
+        },
+        {
+          "name": "Yogurt Chips",
+          "calories": 150,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 19,
+          "servingSize": "1 oz"
+        }
+      ]
+    },
+    {
+      "name": "Froyo Cakes",
+      "items": [
+        {
+          "name": "Custom Froyo Cake (Standard Slice)",
+          "calories": 250,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 40,
+          "servingSize": "1 slice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_cajun_crunch_spicy_chicken_sandwich",
+      "name": "Cajun Crunch Spicy Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Premium Chicken Sandwiches",
+      "description": "Juicy spicy chicken breast fillet topped with pepper jack cheese, cajun crispy onions, spicy mustard sauce, pickles, and crisp lettuce on a premium bun.",
+      "price": 6.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 265.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 33.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 90.0,
+        "sodium_mg": 1360.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Egg",
+        "Gluten",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Spicy Chicken Breast Fillet",
+        "Premium Bun",
+        "Pepper Jack Cheese",
+        "Spicy Mustard Sauce",
+        "Cajun Crispy Onions",
+        "Crinkle Cut Pickles",
+        "Lettuce"
+      ],
+      "customizations": [
+        "No Cheese",
+        "No Crispy Onions",
+        "Extra Pickles"
+      ],
+      "image_url": "https://fastfoodnutrition.org/wendys/cajun-crunch-spicy-chicken-sandwich",
+      "product_url": "https://fastfoodnutrition.org/wendys/cajun-crunch-spicy-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/wendys/cajun-crunch-spicy-chicken-sandwich",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.wendys.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

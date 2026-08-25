@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Bakery",
+    "Gluten-Free"
+  ],
+  "products": [
+    {
+      "product_id": "chick_fil_a_gluten_free_bun",
+      "name": "Gluten-Free Bun",
+      "category": "Bakery",
+      "subcategory": "Buns & Bread",
+      "description": "A certified gluten-free bun individually packaged to prevent cross-contamination, lightly sweetened and soft.",
+      "price": 1.15,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bun (51g)",
+        "weight_g": 51.0
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 2.0,
+        "fat_g": 3.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 50.0,
+        "carbohydrates_g": 27.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs"
+      ],
+      "ingredients": [
+        "Water",
+        "Tapioca flour",
+        "brown rice flour",
+        "whole grain sorghum flour",
+        "potato starch",
+        "organic cane sugar",
+        "eggs",
+        "extra virgin olive oil",
+        "xanthan gum",
+        "sea salt",
+        "yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/-/media/images/cfanext/menu/bakery/gluten-free-bun/gf-bun_portrait.png",
+      "product_url": "https://www.chick-fil-a.com/menu/gluten-free-bun",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

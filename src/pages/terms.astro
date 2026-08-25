@@ -1,87 +1,30 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import TermsSection from '@/features/shared/components/TermsSection.astro';
 
-const lastUpdated = 'July 2026';
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/terms/`;
+const description = "Read the Nutrition Solver terms of service, acceptable usage guidelines, medical disclaimers, and user agreement details for our website.";
+
+const termsSchema = {
+  "@type": "WebPage",
+  "@id": `${canonicalUrl}#webpage`,
+  "name": "Terms of Service",
+  "url": canonicalUrl,
+  "description": description,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": `${siteOrigin}/`
+  }
+};
 ---
 
 <Layout
   title="Terms of Service"
-  description="Nutrition Solver terms of service. The site is provided as-is for educational reference. Use at your own discretion."
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={termsSchema}
 >
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-    <Breadcrumb items={[{ label: 'Terms', url: '/terms' }]} />
-
-    <div class="space-y-3">
-      <h1 class="text-4xl font-extrabold text-white tracking-tight">Terms of service</h1>
-      <p class="text-zinc-500 text-sm">Last updated: {lastUpdated}</p>
-    </div>
-
-    <div class="space-y-6">
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Acceptance of terms</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          By accessing Nutrition Solver, you agree to these terms. If you do not agree, please do not use the site. These terms apply to all visitors regardless of location.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Use of the site</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Nutrition Solver is provided as a free, educational reference. You may use it for personal, non-commercial purposes including tracking your own nutrition, learning about food, and informing conversations with healthcare providers. You may not use the site for any illegal purpose, to harass others, or to attempt to disrupt service.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Commercial use of the data, including but not limited to scraping and republishing the restaurant or food database, requires written permission. Contact <a href="mailto:business@nutritionsolver.com" class="text-emerald-400 underline">business@nutritionsolver.com</a> for licensing inquiries.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">No medical advice</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          All content on Nutrition Solver is provided for educational and informational purposes only. It is not medical advice and should not be used as a substitute for professional medical evaluation, diagnosis, or treatment. Always consult a qualified healthcare provider before making decisions about your diet, exercise, or health.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Calculator outputs are estimates based on population level formulas. Individual results vary based on factors the calculators do not capture, including but not limited to genetics, hormones, medical conditions, and medications.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Accuracy of data</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Restaurant nutrition data is sourced from public disclosures and may not reflect current menus or formulations. Chains update recipes periodically without notice. Whole food values are averages from USDA reference tables and vary by variety, ripeness, and preparation.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          We make reasonable efforts to keep data current but do not warrant that any specific value is accurate for your specific situation. Always check the restaurant's official nutrition information or food packaging for the most reliable values.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Intellectual property</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          The Nutrition Solver site design, code, and original written content are the property of their respective authors. Restaurant names, logos, and menu item names are trademarks of their respective owners and are referenced here for identification purposes only. Nutrition Solver is not affiliated with or endorsed by any restaurant chain listed.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Limitation of liability</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Nutrition Solver is provided "as is" and "as available" without warranties of any kind, express or implied. To the fullest extent permitted by law, we are not liable for any damages arising from your use of or reliance on the site, including but not limited to direct, indirect, incidental, consequential, or punitive damages.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Changes to these terms</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          We may update these terms periodically. The updated terms take effect when posted on this page. Continued use of the site after changes constitutes acceptance of the new terms.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Contact</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Questions about these terms! Email <a href="mailto:legal@nutritionsolver.com" class="text-emerald-400 underline">legal@nutritionsolver.com</a>.
-        </p>
-      </section>
-    </div>
-  </div>
+  <TermsSection />
 </Layout>

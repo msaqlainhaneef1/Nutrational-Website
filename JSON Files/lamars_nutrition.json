@@ -1,0 +1,3560 @@
+{
+  "brand": {
+    "name": "LaMar's Donuts",
+    "website": "https://www.lamars.com/",
+    "country": "USA",
+    "last_updated": "2026-08-04"
+  },
+  "categories": [
+    "Beverages",
+    "Bizmarks",
+    "Cake Donuts",
+    "Donut Holes",
+    "French Crullers",
+    "Fritters",
+    "Lamar's Bars",
+    "Specialty Donuts",
+    "Yeast Raised Donuts"
+  ],
+  "products": [
+    {
+      "product_id": "rays_original_glazed",
+      "name": "Ray's Original Glazed",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 0,
+        "fat_g": 10,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": 0,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.lamars.com/about/menu",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "rays_chocolate_glazed",
+      "name": "Ray's Chocolate Glazed",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": null,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 44,
+        "fiber_g": null,
+        "sugars_g": 25,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.lamars.com/about/menu",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "bavarian_cream_bizmark",
+      "name": "Bavarian Cream Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": null,
+        "fat_g": 22,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 570,
+        "potassium_mg": null,
+        "carbohydrates_g": 101,
+        "fiber_g": null,
+        "sugars_g": 61,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "blueberry_filled_bizmark",
+      "name": "Blueberry Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": null,
+        "fat_g": 20,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 550,
+        "potassium_mg": null,
+        "carbohydrates_g": 81,
+        "fiber_g": null,
+        "sugars_g": 37,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cherry_filled_bizmark",
+      "name": "Cherry Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 550,
+        "protein_g": null,
+        "fat_g": 19,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 560,
+        "potassium_mg": null,
+        "carbohydrates_g": 88,
+        "fiber_g": null,
+        "sugars_g": 45,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "lemon_filled_bizmark",
+      "name": "Lemon Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": null,
+        "fat_g": 21,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": null,
+        "sugars_g": 40,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_bar_unfilled",
+      "name": "Chocolate Iced Bar (Unfilled)",
+      "category": "Lamar's Bars",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": null,
+        "fat_g": 22,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 440,
+        "potassium_mg": null,
+        "carbohydrates_g": 81,
+        "fiber_g": null,
+        "sugars_g": 49,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_bar_bavarian_cream_filled",
+      "name": "Chocolate Iced Bar (Bavarian Cream Filled)",
+      "category": "Lamar's Bars",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": null,
+        "fat_g": 22,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 490,
+        "potassium_mg": null,
+        "carbohydrates_g": 96,
+        "fiber_g": null,
+        "sugars_g": 61,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_bar_chocolate_fluff_filled",
+      "name": "Chocolate Iced Bar (Chocolate Fluff Filled)",
+      "category": "Lamar's Bars",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 800,
+        "protein_g": null,
+        "fat_g": 35,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 440,
+        "potassium_mg": null,
+        "carbohydrates_g": 118,
+        "fiber_g": null,
+        "sugars_g": 84,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_bar_white_fluff_filled",
+      "name": "Chocolate Iced Bar (White Fluff Filled)",
+      "category": "Lamar's Bars",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 810,
+        "protein_g": null,
+        "fat_g": 35,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 460,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": null,
+        "sugars_g": 85,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "caramel_iced_bar_unfilled",
+      "name": "Caramel Iced Bar (Unfilled)",
+      "category": "Lamar's Bars",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": null,
+        "fat_g": 18,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 430,
+        "potassium_mg": null,
+        "carbohydrates_g": 59,
+        "fiber_g": null,
+        "sugars_g": 29,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "apple_spiced_cake_donut",
+      "name": "Apple Spiced Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": null,
+        "fat_g": 17,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 44,
+        "fiber_g": null,
+        "sugars_g": 31,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "blueberry_cake_donut",
+      "name": "Blueberry Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": null,
+        "fat_g": 17,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 47,
+        "fiber_g": null,
+        "sugars_g": 33,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_cake_donut",
+      "name": "Chocolate Iced Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": null,
+        "fat_g": 18,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 37,
+        "fiber_g": null,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "old_fashioned_sour_cream_cake_donut",
+      "name": "Old Fashioned Sour Cream Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": null,
+        "fat_g": 18,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 380,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": null,
+        "sugars_g": 40,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_cake_donut",
+      "name": "White Iced Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": null,
+        "fat_g": 17,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 38,
+        "fiber_g": null,
+        "sugars_g": 23,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cinnamon_roll",
+      "name": "Cinnamon Roll",
+      "category": "Specialty Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 690,
+        "protein_g": null,
+        "fat_g": 25,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1020,
+        "potassium_mg": null,
+        "carbohydrates_g": 106,
+        "fiber_g": null,
+        "sugars_g": 30,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cinnamon_roll_raisin_nut",
+      "name": "Cinnamon Roll (Raisin Nut)",
+      "category": "Specialty Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 850,
+        "protein_g": null,
+        "fat_g": 27,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1020,
+        "potassium_mg": null,
+        "carbohydrates_g": 137,
+        "fiber_g": null,
+        "sugars_g": 62,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cinnamon_twist",
+      "name": "Cinnamon Twist",
+      "category": "Specialty Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 770,
+        "protein_g": null,
+        "fat_g": 26,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1190,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": null,
+        "sugars_g": 32,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "german_chocolate_knot",
+      "name": "German Chocolate Knot",
+      "category": "Specialty Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": null,
+        "fat_g": 27,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 580,
+        "potassium_mg": null,
+        "carbohydrates_g": 54,
+        "fiber_g": null,
+        "sugars_g": 15,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_w_coconut",
+      "name": "Chocolate Iced w/Coconut",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_w_peanuts",
+      "name": "Chocolate Iced w/Peanuts",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_w_sprinkles",
+      "name": "Chocolate Iced w/Sprinkles",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_w_m&ms",
+      "name": "Chocolate Iced w/M&M's",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "rays_double_chocolate",
+      "name": "Ray's Double Chocolate",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "rays_cinnamon_sugar_raised",
+      "name": "Ray's Cinnamon Sugar Raised",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "rays_granulated_sugar_raised",
+      "name": "Ray's Granulated Sugar Raised",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "devils_food_glazed",
+      "name": "Devil's Food Glazed",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "devils_food_chocolate_iced",
+      "name": "Devil's Food Chocolate Iced",
+      "category": "Yeast Raised Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "orange_cake_donut",
+      "name": "Orange Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pineapple_cake_donut",
+      "name": "Pineapple Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "plain_cake_donut",
+      "name": "Plain Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "powdered_sugar_cake_donut",
+      "name": "Powdered Sugar Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "red_velvet_cake_donut",
+      "name": "Red Velvet Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 369,
+        "protein_g": 0,
+        "fat_g": 5,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 72,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "strawberry_cake_donut",
+      "name": "Strawberry Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_w_coconut_cake_donut",
+      "name": "White Iced w/Coconut Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_w_peanuts_cake_donut",
+      "name": "White Iced w/Peanuts Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_w_sprinkles_cake_donut",
+      "name": "White Iced w/Sprinkles Cake Donut",
+      "category": "Cake Donuts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cherry_iced_french_cruller",
+      "name": "Cherry Iced French Cruller",
+      "category": "French Crullers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_french_cruller",
+      "name": "Chocolate Iced French Cruller",
+      "category": "French Crullers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "glazed_french_cruller",
+      "name": "Glazed French Cruller",
+      "category": "French Crullers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 1,
+        "fat_g": 15,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 28,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "maple_iced_french_cruller",
+      "name": "Maple Iced French Cruller",
+      "category": "French Crullers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_french_cruller",
+      "name": "White Iced French Cruller",
+      "category": "French Crullers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "apple_filled_bizmark",
+      "name": "Apple Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "banana_cream_bizmark",
+      "name": "Banana Cream Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_iced_bizmark",
+      "name": "Chocolate Iced Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "glazed_bizmark",
+      "name": "Glazed Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pineapple_filled_bizmark",
+      "name": "Pineapple Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "powdered_sugar_bizmark",
+      "name": "Powdered Sugar Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "raspberry_filled_bizmark",
+      "name": "Raspberry Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "strawberry_filled_bizmark",
+      "name": "Strawberry Filled Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "white_iced_bizmark",
+      "name": "White Iced Bizmark",
+      "category": "Bizmarks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "apple_fritter",
+      "name": "Apple Fritter",
+      "category": "Fritters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "banana_fritter",
+      "name": "Banana Fritter",
+      "category": "Fritters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cherry_fritter",
+      "name": "Cherry Fritter",
+      "category": "Fritters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chocolate_cherry_fritter",
+      "name": "Chocolate Cherry Fritter",
+      "category": "Fritters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pineapple_fritter",
+      "name": "Pineapple Fritter",
+      "category": "Fritters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "raised_glazed_donut_holes_4_pc",
+      "name": "Raised Glazed Donut Holes (4 pc)",
+      "category": "Donut Holes",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": null,
+        "fat_g": 10,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": null,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cake_glazed_donut_holes",
+      "name": "Cake Glazed Donut Holes",
+      "category": "Donut Holes",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "flavored_cake_glazed_donut_holes",
+      "name": "Flavored Cake Glazed Donut Holes",
+      "category": "Donut Holes",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "raised_sugared_donut_holes",
+      "name": "Raised Sugared Donut Holes",
+      "category": "Donut Holes",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "1 donut",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.shapefit.com/uncategorized/lamars-donuts-calories.html",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/lamars",
+          "source_type": "Third-party nutrition database",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "brewed_coffee",
+      "name": "Brewed Coffee",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "12 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.ubereats.com/store/lamars-donuts-and-coffee/dB1GxKJlTaSVHeON2scoBw",
+          "source_type": "Menu listing",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "americano",
+      "name": "Americano",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "12 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.ubereats.com/store/lamars-donuts-and-coffee/dB1GxKJlTaSVHeON2scoBw",
+          "source_type": "Menu listing",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "caffe_latte",
+      "name": "Caffe Latte",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "12 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 8,
+        "fat_g": 6,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.ubereats.com/store/lamars-donuts-and-coffee/dB1GxKJlTaSVHeON2scoBw",
+          "source_type": "Menu listing",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "cafe_mocha",
+      "name": "Cafe Mocha",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "12 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 8,
+        "fat_g": 9,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 42,
+        "fiber_g": 0,
+        "sugars_g": 35,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.ubereats.com/store/lamars-donuts-and-coffee/dB1GxKJlTaSVHeON2scoBw",
+          "source_type": "Menu listing",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "hot_chocolate",
+      "name": "Hot Chocolate",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "12 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 6,
+        "fat_g": 5,
+        "saturated_fat_g": null,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 45,
+        "fiber_g": 0,
+        "sugars_g": 40,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.ubereats.com/store/lamars-donuts-and-coffee/dB1GxKJlTaSVHeON2scoBw",
+          "source_type": "Menu listing",
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}

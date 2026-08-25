@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Panera Bread",
+    "website": "https://www.panerabread.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Salads",
+    "Gluten-Conscious Options"
+  ],
+  "products": [
+    {
+      "product_id": "panera_greek_salad_with_chicken",
+      "name": "Greek Salad with Chicken",
+      "category": "Salads",
+      "subcategory": "Gluten-Conscious Salads",
+      "description": "Crisp romaine and lettuce blend tossed in Greek dressing, topped with grilled chicken, grape tomatoes, feta cheese, sliced cucumbers, red onions, and kalamata olives.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 whole salad",
+        "weight_g": 395.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 33.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1450.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 4.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Romaine Lettuce",
+        "Lettuce Blend",
+        "Grilled Chicken Raised Without Antibiotics",
+        "Grape Tomatoes",
+        "Feta Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)",
+        "Sliced Cucumbers",
+        "Red Onions",
+        "Kalamata Olives",
+        "Greek Dressing (Extra Virgin Olive Oil, Red Wine Vinegar, Lemon Juice, Garlic, Oregano, Salt, Black Pepper)"
+      ],
+      "customizations": [
+        "No Feta Cheese (Dairy-Free / Vegan)",
+        "Extra Chicken",
+        "Dressing on the Side"
+      ],
+      "image_url": "https://www.panerabread.com/en-us/menu/products/greek-salad-with-chicken.html",
+      "product_url": "https://www.panerabread.com/en-us/menu/products/greek-salad-with-chicken.html",
+      "sources": [
+        {
+          "url": "https://www.panerabread.com/content/dam/panerabread/documents/c6-26-nutrition-guide.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.panerabread.com/en-us/menu/products/ed7f69430415c073a4723ec8727d59c6.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

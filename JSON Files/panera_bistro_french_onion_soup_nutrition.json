@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Panera Bread",
+    "website": "https://www.panerabread.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Soups",
+    "Bistro Soups"
+  ],
+  "products": [
+    {
+      "product_id": "panera_bistro_french_onion_soup_bowl",
+      "name": "Bistro French Onion Soup (Bowl)",
+      "category": "Soups",
+      "subcategory": "French Onion Soup",
+      "description": "Sweet, slow-cooked onions in a savory beef broth with a thyme-infused seasoned base, topped with freshly grated Gruyère cheese and a toasted French baguette crouton.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl (340g / 12 oz)",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 13.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 1290.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 4.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Onions",
+        "Beef Broth",
+        "Gruyère Cheese",
+        "French Baguette Crouton",
+        "Butter",
+        "Thyme",
+        "Seasonings"
+      ],
+      "customizations": [],
+      "image_url": "https://www.panerabread.com/images/bistro-french-onion-soup.png",
+      "product_url": "https://www.panerabread.com/en-us/menu/products/bistro-french-onion-soup.html",
+      "sources": [
+        {
+          "url": "https://www.panerabread.com/en-us/nutrition/menu-items.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -3,9 +3,9 @@
   "slug": "blaze-pizza-calories-calculator",
   "tagline": "Customize your pizza and see complete nutrition facts.",
   "description": "Customize your pizza and see complete nutrition facts.",
-  "category": "Pizza",
+  "category": "Pizza & Italian",
   "emoji": "\ud83c\udf55",
-  "itemCount": 55,
+  "itemCount": 79,
   "categories": [
     {
       "name": "Pizza - 11 Inch",
@@ -634,6 +634,337 @@
           "sodium": 160,
           "cholesterol": 5,
           "sugars": 20
+        }
+      ]
+    },
+    {
+      "name": "Signature Pizzas",
+      "items": [
+        {
+          "name": "Meat Eater Pizza (11-inch whole)",
+          "calories": 940,
+          "protein": 48,
+          "fat": 42,
+          "carbs": 92,
+          "servingSize": "11-inch whole pizza (6 slices)",
+          "fiber": 6,
+          "sodium": 2520,
+          "cholesterol": 110,
+          "saturated_fat": 18,
+          "sugars": 8
+        },
+        {
+          "name": "Red Vine Pizza (11-inch whole)",
+          "calories": 660,
+          "protein": 30,
+          "fat": 21,
+          "carbs": 90,
+          "servingSize": "11-inch whole pizza (6 slices)",
+          "fiber": 6,
+          "sodium": 1200,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 7
+        },
+        {
+          "name": "White Top Pizza (11-inch whole)",
+          "calories": 870,
+          "protein": 36,
+          "fat": 40,
+          "carbs": 91,
+          "servingSize": "11-inch whole pizza (6 slices)",
+          "fiber": 6,
+          "sodium": 1680,
+          "cholesterol": 70,
+          "saturated_fat": 15,
+          "sugars": 6
+        },
+        {
+          "name": "Green Stripe Pizza (11-inch whole)",
+          "calories": 720,
+          "protein": 42,
+          "fat": 26,
+          "carbs": 84,
+          "servingSize": "11-inch whole pizza (6 slices)",
+          "fiber": 6,
+          "sodium": 1450,
+          "cholesterol": 65,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "BBQ Chicken Pizza (11-inch whole)",
+          "calories": 780,
+          "protein": 44,
+          "fat": 22,
+          "carbs": 98,
+          "servingSize": "11-inch whole pizza (6 slices)",
+          "fiber": 7,
+          "sodium": 1620,
+          "cholesterol": 65,
+          "saturated_fat": 7,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Crusts",
+      "items": [
+        {
+          "name": "Classic Dough Crust (11-inch)",
+          "calories": 400,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 72,
+          "servingSize": "11-inch crust (per slice / 6 slices total)",
+          "fiber": 4,
+          "sodium": 680,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "High Rise Dough Crust (11-inch)",
+          "calories": 540,
+          "protein": 16,
+          "fat": 10,
+          "carbs": 98,
+          "servingSize": "11-inch crust (per slice / 6 slices total)",
+          "fiber": 5,
+          "sodium": 860,
+          "saturated_fat": 1.5,
+          "sugars": 4
+        },
+        {
+          "name": "Gluten-Free Dough Crust (11-inch)",
+          "calories": 420,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 82,
+          "servingSize": "11-inch crust",
+          "fiber": 5,
+          "sodium": 520,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Keto Crust (10-inch)",
+          "calories": 300,
+          "protein": 22,
+          "fat": 20,
+          "carbs": 6,
+          "servingSize": "10-inch crust",
+          "fiber": 3,
+          "sodium": 590,
+          "cholesterol": 95,
+          "saturated_fat": 8,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Red Sauce (Marinara)",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Standard portion per pizza",
+          "fiber": 1,
+          "sodium": 280,
+          "sugars": 3
+        },
+        {
+          "name": "Spicy Red Sauce",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 5,
+          "servingSize": "Standard portion per pizza",
+          "fiber": 1,
+          "sodium": 310,
+          "sugars": 3
+        },
+        {
+          "name": "White Cream Sauce",
+          "calories": 110,
+          "protein": 1,
+          "fat": 11,
+          "carbs": 2,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Cheeses",
+      "items": [
+        {
+          "name": "Shredded Mozzarella Cheese",
+          "calories": 200,
+          "protein": 14,
+          "fat": 15,
+          "carbs": 2,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 380,
+          "cholesterol": 45,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Ovaline Fresh Mozzarella Cheese",
+          "calories": 160,
+          "protein": 12,
+          "fat": 12,
+          "carbs": 1,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 290,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Vegan Cheese (Daiya / Violife)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 10,
+          "servingSize": "Standard portion per pizza",
+          "fiber": 1,
+          "sodium": 330,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Meats",
+      "items": [
+        {
+          "name": "Pepperoni",
+          "calories": 170,
+          "protein": 7,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 460,
+          "cholesterol": 30,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Grilled Chicken",
+          "calories": 80,
+          "protein": 14,
+          "fat": 2.5,
+          "carbs": 0,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 220,
+          "cholesterol": 40,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Applewood Bacon",
+          "calories": 130,
+          "protein": 8,
+          "fat": 11,
+          "carbs": 0,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 380,
+          "cholesterol": 20,
+          "saturated_fat": 4
+        }
+      ]
+    },
+    {
+      "name": "Veggies",
+      "items": [
+        {
+          "name": "Mushrooms",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "Standard portion per pizza",
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Red Onions",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "Standard portion per pizza",
+          "fiber": 1,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Drizzles",
+      "items": [
+        {
+          "name": "Pesto Drizzle",
+          "calories": 70,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 1,
+          "servingSize": "Standard portion per pizza",
+          "sodium": 110,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Tomato & Mozzarella Salad",
+          "calories": 610,
+          "protein": 18,
+          "fat": 48,
+          "carbs": 24,
+          "servingSize": "1 salad bowl",
+          "fiber": 3,
+          "sodium": 740,
+          "cholesterol": 50,
+          "saturated_fat": 16,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Olive Oil Brownie",
+          "calories": 380,
+          "protein": 4,
+          "fat": 19,
+          "carbs": 50,
+          "servingSize": "1 brownie",
+          "fiber": 3,
+          "sodium": 210,
+          "cholesterol": 35,
+          "saturated_fat": 5,
+          "sugars": 36
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Fanta Cane Sugar Soda",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "servingSize": "20 fl oz fountain cup",
+          "sodium": 55,
+          "sugars": 64
         }
       ]
     }

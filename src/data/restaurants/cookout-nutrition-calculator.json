@@ -1,0 +1,140 @@
+{
+  "name": "Cook Out",
+  "slug": "cookout-nutrition-calculator",
+  "tagline": "Track nutrition for Cook Out menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 8 menu items at Cook Out.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 8,
+  "categories": [
+    {
+      "name": "Cook Out Trays",
+      "items": [
+        {
+          "name": "Cook Out Tray",
+          "calories": 1250,
+          "protein": 42,
+          "fat": 65,
+          "carbs": 128,
+          "servingSize": "1 complete tray combo",
+          "fiber": 6,
+          "sodium": 1850,
+          "cholesterol": 110,
+          "saturated_fat": 22,
+          "sugars": 45
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Out West Burger",
+          "calories": 680,
+          "protein": 28,
+          "fat": 42,
+          "carbs": 48,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1120,
+          "cholesterol": 85,
+          "saturated_fat": 16,
+          "sugars": 12
+        },
+        {
+          "name": "Cheddar Style Burger",
+          "calories": 710,
+          "protein": 30,
+          "fat": 48,
+          "carbs": 36,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1080,
+          "cholesterol": 95,
+          "saturated_fat": 18,
+          "sugars": 6
+        },
+        {
+          "name": "Big Double Burger",
+          "calories": 750,
+          "protein": 38,
+          "fat": 49,
+          "carbs": 38,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1250,
+          "cholesterol": 115,
+          "saturated_fat": 17,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Chicken Strips (4 pc)",
+          "calories": 480,
+          "protein": 32,
+          "fat": 26,
+          "carbs": 28,
+          "servingSize": "4 pieces",
+          "fiber": 2,
+          "sodium": 1150,
+          "cholesterol": 75,
+          "saturated_fat": 4.5
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "French Fries",
+          "calories": 360,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 46,
+          "servingSize": "1 regular order",
+          "fiber": 4,
+          "sodium": 520,
+          "saturated_fat": 3,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Milkshakes",
+      "items": [
+        {
+          "name": "Peanut Butter Fudge Milkshake",
+          "calories": 820,
+          "protein": 18,
+          "fat": 38,
+          "carbs": 105,
+          "servingSize": "1 regular cup (16 fl oz)",
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 95,
+          "saturated_fat": 22,
+          "sugars": 92
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Cook Out Style Sweet Tea",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "20 fl oz cup",
+          "sodium": 15,
+          "sugars": 54
+        }
+      ]
+    }
+  ]
+}

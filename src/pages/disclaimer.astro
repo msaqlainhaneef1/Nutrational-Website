@@ -1,70 +1,30 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import DisclaimerSection from '@/features/shared/components/DisclaimerSection.astro';
+
+const title = "Medical & Health Disclaimer | Nutrition Solver";
+const description = "Nutrition Solver provides educational nutrition and fitness reference data, not clinical medical advice. Always consult a qualified healthcare provider.";
+const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/disclaimer`;
+
+const disclaimerSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Medical & Health Disclaimer",
+  "url": canonicalUrl,
+  "description": description,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": "https://nutritionsolver.com"
+  }
+};
 ---
 
 <Layout
-  title="Medical Disclaimer"
-  description="Nutrition Solver provides educational nutrition reference data, not medical advice. Always consult a qualified healthcare provider for individualized guidance."
+  title="Medical & Health Disclaimer"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={disclaimerSchema}
 >
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-    <Breadcrumb items={[{ label: 'Disclaimer', url: '/disclaimer' }]} />
-
-    <div class="space-y-3">
-      <h1 class="text-4xl font-extrabold text-white tracking-tight">Medical disclaimer</h1>
-    </div>
-
-    <div class="glass-card rounded-2xl p-5 border border-amber-500/20 bg-amber-500/[0.02]">
-      <p class="text-sm text-amber-200 leading-relaxed">
-        <strong>Important:</strong> The information on this site is for educational reference only. It is not medical advice. Always consult a qualified healthcare provider before making decisions about your diet, exercise, or health.
-      </p>
-    </div>
-
-    <div class="space-y-6">
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">No doctor patient relationship</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Using Nutrition Solver does not create a doctor patient relationship between you and the site, its authors, or its reviewers. The content is general information, not individualized medical guidance. Your specific situation may require considerations that general calculators and reference tables cannot capture.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Calculator limitations</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Every calculator on this site uses a standard formula developed for population level estimates. The Mifflin-St Jeor equation for BMR has a standard error of about 200 calories between individuals. The U.S. Navy body fat method has an error of about 3 to 4 percent compared to DEXA. The TDEE calculator depends on a self reported activity level that varies significantly between people who select the same option.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Use calculator outputs as a starting estimate, then adjust based on real world results over two to three weeks. If the calculator says your TDEE is 2,400 calories and you maintain weight eating 2,100, your real TDEE is closer to 2,100. Trust your own data over the formula.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Who should be especially careful</h2>
-        <ul class="space-y-2 text-zinc-400 text-sm leading-relaxed ml-4 list-disc">
-          <li>People with eating disorders or a history of disordered eating should approach any tracking tool with caution and ideally under clinical supervision.</li>
-          <li>People with chronic conditions like diabetes, kidney disease, or cardiovascular disease should consult their care team before significantly changing diet or macro targets.</li>
-          <li>Pregnant or breastfeeding women have specific nutritional needs that general calculators do not account for.</li>
-          <li>Children and teenagers should not use adult calorie or macro targets. Their needs vary by age, sex, and developmental stage.</li>
-          <li>People taking medications that affect appetite, metabolism, or hydration should consult their physician before significant dietary changes.</li>
-        </ul>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">When to see a professional</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Consider working with a registered dietitian if you have a specific medical condition, a complex relationship with food, performance goals that require individualized planning, or you have tried and failed to make dietary changes on your own. A registered dietitian can interpret your lab work, account for medications and conditions, and design a plan tailored to your life.
-        </p>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          For eating disorder concerns in the United States, the National Eating Disorders Association helpline is available at 1-800-931-2237. For other countries, please reach out to your local eating disorder organization or emergency services.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-2xl font-bold text-white">Restaurant data accuracy</h2>
-        <p class="text-zinc-400 text-sm leading-relaxed">
-          Restaurant nutrition data is sourced from public disclosures published by each chain. Values reflect standard recipes and may not match what you receive at a specific location. Cross contamination, preparation variations, customized orders, and recipe changes can all affect actual nutritional content. People with food allergies should always confirm ingredients directly with the restaurant before ordering.
-        </p>
-      </section>
-    </div>
-  </div>
+  <DisclaimerSection />
 </Layout>

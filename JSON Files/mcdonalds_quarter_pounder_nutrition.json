@@ -1,0 +1,326 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Quarter Pounder Burgers",
+    "Double Quarter Pounder Burgers",
+    "Bacon Quarter Pounder Burgers"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_quarter_pounder_cheese",
+      "name": "Quarter Pounder with Cheese",
+      "category": "Quarter Pounder Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Each Quarter Pounder with Cheese features 100% fresh beef quarter pound patty cooked when you order, seasoned with just a pinch of salt and pepper, slivered onions, tangy pickle slices, golden golden mustard, and two slices of melted American cheese on a sesame seed bun.",
+      "price": 6.39,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (220g)",
+        "weight_g": 220.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 30.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1110.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [
+        "100% Fresh Beef Patty",
+        "Sesame Seed Bun",
+        "American Cheese",
+        "Slivered Onions",
+        "Pickle Slices",
+        "Mustard",
+        "Ketchup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/quarter-pounder-cheese.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/quarter-pounder-with-cheese-0040.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_double_quarter_pounder_cheese",
+      "name": "Double Quarter Pounder with Cheese",
+      "category": "Double Quarter Pounder Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Double Quarter Pounder with Cheese features two 100% fresh beef quarter pound patties cooked when you order, seasoned with just a pinch of salt and pepper, slivered onions, tangy pickle slices, mustard, and two slices of melted American cheese on a sesame seed bun.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (283g)",
+        "weight_g": 283.0
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 49.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 21.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 175.0,
+        "sodium_mg": 1360.0,
+        "potassium_mg": 570.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 290.0,
+        "iron_mg": 6.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Two 100% Fresh Beef Patties",
+        "Sesame Seed Bun",
+        "American Cheese",
+        "Slivered Onions",
+        "Pickle Slices",
+        "Mustard",
+        "Ketchup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/double-quarter-pounder-cheese.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/double-quarter-pounder-with-cheese-0042.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_bacon_quarter_pounder_cheese",
+      "name": "Bacon Quarter Pounder with Cheese",
+      "category": "Bacon Quarter Pounder Burgers",
+      "subcategory": "Bacon Burgers",
+      "description": "Bacon Quarter Pounder with Cheese features a 100% fresh beef quarter pound patty, thick-cut Applewood smoked bacon, slivered onions, pickles, mustard, ketchup, and two slices of melted American cheese on a sesame seed bun.",
+      "price": 7.39,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (239g)",
+        "weight_g": 239.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 36.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 1480.0,
+        "potassium_mg": 440.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 290.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [
+        "100% Fresh Beef Patty",
+        "Applewood Smoked Bacon",
+        "Sesame Seed Bun",
+        "American Cheese",
+        "Slivered Onions",
+        "Pickle Slices",
+        "Mustard",
+        "Ketchup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/bacon-quarter-pounder-cheese.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/bacon-quarter-pounder-with-cheese.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_bacon_double_quarter_pounder_cheese",
+      "name": "Bacon Smokehouse Quarter Pounder with Cheese",
+      "category": "Bacon Quarter Pounder Burgers",
+      "subcategory": "Bacon Burgers",
+      "description": "Two 100% fresh beef patties, thick-cut Applewood smoked bacon, crispy onions, sweet bacon BBQ sauce, and two slices of white cheddar cheese on a specialty bakery bun.",
+      "price": 8.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (310g)",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 54.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 2.0,
+        "cholesterol_mg": 190.0,
+        "sodium_mg": 1690.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 3.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 10.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 6.8,
+        "vitamin_d_mcg": 0.9,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Two 100% Fresh Beef Patties",
+        "Applewood Smoked Bacon",
+        "White Cheddar Cheese",
+        "Crispy Onions",
+        "Sweet Bacon BBQ Sauce",
+        "Bakery Bun"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/bacon-smokehouse-qp.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/bacon-smokehouse-quarter-pounder.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_deluxe_quarter_pounder_cheese",
+      "name": "Deluxe Quarter Pounder with Cheese",
+      "category": "Quarter Pounder Burgers",
+      "subcategory": "Deluxe Burgers",
+      "description": "Crisp leaf lettuce, Roma tomatoes, and mayonnaise piled high on our fresh beef quarter pounder with cheese.",
+      "price": 6.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (260g)",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 31.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 290.0,
+        "iron_mg": 4.8,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "100% Fresh Beef Patty",
+        "Sesame Seed Bun",
+        "American Cheese",
+        "Leaf Lettuce",
+        "Roma Tomatoes",
+        "Mayonnaise",
+        "Slivered Onions",
+        "Pickles"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/deluxe-quarter-pounder.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/deluxe-quarter-pounder-with-cheese.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

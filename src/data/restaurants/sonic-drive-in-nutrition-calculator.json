@@ -3,9 +3,9 @@
   "slug": "sonic-drive-in-nutrition-calculator",
   "tagline": "Calculate nutrition for Sonic burgers, drinks, and treats.",
   "description": "Calculate nutrition for Sonic burgers, drinks, and treats.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf54",
-  "itemCount": 647,
+  "itemCount": 657,
   "categories": [
     {
       "name": "General",
@@ -6826,6 +6826,170 @@
           "fiber": 0,
           "sodium": 0,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "SONIC\u00ae Cheeseburger",
+          "calories": 680,
+          "protein": 30,
+          "fat": 39,
+          "carbs": 52,
+          "servingSize": "1 burger (235 g)",
+          "fiber": 2,
+          "sodium": 1190,
+          "cholesterol": 85,
+          "saturated_fat": 13,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Snacks & Sides",
+      "items": [
+        {
+          "name": "Mozzarella Sticks (Medium, 6 Pc.)",
+          "calories": 560,
+          "protein": 23,
+          "fat": 29,
+          "carbs": 61,
+          "servingSize": "6 pieces (Medium)",
+          "fiber": 3,
+          "sodium": 1490,
+          "cholesterol": 45,
+          "saturated_fat": 11,
+          "sugars": 8
+        },
+        {
+          "name": "Pickle Fries (Medium)",
+          "calories": 420,
+          "protein": 3,
+          "fat": 31,
+          "carbs": 34,
+          "servingSize": "Medium order",
+          "fiber": 2,
+          "sodium": 1430,
+          "cholesterol": 15,
+          "saturated_fat": 7,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Coneys",
+      "items": [
+        {
+          "name": "SuperSONIC Double Cheeseburger",
+          "calories": 790,
+          "protein": 39,
+          "fat": 52,
+          "carbs": 40,
+          "servingSize": "1 burger",
+          "fiber": 3,
+          "sodium": 1330,
+          "cholesterol": 145,
+          "saturated_fat": 20,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "SuperSONIC Chicken Tenders (3 pc)",
+          "calories": 380,
+          "protein": 24,
+          "fat": 20,
+          "carbs": 24,
+          "servingSize": "3 tenders",
+          "fiber": 2,
+          "sodium": 1020,
+          "cholesterol": 60,
+          "saturated_fat": 3.5
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Bacon Breakfast TOASTER",
+          "calories": 610,
+          "protein": 25,
+          "fat": 42,
+          "carbs": 33,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 1260,
+          "cholesterol": 255,
+          "saturated_fat": 14,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Sides & Snacks",
+      "items": [
+        {
+          "name": "Mozzarella Sticks (Medium - 6 pc)",
+          "calories": 440,
+          "protein": 18,
+          "fat": 24,
+          "carbs": 38,
+          "servingSize": "6 pieces",
+          "fiber": 2,
+          "sodium": 1180,
+          "cholesterol": 55,
+          "saturated_fat": 11,
+          "sugars": 3
+        },
+        {
+          "name": "Tater Tots (Medium)",
+          "calories": 400,
+          "protein": 4,
+          "fat": 25,
+          "carbs": 41,
+          "servingSize": "Medium order",
+          "fiber": 4,
+          "sodium": 910,
+          "saturated_fat": 4.5
+        }
+      ]
+    },
+    {
+      "name": "Drinks & Slushes",
+      "items": [
+        {
+          "name": "Cherry Limeade (Medium)",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 70,
+          "servingSize": "Medium (20 fl oz)",
+          "sodium": 45,
+          "sugars": 69
+        }
+      ]
+    },
+    {
+      "name": "Shakes & Desserts",
+      "items": [
+        {
+          "name": "Peanut Butter Master Shake (Medium)",
+          "calories": 1040,
+          "protein": 23,
+          "fat": 53,
+          "carbs": 122,
+          "servingSize": "Medium (20 fl oz)",
+          "fiber": 3,
+          "sodium": 790,
+          "cholesterol": 145,
+          "saturated_fat": 31,
+          "sugars": 105
         }
       ]
     }

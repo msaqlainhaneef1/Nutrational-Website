@@ -21,10 +21,13 @@ const food = propsFood || (slug ? getFoodBySlug(slug) : undefined);
 if (!food) {
   return Astro.redirect('/404');
 }
-const foodSchema = createFoodSchema(food, Astro.site?.toString() || Astro.url.origin);
-const faqSchema = food.faqs && food.faqs.length > 0 ? {
-  "@context": "https://schema.org",
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/foods/${food.slug}/`;
+
+const foodSchema = createFoodSchema(food, siteOrigin);
+const faqSchema = food.faqs && food.faqs.length > 0 ? [{
   "@type": "FAQPage",
+  "@id": `${canonicalUrl}#faq`,
   "mainEntity": food.faqs.map((faq) => ({
     "@type": "Question",
     "name": faq.q,
@@ -33,23 +36,27 @@ const faqSchema = food.faqs && food.faqs.length > 0 ? {
       "text": faq.a
     }
   }))
-} : null;
+}] : [];
 
-const schema = faqSchema ? [foodSchema, faqSchema] : foodSchema;
+const schema = [...foodSchema, ...faqSchema];
+
+const pageTitle = `${food.name} Nutrition Facts & Macros`;
+const pageDescription = `Complete ${food.name} nutrition facts. View calories, protein, carbs, fat, fiber, and micronutrients per ${food.servingSize}.`;
 ---
 
 <Layout
-  title={food.seoTitle || `${food.name} Nutrition Facts: Calories, Carbs, Protein & Fat`}
-  description={food.seoDescription || `Detailed nutritional profile of ${food.name} per ${food.servingSize}. Learn about its calories, protein, carbs, fats, vitamins, and minerals.`}
+  title={pageTitle}
+  description={pageDescription}
+  canonicalUrl={canonicalUrl}
   schema={schema}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
     <div class="flex items-center justify-between">
       <Breadcrumb items={[
-        { label: 'Foods', url: '/foods' },
+        { label: 'Foods', url: '/foods/' },
         { label: food.name }
       ]} />
-      <a href="/foods" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
+      <a href="/foods/" class="inline-flex items-center text-xs text-zinc-400 hover:text-emerald-400 font-semibold transition-colors">
         <ArrowLeft class="h-3.5 w-3.5 mr-1" />
         Back to foods
       </a>

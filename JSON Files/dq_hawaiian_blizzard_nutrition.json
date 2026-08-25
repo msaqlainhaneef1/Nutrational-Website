@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Treats",
+    "Blizzard Treats"
+  ],
+  "products": [
+    {
+      "product_id": "dairy_queen_hawaiian_blizzard_medium",
+      "name": "Hawaiian Blizzard (Medium)",
+      "category": "Treats",
+      "subcategory": "Blizzard Treats",
+      "description": "Coconut, pineapple, and banana blended with creamy DQ vanilla soft serve.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 medium (383g)",
+        "weight_g": 383.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 14.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 240.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 111.0,
+        "fiber_g": 3.0,
+        "sugars_g": 89.0,
+        "added_sugars_g": 72.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Coconut"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Coconut Topping",
+        "Pineapple Topping",
+        "Banana Topping"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/images/default-source/default-library/hawaiian-blizzard.png",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/hawaiian-blizzard/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

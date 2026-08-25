@@ -1,0 +1,494 @@
+{
+  "brand": {
+    "name": "Dave's Hot Chicken",
+    "website": "https://www.daveshotchicken.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Combos & Meals",
+    "Tenders & Sliders",
+    "Sides",
+    "Sauces",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "dhc_slider_meal",
+      "name": "Dave's #1 (1 Slider & Fries Meal)",
+      "category": "Combos & Meals",
+      "subcategory": "Slider Combos",
+      "description": "One jumbo hot chicken slider with kale slaw, pickles, Dave's Sauce on a bun, served with fries.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 combo meal",
+        "weight_g": 420.0
+      },
+      "nutrition": {
+        "calories": 1150,
+        "protein_g": 45.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 2400.0,
+        "potassium_mg": 650.0,
+        "carbohydrates_g": 105.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Slider Bun",
+        "Kale Slaw",
+        "Pickles",
+        "Dave's Sauce",
+        "Fries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/slider-meal.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/daves-hot-chicken",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_sliders_2meal",
+      "name": "Dave's #2 (2 Sliders & Fries Meal)",
+      "category": "Combos & Meals",
+      "subcategory": "Slider Combos",
+      "description": "Two jumbo hot chicken sliders with kale slaw, pickles, Dave's Sauce, served with fries.",
+      "price": 15.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 combo meal",
+        "weight_g": 680.0
+      },
+      "nutrition": {
+        "calories": 1780,
+        "protein_g": 78.0,
+        "fat_g": 92.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 190.0,
+        "sodium_mg": 3850.0,
+        "potassium_mg": 980.0,
+        "carbohydrates_g": 152.0,
+        "fiber_g": 10.0,
+        "sugars_g": 13.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 9.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Two Chicken Breasts",
+        "Two Slider Buns",
+        "Kale Slaw",
+        "Pickles",
+        "Dave's Sauce",
+        "Fries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/2-sliders-meal.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_tenders_2meal",
+      "name": "Dave's #3 (2 Tenders & Fries Meal)",
+      "category": "Combos & Meals",
+      "subcategory": "Tender Combos",
+      "description": "Two large hot chicken tenders with slice of white bread, pickles, Dave's Sauce, and fries.",
+      "price": 12.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 combo meal",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 1220,
+        "protein_g": 62.0,
+        "fat_g": 58.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 2900.0,
+        "potassium_mg": 720.0,
+        "carbohydrates_g": 104.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 7.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Two Chicken Tenders",
+        "White Bread",
+        "Pickles",
+        "Dave's Sauce",
+        "Fries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/2-tenders-meal.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_single_slider",
+      "name": "Dave's Single Slider",
+      "category": "Tenders & Sliders",
+      "subcategory": "Sliders",
+      "description": "Jumbo hot chicken tender on a slider bun with kale slaw, pickles, and Dave's Sauce.",
+      "price": 7.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slider",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 36.0,
+        "fat_g": 41.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 90.0,
+        "sodium_mg": 1650.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Tender",
+        "Slider Bun",
+        "Kale Slaw",
+        "Pickles",
+        "Dave's Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/single-slider.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_single_tender",
+      "name": "Single Hot Chicken Tender",
+      "category": "Tenders & Sliders",
+      "subcategory": "Tenders",
+      "description": "Extra-large hand-breaded chicken tender spiced to your preferred heat level.",
+      "price": 5.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 tender",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 45.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 125.0,
+        "sodium_mg": 1350.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast Tender",
+        "Flour Breading",
+        "Spice Blend",
+        "Soybean Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/single-tender.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_fries",
+      "name": "Dave's Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Crinkle-cut french fries seasoned with Dave's special spice blend.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular order",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 5.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 750.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 5.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Spice Blend",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/fries.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_kale_slaw",
+      "name": "Kale Slaw",
+      "category": "Sides",
+      "subcategory": "Slaw",
+      "description": "Freshly chopped kale and cabbage tossed in a light, tangy dressing.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular order",
+        "weight_g": 110.0
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 2.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs"
+      ],
+      "ingredients": [
+        "Kale",
+        "Cabbage",
+        "Mayonnaise Dressing",
+        "Vinegar",
+        "Sugar",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/kale-slaw.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dhc_daves_sauce",
+      "name": "Dave's Sauce",
+      "category": "Sauces",
+      "subcategory": "Signature Sauce",
+      "description": "Creamy, tangy, slightly sweet signature house sauce.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dip cup (30g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mayonnaise",
+        "Ketchup",
+        "Spices",
+        "Paprika",
+        "Sugar",
+        "Vinegar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.daveshotchicken.com/media/menu/daves-sauce.png",
+      "product_url": "https://www.daveshotchicken.com/menu",
+      "sources": [
+        {
+          "url": "https://www.daveshotchicken.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

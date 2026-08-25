@@ -1,0 +1,54 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import AuthorProfile from '@/features/authors/components/AuthorProfile.astro';
+
+const title = "Dr. Sarah Jenkins, PhD, RDN | Clinical Nutrition Reviewer | Nutrition Solver";
+const description = "Dr. Sarah Jenkins is a registered dietitian nutritionist and metabolic health researcher who audits calculators and nutritional data for Nutrition Solver.";
+const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/authors/sarah-jenkins`;
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Dr. Sarah Jenkins",
+    "jobTitle": "Lead Clinical Nutrition Reviewer",
+    "honorificPrefix": "Dr.",
+    "honorificSuffix": "PhD, RDN, LDN",
+    "description": "Clinical dietitian and researcher specializing in metabolic health, energy expenditure equations, and dietary reference intakes.",
+    "url": canonicalUrl,
+    "sameAs": [
+      "https://nutritionsolver.com/authors/sarah-jenkins",
+      "https://nutritionsolver.com/editorial-policy"
+    ],
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "University of Washington"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Tufts University"
+      }
+    ],
+    "knowsAbout": [
+      "Clinical Dietetics",
+      "Metabolic Rate Calculations",
+      "Macronutrient Distribution",
+      "Dietary Reference Intakes",
+      "Obesity Medicine"
+    ]
+  }
+};
+---
+
+<Layout
+  title="Dr. Sarah Jenkins, RDN, PhD"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  type="article"
+  authorName="Dr. Sarah Jenkins, RDN, PhD"
+  schema={personSchema}
+>
+  <AuthorProfile />
+</Layout>

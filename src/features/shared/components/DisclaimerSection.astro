@@ -1,0 +1,108 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { AlertTriangle, ShieldAlert, HeartHandshake, PhoneCall, CheckCircle2, Stethoscope, Utensils } from '@lucide/astro';
+
+const warningGroups = [
+  {
+    title: 'Individual Metabolic Differences',
+    desc: 'BMR and TDEE formulas provide mathematical estimates based on population averages. Genetics, thyroid function, muscle density, and gut microbiome cause individual metabolic variance.'
+  },
+  {
+    title: 'Allergen & Cross-Contamination Risks',
+    desc: 'Restaurant kitchens frequently prepare dishes using shared fryers, grills, and prep surfaces. If you suffer from severe food allergies or Celiac disease, always speak with restaurant management directly.'
+  },
+  {
+    title: 'Pregnancy & Pediatric Caution',
+    desc: 'Energy deficit targets, low-carb macros, and aggressive water formulas are not intended for pregnant or nursing individuals, nor children or adolescents in rapid developmental phases.'
+  },
+  {
+    title: 'Disordered Eating Awareness',
+    desc: 'Calorie tracking tools can trigger unhealthy behaviors in individuals with a history of disordered eating. Please seek guidance from a qualified mental health and dietetic professional.'
+  }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Medical Disclaimer', url: '/disclaimer' }]} />
+
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold">
+      <AlertTriangle class="h-3.5 w-3.5" />
+      <span>YMYL Clinical & Medical Notice</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Medical & Health <span class="text-gradient">Disclaimer</span>
+    </h1>
+    <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-3xl">
+      Please read this disclaimer carefully before using any calculators, nutritional databases, or dietary articles available on Nutrition Solver.
+    </p>
+  </div>
+
+  <!-- Prominent Warning Banner -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-amber-500/30 bg-amber-500/[0.04] space-y-4">
+    <div class="flex items-center gap-3">
+      <div class="p-2 rounded-xl bg-amber-500/20 text-amber-300">
+        <Stethoscope class="h-6 w-6" />
+      </div>
+      <h2 class="text-xl font-bold text-white">For Educational & Informational Reference Only</h2>
+    </div>
+    <p class="text-sm text-zinc-300 leading-relaxed">
+      The content, calculators, nutrient tables, and articles provided on <strong>Nutrition Solver</strong> are for informational, educational, and reference purposes only. They are <strong>not intended to be a substitute for professional medical advice, clinical diagnosis, or medical nutrition therapy</strong>. Always seek the advice of your physician, registered dietitian, or qualified healthcare provider with any questions you may have regarding a medical condition or dietary adjustment.
+    </p>
+  </div>
+
+  <!-- Specific Warning Groups -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {warningGroups.map((group) => (
+      <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-2.5">
+        <h3 class="text-base font-bold text-amber-300 flex items-center gap-2">
+          <ShieldAlert class="h-4 w-4 flex-shrink-0" />
+          <span>{group.title}</span>
+        </h3>
+        <p class="text-sm text-zinc-400 leading-relaxed">{group.desc}</p>
+      </div>
+    ))}
+  </div>
+
+  <!-- Detailed Notice Sections -->
+  <div class="space-y-8 text-zinc-300">
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">No Healthcare Provider-Patient Relationship</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Transmission of information from this website, and/or your use of any calculators or contact forms, does not create a doctor-patient, dietitian-client, or other healthcare professional relationship between you and Nutrition Solver or any contributing author.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Restaurant Nutrition Data Limitations</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Nutritional data for restaurant items is derived from published company disclosures. Actual nutritional values may differ significantly due to:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li>Kitchen portioning variations and preparation differences at local franchises.</li>
+        <li>Ingredient substitutions or recipe reformulations that have not yet been reflected in corporate disclosures.</li>
+        <li>Custom customer modifications (e.g., dressings on the side, extra cheese, substituted sides).</li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Emergency & Crisis Resources</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        If you are experiencing a medical emergency, please call <strong>911</strong> (or your local emergency services number) or visit the nearest emergency room immediately.
+      </p>
+      <div class="p-5 rounded-2xl bg-zinc-900 border border-zinc-800 space-y-3">
+        <div class="flex items-center gap-2 text-emerald-400 font-bold text-sm">
+          <PhoneCall class="h-4 w-4" />
+          <span>Disordered Eating Support Helplines</span>
+        </div>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          <strong>United States:</strong> National Alliance for Eating Disorders Helpline: <a href="tel:18666621235" class="text-emerald-400 underline">1-866-662-1235</a> (Monday–Friday).
+        </p>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          <strong>United Kingdom:</strong> Beat Eating Disorders Helpline: <a href="tel:08088010677" class="text-emerald-400 underline">0808 801 0677</a>.
+        </p>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,146 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Whopper Burgers",
+    "Chicken & Fish",
+    "Sides & Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "bk_whopper_ww",
+      "name": "Whopper",
+      "category": "Whopper Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "A 1/4 lb of savory flame-grilled beef topped with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, crunchy pickles, and sliced white onions on a toasted sesame seed bun.",
+      "price": 6.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (277g)",
+        "weight_g": 277.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 20.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 3.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 18,
+        "smart_points": 19,
+        "pts": 18
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/whopper.png",
+      "product_url": "https://www.bk.com/menu/item-10001",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chicken_sandwich_ww",
+      "name": "Royal Crispy Chicken Sandwich",
+      "category": "Chicken & Fish",
+      "subcategory": "Chicken Sandwiches",
+      "description": "Crispy white meat breast fillet topped with savory sauce, lettuce, and pickles on a toasted potato bun.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (235g)",
+        "weight_g": 235.0
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 24.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1150.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 16,
+        "smart_points": 17,
+        "pts": 16
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Crispy White Meat Chicken Fillet",
+        "Potato Bun",
+        "Savory Sauce",
+        "Lettuce",
+        "Pickles"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/royal-crispy-chicken.png",
+      "product_url": "https://www.bk.com/menu/item-10008",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

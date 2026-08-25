@@ -1,0 +1,80 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Fish"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_filet_o_fish",
+      "name": "Filet-O-Fish",
+      "category": "Sandwiches",
+      "subcategory": "Seafood",
+      "description": "Made with wild-caught Alaskan Pollock, on a steaming regular bun, with a tangy tartar sauce and a half slice of American cheese.",
+      "price": 4.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (136g)",
+        "weight_g": 136.0
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 16.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 590.0,
+        "potassium_mg": 240.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Fish",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Wild-caught Alaskan Pollock",
+        "enriched bleached flour",
+        "water",
+        "modified food starch",
+        "sugar",
+        "salt",
+        "yellow corn flour",
+        "steamed bun",
+        "tartar sauce (soybean oil, pickle relish, egg yolk, onion, vinegar)",
+        "pasteurized process American cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-filet-o-fish.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/filet-o-fish.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

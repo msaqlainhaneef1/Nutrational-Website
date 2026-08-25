@@ -1,0 +1,264 @@
+{
+  "brand": {
+    "name": "Zaxby's",
+    "website": "https://www.zaxbys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Zalads"
+  ],
+  "products": [
+    {
+      "product_id": "zaxbys_cobb_zalad_fried",
+      "name": "Cobb Zalad with Fried Chicken",
+      "category": "Zalads",
+      "subcategory": "Cobb Zalads",
+      "description": "Mixed greens, shredded red cabbage, carrots, chopped bacon, hard-boiled eggs, sliced cucumbers, grape tomatoes, and cheddar jack cheese, topped with fried chicken fingers and Texas toast.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (520g)",
+        "weight_g": 520.0
+      },
+      "nutrition": {
+        "calories": 870,
+        "protein_g": 51.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 285.0,
+        "sodium_mg": 1940.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mixed Greens",
+        "Fried Chicken Fingers",
+        "Cheddar Jack Cheese",
+        "Bacon",
+        "Hard-Boiled Egg",
+        "Tomatoes",
+        "Cucumbers",
+        "Texas Toast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.zaxbys.com/images/cobb-zalad-fried.png",
+      "product_url": "https://www.zaxbys.com/menu/zalads/cobb-zalad-fried",
+      "sources": [
+        {
+          "url": "https://www.zaxbys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_cobb_zalad_grilled",
+      "name": "Cobb Zalad with Grilled Chicken",
+      "category": "Zalads",
+      "subcategory": "Cobb Zalads",
+      "description": "Mixed greens, shredded red cabbage, carrots, chopped bacon, hard-boiled eggs, sliced cucumbers, grape tomatoes, and cheddar jack cheese, topped with sliced grilled chicken and Texas toast.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (490g)",
+        "weight_g": 490.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 55.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 295.0,
+        "sodium_mg": 1650.0,
+        "potassium_mg": 780.0,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mixed Greens",
+        "Grilled Chicken",
+        "Cheddar Jack Cheese",
+        "Bacon",
+        "Hard-Boiled Egg",
+        "Tomatoes",
+        "Cucumbers",
+        "Texas Toast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.zaxbys.com/images/cobb-zalad-grilled.png",
+      "product_url": "https://www.zaxbys.com/menu/zalads/cobb-zalad-grilled",
+      "sources": [
+        {
+          "url": "https://www.zaxbys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_cobb_zalad_blackened",
+      "name": "Cobb Zalad with Blackened Chicken",
+      "category": "Zalads",
+      "subcategory": "Cobb Zalads",
+      "description": "Mixed greens, shredded red cabbage, carrots, chopped bacon, hard-boiled eggs, sliced cucumbers, grape tomatoes, and cheddar jack cheese, topped with blackened grilled chicken and Texas toast.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (492g)",
+        "weight_g": 492.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 56.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 295.0,
+        "sodium_mg": 1780.0,
+        "potassium_mg": 790.0,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mixed Greens",
+        "Blackened Chicken",
+        "Cheddar Jack Cheese",
+        "Bacon",
+        "Hard-Boiled Egg",
+        "Tomatoes",
+        "Cucumbers",
+        "Texas Toast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.zaxbys.com/images/cobb-zalad-blackened.png",
+      "product_url": "https://www.zaxbys.com/menu/zalads/cobb-zalad-blackened",
+      "sources": [
+        {
+          "url": "https://www.zaxbys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_cobb_zalad_no_chicken",
+      "name": "Cobb Zalad (House / No Chicken)",
+      "category": "Zalads",
+      "subcategory": "Cobb Zalads",
+      "description": "Mixed greens, shredded red cabbage, carrots, chopped bacon, hard-boiled eggs, sliced cucumbers, grape tomatoes, and cheddar jack cheese, served with Texas toast.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (380g)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 22.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 215.0,
+        "sodium_mg": 1120.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 4.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mixed Greens",
+        "Cheddar Jack Cheese",
+        "Bacon",
+        "Hard-Boiled Egg",
+        "Tomatoes",
+        "Cucumbers",
+        "Texas Toast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.zaxbys.com/images/cobb-zalad-base.png",
+      "product_url": "https://www.zaxbys.com/menu/zalads/cobb-zalad-base",
+      "sources": [
+        {
+          "url": "https://www.zaxbys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

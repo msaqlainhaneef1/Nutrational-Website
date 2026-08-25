@@ -9,7 +9,7 @@ const stats = getRestaurantStats();
 ---
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
-  <Breadcrumb items={[{ label: 'Calculators', url: '/calculators' }]} />
+  <Breadcrumb items={[{ label: 'Calculators', url: '/calculators/' }]} />
 
   <!-- Header -->
   <div class="space-y-4">
@@ -36,7 +36,7 @@ const stats = getRestaurantStats();
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {popular.map((calc) => (
-        <a href={`/calculators/${calc.slug}`} class="glass-card rounded-2xl p-5 flex flex-col group h-full">
+        <a href={`/calculators/${calc.slug}/`} class="glass-card rounded-2xl p-5 flex flex-col group h-full">
           <div class="flex items-start justify-between mb-3">
             <div class="text-3xl">{calc.icon}</div>
           </div>
@@ -73,7 +73,7 @@ const stats = getRestaurantStats();
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {calcs.map((calc) => (
-            <a href={`/calculators/${calc.slug}`} class="glass-card rounded-2xl p-5 flex items-start gap-4 group h-full">
+            <a href={`/calculators/${calc.slug}/`} class="glass-card rounded-2xl p-5 flex items-start gap-4 group h-full">
               <div class={`p-2.5 rounded-xl border flex-shrink-0 ${calc.accent}`}>
                 <span class="text-xl leading-none">{calc.icon}</span>
               </div>
@@ -101,7 +101,7 @@ const stats = getRestaurantStats();
       <p class="text-zinc-400 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
         We also have {stats.totalRestaurants} restaurant chains with {stats.totalItems.toLocaleString()} menu items indexed. Each restaurant has its own nutrition calculator with search, filters, an auto meal generator, and a meal builder with shareable links.
       </p>
-      <a href="/restaurants" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-colors shadow-lg shadow-emerald-500/15">
+      <a href="/restaurants/" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-sm rounded-xl transition-colors shadow-lg shadow-emerald-500/15">
         <span>Browse restaurants</span>
         <ArrowRight class="h-4 w-4" />
       </a>

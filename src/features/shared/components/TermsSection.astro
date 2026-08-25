@@ -1,0 +1,96 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Scale, FileText, ShieldCheck, AlertCircle, ExternalLink } from '@lucide/astro';
+
+interface Props {
+  lastUpdated?: string;
+}
+
+const { lastUpdated = 'August 2026' } = Astro.props;
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Terms of Service', url: '/terms' }]} />
+
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <Scale class="h-3.5 w-3.5" />
+      <span>User Agreement & Legal Conditions</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Terms of <span class="text-gradient">Service</span>
+    </h1>
+    <p class="text-xs text-zinc-400">
+      <strong>Last Updated:</strong> {lastUpdated} • Please read these terms carefully before accessing our website.
+    </p>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="space-y-10 text-zinc-300">
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">1. Agreement to Terms</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        By accessing or using Nutrition Solver (the "Site", accessible at <code>https://nutritionsolver.com</code>), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree with all of these terms, you are expressly prohibited from using the site and must discontinue use immediately.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">2. Permitted Use & Restrictions</h2>
+      <div class="space-y-3 text-sm text-zinc-400 leading-relaxed">
+        <p>
+          You are granted a non-exclusive, non-transferable, revocable license to access and use Nutrition Solver strictly for personal, non-commercial educational and reference purposes.
+        </p>
+        <p><strong class="text-white">Prohibited Activities:</strong> You agree not to:</p>
+        <ul class="space-y-1.5 list-disc ml-5 text-xs text-zinc-400">
+          <li>Systematically scrape, harvest, or extract data from the Site to compile a database or directory without prior written authorization.</li>
+          <li>Circumvent, disable, or interfere with security-related features of the Site.</li>
+          <li>Use automated scripts, bots, or spiders to generate disproportionate server load.</li>
+          <li>Use the Site for any commercial purpose not explicitly approved by Nutrition Solver.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">3. Third-Party Trademarks & Fair Use</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        All restaurant names, logos, menu item names, and trademarks displayed on the Site are the intellectual property of their respective trademark holders. Reference to any specific commercial brand or trademark is made solely for nominative identification, educational comparison, and consumer informational purposes. Nutrition Solver is not affiliated with, sponsored by, or endorsed by any restaurant brand listed on this site.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">4. Disclaimer of Warranties</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        THE SITE IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. TO THE MAXIMUM EXTENT PERMITTED BY LAW, NUTRITION SOLVER EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT THE SITE WILL BE ERROR-FREE, TIMELY, OR CONTINUOUSLY UNINTERRUPTED.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">5. Limitation of Liability</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        IN NO EVENT SHALL NUTRITION SOLVER, ITS OPERATORS, DIRECTORS, OR CONTRIBUTORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, LOSS OF DATA, OR HEALTH COMPLICATIONS ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">6. DMCA Copyright Notices</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        If you believe that any material on or available through the Site infringes upon any copyright you own or control, please notify our designated agent at <a href="mailto:legal@nutritionsolver.com" class="text-emerald-400 underline">legal@nutritionsolver.com</a> with the URL and identification of the copyrighted work.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">7. Governing Law & Modifications</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        These Terms shall be governed by and defined following the laws of the applicable jurisdiction. We reserve the right to modify these Terms of Service at any time. Changes become effective immediately upon posting to this URL.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">8. Contact for Legal Inquiries</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        For questions or legal notices regarding these Terms of Service, please contact <a href="mailto:legal@nutritionsolver.com" class="text-emerald-400 underline font-semibold">legal@nutritionsolver.com</a> or visit our <a href="/contact/" class="text-emerald-400 underline font-semibold">Contact Page</a>.
+      </p>
+    </section>
+  </div>
+</div>

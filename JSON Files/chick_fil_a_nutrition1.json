@@ -1,0 +1,313 @@
+{
+  "brand": {
+    "name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Entrees",
+    "Chicken Nuggets & Strips",
+    "Sides",
+    "Salads",
+    "Kids Meals",
+    "Treats",
+    "Beverages",
+    "Sauces & Dressings"
+  ],
+  "products": [
+    {
+      "product_id": "cfa_chicken_sandwich",
+      "name": "Chick-fil-A Chicken Sandwich",
+      "category": "Entrees",
+      "subcategory": "Sandwiches",
+      "description": "A boneless breast of chicken seasoned to perfection, freshly breaded, pressure cooked in 100% refined peanut oil and served on a toasted, buttered bun with pickle chips.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (172g)",
+        "weight_g": 172.0
+      },
+      "nutrition": {
+        "calories": 440,
+        "protein_g": 29.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 1350.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 41.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.3,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk"
+      ],
+      "ingredients": [
+        "Boneless Chicken Breast",
+        "Bleached Wheat Flour",
+        "Water",
+        "Egg",
+        "Milk",
+        "Peanut Oil",
+        "Pickles",
+        "Butter Bun"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/images/chicken-sandwich.png",
+      "product_url": "https://www.chick-fil-a.com/menu/chick-fil-a-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chick-fil-a/chicken-sandwich",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "cfa_nuggets_8pc",
+      "name": "Chick-fil-A Nuggets (8 Pc)",
+      "category": "Chicken Nuggets & Strips",
+      "subcategory": "Nuggets",
+      "description": "Bite-sized pieces of tender chicken breast seasoned to perfection, freshly breaded and pressure cooked in 100% refined peanut oil.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "8 pieces (110g)",
+        "weight_g": 110.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 28.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 990.0,
+        "potassium_mg": 300.0,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Water",
+        "Seasoning",
+        "Peanut Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/images/nuggets-8pc.png",
+      "product_url": "https://www.chick-fil-a.com/menu/chick-fil-a-nuggets-8-pc",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cfa_waffle_fries_medium",
+      "name": "Waffle Potato Fries (Medium)",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Waffle-cut potatoes cooked in canola oil until crispy outside and tender inside.",
+      "price": 2.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (121g)",
+        "weight_g": 121.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 5.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 240.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 51.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Canola Oil",
+        "Disodium Dihydrogen Pyrophosphate",
+        "Dextrose",
+        "Sea Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/images/waffle-fries-medium.png",
+      "product_url": "https://www.chick-fil-a.com/menu/waffle-potato-fries-medium",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cfa_sauce",
+      "name": "Chick-fil-A Sauce",
+      "category": "Sauces & Dressings",
+      "subcategory": "Sauces",
+      "description": "Our signature dipping sauce with notes of honey mustard and smoky tang.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 packet (28g)",
+        "weight_g": 28.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 170.0,
+        "potassium_mg": 15.0,
+        "carbohydrates_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "Soybean Oil",
+        "Sugar",
+        "BBQ Sauce",
+        "Honey",
+        "Distilled Vinegar",
+        "Water",
+        "Egg Yolk"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/images/cfa-sauce.png",
+      "product_url": "https://www.chick-fil-a.com/menu/chick-fil-a-sauce",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cfa_sweet_iced_tea_medium",
+      "name": "Iced Tea Sweet (Medium)",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Freshly brewed each day using a blend of select tea leaves, sweetened with pure cane sugar.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 oz)",
+        "weight_g": 591.0
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 10.0,
+        "potassium_mg": 40.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 0.0,
+        "sugars_g": 31.0,
+        "added_sugars_g": 31.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 40.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Water",
+        "Pure Cane Sugar",
+        "Blend of Freshly Brewed Tea Leaves"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chick-fil-a.com/images/sweet-tea.png",
+      "product_url": "https://www.chick-fil-a.com/menu/iced-tea-sweet-medium",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

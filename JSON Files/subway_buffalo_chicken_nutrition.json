@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "Chicken Subs"
+  ],
+  "products": [
+    {
+      "product_id": "subway_buffalo_chicken_6_inch",
+      "name": "Buffalo Chicken Sandwich (6-Inch)",
+      "category": "Subway Series",
+      "subcategory": "Chicken Subs",
+      "description": "Tender grilled or sliced chicken strips tossed in zesty Buffalo sauce, topped with crisp lettuce, tomatoes, and cool ranch or blue cheese dressing on artisan Italian bread.",
+      "price": 7.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6-inch sub (248 g)",
+        "weight_g": 248.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 27.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 1100.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": 50.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Egg",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Chicken Strips",
+        "Buffalo Sauce (Distilled Vinegar, Aged Cayenne Red Peppers, Salt, Water, Canola Oil, Paprika, Xanthan Gum, Natural Butter Type Flavor)",
+        "Lettuce",
+        "Tomatoes",
+        "Peppercorn Ranch Dressing"
+      ],
+      "customizations": [
+        "Footlong Size Option",
+        "Choice of Bread",
+        "Add Cheese",
+        "Choice of Veggies and Sauces"
+      ],
+      "image_url": "https://www.subway.com/en-us/menunutrition/menuitem/buffalo-chicken",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menuitem/buffalo-chicken",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/6-buffalo-chicken/6",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

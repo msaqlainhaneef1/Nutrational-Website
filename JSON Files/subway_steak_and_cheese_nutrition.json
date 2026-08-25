@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway-6-inch-steak-and-cheese",
+      "name": "6\" Steak & Cheese",
+      "category": "Sandwiches",
+      "subcategory": "Subway Series / Classic Subs",
+      "description": "Tender shaved steak, melted American cheese, green peppers and onions, served on freshly baked bread.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 inch",
+        "weight_g": 245.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 26.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 810.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": 320.0,
+        "iron_mg": 4.7,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Shaved Steak",
+        "American Cheese",
+        "Artisan Bread",
+        "Green Peppers",
+        "Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/en-us/menunutrition/nutrition",
+      "product_url": "https://www.subway.com/en-us/menunutrition/nutrition",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/steak-and-cheese",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

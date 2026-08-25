@@ -1,0 +1,94 @@
+{
+  "name": "Size Comparison",
+  "slug": "size-comparison-nutrition-calculator",
+  "tagline": "Track nutrition for Size Comparison menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Size Comparison.",
+  "category": "Fast Casual & Dining",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Small Portions",
+      "items": [
+        {
+          "name": "Small French Fries",
+          "calories": 230,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 29,
+          "servingSize": "Small (75g)",
+          "fiber": 3,
+          "sodium": 160,
+          "saturated_fat": 1.5,
+          "sugars": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Medium Portions",
+      "items": [
+        {
+          "name": "Medium French Fries",
+          "calories": 340,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 44,
+          "servingSize": "Medium (115g)",
+          "fiber": 4,
+          "sodium": 240,
+          "saturated_fat": 2.5,
+          "sugars": 0.3
+        }
+      ]
+    },
+    {
+      "name": "Large Portions",
+      "items": [
+        {
+          "name": "Large French Fries",
+          "calories": 480,
+          "protein": 6,
+          "fat": 23,
+          "carbs": 63,
+          "servingSize": "Large (160g)",
+          "fiber": 6,
+          "sodium": 350,
+          "saturated_fat": 3.5,
+          "sugars": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Family Portions",
+      "items": [
+        {
+          "name": "Family Share French Fries",
+          "calories": 960,
+          "protein": 12,
+          "fat": 46,
+          "carbs": 126,
+          "servingSize": "Family Share (320g)",
+          "fiber": 12,
+          "sodium": 700,
+          "saturated_fat": 7,
+          "sugars": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Classic Cola",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "servingSize": "Medium (20 fl oz)",
+          "sodium": 45,
+          "sugars": 65
+        }
+      ]
+    }
+  ]
+}

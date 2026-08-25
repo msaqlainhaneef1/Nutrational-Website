@@ -1,0 +1,421 @@
+{
+  "brand": {
+    "name": "Raising Cane's",
+    "website": "https://www.raisingcanes.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Combos",
+    "Chicken Fingers",
+    "Sides",
+    "Sauces",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "canes_caniac_combo",
+      "name": "Caniac Combo",
+      "category": "Combos",
+      "subcategory": "Combos",
+      "description": "Six chicken fingers, crinkle-cut fries, two Cane's sauces, Texas toast, coleslaw, and a large drink.",
+      "price": 15.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 combo meal",
+        "weight_g": 780.0
+      },
+      "nutrition": {
+        "calories": 1790,
+        "protein_g": 76.0,
+        "fat_g": 92.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 210.0,
+        "sodium_mg": 3450.0,
+        "potassium_mg": 1120.0,
+        "carbohydrates_g": 156.0,
+        "fiber_g": 9.0,
+        "sugars_g": 42.0,
+        "added_sugars_g": 35.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 6.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [
+        "Wheat",
+        "Eggs",
+        "Soy",
+        "Milk"
+      ],
+      "ingredients": [
+        "Chicken Fingers",
+        "Crinkle-Cut Fries",
+        "Cane's Sauce",
+        "Texas Toast",
+        "Coleslaw",
+        "Fountain Drink"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/caniac-combo.png",
+      "product_url": "https://www.raisingcanes.com/menu/caniac-combo",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/raising-canes",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "canes_caning_fingers_6pc",
+      "name": "Chicken Fingers (6 pc)",
+      "category": "Chicken Fingers",
+      "subcategory": "Chicken",
+      "description": "Six tender, marinated, hand-breaded and cooked-to-order chicken finger tenderloins.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces (210g)",
+        "weight_g": 210.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 52.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Tenderloin",
+        "Marinating Blend",
+        "Breading",
+        "Canola Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/fingers-6pc.png",
+      "product_url": "https://www.raisingcanes.com/menu/chicken-fingers",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "canes_crinkle_fries",
+      "name": "Crinkle-Cut Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Golden, crispy crinkle-cut french fries.",
+      "price": 3.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular order (120g)",
+        "weight_g": 120.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 4.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Dextrose"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/crinkle-fries.png",
+      "product_url": "https://www.raisingcanes.com/menu/sides/fries",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "canes_texas_toast",
+      "name": "Texas Toast",
+      "category": "Sides",
+      "subcategory": "Bread",
+      "description": "Thick-cut garlic toast brushed with garlic butter spread and toasted on the grill.",
+      "price": 1.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice (55g)",
+        "weight_g": 55.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 3.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 220.0,
+        "potassium_mg": 45.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Garlic Butter Spread",
+        "Water",
+        "Yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/texas-toast.png",
+      "product_url": "https://www.raisingcanes.com/menu/sides/texas-toast",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "canes_coleslaw",
+      "name": "Coleslaw",
+      "category": "Sides",
+      "subcategory": "Sides",
+      "description": "Freshly prepared creamy coleslaw with shredded cabbage and carrots.",
+      "price": 2.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (90g)",
+        "weight_g": 90.0
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 1.5,
+        "sugars_g": 9.0,
+        "added_sugars_g": 7.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs"
+      ],
+      "ingredients": [
+        "Cabbage",
+        "Carrots",
+        "Coleslaw Dressing",
+        "Sugar",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/coleslaw.png",
+      "product_url": "https://www.raisingcanes.com/menu/sides/coleslaw",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "canes_sauce",
+      "name": "Cane's Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Famous tangy, creamy secret dipping sauce.",
+      "price": 0.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1.5 fl oz cup (42g)",
+        "weight_g": 42.0
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 1.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mayonnaise",
+        "Ketchup",
+        "Worcestershire Sauce",
+        "Garlic Powder",
+        "Blend of Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/canes-sauce.png",
+      "product_url": "https://www.raisingcanes.com/menu/sauces/canes-sauce",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "canes_sweet_tea",
+      "name": "Sweet Tea",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Freshly brewed iced black tea sweetened with cane sugar.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "22 fl oz cup",
+        "weight_g": 620.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 35.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 0.0,
+        "sugars_g": 52.0,
+        "added_sugars_g": 50.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 50.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Black Tea Leaves",
+        "Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.raisingcanes.com/media/menu/sweet-tea.png",
+      "product_url": "https://www.raisingcanes.com/menu/beverages/sweet-tea",
+      "sources": [
+        {
+          "url": "https://www.raisingcanes.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

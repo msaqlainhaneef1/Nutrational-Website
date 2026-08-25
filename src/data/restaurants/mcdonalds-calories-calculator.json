@@ -3,9 +3,9 @@
   "slug": "mcdonalds-calories-calculator",
   "tagline": "Calculate nutrition values for all McDonald's menu items.",
   "description": "Calculate nutrition values for all McDonald's menu items.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf5f",
-  "itemCount": 471,
+  "itemCount": 496,
   "categories": [
     {
       "name": "Burgers & Sandwiches",
@@ -1003,6 +1003,18 @@
           "saturated_fat": 6,
           "sugars": 11,
           "trans_fat": 0
+        },
+        {
+          "name": "Chicken McNuggets (10 pc)",
+          "calories": 410,
+          "protein": 23,
+          "fat": 24,
+          "carbs": 25,
+          "servingSize": "10 pieces (160g)",
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 60,
+          "saturated_fat": 4
         }
       ]
     },
@@ -1622,6 +1634,69 @@
           "saturated_fat": 10,
           "sugars": 2,
           "trans_fat": 0
+        },
+        {
+          "name": "Hash Brown",
+          "calories": 140,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 15,
+          "servingSize": "1 hash brown (57g)",
+          "fiber": 1,
+          "sodium": 310,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Sausage, Egg & Cheese McGriddles",
+          "calories": 550,
+          "protein": 16,
+          "fat": 31,
+          "carbs": 52,
+          "servingSize": "1 sandwich (216g)",
+          "fiber": 1,
+          "sodium": 1260,
+          "cholesterol": 245,
+          "saturated_fat": 12,
+          "sugars": 15
+        },
+        {
+          "name": "Bacon, Egg & Cheese McGriddles",
+          "calories": 420,
+          "protein": 15,
+          "fat": 19,
+          "carbs": 47,
+          "servingSize": "1 sandwich (183g)",
+          "fiber": 1,
+          "sodium": 1230,
+          "cholesterol": 240,
+          "saturated_fat": 8,
+          "sugars": 15
+        },
+        {
+          "name": "Sausage Biscuit",
+          "calories": 460,
+          "protein": 11,
+          "fat": 30,
+          "carbs": 37,
+          "servingSize": "1 biscuit",
+          "fiber": 2,
+          "sodium": 1090,
+          "cholesterol": 35,
+          "saturated_fat": 13,
+          "sugars": 3
+        },
+        {
+          "name": "Egg McMuffin",
+          "calories": 310,
+          "protein": 17,
+          "fat": 13,
+          "carbs": 30,
+          "servingSize": "1 sandwich (136g)",
+          "fiber": 2,
+          "sodium": 770,
+          "cholesterol": 185,
+          "saturated_fat": 6,
+          "sugars": 3
         }
       ]
     },
@@ -6131,6 +6206,280 @@
           "saturated_fat": 10,
           "sugars": 2,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "10 Piece Chicken McNuggets",
+          "calories": 410,
+          "protein": 24,
+          "fat": 24,
+          "carbs": 26,
+          "servingSize": "10 pieces",
+          "fiber": 1,
+          "sodium": 850,
+          "cholesterol": 65,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Chicken McNuggets (6 Piece)",
+          "calories": 240,
+          "protein": 14,
+          "fat": 14,
+          "carbs": 15,
+          "servingSize": "6 pieces (96g)",
+          "fiber": 1,
+          "sodium": 540,
+          "cholesterol": 35,
+          "saturated_fat": 2
+        },
+        {
+          "name": "McCrispy Strips (4 Piece)",
+          "calories": 370,
+          "protein": 25,
+          "fat": 17,
+          "carbs": 28,
+          "servingSize": "4 pieces (125g)",
+          "fiber": 1,
+          "sodium": 1050,
+          "cholesterol": 65,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Chicken McNuggets (10 Piece)",
+          "calories": 400,
+          "protein": 23,
+          "fat": 23,
+          "carbs": 25,
+          "servingSize": "10 pieces (160g)",
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 60,
+          "saturated_fat": 3.5
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Big Mac",
+          "calories": 590,
+          "protein": 25,
+          "fat": 34,
+          "carbs": 46,
+          "servingSize": "1 sandwich (211g)",
+          "fiber": 3,
+          "sodium": 1050,
+          "cholesterol": 75,
+          "saturated_fat": 11,
+          "sugars": 9
+        },
+        {
+          "name": "Hamburger",
+          "calories": 250,
+          "protein": 12,
+          "fat": 9,
+          "carbs": 31,
+          "servingSize": "1 sandwich (100g)",
+          "fiber": 2,
+          "sodium": 510,
+          "cholesterol": 30,
+          "saturated_fat": 3.5,
+          "sugars": 6
+        },
+        {
+          "name": "McDouble",
+          "calories": 400,
+          "protein": 22,
+          "fat": 20,
+          "carbs": 33,
+          "servingSize": "1 sandwich (158g)",
+          "fiber": 2,
+          "sodium": 920,
+          "cholesterol": 60,
+          "saturated_fat": 9,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Filet-O-Fish",
+          "calories": 390,
+          "protein": 16,
+          "fat": 19,
+          "carbs": 39,
+          "servingSize": "1 sandwich (136g)",
+          "fiber": 2,
+          "sodium": 590,
+          "cholesterol": 35,
+          "saturated_fat": 4,
+          "sugars": 5
+        },
+        {
+          "name": "Hot 'n Spicy McChicken",
+          "calories": 360,
+          "protein": 14,
+          "fat": 16,
+          "carbs": 40,
+          "servingSize": "1 sandwich (143g)",
+          "fiber": 2,
+          "sodium": 830,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "World Famous Fries",
+      "items": [
+        {
+          "name": "World Famous Fries (Kids)",
+          "calories": 110,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 15,
+          "servingSize": "Kids size (43g)",
+          "fiber": 1,
+          "sodium": 95,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "World Famous Fries (Small)",
+          "calories": 220,
+          "protein": 3,
+          "fat": 10,
+          "carbs": 29,
+          "servingSize": "Small (71g)",
+          "fiber": 2,
+          "sodium": 160,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "World Famous Fries (Medium)",
+          "calories": 320,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 43,
+          "servingSize": "Medium (117g)",
+          "fiber": 4,
+          "sodium": 260,
+          "saturated_fat": 2
+        },
+        {
+          "name": "World Famous Fries (Large)",
+          "calories": 480,
+          "protein": 6,
+          "fat": 22,
+          "carbs": 66,
+          "servingSize": "Large (154g)",
+          "fiber": 5,
+          "sodium": 400,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Quarter Pounder Burgers",
+      "items": [
+        {
+          "name": "Quarter Pounder with Cheese",
+          "calories": 520,
+          "protein": 30,
+          "fat": 26,
+          "carbs": 42,
+          "servingSize": "1 sandwich (220g)",
+          "fiber": 3,
+          "sodium": 1110,
+          "cholesterol": 95,
+          "saturated_fat": 12,
+          "sugars": 10
+        },
+        {
+          "name": "Deluxe Quarter Pounder with Cheese",
+          "calories": 600,
+          "protein": 31,
+          "fat": 34,
+          "carbs": 43,
+          "servingSize": "1 sandwich (260g)",
+          "fiber": 3,
+          "sodium": 1180,
+          "cholesterol": 100,
+          "saturated_fat": 13,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Double Quarter Pounder Burgers",
+      "items": [
+        {
+          "name": "Double Quarter Pounder with Cheese",
+          "calories": 740,
+          "protein": 49,
+          "fat": 42,
+          "carbs": 43,
+          "servingSize": "1 sandwich (283g)",
+          "fiber": 3,
+          "sodium": 1360,
+          "cholesterol": 175,
+          "saturated_fat": 21,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Bacon Quarter Pounder Burgers",
+      "items": [
+        {
+          "name": "Bacon Quarter Pounder with Cheese",
+          "calories": 610,
+          "protein": 36,
+          "fat": 32,
+          "carbs": 43,
+          "servingSize": "1 sandwich (239g)",
+          "fiber": 3,
+          "sodium": 1480,
+          "cholesterol": 115,
+          "saturated_fat": 14,
+          "sugars": 10
+        },
+        {
+          "name": "Bacon Smokehouse Quarter Pounder with Cheese",
+          "calories": 830,
+          "protein": 54,
+          "fat": 46,
+          "carbs": 50,
+          "servingSize": "1 sandwich (310g)",
+          "fiber": 3,
+          "sodium": 1690,
+          "cholesterol": 190,
+          "saturated_fat": 22,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Vanilla Cone",
+          "calories": 200,
+          "protein": 5,
+          "fat": 5,
+          "carbs": 33,
+          "servingSize": "1 cone",
+          "sodium": 80,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 23
         }
       ]
     }

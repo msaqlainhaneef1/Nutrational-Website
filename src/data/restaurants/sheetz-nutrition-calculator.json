@@ -5,7 +5,7 @@
   "description": "Calculate calories and macros for Sheetz made-to-order meals.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83c\udfea",
-  "itemCount": 37,
+  "itemCount": 43,
   "categories": [
     {
       "name": "Breakfast Sandwiches",
@@ -404,6 +404,113 @@
           "fiber": 0,
           "sodium": 25,
           "sugars": 42
+        }
+      ]
+    },
+    {
+      "name": "Made-to-Order Subs & Sandwiches",
+      "items": [
+        {
+          "name": "MTO Turkey Sub (6 inch)",
+          "calories": 480,
+          "protein": 28,
+          "fat": 12,
+          "carbs": 62,
+          "servingSize": "6 inch sub (240g)",
+          "fiber": 3,
+          "sodium": 1120,
+          "cholesterol": 45,
+          "saturated_fat": 3.5,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Appetizers & Sides",
+      "items": [
+        {
+          "name": "Boom Boom Shrimp",
+          "calories": 520,
+          "protein": 14,
+          "fat": 32,
+          "carbs": 44,
+          "servingSize": "1 order (180g)",
+          "fiber": 2,
+          "sodium": 980,
+          "cholesterol": 110,
+          "saturated_fat": 4.5,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Ultimate Breakfast Sandwich",
+          "calories": 680,
+          "protein": 34,
+          "fat": 48,
+          "carbs": 31,
+          "servingSize": "1 sandwich (210g)",
+          "fiber": 1,
+          "sodium": 1420,
+          "cholesterol": 310,
+          "saturated_fat": 18,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Shakes & Smoothies",
+      "items": [
+        {
+          "name": "Peanut Butter Banana Milkshake",
+          "calories": 810,
+          "protein": 20,
+          "fat": 38,
+          "carbs": 102,
+          "servingSize": "Medium (16 fl oz)",
+          "fiber": 4,
+          "sodium": 460,
+          "cholesterol": 95,
+          "saturated_fat": 18,
+          "sugars": 82
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Specialty Drinks",
+      "items": [
+        {
+          "name": "Caramel Cold Brew Latte",
+          "calories": 260,
+          "protein": 8,
+          "fat": 4.5,
+          "carbs": 46,
+          "servingSize": "Medium (20 fl oz)",
+          "sodium": 120,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 42
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Hot Dogs",
+      "items": [
+        {
+          "name": "Pretzel Bacon Cheeseburger",
+          "calories": 890,
+          "protein": 42,
+          "fat": 54,
+          "carbs": 58,
+          "servingSize": "1 burger (310g)",
+          "fiber": 3,
+          "sodium": 1640,
+          "cholesterol": 140,
+          "saturated_fat": 20,
+          "sugars": 6
         }
       ]
     }

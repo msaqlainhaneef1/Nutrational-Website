@@ -1,0 +1,3845 @@
+{
+  "brand": {
+    "name": "BurgerFi",
+    "website": "https://www.burgerfi.com",
+    "country": "USA",
+    "last_updated": "2026-08-04"
+  },
+  "categories": [
+    "Burgers",
+    "Chicken",
+    "Bowls",
+    "Sides",
+    "Dogs",
+    "Custard",
+    "Toppings",
+    "Sauces",
+    "Buns",
+    "Kids Meals",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "d3717b24-a427-4d84-b575-1eb0282d59d7",
+      "name": "BurgerFi Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Double Angus Beef, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 864,
+        "protein_g": 39,
+        "fat_g": 61,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 172,
+        "sodium_mg": 1470,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b72fda9e-60fc-45de-8e1e-0d32554c0430",
+      "name": "Single BurgerFi Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Single Angus Beef, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 547,
+        "protein_g": 23,
+        "fat_g": 33,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 94,
+        "sodium_mg": 1034,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9e8bfd85-c4c5-48bb-a346-b30c7bcb32ec",
+      "name": "BurgerFi Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Double Angus Beef, American Cheese, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 962,
+        "protein_g": 44,
+        "fat_g": 70,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 197,
+        "sodium_mg": 1969,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "560bfbf0-7dbe-4e65-a930-ae6f5374fd43",
+      "name": "Single BurgerFi Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Single Angus Beef, American Cheese, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 597,
+        "protein_g": 26,
+        "fat_g": 37,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 106,
+        "sodium_mg": 1284,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "99477eeb-2527-404c-8d8a-882d4d3e6eee",
+      "name": "Ultimate Bacon Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Double Angus Beef, American Cheese, Applewood Bacon",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1304,
+        "protein_g": 73,
+        "fat_g": 96,
+        "saturated_fat_g": 37,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 262,
+        "sodium_mg": 2577,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ae17da41-3ace-4ebf-99cf-b8bcf2e2ba6b",
+      "name": "Single Ultimate Bacon Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Single Angus Beef, American Cheese, Applewood Bacon",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 742,
+        "protein_g": 39,
+        "fat_g": 49,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 131,
+        "sodium_mg": 1612,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "34315c22-e7ff-4b2b-9d65-d1b36116c21f",
+      "name": "Yes Chef! Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Double Angus Beef, Caramelized Onions, American Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 932,
+        "protein_g": 43,
+        "fat_g": 67,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 182,
+        "sodium_mg": 1653,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a9f56a0d-58c2-4d40-b155-f68013e18c32",
+      "name": "BBQ Rodeo Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Double Angus Beef, Pepper Jack, Crispy Onions, BBQ Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1174,
+        "protein_g": 51,
+        "fat_g": 75,
+        "saturated_fat_g": 29,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 197,
+        "sodium_mg": 2426,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 22,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f5f9b53d-0049-45f5-b22c-9c56fa81f227",
+      "name": "Single BBQ Rodeo Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Single Angus Beef, Pepper Jack, Crispy Onions, BBQ Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 778,
+        "protein_g": 30,
+        "fat_g": 41,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 99,
+        "sodium_mg": 1856,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 22,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "020fd1c0-8eeb-4d4f-a9de-df0ae131c450",
+      "name": "Conflicted Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef + Veggie",
+      "description": "Angus Beef Patty and VegeFi Patty, American Cheese, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 827,
+        "protein_g": 32,
+        "fat_g": 49,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 119,
+        "sodium_mg": 1548,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a28acfb1-3ed6-4783-b7a2-6af0cc8e8709",
+      "name": "The CEO",
+      "category": "Burgers",
+      "subcategory": "Wagyu Beef",
+      "description": "Double Wagyu + Brisket Blend, Truffle Aioli, Swiss Cheese, Tomato Bacon Jam",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1196,
+        "protein_g": 53,
+        "fat_g": 89,
+        "saturated_fat_g": 31,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 221,
+        "sodium_mg": 1361,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b0a9b45d-7924-48ce-bd9d-3d0154443757",
+      "name": "Single The CEO",
+      "category": "Burgers",
+      "subcategory": "Wagyu Beef",
+      "description": "Single Wagyu + Brisket Blend, Truffle Aioli, Swiss Cheese, Tomato Bacon Jam",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 811,
+        "protein_g": 31,
+        "fat_g": 56,
+        "saturated_fat_g": 17,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 124,
+        "sodium_mg": 896,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "7255a1ed-f655-4bfa-b0c6-fb1bd1919e8e",
+      "name": "VegeFi Burger",
+      "category": "Burgers",
+      "subcategory": "Vegetarian",
+      "description": "Crispy Quinoa + Fresh Veggie Burger, White Cheddar, Lettuce, Tomato, Fi Sauce on a Potato Bun",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 463,
+        "protein_g": 14,
+        "fat_g": 17,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 28,
+        "sodium_mg": 1229,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9fcbc98f-fc28-4ed1-9937-0d642525ff78",
+      "name": "Beyond Burger",
+      "category": "Burgers",
+      "subcategory": "Plant-Based",
+      "description": "Double Beyond Meat, American Cheese, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 625,
+        "protein_g": 28,
+        "fat_g": 36,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 18,
+        "sodium_mg": 1844,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c3a151be-d79e-4c2c-8f1c-946645f120ac",
+      "name": "Vegan Beyond Burger",
+      "category": "Burgers",
+      "subcategory": "Plant-Based",
+      "description": "Double Beyond Meat, Vegan Bun, Lettuce, Tomato, Onions, Pickles, Ketchup, Mustard",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 25,
+        "fat_g": 21,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 18,
+        "sodium_mg": 1636,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e557a139-dece-4e30-b312-439872bae926",
+      "name": "Fi-Lafel Sliders",
+      "category": "Burgers",
+      "subcategory": "Vegetarian",
+      "description": "Smashed Garbanzo Beans, Naturally Seasoned, Spicy Pepper Mix, Lettuce, Tomato, Spicy Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 655,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.doordash.com",
+          "source_type": "Third Party",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "product_id": "49fc98d9-8f12-4c6a-a7ee-06e48799ba43",
+      "name": "Breakfast All Day Burger",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Angus Beef, Fried Egg, Hash Brown, Bacon, Maple Syrup",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9519a1db-0126-4056-833b-39f3cd8f379a",
+      "name": "Patty Melt",
+      "category": "Burgers",
+      "subcategory": "Angus Beef",
+      "description": "Angus Beef, Caramelized Onions, Swiss Cheese, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "3f553c80-efd8-4c2d-bd9b-9fc305771824",
+      "name": "Fried Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Hand-Breaded, Antibiotic-Free Chicken, Lettuce, Tomato, Pickles, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 757,
+        "protein_g": 31,
+        "fat_g": 43,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 69,
+        "sodium_mg": 1366,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "046e52de-7700-4f2b-bf5c-2c8d05f9f7c2",
+      "name": "Buffalo Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Fried Chicken, Buffalo Sauce, Blue Cheese, Lettuce, Tomato",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 945,
+        "protein_g": 32,
+        "fat_g": 50,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 77,
+        "sodium_mg": 3506,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "154c89fd-c264-4ed9-ab12-1a4b75f0ee60",
+      "name": "Grilled Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Grilled Chicken, Lettuce, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 407,
+        "protein_g": 28,
+        "fat_g": 15,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 69,
+        "sodium_mg": 636,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "901d612b-4180-4aa8-b58f-37820c3be344",
+      "name": "BBQ Rodeo Fried Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Fried Chicken, Pepper Jack, Crispy Onions, BBQ Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 661,
+        "protein_g": 37,
+        "fat_g": 14,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 2378,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 23,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "2e45471e-2e44-4016-b3af-7a5b5392e895",
+      "name": "BBQ Rodeo Grilled Chicken",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Grilled Chicken, Pepper Jack, Crispy Onions, BBQ Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 533,
+        "protein_g": 34,
+        "fat_g": 14,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 1622,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 3,
+        "sugars_g": 17,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "796b84ed-51c0-47f3-8a98-ac66dd5ac661",
+      "name": "3 Piece Chicken Tenders",
+      "category": "Chicken",
+      "subcategory": "Tenders",
+      "description": "Hand-Breaded Chicken Tenders",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 361,
+        "protein_g": 29,
+        "fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 68,
+        "sodium_mg": 632,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "864515b8-37cc-4c45-abf4-6f97eae89d61",
+      "name": "5 Piece Chicken Tenders",
+      "category": "Chicken",
+      "subcategory": "Tenders",
+      "description": "Hand-Breaded Chicken Tenders",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 602,
+        "protein_g": 48,
+        "fat_g": 25,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 113,
+        "sodium_mg": 1054,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b39cb9dd-98c2-4412-8587-c76fa88a0657",
+      "name": "5 Chicken Wings",
+      "category": "Chicken",
+      "subcategory": "Wings",
+      "description": "Jumbo Chicken Wings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 wings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1157,
+        "protein_g": 83,
+        "fat_g": 89,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 506,
+        "sodium_mg": 3262,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "2074d358-9e7e-48db-9f21-24151f92d5cc",
+      "name": "5 Wings BBQ",
+      "category": "Chicken",
+      "subcategory": "Wings",
+      "description": "Jumbo Chicken Wings with BBQ Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 wings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1283,
+        "protein_g": 85,
+        "fat_g": 89,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 506,
+        "sodium_mg": 3844,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 3,
+        "sugars_g": 22,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "48d2a0dd-448c-4dfb-a179-85e47bd38154",
+      "name": "5 Wings Buffalo",
+      "category": "Chicken",
+      "subcategory": "Wings",
+      "description": "Jumbo Chicken Wings with Buffalo Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 wings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1351,
+        "protein_g": 83,
+        "fat_g": 112,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 506,
+        "sodium_mg": 4733,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f86c3337-118d-49e7-ac15-64f2eaef2da4",
+      "name": "5 Sweet Thai Chili",
+      "category": "Chicken",
+      "subcategory": "Wings",
+      "description": "Jumbo Chicken Wings with Sweet Thai Chili Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 wings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1285,
+        "protein_g": 82,
+        "fat_g": 89,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 506,
+        "sodium_mg": 1614,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 34,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a579c08e-87b6-4d2f-b8f3-57252b96d70c",
+      "name": "5 Lemon Pepper",
+      "category": "Chicken",
+      "subcategory": "Wings",
+      "description": "Jumbo Chicken Wings with Lemon Pepper Seasoning",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "5 wings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1138,
+        "protein_g": 82,
+        "fat_g": 89,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 506,
+        "sodium_mg": 1498,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f80ab82f-43ca-418b-90ea-7425c3752a9a",
+      "name": "Chicken Caesar Salad",
+      "category": "Bowls",
+      "subcategory": "Salads",
+      "description": "Grilled Chicken, Romaine, Parmesan, Croutons, Caesar Dressing",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 436,
+        "protein_g": 28,
+        "fat_g": 30,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 82,
+        "sodium_mg": 1003,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Fish",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "74ae8281-571b-4ee6-904f-bfff599e6d61",
+      "name": "Traditional Chicken Salad",
+      "category": "Bowls",
+      "subcategory": "Salads",
+      "description": "Grilled Chicken, Romaine, Tomato, Cucumber, Choice of Dressing",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 345,
+        "protein_g": 23,
+        "fat_g": 20,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 740,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "2d761ca5-77a7-4080-940f-e4dd61f6bfef",
+      "name": "Buffalo Chicken Tender Salad",
+      "category": "Bowls",
+      "subcategory": "Salads",
+      "description": "Fried Chicken Tenders, Buffalo Sauce, Blue Cheese, Romaine, Tomato",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 587,
+        "protein_g": 23,
+        "fat_g": 38,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 61,
+        "sodium_mg": 2580,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "98306fed-c7a1-4f9f-b81c-88c50d51156a",
+      "name": "Burger Bowl Burger",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Angus Beef Patty, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 20,
+        "fat_g": 47,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 102,
+        "sodium_mg": 1612,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "600083d4-43f2-41bb-9696-e4b6f064b715",
+      "name": "Cheeseburger Bowl",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Angus Beef Patty, American Cheese, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 23,
+        "fat_g": 51,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 114,
+        "sodium_mg": 1862,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e879f7ba-4f5c-4d92-8482-8e71bdbe688c",
+      "name": "Burger Bowl VegeFi",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "VegeFi Patty, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 465,
+        "protein_g": 8,
+        "fat_g": 26,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 23,
+        "sodium_mg": 1557,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cae0e3e1-d209-47cb-ab1d-941e35c7183c",
+      "name": "Burger Bowl Tenders",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Chicken Tenders, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 526,
+        "protein_g": 23,
+        "fat_g": 29,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 68,
+        "sodium_mg": 1599,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0c05ff10-7cb9-4006-90a4-71ddf1d23420",
+      "name": "Burger Bowl Grilled Chicken",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Grilled Chicken, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 386,
+        "protein_g": 25,
+        "fat_g": 20,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 88,
+        "sodium_mg": 1524,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9c01f803-3db2-4fad-918d-579cd3206aa2",
+      "name": "Burger Bowl Fried Chicken",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Fried Chicken, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 732,
+        "protein_g": 27,
+        "fat_g": 49,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 88,
+        "sodium_mg": 2134,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 3,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "28c3fc40-89b3-4e6e-8f1e-4ad048b66fb6",
+      "name": "Beyond Bowl",
+      "category": "Bowls",
+      "subcategory": "Bowls",
+      "description": "Beyond Meat Patty, Romaine, Tomato, Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 545,
+        "protein_g": 22,
+        "fat_g": 37,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 23,
+        "sodium_mg": 1547,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 2,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ebbec338-a07b-402a-a681-419a815d3c7c",
+      "name": "Oringinal Wagyu Dog",
+      "category": "Dogs",
+      "subcategory": "Wagyu",
+      "description": "All-Natural Wagyu Beef Dog",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 dog",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 17,
+        "fat_g": 21,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1400,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "3cc2adad-5866-4e55-89cf-d9aec0e82e90",
+      "name": "Texas Style Wagyu Dog",
+      "category": "Dogs",
+      "subcategory": "Wagyu",
+      "description": "Wagyu Beef Dog, Chili, Cheese Sauce, Jalape\u00f1os",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 dog",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 439,
+        "protein_g": 20,
+        "fat_g": 26,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1878,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "12313d01-5770-4642-8c5d-cd266e87b8d1",
+      "name": "Regular Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Fresh-Cut Fries",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 704,
+        "protein_g": 10,
+        "fat_g": 56,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c2fe5b2a-ce0f-44a6-b758-524b80aac253",
+      "name": "Large Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Fresh-Cut Fries",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1170,
+        "protein_g": 21,
+        "fat_g": 85,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 960,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ddf9cf45-fb59-4163-871c-477ec2d7a621",
+      "name": "Junior Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Fresh-Cut Fries",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 621,
+        "protein_g": 6,
+        "fat_g": 57,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 366,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b51f9d66-3758-49c2-b516-64a7aedbd28b",
+      "name": "Jumbo Onion Rings",
+      "category": "Sides",
+      "subcategory": "Onion Rings",
+      "description": "Beer-Battered Onion Rings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1005,
+        "protein_g": 12,
+        "fat_g": 56,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 4083,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 6,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a59ae888-7ca2-4b84-8552-bef4f3ed880a",
+      "name": "Cry & Fry",
+      "category": "Sides",
+      "subcategory": "Combo",
+      "description": "3 Onion Rings + Regular Fries",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1381,
+        "protein_g": 18,
+        "fat_g": 98,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 2795,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 4,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "985a8a0b-6e60-4e1a-98ad-5e51dacdee1f",
+      "name": "Vanilla Custard Cup",
+      "category": "Custard",
+      "subcategory": "Cups",
+      "description": "Vanilla Frozen Custard",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 351,
+        "protein_g": 6,
+        "fat_g": 18,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 120,
+        "sodium_mg": 223,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 37,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c68275ba-fbaf-49c4-abd6-c84dc0e9c6f6",
+      "name": "Chocolate Custard Cup",
+      "category": "Custard",
+      "subcategory": "Cups",
+      "description": "Chocolate Frozen Custard",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 305,
+        "protein_g": 6,
+        "fat_g": 16,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 104,
+        "sodium_mg": 217,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 32,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4ef421d0-60e8-4fe0-829d-5f3e7e38b6d7",
+      "name": "Swirl Custard Cup",
+      "category": "Custard",
+      "subcategory": "Cups",
+      "description": "Vanilla and Chocolate Swirl Custard",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 328,
+        "protein_g": 6,
+        "fat_g": 17,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 112,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 34,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "108c8e66-b3b8-455d-a2f2-f2970e868ad0",
+      "name": "Chocolate Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Chocolate Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 697,
+        "protein_g": 12,
+        "fat_g": 40,
+        "saturated_fat_g": 23,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 226,
+        "sodium_mg": 401,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 64,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b8898aaa-69fa-4a15-885c-d906ea1dbd7f",
+      "name": "Vanilla Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Vanilla Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 776,
+        "protein_g": 13,
+        "fat_g": 43,
+        "saturated_fat_g": 27,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 253,
+        "sodium_mg": 410,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 72,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "daf79b6d-e6ff-4de8-8095-8dbb05702ea6",
+      "name": "Strawberry Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Strawberry Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 13,
+        "fat_g": 43,
+        "saturated_fat_g": 27,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 253,
+        "sodium_mg": 411,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 86,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "adeab894-1ab9-45a4-bd07-9ad2c069496c",
+      "name": "Cookies + Cream with Oreo Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Oreo Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1047,
+        "protein_g": 15,
+        "fat_g": 55,
+        "saturated_fat_g": 28,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 253,
+        "sodium_mg": 714,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 93,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1f2ca91d-6cb9-4b81-a76a-d69e32042253",
+      "name": "Birthday Cake Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Vanilla Birthday Cake Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 944,
+        "protein_g": 13,
+        "fat_g": 46,
+        "saturated_fat_g": 29,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 253,
+        "sodium_mg": 412,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 80,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c493e537-f8b8-4092-bfd1-e881d21c0883",
+      "name": "Pumpkin Pie Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Pumpkin Pie Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 996,
+        "protein_g": 17,
+        "fat_g": 51,
+        "saturated_fat_g": 29,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 279,
+        "sodium_mg": 562,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 91,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "21da755a-53ea-4ee2-b87e-0115979bc4f0",
+      "name": "Salted Caramel Pretzel Shake",
+      "category": "Custard",
+      "subcategory": "Shakes",
+      "description": "Salted Caramel Pretzel Frozen Custard Shake",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 shake",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 934,
+        "protein_g": 14,
+        "fat_g": 45,
+        "saturated_fat_g": 26,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 253,
+        "sodium_mg": 825,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 81,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bb23bddf-defe-4fa3-92b6-c379a81e920d",
+      "name": "American Cheese (Slice)",
+      "category": "Toppings",
+      "subcategory": "Cheese",
+      "description": "American Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 6,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1d97503f-5e98-4119-ab27-61bea8987ba1",
+      "name": "Swiss Cheese (Slice)",
+      "category": "Toppings",
+      "subcategory": "Cheese",
+      "description": "Swiss Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 55,
+        "protein_g": 4,
+        "fat_g": 4.5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 12.3,
+        "sodium_mg": 25,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b02409f4-453a-40f4-95d4-d4899b16ab48",
+      "name": "Pepper Jack Cheese (Slice)",
+      "category": "Toppings",
+      "subcategory": "Cheese",
+      "description": "Pepper Jack Cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 3.8,
+        "fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 101.3,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8639edb9-d6a4-4d3c-ba74-113bde0a60a2",
+      "name": "Applewood Bacon",
+      "category": "Toppings",
+      "subcategory": "Meat",
+      "description": "Applewood Smoked Bacon",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 66.4,
+        "protein_g": 5.1,
+        "fat_g": 4.8,
+        "saturated_fat_g": 1.9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 13.5,
+        "sodium_mg": 217.1,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0.3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Pork"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c4311358-7022-4d88-b2ee-32a2541607e3",
+      "name": "Fried Egg",
+      "category": "Toppings",
+      "subcategory": "Egg",
+      "description": "Fried Egg",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 egg",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 6,
+        "fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 184,
+        "sodium_mg": 95,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "28d02f52-a356-4917-9b2b-0fe063789b7e",
+      "name": "Fi Sauce",
+      "category": "Sauces",
+      "subcategory": "Sauces",
+      "description": "Signature Fi Sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 1,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 310,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f9f82fb6-3e6a-4b7c-bec8-fded71548b39",
+      "name": "Garlic Aioli",
+      "category": "Sauces",
+      "subcategory": "Sauces",
+      "description": "Garlic Aioli",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 1,
+        "fat_g": 20,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 150,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fc9601e2-2673-41bf-acc7-11db3147e7eb",
+      "name": "Truffle Aioli",
+      "category": "Sauces",
+      "subcategory": "Sauces",
+      "description": "Premium Truffle Aioli",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 0,
+        "fat_g": 22,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 150,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a15bf6b6-f7f0-4c85-a175-e371c4ec7bc9",
+      "name": "Potato Bun",
+      "category": "Buns",
+      "subcategory": "Buns",
+      "description": "BurgerFi Potato Bun",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bun",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 6,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "966c97ba-da86-4708-bd7a-651ba79849ab",
+      "name": "Hot Dog Buns",
+      "category": "Buns",
+      "subcategory": "Buns",
+      "description": "BurgerFi Hot Dog Bun",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bun",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 5,
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "3d37aa5f-ff2c-4122-a535-0f8307d459c8",
+      "name": "Udi's Gluten Free Bun",
+      "category": "Buns",
+      "subcategory": "Buns",
+      "description": "Gluten Free Bun",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 bun",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 4,
+        "fat_g": 6,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 370,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 5,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bc4984ab-0188-488f-8bd8-dd34c813ab66",
+      "name": "Lettuce Buns",
+      "category": "Buns",
+      "subcategory": "Buns",
+      "description": "Fresh Lettuce Bun",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "285cbf1c-cc33-4440-bbad-23504a1a201d",
+      "name": "Kid's Burger Meal",
+      "category": "Kids Meals",
+      "subcategory": "Meals",
+      "description": "Single Burger, Small Fries, Drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 495,
+        "protein_g": 22,
+        "fat_g": 30,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 79,
+        "sodium_mg": 715,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "be2a9ca0-e4aa-4d20-917b-11986f7f5526",
+      "name": "Kid's Tenders Meal",
+      "category": "Kids Meals",
+      "subcategory": "Meals",
+      "description": "2 Chicken Tenders, Small Fries, Drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 241,
+        "protein_g": 19,
+        "fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 421,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4e36f429-731c-40d9-979a-d6858810447a",
+      "name": "Honest Kids Apple Juice",
+      "category": "Beverages",
+      "subcategory": "Juice",
+      "description": "Honest Kids Organic Apple Juice",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 box",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 35,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.burgerfi.com/menu/",
+      "sources": [
+        {
+          "url": "https://www.burgerfi.com/wp-content/uploads/2024/10/BurgerFi-Nutritional-Information-2024.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

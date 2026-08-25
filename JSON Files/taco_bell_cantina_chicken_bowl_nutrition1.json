@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Cantina Chicken Menu",
+    "Bowls"
+  ],
+  "products": [
+    {
+      "product_id": "taco_bell_cantina_chicken_bowl",
+      "name": "Cantina Chicken Bowl",
+      "category": "Cantina Chicken Menu",
+      "subcategory": "Bowls",
+      "description": "Slow-roasted chicken, seasoned rice, black beans, avocado ranch sauce, reduced-fat sour cream, crisp shredded lettuce, shredded cheddar cheese, diced tomatoes, and purple cabbage.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 25.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1150.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 11.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [
+        "Slow-Roasted Chicken",
+        "Seasoned Rice",
+        "Black Beans",
+        "Avocado Ranch Sauce",
+        "Reduced-Fat Sour Cream",
+        "Shredded Lettuce",
+        "Cheddar Cheese",
+        "Diced Tomatoes",
+        "Shredded Purple Cabbage"
+      ],
+      "customizations": [
+        "Add Avocado Verde Salsa Packet",
+        "No Sour Cream",
+        "Extra Chicken"
+      ],
+      "image_url": "https://www.tacobell.com/food/deals-and-combos/cantina-chicken-bowl",
+      "product_url": "https://www.tacobell.com/food/deals-and-combos/cantina-chicken-bowl",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/taco-bell/cantina-chicken-bowl",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.tacobell.com/food/deals-and-combos/cantina-chicken-bowl",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

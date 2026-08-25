@@ -1,0 +1,2365 @@
+{
+  "name": "KFC",
+  "slug": "kfc-nutrition-calculator",
+  "tagline": "Track nutrition for KFC menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 229 menu items at KFC.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 229,
+  "categories": [
+    {
+      "name": "Pot Pies",
+      "items": [
+        {
+          "name": "Chicken Pot Pie",
+          "calories": 720,
+          "protein": 31,
+          "fat": 41,
+          "carbs": 59,
+          "servingSize": "1 pot pie (397g)",
+          "fiber": 4,
+          "sodium": 1910,
+          "cholesterol": 60,
+          "saturated_fat": 23,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Famous Bowls",
+      "items": [
+        {
+          "name": "Mac & Cheese Bowl",
+          "calories": 710,
+          "protein": 31,
+          "fat": 34,
+          "carbs": 71,
+          "servingSize": "1 bowl (370g)",
+          "fiber": 3,
+          "sodium": 1820,
+          "cholesterol": 95,
+          "saturated_fat": 11,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Limited Time Offers",
+      "items": [
+        {
+          "name": "Apple Pie Poppers",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 9,
+          "fiber": 1,
+          "sodium": 55,
+          "saturated_fat": 1.5,
+          "sugars": 3
+        },
+        {
+          "name": "Boneless Bucket",
+          "calories": 1590,
+          "protein": 59,
+          "fat": 90,
+          "carbs": 139,
+          "fiber": 5,
+          "sodium": 4400,
+          "cholesterol": 175,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "Country Fried Steak Meal",
+          "calories": 870,
+          "protein": 21,
+          "fat": 51,
+          "carbs": 83,
+          "fiber": 8,
+          "sodium": 2120,
+          "cholesterol": 40,
+          "saturated_fat": 15,
+          "sugars": 11
+        },
+        {
+          "name": "Dirty Dr Pepper\u00ae (20 fl oz)",
+          "calories": 310,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 74,
+          "sodium": 75,
+          "saturated_fat": 3,
+          "sugars": 73
+        },
+        {
+          "name": "Dirty Dr Pepper\u00ae (30 fl oz)",
+          "calories": 430,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 107,
+          "sodium": 110,
+          "saturated_fat": 3,
+          "sugars": 105
+        },
+        {
+          "name": "Dirty Lemonade (20 fl oz)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 48,
+          "sodium": 130,
+          "saturated_fat": 3,
+          "sugars": 47
+        },
+        {
+          "name": "Dirty Lemonade (30 fl oz)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 67,
+          "sodium": 200,
+          "saturated_fat": 3,
+          "sugars": 66
+        },
+        {
+          "name": "Dirty Pepsi\u00ae (20 fl oz)",
+          "calories": 320,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 78,
+          "sodium": 55,
+          "saturated_fat": 3,
+          "sugars": 78
+        },
+        {
+          "name": "Dirty Pepsi\u00ae (30 fl oz)",
+          "calories": 450,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 113,
+          "sodium": 80,
+          "saturated_fat": 3,
+          "sugars": 112
+        },
+        {
+          "name": "Fried Pickles",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 4,
+          "sodium": 180
+        },
+        {
+          "name": "Fries + Fried Pickles",
+          "calories": 610,
+          "protein": 9,
+          "fat": 31,
+          "carbs": 73,
+          "fiber": 5,
+          "sodium": 2500,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "HandHeld Pot Pie",
+          "calories": 540,
+          "protein": 12,
+          "fat": 34,
+          "carbs": 47,
+          "fiber": 5,
+          "sodium": 790,
+          "cholesterol": 20,
+          "saturated_fat": 21,
+          "sugars": 5
+        },
+        {
+          "name": "Honey BBQ Hot & Spicy Wings (1)",
+          "calories": 110,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 9,
+          "sodium": 310,
+          "cholesterol": 20,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Honey Chili Crisp Dip Cup",
+          "calories": 140,
+          "protein": 1,
+          "fat": 14,
+          "carbs": 5,
+          "sodium": 290,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Honey Chili Crisp Snacker",
+          "calories": 490,
+          "protein": 17,
+          "fat": 25,
+          "carbs": 46,
+          "fiber": 1,
+          "sodium": 1210,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 10
+        },
+        {
+          "name": "Hot & Spicy Wings (1)",
+          "calories": 90,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 3,
+          "sodium": 180,
+          "cholesterol": 20,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Jalapeno Ranch Dip Cup",
+          "calories": 150,
+          "protein": 1,
+          "fat": 15,
+          "carbs": 2,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Mashed Potatoes With Gravy (Medium)",
+          "calories": 180,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 27,
+          "fiber": 2,
+          "sodium": 680,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Matty's Cheesy Nuggy Gravy Bowl",
+          "calories": 740,
+          "protein": 34,
+          "fat": 39,
+          "carbs": 63,
+          "fiber": 3,
+          "sodium": 2470,
+          "cholesterol": 105,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Mike's Hot Honey Hot & Spicy Wings (1)",
+          "calories": 110,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 9,
+          "sodium": 180,
+          "cholesterol": 20,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Original Twister\u00ae",
+          "calories": 1100,
+          "protein": 29,
+          "fat": 73,
+          "carbs": 88,
+          "fiber": 2,
+          "sodium": 2040,
+          "cholesterol": 95,
+          "saturated_fat": 12,
+          "sugars": 7
+        },
+        {
+          "name": "Original Twister\u00ae with Bacon",
+          "calories": 1170,
+          "protein": 33,
+          "fat": 79,
+          "carbs": 89,
+          "fiber": 2,
+          "sodium": 2300,
+          "cholesterol": 110,
+          "saturated_fat": 31,
+          "sugars": 8
+        },
+        {
+          "name": "Popcorn Chicken",
+          "calories": 620,
+          "protein": 23,
+          "fat": 41,
+          "carbs": 40,
+          "fiber": 2,
+          "sodium": 1970,
+          "cholesterol": 30,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Popcorn Chicken Big Box",
+          "calories": 1470,
+          "protein": 52,
+          "fat": 77,
+          "carbs": 147,
+          "fiber": 6,
+          "sodium": 3980,
+          "cholesterol": 105,
+          "saturated_fat": 12,
+          "sugars": 15
+        },
+        {
+          "name": "Popcorn Chicken Bucket",
+          "calories": 1670,
+          "protein": 63,
+          "fat": 110,
+          "carbs": 106,
+          "fiber": 4,
+          "sodium": 5260,
+          "cholesterol": 80,
+          "saturated_fat": 13,
+          "sugars": 1
+        },
+        {
+          "name": "Popcorn Chicken Combo",
+          "calories": 940,
+          "protein": 28,
+          "fat": 56,
+          "carbs": 81,
+          "fiber": 5,
+          "sodium": 3070,
+          "cholesterol": 30,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Potato Wedges",
+          "calories": 320,
+          "protein": 5,
+          "fat": 15,
+          "carbs": 40,
+          "fiber": 4,
+          "sodium": 830,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Potato Wedges (Large)",
+          "calories": 760,
+          "protein": 11,
+          "fat": 36,
+          "carbs": 97,
+          "fiber": 10,
+          "sodium": 1980,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Prickly Pear Lemonade (20 fl oz)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 130,
+          "sugars": 44
+        },
+        {
+          "name": "Prickly Pear Lemonade (32 fl oz)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 76,
+          "sodium": 210,
+          "sugars": 74
+        },
+        {
+          "name": "Prickly Pear Lemonade (64 fl oz)",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 165,
+          "sodium": 420,
+          "sugars": 160
+        },
+        {
+          "name": "Saucy Fries",
+          "calories": 560,
+          "protein": 6,
+          "fat": 29,
+          "carbs": 71,
+          "fiber": 3,
+          "sodium": 1390,
+          "cholesterol": 5,
+          "saturated_fat": 4,
+          "sugars": 28
+        },
+        {
+          "name": "Side of Pickles",
+          "calories": 290,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 1400,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Snack Box",
+          "calories": 460,
+          "protein": 21,
+          "fat": 24,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 2090,
+          "cholesterol": 65,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Twister\u00ae",
+          "calories": 740,
+          "protein": 28,
+          "fat": 37,
+          "carbs": 79,
+          "fiber": 2,
+          "sodium": 1420,
+          "cholesterol": 75,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Spicy Twister\u00ae with Bacon",
+          "calories": 810,
+          "protein": 33,
+          "fat": 43,
+          "carbs": 79,
+          "fiber": 2,
+          "sodium": 1680,
+          "cholesterol": 90,
+          "saturated_fat": 25,
+          "sugars": 4
+        },
+        {
+          "name": "Spicy Zinger Sandwich",
+          "calories": 480,
+          "protein": 33,
+          "fat": 23,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 1360,
+          "cholesterol": 90,
+          "saturated_fat": 3,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Original Recipe Chicken",
+      "items": [
+        {
+          "name": "Original Recipe\u00ae Chicken Breast",
+          "calories": 390,
+          "protein": 39,
+          "fat": 21,
+          "carbs": 11,
+          "fiber": 2,
+          "sodium": 1190,
+          "cholesterol": 120,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Original Recipe\u00ae Chicken Drumstick",
+          "calories": 130,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 430,
+          "cholesterol": 55,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Original Recipe\u00ae Chicken Thigh",
+          "calories": 280,
+          "protein": 19,
+          "fat": 19,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 910,
+          "cholesterol": 100,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Original Recipe\u00ae Chicken Whole Wing",
+          "calories": 130,
+          "protein": 10,
+          "fat": 8,
+          "carbs": 3,
+          "sodium": 380,
+          "cholesterol": 55,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Extra Crispy Chicken",
+      "items": [
+        {
+          "name": "Extra Crispy\u2122 Chicken Breast",
+          "calories": 530,
+          "protein": 35,
+          "fat": 35,
+          "carbs": 18,
+          "sodium": 1150,
+          "cholesterol": 105,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Extra Crispy\u2122 Chicken Drumstick",
+          "calories": 170,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 5,
+          "sodium": 390,
+          "cholesterol": 50,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Extra Crispy\u2122 Chicken Thigh",
+          "calories": 330,
+          "protein": 22,
+          "fat": 23,
+          "carbs": 9,
+          "sodium": 700,
+          "cholesterol": 100,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Extra Crispy\u2122 Chicken Whole Wing",
+          "calories": 170,
+          "protein": 10,
+          "fat": 13,
+          "carbs": 5,
+          "sodium": 340,
+          "cholesterol": 45,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Kentucky Grilled Chicken",
+      "items": [
+        {
+          "name": "Kentucky Grilled Chicken\u00ae Breast",
+          "calories": 210,
+          "protein": 38,
+          "fat": 7,
+          "carbs": 0,
+          "sodium": 710,
+          "cholesterol": 130,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Kentucky Grilled Chicken\u00ae Drumstick",
+          "calories": 80,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 220,
+          "cholesterol": 55,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Kentucky Grilled Chicken\u00ae Thigh",
+          "calories": 150,
+          "protein": 17,
+          "fat": 9,
+          "carbs": 0,
+          "sodium": 420,
+          "cholesterol": 90,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Kentucky Grilled Chicken\u00ae Whole Wing",
+          "calories": 70,
+          "protein": 9,
+          "fat": 3,
+          "carbs": 0,
+          "sodium": 180,
+          "cholesterol": 45,
+          "saturated_fat": 1
+        }
+      ]
+    },
+    {
+      "name": "Spicy Crispy Chicken",
+      "items": [
+        {
+          "name": "Spicy Crispy Chicken Breast",
+          "calories": 350,
+          "protein": 30,
+          "fat": 20,
+          "carbs": 11,
+          "fiber": 1,
+          "sodium": 1100,
+          "cholesterol": 100,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Spicy Crispy Chicken Drumstick",
+          "calories": 130,
+          "protein": 9,
+          "fat": 8,
+          "carbs": 5,
+          "fiber": 1,
+          "sodium": 420,
+          "cholesterol": 40,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Spicy Crispy Chicken Thigh",
+          "calories": 270,
+          "protein": 13,
+          "fat": 20,
+          "carbs": 10,
+          "fiber": 1,
+          "sodium": 720,
+          "cholesterol": 65,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Spicy Crispy Chicken Whole Wing",
+          "calories": 120,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 5,
+          "sodium": 350,
+          "cholesterol": 35,
+          "saturated_fat": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Original Recipe\u00ae Tenders",
+      "items": [
+        {
+          "name": "NEW! Original Recipe\u00ae Tender (each)",
+          "calories": 170,
+          "protein": 11,
+          "fat": 6,
+          "carbs": 20,
+          "sodium": 400,
+          "cholesterol": 30,
+          "saturated_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Kentucky Fried Nuggets",
+      "items": [
+        {
+          "name": "Kentucky Fried Nuggets (1)",
+          "calories": 35,
+          "protein": 3,
+          "fat": 1.5,
+          "carbs": 1,
+          "sodium": 140,
+          "cholesterol": 15
+        }
+      ]
+    },
+    {
+      "name": "Homestyle Sides (Individual)",
+      "items": [
+        {
+          "name": "BBQ Baked Beans",
+          "calories": 190,
+          "protein": 11,
+          "fat": 1,
+          "carbs": 34,
+          "fiber": 7,
+          "sodium": 650,
+          "sugars": 15
+        },
+        {
+          "name": "Biscuit",
+          "calories": 180,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 22,
+          "fiber": 1,
+          "sodium": 520,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Cheese Curds",
+          "calories": 350,
+          "protein": 17,
+          "fat": 23,
+          "carbs": 17,
+          "sodium": 640,
+          "cholesterol": 65,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Cheese Curd Snack Box",
+          "calories": 340,
+          "protein": 25,
+          "fat": 20,
+          "carbs": 15,
+          "sodium": 1010,
+          "cholesterol": 95,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 170,
+          "protein": 1,
+          "fat": 12,
+          "carbs": 14,
+          "fiber": 4,
+          "sodium": 180,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 10
+        },
+        {
+          "name": "Corn on the Cob",
+          "calories": 70,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 17,
+          "fiber": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Green Beans",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "fiber": 3,
+          "sodium": 300,
+          "sugars": 1
+        },
+        {
+          "name": "KFC\u00ae Cornbread Muffin",
+          "calories": 210,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 240,
+          "cholesterol": 35,
+          "saturated_fat": 1.5,
+          "sugars": 11
+        },
+        {
+          "name": "Macaroni & Cheese",
+          "calories": 140,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 17,
+          "fiber": 1,
+          "sodium": 590,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Mashed Potatoes",
+          "calories": 110,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 17,
+          "fiber": 1,
+          "sodium": 330,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Mashed Potatoes With Gravy",
+          "calories": 130,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 20,
+          "fiber": 1,
+          "sodium": 520,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Secret Recipe Fries",
+          "calories": 320,
+          "protein": 5,
+          "fat": 15,
+          "carbs": 41,
+          "fiber": 3,
+          "sodium": 1100,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Sweet Kernel Corn",
+          "calories": 70,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 16,
+          "fiber": 2,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Homestyle Sides (Family)",
+      "items": [
+        {
+          "name": "BBQ Baked Beans (Family)",
+          "calories": 830,
+          "protein": 47,
+          "fat": 5,
+          "carbs": 148,
+          "fiber": 31,
+          "sodium": 2810,
+          "saturated_fat": 1,
+          "sugars": 63
+        },
+        {
+          "name": "Coleslaw (Family)",
+          "calories": 640,
+          "protein": 4,
+          "fat": 46,
+          "carbs": 54,
+          "fiber": 14,
+          "sodium": 670,
+          "cholesterol": 15,
+          "saturated_fat": 7,
+          "sugars": 37
+        },
+        {
+          "name": "Corn on the Cob (Family)",
+          "calories": 280,
+          "protein": 9,
+          "fat": 2,
+          "carbs": 67,
+          "fiber": 8,
+          "sodium": 15,
+          "sugars": 11
+        },
+        {
+          "name": "Green Beans (Family)",
+          "calories": 80,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 15,
+          "fiber": 9,
+          "sodium": 930,
+          "sugars": 3
+        },
+        {
+          "name": "Macaroni & Cheese (Family)",
+          "calories": 540,
+          "protein": 18,
+          "fat": 23,
+          "carbs": 66,
+          "fiber": 5,
+          "sodium": 2220,
+          "cholesterol": 10,
+          "saturated_fat": 6,
+          "sugars": 8
+        },
+        {
+          "name": "Mashed Potatoes (Family)",
+          "calories": 460,
+          "protein": 9,
+          "fat": 15,
+          "carbs": 72,
+          "fiber": 6,
+          "sodium": 1410,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Mashed Potatoes With Gravy (Family)",
+          "calories": 590,
+          "protein": 12,
+          "fat": 21,
+          "carbs": 88,
+          "fiber": 6,
+          "sodium": 2590,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Secret Recipe Fries (Family)",
+          "calories": 840,
+          "protein": 13,
+          "fat": 40,
+          "carbs": 108,
+          "fiber": 9,
+          "sodium": 2890,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Sweet Kernel Corn (Family)",
+          "calories": 280,
+          "protein": 10,
+          "fat": 2.5,
+          "carbs": 67,
+          "fiber": 7,
+          "sodium": 10,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Classic Chicken Sandwich",
+          "calories": 650,
+          "protein": 34,
+          "fat": 35,
+          "carbs": 49,
+          "fiber": 1,
+          "sodium": 1260,
+          "cholesterol": 90,
+          "saturated_fat": 4.5,
+          "sugars": 6
+        },
+        {
+          "name": "KFC Snacker",
+          "calories": 350,
+          "protein": 15,
+          "fat": 16,
+          "carbs": 39,
+          "fiber": 1,
+          "sodium": 730,
+          "cholesterol": 40,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Spicy Chicken Sandwich",
+          "calories": 620,
+          "protein": 34,
+          "fat": 33,
+          "carbs": 49,
+          "fiber": 1,
+          "sodium": 2140,
+          "cholesterol": 85,
+          "saturated_fat": 4,
+          "sugars": 6
+        },
+        {
+          "name": "Twister\u00ae",
+          "calories": 680,
+          "protein": 29,
+          "fat": 31,
+          "carbs": 74,
+          "fiber": 1,
+          "sodium": 1360,
+          "cholesterol": 80,
+          "saturated_fat": 7,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Pot Pie and Bowls",
+      "items": [
+        {
+          "name": "KFC\u00ae Famous Bowl",
+          "calories": 590,
+          "protein": 31,
+          "fat": 22,
+          "carbs": 67,
+          "fiber": 4,
+          "sodium": 2160,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Caesar Side Salad",
+          "calories": 40,
+          "protein": 3,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 90,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "House Side Salad",
+          "calories": 15,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 2,
+          "sodium": 10,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Croutons",
+      "items": [
+        {
+          "name": "Heinz Buttermilk Dressing",
+          "calories": 160,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 1,
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Hidden Valley The Original Ranch Fat Free Dressing",
+          "calories": 35,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 410,
+          "sugars": 2
+        },
+        {
+          "name": "KFC\u00ae Creamy Parmesan Caesar Dressing",
+          "calories": 260,
+          "protein": 2,
+          "fat": 26,
+          "carbs": 4,
+          "sodium": 540,
+          "cholesterol": 15,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Marzetti Light Italian Dressing",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 2,
+          "sodium": 510,
+          "sugars": 1
+        },
+        {
+          "name": "Parmesan Garlic Croutons",
+          "calories": 60,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 135,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Apple Turnover",
+          "calories": 230,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 32,
+          "fiber": 1,
+          "sodium": 140,
+          "saturated_fat": 2.5,
+          "sugars": 12
+        },
+        {
+          "name": "Caf\u00e9 Valley Chocolate Chip Cake (1 Slice)",
+          "calories": 300,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 39,
+          "fiber": 1,
+          "sodium": 260,
+          "cholesterol": 50,
+          "saturated_fat": 3,
+          "sugars": 27
+        },
+        {
+          "name": "Caf\u00e9 Valley Lemon Cake (1 Slice)",
+          "calories": 220,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 30,
+          "sodium": 170,
+          "cholesterol": 30,
+          "saturated_fat": 2,
+          "sugars": 20
+        },
+        {
+          "name": "Caf\u00e9 Valley Mini Chocolate Chip Cake",
+          "calories": 300,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 49,
+          "fiber": 1,
+          "sodium": 190,
+          "cholesterol": 40,
+          "saturated_fat": 2.5,
+          "sugars": 35
+        },
+        {
+          "name": "Caf\u00e9 Valley Mini Lemon Cake",
+          "calories": 300,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 43,
+          "sodium": 230,
+          "cholesterol": 50,
+          "saturated_fat": 2.5,
+          "sugars": 31
+        },
+        {
+          "name": "Chocolate Chunk Cookie",
+          "calories": 190,
+          "protein": 2,
+          "fat": 9,
+          "carbs": 26,
+          "fiber": 1,
+          "sodium": 105,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Dipping Sauces & Condiments",
+      "items": [
+        {
+          "name": "BBQ - Dipping Sauce Cup",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 150,
+          "sugars": 11
+        },
+        {
+          "name": "Buffalo Ranch - Dipping Sauce Cup",
+          "calories": 120,
+          "protein": 1,
+          "fat": 13,
+          "carbs": 2,
+          "sodium": 290,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Colonel's Buttery Spread",
+          "calories": 35,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 35,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Comeback Sauce - Dipping Sauce Cup",
+          "calories": 120,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 2,
+          "sodium": 340,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Grape Jelly Packet",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "sodium": 10,
+          "sugars": 7
+        },
+        {
+          "name": "Honey Mustard - Dipping Sauce Cup",
+          "calories": 110,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 6,
+          "sodium": 120,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 6
+        },
+        {
+          "name": "Honey Sauce Packet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Ketchup",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "sodium": 250,
+          "sugars": 6
+        },
+        {
+          "name": "KFC Sauce - Dipping Sauce Cup",
+          "calories": 90,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 5,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 5
+        },
+        {
+          "name": "Lemon Juice Packet",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 20
+        },
+        {
+          "name": "Ranch - Dipping Sauce Cup",
+          "calories": 130,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "sodium": 240,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Zinger Mayo",
+          "calories": 590,
+          "protein": 1,
+          "fat": 64,
+          "carbs": 4,
+          "fiber": 1,
+          "sodium": 420,
+          "cholesterol": 45,
+          "saturated_fat": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Sticky Chicky Sweet n' Sour Dipping Sauce Cup",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 180,
+          "sugars": 10
+        },
+        {
+          "name": "Strawberry Jam Packet",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9,
+          "sugars": 6
+        },
+        {
+          "name": "Supergirl Honey Mustard - Dipping Sauce Cup",
+          "calories": 120,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 4,
+          "sodium": 120,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Supergirl Ranch - Dipping Sauce Cup",
+          "calories": 110,
+          "protein": 1,
+          "fat": 11,
+          "carbs": 2,
+          "sodium": 200,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Supergirl Sweet Chili - Dipping Sauce Cup",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "sodium": 220,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Kids Meal",
+      "items": [
+        {
+          "name": "Kentucky Fried Chicken Nuggets Kids Meal",
+          "calories": 170,
+          "protein": 17,
+          "fat": 8,
+          "carbs": 7,
+          "sodium": 690,
+          "cholesterol": 65,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Original Recipe\u00ae Tenders Kids Meal",
+          "calories": 350,
+          "protein": 21,
+          "fat": 12,
+          "carbs": 39,
+          "sodium": 810,
+          "cholesterol": 60,
+          "saturated_fat": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Kids Drinks",
+      "items": [
+        {
+          "name": "Capri Sun\u00ae 100% Juice Fruit Punch",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 21,
+          "sodium": 25,
+          "sugars": 20
+        },
+        {
+          "name": "Chocolate Milk 1%",
+          "calories": 150,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 26,
+          "sodium": 170,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 23
+        },
+        {
+          "name": "Milk 1%",
+          "calories": 90,
+          "protein": 7,
+          "fat": 2,
+          "carbs": 10,
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Kids Meal Applesauce",
+      "items": [
+        {
+          "name": "Musselman's\u2122 Applesauce",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "fiber": 1,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "7UP\u00ae (12 fl oz)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "sodium": 50,
+          "sugars": 35
+        },
+        {
+          "name": "7UP\u00ae (16 fl oz)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 70,
+          "sugars": 46
+        },
+        {
+          "name": "7UP\u00ae (20 fl oz)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "sodium": 85,
+          "sugars": 58
+        },
+        {
+          "name": "7UP\u00ae (30 fl oz)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 87,
+          "sodium": 125,
+          "sugars": 87
+        },
+        {
+          "name": "Classic Lemonade (1/2 Gallon)",
+          "calories": 880,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 234,
+          "sodium": 780,
+          "sugars": 228
+        },
+        {
+          "name": "Classic Lemonade (20 fl oz)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 130,
+          "sugars": 38
+        },
+        {
+          "name": "Code Red Mountain Dew\u00ae (12 fl oz)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 50,
+          "sugars": 46
+        },
+        {
+          "name": "Code Red Mountain Dew\u00ae (16 fl oz)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "sodium": 65,
+          "sugars": 62
+        },
+        {
+          "name": "Code Red Mountain Dew\u00ae (20 fl oz)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "sodium": 85,
+          "sugars": 77
+        },
+        {
+          "name": "Code Red Mountain Dew\u00ae (30 fl oz)",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 116,
+          "sodium": 125,
+          "sugars": 115
+        },
+        {
+          "name": "Diet Dr Pepper\u00ae (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 70
+        },
+        {
+          "name": "Diet Dr Pepper\u00ae (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 95
+        },
+        {
+          "name": "Diet Dr Pepper\u00ae (20 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 120
+        },
+        {
+          "name": "Diet Dr Pepper\u00ae (30 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 180
+        },
+        {
+          "name": "Diet Mountain Dew\u00ae (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 55
+        },
+        {
+          "name": "Diet Mountain Dew\u00ae (16 fl oz)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 75
+        },
+        {
+          "name": "Diet Mountain Dew\u00ae (20 fl oz)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 90,
+          "sugars": 1
+        },
+        {
+          "name": "Diet Mountain Dew\u00ae (30 fl oz)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 140,
+          "sugars": 1
+        },
+        {
+          "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 35
+        },
+        {
+          "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 50
+        },
+        {
+          "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (20 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (30 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 95
+        },
+        {
+          "name": "Dr Pepper\u00ae (12 fl oz)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 45,
+          "sugars": 38
+        },
+        {
+          "name": "Dr Pepper\u00ae (16 fl oz)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "sodium": 60,
+          "sugars": 51
+        },
+        {
+          "name": "Dr Pepper\u00ae (20 fl oz)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "sodium": 75,
+          "sugars": 64
+        },
+        {
+          "name": "Dr Pepper\u00ae (30 fl oz)",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 98,
+          "sodium": 110,
+          "sugars": 96
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (12 fl oz)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 22,
+          "sodium": 40,
+          "sugars": 22
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (16 fl oz)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "sodium": 55,
+          "sugars": 29
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (20 fl oz)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 70,
+          "sugars": 36
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (30 fl oz)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 55,
+          "sodium": 105,
+          "sugars": 54
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 105
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 140
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (20 fl oz)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 180
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (30 fl oz)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 270
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (12 fl oz)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 20,
+          "sodium": 45,
+          "sugars": 20
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (16 fl oz)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "sodium": 55,
+          "sugars": 26
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (20 fl oz)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 70,
+          "sugars": 33
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (30 fl oz)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 49,
+          "sodium": 110,
+          "sugars": 49
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (12 fl oz)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 22,
+          "sodium": 45,
+          "sugars": 21
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (16 fl oz)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 29,
+          "sodium": 65,
+          "sugars": 29
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (20 fl oz)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 36,
+          "sodium": 80,
+          "sugars": 36
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (30 fl oz)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "sodium": 120,
+          "sugars": 54
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 45
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (20 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (30 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 115
+        },
+        {
+          "name": "Manzanita Sol\u00ae (12 fl oz)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 42,
+          "sodium": 35,
+          "sugars": 42
+        },
+        {
+          "name": "Manzanita Sol\u00ae (16 fl oz)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 57,
+          "sodium": 45,
+          "sugars": 57
+        },
+        {
+          "name": "Manzanita Sol\u00ae (20 fl oz)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 71,
+          "sodium": 55,
+          "sugars": 71
+        },
+        {
+          "name": "Manzanita Sol\u00ae (30 fl oz)",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 106,
+          "sodium": 80,
+          "sugars": 106
+        },
+        {
+          "name": "Miranda\u00ae Strawberry (12 fl oz)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 70,
+          "sugars": 44
+        },
+        {
+          "name": "Miranda\u00ae Strawberry (16 fl oz)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "sodium": 95,
+          "sugars": 58
+        },
+        {
+          "name": "Miranda\u00ae Strawberry (20 fl oz)",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 120,
+          "sugars": 73
+        },
+        {
+          "name": "Miranda\u00ae Strawberry (30 fl oz)",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 109,
+          "sodium": 180,
+          "sugars": 109
+        },
+        {
+          "name": "MNT DEW Sweet Lightning (20 fl oz)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "sodium": 190,
+          "sugars": 25
+        },
+        {
+          "name": "Mountain Dew\u00ae (12 fl oz)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 44,
+          "sodium": 50,
+          "sugars": 44
+        },
+        {
+          "name": "Mountain Dew\u00ae (16 fl oz)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "sodium": 70,
+          "sugars": 58
+        },
+        {
+          "name": "Mountain Dew\u00ae (20 fl oz)",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "sodium": 85,
+          "sugars": 73
+        },
+        {
+          "name": "Mountain Dew\u00ae (30 fl oz)",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 110,
+          "sodium": 125,
+          "sugars": 109
+        },
+        {
+          "name": "Mug Root Beer\u00ae (12 fl oz)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 45,
+          "sugars": 39
+        },
+        {
+          "name": "Mug Root Beer\u00ae (16 fl oz)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "sodium": 60,
+          "sugars": 52
+        },
+        {
+          "name": "Mug Root Beer\u00ae (20 fl oz)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "sodium": 75,
+          "sugars": 65
+        },
+        {
+          "name": "Mug Root Beer\u00ae (30 fl oz)",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 98,
+          "sodium": 110,
+          "sugars": 98
+        },
+        {
+          "name": "Pepsi Zero Sugar\u00ae (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 35
+        },
+        {
+          "name": "Pepsi Zero Sugar\u00ae (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 50
+        },
+        {
+          "name": "Pepsi Zero Sugar\u00ae (20 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Pepsi Zero Sugar\u00ae (30 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 95
+        },
+        {
+          "name": "Pepsi\u00ae (12 fl oz)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 30,
+          "sugars": 41
+        },
+        {
+          "name": "Pepsi\u00ae (16 fl oz)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 55,
+          "sodium": 45,
+          "sugars": 55
+        },
+        {
+          "name": "Pepsi\u00ae (20 fl oz)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 69,
+          "sodium": 55,
+          "sugars": 69
+        },
+        {
+          "name": "Pepsi\u00ae (30 fl oz)",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 104,
+          "sodium": 80,
+          "sugars": 103
+        },
+        {
+          "name": "Sobe Lifewater Yumberry Pomegranate (12 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 45
+        },
+        {
+          "name": "Sobe Lifewater Yumberry Pomegranate (16 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 65
+        },
+        {
+          "name": "Sobe Lifewater Yumberry Pomegranate (20 fl oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 80
+        },
+        {
+          "name": "Sobe Lifewater Yumberry Pomegranate (30 fl oz)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 120
+        },
+        {
+          "name": "Southern Iced Tea (1/2 Gallon)",
+          "calories": 1130,
+          "protein": 8,
+          "fat": 1,
+          "carbs": 274,
+          "fiber": 5,
+          "sodium": 140,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 276
+        },
+        {
+          "name": "Southern Iced Tea (12 fl oz)",
+          "calories": 210,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 51,
+          "fiber": 1,
+          "sodium": 25,
+          "sugars": 52
+        },
+        {
+          "name": "Southern Iced Tea (16 fl oz)",
+          "calories": 280,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 69,
+          "fiber": 1,
+          "sodium": 35,
+          "cholesterol": 5,
+          "sugars": 69
+        },
+        {
+          "name": "Southern Iced Tea (20 fl oz)",
+          "calories": 350,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 86,
+          "fiber": 1,
+          "sodium": 45,
+          "cholesterol": 5,
+          "sugars": 86
+        },
+        {
+          "name": "Southern Iced Tea (30 fl oz)",
+          "calories": 530,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 128,
+          "fiber": 2,
+          "sodium": 65,
+          "cholesterol": 5,
+          "sugars": 129
+        },
+        {
+          "name": "Southern Iced Tea (Gallon)",
+          "calories": 2250,
+          "protein": 15,
+          "fat": 2,
+          "carbs": 548,
+          "fiber": 9,
+          "sodium": 280,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 552
+        },
+        {
+          "name": "Starry\u00ae (12 fl oz)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 35,
+          "sugars": 39
+        },
+        {
+          "name": "Starry\u00ae (16 fl oz)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "sodium": 45,
+          "sugars": 52
+        },
+        {
+          "name": "Starry\u00ae (20 fl oz)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "sodium": 55,
+          "sugars": 65
+        },
+        {
+          "name": "Starry\u00ae (30 fl oz)",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 97,
+          "sodium": 85,
+          "sugars": 97
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch (12 fl oz)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "sodium": 35,
+          "sugars": 45
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch (16 fl oz)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "sodium": 45,
+          "sugars": 60
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch (20 fl oz)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 75,
+          "sodium": 60,
+          "sugars": 75
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch (30 fl oz)",
+          "calories": 420,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 113,
+          "sodium": 90,
+          "sugars": 112
+        },
+        {
+          "name": "Tropicana\u00ae Light Lemonade (12 fl oz)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 140
+        },
+        {
+          "name": "Tropicana\u00ae Light Lemonade (16 fl oz)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 190
+        },
+        {
+          "name": "Tropicana\u00ae Light Lemonade (20 fl oz)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 240
+        },
+        {
+          "name": "Tropicana\u00ae Light Lemonade (30 fl oz)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 350
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade (12 fl oz)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sodium": 160,
+          "sugars": 40
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade (16 fl oz)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 53,
+          "sodium": 210,
+          "sugars": 53
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade (20 fl oz)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 67,
+          "sodium": 260,
+          "sugars": 67
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade (30 fl oz)",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sodium": 390,
+          "sugars": 100
+        },
+        {
+          "name": "Tropicana\u00ae Twister\u00ae Orange (12 fl oz)",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 35,
+          "sugars": 46
+        },
+        {
+          "name": "Tropicana\u00ae Twister\u00ae Orange (16 fl oz)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 61,
+          "sodium": 50,
+          "sugars": 61
+        },
+        {
+          "name": "Tropicana\u00ae Twister\u00ae Orange (20 fl oz)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 76,
+          "sodium": 60,
+          "sugars": 76
+        },
+        {
+          "name": "Tropicana\u00ae Twister\u00ae Orange (30 fl oz)",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 115,
+          "sodium": 90,
+          "sugars": 114
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae (12 fl oz)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 42,
+          "sodium": 30,
+          "sugars": 42
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae (16 fl oz)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "sodium": 40,
+          "sugars": 56
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae (20 fl oz)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 70,
+          "sodium": 50,
+          "sugars": 70
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae (30 fl oz)",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 105,
+          "sodium": 80,
+          "sugars": 105
+        }
+      ]
+    },
+    {
+      "name": "Regional Menu Items",
+      "items": [
+        {
+          "name": "Country Fried Steak without Peppered White Gravy",
+          "calories": 360,
+          "protein": 13,
+          "fat": 24,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 750,
+          "cholesterol": 35,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Country Fried Steak with Peppered White Gravy",
+          "calories": 390,
+          "protein": 13,
+          "fat": 26,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 910,
+          "cholesterol": 35,
+          "saturated_fat": 7
+        },
+        {
+          "name": "KFC\u00ae Gizzards",
+          "calories": 300,
+          "protein": 20,
+          "fat": 16,
+          "carbs": 18,
+          "fiber": 1,
+          "sodium": 770,
+          "cholesterol": 210,
+          "saturated_fat": 2
+        },
+        {
+          "name": "KFC\u00ae Livers",
+          "calories": 230,
+          "protein": 17,
+          "fat": 13,
+          "carbs": 12,
+          "sodium": 750,
+          "cholesterol": 285,
+          "saturated_fat": 2.5
+        }
+      ]
+    }
+  ]
+}

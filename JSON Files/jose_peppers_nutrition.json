@@ -1,0 +1,4545 @@
+{
+  "brand": {
+    "name": "Jose Pepper's",
+    "website": "https://www.josepeppers.com/",
+    "country": "USA",
+    "last_updated": "2026-08-03"
+  },
+  "categories": [
+    "Starters",
+    "Quesadillas",
+    "Specialties",
+    "Fajitas",
+    "Enchiladas",
+    "Burritos",
+    "Tacos",
+    "Soups and Salads",
+    "Chimichangas",
+    "Combinations",
+    "Sandwiches",
+    "Kids Stuff",
+    "Desserts",
+    "Beverages",
+    "Marketplace"
+  ],
+  "products": [
+    {
+      "product_id": "espinaca_con_queso",
+      "name": "Espinaca con Queso",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "A blend of jalapeno cheese, onion, tomatoes, and spinach. Served with warm corn tortilla chips.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "2 tbsp",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 3,
+        "fat_g": 4.5,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/espinaca-con-queso",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chile_con_queso",
+      "name": "Chile con Queso",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "A blend of cheeses, tomatoes, onions, roasted red, and hatch green chiles.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chile-con-queso",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "guacamole_dip",
+      "name": "Guacamole Dip",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "Avocados, cilantro, serrano peppers, onion, spices, queso fresco, lime juice, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/guacamole-dip",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mini_chimichangas_8_pcs",
+      "name": "Mini Chimichangas (8 pcs)",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "Crispy flour tortillas stuffed with shredded beef. Served with jalapeno cream cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1197,
+        "protein_g": 60.91,
+        "fat_g": 60.95,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2055,
+        "potassium_mg": null,
+        "carbohydrates_g": 101.2,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/mini-chimichangas-(8-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "steak_and_goat_cheese_towers",
+      "name": "Steak and Goat Cheese Towers",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "Grilled skirt steak and goat cheese rolled in flour tortillas then grilled. Served with chipotle aioli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Steak",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/steak-and-goat-cheese-towers",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "jumbo_stuffed_jalapenos",
+      "name": "Jumbo Stuffed Jalapenos",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "Grilled chicken, jalapeno cream cheese, and Jack cheese. Breaded and served crispy with a side of tomatillo ranch.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/jumbo-stuffed-jalapenos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "signature_nachos",
+      "name": "Signature Nachos",
+      "category": "Starters",
+      "subcategory": "",
+      "description": "Your choice of grilled chicken or steak on crispy corn tortillas baked with refried beans, jalapeno cream cheese, cheese, and pickled jalapeno slices.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1489,
+        "protein_g": 93.73,
+        "fat_g": 83.97,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 3136,
+        "potassium_mg": null,
+        "carbohydrates_g": 86.5,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken",
+        "Steak",
+        "Beans",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/signature-nachos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "char-grilled_chicken_quesadilla",
+      "name": "Char-Grilled Chicken Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Served with sour cream, guacamole, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1123,
+        "protein_g": 73.54,
+        "fat_g": 64.27,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2188,
+        "potassium_mg": null,
+        "carbohydrates_g": 62.72,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/char-grilled-chicken-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "char-grilled_skirt_steak_quesadilla",
+      "name": "Char-Grilled Skirt Steak Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Served with sour cream, guacamole, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1134,
+        "protein_g": 56.81,
+        "fat_g": 69.48,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2437,
+        "potassium_mg": null,
+        "carbohydrates_g": 70.35,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/char-grilled-skirt-steak-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "california_quesadilla",
+      "name": "California Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Fresh spinach, grilled chicken, and bacon. Served with sour cream, guacamole, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/california-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cheese_quesadilla",
+      "name": "Cheese Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Served with sour cream, guacamole, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1026,
+        "protein_g": 42.71,
+        "fat_g": 65.68,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1913,
+        "potassium_mg": null,
+        "carbohydrates_g": 66.09,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/cheese-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "parmesan_crusted_shrimp_quesadilla",
+      "name": "Parmesan Crusted Shrimp Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Grilled parmesan-crusted tortilla with grilled shrimp, sliced avocado, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Shellfish"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/parmesan-crusted-shrimp-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "vegetable_quesadilla",
+      "name": "Vegetable Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "",
+      "description": "Grilled zucchini, squash, broccoli, cauliflower, mushrooms, roasted corn, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/vegetable-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pollo_magnifico",
+      "name": "Pollo Magnifico",
+      "category": "Specialties",
+      "subcategory": "",
+      "description": "Crispy chicken burrito topped with jalapeno cream cheese, Colby Jack cheese, and then backed.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1646,
+        "protein_g": 79.71,
+        "fat_g": 83.03,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 3017,
+        "potassium_mg": null,
+        "carbohydrates_g": 145,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/pollo-magnifico",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "flauta_platter",
+      "name": "Flauta Platter",
+      "category": "Specialties",
+      "subcategory": "",
+      "description": "Four crispy corn tortillas filled with chipotle seasoned chicken, topped with guacamole, pico de gallo, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1097,
+        "protein_g": 55.34,
+        "fat_g": 55.2,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2504,
+        "potassium_mg": null,
+        "carbohydrates_g": 130,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/flauta-platter",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "blackened_chicken_verde",
+      "name": "Blackened Chicken Verde",
+      "category": "Specialties",
+      "subcategory": "",
+      "description": "Blackened chicken breast sliced atop roasted poblano sauce and jalapeno cr\u00e8me cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/blackened-chicken-verde",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "carnitas_tamales",
+      "name": "Carnitas Tamales",
+      "category": "Specialties",
+      "subcategory": "",
+      "description": "Two house-made carnitas tamales baked with new Mexico red chile sauce and finished with chile con queso.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/carnitas-tamales",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chile_relleno_platter",
+      "name": "Chile Relleno Platter",
+      "category": "Specialties",
+      "subcategory": "",
+      "description": "A lightly fried, cerveza battered, roasted poblano pepper stuffed with a blend of cheese, and spices.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chile-relleno-platter",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fajitas_del_trio_3_pcs",
+      "name": "Fajitas del Trio (3 pcs)",
+      "category": "Fajitas",
+      "subcategory": "",
+      "description": "Jumbo bacon-wrapped shrimp stuffed with jalapeno, cheese presented on a sizzling skillet with grilled chicken, and skirt steak.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Shellfish"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken",
+        "Steak"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/fajitas-del-trio-(3-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_chicken_fajita",
+      "name": "Grilled Chicken Fajita",
+      "category": "Fajitas",
+      "subcategory": "",
+      "description": "Grilled chicken served atop a bed of caramelized onion and bell peppers.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 883,
+        "protein_g": 59.63,
+        "fat_g": 34.17,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2517,
+        "potassium_mg": null,
+        "carbohydrates_g": 84.29,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-chicken-fajita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_jumbo_tail_on_shrimp_fajita_9_pcs",
+      "name": "Grilled Jumbo Tail on Shrimp Fajita (9 pcs)",
+      "category": "Fajitas",
+      "subcategory": "",
+      "description": "Jumbo shrimp served atop a bed of caramelized onion and bell peppers.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-jumbo-tail-on-shrimp-fajita-(9-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_vegetable_fajita",
+      "name": "Grilled Vegetable Fajita",
+      "category": "Fajitas",
+      "subcategory": "",
+      "description": "Grilled vegetables served atop a bed of caramelized onion and bell peppers.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-vegetable-fajita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_skirt_steak_fajita",
+      "name": "Grilled Skirt Steak Fajita",
+      "category": "Fajitas",
+      "subcategory": "",
+      "description": "Grilled skirt steak served atop a bed of caramelized onion and bell peppers.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 968,
+        "protein_g": 72.06,
+        "fat_g": 36.53,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2473,
+        "potassium_mg": null,
+        "carbohydrates_g": 87.86,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Steak"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-skirt-steak-fajita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chicken_and_avocado_enchiladas_2_pcs",
+      "name": "Chicken and Avocado Enchiladas (2 pcs)",
+      "category": "Enchiladas",
+      "subcategory": "",
+      "description": "Seasoned chicken enchiladas baked with jalapeno cream sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chicken-and-avocado-enchiladas-(2-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "creamy_steak_enchiladas",
+      "name": "Creamy Steak Enchiladas",
+      "category": "Enchiladas",
+      "subcategory": "",
+      "description": "Grilled skirt steak, jalapeno cream cheese, pico de gallo, and Jack cheese rolled into a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Steak",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/creamy-steak-enchiladas",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "enchilada_trio",
+      "name": "Enchilada Trio",
+      "category": "Enchiladas",
+      "subcategory": "",
+      "description": "One seasoned chicken, 1 pc ground beef, and 1 pc cheese enchilada baked with new Mexico red chile sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1538,
+        "protein_g": 68.07,
+        "fat_g": 74.61,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 3267,
+        "potassium_mg": null,
+        "carbohydrates_g": 148.6,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/enchilada-trio",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "spinach_enchiladas_2_pcs",
+      "name": "Spinach Enchiladas (2 pcs)",
+      "category": "Enchiladas",
+      "subcategory": "",
+      "description": "Flour tortillas filled with spinach, jalapeno cheese, and onion. Baked with creamy white dill sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/spinach-enchiladas-(2-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crab_and_shrimp_enchiladas_2_pcs",
+      "name": "Crab and Shrimp Enchiladas (2 pcs)",
+      "category": "Enchiladas",
+      "subcategory": "",
+      "description": "Flour tortillas filled with real lump crab, shrimp, cheese, and spices. Baked with our jalapeno cream sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Shellfish"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/crab-and-shrimp-enchiladas-(2-pcs)",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chicken_and_chorizo_burrito",
+      "name": "Chicken and Chorizo Burrito",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Seasoned chicken, Mexican spiced chorizo, jalapeno cream cheese, and pico de gallo.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chicken-and-chorizo-burrito",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "monterey_chicken_burrito",
+      "name": "Monterey Chicken Burrito",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Grilled chicken, Mexican rice, pico de gallo, and cheese wrapped in a flour tortilla. Topped with spinach con queso.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken",
+        "Rice",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/monterey-chicken-burrito",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "baja_burrito",
+      "name": "Baja Burrito",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Grilled chicken, bacon, cheese, and pico de ga gallo wrapped in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/baja-burrito",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "carnitas_burrito",
+      "name": "Carnitas Burrito",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Carnitas, cilantro rice, pico de gallo, and Jack cheese wrapped in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Rice",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/carnitas-burrito",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "taco_burrito_platter",
+      "name": "Taco Burrito Platter",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Seasoned ground beef and cheese wrapped in a flour tortilla then baked with new Mexican red chili sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1298,
+        "protein_g": 68.24,
+        "fat_g": 54.98,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 3012,
+        "potassium_mg": null,
+        "carbohydrates_g": 131.9,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/taco-burrito-platter",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grande_ccq_burrito",
+      "name": "Grande CCQ Burrito",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Carnitas, ground beef, Mexican rice, and refried beans wrapped in a flour tortilla. Topped with chile con queso.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1492,
+        "protein_g": 71.09,
+        "fat_g": 57.59,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 3029,
+        "potassium_mg": null,
+        "carbohydrates_g": 168.6,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Beans",
+        "Rice",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grande-ccq-burrito",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "burrito_bowl",
+      "name": "Burrito Bowl",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Cilantro rice, black beans, shredded lettuce, cheese, roasted corn cheese, pico de gallo, sour cream, and guacamole.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 779,
+        "protein_g": 59.08,
+        "fat_g": 33.8,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2409,
+        "potassium_mg": null,
+        "carbohydrates_g": 70.56,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Beans",
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/burrito-bowl",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_mahi_bowl",
+      "name": "Grilled Mahi Bowl",
+      "category": "Burritos",
+      "subcategory": "",
+      "description": "Grilled Mahi served atop black beans, cilantro rice, and cabbage.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 896,
+        "protein_g": 54.92,
+        "fat_g": 32.98,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2403,
+        "potassium_mg": null,
+        "carbohydrates_g": 112,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Beans",
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-mahi-bowl",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grilled_mahi_tacos",
+      "name": "Grilled Mahi Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Prepared San Diego style with cabbage, chipotle crema, queso fresco, and avocado in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/grilled-mahi-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "shrimp_tacos",
+      "name": "Shrimp Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Jumbo shrimp, bell peppers, and pico de gallo deglazed with tequila in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Shellfish"
+      ],
+      "ingredients": [
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/shrimp-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "corona_shrimp_tacos",
+      "name": "Corona Shrimp Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Cerveza battered shrimp served San Diego style with cabbage, chipotle cream, queso fresco, and avocado.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/corona-shrimp-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "carnitas_tacos",
+      "name": "Carnitas Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Carnitas with fresh onion, cilantro, chile crema, and queso fresco in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/carnitas-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "taco_al_carbon",
+      "name": "Taco Al Carbon",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Skirt steak sauteed with onions, poblano peppers, and bacon in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Steak",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/taco-al-carbon",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "two_soft_tacos",
+      "name": "Two Soft Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Two soft flour tortillas filled with your choice of meat. Topped with lettuce, tomatoes, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/two-soft-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "two_crispy_tacos",
+      "name": "Two Crispy Tacos",
+      "category": "Tacos",
+      "subcategory": "",
+      "description": "Two crispy corn tortillas filled with your choice of meat. Topped with lettuce, tomatoes, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/two-crispy-tacos",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cheese_crisp_salad",
+      "name": "Cheese Crisp Salad",
+      "category": "Soups and Salads",
+      "subcategory": "",
+      "description": "Grilled chicken, black beans, cilantro rice, fresh greens topped with queso fresco, pico de gallo, and corn salsa.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken",
+        "Beans",
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/cheese-crisp-salad",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "taco_salad",
+      "name": "Taco Salad",
+      "category": "Soups and Salads",
+      "subcategory": "",
+      "description": "Lettuce, cilantro rice, refried beans, sour cream, guacamole, pico de gallo, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Beans",
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/taco-salad",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "coconut_chicken_salad",
+      "name": "Coconut Chicken Salad",
+      "category": "Soups and Salads",
+      "subcategory": "",
+      "description": "Breaded chicken tenders, fresh greens, tomatoes, cheese, and toasted coconut.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/coconut-chicken-salad",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "santa_fe_cobb_salad",
+      "name": "Santa Fe Cobb Salad",
+      "category": "Soups and Salads",
+      "subcategory": "",
+      "description": "Thinly sliced chicken, fresh greens, avocado, cheese, bacon, tomato, egg, and croutons.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/santa-fe-cobb-salad",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "tortilla_soup",
+      "name": "Tortilla Soup",
+      "category": "Soups and Salads",
+      "subcategory": "",
+      "description": "Southwest tortilla broth with roasted tomatillos, chicken, pico de gallo, queso fresco, corn, avocado, and tortilla strips.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 453,
+        "protein_g": 26.76,
+        "fat_g": 21.02,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1449,
+        "potassium_mg": null,
+        "carbohydrates_g": 39.22,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Chicken",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/tortilla-soup",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "nacho-ordinary_chimichanga",
+      "name": "Nacho-Ordinary Chimichanga",
+      "category": "Chimichangas",
+      "subcategory": "",
+      "description": "Ground beef, refried beans, jalapeno cream cheese, and crispy tortilla strips.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Beans",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/nacho-ordinary-chimichanga",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "carnitas_chimichanga",
+      "name": "Carnitas Chimichanga",
+      "category": "Chimichangas",
+      "subcategory": "",
+      "description": "Carnitas, cilantro rice, pico de gallo, and Jack cheese. Topped with roasted green chile sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/carnitas-chimichanga",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chicken_chimichanga",
+      "name": "Chicken Chimichanga",
+      "category": "Chimichangas",
+      "subcategory": "",
+      "description": "Seasoned shredded chicken in a crispy flour tortilla. Topped with new Mexico red chile sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1160,
+        "protein_g": 54.13,
+        "fat_g": 41.71,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2507,
+        "potassium_mg": null,
+        "carbohydrates_g": 141.9,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Chicken",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chicken-chimichanga",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "jose_burger_sandwich",
+      "name": "Jose Burger Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "Hand-pattied burger served on a sweet mesquite sourdough bun with lettuce, tomato, onion, pickle.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/jose-burger-sandwich",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "chicken_club_sandwich",
+      "name": "Chicken Club Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "Grilled chicken, bacon, and Swiss cheese. Served on a sweet mesquite sourdough bun.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Chicken"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/chicken-club-sandwich",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_hamburger",
+      "name": "Kid Hamburger",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Served with or without American cheese and fries.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-hamburger",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_cheeseburger",
+      "name": "Kid Cheeseburger",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Served with American cheese and fries.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_chicken_tenders",
+      "name": "Kid Chicken Tenders",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Served with fries.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_grilled_chicken_breast",
+      "name": "Kid Grilled Chicken Breast",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Served with Mexican rice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Rice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-grilled-chicken-breast",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_soft_taco",
+      "name": "Kid Soft Taco",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Soft flour tortilla filled with meat and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-soft-taco",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_crispy_taco",
+      "name": "Kid Crispy Taco",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Crispy corn tortilla filled with meat and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-crispy-taco",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_enchilada",
+      "name": "Kid Enchilada",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Cheese enchilada with red sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-enchilada",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kid_mac_&_cheese",
+      "name": "Kid Mac & Cheese",
+      "category": "Kids Stuff",
+      "subcategory": "",
+      "description": "Annie's Macaroni and Cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "Entire Entr\u00e9e",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cheese"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/kid-mac-&-cheese",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cheesecake_chimichanga",
+      "name": "Cheesecake Chimichanga",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Cheesecake wrapped in a flour tortilla and fried.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese",
+        "Tortilla"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/cheesecake-chimichanga",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sopapillas",
+      "name": "Sopapillas",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Fried Mexican pastry sprinkled with cinnamon and sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/sopapillas",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "very_berry_fried_ice_cream",
+      "name": "Very Berry Fried Ice Cream",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "Vanilla bean ice cream rolled in a crunchy coating, topped with strawberries.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/very-berry-fried-ice-cream",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "jose_rocks_margarita",
+      "name": "Jose Rocks Margarita",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Signature rocks margarita.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/jose-rocks-margarita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "skinny_margarita",
+      "name": "Skinny Margarita",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Low calorie margarita.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/skinny-margarita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "jalapeno_margarita",
+      "name": "Jalapeno Margarita",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Jalapeno infused tequila margarita.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/jalapeno-margarita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sangria_swirl_margarita",
+      "name": "Sangria Swirl Margarita",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Margarita swirled with red sangria.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/sangria-swirl-margarita",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "draft_beer",
+      "name": "Draft Beer",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Assorted draft beers.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/draft-beer",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "soft_drinks",
+      "name": "Soft Drinks",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Pepsi products.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/soft-drinks",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "flavored_ice_tea",
+      "name": "Flavored Ice Tea",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "Peach, Mango, or Raspberry iced tea.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Midwest USA"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.josepeppers.com/items/flavored-ice-tea",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.ubereats.com/store/jose-peppers-topeka/leEm6U7NTdqa1jUVrfnTsw",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mexican_rice",
+      "name": "Mexican Rice",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 147,
+        "protein_g": 2.48,
+        "fat_g": 2.93,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 332.2,
+        "potassium_mg": null,
+        "carbohydrates_g": 27.63,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cilantro_rice",
+      "name": "Cilantro Rice",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 138,
+        "protein_g": 2.31,
+        "fat_g": 2.9,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 306.8,
+        "potassium_mg": null,
+        "carbohydrates_g": 27.05,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pinto_beans",
+      "name": "Pinto Beans",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 124,
+        "protein_g": 6.14,
+        "fat_g": 2.61,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 322.8,
+        "potassium_mg": null,
+        "carbohydrates_g": 18.91,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "black_beans",
+      "name": "Black Beans",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 113,
+        "protein_g": 6.53,
+        "fat_g": 0.59,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 405.7,
+        "potassium_mg": null,
+        "carbohydrates_g": 20.5,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "charro_beans",
+      "name": "Charro Beans",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 136,
+        "protein_g": 6.28,
+        "fat_g": 2.87,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 329.5,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.01,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "side_salad_no_dressing",
+      "name": "Side salad no dressing",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 82,
+        "protein_g": 5.03,
+        "fat_g": 4.46,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 114.6,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.56,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.josepeppers.com/files/nutritional-info-2023-pdf.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "espinaca_dip_retail",
+      "name": "Espinaca Dip (Retail)",
+      "category": "Marketplace",
+      "subcategory": "Retail Products",
+      "description": "A blend of jalapeno cheese, onion, tomatoes, and spinach.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Retail Stores"
+      },
+      "serving": {
+        "size": "2 tbsp",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 3,
+        "fat_g": 4.5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 190,
+        "potassium_mg": 0,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": 78,
+        "iron_mg": 0,
+        "vitamin_d_mcg": 0,
+        "caffeine_mg": 0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Whole Milk",
+        "Pepper Jack Cheese",
+        "Jalapeno Peppers",
+        "Red Bell Peppers",
+        "Salt",
+        "Spinach",
+        "Onions",
+        "Tomatoes"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://tools.myfooddata.com/brand-food-data/Jose%20Pepper's",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "fresh_salsa_retail",
+      "name": "Fresh Salsa (Retail)",
+      "category": "Marketplace",
+      "subcategory": "Retail Products",
+      "description": "Original fresh chunky salsa.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Retail Stores"
+      },
+      "serving": {
+        "size": "2 tbsp",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 210,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Tomatoes",
+        "Onions",
+        "Jalapenos",
+        "Cilantro",
+        "Salt",
+        "Lime Juice"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://tools.myfooddata.com/brand-food-data/Jose%20Pepper's",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

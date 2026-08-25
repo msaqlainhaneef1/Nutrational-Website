@@ -1,0 +1,1717 @@
+{
+  "name": "A&W Restaurants",
+  "slug": "aw-restaurants-nutrition-calculator",
+  "tagline": "Track nutrition for A&W Restaurants menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 154 menu items at A&W Restaurants.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 154,
+  "categories": [
+    {
+      "name": "Limited Time Offers",
+      "items": [
+        {
+          "name": "Caramel Dirty Root Beer, Large",
+          "calories": 490,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 0,
+          "fiber": 109,
+          "sodium": 84,
+          "cholesterol": 240,
+          "sugars": 102
+        },
+        {
+          "name": "Caramel Dirty Root Beer, Regular",
+          "calories": 350,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 0,
+          "fiber": 79,
+          "sodium": 63,
+          "cholesterol": 180,
+          "sugars": 74
+        },
+        {
+          "name": "Caramel Root Beer Cream Freeze, Large",
+          "calories": 940,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 0,
+          "fiber": 162,
+          "sodium": 165,
+          "cholesterol": 560,
+          "sugars": 137
+        },
+        {
+          "name": "Caramel Root Beer Cream Freeze, Regular",
+          "calories": 520,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 0,
+          "fiber": 92,
+          "sodium": 94,
+          "cholesterol": 320,
+          "sugars": 79
+        },
+        {
+          "name": "Crispy Chicken Filet Sandwich",
+          "calories": 720,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 2,
+          "fiber": 6,
+          "sodium": 72,
+          "cholesterol": 1770,
+          "sugars": 5
+        },
+        {
+          "name": "Deluxe Crispy Chicken Sandwich",
+          "calories": 730,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 3,
+          "fiber": 7,
+          "sodium": 75,
+          "cholesterol": 1770,
+          "sugars": 5
+        },
+        {
+          "name": "Deluxe Grilled Chicken Sandwich",
+          "calories": 410,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "fiber": 7,
+          "sodium": 39,
+          "cholesterol": 1100,
+          "sugars": 5
+        },
+        {
+          "name": "Grilled Chicken Filet Sandwich",
+          "calories": 400,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 1,
+          "fiber": 5,
+          "sodium": 36,
+          "cholesterol": 1090,
+          "sugars": 5
+        },
+        {
+          "name": "Nashville Hot Crispy Chicken Sandwich",
+          "calories": 830,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 2,
+          "fiber": 6,
+          "sodium": 74,
+          "cholesterol": 2020,
+          "sugars": 5
+        },
+        {
+          "name": "Nashville Hot Grilled Chicken Sandwich",
+          "calories": 510,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 1,
+          "fiber": 6,
+          "sodium": 38,
+          "cholesterol": 1340,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Bacon Cheeseburger, Double",
+          "calories": 710,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 42,
+          "cholesterol": 2430,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Bacon Cheeseburger, Single",
+          "calories": 520,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 41,
+          "cholesterol": 1740,
+          "sugars": 6
+        },
+        {
+          "name": "Cheeseburger, Double",
+          "calories": 550,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 42,
+          "cholesterol": 2310,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Cheeseburger, Single",
+          "calories": 380,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 41,
+          "cholesterol": 1680,
+          "sugars": 8
+        },
+        {
+          "name": "Hamburger, Double",
+          "calories": 460,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 41,
+          "cholesterol": 1850,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Hamburger, Single",
+          "calories": 330,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 40,
+          "cholesterol": 1450,
+          "sugars": 8
+        },
+        {
+          "name": "Papa Burger, Double",
+          "calories": 610,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 2,
+          "fiber": 9,
+          "sodium": 43,
+          "cholesterol": 2270,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Papa Burger, Single",
+          "calories": 430,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 9,
+          "sodium": 42,
+          "cholesterol": 1630,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Papa Burger, Double",
+          "calories": 610,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 2,
+          "fiber": 9,
+          "sodium": 44,
+          "cholesterol": 2290,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Papa Burger, Single",
+          "calories": 430,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 9,
+          "sodium": 43,
+          "cholesterol": 1650,
+          "sugars": 7
+        },
+        {
+          "name": "BBQ Bacon Crunch Burger, Double",
+          "calories": 790,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 1,
+          "fiber": 13,
+          "sodium": 50,
+          "cholesterol": 2340,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "BBQ Bacon Crunch Burger, Single",
+          "calories": 600,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "fiber": 12,
+          "sodium": 49,
+          "cholesterol": 1650,
+          "sugars": 6
+        },
+        {
+          "name": "Coney Dog",
+          "calories": 340,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "fiber": 4,
+          "sodium": 29,
+          "cholesterol": 940,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Footlong Coney Dog",
+          "calories": 610,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "fiber": 7,
+          "sodium": 43,
+          "cholesterol": 1890,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Mushroom Onion Melt, Double",
+          "calories": 580,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 1,
+          "fiber": 6,
+          "sodium": 39,
+          "cholesterol": 2090,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Mushroom Onion Melt, Single",
+          "calories": 400,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 6,
+          "sodium": 39,
+          "cholesterol": 1560,
+          "sugars": 5
+        },
+        {
+          "name": "Pork Tenderloin Sandwich",
+          "calories": 590,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 3,
+          "fiber": 6,
+          "sodium": 62,
+          "cholesterol": 1080,
+          "sugars": 5
+        },
+        {
+          "name": "Texas Toast Melt, Double",
+          "calories": 610,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "fiber": 4,
+          "sodium": 36,
+          "cholesterol": 2230,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Texas Toast Melt, Single",
+          "calories": 420,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 4,
+          "sodium": 35,
+          "cholesterol": 1540
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        {
+          "name": "3 Piece Pub Battered Cod",
+          "calories": 480,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 20,
+          "cholesterol": 500
+        },
+        {
+          "name": "Fish Sandwich",
+          "calories": 510,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 2,
+          "fiber": 7,
+          "sodium": 59,
+          "cholesterol": 1170,
+          "sugars": 7
+        },
+        {
+          "name": "Fried Shrimp",
+          "calories": 890,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 5,
+          "fiber": 2,
+          "sodium": 63,
+          "cholesterol": 1440
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Hand-Breaded Chicken Tender, 1 Piece",
+          "calories": 220,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 0,
+          "sodium": 15,
+          "cholesterol": 1320
+        },
+        {
+          "name": "Hand-Breaded Chicken Tender, 3 Piece",
+          "calories": 660,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 2,
+          "sodium": 45,
+          "cholesterol": 3960
+        },
+        {
+          "name": "Hand-Breaded Chicken Tender, 5 Piece",
+          "calories": 1100,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 4,
+          "sodium": 76,
+          "cholesterol": 6600
+        },
+        {
+          "name": "Spicy Papa Chicken Sandwich",
+          "calories": 690,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 75,
+          "cholesterol": 1850,
+          "sugars": 7
+        },
+        {
+          "name": "Spicy Papa Grilled Chicken Sandwich",
+          "calories": 370,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 1,
+          "fiber": 8,
+          "sodium": 39,
+          "cholesterol": 1180,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Hot Dogs",
+      "items": [
+        {
+          "name": "Coney Cheese Dog",
+          "calories": 380,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 1,
+          "fiber": 4,
+          "sodium": 31,
+          "cholesterol": 1150,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Hot Dog",
+          "calories": 330,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 1,
+          "fiber": 6,
+          "sodium": 30,
+          "cholesterol": 870,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Kid's Hot Dog",
+          "calories": 310,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 26,
+          "cholesterol": 680,
+          "saturated_fat": 1,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Cheese Curds, Large",
+          "calories": 1240,
+          "protein": 0,
+          "fat": 40,
+          "carbs": 2,
+          "fiber": 4,
+          "sodium": 44,
+          "cholesterol": 1780,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Cheese Curds, Regular",
+          "calories": 620,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 1,
+          "fiber": 2,
+          "sodium": 22,
+          "cholesterol": 890,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Cheese Fries, Large",
+          "calories": 790,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 7,
+          "fiber": 3,
+          "sodium": 77,
+          "cholesterol": 1680
+        },
+        {
+          "name": "Cheese Fries, Regular",
+          "calories": 460,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 43,
+          "cholesterol": 1100
+        },
+        {
+          "name": "Chili Cheese Fries, Large",
+          "calories": 810,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 7,
+          "fiber": 4,
+          "sodium": 79,
+          "cholesterol": 2000
+        },
+        {
+          "name": "Chili Cheese Fries, Regular",
+          "calories": 480,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 4,
+          "fiber": 3,
+          "sodium": 46,
+          "cholesterol": 1410
+        },
+        {
+          "name": "Chili Fries, Large",
+          "calories": 760,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 7,
+          "fiber": 4,
+          "sodium": 77,
+          "cholesterol": 1780
+        },
+        {
+          "name": "Chili Fries, Regular",
+          "calories": 440,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 4,
+          "fiber": 3,
+          "sodium": 43,
+          "cholesterol": 1200
+        },
+        {
+          "name": "Corn Dog Nuggets, 5 Piece",
+          "calories": 330,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 6,
+          "fiber": 6,
+          "sodium": 30,
+          "cholesterol": 340
+        },
+        {
+          "name": "Corn Dog Nuggets, 10 Piece",
+          "calories": 670,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 12,
+          "fiber": 12,
+          "sodium": 60,
+          "cholesterol": 670
+        },
+        {
+          "name": "Fries, Kid's",
+          "calories": 230,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 2,
+          "sodium": 24,
+          "cholesterol": 420
+        },
+        {
+          "name": "Fries, Large",
+          "calories": 520,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 5,
+          "fiber": 2,
+          "sodium": 53,
+          "cholesterol": 920
+        },
+        {
+          "name": "Fries, Regular",
+          "calories": 380,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 4,
+          "fiber": 2,
+          "sodium": 39,
+          "cholesterol": 670
+        },
+        {
+          "name": "Kid's Apple Sauce",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 17,
+          "sodium": 18,
+          "cholesterol": 5
+        },
+        {
+          "name": "Onion Rings, Large",
+          "calories": 360,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 2,
+          "fiber": 6,
+          "sodium": 46,
+          "cholesterol": 1240
+        },
+        {
+          "name": "Onion Rings, Regular",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 23,
+          "cholesterol": 620
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "A&W Root Beer Cream Freeze, Large",
+          "calories": 800,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 0,
+          "fiber": 139,
+          "sodium": 141,
+          "cholesterol": 410,
+          "sugars": 117
+        },
+        {
+          "name": "A&W Root Beer Cream Freeze, Regular",
+          "calories": 430,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 78,
+          "sodium": 80,
+          "cholesterol": 210,
+          "sugars": 67
+        },
+        {
+          "name": "A&W Root Beer Float, Large",
+          "calories": 580,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 117,
+          "sodium": 119,
+          "cholesterol": 250,
+          "sugars": 105
+        },
+        {
+          "name": "A&W Root Beer Float, Regular",
+          "calories": 320,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 0,
+          "fiber": 68,
+          "sodium": 68,
+          "cholesterol": 130,
+          "sugars": 62
+        },
+        {
+          "name": "A&W Zero Sugar Root Beer Cream Freeze, Large",
+          "calories": 590,
+          "protein": 0,
+          "fat": 13,
+          "carbs": 0,
+          "fiber": 78,
+          "sodium": 81,
+          "cholesterol": 520,
+          "sugars": 56
+        },
+        {
+          "name": "A&W Zero Sugar Root Beer Cream Freeze, Regular",
+          "calories": 290,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 39,
+          "sodium": 40,
+          "cholesterol": 280,
+          "sugars": 28
+        },
+        {
+          "name": "A&W Zero Sugar Root Beer Float, Large",
+          "calories": 320,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 42,
+          "sodium": 43,
+          "cholesterol": 390,
+          "sugars": 30
+        },
+        {
+          "name": "A&W Zero Sugar Root Beer Float, Regular",
+          "calories": 160,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 0,
+          "fiber": 21,
+          "sodium": 22,
+          "cholesterol": 220,
+          "sugars": 15
+        },
+        {
+          "name": "Chocolate Shake, Large",
+          "calories": 1160,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 2,
+          "fiber": 166,
+          "sodium": 180,
+          "cholesterol": 630,
+          "sugars": 131
+        },
+        {
+          "name": "Chocolate Shake, Regular",
+          "calories": 780,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 1,
+          "fiber": 109,
+          "sodium": 120,
+          "cholesterol": 410,
+          "sugars": 86
+        },
+        {
+          "name": "Chocolate Sundae",
+          "calories": 370,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 50,
+          "sodium": 56,
+          "cholesterol": 180,
+          "sugars": 40
+        },
+        {
+          "name": "Cookie Dough Polar Swirl, 12 oz",
+          "calories": 730,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 0,
+          "fiber": 81,
+          "sodium": 105,
+          "cholesterol": 470,
+          "sugars": 62
+        },
+        {
+          "name": "Cookie Dough Polar Swirl, 16 oz",
+          "calories": 910,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 105,
+          "sodium": 129,
+          "cholesterol": 580,
+          "sugars": 79
+        },
+        {
+          "name": "Cookie Dough Shake, Large",
+          "calories": 1330,
+          "protein": 0,
+          "fat": 31,
+          "carbs": 0,
+          "fiber": 151,
+          "sodium": 186,
+          "cholesterol": 810,
+          "sugars": 113
+        },
+        {
+          "name": "Cookie Dough Shake, Regular",
+          "calories": 890,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 100,
+          "sodium": 123,
+          "cholesterol": 530,
+          "sugars": 75
+        },
+        {
+          "name": "Hot Caramel Shake, Large",
+          "calories": 1180,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 158,
+          "sodium": 183,
+          "cholesterol": 690,
+          "sugars": 123
+        },
+        {
+          "name": "Hot Caramel Shake, Regular",
+          "calories": 790,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 104,
+          "sodium": 121,
+          "cholesterol": 450,
+          "sugars": 81
+        },
+        {
+          "name": "Hot Caramel Sundae",
+          "calories": 380,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 48,
+          "sodium": 57,
+          "cholesterol": 200,
+          "sugars": 37
+        },
+        {
+          "name": "Hot Fudge Shake, Large",
+          "calories": 1340,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 0,
+          "fiber": 165,
+          "sodium": 195,
+          "cholesterol": 730,
+          "sugars": 130
+        },
+        {
+          "name": "Hot Fudge Shake, Regular",
+          "calories": 900,
+          "protein": 0,
+          "fat": 23,
+          "carbs": 0,
+          "fiber": 109,
+          "sodium": 129,
+          "cholesterol": 480,
+          "sugars": 86
+        },
+        {
+          "name": "Hot Fudge Sundae",
+          "calories": 430,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 0,
+          "fiber": 50,
+          "sodium": 61,
+          "cholesterol": 210,
+          "sugars": 39
+        },
+        {
+          "name": "Ice Cream Cone, Kid's",
+          "calories": 230,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 0,
+          "fiber": 27,
+          "sodium": 37,
+          "cholesterol": 130,
+          "sugars": 17
+        },
+        {
+          "name": "Ice Cream Cone, Regular",
+          "calories": 300,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 0,
+          "fiber": 36,
+          "sodium": 46,
+          "cholesterol": 170,
+          "sugars": 24
+        },
+        {
+          "name": "M&M Polar Swirl, 12 oz",
+          "calories": 740,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 2,
+          "fiber": 98,
+          "sodium": 107,
+          "cholesterol": 320,
+          "sugars": 78
+        },
+        {
+          "name": "M&M Polar Swirl, 16 oz",
+          "calories": 920,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 2,
+          "fiber": 122,
+          "sodium": 132,
+          "cholesterol": 430,
+          "sugars": 95
+        },
+        {
+          "name": "M&M Shake, Large",
+          "calories": 1340,
+          "protein": 0,
+          "fat": 30,
+          "carbs": 3,
+          "fiber": 173,
+          "sodium": 189,
+          "cholesterol": 620,
+          "sugars": 134
+        },
+        {
+          "name": "M&M Shake, Regular",
+          "calories": 900,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 2,
+          "fiber": 114,
+          "sodium": 126,
+          "cholesterol": 400,
+          "sugars": 89
+        },
+        {
+          "name": "Oreo Polar Swirl, 12 oz",
+          "calories": 760,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 2,
+          "fiber": 86,
+          "sodium": 109,
+          "cholesterol": 490,
+          "sugars": 69
+        },
+        {
+          "name": "Oreo Polar Swirl, 16 oz",
+          "calories": 940,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 2,
+          "fiber": 110,
+          "sodium": 134,
+          "cholesterol": 610,
+          "sugars": 86
+        },
+        {
+          "name": "Oreo Shake, Large",
+          "calories": 1240,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 2,
+          "fiber": 147,
+          "sodium": 173,
+          "cholesterol": 760,
+          "sugars": 112
+        },
+        {
+          "name": "Oreo Shake, Regular",
+          "calories": 830,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 1,
+          "fiber": 97,
+          "sodium": 115,
+          "cholesterol": 500,
+          "sugars": 74
+        },
+        {
+          "name": "Reese's Polar Swirl, 12 oz",
+          "calories": 780,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 3,
+          "fiber": 90,
+          "sodium": 98,
+          "cholesterol": 500,
+          "sugars": 72
+        },
+        {
+          "name": "Reese's Polar Swirl, 16 oz",
+          "calories": 960,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 3,
+          "fiber": 114,
+          "sodium": 123,
+          "cholesterol": 610,
+          "sugars": 89
+        },
+        {
+          "name": "Reese's Shake, Large",
+          "calories": 1400,
+          "protein": 0,
+          "fat": 31,
+          "carbs": 4,
+          "fiber": 163,
+          "sodium": 177,
+          "cholesterol": 860,
+          "sugars": 126
+        },
+        {
+          "name": "Reese's Shake, Regular",
+          "calories": 930,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 2,
+          "fiber": 108,
+          "sodium": 117,
+          "cholesterol": 560,
+          "sugars": 83
+        },
+        {
+          "name": "Root Beer Shake, Large",
+          "calories": 1450,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 251,
+          "sodium": 257,
+          "cholesterol": 590,
+          "sugars": 216
+        },
+        {
+          "name": "Root Beer Shake, Regular",
+          "calories": 970,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 166,
+          "sodium": 171,
+          "cholesterol": 390,
+          "sugars": 143
+        },
+        {
+          "name": "Strawberry Shake, Large",
+          "calories": 1060,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 1,
+          "fiber": 148,
+          "sodium": 157,
+          "cholesterol": 560,
+          "sugars": 111
+        },
+        {
+          "name": "Strawberry Shake, Regular",
+          "calories": 710,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 98,
+          "sodium": 104,
+          "cholesterol": 370,
+          "sugars": 73
+        },
+        {
+          "name": "Strawberry Sundae",
+          "calories": 340,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 44,
+          "sodium": 48,
+          "cholesterol": 150,
+          "sugars": 33
+        },
+        {
+          "name": "Vanilla Shake, Large",
+          "calories": 1070,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 149,
+          "sodium": 159,
+          "cholesterol": 580,
+          "sugars": 114
+        },
+        {
+          "name": "Vanilla Shake, Regular",
+          "calories": 700,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 94,
+          "sodium": 100,
+          "cholesterol": 370,
+          "sugars": 71
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "A&W Root Beer, Kid's",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 43,
+          "sodium": 43,
+          "cholesterol": 30,
+          "sugars": 43
+        },
+        {
+          "name": "A&W Root Beer, Large",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 107,
+          "sodium": 107,
+          "cholesterol": 75,
+          "sugars": 107
+        },
+        {
+          "name": "A&W Root Beer, Regular",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 68,
+          "sodium": 68,
+          "cholesterol": 50,
+          "sugars": 68
+        },
+        {
+          "name": "A&W Root Beer, Small",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 57,
+          "sodium": 57,
+          "cholesterol": 40,
+          "sugars": 57
+        },
+        {
+          "name": "A&W Root Beer Zero Sugar, Kid's",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 110
+        },
+        {
+          "name": "A&W Root Beer Zero Sugar, Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 270
+        },
+        {
+          "name": "A&W Root Beer Zero Sugar, Regular",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 170
+        },
+        {
+          "name": "A&W Root Beer Zero Sugar, Small",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 140
+        },
+        {
+          "name": "Diet Pepsi, Kid's",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 35
+        },
+        {
+          "name": "Diet Pepsi, Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 85
+        },
+        {
+          "name": "Diet Pepsi, Regular",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 55
+        },
+        {
+          "name": "Diet Pepsi, Small",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "cholesterol": 45
+        },
+        {
+          "name": "Dr. Pepper, Kid's",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 40,
+          "sodium": 40,
+          "cholesterol": 55,
+          "sugars": 40
+        },
+        {
+          "name": "Dr. Pepper, Large",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 99,
+          "sodium": 99,
+          "cholesterol": 140,
+          "sugars": 99
+        },
+        {
+          "name": "Dr. Pepper, Regular",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 63,
+          "sodium": 63,
+          "cholesterol": 85,
+          "sugars": 63
+        },
+        {
+          "name": "Dr. Pepper, Small",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 53,
+          "sodium": 53,
+          "cholesterol": 75,
+          "sugars": 53
+        },
+        {
+          "name": "Kid's Milk",
+          "calories": 170,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 0,
+          "fiber": 19,
+          "sodium": 19,
+          "cholesterol": 160
+        },
+        {
+          "name": "Mt. Dew, Kid's",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 44,
+          "sodium": 44,
+          "cholesterol": 50,
+          "sugars": 44
+        },
+        {
+          "name": "Mt. Dew, Large",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 111,
+          "sodium": 111,
+          "cholesterol": 125,
+          "sugars": 111
+        },
+        {
+          "name": "Mt. Dew, Regular",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 70,
+          "sodium": 70,
+          "cholesterol": 80,
+          "sugars": 70
+        },
+        {
+          "name": "Mt. Dew, Small",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 59,
+          "sodium": 59,
+          "cholesterol": 65,
+          "sugars": 59
+        },
+        {
+          "name": "Pepsi, Kid's",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 41,
+          "sodium": 41,
+          "cholesterol": 30,
+          "sugars": 41
+        },
+        {
+          "name": "Pepsi, Large",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 102,
+          "sodium": 102,
+          "cholesterol": 75,
+          "sugars": 102
+        },
+        {
+          "name": "Pepsi, Regular",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 65,
+          "sodium": 65,
+          "cholesterol": 50,
+          "sugars": 65
+        },
+        {
+          "name": "Pepsi, Small",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 54,
+          "sodium": 54,
+          "cholesterol": 40,
+          "sugars": 54
+        },
+        {
+          "name": "Starry, Kid's",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 39,
+          "sodium": 39,
+          "cholesterol": 35,
+          "sugars": 39
+        },
+        {
+          "name": "Starry, Large",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 98,
+          "sodium": 98,
+          "cholesterol": 85,
+          "sugars": 98
+        },
+        {
+          "name": "Starry, Regular",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 62,
+          "sodium": 62,
+          "cholesterol": 55,
+          "sugars": 62
+        },
+        {
+          "name": "Starry, Small",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 52,
+          "sodium": 52,
+          "cholesterol": 45,
+          "sugars": 52
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "name": "Kid's Meal, Cheeseburger",
+          "calories": 380,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 41,
+          "cholesterol": 1680,
+          "sugars": 8
+        },
+        {
+          "name": "Kid's Meal, Corn Dog Nuggets, 5 Piece",
+          "calories": 330,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 6,
+          "fiber": 6,
+          "sodium": 30,
+          "cholesterol": 340
+        },
+        {
+          "name": "Kid's Meal, Fries",
+          "calories": 230,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 2,
+          "sodium": 24,
+          "cholesterol": 420
+        },
+        {
+          "name": "Kid's Meal, Hamburger",
+          "calories": 330,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 1,
+          "fiber": 9,
+          "sodium": 40,
+          "cholesterol": 1450,
+          "sugars": 8
+        },
+        {
+          "name": "Kid's Meal, Hand-Breaded Chicken Tender, 2 Piece",
+          "calories": 440,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "sodium": 30,
+          "cholesterol": 2640
+        },
+        {
+          "name": "Kid's Meal, Ice Cream Cone",
+          "calories": 230,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 0,
+          "fiber": 27,
+          "sodium": 37,
+          "cholesterol": 130,
+          "sugars": 17
+        },
+        {
+          "name": "Kid's Meal, Kid's Apple Sauce",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 17,
+          "sodium": 18,
+          "cholesterol": 5
+        },
+        {
+          "name": "Kid's Meal, Hot Dog",
+          "calories": 310,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 0,
+          "fiber": 3,
+          "sodium": 26,
+          "cholesterol": 680,
+          "saturated_fat": 1,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "BBQ Sauce",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "fiber": 14,
+          "sodium": 15,
+          "cholesterol": 560,
+          "sugars": 12
+        },
+        {
+          "name": "Honey Mustard",
+          "calories": 130,
+          "protein": 0,
+          "fat": 1.5,
+          "carbs": 0,
+          "fiber": 9,
+          "sodium": 9,
+          "cholesterol": 290,
+          "sugars": 8
+        },
+        {
+          "name": "Papa Sauce",
+          "calories": 260,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 0,
+          "fiber": 8,
+          "sodium": 9,
+          "cholesterol": 580,
+          "sugars": 7
+        },
+        {
+          "name": "Ranch",
+          "calories": 190,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 0,
+          "fiber": 2,
+          "sodium": 2,
+          "cholesterol": 350,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Papa Sauce",
+          "calories": 250,
+          "protein": 0,
+          "fat": 3.5,
+          "carbs": 0,
+          "fiber": 9,
+          "sodium": 10,
+          "cholesterol": 570,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Preview",
+      "items": [
+        {
+          "name": "Add 3 Coconut Shrimp",
+          "calories": 200,
+          "protein": 0,
+          "fat": 4.5,
+          "carbs": 18,
+          "fiber": 2,
+          "sodium": 15,
+          "cholesterol": 190,
+          "sugars": 2
+        },
+        {
+          "name": "Coconut Shrimp",
+          "calories": 590,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 37,
+          "fiber": 47,
+          "sodium": 79,
+          "cholesterol": 1540,
+          "sugars": 47
+        },
+        {
+          "name": "Coconut Shrimp & Chicken Tenders",
+          "calories": 900,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 26,
+          "fiber": 46,
+          "sodium": 99,
+          "cholesterol": 4060,
+          "sugars": 45
+        },
+        {
+          "name": "Dill Pickle Ranch Cheese Curds, Large",
+          "calories": 1240,
+          "protein": 0,
+          "fat": 40,
+          "carbs": 2,
+          "fiber": 4,
+          "sodium": 44,
+          "cholesterol": 2110,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Dill Pickle Ranch Cheese Curds, Regular",
+          "calories": 620,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 1,
+          "fiber": 2,
+          "sodium": 22,
+          "cholesterol": 1220,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Fried Pickle Ranch Cheeseburger, Single",
+          "calories": 700,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 48,
+          "cholesterol": 2290,
+          "sugars": 5
+        },
+        {
+          "name": "Fried Pickle Ranch Cheeseburger, Double",
+          "calories": 870,
+          "protein": 0,
+          "fat": 16,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 49,
+          "cholesterol": 2920,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Fried Pickle Ranch Cheeseburger, Triple",
+          "calories": 1050,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 2,
+          "fiber": 8,
+          "sodium": 49,
+          "cholesterol": 3550,
+          "saturated_fat": 1.5,
+          "sugars": 5
+        },
+        {
+          "name": "Fried Pickles, Large",
+          "calories": 660,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 2,
+          "fiber": 4,
+          "sodium": 45,
+          "cholesterol": 2000
+        },
+        {
+          "name": "Fried Pickles, Regular",
+          "calories": 530,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1,
+          "fiber": 3,
+          "sodium": 30,
+          "cholesterol": 1500
+        },
+        {
+          "name": "Grasshopper Shake, Large",
+          "calories": 1040,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 0,
+          "fiber": 145,
+          "sodium": 151,
+          "cholesterol": 560,
+          "sugars": 110
+        },
+        {
+          "name": "Grasshopper Shake, Regular",
+          "calories": 680,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "fiber": 92,
+          "sodium": 96,
+          "cholesterol": 370,
+          "sugars": 69
+        },
+        {
+          "name": "Oreo Red Velvet Shake, Large",
+          "calories": 1420,
+          "protein": 0,
+          "fat": 26,
+          "carbs": 3,
+          "fiber": 171,
+          "sodium": 206,
+          "cholesterol": 850,
+          "sugars": 136
+        },
+        {
+          "name": "Oreo Red Velvet Shake, Regular",
+          "calories": 940,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 2,
+          "fiber": 111,
+          "sodium": 135,
+          "cholesterol": 560,
+          "sugars": 88
+        }
+      ]
+    }
+  ]
+}

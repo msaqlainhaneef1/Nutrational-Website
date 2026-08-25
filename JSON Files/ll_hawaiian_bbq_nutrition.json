@@ -1,0 +1,852 @@
+{
+  "brand": {
+    "name": "L&L Hawaiian Barbecue",
+    "website": "https://www.hawaiianbarbecue.com/",
+    "country": "USA",
+    "last_updated": "2026-08-03"
+  },
+  "categories": [
+    "Plate Lunch",
+    "Bowls",
+    "Burgers",
+    "Musubi",
+    "Seafood",
+    "Lighter Options",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "bbq_chicken",
+      "name": "BBQ Chicken",
+      "category": "Plate Lunch",
+      "subcategory": "",
+      "description": "Grilled boneless chicken marinated in savory barbecue sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1174,
+        "protein_g": 66.36,
+        "fat_g": 55.44,
+        "saturated_fat_g": 5,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1830,
+        "potassium_mg": null,
+        "carbohydrates_g": 100.16,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-chicken",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbq_mix",
+      "name": "BBQ Mix",
+      "category": "Plate Lunch",
+      "subcategory": "",
+      "description": "Succulent beef, chicken, and short ribs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1274,
+        "protein_g": 70.36,
+        "fat_g": 61.44,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2290,
+        "potassium_mg": null,
+        "carbohydrates_g": 106.16,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-mix",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "chicken_katsu",
+      "name": "Chicken Katsu",
+      "category": "Plate Lunch",
+      "subcategory": "",
+      "description": "Deep-fried boneless chicken with katsu sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1811,
+        "protein_g": 76.36,
+        "fat_g": 98.44,
+        "saturated_fat_g": 25,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 868,
+        "potassium_mg": null,
+        "carbohydrates_g": 153.31,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/chicken-katsu",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "loco_moco",
+      "name": "Loco Moco",
+      "category": "Plate Lunch",
+      "subcategory": "",
+      "description": "Hamburger patties over rice, topped with gravy and 2 eggs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1311,
+        "protein_g": 54.96,
+        "fat_g": 76.44,
+        "saturated_fat_g": 24,
+        "trans_fat_g": null,
+        "cholesterol_mg": 420,
+        "sodium_mg": 1718,
+        "potassium_mg": null,
+        "carbohydrates_g": 101.96,
+        "fiber_g": null,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/loco-moco",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "kalua_pork_with_cabbage",
+      "name": "Kalua Pork with Cabbage",
+      "category": "Plate Lunch",
+      "subcategory": "",
+      "description": "Smoky roasted shredded pork with fresh cabbage.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1030,
+        "protein_g": 53.36,
+        "fat_g": 48.44,
+        "saturated_fat_g": 18,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 1530,
+        "potassium_mg": null,
+        "carbohydrates_g": 92.16,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/kalua-pork-with-cabbage",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbq_chicken_bowl",
+      "name": "BBQ Chicken Bowl",
+      "category": "Bowls",
+      "subcategory": "",
+      "description": "Smaller portion of BBQ chicken over rice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 459.5,
+        "protein_g": null,
+        "fat_g": 10.47,
+        "saturated_fat_g": 0.107,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 58.16,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-chicken-bowl",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbq_beef_bowl",
+      "name": "BBQ Beef Bowl",
+      "category": "Bowls",
+      "subcategory": "",
+      "description": "BBQ beef over rice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 18,
+        "fat_g": 4,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 74,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-beef-bowl",
+      "sources": [
+        {
+          "url": "https://www.eatthismuch.com/calories/bbq-beef-bowl-4636929",
+          "source_type": "third-party",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "bbq_cheeseburger",
+      "name": "BBQ Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "",
+      "description": "Ground beef patty with cheese and BBQ sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 550,
+        "protein_g": 24.2,
+        "fat_g": 12,
+        "saturated_fat_g": 5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 86.6,
+        "sodium_mg": 655.33,
+        "potassium_mg": null,
+        "carbohydrates_g": 38.08,
+        "fiber_g": 2.5,
+        "sugars_g": 6.23,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbq_hamburger",
+      "name": "BBQ Hamburger",
+      "category": "Burgers",
+      "subcategory": "",
+      "description": "Juicy beef patty with BBQ sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/bbq-hamburger",
+      "sources": [
+        {
+          "url": "https://www.mynetdiary.com/food/calories-in-bbq-hamburger-by-l-l-hawaiian-barbecue-serving-13151465-0.html",
+          "source_type": "third-party",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "spam_musubi",
+      "name": "SPAM Musubi",
+      "category": "Musubi",
+      "subcategory": "",
+      "description": "Grilled SPAM on rice wrapped in seaweed.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 258,
+        "protein_g": 7.5,
+        "fat_g": 8.07,
+        "saturated_fat_g": 3.4,
+        "trans_fat_g": null,
+        "cholesterol_mg": 24,
+        "sodium_mg": 829,
+        "potassium_mg": null,
+        "carbohydrates_g": 41.1,
+        "fiber_g": 0.5,
+        "sugars_g": 10.1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/spam-musubi",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "garlic_shrimp",
+      "name": "Garlic Shrimp",
+      "category": "Seafood",
+      "subcategory": "",
+      "description": "Shell-on shrimp fried with butter and garlic sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 14.89,
+        "fat_g": 5.07,
+        "saturated_fat_g": 1.187,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 351,
+        "potassium_mg": null,
+        "carbohydrates_g": 33.69,
+        "fiber_g": 2.6,
+        "sugars_g": 0.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/garlic-shrimp",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fried_shrimp",
+      "name": "Fried Shrimp",
+      "category": "Seafood",
+      "subcategory": "",
+      "description": "Breaded and fried shrimp with tartar sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 760,
+        "protein_g": 30,
+        "fat_g": 48,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 2010,
+        "potassium_mg": null,
+        "carbohydrates_g": 150,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/fried-shrimp",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "seafood_combo",
+      "name": "Seafood Combo",
+      "category": "Seafood",
+      "subcategory": "",
+      "description": "Combination of fried fish and fried shrimp.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1398,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/seafood-combo",
+      "sources": [
+        {
+          "url": "https://www.mynetdiary.com/food/calories-in-seafood-combo-by-by-l-l-hawaiian-barbecue-serving-53388183-0.html",
+          "source_type": "third-party",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "healthy_garlic_ahi",
+      "name": "Healthy Garlic Ahi",
+      "category": "Seafood",
+      "subcategory": "",
+      "description": "Grilled Ahi tuna with garlic.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 313,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/healthy-garlic-ahi",
+      "sources": [
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/landl-hawaiian-barbecue/healthy-garlic-ahi",
+          "source_type": "third-party",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "lighter_bbq_chicken",
+      "name": "Lighter BBQ Chicken",
+      "category": "Lighter Options",
+      "subcategory": "",
+      "description": "Famous BBQ chicken with brown rice and green salad.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 3.89,
+        "fat_g": 5.07,
+        "saturated_fat_g": 0.187,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 21,
+        "potassium_mg": null,
+        "carbohydrates_g": 30.69,
+        "fiber_g": 2.6,
+        "sugars_g": 0.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/lighter-bbq-chicken",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lighter_garlic_shrimp",
+      "name": "Lighter Garlic Shrimp",
+      "category": "Lighter Options",
+      "subcategory": "",
+      "description": "Garlic shrimp with brown rice and green salad.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 14.89,
+        "fat_g": 5.07,
+        "saturated_fat_g": 1.187,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 351,
+        "potassium_mg": null,
+        "carbohydrates_g": 33.69,
+        "fiber_g": 2.6,
+        "sugars_g": 0.8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/lighter-garlic-shrimp",
+      "sources": [
+        {
+          "url": "https://www.hawaiianbarbecue.com/food/",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "brown_rice_(1_scoop)",
+      "name": "Brown Rice (1 scoop)",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "Steamed brown rice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hawaiianbarbecue.com/food/brown-rice-(1-scoop)",
+      "sources": [
+        {
+          "url": "https://www.mynetdiary.com/food/calories-in-brown-rice-by-l-l-hawaiian-barbecue-sccop-13151469-0.html",
+          "source_type": "third-party",
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}

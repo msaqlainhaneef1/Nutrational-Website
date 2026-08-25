@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Potbelly",
+    "website": "https://www.potbelly.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Original Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "potbelly_turkey_breast_original",
+      "name": "Turkey Breast Sandwich (Original)",
+      "category": "Sandwiches",
+      "subcategory": "Original Sandwiches",
+      "description": "Hand-sliced turkey breast with Swiss cheese,-topped with mayo, lettuce, tomato, pickle, and optional hot peppers on a freshly toasted original white or multigrain sub roll.",
+      "price": 8.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Original sandwich (285 g)",
+        "weight_g": 285.0
+      },
+      "nutrition": {
+        "calories": 552,
+        "protein_g": 38.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1550.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 61.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": 250.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Original Sub Roll (Enriched Wheat Flour, Water, Yeast, Sugar, Salt, Soybean Oil)",
+        "Sliced Turkey Breast (Turkey Breast, Water, Salt, Sugar, Sodium Phosphate)",
+        "Swiss Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes)",
+        "Mayonnaise",
+        "Lettuce",
+        "Tomato",
+        "Pickle"
+      ],
+      "customizations": [
+        "Flat / Thins Size Option (462 Calories)",
+        "BIGS Size Option (767 Calories)",
+        "Choice of Bread (White, Multigrain, Gluten-Free)",
+        "Add Avocado",
+        "Extra Turkey",
+        "Hot Peppers"
+      ],
+      "image_url": "https://www.potbelly.com/menu/sandwiches/turkey-breast",
+      "product_url": "https://www.potbelly.com/menu/sandwiches/turkey-breast",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/potbelly/turkey-breast/originals",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.potbelly.com/menu/sandwiches/turkey-breast",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5983 @@
+{
+  "brand": {
+    "name": "WaBa Grill",
+    "website": "https://www.wabagrill.com",
+    "country": "USA",
+    "last_updated": "2026-08-05"
+  },
+  "categories": [
+    {
+      "name": "Rice Bowls",
+      "description": "Large bowls with grilled protein, steamed rice, and mixed veggies",
+      "item_count": 11
+    },
+    {
+      "name": "Rice Veggie Bowls",
+      "description": "Smaller veggie-focused bowls with protein and steamed broccoli or mixed veggies",
+      "item_count": 9
+    },
+    {
+      "name": "Plates",
+      "description": "Plates with grilled protein, steamed rice, mixed veggies, and choice of sauce",
+      "item_count": 10
+    },
+    {
+      "name": "Plates XL",
+      "description": "Extra large plates with generous portions",
+      "item_count": 11
+    },
+    {
+      "name": "Boom Boom Tacos",
+      "description": "Tacos with grilled protein, slaw, sesame dressing, and boom boom sauce",
+      "item_count": 6
+    },
+    {
+      "name": "Salads",
+      "description": "Salads with white meat chicken and choice of dressing",
+      "item_count": 2
+    },
+    {
+      "name": "Mini Bowls",
+      "description": "Smaller bowl portions for lighter meals or kids",
+      "item_count": 6
+    },
+    {
+      "name": "Family Meals",
+      "description": "Shareable portions made for a family of 4",
+      "item_count": 14
+    },
+    {
+      "name": "Soup",
+      "description": "Miso soup options including loaded versions with protein",
+      "item_count": 4
+    },
+    {
+      "name": "Sides",
+      "description": "Side proteins, vegetables, rice, avocado, and dumplings",
+      "item_count": 15
+    },
+    {
+      "name": "Sauces",
+      "description": "Signature sauces, dressings, and sauce packets",
+      "item_count": 9
+    },
+    {
+      "name": "Beverages",
+      "description": "Fountain drinks, premium beverages, and boba drinks",
+      "item_count": 16
+    }
+  ],
+  "products": [
+    {
+      "product_id": "wabagrill_0001",
+      "name": "Chicken Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled all-natural chicken caramelized with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 38,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 900,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 1,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0002",
+      "name": "White Meat Chicken Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled white meat chicken caramelized with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 630,
+        "protein_g": 46,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 880,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 1,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0003",
+      "name": "Sweet & Spicy Chicken Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled chicken seared and drizzled with our Sweet Chili Sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 38,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 2460,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": 1,
+        "sugars_g": 33,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0004",
+      "name": "Rib-Eye Steak Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Marinated in-house rib-eye steak grilled and served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 29,
+        "fat_g": 18,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1250,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 1,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0005",
+      "name": "WaBa Chicken & Steak Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "A combination of all-natural grilled chicken and marinated steak hand-basted with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 37,
+        "fat_g": 16,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 130,
+        "sodium_mg": 1100,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 1,
+        "sugars_g": 17,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0006",
+      "name": "WaBa White Meat Chicken & Steak Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "A combination of grilled white meat chicken and marinated steak hand-basted with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 42,
+        "fat_g": 13,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1090,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 1,
+        "sugars_g": 17,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0007",
+      "name": "Wild Caught Salmon Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled wild-caught salmon hand-basted with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 29,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 710,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0008",
+      "name": "Jumbo Shrimp Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled to perfection, tailless, fully peeled shrimp hand-basted with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 19,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 180,
+        "sodium_mg": 1050,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0009",
+      "name": "Organic Tofu Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Grilled organic tofu hand-basted with our signature WaBa sauce served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 23,
+        "fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 620,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0010",
+      "name": "Plantspired Steak Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Rice Bowls",
+      "description": "Made from plants, our charbroiled Plantspired Steak gives you the delectable flavor of steak without the meat served in a bowl with steamed white or brown rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 22,
+        "fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1140,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 6,
+        "sugars_g": 20,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0011",
+      "name": "Chicken Veggie Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled chicken served in a veggie bowl with steamed broccoli and carrots.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 17,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0012",
+      "name": "White Meat Chicken Veggie Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled white meat chicken served in a veggie bowl with steamed broccoli and carrots.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 21,
+        "fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 630,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0013",
+      "name": "Organic Tofu Veggie Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled organic tofu served in a veggie bowl with steamed broccoli and carrots.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 14,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 410,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0014",
+      "name": "Sweet & Spicy Chicken Veggie Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled chicken seared and drizzled with our Sweet Chili Sauce served in a veggie bowl with steamed broccoli and carrots.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 21,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 450,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0015",
+      "name": "Chicken Veggies Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled chicken served in a bowl with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 18,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 660,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0016",
+      "name": "White Meat Chicken Veggies Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled white meat chicken served in a bowl with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 21,
+        "fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 660,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0017",
+      "name": "Organic Tofu Veggies Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled organic tofu served in a bowl with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 14,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 440,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0018",
+      "name": "Sweet & Spicy Chicken Veggies Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Grilled chicken seared and drizzled with our Sweet Chili Sauce served in a bowl with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 21,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0019",
+      "name": "Plantspired Steak Veggie Bowl",
+      "category": "Rice Veggie Bowls",
+      "subcategory": "Veggie Rice Bowls",
+      "description": "Plantspired Steak served in a veggie bowl with steamed broccoli and carrots.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 10,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 540,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 3,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0020",
+      "name": "Chicken Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled chicken served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 39,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 940,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 14,
+        "sugars_g": 17,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0021",
+      "name": "White Meat Chicken Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled white meat chicken served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580,
+        "protein_g": 47,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 930,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 4,
+        "sugars_g": 17,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0022",
+      "name": "Sweet & Spicy Chicken Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled chicken seared and drizzled with our Sweet Chili Sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 39,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 2500,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 4,
+        "sugars_g": 38,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0023",
+      "name": "Rib-Eye Steak Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Marinated in-house rib-eye steak served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 29,
+        "fat_g": 17,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 70,
+        "sodium_mg": 740,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 4,
+        "sugars_g": 15,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0024",
+      "name": "WaBa Chicken & Steak Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "A combination of grilled chicken and marinated steak hand-basted with our signature WaBa sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 38,
+        "fat_g": 16,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 130,
+        "sodium_mg": 1150,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 4,
+        "sugars_g": 15,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0025",
+      "name": "WaBa White Meat Chicken & Steak Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "A combination of grilled white meat chicken and marinated steak hand-basted with our signature WaBa sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 42,
+        "fat_g": 13,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1140,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 4,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0026",
+      "name": "Wild Caught Salmon Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled wild-caught salmon hand-basted with our signature WaBa sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 30,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 760,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 4,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0027",
+      "name": "Jumbo Shrimp Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled to perfection, tailless, fully peeled shrimp hand-basted with our signature WaBa sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 20,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 180,
+        "sodium_mg": 1100,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 4,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0028",
+      "name": "Organic Tofu Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Grilled organic tofu hand-basted with our signature WaBa sauce served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 22,
+        "fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0029",
+      "name": "Plantspired Steak Plate",
+      "category": "Plates",
+      "subcategory": "Plates",
+      "description": "Plantspired Steak served on a plate with steamed white or brown rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 23,
+        "fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1190,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 10,
+        "sugars_g": 24,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0030",
+      "name": "Chicken Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled chicken with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 54,
+        "fat_g": 15,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 220,
+        "sodium_mg": 1150,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 3,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0031",
+      "name": "White Meat Chicken Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled white meat chicken with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 800,
+        "protein_g": 65,
+        "fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 1120,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 3,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0032",
+      "name": "Sweet & Spicy Chicken Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled chicken seared with Sweet Chili Sauce with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 860,
+        "protein_g": 54,
+        "fat_g": 15,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 220,
+        "sodium_mg": 2900,
+        "potassium_mg": null,
+        "carbohydrates_g": 140,
+        "fiber_g": 3,
+        "sugars_g": 45,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0033",
+      "name": "Rib-Eye Steak Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of marinated rib-eye steak with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 980,
+        "protein_g": 44,
+        "fat_g": 27,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 2,
+        "cholesterol_mg": 110,
+        "sodium_mg": 1700,
+        "potassium_mg": null,
+        "carbohydrates_g": 130,
+        "fiber_g": 3,
+        "sugars_g": 35,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0034",
+      "name": "WaBa Chicken & Steak Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of chicken and steak combination with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 53,
+        "fat_g": 21,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 190,
+        "sodium_mg": 1300,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": 3,
+        "sugars_g": 26,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0035",
+      "name": "WaBa White Meat Chicken & Steak Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of white meat chicken and steak combination with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 880,
+        "protein_g": 61,
+        "fat_g": 15,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 150,
+        "sodium_mg": 1280,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": 3,
+        "sugars_g": 26,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0036",
+      "name": "Wild Caught Salmon Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled wild-caught salmon with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 41,
+        "fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 970,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 3,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0037",
+      "name": "Jumbo Shrimp Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled shrimp with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 25,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 270,
+        "sodium_mg": 1650,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": 3,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0038",
+      "name": "Organic Tofu Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of grilled organic tofu with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 30,
+        "fat_g": 14,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 830,
+        "potassium_mg": null,
+        "carbohydrates_g": 110,
+        "fiber_g": 3,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0039",
+      "name": "Plantspired Steak Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of Plantspired Steak with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 870,
+        "protein_g": 30,
+        "fat_g": 22,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1680,
+        "potassium_mg": null,
+        "carbohydrates_g": 140,
+        "fiber_g": 11,
+        "sugars_g": 35,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0040",
+      "name": "K-Ribs Plate XL",
+      "category": "Plates XL",
+      "subcategory": "Plates",
+      "description": "Extra large plate of Korean-style ribs with steamed rice, mixed veggies, and your choice of sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1090,
+        "protein_g": 36,
+        "fat_g": 38,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 116,
+        "cholesterol_mg": 120,
+        "sodium_mg": 2300,
+        "potassium_mg": null,
+        "carbohydrates_g": 140,
+        "fiber_g": 3,
+        "sugars_g": 47,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0041",
+      "name": "Chicken Boom Boom Taco",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Tacos",
+      "description": "Taco with grilled chicken, flavorful slaw dressed in tangy sesame dressing, green onions, and creamy spicy boom boom sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 13,
+        "fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0042",
+      "name": "Steak Boom Boom Taco",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Tacos",
+      "description": "Taco with grilled rib-eye steak, flavorful slaw dressed in tangy sesame dressing, green onions, and creamy spicy boom boom sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 10,
+        "fat_g": 14,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 2,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0043",
+      "name": "Shrimp Boom Boom Taco",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Tacos",
+      "description": "Taco with grilled shrimp, flavorful slaw dressed in tangy sesame dressing, green onions, and creamy spicy boom boom sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 9,
+        "fat_g": 8,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 520,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish",
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0044",
+      "name": "Organic Tofu Boom Boom Taco",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Tacos",
+      "description": "Taco with grilled organic tofu, flavorful slaw dressed in tangy sesame dressing, green onions, and creamy spicy boom boom sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 8,
+        "fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0045",
+      "name": "Plantspired Steak Boom Boom Taco",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Tacos",
+      "description": "Taco with Plantspired Steak, flavorful slaw dressed in tangy sesame dressing, green onions, and creamy spicy boom boom sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 7,
+        "fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 430,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 3,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0046",
+      "name": "Signature House Salad",
+      "category": "Salads",
+      "subcategory": "Salads",
+      "description": "Salad served with white meat chicken, dressed with our Signature House dressing.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 44,
+        "fat_g": 8,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 3,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0047",
+      "name": "Spicy Asian Salad",
+      "category": "Salads",
+      "subcategory": "Salads",
+      "description": "Salad served with white meat chicken, dressed with our Spicy Asian dressing.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 49,
+        "fat_g": 10,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 1230,
+        "potassium_mg": null,
+        "carbohydrates_g": 30,
+        "fiber_g": 5,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0048",
+      "name": "Chicken Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled chicken with steamed rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 17,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0049",
+      "name": "Chicken & Veggies Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled chicken with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 18,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 660,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0050",
+      "name": "Sweet & Spicy Chicken Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled chicken seared with Sweet Chili Sauce with steamed rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 21,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 450,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0051",
+      "name": "Sweet & Spicy Chicken & Veggies Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled chicken seared with Sweet Chili Sauce with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 21,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0052",
+      "name": "Organic Tofu Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled organic tofu with steamed rice and mixed veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 14,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 410,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0053",
+      "name": "Organic Tofu & Veggies Mini Bowl",
+      "category": "Mini Bowls",
+      "subcategory": "Mini Bowls",
+      "description": "Smaller bowl of grilled organic tofu with all steamed broccoli.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 14,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 440,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0054",
+      "name": "Chicken Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with grilled chicken, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1050,
+        "protein_g": 140,
+        "fat_g": 45,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 690,
+        "sodium_mg": 2060,
+        "potassium_mg": null,
+        "carbohydrates_g": 30,
+        "fiber_g": 0,
+        "sugars_g": 24,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0055",
+      "name": "White Meat Chicken Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with grilled white meat chicken, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 950,
+        "protein_g": 176,
+        "fat_g": 20,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 480,
+        "sodium_mg": 1200,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0056",
+      "name": "Sweet & Spicy Chicken Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with grilled chicken seared with Sweet Chili Sauce, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1100,
+        "protein_g": 140,
+        "fat_g": 45,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 690,
+        "sodium_mg": 4400,
+        "potassium_mg": null,
+        "carbohydrates_g": 70,
+        "fiber_g": 0,
+        "sugars_g": 55,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0057",
+      "name": "Rib-Eye Steak Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with marinated rib-eye steak, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1570,
+        "protein_g": 104,
+        "fat_g": 78,
+        "saturated_fat_g": 35,
+        "trans_fat_g": 5,
+        "cholesterol_mg": 310,
+        "sodium_mg": 4810,
+        "potassium_mg": null,
+        "carbohydrates_g": 100,
+        "fiber_g": 1,
+        "sugars_g": 85,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0058",
+      "name": "WaBa Chicken & Steak Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with chicken and steak combination, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1390,
+        "protein_g": 136,
+        "fat_g": 66,
+        "saturated_fat_g": 26,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 570,
+        "sodium_mg": 3290,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 1,
+        "sugars_g": 51,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0059",
+      "name": "WaBa White Meat Chicken & Steak Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with white meat chicken and steak combination, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1360,
+        "protein_g": 157,
+        "fat_g": 51,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 450,
+        "sodium_mg": 3240,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 1,
+        "sugars_g": 51,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0060",
+      "name": "Organic Tofu Family Meal",
+      "category": "Family Meals",
+      "subcategory": "Family Meals",
+      "description": "Family meal with grilled organic tofu, your choices of 2 rice options, your choice of veggies, and sauce. Serves 4.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 59,
+        "fat_g": 37,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 890,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0061",
+      "name": "Family White Rice (2 Servings)",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Two servings of steamed white rice from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 14,
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 160,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0062",
+      "name": "Family Brown Rice (2 Servings)",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Two servings of steamed brown rice from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 14,
+        "fat_g": 4,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "potassium_mg": null,
+        "carbohydrates_g": 140,
+        "fiber_g": 10,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0063",
+      "name": "Family Mixed Veggies",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Mixed vegetables from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 4,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0064",
+      "name": "Family All Broccoli",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "All broccoli from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 10,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 120,
+        "potassium_mg": null,
+        "carbohydrates_g": 24,
+        "fiber_g": 8,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0065",
+      "name": "Family Broccoli & Carrots",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Broccoli and carrots from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 7,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 175,
+        "potassium_mg": null,
+        "carbohydrates_g": 30,
+        "fiber_g": 9,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0066",
+      "name": "Family Pork Veggie Dumplings (20 pc)",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Twenty pork and vegetable dumplings from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 28,
+        "fat_g": 30,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 4620,
+        "potassium_mg": null,
+        "carbohydrates_g": 150,
+        "fiber_g": 0,
+        "sugars_g": 44,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0067",
+      "name": "Family Salad",
+      "category": "Family Meals",
+      "subcategory": "Family A La Carte",
+      "description": "Family-sized salad from the family meal.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 30,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0068",
+      "name": "Loaded Miso Soup (w/ Chicken)",
+      "category": "Soup",
+      "subcategory": "Soup",
+      "description": "Miso soup loaded with chicken and green onions.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 14,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 1300,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0069",
+      "name": "Loaded Miso Soup (w/ White Meat Chicken)",
+      "category": "Soup",
+      "subcategory": "Soup",
+      "description": "Miso soup loaded with white meat chicken and green onions.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 14,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 1300,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0070",
+      "name": "Loaded Miso Soup (w/ Tofu)",
+      "category": "Soup",
+      "subcategory": "Soup",
+      "description": "Miso soup loaded with tofu and green onions.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 11,
+        "fat_g": 4,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1290,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0071",
+      "name": "Miso Soup",
+      "category": "Soup",
+      "subcategory": "Soup",
+      "description": "Traditional Japanese miso soup.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0072",
+      "name": "Half Avocado",
+      "category": "Sides",
+      "subcategory": "Avocado",
+      "description": "Fresh half avocado.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 2,
+        "fat_g": 14,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 6,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0073",
+      "name": "Pork Veggie Dumplings (5 pc)",
+      "category": "Sides",
+      "subcategory": "Dumplings",
+      "description": "Five pork and vegetable dumplings.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 7,
+        "fat_g": 8,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1160,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 0,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0074",
+      "name": "Pork Veggie Dumplings (10 pc)",
+      "category": "Sides",
+      "subcategory": "Dumplings",
+      "description": "Ten pork and vegetable dumplings.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 14,
+        "fat_g": 15,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 2310,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 0,
+        "sugars_g": 22,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0075",
+      "name": "Side Chicken (4.5 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled chicken, 4.5 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 32,
+        "fat_g": 10,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 310,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0076",
+      "name": "Side White Meat Chicken (4.5 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled white meat chicken, 4.5 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 40,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0077",
+      "name": "Side Sweet & Spicy Chicken (4.5 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled chicken seared with Sweet Chili Sauce, 4.5 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 32,
+        "fat_g": 10,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 890,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0078",
+      "name": "Side Steak (3.5 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of marinated rib-eye steak, 3.5 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 22,
+        "fat_g": 17,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 70,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0079",
+      "name": "Side Salmon (4 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled wild-caught salmon, 4 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 22,
+        "fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0080",
+      "name": "Side Shrimp (4 pc)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled shrimp, 4 pieces.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 4,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Shellfish",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0081",
+      "name": "Side Tofu (6 oz)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of grilled organic tofu, 6 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 16,
+        "fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 230,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0082",
+      "name": "Side K-Ribs (1 Strip)",
+      "category": "Sides",
+      "subcategory": "Side Proteins",
+      "description": "Side of Korean-style ribs, 1 strip.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 9,
+        "fat_g": 11,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 39,
+        "cholesterol_mg": 40,
+        "sodium_mg": 580,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0083",
+      "name": "Side Salad",
+      "category": "Sides",
+      "subcategory": "Side Veggies",
+      "description": "Side of mixed greens salad.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0084",
+      "name": "Side Steamed Veggies",
+      "category": "Sides",
+      "subcategory": "Side Veggies",
+      "description": "Side of steamed mixed vegetables.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 3,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 4,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0085",
+      "name": "Side White Rice (10 oz)",
+      "category": "Sides",
+      "subcategory": "Side Rice",
+      "description": "Side of steamed white rice, 10 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 7,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 80,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0086",
+      "name": "Side Brown Rice (10 oz)",
+      "category": "Sides",
+      "subcategory": "Side Rice",
+      "description": "Side of steamed brown rice, 10 oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": "-",
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 70,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0087",
+      "name": "Garlic Serrano Sauce (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Garlic serrano sauce, 1 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 1,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 660,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0088",
+      "name": "Sweet Chili Sauce (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Sweet chili sauce, 1 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 780,
+        "potassium_mg": null,
+        "carbohydrates_g": 13,
+        "fiber_g": 0,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0089",
+      "name": "WaBa Sauce Packet",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Signature WaBa sauce packet.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 390,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0090",
+      "name": "WaBa Hot Sauce Packet",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "WaBa hot sauce packet, 0 calories.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0091",
+      "name": "Spicy WaBa Sauce (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Spicy WaBa sauce, 1 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 610,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0092",
+      "name": "WaBa Sesame Dressing (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "WaBa sesame dressing, 1 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0,
+        "fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 330,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0093",
+      "name": "Spicy Sesame Dressing (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Spicy sesame dressing, 1 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 1,
+        "fat_g": 4,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 550,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0094",
+      "name": "Ranch Dressing (1.5 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Ranch dressing, 1.5 fluid oz.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 1,
+        "fat_g": 16,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 370,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0095",
+      "name": "Boom Boom Sauce (1 fl oz)",
+      "category": "Sauces",
+      "subcategory": "Sauces & Dressings",
+      "description": "Boom Boom sauce, 1 fluid oz. Creamy, spicy sauce used in our tacos.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 0,
+        "fat_g": 16,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0096",
+      "name": "Coke 12oz Can",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "12 oz can of Coca-Cola.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "potassium_mg": null,
+        "carbohydrates_g": 39,
+        "fiber_g": 0,
+        "sugars_g": 39,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0097",
+      "name": "Diet Coke 12oz Can",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "12 oz can of Diet Coke.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0098",
+      "name": "Coke Zero 12oz Can",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "12 oz can of Coke Zero.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0099",
+      "name": "Sprite 12oz Can",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "12 oz can of Sprite.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "potassium_mg": null,
+        "carbohydrates_g": 38,
+        "fiber_g": 0,
+        "sugars_g": 38,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0100",
+      "name": "Aloe Vera Premium Drink",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "A WaBa Better-For-You Beverage with aloe vera.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 1,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 65,
+        "fiber_g": 0,
+        "sugars_g": 55,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0101",
+      "name": "Thai Tea Premium",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Premium Thai iced tea.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 1,
+        "fat_g": 4,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 55,
+        "fiber_g": 0,
+        "sugars_g": 50,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0102",
+      "name": "Dragon Fruit Mango Lemonade",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "A perfect balance of tangy lemonade, sweet dragon fruit and juicy mango. Made with real fruits.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 68,
+        "fiber_g": 0,
+        "sugars_g": 64,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0103",
+      "name": "Strawberry Watermelon Lemonade",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Refreshing strawberry watermelon lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 52,
+        "fiber_g": 0,
+        "sugars_g": 48,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0104",
+      "name": "Energy Refresher",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Energy refresher drink.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "potassium_mg": null,
+        "carbohydrates_g": 42,
+        "fiber_g": 0,
+        "sugars_g": 38,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 80
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0105",
+      "name": "Honey Citron Tea",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Traditional honey citron tea.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 38,
+        "fiber_g": 0,
+        "sugars_g": 34,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0106",
+      "name": "Orange Juice",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Refreshing orange juice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 2,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 26,
+        "fiber_g": 0,
+        "sugars_g": 20,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0107",
+      "name": "Milk 20oz",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "20 oz milk.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 16,
+        "fat_g": 18,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0108",
+      "name": "Aquafina 20oz Bottle",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Aquafina purified water, 20 oz bottle.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0109",
+      "name": "Fountain Drink",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "Self-serve fountain drink, regular size.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "potassium_mg": null,
+        "carbohydrates_g": 55,
+        "fiber_g": 0,
+        "sugars_g": 55,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0110",
+      "name": "Dragon Fruit Mango Lemonade w/ Mango Boba",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Dragon Fruit Mango Lemonade topped with mango boba.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 1,
+        "sugars_g": 80,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0111",
+      "name": "Strawberry Watermelon Lemonade Energy Refresher w/ Mango Boba",
+      "category": "Beverages",
+      "subcategory": "Premium Beverages",
+      "description": "Strawberry Watermelon Lemonade Energy Refresher topped with mango boba.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "potassium_mg": null,
+        "carbohydrates_g": 64,
+        "fiber_g": 1,
+        "sugars_g": 58,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 80
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0112",
+      "name": "Chicken & Shrimp Bowl",
+      "category": "Rice Bowls",
+      "subcategory": "Limited Time",
+      "description": "Limited time: Grilled chicken and shrimp bowl.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580,
+        "protein_g": 29,
+        "fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 170,
+        "sodium_mg": 980,
+        "potassium_mg": null,
+        "carbohydrates_g": 95,
+        "fiber_g": 1,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "wabagrill_0113",
+      "name": "Mixed Taco Trio",
+      "category": "Boom Boom Tacos",
+      "subcategory": "Limited Time",
+      "description": "Limited time: Three tacos with different protein options.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": null
+      },
+      "serving": {
+        "size": "1 item",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 32,
+        "fat_g": 33,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 160,
+        "sodium_mg": 1030,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 6,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://www.wabagrill.com/nutritional-guide",
+          "source_type": "official",
+          "confidence": 1.0,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    }
+  ]
+}

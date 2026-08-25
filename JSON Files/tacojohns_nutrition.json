@@ -1,0 +1,2438 @@
+{
+  "brand": {
+    "name": "Taco John's",
+    "website": "https://tacojohns.com",
+    "country": "USA",
+    "last_updated": "2026-08-04"
+  },
+  "categories": [
+    "Tacos",
+    "Burritos",
+    "Breakfast",
+    "Favorites",
+    "Quesadillas",
+    "Sides",
+    "Desserts",
+    "Beverages",
+    "Dips & Dressings"
+  ],
+  "products": [
+    {
+      "product_id": "c660b3bd-4d3c-4238-b3a0-e5580247862b",
+      "name": "Crispy Taco, Beef",
+      "category": "Tacos",
+      "subcategory": "Classic",
+      "description": "100% North American beef, Cheddar cheese, taco sauce, and shredded lettuce in a crispy shell.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 9,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 310,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 1,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/crispy-taco,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "471dce8a-64f4-48d0-8ee3-342842d1b25d",
+      "name": "Crispy Taco, Chicken",
+      "category": "Tacos",
+      "subcategory": "Classic",
+      "description": "Grilled chicken, Cheddar cheese, taco sauce, and shredded lettuce in a crispy shell.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 12,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 390,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": 0.5,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/crispy-taco,-chicken/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "3d1a00ef-43a8-44fd-a59d-7012a97b97a4",
+      "name": "Softshell Taco, Beef",
+      "category": "Tacos",
+      "subcategory": "Classic",
+      "description": "Beef, cheese, sauce, and lettuce in a warm flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 11,
+        "fat_g": 11,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 1,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/softshell-taco,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "992254c8-b366-4c73-ba0d-3f693cdad467",
+      "name": "Taco Bravo\u00ae, Beef",
+      "category": "Tacos",
+      "subcategory": "Classic",
+      "description": "Crispy taco wrapped in a flour tortilla with refried beans.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 14,
+        "fat_g": 14,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 720,
+        "potassium_mg": null,
+        "carbohydrates_g": 34,
+        "fiber_g": 5,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/taco-bravo,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8ad6e265-42b6-4a99-832f-f59facfc4a5b",
+      "name": "Crunchy Dorado Taco",
+      "category": "Tacos",
+      "subcategory": "Signature",
+      "description": "Crunchy taco shell with beef and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 16,
+        "fat_g": 23,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 560,
+        "potassium_mg": null,
+        "carbohydrates_g": 15,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/crunchy-dorado-taco/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c86ea7fb-3f12-4b39-82ed-6e2da0cb58a1",
+      "name": "Fiesta Softshell Taco, Chicken",
+      "category": "Tacos",
+      "subcategory": "Signature",
+      "description": "Chicken, fiesta sauce, and veggies in a softshell.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 15,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 650,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/fiesta-softshell-taco,-chicken/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4c275693-5df3-49ab-a47c-13e3a70ffe33",
+      "name": "Crispy Chicken Taco, Chipotle Lime",
+      "category": "Tacos",
+      "subcategory": "Signature",
+      "description": "Crispy chicken with chipotle lime sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 14,
+        "fat_g": 18,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 830,
+        "potassium_mg": null,
+        "carbohydrates_g": 32,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/crispy-chicken-taco,-chipotle-lime/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "86b5f02f-9683-4979-8bc5-3c5f944f1e2e",
+      "name": "Stuffed Grilled Taco, Beef",
+      "category": "Tacos",
+      "subcategory": "Signature",
+      "description": "Beef, cheese, and Potato Ol\u00e9s wrapped and grilled.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Taco",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 18,
+        "fat_g": 26,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 40,
+        "sodium_mg": 1070,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 3,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/stuffed-grilled-taco,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9c20984d-b718-4965-a7c7-de876b4ccd49",
+      "name": "Beef Burrito",
+      "category": "Burritos",
+      "subcategory": "Classic",
+      "description": "Beef, cheese, and sauce in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 21,
+        "fat_g": 22,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 50,
+        "sodium_mg": 930,
+        "potassium_mg": null,
+        "carbohydrates_g": 43,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/beef-burrito/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f0da9945-c4df-4337-90cd-740f96af7d8d",
+      "name": "Bean Burrito",
+      "category": "Burritos",
+      "subcategory": "Classic",
+      "description": "Refried beans, cheese, and sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 15,
+        "fat_g": 13,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 970,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 8,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/bean-burrito/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "993176c5-74e5-4484-aaca-24cf94c4cb39",
+      "name": "Meat & Potato Burrito, Beef",
+      "category": "Burritos",
+      "subcategory": "Signature",
+      "description": "Beef, Potato Ol\u00e9s, cheese, and sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 15,
+        "fat_g": 25,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 1140,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 4,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/meat-&-potato-burrito,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a0e52376-2f2d-4fdd-88c8-a8cf9c52978e",
+      "name": "Boss Burrito, Steak",
+      "category": "Burritos",
+      "subcategory": "Signature",
+      "description": "Steak, rice, beans, and more.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 34,
+        "fat_g": 33,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1670,
+        "potassium_mg": null,
+        "carbohydrates_g": 86,
+        "fiber_g": 6,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/boss-burrito,-steak/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b366328c-b13d-42e6-9016-80216f7b5b2a",
+      "name": "Grilled Burrito, Chicken",
+      "category": "Burritos",
+      "subcategory": "Signature",
+      "description": "Grilled chicken, rice, and beans.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 34,
+        "fat_g": 33,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1850,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 4,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/grilled-burrito,-chicken/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bde1c864-ec20-4276-94ab-2367bb17ce61",
+      "name": "Super Burrito, Beef",
+      "category": "Burritos",
+      "subcategory": "Signature",
+      "description": "Beef, cheese, lettuce, and sour cream.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 19,
+        "fat_g": 19,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 35,
+        "sodium_mg": 980,
+        "potassium_mg": null,
+        "carbohydrates_g": 52,
+        "fiber_g": 6,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/super-burrito,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "99cc70c9-c7a3-481d-aabc-0964cb211b85",
+      "name": "Scrambler Breakfast Burrito, Bacon",
+      "category": "Breakfast",
+      "subcategory": "Burritos",
+      "description": "Eggs, bacon, cheese, and Potato Ol\u00e9s.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 18,
+        "fat_g": 27,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 190,
+        "sodium_mg": 1410,
+        "potassium_mg": null,
+        "carbohydrates_g": 53,
+        "fiber_g": 4,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/scrambler-breakfast-burrito,-bacon/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "6ebad5a8-60ff-4b4c-8ba2-65bcf59e5807",
+      "name": "Meat & Potato Breakfast Burrito, Sausage",
+      "category": "Breakfast",
+      "subcategory": "Burritos",
+      "description": "Sausage, eggs, cheese, and Potato Ol\u00e9s.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 20,
+        "fat_g": 34,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 200,
+        "sodium_mg": 1440,
+        "potassium_mg": null,
+        "carbohydrates_g": 53,
+        "fiber_g": 4,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/meat-&-potato-breakfast-burrito,-sausage/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c91fea6b-6efc-4c9a-8f89-22434b333581",
+      "name": "Potato Ol\u00e9s\u00ae Scrambler, Bacon",
+      "category": "Breakfast",
+      "subcategory": "Platters",
+      "description": "Potato Ol\u00e9s topped with eggs, bacon, and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 980,
+        "protein_g": 23,
+        "fat_g": 66,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 205,
+        "sodium_mg": 2760,
+        "potassium_mg": null,
+        "carbohydrates_g": 72,
+        "fiber_g": 12,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/potato-ol\u00e9s-scrambler,-bacon/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "11af7135-b3c9-4525-b2eb-10fa716d5bff",
+      "name": "Jr. Breakfast Burrito, Bacon",
+      "category": "Breakfast",
+      "subcategory": "Burritos",
+      "description": "Smaller breakfast burrito with bacon.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 9,
+        "fat_g": 11,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 620,
+        "potassium_mg": null,
+        "carbohydrates_g": 27,
+        "fiber_g": 1,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/jr.-breakfast-burrito,-bacon/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f3b764ab-0b8a-4aac-8fed-d9f49d3b6385",
+      "name": "Boss Bowl, Chicken",
+      "category": "Favorites",
+      "subcategory": "Bowls",
+      "description": "Chicken, rice, beans, and veggies.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 38,
+        "fat_g": 22,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1730,
+        "potassium_mg": null,
+        "carbohydrates_g": 75,
+        "fiber_g": 9,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/boss-bowl,-chicken/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "18294c8b-1a24-4a4a-b903-ccb55b8126ad",
+      "name": "Taco Salad, Beef",
+      "category": "Favorites",
+      "subcategory": "Salads",
+      "description": "Beef, greens, cheese, and chips.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 25,
+        "fat_g": 62,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 2,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1390,
+        "potassium_mg": null,
+        "carbohydrates_g": 46,
+        "fiber_g": 5,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/taco-salad,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e35e2bce-1904-48c7-a2bb-6635cdda8296",
+      "name": "Super Nachos, Beef",
+      "category": "Favorites",
+      "subcategory": "Nachos",
+      "description": "Chips, beef, cheese, and toppings.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 800,
+        "protein_g": 22,
+        "fat_g": 46,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50,
+        "sodium_mg": 1360,
+        "potassium_mg": null,
+        "carbohydrates_g": 74,
+        "fiber_g": 11,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/super-nachos,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5d9a67ec-3433-418c-97e6-adffe49f8258",
+      "name": "Super Potato Ol\u00e9s\u00ae, Beef",
+      "category": "Favorites",
+      "subcategory": "Signature",
+      "description": "Potato Ol\u00e9s topped with beef and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1050,
+        "protein_g": 23,
+        "fat_g": 68,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 50,
+        "sodium_mg": 2780,
+        "potassium_mg": null,
+        "carbohydrates_g": 86,
+        "fiber_g": 16,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/super-potato-ol\u00e9s,-beef/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "36b263b4-d176-4283-8f2d-52f76da1a389",
+      "name": "4-Cheese Quesadilla, Cheese",
+      "category": "Quesadillas",
+      "subcategory": "Classic",
+      "description": "Four cheeses melted in a flour tortilla.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Quesadilla",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 18,
+        "fat_g": 21,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45,
+        "sodium_mg": 950,
+        "potassium_mg": null,
+        "carbohydrates_g": 39,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/4-cheese-quesadilla,-cheese/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "df67c36e-bd1e-456d-84c2-ff1df4e9cb44",
+      "name": "Chipotle Chicken Quesadilla",
+      "category": "Quesadillas",
+      "subcategory": "Signature",
+      "description": "Chicken and chipotle sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Quesadilla",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 29,
+        "fat_g": 34,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 115,
+        "sodium_mg": 1370,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/chipotle-chicken-quesadilla/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c5bdd0f7-6044-4f30-ae31-2635351b8ec6",
+      "name": "Potato Ol\u00e9s\u00ae, Small",
+      "category": "Sides",
+      "subcategory": "Signature",
+      "description": "Signature round potato bites.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Small",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 5,
+        "fat_g": 30,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1030,
+        "potassium_mg": null,
+        "carbohydrates_g": 43,
+        "fiber_g": 8,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/potato-ol\u00e9s,-small/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "371c1043-ae09-4ad7-972b-ca69d7800f72",
+      "name": "Potato Ol\u00e9s\u00ae, Medium",
+      "category": "Sides",
+      "subcategory": "Signature",
+      "description": "Signature round potato bites.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 7,
+        "fat_g": 42,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1440,
+        "potassium_mg": null,
+        "carbohydrates_g": 61,
+        "fiber_g": 11,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/potato-ol\u00e9s,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cdd112c5-5f97-4466-b28c-4cf2ec05ec98",
+      "name": "Potato Ol\u00e9s\u00ae, Large",
+      "category": "Sides",
+      "subcategory": "Signature",
+      "description": "Signature round potato bites.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Large",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 8,
+        "fat_g": 55,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1860,
+        "potassium_mg": null,
+        "carbohydrates_g": 78,
+        "fiber_g": 14,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/potato-ol\u00e9s,-large/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce81b932-3ed3-410e-8251-1d16dc9a3e51",
+      "name": "Refried Beans",
+      "category": "Sides",
+      "subcategory": "Classic",
+      "description": "100% North American beans.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 19,
+        "fat_g": 7,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 1120,
+        "potassium_mg": null,
+        "carbohydrates_g": 44,
+        "fiber_g": 16,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/refried-beans/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cc6ebd5d-e368-4d95-aa58-65218e8cf271",
+      "name": "Rice & Beans",
+      "category": "Sides",
+      "subcategory": "Classic",
+      "description": "Seasoned rice and refried beans.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 9,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 530,
+        "potassium_mg": null,
+        "carbohydrates_g": 43,
+        "fiber_g": 6,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/rice-&-beans/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "be57f051-769f-460e-87c4-e735828c9b30",
+      "name": "Chips & Nacho Cheese",
+      "category": "Sides",
+      "subcategory": "Classic",
+      "description": "Crispy chips with nacho cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 6,
+        "fat_g": 25,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 710,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 4,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/chips-&-nacho-cheese/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0906a697-ad02-4555-9d98-07650c4e3240",
+      "name": "Churro",
+      "category": "Desserts",
+      "subcategory": "Sweets",
+      "description": "Crispy cinnamon sugar churro.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Churro",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 2,
+        "fat_g": 12,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 26,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/churro/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f41605b8-11f7-44b4-943d-3bb44c76c0bf",
+      "name": "Mexican Donut Bites",
+      "category": "Desserts",
+      "subcategory": "Sweets",
+      "description": "Warm donut bites with cinnamon sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 2,
+        "sugars_g": 25,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/mexican-donut-bites/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b8a36661-dba7-4daf-a1e0-ada1c524bc9f",
+      "name": "Pepsi\u00ae, Medium",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Regular Pepsi.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "potassium_mg": null,
+        "carbohydrates_g": 94,
+        "fiber_g": 0,
+        "sugars_g": 94,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/pepsi,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9859de15-e62f-4748-b9d1-4d068cc6e23e",
+      "name": "Diet Pepsi\u00ae, Medium",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Diet Pepsi.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 125,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/diet-pepsi,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "81c842f2-e720-4cb7-bf5f-7519b287c9dc",
+      "name": "Mountain Dew\u00ae, Medium",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Mountain Dew.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 115,
+        "potassium_mg": null,
+        "carbohydrates_g": 101,
+        "fiber_g": 0,
+        "sugars_g": 101,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/mountain-dew,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "6bb10f91-64d0-45e8-829c-91d5d14e5dc0",
+      "name": "Starry\u00ae, Medium",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Lemon-lime soda.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "potassium_mg": null,
+        "carbohydrates_g": 89,
+        "fiber_g": 0,
+        "sugars_g": 89,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/starry,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bd46483d-1595-4684-81be-68e467a42cf0",
+      "name": "Dr Pepper\u00ae, Medium",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Dr Pepper.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "potassium_mg": null,
+        "carbohydrates_g": 83,
+        "fiber_g": 0,
+        "sugars_g": 83,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/dr-pepper,-medium/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "585545a8-a194-4097-aece-a228826b66d8",
+      "name": "Tropicana\u00ae Orange Juice",
+      "category": "Beverages",
+      "subcategory": "Juice",
+      "description": "Orange juice.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Bottle",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 3,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 39,
+        "fiber_g": 0,
+        "sugars_g": 33,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/tropicana-orange-juice/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9f854c0b-d2fb-4ef2-82eb-33b6769b32ba",
+      "name": "Nacho Cheese, 3 fl oz",
+      "category": "Dips & Dressings",
+      "subcategory": "Dips",
+      "description": "Warm nacho cheese sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 2,
+        "fat_g": 9,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/nacho-cheese,-3-fl-oz/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "240249a3-6a92-46d4-9a0b-6f2f211ba09e",
+      "name": "Guacamole, 2.5 fl oz",
+      "category": "Dips & Dressings",
+      "subcategory": "Dips",
+      "description": "Fresh guacamole.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "2.5 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 1,
+        "fat_g": 13,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": 4,
+        "sugars_g": 0.5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/guacamole,-2.5-fl-oz/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1039f151-262f-4360-88c8-2b69408e0ba2",
+      "name": "Ranch Dressing, 1.5 fl oz",
+      "category": "Dips & Dressings",
+      "subcategory": "Dressings",
+      "description": "Creamy ranch dressing.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.5 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 0.5,
+        "fat_g": 20,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/ranch-dressing,-1.5-fl-oz/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d4fd0dc0-5d3e-4734-b1a6-0e6036f73f8f",
+      "name": "Fiesta Sauce, 3 fl oz",
+      "category": "Dips & Dressings",
+      "subcategory": "Sauces",
+      "description": "Spicy fiesta sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 1,
+        "fat_g": 38,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 0.5,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://tacojohns.com/menu/fiesta-sauce,-3-fl-oz/",
+      "sources": [
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Nutrition-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://tacojohns.com/wp-content/uploads/2026/07/2026-P4_Allergen-Guide_ED_V3_PROOF.pdf",
+          "source_type": "Official Allergen Guide",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

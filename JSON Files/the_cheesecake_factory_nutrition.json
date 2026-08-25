@@ -1,0 +1,489 @@
+{
+  "brand": {
+    "name": "The Cheesecake Factory",
+    "website": "https://www.thecheesecakefactory.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Appetizers",
+    "Lunch Specials",
+    "Pastas",
+    "Specialty Entrees",
+    "Burgers & Sandwiches",
+    "Cheesecakes & Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "ccf_avocado_egg_rolls",
+      "name": "Avocado Egg Rolls",
+      "category": "Appetizers",
+      "subcategory": "Appetizers",
+      "description": "Avocado, sun-dried tomato, red onion and cilantro fried in a crisp wrapper. Served with tamarind-cashew dipping sauce.",
+      "price": 14.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (4 egg rolls cut in half)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 1150,
+        "protein_g": 18.0,
+        "fat_g": 78.0,
+        "saturated_fat_g": 17.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 1560.0,
+        "potassium_mg": 720.0,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 12.0,
+        "sugars_g": 24.0,
+        "added_sugars_g": 14.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Tree Nuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Avocado",
+        "Sun-Dried Tomatoes",
+        "Red Onion",
+        "Cilantro",
+        "Egg Roll Wrapper",
+        "Tamarind-Cashew Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/avocado-egg-rolls.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/appetizers/avocado-egg-rolls",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_factory_burger",
+      "name": "The Factory Burger",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "Burgers",
+      "description": "Cheddar cheese, tomato, lettuce, pickles, onion and special sauce on a toasted brioche bun.",
+      "price": 18.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger with fries",
+        "weight_g": 520.0
+      },
+      "nutrition": {
+        "calories": 1480,
+        "protein_g": 58.0,
+        "fat_g": 102.0,
+        "saturated_fat_g": 38.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 210.0,
+        "sodium_mg": 1720.0,
+        "potassium_mg": 980.0,
+        "carbohydrates_g": 69.0,
+        "fiber_g": 5.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 520.0,
+        "iron_mg": 7.5,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Brioche Bun",
+        "Cheddar Cheese",
+        "Lettuce",
+        "Tomato",
+        "Pickles",
+        "Special Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/factory-burger.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/burgers/factory-burger",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_louisiana_chicken_pasta",
+      "name": "Louisiana Chicken Pasta",
+      "category": "Pastas",
+      "subcategory": "Pasta Entrees",
+      "description": "Parmesan crusted chicken over penne pasta with mushrooms, peppers and onions in a spicy New Orleans cream sauce.",
+      "price": 24.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entrée plate",
+        "weight_g": 650.0
+      },
+      "nutrition": {
+        "calories": 2190,
+        "protein_g": 74.0,
+        "fat_g": 132.0,
+        "saturated_fat_g": 65.0,
+        "trans_fat_g": 3.0,
+        "cholesterol_mg": 310.0,
+        "sodium_mg": 2320.0,
+        "potassium_mg": 1150.0,
+        "carbohydrates_g": 164.0,
+        "fiber_g": 9.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 750.0,
+        "iron_mg": 9.0,
+        "vitamin_d_mcg": 2.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Penne Pasta",
+        "Parmesan Cheese",
+        "Mushrooms",
+        "Bell Peppers",
+        "Heavy Cream",
+        "Spicy New Orleans Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/louisiana-chicken-pasta.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/pastas/louisiana-chicken-pasta",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_original_cheesecake",
+      "name": "The Original Cheesecake",
+      "category": "Cheesecakes & Desserts",
+      "subcategory": "Cheesecake",
+      "description": "Our famous creamy cheesecake with a graham cracker crust and sweet sour cream topping.",
+      "price": 10.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": 230.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 11.0,
+        "fat_g": 51.0,
+        "saturated_fat_g": 32.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 190.0,
+        "sodium_mg": 460.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 1.0,
+        "sugars_g": 43.0,
+        "added_sugars_g": 36.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 1.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Cream Cheese",
+        "Graham Cracker Crust",
+        "Sugar",
+        "Sour Cream",
+        "Eggs",
+        "Vanilla Extract"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/original-cheesecake.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/desserts/original-cheesecake",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_oreo_dream_extreme_cheesecake",
+      "name": "Oreo Dream Extreme Cheesecake",
+      "category": "Cheesecakes & Desserts",
+      "subcategory": "Cheesecake",
+      "description": "Oreo cookies baked in cheesecake with fudge cake and chocolate icing, topped with milk chocolate ganache.",
+      "price": 11.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 1180,
+        "protein_g": 15.0,
+        "fat_g": 79.0,
+        "saturated_fat_g": 45.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 220.0,
+        "sodium_mg": 780.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 115.0,
+        "fiber_g": 4.0,
+        "sugars_g": 86.0,
+        "added_sugars_g": 74.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 2.0,
+        "caffeine_mg": 15.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Cream Cheese",
+        "Oreo Cookie Pieces",
+        "Fudge Cake",
+        "Chocolate Ganache",
+        "Sugar",
+        "Eggs"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/oreo-dream-cheesecake.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/desserts/oreo-dream-extreme-cheesecake",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_fresh_strawberry_cheesecake",
+      "name": "Fresh Strawberry Cheesecake",
+      "category": "Cheesecakes & Desserts",
+      "subcategory": "Cheesecake",
+      "description": "The original cheesecake topped with glazed fresh strawberries and whipped cream.",
+      "price": 11.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice",
+        "weight_g": 270.0
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 12.0,
+        "fat_g": 53.0,
+        "saturated_fat_g": 33.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 195.0,
+        "sodium_mg": 480.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 86.0,
+        "fiber_g": 3.0,
+        "sugars_g": 68.0,
+        "added_sugars_g": 56.0,
+        "calcium_mg": 190.0,
+        "iron_mg": 1.4,
+        "vitamin_d_mcg": 1.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Original Cheesecake",
+        "Fresh Strawberries",
+        "Strawberry Glaze",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/strawberry-cheesecake.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/desserts/fresh-strawberry-cheesecake",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_iced_tea",
+      "name": "Freshly Brewed Iced Tea",
+      "category": "Beverages",
+      "subcategory": "Iced Teas",
+      "description": "Freshly brewed premium black iced tea served with lemon.",
+      "price": 4.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz glass",
+        "weight_g": 570.0
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 10.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Brewed Black Tea"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/iced-tea.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/beverages/iced-tea",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_factory_lemonade",
+      "name": "The Factory Lemonade",
+      "category": "Beverages",
+      "subcategory": "Specialty Drinks",
+      "description": "Signature house-made lemonade with fresh squeezed lemons and pure cane sugar.",
+      "price": 5.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz glass",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 60.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 0.0,
+        "sugars_g": 64.0,
+        "added_sugars_g": 62.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Fresh Lemon Juice",
+        "Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.thecheesecakefactory.com/media/menu/factory-lemonade.png",
+      "product_url": "https://www.thecheesecakefactory.com/menu/beverages/factory-lemonade",
+      "sources": [
+        {
+          "url": "https://www.thecheesecakefactory.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

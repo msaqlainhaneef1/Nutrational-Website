@@ -120,33 +120,17 @@ const faqsMap = {
     { q: 'How often should I recalculate TDEE?', a: 'Every 5 to 10 kilograms of weight change. A smaller body burns fewer calories, so a TDEE that worked at 85 kg will produce weight gain at 75 kg if not adjusted.' },
   ],
 };
-const faqs = faqsMap[type] || [];
-const faqSchema = faqs.length > 0 ? {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": faqs.map((faq) => ({
-    "@type": "Question",
-    "name": faq.q,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": faq.a
-    }
-  }))
-} : null;
 
-const schema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": meta.name,
-    "description": meta.description,
-    "applicationCategory": "HealthApplication"
-  },
-  ...(faqSchema ? [faqSchema] : [])
-];
+import { createCalculatorSchema } from '@/features/calculators/shared/calculatorSchema';
+
+const faqs = faqsMap[type] || [];
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/calculators/${meta.slug}/`;
+
+const schema = createCalculatorSchema(meta, siteOrigin, faqs);
 ---
 
-<Layout title={meta.name} description={meta.description} schema={schema}>
+<Layout title={meta.name} description={meta.description} canonicalUrl={canonicalUrl} schema={schema}>
   <CalculatorPage meta={meta} about={aboutMap[type]} sections={sectionsMap[type]} faqs={faqsMap[type]}>
     <Calculator type={type} />
   </CalculatorPage>

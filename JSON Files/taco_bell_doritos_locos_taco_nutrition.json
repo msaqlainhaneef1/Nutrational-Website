@@ -1,0 +1,149 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Tacos"
+  ],
+  "products": [
+    {
+      "product_id": "taco_bell_nacho_cheese_doritos_locos_taco",
+      "name": "Nacho Cheese Doritos\u00ae Locos Tacos",
+      "category": "Tacos",
+      "subcategory": "Specialty Tacos",
+      "description": "A crunchy taco shell seasoned with Nacho Cheese Doritos flavor filled with seasoned beef, crisp shredded lettuce, and real cheddar cheese.",
+      "price": 2.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco",
+        "weight_g": 78.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 8.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 370.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 3.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Crunchy Taco Shell seasoned with Nacho Cheese Doritos Flavor",
+        "Seasoned Beef",
+        "Lettuce",
+        "Cheddar Cheese"
+      ],
+      "customizations": [
+        "Add Guacamole",
+        "Add Reduced-Fat Sour Cream",
+        "Add Tomatoes",
+        "Fresco Style"
+      ],
+      "image_url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos",
+      "product_url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/taco-bell/nacho-cheese-doritos-locos-tacos",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "taco_bell_nacho_cheese_doritos_locos_taco_supreme",
+      "name": "Nacho Cheese Doritos\u00ae Locos Tacos Supreme\u00ae",
+      "category": "Tacos",
+      "subcategory": "Specialty Tacos",
+      "description": "A crunchy taco shell seasoned with Nacho Cheese Doritos flavor filled with seasoned beef, crisp shredded lettuce, real cheddar cheese, diced tomatoes, and cool reduced-fat sour cream.",
+      "price": 3.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco",
+        "weight_g": 94.0
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 8.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Crunchy Taco Shell seasoned with Nacho Cheese Doritos Flavor",
+        "Seasoned Beef",
+        "Lettuce",
+        "Cheddar Cheese",
+        "Diced Tomatoes",
+        "Reduced-Fat Sour Cream"
+      ],
+      "customizations": [
+        "Add Guacamole",
+        "Fresco Style"
+      ],
+      "image_url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos-supreme",
+      "product_url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos-supreme",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/food/tacos/nacho-cheese-doritos-locos-tacos-supreme",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/taco-bell/nacho-cheese-doritos-locos-tacos-supreme",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

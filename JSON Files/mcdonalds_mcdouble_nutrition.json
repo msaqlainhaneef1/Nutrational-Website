@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Value Menu"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_mcdouble",
+      "name": "McDouble",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "The classic McDouble features two 100% pure beef patties seasoned with just a pinch of salt and pepper, topped with tangy pickles, chopped onions, ketchup, mustard, and a slice of melted American cheese.",
+      "price": 3.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (158g)",
+        "weight_g": 158.0
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 22.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 270.0,
+        "carbohydrates_g": 33.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "100% Beef Patties",
+        "Regular Bun",
+        "American Cheese Slice",
+        "Ketchup",
+        "Mustard",
+        "Pickle Slices",
+        "Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/mcdouble.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/mcdouble.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

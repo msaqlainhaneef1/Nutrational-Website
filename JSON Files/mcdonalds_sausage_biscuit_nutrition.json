@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds-sausage-biscuit",
+      "name": "Sausage Biscuit",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "description": "The McDonald's Sausage Biscuit is made with sizzling hot sausage on a warm buttermilk biscuit brushed with real butter.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 biscuit",
+        "weight_g": 117.0
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 11.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 1090.0,
+        "potassium_mg": 188.0,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": 80.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Biscuit",
+        "Pork Sausage Patty"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/us/en-us/product/sausage-biscuit.html",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/sausage-biscuit.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/product/sausage-biscuit.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/mcdonalds/sausage-biscuit",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

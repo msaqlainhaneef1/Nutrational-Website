@@ -5,7 +5,7 @@
   "description": "Track calories and macros for Panera Bread sandwiches, soups, salads, bagels and bakery items.",
   "category": "Breakfast & Healthy",
   "emoji": "\ud83e\udd56",
-  "itemCount": 3,
+  "itemCount": 6,
   "categories": [
     {
       "name": "Bagels & Spreads",
@@ -40,6 +40,32 @@
           "saturated_fat": 15,
           "sugars": 6,
           "trans_fat": 1
+        },
+        {
+          "name": "Bistro French Onion Soup (Bowl)",
+          "calories": 420,
+          "protein": 13,
+          "fat": 22,
+          "carbs": 42,
+          "servingSize": "1 bowl (340g / 12 oz)",
+          "fiber": 4,
+          "sodium": 1290,
+          "cholesterol": 50,
+          "saturated_fat": 11,
+          "sugars": 10
+        },
+        {
+          "name": "Broccoli Cheddar Soup (Bowl)",
+          "calories": 420,
+          "protein": 14,
+          "fat": 31,
+          "carbs": 24,
+          "servingSize": "Bowl (approx. 12 oz)",
+          "fiber": 3,
+          "sodium": 1520,
+          "cholesterol": 70,
+          "saturated_fat": 19,
+          "sugars": 6
         }
       ]
     },
@@ -58,6 +84,24 @@
           "saturated_fat": 13,
           "sugars": 11,
           "trans_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Greek Salad with Chicken",
+          "calories": 540,
+          "protein": 33,
+          "fat": 35,
+          "carbs": 24,
+          "servingSize": "1 whole salad",
+          "fiber": 4,
+          "sodium": 1450,
+          "cholesterol": 95,
+          "saturated_fat": 8,
+          "sugars": 10
         }
       ]
     }

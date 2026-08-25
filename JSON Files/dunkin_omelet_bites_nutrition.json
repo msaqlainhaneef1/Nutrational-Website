@@ -1,0 +1,134 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast Snacks",
+    "Omelet Bites"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_bacon_cheddar_omelet_bites",
+      "name": "Bacon & Cheddar Omelet Bites",
+      "category": "Breakfast Snacks",
+      "subcategory": "Omelet Bites",
+      "description": "Two hearty egg omelet bites made with cage-free eggs, diced bacon, and cheddar cheese, cooked tender and warm.",
+      "price": 3.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 bites / 112g)",
+        "weight_g": 112.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 18.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 260.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 9.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 200.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 1.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Cheddar Cheese",
+        "Bacon",
+        "Water",
+        "Soybean Oil",
+        "Modified Corn Starch",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/bacon-cheddar-omelet-bites.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/breakfast/bacon-cheddar-omelet-bites",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_egg_white_veggie_omelet_bites",
+      "name": "Egg White & Veggie Omelet Bites",
+      "category": "Breakfast Snacks",
+      "subcategory": "Omelet Bites",
+      "description": "Two light egg white omelet bites made with spinach, diced onions, bell peppers, and two types of cheese.",
+      "price": 3.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (2 bites / 115g)",
+        "weight_g": 115.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 14.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15.0,
+        "sodium_mg": 520.0,
+        "potassium_mg": 250.0,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Egg Whites",
+        "Spinach",
+        "Onions",
+        "Bell Peppers",
+        "Monterey Jack Cheese",
+        "Cottage Cheese",
+        "Corn Starch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/egg-white-veggie-omelet-bites.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/breakfast/egg-white-veggie-omelet-bites",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "name": "Yoshinoya America",
+  "slug": "yoshinoya-america-nutrition-calculator",
+  "tagline": "Track nutrition for Yoshinoya America menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 84 menu items at Yoshinoya America.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 84,
+  "categories": [
+    {
+      "name": "Regular Bowls",
+      "items": [
+        {
+          "name": "TFC Regular (Blended Sauce)",
+          "calories": 974,
+          "protein": 44,
+          "fat": 27,
+          "carbs": 137,
+          "servingSize": "620.0g",
+          "fiber": 8,
+          "sodium": 3130,
+          "cholesterol": 139,
+          "saturated_fat": 6,
+          "sugars": 33
+        },
+        {
+          "name": "Gyudon Beef (w/o veg)",
+          "calories": 646.4,
+          "protein": 34.7,
+          "fat": 21.8,
+          "carbs": 76.9,
+          "servingSize": "425.0g",
+          "sodium": 1868,
+          "cholesterol": 99,
+          "saturated_fat": 11.8,
+          "sugars": 8.5
+        },
+        {
+          "name": "Grilled Habanero Chicken",
+          "calories": 620,
+          "protein": 33,
+          "fat": 11,
+          "carbs": 90,
+          "servingSize": "510.0g",
+          "fiber": 1,
+          "sodium": 1080,
+          "cholesterol": 145,
+          "saturated_fat": 3,
+          "sugars": 17
+        },
+        {
+          "name": "Grilled Teriyaki Chicken",
+          "calories": 580,
+          "protein": 37,
+          "fat": 9,
+          "carbs": 83,
+          "servingSize": "510.0g",
+          "fiber": 1,
+          "sodium": 920,
+          "cholesterol": 145,
+          "sugars": 11
+        },
+        {
+          "name": "Grilled Ribeye Steak",
+          "calories": 620,
+          "protein": 26,
+          "fat": 17,
+          "carbs": 89,
+          "servingSize": "520.0g",
+          "fiber": 1,
+          "sodium": 1380,
+          "cholesterol": 55,
+          "saturated_fat": 6,
+          "sugars": 16
+        },
+        {
+          "name": "Grilled Teriyaki Salmon",
+          "calories": 600,
+          "protein": 33,
+          "fat": 12,
+          "carbs": 85,
+          "servingSize": "510.0g",
+          "fiber": 1,
+          "sodium": 1030,
+          "cholesterol": 100,
+          "saturated_fat": 2,
+          "sugars": 14
+        },
+        {
+          "name": "Regular Veggie Bowl",
+          "calories": 468.8,
+          "protein": 10.9,
+          "fat": 0,
+          "carbs": 102.4,
+          "servingSize": "539.1g",
+          "fiber": 2,
+          "sodium": 530
+        }
+      ]
+    },
+    {
+      "name": "Large Bowls",
+      "items": [
+        {
+          "name": "TFC Large (Blended Sauce)",
+          "calories": 1487,
+          "protein": 65,
+          "fat": 42,
+          "carbs": 210,
+          "servingSize": "978.0g",
+          "fiber": 12,
+          "sodium": 5151,
+          "cholesterol": 203,
+          "saturated_fat": 8,
+          "sugars": 54
+        }
+      ]
+    },
+    {
+      "name": "Regular Combo Bowls",
+      "items": [
+        {
+          "name": "TFC (Blended Sauce)",
+          "calories": 649,
+          "protein": 58,
+          "fat": 27,
+          "carbs": 130,
+          "servingSize": "280.0g",
+          "fiber": 7,
+          "sodium": 2870,
+          "cholesterol": 139,
+          "saturated_fat": 6,
+          "sugars": 30
+        },
+        {
+          "name": "Gyudon Beef",
+          "calories": 356,
+          "protein": 30,
+          "fat": 22,
+          "carbs": 12,
+          "servingSize": "198.0g",
+          "sodium": 1868,
+          "cholesterol": 99,
+          "saturated_fat": 12,
+          "sugars": 9
+        },
+        {
+          "name": "Tempura Orange Chicken",
+          "calories": 383,
+          "protein": 20,
+          "fat": 14,
+          "carbs": 43,
+          "servingSize": "142.0g",
+          "fiber": 3,
+          "sodium": 879,
+          "cholesterol": 50,
+          "saturated_fat": 3,
+          "sugars": 14
+        },
+        {
+          "name": "Brown Rice",
+          "calories": 350,
+          "protein": 7,
+          "fat": 2.5,
+          "carbs": 73,
+          "servingSize": "312.0g",
+          "fiber": 6,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Japanese Udon Noodles",
+          "calories": 520,
+          "protein": 15,
+          "fat": 4,
+          "carbs": 104,
+          "servingSize": "290.0g",
+          "fiber": 6,
+          "sodium": 1856,
+          "sugars": 12
+        },
+        {
+          "name": "White Rice",
+          "calories": 410,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 89,
+          "servingSize": "312.0g",
+          "fiber": 1
+        },
+        {
+          "name": "Mixed Veggies",
+          "calories": 40,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "113.0g",
+          "fiber": 1,
+          "sodium": 260,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Combo XL Bowls",
+      "items": [
+        {
+          "name": "Gyudon Beef with Yellow Onion & Beef Broth",
+          "calories": 996.2,
+          "protein": 39.3,
+          "fat": 89.2,
+          "carbs": 12.1,
+          "servingSize": "283.0g",
+          "fiber": 2.8,
+          "sodium": 1658.4,
+          "cholesterol": 165.4,
+          "saturated_fat": 42.7,
+          "sugars": 10.5
+        },
+        {
+          "name": "Hanabi Hot Gyudon Beef",
+          "calories": 524.5,
+          "protein": 31.6,
+          "fat": 29.2,
+          "carbs": 30.1,
+          "servingSize": "354.0g",
+          "fiber": 1,
+          "sodium": 2832,
+          "cholesterol": 115,
+          "saturated_fat": 12.0,
+          "sugars": 19.4
+        },
+        {
+          "name": "Hanabi Hot Grilled Chicken",
+          "calories": 413.3,
+          "protein": 44.3,
+          "fat": 16.2,
+          "carbs": 19.6,
+          "servingSize": "250.0g",
+          "fiber": 0.1,
+          "sodium": 1540.7,
+          "cholesterol": 225.4,
+          "saturated_fat": 4.4,
+          "sugars": 12.7
+        },
+        {
+          "name": "Hanabi Ribeye Steak",
+          "calories": 434.5,
+          "protein": 28.6,
+          "fat": 25.2,
+          "carbs": 22.1,
+          "servingSize": "241.0g",
+          "sodium": 1832,
+          "cholesterol": 80,
+          "saturated_fat": 9.0,
+          "sugars": 14.4
+        },
+        {
+          "name": "Sweet Chili Shrimp",
+          "calories": 540,
+          "protein": 19,
+          "fat": 26,
+          "carbs": 58,
+          "servingSize": "231.0g",
+          "fiber": 3,
+          "sodium": 1766,
+          "cholesterol": 170,
+          "saturated_fat": 5,
+          "sugars": 14
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 70,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 11,
+          "servingSize": "113.0g",
+          "sodium": 170,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Teriyaki Chicken",
+          "calories": 250,
+          "protein": 30,
+          "fat": 9,
+          "carbs": 11,
+          "servingSize": "166.0g",
+          "sodium": 660,
+          "cholesterol": 145,
+          "sugars": 8
+        },
+        {
+          "name": "Habanero Chicken",
+          "calories": 290,
+          "protein": 28,
+          "fat": 11,
+          "carbs": 18,
+          "servingSize": "166.0g",
+          "sodium": 820,
+          "cholesterol": 145,
+          "saturated_fat": 3,
+          "sugars": 14
+        },
+        {
+          "name": "Teriyaki Ribeye",
+          "calories": 287.5,
+          "protein": 19.1,
+          "fat": 17,
+          "carbs": 15.5,
+          "servingSize": "166.0g",
+          "fiber": 0.2,
+          "sodium": 971,
+          "cholesterol": 55.1,
+          "saturated_fat": 6,
+          "sugars": 11.4
+        },
+        {
+          "name": "Teriyaki Salmon",
+          "calories": 270,
+          "protein": 26,
+          "fat": 12,
+          "carbs": 13,
+          "servingSize": "166.0g",
+          "sodium": 770,
+          "cholesterol": 100,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Veggies",
+          "calories": 35,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "113.0g",
+          "fiber": 1,
+          "sodium": 260,
+          "sugars": 3
+        },
+        {
+          "name": "Clam Chowder",
+          "calories": 300,
+          "protein": 9,
+          "fat": 22,
+          "carbs": 18,
+          "servingSize": "227.0g",
+          "fiber": 1,
+          "sodium": 970,
+          "cholesterol": 95,
+          "saturated_fat": 13,
+          "sugars": 5
+        },
+        {
+          "name": "Shrimp Tempura (2 pc + 1 sauce)",
+          "calories": 186,
+          "protein": 5,
+          "fat": 11,
+          "carbs": 17,
+          "servingSize": "98.0g",
+          "fiber": 1,
+          "sodium": 1054,
+          "cholesterol": 31,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Shrimp Tempura (8 pc + 2 sauce)",
+          "calories": 708,
+          "protein": 20,
+          "fat": 42,
+          "carbs": 62,
+          "servingSize": "291.0g",
+          "fiber": 6,
+          "sodium": 2597,
+          "cholesterol": 125,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Springs Rolls (2 pc)",
+          "calories": 280,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 27,
+          "servingSize": "158.0g",
+          "fiber": 2,
+          "sodium": 812,
+          "saturated_fat": 2,
+          "sugars": 19
+        },
+        {
+          "name": "Spring Rolls (4 pc)",
+          "calories": 560,
+          "protein": 8,
+          "fat": 24,
+          "carbs": 55,
+          "servingSize": "316.0g",
+          "fiber": 4,
+          "sodium": 1625,
+          "saturated_fat": 3,
+          "sugars": 38
+        },
+        {
+          "name": "TFC (Blended Sauce) (Side, Addon, Same portion as REG)",
+          "calories": 649,
+          "protein": 37,
+          "fat": 27,
+          "carbs": 65,
+          "servingSize": "280.0g",
+          "fiber": 7,
+          "sodium": 2870,
+          "cholesterol": 139,
+          "saturated_fat": 6,
+          "sugars": 30
+        },
+        {
+          "name": "TFC (Blended Sauce) ($3 for 3pc Promo)",
+          "calories": 481,
+          "protein": 25,
+          "fat": 20,
+          "carbs": 52,
+          "servingSize": "207.0g",
+          "fiber": 5,
+          "sodium": 2199,
+          "cholesterol": 94,
+          "saturated_fat": 4,
+          "sugars": 26
+        },
+        {
+          "name": "Edamame Salted",
+          "calories": 170,
+          "protein": 19,
+          "fat": 9,
+          "carbs": 12,
+          "servingSize": "150.0g",
+          "fiber": 9,
+          "sodium": 824,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Sweet and Spicy Edamame",
+          "calories": 210,
+          "protein": 15,
+          "fat": 3,
+          "carbs": 34,
+          "servingSize": "150.0g",
+          "fiber": 11,
+          "sodium": 600,
+          "sugars": 19
+        },
+        {
+          "name": "Gyoza, Crispy (3 pc.)",
+          "calories": 153,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 18,
+          "servingSize": "59.0g",
+          "fiber": 2,
+          "sodium": 321,
+          "cholesterol": 9,
+          "saturated_fat": 17,
+          "sugars": 2
+        },
+        {
+          "name": "Gyoza, Crispy (5pc.)",
+          "calories": 255,
+          "protein": 9,
+          "fat": 12,
+          "carbs": 30,
+          "servingSize": "98.0g",
+          "fiber": 3,
+          "sodium": 533,
+          "cholesterol": 14,
+          "saturated_fat": 28,
+          "sugars": 3
+        },
+        {
+          "name": "Gyoza, Crispy (10 pc.)",
+          "calories": 510,
+          "protein": 18,
+          "fat": 24,
+          "carbs": 61,
+          "servingSize": "196.0g",
+          "fiber": 5,
+          "sodium": 1066,
+          "cholesterol": 28,
+          "saturated_fat": 56,
+          "sugars": 6
+        },
+        {
+          "name": "Junior's Original Cheesecake",
+          "calories": 380,
+          "protein": 6,
+          "fat": 28,
+          "carbs": 23,
+          "servingSize": "113.0g",
+          "sodium": 310,
+          "cholesterol": 115,
+          "saturated_fat": 18,
+          "sugars": 20
+        },
+        {
+          "name": "Junior's Double Chocolate (Devil's Food Cheesecake)",
+          "calories": 430,
+          "protein": 6,
+          "fat": 25,
+          "carbs": 47,
+          "servingSize": "113.0g",
+          "fiber": 2,
+          "sodium": 170,
+          "cholesterol": 85,
+          "saturated_fat": 12,
+          "sugars": 37
+        },
+        {
+          "name": "Junior's Strawberry Swirl Cheesecake",
+          "calories": 350,
+          "protein": 5,
+          "fat": 24,
+          "carbs": 28,
+          "servingSize": "113.0g",
+          "sodium": 260,
+          "cholesterol": 95,
+          "saturated_fat": 15,
+          "sugars": 24
+        },
+        {
+          "name": "Teriyaki Sauce",
+          "calories": 68.4,
+          "protein": 1.3,
+          "fat": 0,
+          "carbs": 16.1,
+          "servingSize": "63.0g",
+          "fiber": 0.2,
+          "sodium": 762,
+          "cholesterol": 0.1,
+          "sugars": 12.4
+        },
+        {
+          "name": "Habanero Sauce",
+          "calories": 90,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 20,
+          "servingSize": "53.0g",
+          "fiber": 1,
+          "sodium": 869,
+          "sugars": 16
+        },
+        {
+          "name": "Hanabi Mayo",
+          "calories": 143.3,
+          "protein": 1,
+          "fat": 9.2,
+          "carbs": 14.8,
+          "servingSize": "58.1g",
+          "sodium": 772.3,
+          "cholesterol": 7.1,
+          "saturated_fat": 1.3,
+          "sugars": 7.1
+        },
+        {
+          "name": "Sweet & Spicy Sauce",
+          "calories": 147.4,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 36.2,
+          "servingSize": "66.6g",
+          "sodium": 944.7,
+          "sugars": 32.8
+        },
+        {
+          "name": "Sweet & Sour Sauce",
+          "calories": 49,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "48.0g",
+          "sodium": 292,
+          "sugars": 13
+        },
+        {
+          "name": "Tempura Sauce",
+          "calories": 18,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "50.0g",
+          "sodium": 809,
+          "sugars": 4
+        },
+        {
+          "name": "Beef Broth",
+          "calories": 40,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 7,
+          "servingSize": "113.0g",
+          "sodium": 1021,
+          "sugars": 6
+        },
+        {
+          "name": "Shichimi Seasoning",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "1.0g"
+        },
+        {
+          "name": "Soy Sauce Packet",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "9.0g",
+          "sodium": 328
+        },
+        {
+          "name": "Sriracha Sauce Packet",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1.5,
+          "servingSize": "7.0g",
+          "sodium": 210,
+          "sugars": 1
+        },
+        {
+          "name": "Ginger Packet",
+          "calories": 2,
+          "protein": 0.3,
+          "fat": 0,
+          "carbs": 0.3,
+          "servingSize": "9.0g",
+          "fiber": 0.2,
+          "sodium": 176.9
+        },
+        {
+          "name": "Gyoza Sauce (2 packs)",
+          "calories": 52,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "56.0g",
+          "sodium": 1644,
+          "sugars": 10
+        },
+        {
+          "name": "Aquafina\u00ae Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20.0g"
+        },
+        {
+          "name": "Brisk\u00ae - Raspberry Sweetened Iced Tea - Regular",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 18,
+          "servingSize": "11.0g",
+          "sodium": 34,
+          "sugars": 18
+        },
+        {
+          "name": "Brisk\u00ae - Raspberry Sweetened Iced Tea - Large",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "servingSize": "16.0g",
+          "sodium": 50,
+          "sugars": 26
+        },
+        {
+          "name": "Diet Pepsi (Bottle)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20.0g",
+          "sodium": 60
+        },
+        {
+          "name": "Diet Pepsi\u00ae - Regular",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "11.0g",
+          "sodium": 34
+        },
+        {
+          "name": "Diet Pepsi\u00ae - Large",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "16.0g",
+          "sodium": 50
+        },
+        {
+          "name": "Dole Strawberry Lemonade (Bottle)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 70,
+          "servingSize": "20.0g",
+          "sodium": 390,
+          "sugars": 69
+        },
+        {
+          "name": "Mountain Dew\u00ae - Regular",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "11.0g",
+          "sodium": 48,
+          "sugars": 40
+        },
+        {
+          "name": "Mountain Dew\u00ae - Large",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "servingSize": "16.0g",
+          "sodium": 70,
+          "sugars": 58
+        },
+        {
+          "name": "Pepsi (Bottle)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 69,
+          "servingSize": "20.0g",
+          "sodium": 50,
+          "sugars": 69
+        },
+        {
+          "name": "Pepsi\u00ae - Regular",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "servingSize": "11.0g",
+          "sodium": 28,
+          "sugars": 38.5
+        },
+        {
+          "name": "Pepsi\u00ae - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "16.0g",
+          "sodium": 40,
+          "sugars": 56
+        },
+        {
+          "name": "Sierra Mist (Bottle)",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 61,
+          "servingSize": "20.0g",
+          "sodium": 60,
+          "sugars": 61
+        },
+        {
+          "name": "Sierra Mist\u00ae - Regular",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "servingSize": "11.0g",
+          "sodium": 28,
+          "sugars": 37
+        },
+        {
+          "name": "Sierra Mist\u00ae - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "16.0g",
+          "sodium": 40,
+          "sugars": 54
+        },
+        {
+          "name": "Tropicana\u00ae Apple Juice - Bottle",
+          "calories": 140,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 34,
+          "servingSize": "10.0g",
+          "sodium": 25,
+          "sugars": 31
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch - Regular",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "servingSize": "11.0g",
+          "sodium": 34,
+          "sugars": 41
+        },
+        {
+          "name": "Tropicana\u00ae Fruit Punch - Large",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "servingSize": "16.0g",
+          "sodium": 50,
+          "sugars": 60
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade - Regular",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 37,
+          "servingSize": "11.0g",
+          "sodium": 144,
+          "sugars": 37
+        },
+        {
+          "name": "Tropicana\u00ae Pink Lemonade - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "16.0g",
+          "sodium": 210,
+          "sugars": 54
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae - Regular",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "servingSize": "11.0g",
+          "sodium": 28,
+          "sugars": 38.5
+        },
+        {
+          "name": "Wild Cherry Pepsi\u00ae - Large",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "16.0g",
+          "sodium": 40,
+          "sugars": 56
+        },
+        {
+          "name": "14 OZ - Lemonade Black Tea",
+          "calories": 337,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 87,
+          "servingSize": "514.0g",
+          "sodium": 20,
+          "cholesterol": 8,
+          "sugars": 50
+        },
+        {
+          "name": "14 OZ - Yoshi Punch",
+          "calories": 293,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 75,
+          "servingSize": "514.0g",
+          "sodium": 35,
+          "cholesterol": 8,
+          "sugars": 35
+        },
+        {
+          "name": "14 OZ - Dragonfruit Lemonade",
+          "calories": 337,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 83,
+          "servingSize": "514.0g",
+          "sodium": 116,
+          "cholesterol": 8,
+          "sugars": 47
+        },
+        {
+          "name": "14 OZ - Mango Black Tea",
+          "calories": 263,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65,
+          "servingSize": "514.0g",
+          "sodium": 35,
+          "cholesterol": 8,
+          "sugars": 30
+        },
+        {
+          "name": "14 OZ - Mango Lemonade",
+          "calories": 293,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 75,
+          "servingSize": "514.0g",
+          "sodium": 35,
+          "cholesterol": 8,
+          "sugars": 35
+        },
+        {
+          "name": "14 OZ - Strawberry Black Tea",
+          "calories": 307,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "servingSize": "514.0g",
+          "sodium": 145,
+          "cholesterol": 8,
+          "sugars": 41
+        },
+        {
+          "name": "14 OZ - Strawberry Lemonade",
+          "calories": 322,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 83,
+          "servingSize": "514.0g",
+          "sodium": 108,
+          "cholesterol": 8,
+          "sugars": 44
+        },
+        {
+          "name": "14 OZ - Yoshi Milk Tea",
+          "calories": 396,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 83,
+          "servingSize": "514.0g",
+          "sodium": 167,
+          "cholesterol": 8,
+          "saturated_fat": 7,
+          "sugars": 49
+        },
+        {
+          "name": "14 OZ - Thai Tea",
+          "calories": 447,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 93,
+          "servingSize": "514.0g",
+          "sodium": 72,
+          "cholesterol": 8,
+          "saturated_fat": 8,
+          "sugars": 56
+        }
+      ]
+    }
+  ]
+}

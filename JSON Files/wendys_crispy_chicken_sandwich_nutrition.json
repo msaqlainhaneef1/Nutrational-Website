@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_crispy_chicken_sandwich",
+      "name": "Crispy Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "A crispy chicken patty topped with crisp lettuce, mayonnaise, and a toasted bun.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (153g)",
+        "weight_g": 153.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 13.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Crispy Chicken Patty",
+        "Sandwich Bun",
+        "Lettuce",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/crispy-chicken-sandwich.png",
+      "product_url": "https://www.wendys.com/menu/crispy-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

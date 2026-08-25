@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Blizzard Treats",
+    "Limited Time Offerings"
+  ],
+  "products": [
+    {
+      "product_id": "dq_salted_caramel_truffle_blizzard_medium",
+      "name": "Salted Caramel Truffle Blizzard (Medium)",
+      "category": "Blizzard Treats",
+      "subcategory": "Limited Time Blizzard",
+      "description": "Vanilla soft serve blended with sweet caramel truffle pieces, toffee pieces, cocoa fudge, and sea salt.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (393g / 16 fl oz)",
+        "weight_g": 393.0
+      },
+      "nutrition": {
+        "calories": 810,
+        "protein_g": 16.0,
+        "fat_g": 33.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 530.0,
+        "potassium_mg": 540.0,
+        "carbohydrates_g": 115.0,
+        "fiber_g": 2.0,
+        "sugars_g": 93.0,
+        "added_sugars_g": 78.0,
+        "calcium_mg": 520.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Tree Nuts",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Caramel Truffle Pieces",
+        "Toffee Pieces",
+        "Cocoa Fudge",
+        "Sea Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/images/salted-caramel-truffle-blizzard.png",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/salted-caramel-truffle-blizzard/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "brand": {
+    "name": "Baskin-Robbins",
+    "website": "https://www.baskinrobbins.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Milkshakes"
+  ],
+  "products": [
+    {
+      "product_id": "br_oreo_milkshake_small",
+      "name": "OREO 'n Ice Cream Milkshake (Small)",
+      "category": "Milkshakes",
+      "subcategory": "Oreo Milkshakes",
+      "description": "Made with OREO Cookie 'n Ice Cream, blended with milk and finished with whipped topping.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (320g / 15 fl oz)",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 760,
+        "protein_g": 15.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 23.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 390.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 94.0,
+        "fiber_g": 2.0,
+        "sugars_g": 78.0,
+        "added_sugars_g": 62.0,
+        "calcium_mg": 480.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "OREO Cookie 'n Ice Cream",
+        "Whole Milk",
+        "Whipped Light Cream",
+        "OREO Cookie Pieces"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/images/oreo-shake-small.png",
+      "product_url": "https://www.baskinrobbins.com/en/menu/beverages/oreo-n-ice-cream-milkshake",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_oreo_milkshake_medium",
+      "name": "OREO 'n Ice Cream Milkshake (Medium)",
+      "category": "Milkshakes",
+      "subcategory": "Oreo Milkshakes",
+      "description": "Made with OREO Cookie 'n Ice Cream, blended with milk and finished with whipped topping in a medium size.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (480g / 22 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 1130,
+        "protein_g": 22.0,
+        "fat_g": 57.0,
+        "saturated_fat_g": 34.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 170.0,
+        "sodium_mg": 580.0,
+        "potassium_mg": 930.0,
+        "carbohydrates_g": 140.0,
+        "fiber_g": 3.0,
+        "sugars_g": 116.0,
+        "added_sugars_g": 92.0,
+        "calcium_mg": 720.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "OREO Cookie 'n Ice Cream",
+        "Whole Milk",
+        "Whipped Light Cream",
+        "OREO Cookie Pieces"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/images/oreo-shake-medium.png",
+      "product_url": "https://www.baskinrobbins.com/en/menu/beverages/oreo-n-ice-cream-milkshake",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_oreo_milkshake_large",
+      "name": "OREO 'n Ice Cream Milkshake (Large)",
+      "category": "Milkshakes",
+      "subcategory": "Oreo Milkshakes",
+      "description": "Made with OREO Cookie 'n Ice Cream, blended with milk and finished with whipped topping in a large size.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (640g / 32 fl oz)",
+        "weight_g": 640.0
+      },
+      "nutrition": {
+        "calories": 1510,
+        "protein_g": 30.0,
+        "fat_g": 76.0,
+        "saturated_fat_g": 46.0,
+        "trans_fat_g": 3.5,
+        "cholesterol_mg": 230.0,
+        "sodium_mg": 770.0,
+        "potassium_mg": 1240.0,
+        "carbohydrates_g": 187.0,
+        "fiber_g": 4.0,
+        "sugars_g": 155.0,
+        "added_sugars_g": 123.0,
+        "calcium_mg": 960.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "OREO Cookie 'n Ice Cream",
+        "Whole Milk",
+        "Whipped Light Cream",
+        "OREO Cookie Pieces"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/images/oreo-shake-large.png",
+      "product_url": "https://www.baskinrobbins.com/en/menu/beverages/oreo-n-ice-cream-milkshake",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

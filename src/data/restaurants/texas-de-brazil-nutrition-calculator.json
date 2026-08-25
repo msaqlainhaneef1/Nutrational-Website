@@ -1,0 +1,1581 @@
+{
+  "name": "Texas de Brazil",
+  "slug": "texas-de-brazil-nutrition-calculator",
+  "tagline": "Track nutrition for Texas de Brazil menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 153 menu items at Texas de Brazil.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 153,
+  "categories": [
+    {
+      "name": "Meats",
+      "items": [
+        {
+          "name": "Alcatra",
+          "calories": 60,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 220,
+          "servingSize": "Gaucho cut",
+          "sodium": 20,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Barbecued Pork Ribs",
+          "calories": 320,
+          "protein": 0,
+          "fat": 240,
+          "carbs": 720,
+          "servingSize": "Gaucho cut",
+          "fiber": 3,
+          "sodium": 90,
+          "saturated_fat": 26
+        },
+        {
+          "name": "Braised Beef Ribs",
+          "calories": 270,
+          "protein": 0,
+          "fat": 210,
+          "carbs": 430,
+          "servingSize": "Gaucho cut",
+          "sodium": 55,
+          "saturated_fat": 24
+        },
+        {
+          "name": "Brazilian Sausage",
+          "calories": 170,
+          "protein": 0,
+          "fat": 130,
+          "carbs": 360,
+          "servingSize": "Gaucho cut",
+          "fiber": 1,
+          "sodium": 50,
+          "saturated_fat": 14
+        },
+        {
+          "name": "Chicken Breast Wrapped in Bacon",
+          "calories": 140,
+          "protein": 0,
+          "fat": 45,
+          "carbs": 640,
+          "servingSize": "Gaucho cut",
+          "sodium": 65,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Filet Mignon",
+          "calories": 130,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 430,
+          "servingSize": "Gaucho cut",
+          "sodium": 55,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Filet Mignon Wrapped in Bacon",
+          "calories": 150,
+          "protein": 0,
+          "fat": 80,
+          "carbs": 520,
+          "servingSize": "Gaucho cut",
+          "sodium": 55,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Flank Steak",
+          "calories": 130,
+          "protein": 0,
+          "fat": 70,
+          "carbs": 450,
+          "servingSize": "Gaucho cut",
+          "sodium": 35,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Garlic Picanha",
+          "calories": 120,
+          "protein": 0,
+          "fat": 50,
+          "carbs": 430,
+          "servingSize": "Gaucho cut",
+          "sodium": 40,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Lamb Chops",
+          "calories": 140,
+          "protein": 0,
+          "fat": 90,
+          "carbs": 260,
+          "servingSize": "Gaucho cut",
+          "sodium": 45,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Lamb Picanha",
+          "calories": 140,
+          "protein": 0,
+          "fat": 100,
+          "carbs": 40,
+          "servingSize": "Gaucho cut",
+          "sodium": 35,
+          "saturated_fat": 11
+        },
+        {
+          "name": "Leg of Lamb",
+          "calories": 60,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 220,
+          "servingSize": "Gaucho cut",
+          "sodium": 25,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Parmesan Chicken Drumettes",
+          "calories": 110,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 670,
+          "servingSize": "Gaucho cut",
+          "sodium": 40,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Parmesan Crusted Pork Loin",
+          "calories": 90,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 460,
+          "servingSize": "Gaucho cut",
+          "sodium": 45,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Picanha",
+          "calories": 120,
+          "protein": 0,
+          "fat": 45,
+          "carbs": 430,
+          "servingSize": "Gaucho cut",
+          "sodium": 40,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Spicy Sirloin",
+          "calories": 130,
+          "protein": 0,
+          "fat": 50,
+          "carbs": 1050,
+          "servingSize": "Gaucho cut",
+          "fiber": 2,
+          "sodium": 40,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Salad Bar",
+      "items": [
+        {
+          "name": "American Grana Cheese",
+          "calories": 110,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 260,
+          "servingSize": "Salad bar portion",
+          "sodium": 25,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Bacon Wrapped Jalape\u00f1os",
+          "calories": 110,
+          "protein": 0,
+          "fat": 80,
+          "carbs": 240,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "sodium": 25,
+          "saturated_fat": 9,
+          "sugars": 1
+        },
+        {
+          "name": "Beets",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 250,
+          "servingSize": "Salad bar portion",
+          "fiber": 8,
+          "sugars": 1
+        },
+        {
+          "name": "Brazilian Potato Salad",
+          "calories": 160,
+          "protein": 0,
+          "fat": 140,
+          "carbs": 180,
+          "servingSize": "Salad bar portion",
+          "fiber": 5,
+          "sodium": 10,
+          "saturated_fat": 16,
+          "sugars": 1
+        },
+        {
+          "name": "Brazilian Salad",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Salad bar portion",
+          "fiber": 2
+        },
+        {
+          "name": "Buffalo Mozzarella",
+          "calories": 110,
+          "protein": 0,
+          "fat": 90,
+          "carbs": 20,
+          "servingSize": "Salad bar portion",
+          "sodium": 30,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Cabbage Salad",
+          "calories": 25,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 130,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "saturated_fat": 2,
+          "sugars": 0.5
+        },
+        {
+          "name": "Caperberries",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 120,
+          "servingSize": "Salad bar portion"
+        },
+        {
+          "name": "Capers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 135,
+          "servingSize": "Salad bar portion"
+        },
+        {
+          "name": "Chimichurri Sauce",
+          "calories": 80,
+          "protein": 0,
+          "fat": 70,
+          "carbs": 150,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Ciabatta",
+          "calories": 70,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 200,
+          "servingSize": "Salad bar portion",
+          "fiber": 15,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Cornichons",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Salad bar portion"
+        },
+        {
+          "name": "Couscous Salad",
+          "calories": 80,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 140,
+          "servingSize": "Salad bar portion",
+          "fiber": 14,
+          "saturated_fat": 2.5,
+          "sugars": 0.5
+        },
+        {
+          "name": "Crispy Bacon",
+          "calories": 20,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 85,
+          "servingSize": "Salad bar portion",
+          "sodium": 2.5,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Croutons",
+          "calories": 25,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 65,
+          "servingSize": "Salad bar portion",
+          "fiber": 4,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Cucumber Salad",
+          "calories": 70,
+          "protein": 0,
+          "fat": 50,
+          "carbs": 1090,
+          "servingSize": "Salad bar portion",
+          "fiber": 5,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Dressing - Bleu Cheese",
+          "calories": 130,
+          "protein": 0,
+          "fat": 120,
+          "carbs": 210,
+          "servingSize": "Salad bar portion",
+          "sodium": 15,
+          "saturated_fat": 14
+        },
+        {
+          "name": "Dressing - Brazilian Vinaigrette",
+          "calories": 30,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Dressing - Italian Balsamic Vinaigrette",
+          "calories": 160,
+          "protein": 0,
+          "fat": 140,
+          "carbs": 70,
+          "servingSize": "Salad bar portion",
+          "fiber": 4,
+          "saturated_fat": 16
+        },
+        {
+          "name": "Dressing - Ranch",
+          "calories": 100,
+          "protein": 0,
+          "fat": 90,
+          "carbs": 250,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "sodium": 2.5,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Farofa",
+          "calories": 50,
+          "protein": 0,
+          "fat": 30,
+          "carbs": 45,
+          "servingSize": "Salad bar portion",
+          "fiber": 5,
+          "sodium": 20,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Giardiniera Salad",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 420,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Goat Cheese Terrine",
+          "calories": 45,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 35,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "sodium": 10,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Green Bean Salad",
+          "calories": 30,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Grilled Peppers - Red & Yellow",
+          "calories": 30,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 10,
+          "servingSize": "Salad bar portion",
+          "fiber": 2,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Hearts of Palm",
+          "calories": 5,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 170,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Horseradish",
+          "calories": 40,
+          "protein": 0,
+          "fat": 40,
+          "carbs": 65,
+          "servingSize": "Salad bar portion",
+          "sodium": 2.5,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Malagueta Peppers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 180,
+          "servingSize": "Salad bar portion",
+          "fiber": 0.5
+        },
+        {
+          "name": "Manchego Cheese",
+          "calories": 90,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 85,
+          "servingSize": "Salad bar portion",
+          "sodium": 20,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Marinated Artichoke Heart",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 420,
+          "servingSize": "Salad bar portion",
+          "fiber": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Mint Sauce",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 6
+        },
+        {
+          "name": "Mixed Field Greens",
+          "calories": 45,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 60,
+          "servingSize": "Salad bar portion",
+          "fiber": 3,
+          "sodium": 10,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Olives - Green & Kalamata",
+          "calories": 60,
+          "protein": 0,
+          "fat": 40,
+          "carbs": 630,
+          "servingSize": "Salad bar portion",
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Onion Ceviche",
+          "calories": 60,
+          "protein": 0,
+          "fat": 50,
+          "carbs": 590,
+          "servingSize": "Salad bar portion",
+          "fiber": 3,
+          "saturated_fat": 6,
+          "sugars": 0.5
+        },
+        {
+          "name": "Orange Vinaigrette",
+          "calories": 120,
+          "protein": 0,
+          "fat": 80,
+          "carbs": 10,
+          "servingSize": "Salad bar portion",
+          "fiber": 9,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Pineapple Carpaccio",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 9
+        },
+        {
+          "name": "Piquante Pepper",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Salad bar portion",
+          "fiber": 1
+        },
+        {
+          "name": "Prosciutto",
+          "calories": 30,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 160,
+          "servingSize": "Salad bar portion",
+          "sodium": 10,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Romaine",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Salad bar portion",
+          "fiber": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Salami",
+          "calories": 35,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 250,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "sodium": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Santa Fe Salad",
+          "calories": 90,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 130,
+          "servingSize": "Salad bar portion",
+          "fiber": 8,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Shrimp Salad",
+          "calories": 35,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 270,
+          "servingSize": "Salad bar portion",
+          "sodium": 35,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Smoked Salmon",
+          "calories": 70,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 15,
+          "servingSize": "Salad bar portion",
+          "sodium": 25,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Steamed Asparagus",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 1
+        },
+        {
+          "name": "Summer Tomatoes",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 1
+        },
+        {
+          "name": "Sun-Dried Tomatoes",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 105,
+          "servingSize": "Salad bar portion",
+          "fiber": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Tabouleh",
+          "calories": 70,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 300,
+          "servingSize": "Salad bar portion",
+          "fiber": 3,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Whole Jalape\u00f1os",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Salad bar portion",
+          "fiber": 1,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Hot Items",
+      "items": [
+        {
+          "name": "Brazilian Black Beans (Feijoada)",
+          "calories": 50,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 150,
+          "servingSize": "Hot item portion",
+          "fiber": 6,
+          "sodium": 2.5,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Brazilian Cheese Bread",
+          "calories": 60,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 90,
+          "servingSize": "Hot item portion",
+          "fiber": 8,
+          "sodium": 15,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Cream of Jalape\u00f1o Soup",
+          "calories": 260,
+          "protein": 0,
+          "fat": 200,
+          "carbs": 1170,
+          "servingSize": "Hot item portion",
+          "fiber": 11,
+          "sodium": 70,
+          "saturated_fat": 22
+        },
+        {
+          "name": "Fish Stew (Moqueca de Peixe)",
+          "calories": 80,
+          "protein": 0,
+          "fat": 45,
+          "carbs": 60,
+          "servingSize": "Hot item portion",
+          "fiber": 1,
+          "sodium": 20,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Garlic Mashed Potatoes",
+          "calories": 80,
+          "protein": 0,
+          "fat": 45,
+          "carbs": 330,
+          "servingSize": "Hot item portion",
+          "fiber": 11,
+          "sodium": 10,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Jasmine Rice",
+          "calories": 40,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 125,
+          "servingSize": "Hot item portion",
+          "fiber": 7,
+          "sodium": 2.5,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Lobster Bisque",
+          "calories": 360,
+          "protein": 0,
+          "fat": 310,
+          "carbs": 720,
+          "servingSize": "Hot item portion",
+          "fiber": 10,
+          "sodium": 120,
+          "cholesterol": 1,
+          "saturated_fat": 34,
+          "sugars": 2
+        },
+        {
+          "name": "Potatoes au Gratin",
+          "calories": 130,
+          "protein": 0,
+          "fat": 90,
+          "carbs": 120,
+          "servingSize": "Hot item portion",
+          "fiber": 6,
+          "sodium": 30,
+          "saturated_fat": 11,
+          "sugars": 1
+        },
+        {
+          "name": "Saut\u00e9ed Mushrooms",
+          "calories": 25,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 150,
+          "servingSize": "Hot item portion",
+          "fiber": 2,
+          "sodium": 2.5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Sweet Fried Bananas",
+          "calories": 60,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "Hot item portion",
+          "fiber": 10,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Bananas Foster Pie",
+          "calories": 790,
+          "protein": 0,
+          "fat": 320,
+          "carbs": 400,
+          "servingSize": "Dessert portion",
+          "fiber": 111,
+          "sodium": 100,
+          "saturated_fat": 36,
+          "sugars": 2
+        },
+        {
+          "name": "Brazilian Cheesecake",
+          "calories": 1020,
+          "protein": 0,
+          "fat": 510,
+          "carbs": 670,
+          "servingSize": "Dessert portion",
+          "fiber": 110,
+          "sodium": 245,
+          "cholesterol": 2,
+          "saturated_fat": 57,
+          "sugars": 4
+        },
+        {
+          "name": "Brazilian Flan",
+          "calories": 650,
+          "protein": 0,
+          "fat": 100,
+          "carbs": 140,
+          "servingSize": "Dessert portion",
+          "fiber": 126,
+          "sodium": 165,
+          "saturated_fat": 11
+        },
+        {
+          "name": "Carrot Cake",
+          "calories": 1550,
+          "protein": 0,
+          "fat": 790,
+          "carbs": 920,
+          "servingSize": "Dessert portion",
+          "fiber": 176,
+          "sodium": 165,
+          "cholesterol": 1,
+          "saturated_fat": 88,
+          "sugars": 6
+        },
+        {
+          "name": "Chocolate Mousse Cake",
+          "calories": 1020,
+          "protein": 0,
+          "fat": 470,
+          "carbs": 650,
+          "servingSize": "Dessert portion",
+          "fiber": 127,
+          "sodium": 115,
+          "saturated_fat": 52,
+          "sugars": 5
+        },
+        {
+          "name": "Coconut Chess Pie",
+          "calories": 420,
+          "protein": 0,
+          "fat": 160,
+          "carbs": 260,
+          "servingSize": "Dessert portion",
+          "fiber": 61,
+          "sodium": 15,
+          "saturated_fat": 18,
+          "sugars": 1
+        },
+        {
+          "name": "Coconut Chess Pie a la Mode",
+          "calories": 650,
+          "protein": 0,
+          "fat": 260,
+          "carbs": 370,
+          "servingSize": "Dessert portion",
+          "fiber": 89,
+          "sodium": 60,
+          "saturated_fat": 30,
+          "sugars": 1
+        },
+        {
+          "name": "Cr\u00e8me Br\u00fbl\u00e9e",
+          "calories": 520,
+          "protein": 0,
+          "fat": 280,
+          "carbs": 85,
+          "servingSize": "Dessert portion",
+          "fiber": 50,
+          "sodium": 490,
+          "cholesterol": 0.5,
+          "saturated_fat": 31
+        },
+        {
+          "name": "Key Lime Pie",
+          "calories": 630,
+          "protein": 0,
+          "fat": 250,
+          "carbs": 240,
+          "servingSize": "Dessert portion",
+          "fiber": 83,
+          "sodium": 260,
+          "saturated_fat": 28,
+          "sugars": 1
+        },
+        {
+          "name": "Papaya Cream",
+          "calories": 570,
+          "protein": 0,
+          "fat": 210,
+          "carbs": 150,
+          "servingSize": "Dessert portion",
+          "fiber": 101,
+          "sodium": 70,
+          "saturated_fat": 23,
+          "sugars": 3
+        },
+        {
+          "name": "Pecan Pie with Cream Cheese Center",
+          "calories": 540,
+          "protein": 0,
+          "fat": 190,
+          "carbs": 490,
+          "servingSize": "Dessert portion",
+          "fiber": 84,
+          "sodium": 70,
+          "saturated_fat": 21,
+          "sugars": 2
+        },
+        {
+          "name": "Pecan Pie with Cream Cheese Center a la Mode",
+          "calories": 750,
+          "protein": 0,
+          "fat": 280,
+          "carbs": 550,
+          "servingSize": "Dessert portion",
+          "fiber": 120,
+          "sodium": 100,
+          "saturated_fat": 32,
+          "sugars": 2
+        },
+        {
+          "name": "Passion Fruit Mousse",
+          "calories": 380,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 55,
+          "servingSize": "Dessert portion",
+          "fiber": 1,
+          "sodium": 80,
+          "cholesterol": 80,
+          "saturated_fat": 9,
+          "sugars": 40
+        }
+      ]
+    },
+    {
+      "name": "Signature Cocktails",
+      "items": [
+        {
+          "name": "1792 Manhattan",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 6
+        },
+        {
+          "name": "Absolut Mandrin Crush",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 12,
+          "sugars": 0.5
+        },
+        {
+          "name": "Bahia Breeze",
+          "calories": 290,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 27,
+          "saturated_fat": 1,
+          "sugars": 0.5
+        },
+        {
+          "name": "Brazilian Kiss",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 7
+        },
+        {
+          "name": "Brazilian Mojito",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 27,
+          "sugars": 2
+        },
+        {
+          "name": "Brazilian Rose",
+          "calories": 330,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Cocktail serving",
+          "fiber": 44,
+          "sugars": 1
+        },
+        {
+          "name": "Brugal Mojito Royale",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 36,
+          "sugars": 3
+        },
+        {
+          "name": "Caipirinha",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 27,
+          "sugars": 2
+        },
+        {
+          "name": "Caipirinha - Coconut",
+          "calories": 250,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 5,
+          "servingSize": "Cocktail serving",
+          "fiber": 39,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Caipirinha - Mango",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 39,
+          "sugars": 2
+        },
+        {
+          "name": "Caipirinha - Passion Fruit",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 39,
+          "sugars": 3
+        },
+        {
+          "name": "Caipirinha - Strawberry",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 39,
+          "sugars": 3
+        },
+        {
+          "name": "Carnaval",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Cocktail serving",
+          "fiber": 29
+        },
+        {
+          "name": "Chocolat' Com Vanilla",
+          "calories": 290,
+          "protein": 0,
+          "fat": 45,
+          "carbs": 55,
+          "servingSize": "Cocktail serving",
+          "fiber": 32,
+          "saturated_fat": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Deep Eddy Lemon Drop",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Cocktail serving",
+          "fiber": 34
+        },
+        {
+          "name": "Diamante Passion Fruit Margarita",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Cocktail serving",
+          "fiber": 35,
+          "sugars": 0.5
+        },
+        {
+          "name": "Espresso Delight",
+          "calories": 200,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 8,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Grey Goose Caipiroska",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 27,
+          "sugars": 2
+        },
+        {
+          "name": "Ipanema Margarita",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Cocktail serving",
+          "fiber": 30
+        },
+        {
+          "name": "Jack Daniel's Apple Martini",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 140,
+          "servingSize": "Cocktail serving",
+          "fiber": 33
+        },
+        {
+          "name": "Key Lime Pie Martini",
+          "calories": 250,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 15,
+          "servingSize": "Cocktail serving",
+          "fiber": 12,
+          "sodium": 5,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Knob Creek Texas Belle",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 21,
+          "sugars": 0.5
+        },
+        {
+          "name": "Langley's Strawberry Limeade",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Cocktail serving",
+          "fiber": 15,
+          "sugars": 0.5
+        },
+        {
+          "name": "Lava",
+          "calories": 210,
+          "protein": 0,
+          "fat": 30,
+          "carbs": 35,
+          "servingSize": "Cocktail serving",
+          "fiber": 23,
+          "sodium": 5,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Milky Way",
+          "calories": 200,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 45,
+          "servingSize": "Cocktail serving",
+          "fiber": 6,
+          "sodium": 15,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Rio Sunrise",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Cocktail serving",
+          "fiber": 43
+        },
+        {
+          "name": "Sangria (Pitcher)",
+          "calories": 1010,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 50,
+          "servingSize": "Cocktail serving",
+          "fiber": 139
+        },
+        {
+          "name": "The Rio Cosmo",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Cocktail serving",
+          "fiber": 36
+        },
+        {
+          "name": "The Ruler of Marula",
+          "calories": 260,
+          "protein": 0,
+          "fat": 100,
+          "carbs": 75,
+          "servingSize": "Cocktail serving",
+          "fiber": 11,
+          "sodium": 40,
+          "saturated_fat": 10
+        },
+        {
+          "name": "The Samba",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Cocktail serving",
+          "fiber": 30,
+          "sugars": 2
+        },
+        {
+          "name": "Tiramisu Martini",
+          "calories": 190,
+          "protein": 0,
+          "fat": 30,
+          "carbs": 25,
+          "servingSize": "Cocktail serving",
+          "fiber": 9,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Tropical Cream Dream",
+          "calories": 310,
+          "protein": 0,
+          "fat": 60,
+          "carbs": 80,
+          "servingSize": "Cocktail serving",
+          "fiber": 34,
+          "sodium": 30,
+          "saturated_fat": 6,
+          "sugars": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Wine & Spirits",
+      "items": [
+        {
+          "name": "Coffee Liqueur (53 Proof)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 24
+        },
+        {
+          "name": "Coffee Liqueur (63 Proof)",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 17
+        },
+        {
+          "name": "Coffee with Cream Liqueur (34 Proof)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 70,
+          "carbs": 45,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 10,
+          "sodium": 25,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Godiva Flight",
+          "calories": 210,
+          "protein": 0,
+          "fat": 70,
+          "carbs": 55,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 21,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Grand Marnier Flight",
+          "calories": 70,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 6
+        },
+        {
+          "name": "Hennessy Flight",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Johnnie Walker Flight",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Liquor (80 Proof)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Liquor (86 Proof)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Liquor (90 Proof)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Liquor (94 Proof)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Liquor (100 Proof)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Patron Flight",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Styles of Port Flight",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 12
+        },
+        {
+          "name": "Taylor Fladgate Flight",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 16
+        },
+        {
+          "name": "The Macallan Flight",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving"
+        },
+        {
+          "name": "Wine By The Bottle (Large Format) - Red",
+          "calories": 1270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 39
+        },
+        {
+          "name": "Wine By The Bottle - Cabernet Sauvignon",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Bottle - Chardonnay",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 16
+        },
+        {
+          "name": "Wine By The Bottle - Dessert Dry",
+          "calories": 570,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 44
+        },
+        {
+          "name": "Wine By The Bottle - Dessert Sweet",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 51
+        },
+        {
+          "name": "Wine By The Bottle - Merlot",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 30,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Bottle - Pinot Grigio",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Bottle - Pinot Noir",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 17
+        },
+        {
+          "name": "Wine By The Bottle - Red",
+          "calories": 630,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 30,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Bottle - Ros\u00e9",
+          "calories": 640,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 29
+        },
+        {
+          "name": "Wine By The Bottle - Sauvignon Blanc",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 15
+        },
+        {
+          "name": "Wine By The Bottle - Sparkling",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Bottle - White",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 19
+        },
+        {
+          "name": "Wine By The Glass - Dessert Dry",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 10
+        },
+        {
+          "name": "Wine By The Glass - Dessert Sweet",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 12
+        },
+        {
+          "name": "Wine By The Glass - Red",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 5
+        },
+        {
+          "name": "Wine By The Glass - Sparkling",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 5
+        },
+        {
+          "name": "Wine By The Glass - White",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "Wine/spirits serving",
+          "fiber": 5
+        }
+      ]
+    }
+  ]
+}

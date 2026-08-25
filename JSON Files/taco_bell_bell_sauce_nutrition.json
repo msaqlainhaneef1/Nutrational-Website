@@ -1,0 +1,81 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sauces",
+    "Dipping Sauces"
+  ],
+  "products": [
+    {
+      "product_id": "taco_bell_bell_sauce_nugget_dipping_sauce",
+      "name": "Bell Sauce Nugget Dipping Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Taco Bell's signature creamy and tangy dipping sauce crafted for chicken nuggets, featuring a blend of tomato paste, spices, and savory seasonings.",
+      "price": 0.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dip cup (30 g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 1.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 60.0,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "Soybean Oil",
+        "Water",
+        "Tomato Paste",
+        "Sugar",
+        "Distilled Vinegar",
+        "Egg Yolks",
+        "Salt",
+        "Spices",
+        "Garlic Powder",
+        "Onion Powder"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/food/sauces",
+      "product_url": "https://www.tacobell.com/food/sauces",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/taco-bell/nugget-dipping-sauce/bell-sauce",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.tacobell.com/nutrition/ingredients",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

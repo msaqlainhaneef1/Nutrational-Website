@@ -1,0 +1,127 @@
+{
+  "name": "P.F. Chang's",
+  "slug": "pf-changs-nutrition-calculator",
+  "tagline": "Track nutrition for P.F. Chang's menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 7 menu items at P.F. Chang's.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 7,
+  "categories": [
+    {
+      "name": "Appetizers & Dim Sum",
+      "items": [
+        {
+          "name": "P.F. Chang's Home Lettuce Wraps (Chicken)",
+          "calories": 640,
+          "protein": 34,
+          "fat": 32,
+          "carbs": 58,
+          "servingSize": "1 appetizer portion (380g)",
+          "fiber": 5,
+          "sodium": 1740,
+          "cholesterol": 125,
+          "saturated_fat": 6,
+          "sugars": 18
+        },
+        {
+          "name": "Dynamite Shrimp",
+          "calories": 780,
+          "protein": 22,
+          "fat": 52,
+          "carbs": 62,
+          "servingSize": "1 appetizer portion (290g)",
+          "fiber": 2,
+          "sodium": 1450,
+          "cholesterol": 160,
+          "saturated_fat": 8,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Entrees",
+      "items": [
+        {
+          "name": "Crispy Honey Chicken",
+          "calories": 1120,
+          "protein": 46,
+          "fat": 38,
+          "carbs": 148,
+          "servingSize": "1 entree portion (480g)",
+          "fiber": 3,
+          "sodium": 1280,
+          "cholesterol": 130,
+          "saturated_fat": 7,
+          "sugars": 88
+        },
+        {
+          "name": "Mongolian Beef",
+          "calories": 890,
+          "protein": 42,
+          "fat": 36,
+          "carbs": 102,
+          "servingSize": "1 entree portion (450g)",
+          "fiber": 4,
+          "sodium": 1820,
+          "cholesterol": 115,
+          "saturated_fat": 12,
+          "sugars": 62
+        }
+      ]
+    },
+    {
+      "name": "Noodles & Rice",
+      "items": [
+        {
+          "name": "Lo Mein (Chicken)",
+          "calories": 790,
+          "protein": 44,
+          "fat": 26,
+          "carbs": 92,
+          "servingSize": "1 entree portion (520g)",
+          "fiber": 6,
+          "sodium": 1980,
+          "cholesterol": 140,
+          "saturated_fat": 5,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Sushi",
+      "items": [
+        {
+          "name": "Spicy Tuna Roll",
+          "calories": 380,
+          "protein": 21,
+          "fat": 12,
+          "carbs": 45,
+          "servingSize": "1 roll / 8 pieces (240g)",
+          "fiber": 3,
+          "sodium": 720,
+          "cholesterol": 35,
+          "saturated_fat": 2,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Great Wall of Chocolate",
+          "calories": 1480,
+          "protein": 18,
+          "fat": 78,
+          "carbs": 192,
+          "servingSize": "1 slice for sharing (280g)",
+          "fiber": 11,
+          "sodium": 920,
+          "cholesterol": 180,
+          "saturated_fat": 38,
+          "sugars": 142
+        }
+      ]
+    }
+  ]
+}

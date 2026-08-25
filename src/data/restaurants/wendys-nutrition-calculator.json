@@ -3,9 +3,9 @@
   "slug": "wendys-nutrition-calculator",
   "tagline": "Build your Wendy's order and calculate exact calories, protein, carbs and fat for burgers, chicken, nuggets...",
   "description": "Build your Wendy's order and calculate exact calories, protein, carbs and fat for burgers, chicken, nuggets, sides, salads and Frostys.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf54",
-  "itemCount": 37,
+  "itemCount": 59,
   "categories": [
     {
       "name": "Hamburgers",
@@ -119,6 +119,19 @@
           "sodium": 1900,
           "cholesterol": 200,
           "saturated_fat": 23
+        },
+        {
+          "name": "Mushroom Bacon Cheeseburger",
+          "calories": 730,
+          "protein": 38,
+          "fat": 47,
+          "carbs": 37,
+          "servingSize": "1 sandwich (265g)",
+          "fiber": 2,
+          "sodium": 1420,
+          "cholesterol": 140,
+          "saturated_fat": 18,
+          "sugars": 7
         }
       ]
     },
@@ -212,6 +225,68 @@
           "sodium": 920,
           "cholesterol": 65,
           "saturated_fat": 5
+        },
+        {
+          "name": "4 Piece Chicken Nuggets",
+          "calories": 170,
+          "protein": 9,
+          "fat": 11,
+          "carbs": 10,
+          "servingSize": "4 pieces",
+          "fiber": 0.5,
+          "sodium": 340,
+          "cholesterol": 25,
+          "saturated_fat": 2
+        },
+        {
+          "name": "4 Piece Spicy Chicken Nuggets",
+          "calories": 190,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 9,
+          "servingSize": "4 pieces",
+          "fiber": 0.5,
+          "sodium": 380,
+          "cholesterol": 25,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Cajun Crunch Spicy Chicken Sandwich",
+          "calories": 610,
+          "protein": 33,
+          "fat": 31,
+          "carbs": 50,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 1360,
+          "cholesterol": 90,
+          "saturated_fat": 7,
+          "sugars": 5
+        },
+        {
+          "name": "Crispy Chicken Nuggets (6 Piece)",
+          "calories": 270,
+          "protein": 15,
+          "fat": 16,
+          "carbs": 16,
+          "servingSize": "6 pieces (93g)",
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 40,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Crispy Chicken Sandwich",
+          "calories": 360,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 40,
+          "servingSize": "1 sandwich (153g)",
+          "fiber": 2,
+          "sodium": 680,
+          "cholesterol": 35,
+          "saturated_fat": 3,
+          "sugars": 5
         }
       ]
     },
@@ -425,6 +500,247 @@
           "carbs": 44,
           "fiber": 5,
           "sodium": 730
+        },
+        {
+          "name": "French Toast Sticks (4 Piece)",
+          "calories": 300,
+          "protein": 6,
+          "fat": 12,
+          "carbs": 43,
+          "servingSize": "4 pieces (125g)",
+          "fiber": 1,
+          "sodium": 440,
+          "cholesterol": 20,
+          "saturated_fat": 2,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Cobb Salad (Full Size)",
+          "calories": 610,
+          "protein": 41,
+          "fat": 42,
+          "carbs": 18,
+          "servingSize": "1 salad with dressing (510g)",
+          "fiber": 4,
+          "sodium": 1470,
+          "cholesterol": 310,
+          "saturated_fat": 13,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Gluten-Free Frosty",
+      "items": [
+        {
+          "name": "Classic Chocolate Frosty (Small - Gluten-Free)",
+          "calories": 340,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 57,
+          "servingSize": "Small (310g / 12 fl oz)",
+          "sodium": 200,
+          "cholesterol": 35,
+          "saturated_fat": 5,
+          "sugars": 49
+        }
+      ]
+    },
+    {
+      "name": "Gluten-Free Sides",
+      "items": [
+        {
+          "name": "Plain Baked Potato (Gluten-Free)",
+          "calories": 270,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 61,
+          "servingSize": "1 potato (307g)",
+          "fiber": 7,
+          "sodium": 35,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Frosty Desserts",
+      "items": [
+        {
+          "name": "Salted Caramel Frosty (Medium)",
+          "calories": 470,
+          "protein": 11,
+          "fat": 12,
+          "carbs": 78,
+          "servingSize": "Medium (450g / 16 fl oz)",
+          "sodium": 280,
+          "cholesterol": 45,
+          "saturated_fat": 7,
+          "sugars": 67
+        },
+        {
+          "name": "Salted Caramel Frosty (Large)",
+          "calories": 610,
+          "protein": 14,
+          "fat": 16,
+          "carbs": 101,
+          "servingSize": "Large (600g / 20 fl oz)",
+          "sodium": 360,
+          "cholesterol": 60,
+          "saturated_fat": 10,
+          "sugars": 87
+        }
+      ]
+    },
+    {
+      "name": "Chicken Nuggets",
+      "items": [
+        {
+          "name": "Spicy Chicken Nuggets (4 Pc.)",
+          "calories": 190,
+          "protein": 9,
+          "fat": 12,
+          "carbs": 11,
+          "servingSize": "4 pieces (64g)",
+          "fiber": 1,
+          "sodium": 460,
+          "cholesterol": 25,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Spicy Chicken Nuggets (6 Pc.)",
+          "calories": 280,
+          "protein": 14,
+          "fat": 18,
+          "carbs": 16,
+          "servingSize": "6 pieces (96g)",
+          "fiber": 1.5,
+          "sodium": 690,
+          "cholesterol": 35,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Spicy Chicken Nuggets (10 Pc.)",
+          "calories": 470,
+          "protein": 24,
+          "fat": 30,
+          "carbs": 27,
+          "servingSize": "10 pieces (160g)",
+          "fiber": 2.5,
+          "sodium": 1150,
+          "cholesterol": 60,
+          "saturated_fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Strawberry Lemonade (Medium)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "servingSize": "1 medium (591ml)",
+          "sodium": 30,
+          "sugars": 68
+        }
+      ]
+    },
+    {
+      "name": "Desserts & Treats",
+      "items": [
+        {
+          "name": "Thin Mint Chocolate Frosty (Medium)",
+          "calories": 590,
+          "protein": 13,
+          "fat": 26,
+          "carbs": 80,
+          "servingSize": "Medium",
+          "fiber": 2,
+          "sodium": 340,
+          "cholesterol": 65,
+          "saturated_fat": 16,
+          "sugars": 65
+        }
+      ]
+    },
+    {
+      "name": "Natural-Cut French Fries",
+      "items": [
+        {
+          "name": "Natural-Cut French Fries (Small)",
+          "calories": 320,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 42,
+          "servingSize": "Small (96g)",
+          "fiber": 4,
+          "sodium": 380,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Natural-Cut French Fries (Medium)",
+          "calories": 450,
+          "protein": 6,
+          "fat": 22,
+          "carbs": 59,
+          "servingSize": "Medium (136g)",
+          "fiber": 5,
+          "sodium": 540,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Natural-Cut French Fries (Large)",
+          "calories": 590,
+          "protein": 7,
+          "fat": 28,
+          "carbs": 77,
+          "servingSize": "Large (179g)",
+          "fiber": 7,
+          "sodium": 710,
+          "saturated_fat": 4,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Loaded French Fries",
+      "items": [
+        {
+          "name": "Loaded Cheese Fries",
+          "calories": 530,
+          "protein": 14,
+          "fat": 31,
+          "carbs": 47,
+          "servingSize": "1 order (210g)",
+          "fiber": 4,
+          "sodium": 1180,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Dipping Sauces & Seasonings",
+      "items": [
+        {
+          "name": "Honey Mustard Dipping Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 6,
+          "servingSize": "1 container (28g)",
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 5
         }
       ]
     }

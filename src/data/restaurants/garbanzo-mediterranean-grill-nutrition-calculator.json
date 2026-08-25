@@ -1,0 +1,2010 @@
+{
+  "name": "Garbanzo Mediterranean Grill",
+  "slug": "garbanzo-mediterranean-grill-nutrition-calculator",
+  "tagline": "Track nutrition for Garbanzo Mediterranean Grill menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 191 menu items at Garbanzo Mediterranean Grill.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 191,
+  "categories": [
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "Gluten-Free Pita",
+          "calories": 260,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 52,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 1,
+          "sodium": 380,
+          "sugars": 2
+        },
+        {
+          "name": "Gyro Pita",
+          "calories": 220,
+          "protein": 8,
+          "fat": 3.5,
+          "carbs": 39,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 2,
+          "sodium": 440,
+          "sugars": 2
+        },
+        {
+          "name": "Wheat Pita",
+          "calories": 270,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 54,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 4,
+          "sodium": 440,
+          "sugars": 2
+        },
+        {
+          "name": "Wheat Tortilla",
+          "calories": 290,
+          "protein": 9,
+          "fat": 7,
+          "carbs": 50,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 6,
+          "sodium": 750,
+          "saturated_fat": 3
+        },
+        {
+          "name": "White Pita",
+          "calories": 280,
+          "protein": 8,
+          "fat": 2,
+          "carbs": 56,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 2,
+          "sodium": 440,
+          "sugars": 2
+        },
+        {
+          "name": "White Tortilla",
+          "calories": 310,
+          "protein": 8,
+          "fat": 7,
+          "carbs": 52,
+          "servingSize": "1 pita/tortilla",
+          "fiber": 2,
+          "sodium": 740,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Pita Bread (PDF)",
+          "calories": 260,
+          "protein": 9,
+          "fat": 1,
+          "carbs": 49,
+          "servingSize": "6.75 oz (1 pita)",
+          "fiber": 2,
+          "sodium": 550,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Chicken, Entree Salad",
+          "calories": 160,
+          "protein": 21,
+          "fat": 8,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "cholesterol": 115,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chicken, Gyro",
+          "calories": 160,
+          "protein": 21,
+          "fat": 8,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "cholesterol": 115,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chicken, Pita",
+          "calories": 140,
+          "protein": 19,
+          "fat": 7,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 115,
+          "cholesterol": 100,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chicken, Plate",
+          "calories": 160,
+          "protein": 21,
+          "fat": 8,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "cholesterol": 115,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chicken, Wrap",
+          "calories": 160,
+          "protein": 21,
+          "fat": 8,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "cholesterol": 115,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Chicken Kabob",
+          "calories": 250,
+          "protein": 17,
+          "fat": 18,
+          "carbs": 7,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 310,
+          "cholesterol": 45,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Falafel, Entree Salad",
+          "calories": 380,
+          "protein": 15,
+          "fat": 21,
+          "carbs": 42,
+          "servingSize": "Standard portion",
+          "fiber": 12,
+          "sodium": 1070,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Falafel, Gyro",
+          "calories": 250,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 28,
+          "servingSize": "Standard portion",
+          "fiber": 8,
+          "sodium": 710,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Falafel, Pita",
+          "calories": 250,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 28,
+          "servingSize": "Standard portion",
+          "fiber": 8,
+          "sodium": 710,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Falafel, Plate",
+          "calories": 380,
+          "protein": 15,
+          "fat": 21,
+          "carbs": 42,
+          "servingSize": "Standard portion",
+          "fiber": 12,
+          "sodium": 1070,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Falafel, Wrap",
+          "calories": 380,
+          "protein": 15,
+          "fat": 21,
+          "carbs": 42,
+          "servingSize": "Standard portion",
+          "fiber": 12,
+          "sodium": 1070,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Entree Salad",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 3,
+          "sodium": 90,
+          "saturated_fat": 0.5,
+          "sugars": 3
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Gyro",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 3,
+          "sodium": 90,
+          "saturated_fat": 0.5,
+          "sugars": 3
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Pita",
+          "calories": 60,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 50,
+          "sugars": 2
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Plate",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 3,
+          "sodium": 90,
+          "saturated_fat": 0.5,
+          "sugars": 3
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Wrap",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 3,
+          "sodium": 90,
+          "saturated_fat": 0.5,
+          "sugars": 3
+        },
+        {
+          "name": "Gyro Meat",
+          "calories": 310,
+          "protein": 12,
+          "fat": 26,
+          "carbs": 7,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 590,
+          "cholesterol": 55,
+          "saturated_fat": 10,
+          "sugars": 1
+        },
+        {
+          "name": "Sirloin Steak, Entree Salad",
+          "calories": 180,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 370,
+          "cholesterol": 75,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Sirloin Steak, Gyro",
+          "calories": 180,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 370,
+          "cholesterol": 75,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Sirloin Steak, Pita",
+          "calories": 140,
+          "protein": 22,
+          "fat": 5,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 220,
+          "cholesterol": 60,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Sirloin Steak, Plate",
+          "calories": 180,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 370,
+          "cholesterol": 75,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Sirloin Steak, Wrap",
+          "calories": 180,
+          "protein": 29,
+          "fat": 6,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 370,
+          "cholesterol": 75,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Steak Kabob",
+          "calories": 230,
+          "protein": 23,
+          "fat": 15,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 220,
+          "cholesterol": 220,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Beef",
+          "calories": 240,
+          "protein": 32,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "8 oz (4T)",
+          "sodium": 110,
+          "cholesterol": 90
+        },
+        {
+          "name": "Chicken (PDF)",
+          "calories": 370,
+          "protein": 38,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1.5 oz (4T)",
+          "sodium": 330,
+          "cholesterol": 110
+        },
+        {
+          "name": "Falafel (PDF)",
+          "calories": 220,
+          "protein": 8,
+          "fat": 6,
+          "carbs": 30,
+          "servingSize": "3.6 oz (6 pcs)",
+          "fiber": 4,
+          "sodium": 390,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Grilled Chicken (PDF)",
+          "calories": 220,
+          "protein": 25,
+          "fat": 2,
+          "carbs": 0,
+          "servingSize": "5 oz (1.5T)",
+          "sodium": 400,
+          "cholesterol": 70
+        },
+        {
+          "name": "Lamb",
+          "calories": 410,
+          "protein": 30,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "6 oz (2T)",
+          "sodium": 570,
+          "cholesterol": 85,
+          "saturated_fat": 8
+        },
+        {
+          "name": "Veggie Burger",
+          "calories": 220,
+          "protein": 8,
+          "fat": 6,
+          "carbs": 30,
+          "servingSize": "3.6 oz",
+          "fiber": 4,
+          "sodium": 390,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Traditional Gyro",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Harissa Chicken Stuffed Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Build Your Own Gyro",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Build Your Own Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides & Toppings",
+      "items": [
+        {
+          "name": "Cilantro Sauce, Entree Salad",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 100,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro Sauce, Gyro",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 100,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro Sauce, Pita",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 100,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro Sauce, Plate",
+          "calories": 40,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 140,
+          "sugars": 1
+        },
+        {
+          "name": "Cilantro Sauce, Wrap",
+          "calories": 40,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 140,
+          "sugars": 1
+        },
+        {
+          "name": "Cucumber & Tomato, Entree Salad",
+          "calories": 40,
+          "protein": 1,
+          "fat": 3.5,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 400,
+          "sugars": 2
+        },
+        {
+          "name": "Cucumber & Tomato, Gyro",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 240,
+          "sugars": 1
+        },
+        {
+          "name": "Cucumber & Tomato, Kabob",
+          "calories": 50,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 4,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 490,
+          "sugars": 2
+        },
+        {
+          "name": "Cucumber & Tomato, Pita",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 240,
+          "sugars": 1
+        },
+        {
+          "name": "Cucumber & Tomato, Plate",
+          "calories": 50,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 4,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 480,
+          "sugars": 2
+        },
+        {
+          "name": "Cucumber & Tomato, Wrap",
+          "calories": 50,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 4,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 480,
+          "sugars": 2
+        },
+        {
+          "name": "Feta Cheese",
+          "calories": 110,
+          "protein": 6,
+          "fat": 9,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 450,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Feta Cheese, Entree Salad",
+          "calories": 70,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 260,
+          "cholesterol": 25,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Greek Vinaigrette (Greggorio's)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 290,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Greek Vinaigrette (Hidden Valley)",
+          "calories": 120,
+          "protein": 0,
+          "fat": 12,
+          "carbs": 5,
+          "servingSize": "Standard portion",
+          "sodium": 190,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Greek Vinaigrette (Housemade)",
+          "calories": 140,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 4,
+          "servingSize": "Standard portion",
+          "sodium": 370,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Greek Vinaigrette (Ken's)",
+          "calories": 70,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "sodium": 280,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Hummus, Entree Salad",
+          "calories": 100,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 170
+        },
+        {
+          "name": "Hummus, Gyro",
+          "calories": 100,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 170
+        },
+        {
+          "name": "Hummus, Kabob",
+          "calories": 180,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 5,
+          "servingSize": "Standard portion",
+          "sodium": 320
+        },
+        {
+          "name": "Hummus, Pita",
+          "calories": 100,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 170
+        },
+        {
+          "name": "Hummus, Plate",
+          "calories": 190,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 5,
+          "servingSize": "Standard portion",
+          "sodium": 330
+        },
+        {
+          "name": "Hummus, Wrap",
+          "calories": 190,
+          "protein": 9,
+          "fat": 14,
+          "carbs": 5,
+          "servingSize": "Standard portion",
+          "sodium": 330
+        },
+        {
+          "name": "Kalamata Olives",
+          "calories": 45,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 260
+        },
+        {
+          "name": "Lettuce, Entree Salad",
+          "calories": 30,
+          "protein": 2,
+          "fat": 0.5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 4,
+          "sodium": 15,
+          "sugars": 2
+        },
+        {
+          "name": "Lettuce, Pita",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Lettuce, Plate",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Lettuce, Wrap",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Mediterranean Garlic Sauce, Entree Salad",
+          "calories": 130,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Mediterranean Garlic Sauce, Gyro",
+          "calories": 120,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Mediterranean Garlic Sauce, Pita",
+          "calories": 120,
+          "protein": 0,
+          "fat": 14,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Mediterranean Garlic Sauce, Plate",
+          "calories": 130,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Mediterranean Garlic Sauce, Wrap",
+          "calories": 130,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "Standard portion",
+          "sodium": 200,
+          "cholesterol": 15,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Pickled Onions, Entree Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 320
+        },
+        {
+          "name": "Pickled Onions, Gyro",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 310
+        },
+        {
+          "name": "Pickled Onions, Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 540
+        },
+        {
+          "name": "Pickled Onions, Plate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 310
+        },
+        {
+          "name": "Pickled Onions, Wrap",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 310
+        },
+        {
+          "name": "Red Cabbage, Entree Salad",
+          "calories": 30,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "sugars": 1
+        },
+        {
+          "name": "Red Cabbage, Gyro",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 50,
+          "sugars": 1
+        },
+        {
+          "name": "Red Cabbage, Pita",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 50,
+          "sugars": 1
+        },
+        {
+          "name": "Red Cabbage, Plate",
+          "calories": 30,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "sugars": 1
+        },
+        {
+          "name": "Red Cabbage, Wrap",
+          "calories": 30,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "sugars": 1
+        },
+        {
+          "name": "Red Chili Sauce, Entree Salad",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "sugars": 1
+        },
+        {
+          "name": "Red Chili Sauce, Gyro",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "sugars": 1
+        },
+        {
+          "name": "Red Chili Sauce, Pita",
+          "calories": 25,
+          "protein": 0,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 135,
+          "sugars": 1
+        },
+        {
+          "name": "Red Chili Sauce, Plate",
+          "calories": 45,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "sodium": 240,
+          "sugars": 2
+        },
+        {
+          "name": "Red Chili Sauce, Wrap",
+          "calories": 45,
+          "protein": 0,
+          "fat": 4,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "sodium": 240,
+          "sugars": 2
+        },
+        {
+          "name": "Red Onion, Gyro",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Red Onion, Pita",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Red Onion, Plate",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Red Onion, Wrap",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion"
+        },
+        {
+          "name": "Rice, Entree Salad",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "Standard portion",
+          "sodium": 120
+        },
+        {
+          "name": "Rice, Gyro",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "Standard portion",
+          "sodium": 120
+        },
+        {
+          "name": "Rice, Kabob",
+          "calories": 240,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 40,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 570,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Rice, Pita",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "Standard portion",
+          "sodium": 120
+        },
+        {
+          "name": "Rice, Plate",
+          "calories": 110,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 19,
+          "servingSize": "Standard portion",
+          "sodium": 270
+        },
+        {
+          "name": "Rice, Wrap",
+          "calories": 110,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 19,
+          "servingSize": "Standard portion",
+          "sodium": 270
+        },
+        {
+          "name": "Roasted Eggplant, Entree Salad",
+          "calories": 45,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 130
+        },
+        {
+          "name": "Roasted Eggplant, Gyro",
+          "calories": 30,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 80
+        },
+        {
+          "name": "Roasted Eggplant, Pita",
+          "calories": 30,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 80
+        },
+        {
+          "name": "Roasted Eggplant, Plate",
+          "calories": 60,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 160,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Roasted Eggplant, Wrap",
+          "calories": 60,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 160,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Seasonal Vegetable Blend #1",
+          "calories": 70,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 5,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Seasonal Vegetable Blend #2",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Seasonal Vegetable Blend #3",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Seasonal Vegetable Blend #4",
+          "calories": 70,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 95,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Seasonal Vegetable Blend #5",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 7,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 105,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Seasonal Vegetable Blend, Standard",
+          "calories": 80,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 8,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 85,
+          "saturated_fat": 0.5,
+          "sugars": 4
+        },
+        {
+          "name": "Tabuleh Salad, Entree Salad",
+          "calories": 35,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 90
+        },
+        {
+          "name": "Tabuleh Salad, Gyro",
+          "calories": 35,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 90
+        },
+        {
+          "name": "Tabuleh Salad, Pita",
+          "calories": 35,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 6,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 90
+        },
+        {
+          "name": "Tabuleh Salad, Plate",
+          "calories": 60,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 9,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 150,
+          "sugars": 1
+        },
+        {
+          "name": "Tabuleh Salad, Wrap",
+          "calories": 60,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 9,
+          "servingSize": "Standard portion",
+          "fiber": 2,
+          "sodium": 150,
+          "sugars": 1
+        },
+        {
+          "name": "Tahini Sauce, Entree Salad",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 75,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Tahini Sauce, Gyro",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 75,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Tahini Sauce, Pita",
+          "calories": 50,
+          "protein": 2,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 75,
+          "saturated_fat": 0.5
+        },
+        {
+          "name": "Tahini Sauce, Plate",
+          "calories": 80,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 115,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tahini Sauce, Wrap",
+          "calories": 80,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 3,
+          "servingSize": "Standard portion",
+          "fiber": 1,
+          "sodium": 115,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Tzatziki Sauce, Entree Salad",
+          "calories": 35,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 65,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Tzatziki Sauce, Gyro",
+          "calories": 50,
+          "protein": 1,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Tzatziki Sauce, Pita",
+          "calories": 50,
+          "protein": 1,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 90,
+          "cholesterol": 10,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Tzatziki Sauce, Plate",
+          "calories": 60,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Tzatziki Sauce, Wrap",
+          "calories": 60,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 105,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Pepperoncini, Entree Salad",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "Standard portion",
+          "sodium": 320
+        },
+        {
+          "name": "Pickles, Entree Salad",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 540
+        },
+        {
+          "name": "Pickles, Gyro",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 310
+        },
+        {
+          "name": "Pickles, Pita",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 310
+        },
+        {
+          "name": "Pickles, Plate",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 540
+        },
+        {
+          "name": "Pickles, Wrap",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Standard portion",
+          "sodium": 540
+        },
+        {
+          "name": "Babaganoush",
+          "calories": 40,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 2,
+          "servingSize": "1.5 oz",
+          "fiber": 1,
+          "sodium": 110
+        },
+        {
+          "name": "Baba Ghanoush",
+          "calories": 60,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 2,
+          "servingSize": "2 oz (2T)",
+          "fiber": 1,
+          "sodium": 210
+        },
+        {
+          "name": "Black Hummus",
+          "calories": 180,
+          "protein": 10,
+          "fat": 1,
+          "carbs": 12,
+          "servingSize": "2.7 oz",
+          "fiber": 4,
+          "sodium": 210
+        },
+        {
+          "name": "Hummus (PDF)",
+          "calories": 160,
+          "protein": 5,
+          "fat": 7,
+          "carbs": 14,
+          "servingSize": "3 oz (6T)",
+          "fiber": 4,
+          "sodium": 310,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Za'atar Seasoning",
+          "calories": 30,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 4,
+          "servingSize": "0.5 oz (1T)",
+          "fiber": 1,
+          "sodium": 110
+        },
+        {
+          "name": "Classic Pita Chips",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Dips & Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Signature Fries",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Dressings",
+      "items": [
+        {
+          "name": "Tahini Sauce",
+          "calories": 150,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 3,
+          "servingSize": "2 oz (4T)",
+          "fiber": 1,
+          "sodium": 200,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Tzatziki",
+          "calories": 90,
+          "protein": 2,
+          "fat": 5,
+          "carbs": 6,
+          "servingSize": "2.2 oz (4T)",
+          "sodium": 390,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 4
+        },
+        {
+          "name": "Cucumber Dill Yogurt Sauce",
+          "calories": 100,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 5,
+          "servingSize": "2 oz (4T)",
+          "sodium": 390,
+          "cholesterol": 15,
+          "saturated_fat": 1,
+          "sugars": 5
+        },
+        {
+          "name": "Garlic Yogurt Dill Sauce",
+          "calories": 100,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 5,
+          "servingSize": "2.2 oz (4T)",
+          "sodium": 400,
+          "cholesterol": 15,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Yogurt Dill Sauce",
+          "calories": 80,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 6,
+          "servingSize": "2 oz (4T)",
+          "sodium": 330,
+          "cholesterol": 10,
+          "saturated_fat": 1,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Extras & Desserts",
+      "items": [
+        {
+          "name": "Baklava",
+          "calories": 230,
+          "protein": 2,
+          "fat": 11,
+          "carbs": 31,
+          "servingSize": "1 piece",
+          "fiber": 1,
+          "sodium": 85,
+          "saturated_fat": 4.5,
+          "sugars": 15
+        },
+        {
+          "name": "Cookie",
+          "calories": 390,
+          "protein": 4,
+          "fat": 20,
+          "carbs": 50,
+          "servingSize": "1 cookie",
+          "fiber": 2,
+          "sodium": 280,
+          "cholesterol": 25,
+          "saturated_fat": 10,
+          "sugars": 20
+        },
+        {
+          "name": "Falafel",
+          "calories": 320,
+          "protein": 12,
+          "fat": 17,
+          "carbs": 35,
+          "servingSize": "Standard portion",
+          "fiber": 10,
+          "sodium": 890,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Garbanzo Seasoned Chips",
+          "calories": 530,
+          "protein": 7,
+          "fat": 34,
+          "carbs": 53,
+          "servingSize": "Standard portion",
+          "fiber": 5,
+          "sodium": 310,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Feisty Feta Fries",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Garlic Steak Fries",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Gyro Feta Fries",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Chocolate Milk",
+          "calories": 140,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 23,
+          "servingSize": "1 bottle",
+          "sodium": 180,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 22
+        },
+        {
+          "name": "White Milk, 1%",
+          "calories": 100,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 12,
+          "servingSize": "1 bottle",
+          "sodium": 125,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 12
+        },
+        {
+          "name": "Pepsi",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "servingSize": "1 bottle",
+          "sodium": 55,
+          "sugars": 77
+        },
+        {
+          "name": "Diet Pepsi",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 bottle",
+          "sodium": 75
+        },
+        {
+          "name": "Dr Pepper",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74,
+          "servingSize": "1 bottle",
+          "sodium": 95,
+          "sugars": 74
+        },
+        {
+          "name": "Diet Dr. Pepper",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 bottle",
+          "sodium": 95
+        },
+        {
+          "name": "Sierra Mist",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "servingSize": "1 bottle",
+          "sodium": 70,
+          "sugars": 72
+        },
+        {
+          "name": "Mountain Dew",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 85,
+          "servingSize": "1 bottle",
+          "sodium": 110,
+          "sugars": 85
+        },
+        {
+          "name": "Diet Mt. Dew",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 bottle",
+          "sodium": 95
+        },
+        {
+          "name": "Mint Lemonade",
+          "calories": 420,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 108,
+          "servingSize": "1 bottle",
+          "sugars": 102
+        },
+        {
+          "name": "Pomegranate Lemonade",
+          "calories": 480,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 122,
+          "servingSize": "1 bottle",
+          "sugars": 116
+        },
+        {
+          "name": "SoBe Pomegranate Yumberry",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 bottle",
+          "sodium": 65
+        },
+        {
+          "name": "Bottled Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Iced Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Tractor Bottled Beverages",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Tractor Fountain Drinks",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Grab & Go",
+      "items": [
+        {
+          "name": "Greek Salad, Chicken",
+          "calories": 410,
+          "protein": 29,
+          "fat": 27,
+          "carbs": 16,
+          "servingSize": "Standard portion",
+          "fiber": 5,
+          "sodium": 1200,
+          "cholesterol": 140,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Greek Salad, Vegetarian",
+          "calories": 230,
+          "protein": 5,
+          "fat": 18,
+          "carbs": 16,
+          "servingSize": "Standard portion",
+          "fiber": 5,
+          "sodium": 1050,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 6
+        },
+        {
+          "name": "Snack Pack",
+          "calories": 560,
+          "protein": 22,
+          "fat": 25,
+          "carbs": 62,
+          "servingSize": "Standard portion",
+          "fiber": 6,
+          "sodium": 1350,
+          "sugars": 5
+        },
+        {
+          "name": "Wrap, Chicken",
+          "calories": 720,
+          "protein": 41,
+          "fat": 30,
+          "carbs": 70,
+          "servingSize": "Standard portion",
+          "fiber": 8,
+          "sodium": 1410,
+          "cholesterol": 140,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Wrap, Vegetarian",
+          "calories": 520,
+          "protein": 16,
+          "fat": 20,
+          "carbs": 70,
+          "servingSize": "Standard portion",
+          "fiber": 8,
+          "sodium": 1190,
+          "cholesterol": 5,
+          "saturated_fat": 5,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "Chicken, Kid's Portion",
+          "calories": 80,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 0,
+          "servingSize": "Kid's portion",
+          "sodium": 70,
+          "cholesterol": 60,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Falafel, Kid's Portion",
+          "calories": 190,
+          "protein": 7,
+          "fat": 10,
+          "carbs": 21,
+          "servingSize": "Kid's portion",
+          "fiber": 6,
+          "sodium": 540,
+          "saturated_fat": 0.5,
+          "sugars": 1
+        },
+        {
+          "name": "Grilled Portobello Mushroom, Kid's Portion",
+          "calories": 45,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 3,
+          "servingSize": "Kid's portion",
+          "fiber": 1,
+          "sodium": 40,
+          "sugars": 1
+        },
+        {
+          "name": "Gyro Meat, Kid's Portion",
+          "calories": 210,
+          "protein": 8,
+          "fat": 17,
+          "carbs": 5,
+          "servingSize": "Kid's portion",
+          "fiber": 1,
+          "sodium": 400,
+          "cholesterol": 35,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Kids Apple",
+          "calories": 90,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "Kid's portion",
+          "fiber": 4,
+          "sugars": 19
+        },
+        {
+          "name": "Kids Stuffed Pita (Wheat Pita), Kid's Portion",
+          "calories": 130,
+          "protein": 4,
+          "fat": 1,
+          "carbs": 27,
+          "servingSize": "Kid's portion",
+          "fiber": 2,
+          "sodium": 220,
+          "sugars": 1
+        },
+        {
+          "name": "Kids Stuffed Pita (White Pita), Kid's Portion",
+          "calories": 140,
+          "protein": 4,
+          "fat": 1,
+          "carbs": 28,
+          "servingSize": "Kid's portion",
+          "fiber": 1,
+          "sodium": 220,
+          "sugars": 1
+        },
+        {
+          "name": "Pita Grilled Cheese (Wheat Pita), Kid's Portion",
+          "calories": 350,
+          "protein": 13,
+          "fat": 10,
+          "carbs": 53,
+          "servingSize": "Kid's portion",
+          "fiber": 4,
+          "sodium": 570,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        },
+        {
+          "name": "Pita Grilled Cheese (White Pita), Kid's Portion",
+          "calories": 360,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 56,
+          "servingSize": "Kid's portion",
+          "fiber": 2,
+          "sodium": 580,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        },
+        {
+          "name": "Rice, Kid's Portion",
+          "calories": 60,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 9,
+          "servingSize": "Kid's portion",
+          "sodium": 135
+        },
+        {
+          "name": "Sirloin Steak, Kid's Portion",
+          "calories": 90,
+          "protein": 14,
+          "fat": 3,
+          "carbs": 0,
+          "servingSize": "Kid's portion",
+          "sodium": 65,
+          "cholesterol": 40,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Kids Bowl",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kids Grilled Cheese Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kids Pita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Plates & Bowls",
+      "items": [
+        {
+          "name": "Signature Plate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Crispy Falafel Bowl",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Build Your Own Plate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Build Your Own Bowl",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Classic Greek Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Build Your Own Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    }
+  ]
+}

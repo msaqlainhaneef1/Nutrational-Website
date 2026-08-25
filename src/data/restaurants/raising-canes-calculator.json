@@ -3,9 +3,9 @@
   "slug": "raising-canes-calculator",
   "tagline": "Build your Raising Cane's order and calculate calories, protein, carbs and fat for chicken finger combos, s...",
   "description": "Build your Raising Cane's order and calculate calories, protein, carbs and fat for chicken finger combos, sides, sauces and drinks.",
-  "category": "Chicken",
+  "category": "Chicken & Wings",
   "emoji": "\ud83c\udf57",
-  "itemCount": 15,
+  "itemCount": 18,
   "categories": [
     {
       "name": "Combos",
@@ -53,6 +53,19 @@
           "sodium": 1190,
           "cholesterol": 75,
           "saturated_fat": 6
+        },
+        {
+          "name": "Caniac Combo",
+          "calories": 1790,
+          "protein": 76,
+          "fat": 92,
+          "carbs": 156,
+          "servingSize": "1 combo meal",
+          "fiber": 9,
+          "sodium": 3450,
+          "cholesterol": 210,
+          "saturated_fat": 16,
+          "sugars": 42
         }
       ]
     },
@@ -91,6 +104,18 @@
           "sodium": 1450,
           "cholesterol": 110,
           "saturated_fat": 7
+        },
+        {
+          "name": "Chicken Fingers (6 pc)",
+          "calories": 480,
+          "protein": 52,
+          "fat": 24,
+          "carbs": 16,
+          "servingSize": "6 pieces (210g)",
+          "fiber": 1,
+          "sodium": 1180,
+          "cholesterol": 140,
+          "saturated_fat": 4
         }
       ]
     },
@@ -180,6 +205,21 @@
           "carbs": 1,
           "fiber": 0,
           "sodium": 15
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Sweet Tea",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "servingSize": "22 fl oz cup",
+          "sodium": 15,
+          "sugars": 52
         }
       ]
     }

@@ -1,0 +1,2428 @@
+{
+  "name": "Bojangles",
+  "slug": "bojangles-nutrition-calculator",
+  "tagline": "Track nutrition for Bojangles menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 231 menu items at Bojangles.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 231,
+  "categories": [
+    {
+      "name": "bone_in_chicken",
+      "items": [
+        {
+          "name": "Chicken Breast",
+          "calories": 540,
+          "protein": 41,
+          "fat": 29,
+          "carbs": 24,
+          "servingSize": "1 pc",
+          "fiber": 1,
+          "sodium": 580,
+          "cholesterol": 130,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Chicken Leg",
+          "calories": 190,
+          "protein": 10,
+          "fat": 13,
+          "carbs": 8,
+          "servingSize": "1 pc",
+          "sodium": 370,
+          "cholesterol": 55,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Chicken Thigh",
+          "calories": 240,
+          "protein": 21,
+          "fat": 10,
+          "carbs": 14,
+          "servingSize": "1 pc",
+          "fiber": 1,
+          "sodium": 600,
+          "cholesterol": 100,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Chicken Wing",
+          "calories": 150,
+          "protein": 10,
+          "fat": 8,
+          "carbs": 8,
+          "servingSize": "1 pc",
+          "sodium": 300,
+          "cholesterol": 30,
+          "saturated_fat": 3.5
+        }
+      ]
+    },
+    {
+      "name": "boneless_chicken",
+      "items": [
+        {
+          "name": "Chicken Supremes (4pc)",
+          "calories": 500,
+          "protein": 32,
+          "fat": 25,
+          "carbs": 33,
+          "servingSize": "4 pc",
+          "sodium": 920,
+          "cholesterol": 100,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Bo's Chicken Tenders (3pc)",
+          "calories": 310,
+          "protein": 36,
+          "fat": 10,
+          "carbs": 17,
+          "servingSize": "3 pc",
+          "sodium": 1220,
+          "cholesterol": 105,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Bo's Chicken Tenders (4pc)",
+          "calories": 410,
+          "protein": 48,
+          "fat": 14,
+          "carbs": 23,
+          "servingSize": "4 pc",
+          "fiber": 1,
+          "sodium": 1630,
+          "cholesterol": 145,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Bo's Chicken Tenders (5pc)",
+          "calories": 510,
+          "protein": 60,
+          "fat": 17,
+          "carbs": 29,
+          "servingSize": "5 pc",
+          "fiber": 1,
+          "sodium": 2040,
+          "cholesterol": 180,
+          "saturated_fat": 7,
+          "sugars": 2
+        },
+        {
+          "name": "Bo Bites (4pc A La Carte)",
+          "calories": 220,
+          "protein": 16,
+          "fat": 12,
+          "carbs": 12,
+          "servingSize": "4 pc",
+          "sodium": 510,
+          "cholesterol": 56,
+          "saturated_fat": 6,
+          "sugars": 1
+        },
+        {
+          "name": "Bo Bites (6pc A La Carte)",
+          "calories": 320,
+          "protein": 24,
+          "fat": 18,
+          "carbs": 18,
+          "servingSize": "6 pc",
+          "fiber": 1,
+          "sodium": 760,
+          "cholesterol": 84,
+          "saturated_fat": 9,
+          "sugars": 1
+        },
+        {
+          "name": "Bo Bites (9pc A La Carte)",
+          "calories": 480,
+          "protein": 36,
+          "fat": 27,
+          "carbs": 27,
+          "servingSize": "9 pc",
+          "fiber": 1,
+          "sodium": 1140,
+          "cholesterol": 126,
+          "saturated_fat": 13.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bo Bites (12pc A La Carte)",
+          "calories": 640,
+          "protein": 48,
+          "fat": 36,
+          "carbs": 36,
+          "servingSize": "12 pc",
+          "fiber": 1,
+          "sodium": 1520,
+          "cholesterol": 168,
+          "saturated_fat": 18,
+          "sugars": 2
+        },
+        {
+          "name": "Bo Bites (20pc A La Carte)",
+          "calories": 1060,
+          "protein": 80,
+          "fat": 60,
+          "carbs": 60,
+          "servingSize": "20 pc",
+          "fiber": 2,
+          "sodium": 2520,
+          "cholesterol": 280,
+          "saturated_fat": 30,
+          "sugars": 2
+        },
+        {
+          "name": "Bo Bites Combo (4pc)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Bo Bites Combo (6pc)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Bo Bites Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Bo's Chicken Tenders Combo (3pc)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Bo's Chicken Tenders Combo (5pc)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "4pc Chicken Supremes Combo",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Chicken Supremes Combo",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        }
+      ]
+    },
+    {
+      "name": "sandwiches",
+      "items": [
+        {
+          "name": "Bo's Chicken Sandwich",
+          "calories": 670,
+          "protein": 31,
+          "fat": 36,
+          "carbs": 95,
+          "servingSize": "1 sandwich",
+          "sodium": 1730,
+          "cholesterol": 95,
+          "saturated_fat": 8,
+          "sugars": 8
+        },
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 570,
+          "protein": 29,
+          "fat": 33,
+          "carbs": 36,
+          "servingSize": "1 sandwich",
+          "fiber": 1,
+          "sodium": 1350,
+          "cholesterol": 85,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Grilled Chicken Club Sandwich",
+          "calories": 690,
+          "protein": 46,
+          "fat": 39,
+          "carbs": 39,
+          "servingSize": "1 sandwich",
+          "fiber": 1,
+          "sodium": 2130,
+          "cholesterol": 125,
+          "saturated_fat": 9,
+          "sugars": 8
+        },
+        {
+          "name": "Bojangler Fish Sandwich",
+          "calories": 590,
+          "protein": 20,
+          "fat": 43,
+          "carbs": 48,
+          "servingSize": "1 sandwich",
+          "sodium": 1250,
+          "cholesterol": 75,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "biscuits",
+      "items": [
+        {
+          "name": "Plain Biscuit",
+          "calories": 310,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 37,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 780,
+          "saturated_fat": 6,
+          "sugars": 4
+        },
+        {
+          "name": "Bo-Berry Biscuit",
+          "calories": 370,
+          "protein": 5,
+          "fat": 17,
+          "carbs": 49,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 720,
+          "saturated_fat": 8,
+          "sugars": 18
+        },
+        {
+          "name": "Cajun Filet Biscuit",
+          "calories": 570,
+          "protein": 23,
+          "fat": 27,
+          "carbs": 57,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1720,
+          "cholesterol": 50,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Bo's Chicken Biscuit",
+          "calories": 570,
+          "protein": 23,
+          "fat": 27,
+          "carbs": 57,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1720,
+          "cholesterol": 50,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Sausage Biscuit",
+          "calories": 470,
+          "protein": 15,
+          "fat": 28,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1160,
+          "cholesterol": 40,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Egg & Cheese Biscuit",
+          "calories": 430,
+          "protein": 13,
+          "fat": 25,
+          "carbs": 39,
+          "servingSize": "1 biscuit",
+          "sodium": 1150,
+          "cholesterol": 185,
+          "saturated_fat": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Bacon, Egg & Cheese Biscuit",
+          "calories": 510,
+          "protein": 28,
+          "fat": 27,
+          "carbs": 40,
+          "servingSize": "1 biscuit",
+          "sodium": 1750,
+          "cholesterol": 215,
+          "saturated_fat": 11,
+          "sugars": 5
+        },
+        {
+          "name": "Sausage & Egg Biscuit",
+          "calories": 550,
+          "protein": 21,
+          "fat": 34,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1320,
+          "cholesterol": 215,
+          "saturated_fat": 13,
+          "sugars": 4
+        },
+        {
+          "name": "Sausage Egg & Cheese Biscuit",
+          "calories": 550,
+          "protein": 21,
+          "fat": 34,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1320,
+          "cholesterol": 215,
+          "saturated_fat": 13,
+          "sugars": 4
+        },
+        {
+          "name": "Country Ham Biscuit",
+          "calories": 380,
+          "protein": 14,
+          "fat": 20,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1570,
+          "cholesterol": 35,
+          "saturated_fat": 8,
+          "sugars": 4
+        },
+        {
+          "name": "Country Ham & Egg Biscuit",
+          "calories": 460,
+          "protein": 20,
+          "fat": 25,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1730,
+          "cholesterol": 205,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Steak Biscuit",
+          "calories": 620,
+          "protein": 16,
+          "fat": 40,
+          "carbs": 48,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1400,
+          "cholesterol": 55,
+          "saturated_fat": 17,
+          "sugars": 4
+        },
+        {
+          "name": "Southern Gravy Biscuit",
+          "calories": 430,
+          "protein": 11,
+          "fat": 21,
+          "carbs": 49,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1480,
+          "cholesterol": 15,
+          "saturated_fat": 8,
+          "sugars": 8
+        },
+        {
+          "name": "Old Fashioned Gravy Biscuit",
+          "calories": 410,
+          "protein": 7,
+          "fat": 22,
+          "carbs": 47,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1200,
+          "cholesterol": 5,
+          "saturated_fat": 10,
+          "sugars": 5
+        },
+        {
+          "name": "Cheddar Bo Biscuit",
+          "calories": 490,
+          "protein": 15,
+          "fat": 30,
+          "carbs": 39,
+          "servingSize": "1 biscuit",
+          "sodium": 970,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 3
+        },
+        {
+          "name": "Southern Filet Biscuit",
+          "calories": 550,
+          "protein": 23,
+          "fat": 27,
+          "carbs": 54,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 1390,
+          "cholesterol": 55,
+          "saturated_fat": 9,
+          "sugars": 4
+        },
+        {
+          "name": "Pimento Cheese Biscuit",
+          "calories": 480,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 39,
+          "servingSize": "1 biscuit"
+        },
+        {
+          "name": "Cinnamon Biscuit",
+          "calories": 490,
+          "protein": 6,
+          "fat": 27,
+          "carbs": 57,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 910,
+          "saturated_fat": 8,
+          "sugars": 21
+        },
+        {
+          "name": "Cinnamon Twist",
+          "calories": 380,
+          "protein": 3,
+          "fat": 24,
+          "carbs": 38,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 300,
+          "saturated_fat": 7,
+          "sugars": 15
+        },
+        {
+          "name": "Add American Cheese",
+          "calories": 40,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 1,
+          "servingSize": "1 slice",
+          "sodium": 190,
+          "cholesterol": 10,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Add Egg",
+          "calories": 80,
+          "protein": 6,
+          "fat": 6,
+          "carbs": 0,
+          "servingSize": "1 egg",
+          "sodium": 160,
+          "cholesterol": 175,
+          "saturated_fat": 1.5
+        }
+      ]
+    },
+    {
+      "name": "biscuit_meals",
+      "items": [
+        {
+          "name": "Bacon, Egg & Cheese Biscuit Combo",
+          "calories": 510,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Cajun Filet Biscuit Combo",
+          "calories": 570,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Sausage Biscuit Combo",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Egg & Cheese Biscuit Combo",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Country Ham Biscuit Combo",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Sausage & Egg Biscuit Combo",
+          "calories": 550,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Sausage Egg & Cheese Biscuit Combo",
+          "calories": 550,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Southern Gravy Biscuit Combo",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        },
+        {
+          "name": "Steak Biscuit Combo",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 combo"
+        }
+      ]
+    },
+    {
+      "name": "dinners",
+      "items": [
+        {
+          "name": "2pc Leg & Thigh Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "3pc Leg & 2 Thighs Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "2pc Breast & Wing Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "3 Wings Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "4pc Chicken Supremes Dinner",
+          "calories": 500,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "3pc Chicken Supremes Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "Bo Bites Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "Bo's Chicken Tenders Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "Bo's Chicken Sandwich Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "Grilled Chicken Sandwich Dinner",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        },
+        {
+          "name": "Bo's Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 dinner plate"
+        }
+      ]
+    },
+    {
+      "name": "salads",
+      "items": [
+        {
+          "name": "Garden Salad",
+          "calories": 170,
+          "protein": 14,
+          "fat": 10,
+          "carbs": 6,
+          "servingSize": "1 salad",
+          "fiber": 2,
+          "sodium": 70,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Grilled Chicken Salad",
+          "calories": 360,
+          "protein": 40,
+          "fat": 17,
+          "carbs": 9,
+          "servingSize": "1 salad",
+          "fiber": 2,
+          "sodium": 1180,
+          "cholesterol": 76,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Supremes Salad",
+          "calories": 420,
+          "protein": 29,
+          "fat": 22,
+          "carbs": 23,
+          "servingSize": "1 salad",
+          "fiber": 2,
+          "sodium": 530,
+          "cholesterol": 50,
+          "saturated_fat": 10,
+          "sugars": 2
+        },
+        {
+          "name": "Bo Bites Salad",
+          "calories": 430,
+          "protein": 33,
+          "fat": 24,
+          "carbs": 21,
+          "servingSize": "1 salad",
+          "fiber": 3,
+          "sodium": 700,
+          "cholesterol": 70,
+          "saturated_fat": 14,
+          "sugars": 3
+        },
+        {
+          "name": "Bo's House Salad",
+          "calories": 780,
+          "protein": 49,
+          "fat": 54,
+          "carbs": 27,
+          "servingSize": "1 salad",
+          "fiber": 1,
+          "sodium": 1790,
+          "cholesterol": 120,
+          "saturated_fat": 17,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "bowls",
+      "items": [
+        {
+          "name": "Chicken Rice Bowl",
+          "calories": 780,
+          "protein": 48,
+          "fat": 27,
+          "carbs": 86,
+          "servingSize": "1 bowl",
+          "fiber": 12,
+          "sodium": 3550,
+          "cholesterol": 140,
+          "saturated_fat": 10,
+          "sugars": 11
+        }
+      ]
+    },
+    {
+      "name": "fixins",
+      "items": [
+        {
+          "name": "Bo-Tato Rounds (Small)",
+          "calories": 260,
+          "protein": 2,
+          "fat": 16,
+          "carbs": 27,
+          "servingSize": "1 serving",
+          "fiber": 2,
+          "sodium": 590,
+          "cholesterol": 10,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Bo-Tato Rounds (Medium)",
+          "calories": 390,
+          "protein": 3,
+          "fat": 24,
+          "carbs": 40,
+          "servingSize": "1 serving",
+          "fiber": 3,
+          "sodium": 880,
+          "cholesterol": 15,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Bo-Tato Rounds (Picnic)",
+          "calories": 650,
+          "protein": 5,
+          "fat": 40,
+          "carbs": 67,
+          "servingSize": "1 serving",
+          "fiber": 4,
+          "sodium": 1470,
+          "cholesterol": 25,
+          "saturated_fat": 12
+        },
+        {
+          "name": "Bo* Fries (Small)",
+          "calories": 360,
+          "protein": 3,
+          "fat": 21,
+          "carbs": 39,
+          "servingSize": "1 serving",
+          "fiber": 3,
+          "sodium": 320,
+          "cholesterol": 15,
+          "saturated_fat": 7
+        },
+        {
+          "name": "Bo* Fries (Medium)",
+          "calories": 450,
+          "protein": 4,
+          "fat": 26,
+          "carbs": 49,
+          "servingSize": "1 serving",
+          "fiber": 4,
+          "sodium": 400,
+          "cholesterol": 15,
+          "saturated_fat": 9
+        },
+        {
+          "name": "Bo* Fries (Picnic)",
+          "calories": 670,
+          "protein": 6,
+          "fat": 38,
+          "carbs": 73,
+          "servingSize": "1 serving",
+          "fiber": 5,
+          "sodium": 590,
+          "cholesterol": 25,
+          "saturated_fat": 13,
+          "sugars": 1
+        },
+        {
+          "name": "Bojangles Cajun Pintos (Individual)",
+          "calories": 130,
+          "protein": 7,
+          "fat": 0.5,
+          "carbs": 24,
+          "servingSize": "1 serving",
+          "fiber": 7,
+          "sodium": 850,
+          "sugars": 5
+        },
+        {
+          "name": "Bojangles Cajun Pintos (Picnic)",
+          "calories": 420,
+          "protein": 22,
+          "fat": 2,
+          "carbs": 81,
+          "servingSize": "1 serving",
+          "fiber": 23,
+          "sodium": 2810,
+          "sugars": 16
+        },
+        {
+          "name": "Bojangles' Dirty Rice (Individual)",
+          "calories": 170,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 23,
+          "servingSize": "1 serving",
+          "sodium": 680,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Bojangles' Dirty Rice (Picnic)",
+          "calories": 530,
+          "protein": 15,
+          "fat": 18,
+          "carbs": 74,
+          "servingSize": "1 serving",
+          "sodium": 2130,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Cole Slaw (Individual)",
+          "calories": 170,
+          "protein": 1,
+          "fat": 11,
+          "carbs": 20,
+          "servingSize": "1 serving",
+          "fiber": 2,
+          "sodium": 240,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 17
+        },
+        {
+          "name": "Cole Slaw (Picnic)",
+          "calories": 580,
+          "protein": 4,
+          "fat": 35,
+          "carbs": 65,
+          "servingSize": "1 serving",
+          "fiber": 6,
+          "sodium": 810,
+          "cholesterol": 15,
+          "saturated_fat": 6,
+          "sugars": 55
+        },
+        {
+          "name": "Green Beans (Individual)",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 serving",
+          "fiber": 2,
+          "sodium": 500,
+          "sugars": 2
+        },
+        {
+          "name": "Green Beans (Picnic)",
+          "calories": 70,
+          "protein": 4,
+          "fat": 0.5,
+          "carbs": 15,
+          "servingSize": "1 serving",
+          "fiber": 5,
+          "sodium": 1580,
+          "sugars": 7
+        },
+        {
+          "name": "Macaroni 'N Cheese (Individual)",
+          "calories": 280,
+          "protein": 8,
+          "fat": 18,
+          "carbs": 21,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 830,
+          "cholesterol": 20,
+          "saturated_fat": 8,
+          "sugars": 3
+        },
+        {
+          "name": "Macaroni 'N Cheese (Picnic)",
+          "calories": 870,
+          "protein": 24,
+          "fat": 54,
+          "carbs": 64,
+          "servingSize": "1 serving",
+          "fiber": 3,
+          "sodium": 2550,
+          "cholesterol": 60,
+          "saturated_fat": 23,
+          "sugars": 9
+        },
+        {
+          "name": "Baked Macaroni 'N Cheese (Individual)",
+          "calories": 260,
+          "protein": 8,
+          "fat": 16,
+          "carbs": 21,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 830,
+          "cholesterol": 20,
+          "saturated_fat": 8,
+          "sugars": 3
+        },
+        {
+          "name": "Baked Macaroni 'N Cheese (Picnic)",
+          "calories": 790,
+          "protein": 24,
+          "fat": 48,
+          "carbs": 64,
+          "servingSize": "1 serving",
+          "fiber": 3,
+          "sodium": 2550,
+          "cholesterol": 60,
+          "saturated_fat": 22,
+          "sugars": 9
+        },
+        {
+          "name": "Mashed Potatoes 'N Gravy (Individual)",
+          "calories": 120,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 18,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 630,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Mashed Potatoes 'N Gravy (Picnic)",
+          "calories": 410,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 69,
+          "servingSize": "1 serving",
+          "fiber": 4,
+          "sodium": 2190,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 7
+        },
+        {
+          "name": "Mashed Potatoes 'N Old Fashioned Gravy (Individual)",
+          "calories": 110,
+          "protein": 2,
+          "fat": 4,
+          "carbs": 17,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 510,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "Mashed Potatoes 'N Old Fashioned Gravy (Picnic)",
+          "calories": 400,
+          "protein": 9,
+          "fat": 11,
+          "carbs": 66,
+          "servingSize": "1 serving",
+          "fiber": 5,
+          "sodium": 1850,
+          "cholesterol": 5,
+          "saturated_fat": 4.5,
+          "sugars": 3
+        },
+        {
+          "name": "Mashed Potatoes 'N Brown Gravy (Individual)",
+          "calories": 100,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 18,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 800,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Mashed Potatoes 'N Brown Gravy (Picnic)",
+          "calories": 370,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 69,
+          "servingSize": "1 serving",
+          "fiber": 5,
+          "sodium": 2560,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Grits (Individual)",
+          "calories": 90,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 21,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Grits (Picnic)",
+          "calories": 280,
+          "protein": 6,
+          "fat": 1,
+          "carbs": 62,
+          "servingSize": "1 serving",
+          "fiber": 4,
+          "sodium": 15
+        },
+        {
+          "name": "Pimento Cheese Spread Tub",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    },
+    {
+      "name": "kids_meals",
+      "items": [
+        {
+          "name": "2 Piece Supremes Kids Meal",
+          "calories": 580,
+          "protein": 23,
+          "fat": 28,
+          "carbs": 59,
+          "servingSize": "1 meal",
+          "fiber": 2,
+          "sodium": 1740,
+          "cholesterol": 50,
+          "saturated_fat": 10,
+          "sugars": 6
+        },
+        {
+          "name": "Bo's Chicken Tenders 2pc Kids Meal",
+          "calories": 720,
+          "protein": 36,
+          "fat": 29,
+          "carbs": 76,
+          "servingSize": "1 meal",
+          "fiber": 1,
+          "sodium": 2390,
+          "cholesterol": 82,
+          "saturated_fat": 11,
+          "sugars": 7
+        },
+        {
+          "name": "Chicken Leg Kids Meal",
+          "calories": 520,
+          "protein": 16,
+          "fat": 29,
+          "carbs": 50,
+          "servingSize": "1 meal",
+          "fiber": 3,
+          "sodium": 1650,
+          "cholesterol": 55,
+          "saturated_fat": 11,
+          "sugars": 6
+        },
+        {
+          "name": "Mac n' Cheese Kids Meal",
+          "calories": 610,
+          "protein": 15,
+          "fat": 33,
+          "carbs": 63,
+          "servingSize": "1 meal",
+          "fiber": 3,
+          "sodium": 2120,
+          "cholesterol": 20,
+          "saturated_fat": 14,
+          "sugars": 9
+        },
+        {
+          "name": "4pc Bo Bites Kids Meal",
+          "calories": 550,
+          "protein": 23,
+          "fat": 27,
+          "carbs": 54,
+          "servingSize": "1 meal",
+          "fiber": 4,
+          "sodium": 1790,
+          "cholesterol": 56,
+          "saturated_fat": 12,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "family_meals",
+      "items": [
+        {
+          "name": "8pc Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "8 pc"
+        },
+        {
+          "name": "8pc Chicken Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "8 pc"
+        },
+        {
+          "name": "12pc Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "12 pc"
+        },
+        {
+          "name": "12pc Bo's Chicken Tenders Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "12 pc"
+        },
+        {
+          "name": "12pc 4 Chicken & 8 Bo's Chicken Tenders Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "12 pc"
+        },
+        {
+          "name": "20pc 8 Chicken & 12 Bo's Chicken Tenders Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 pc"
+        },
+        {
+          "name": "20pc Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 pc"
+        },
+        {
+          "name": "20pc Chicken Box w/10 Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 pc"
+        },
+        {
+          "name": "50pc Chicken Box w/25 Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "50 pc"
+        },
+        {
+          "name": "100pc Chicken Box w/50 Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "100 pc"
+        }
+      ]
+    },
+    {
+      "name": "sweets",
+      "items": [
+        {
+          "name": "Sweet Potato Pie",
+          "calories": 350,
+          "protein": 3,
+          "fat": 20,
+          "carbs": 41,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 100,
+          "cholesterol": 10,
+          "saturated_fat": 9,
+          "sugars": 18
+        },
+        {
+          "name": "Vanilla Milkshake",
+          "calories": 620,
+          "protein": 12,
+          "fat": 26,
+          "carbs": 86,
+          "servingSize": "1 serving",
+          "sodium": 560,
+          "cholesterol": 100,
+          "saturated_fat": 16,
+          "sugars": 85
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "calories": 680,
+          "protein": 14,
+          "fat": 26,
+          "carbs": 101,
+          "servingSize": "1 serving",
+          "fiber": 2,
+          "sodium": 650,
+          "cholesterol": 100,
+          "saturated_fat": 16,
+          "sugars": 97
+        },
+        {
+          "name": "Bo-Berry Milkshake",
+          "calories": 610,
+          "protein": 12,
+          "fat": 26,
+          "carbs": 83,
+          "servingSize": "1 serving",
+          "sodium": 610,
+          "cholesterol": 100,
+          "saturated_fat": 16,
+          "sugars": 82
+        }
+      ]
+    },
+    {
+      "name": "sauces_dressings",
+      "items": [
+        {
+          "name": "BBQ Sauce",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "2 oz",
+          "fiber": 1,
+          "sodium": 450,
+          "sugars": 21
+        },
+        {
+          "name": "Peach Honey Pepper Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 27,
+          "servingSize": "2 oz",
+          "sodium": 480,
+          "sugars": 25
+        },
+        {
+          "name": "Creamy Buffalo Sauce",
+          "calories": 170,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 2,
+          "servingSize": "2 oz",
+          "cholesterol": 15,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Honey Mustard Sauce",
+          "calories": 280,
+          "protein": 1,
+          "fat": 25,
+          "carbs": 13,
+          "servingSize": "2 oz",
+          "sodium": 410,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 12
+        },
+        {
+          "name": "Housemade Ranch Sauce",
+          "calories": 270,
+          "protein": 1,
+          "fat": 28,
+          "carbs": 4,
+          "servingSize": "2 oz",
+          "sodium": 450,
+          "cholesterol": 25,
+          "saturated_fat": 4.5,
+          "sugars": 3
+        },
+        {
+          "name": "Jalapeno Ranch Sauce",
+          "calories": 220,
+          "protein": 1,
+          "fat": 23,
+          "carbs": 3,
+          "servingSize": "2 oz",
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 2
+        },
+        {
+          "name": "Bo's Special Sauce",
+          "calories": 270,
+          "protein": 0,
+          "fat": 28,
+          "carbs": 6,
+          "servingSize": "2 oz",
+          "sodium": 440,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 5
+        },
+        {
+          "name": "Housemade Ranch Dressing",
+          "calories": 200,
+          "protein": 1,
+          "fat": 20,
+          "carbs": 2,
+          "servingSize": "1.5 oz",
+          "sodium": 280,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Ken's Blue Cheese Dressing",
+          "calories": 230,
+          "protein": 1,
+          "fat": 24,
+          "carbs": 2,
+          "servingSize": "1.5 oz",
+          "sodium": 320,
+          "cholesterol": 20,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        },
+        {
+          "name": "Ken's Fat Free Italian Dressing",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1.5 oz",
+          "fiber": 1,
+          "sodium": 700,
+          "sugars": 3
+        },
+        {
+          "name": "Ken's Honey Dijon Dressing",
+          "calories": 120,
+          "protein": 0,
+          "fat": 7,
+          "carbs": 14,
+          "servingSize": "1.5 oz",
+          "sodium": 390,
+          "cholesterol": 15,
+          "saturated_fat": 1,
+          "sugars": 14
+        },
+        {
+          "name": "Ken's Thousand Island Dressing",
+          "calories": 190,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 6,
+          "servingSize": "1.5 oz",
+          "sodium": 350,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 6
+        },
+        {
+          "name": "Ken's Fat Free Ranch Dressing",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 11,
+          "servingSize": "1.5 oz",
+          "fiber": 1,
+          "sodium": 540,
+          "sugars": 4
+        },
+        {
+          "name": "Homestyle Cheese Garlic Croutons",
+          "calories": 60,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 9,
+          "servingSize": "1/2 oz",
+          "sodium": 170,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "drinks",
+      "items": [
+        {
+          "name": "Bottled Water (20 oz)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 oz"
+        },
+        {
+          "name": "Coffee (Small (16 oz))",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Small (16 oz)",
+          "sodium": 10
+        },
+        {
+          "name": "Coffee (Regular (20 oz))",
+          "calories": 5,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular (20 oz)",
+          "sodium": 10
+        },
+        {
+          "name": "Cold Brew (Black) (Regular)",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 10
+        },
+        {
+          "name": "Sweet Cream Cold Brew (Regular)",
+          "calories": 190,
+          "protein": 5,
+          "fat": 8,
+          "carbs": 4,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 23
+        },
+        {
+          "name": "Vanilla Cream Cold Brew (Regular)",
+          "calories": 230,
+          "protein": 5,
+          "fat": 8,
+          "carbs": 36,
+          "servingSize": "Regular",
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 33
+        },
+        {
+          "name": "Legendary Sweet Iced Tea (Small (16 oz))",
+          "calories": 170,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 45,
+          "servingSize": "Small (16 oz)",
+          "sugars": 44
+        },
+        {
+          "name": "Legendary Sweet Iced Tea (Regular (22 oz))",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "servingSize": "Regular (22 oz)",
+          "sugars": 60
+        },
+        {
+          "name": "Legendary Sweet Iced Tea (Large (32 oz))",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90,
+          "servingSize": "Large (32 oz)",
+          "sugars": 88
+        },
+        {
+          "name": "Legendary Unsweetened Iced Tea (Small (16 oz))",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Small (16 oz)"
+        },
+        {
+          "name": "Legendary Unsweetened Iced Tea (Regular (22 oz))",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "Regular (22 oz)"
+        },
+        {
+          "name": "Legendary Unsweetened Iced Tea (Large (32 oz))",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "Large (32 oz)"
+        },
+        {
+          "name": "Half Gallon Sweet Tea (1/2 Gal)",
+          "calories": 700,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 181,
+          "servingSize": "1/2 Gal",
+          "sugars": 175
+        },
+        {
+          "name": "Half Gallon Unsweetened Tea (1/2 Gal)",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "servingSize": "1/2 Gal"
+        },
+        {
+          "name": "Diet Pepsi (Small (16 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Small (16 oz)",
+          "sodium": 80
+        },
+        {
+          "name": "Diet Pepsi (Regular (22 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 110
+        },
+        {
+          "name": "Diet Pepsi (Large (32 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large (32 oz)",
+          "sodium": 160
+        },
+        {
+          "name": "Pepsi Zero Sugar (Small (16 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Small (16 oz)",
+          "sodium": 40
+        },
+        {
+          "name": "Pepsi Zero Sugar (Regular (22 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 50
+        },
+        {
+          "name": "Pepsi Zero Sugar (Large (32 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large (32 oz)",
+          "sodium": 80
+        },
+        {
+          "name": "Pepsi (Small (16 oz))",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "Small (16 oz)",
+          "sodium": 40,
+          "sugars": 56
+        },
+        {
+          "name": "Pepsi (Regular (22 oz))",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 55,
+          "sugars": 77
+        },
+        {
+          "name": "Pepsi (Large (32 oz))",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 112,
+          "servingSize": "Large (32 oz)",
+          "sodium": 80,
+          "sugars": 112
+        },
+        {
+          "name": "Diet Mountain Dew (Small (16 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Small (16 oz)",
+          "sodium": 80
+        },
+        {
+          "name": "Diet Mountain Dew (Regular (22 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 110
+        },
+        {
+          "name": "Diet Mountain Dew (Large (32 oz))",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Large (32 oz)",
+          "sodium": 160
+        },
+        {
+          "name": "Mountain Dew (Small (16 oz))",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "servingSize": "Small (16 oz)",
+          "sodium": 70,
+          "sugars": 58
+        },
+        {
+          "name": "Mountain Dew (Regular (22 oz))",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 96,
+          "sugars": 80
+        },
+        {
+          "name": "Mountain Dew (Large (32 oz))",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 116,
+          "servingSize": "Large (32 oz)",
+          "sodium": 140,
+          "sugars": 116
+        },
+        {
+          "name": "Dr Pepper (Small (16 oz))",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "servingSize": "Small (16 oz)",
+          "sodium": 60,
+          "sugars": 51
+        },
+        {
+          "name": "Dr Pepper (Regular (22 oz))",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 80,
+          "sugars": 70
+        },
+        {
+          "name": "Dr Pepper (Large (32 oz))",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 104,
+          "servingSize": "Large (32 oz)",
+          "sodium": 115,
+          "sugars": 102
+        },
+        {
+          "name": "Cheerwine (Small (16 oz))",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "Small (16 oz)",
+          "sodium": 34,
+          "sugars": 56
+        },
+        {
+          "name": "Cheerwine (Regular (22 oz))",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 77,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 47,
+          "sugars": 77
+        },
+        {
+          "name": "Cheerwine (Large (32 oz))",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 112,
+          "servingSize": "Large (32 oz)",
+          "sodium": 68,
+          "sugars": 112
+        },
+        {
+          "name": "Mirinda Strawberry (Small (16 oz))",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 58,
+          "servingSize": "Small (16 oz)",
+          "sodium": 100,
+          "sugars": 58
+        },
+        {
+          "name": "Mirinda Strawberry (Regular (22 oz))",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 138,
+          "sugars": 80
+        },
+        {
+          "name": "Mirinda Strawberry (Large (32 oz))",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 116,
+          "servingSize": "Large (32 oz)",
+          "sodium": 200,
+          "sugars": 116
+        },
+        {
+          "name": "Mug Root Beer (Small (16 oz))",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "servingSize": "Small (16 oz)",
+          "sodium": 60,
+          "sugars": 52
+        },
+        {
+          "name": "Mug Root Beer (Regular (22 oz))",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 72,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 83,
+          "sugars": 72
+        },
+        {
+          "name": "Mug Root Beer (Large (32 oz))",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 104,
+          "servingSize": "Large (32 oz)",
+          "sodium": 120,
+          "sugars": 104
+        },
+        {
+          "name": "Starry (Small (16 oz))",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "Small (16 oz)",
+          "sodium": 30,
+          "sugars": 35
+        },
+        {
+          "name": "Starry (Regular (22 oz))",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 41,
+          "sugars": 48
+        },
+        {
+          "name": "Starry (Large (32 oz))",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "servingSize": "Large (32 oz)",
+          "sodium": 62,
+          "sugars": 73
+        },
+        {
+          "name": "Tropicana Fruit Punch (Small (16 oz))",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "servingSize": "Small (16 oz)",
+          "sodium": 50,
+          "sugars": 60
+        },
+        {
+          "name": "Tropicana Fruit Punch (Regular (22 oz))",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 83,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 69,
+          "sugars": 83
+        },
+        {
+          "name": "Tropicana Fruit Punch (Large (32 oz))",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 120,
+          "servingSize": "Large (32 oz)",
+          "sodium": 100,
+          "sugars": 120
+        },
+        {
+          "name": "Tropicana Lemonade (Small (16 oz))",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "Small (16 oz)",
+          "sodium": 210,
+          "sugars": 54
+        },
+        {
+          "name": "Tropicana Lemonade (Regular (22 oz))",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 75,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 289,
+          "sugars": 75
+        },
+        {
+          "name": "Tropicana Lemonade (Large (32 oz))",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 108,
+          "servingSize": "Large (32 oz)",
+          "sodium": 420,
+          "sugars": 108
+        },
+        {
+          "name": "Tropicana Pink Lemonade (Small (16 oz))",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 54,
+          "servingSize": "Small (16 oz)",
+          "sodium": 210,
+          "sugars": 54
+        },
+        {
+          "name": "Tropicana Pink Lemonade (Regular (22 oz))",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 74,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 289,
+          "sugars": 74
+        },
+        {
+          "name": "Tropicana Pink Lemonade (Large (32 oz))",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 108,
+          "servingSize": "Large (32 oz)",
+          "sodium": 420,
+          "sugars": 108
+        },
+        {
+          "name": "Tropicana Twister Soda (Small (16 oz))",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 62,
+          "servingSize": "Small (16 oz)",
+          "sodium": 50,
+          "sugars": 60
+        },
+        {
+          "name": "Tropicana Twister Soda (Regular (22 oz))",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 86,
+          "servingSize": "Regular (22 oz)",
+          "sodium": 69,
+          "sugars": 83
+        },
+        {
+          "name": "Tropicana Twister Soda (Large (32 oz))",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 124,
+          "servingSize": "Large (32 oz)",
+          "sodium": 100,
+          "sugars": 120
+        },
+        {
+          "name": "Simply Orange (11.5 oz)",
+          "calories": 160,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 37,
+          "servingSize": "11.5 oz",
+          "sugars": 33
+        },
+        {
+          "name": "Milk 1% Lowfat (White) (8 oz)",
+          "calories": 110,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 13,
+          "servingSize": "8 oz",
+          "sodium": 130,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 12
+        },
+        {
+          "name": "Milk 1% Lowfat (Chocolate) (8 oz)",
+          "calories": 160,
+          "protein": 8,
+          "fat": 2.5,
+          "carbs": 27,
+          "servingSize": "8 oz",
+          "sodium": 220,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 25
+        }
+      ]
+    },
+    {
+      "name": "catering",
+      "items": [
+        {
+          "name": "10 Pack Cajun Filet Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Bacon, Egg & Cheese Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Sausage, Egg & Cheese Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Sausage & Egg Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Sausage Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Egg & Cheese Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Steak Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "10 Pack Plain Biscuits",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "8pc Chicken + 4 Biscuit Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12pc Chicken + 6 Biscuit Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12pc Wings + 6 Biscuits Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "4pc Supremes Snack",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "9pc Bo Bites Snack",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12pc Supremes Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12pc Supremes Tailgate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "50pc Supremes Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "25pc Bo Bites Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "50pc Bo Bites Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "25pc Bo Bites Tailgate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "50pc Bo Bites Tailgate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "100pc Bo Bites Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "2 Wing Special",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "8 Piece Tailgate Special",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 Piece Super Tailgate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "20 Piece Jumbo Tailgate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 Piece Wing Feast",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Family Variety Feast",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Breast & Biscuit Snack",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Thigh & Biscuit Snack",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Dessert Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        }
+      ]
+    },
+    {
+      "name": "limited_time",
+      "items": [
+        {
+          "name": "Breakfast Bo-Rito",
+          "calories": 620,
+          "protein": 21,
+          "fat": 38,
+          "carbs": 47,
+          "servingSize": "1 serving",
+          "sodium": 1240
+        },
+        {
+          "name": "Sausage Bo-Berry Biscuit",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "2 Sausage Bo-Berry Biscuits",
+          "calories": 900,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Sausage Bo-Berry Biscuit Combo",
+          "calories": 740,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Bo-Berry Cookie",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Salted Caramel Apple Crisp",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Carolina Crunch",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Pork Chop Griller Biscuit",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Chicken & Bo-Berry Waffles",
+          "calories": 775,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Bo's Bird Dogs",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        },
+        {
+          "name": "Fuego Breakfast Bo-Rito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 serving"
+        }
+      ]
+    }
+  ]
+}

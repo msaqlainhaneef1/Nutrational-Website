@@ -1,0 +1,644 @@
+{
+  "name": "Auntie Anne's",
+  "slug": "auntie-annes-nutrition-calculator",
+  "tagline": "Track nutrition for Auntie Anne's menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 55 menu items at Auntie Anne's.",
+  "category": "Sandwiches & Deli",
+  "emoji": "\ud83e\udd6a",
+  "itemCount": 55,
+  "categories": [
+    {
+      "name": "Classic Pretzels",
+      "items": [
+        {
+          "name": "Original Pretzel",
+          "calories": 350,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 68,
+          "servingSize": "1 each",
+          "fiber": 2,
+          "sodium": 900,
+          "cholesterol": 10,
+          "saturated_fat": 3,
+          "sugars": 10
+        },
+        {
+          "name": "Cinnamon Sugar Pretzel",
+          "calories": 480,
+          "protein": 9,
+          "fat": 11,
+          "carbs": 88,
+          "servingSize": "1 each",
+          "fiber": 2,
+          "sodium": 310,
+          "cholesterol": 25,
+          "saturated_fat": 7,
+          "sugars": 29
+        },
+        {
+          "name": "Pepperoni Pretzel",
+          "calories": 500,
+          "protein": 17,
+          "fat": 17,
+          "carbs": 69,
+          "servingSize": "1 each",
+          "fiber": 2,
+          "sodium": 800,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 10
+        },
+        {
+          "name": "Sweet Almond Pretzel",
+          "calories": 400,
+          "protein": 9,
+          "fat": 6,
+          "carbs": 77,
+          "servingSize": "1 each",
+          "fiber": 2,
+          "sodium": 310,
+          "cholesterol": 10,
+          "saturated_fat": 3.5,
+          "sugars": 17
+        },
+        {
+          "name": "Jalapeno Pretzel",
+          "calories": 320,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 63,
+          "servingSize": "1 each",
+          "fiber": 2,
+          "sodium": 1000,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 9
+        },
+        {
+          "name": "Raisin Pretzel",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 each"
+        },
+        {
+          "name": "Sour Cream & Onion Pretzel",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 each"
+        }
+      ]
+    },
+    {
+      "name": "Pretzel Dogs",
+      "items": [
+        {
+          "name": "Mini Pretzel Dogs (Small)",
+          "calories": 700,
+          "protein": 21,
+          "fat": 37,
+          "carbs": 73,
+          "servingSize": "Approx 10 pieces",
+          "fiber": 2,
+          "sodium": 1590,
+          "cholesterol": 80,
+          "saturated_fat": 15,
+          "sugars": 10
+        },
+        {
+          "name": "Mini Pretzel Dogs (Regular)",
+          "calories": 980,
+          "protein": 29,
+          "fat": 51,
+          "carbs": 102,
+          "servingSize": "Approx 14 pieces",
+          "fiber": 3,
+          "sodium": 2230,
+          "cholesterol": 115,
+          "saturated_fat": 20,
+          "sugars": 14
+        },
+        {
+          "name": "Pretzel Dog",
+          "calories": 360,
+          "protein": 10,
+          "fat": 20,
+          "carbs": 35,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 700,
+          "cholesterol": 40,
+          "saturated_fat": 9,
+          "sugars": 5
+        },
+        {
+          "name": "Cheese Pretzel Dog",
+          "calories": 400,
+          "protein": 13,
+          "fat": 23,
+          "carbs": 35,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 810,
+          "cholesterol": 50,
+          "saturated_fat": 11,
+          "sugars": 5
+        },
+        {
+          "name": "Jalapeno Cheese Pretzel Dog",
+          "calories": 400,
+          "protein": 13,
+          "fat": 23,
+          "carbs": 36,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 1080,
+          "cholesterol": 50,
+          "saturated_fat": 11,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Pretzel Nuggets",
+      "items": [
+        {
+          "name": "Cinnamon Sugar Nuggets (Small)",
+          "calories": 500,
+          "protein": 10,
+          "fat": 9,
+          "carbs": 96,
+          "servingSize": "Approx 19 pieces",
+          "fiber": 2,
+          "sodium": 380,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 29
+        },
+        {
+          "name": "Cinnamon Sugar Nuggets (Regular)",
+          "calories": 680,
+          "protein": 13,
+          "fat": 12,
+          "carbs": 131,
+          "servingSize": "Approx 26 pieces",
+          "fiber": 3,
+          "sodium": 530,
+          "cholesterol": 30,
+          "saturated_fat": 7,
+          "sugars": 39
+        },
+        {
+          "name": "Original Nuggets (Small)",
+          "calories": 430,
+          "protein": 10,
+          "fat": 9,
+          "carbs": 78,
+          "servingSize": "Approx 19 pieces",
+          "fiber": 2,
+          "sodium": 1080,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 11
+        },
+        {
+          "name": "Original Nuggets (Regular)",
+          "calories": 580,
+          "protein": 13,
+          "fat": 12,
+          "carbs": 105,
+          "servingSize": "Approx 26 pieces",
+          "fiber": 3,
+          "sodium": 1450,
+          "cholesterol": 30,
+          "saturated_fat": 7,
+          "sugars": 15
+        },
+        {
+          "name": "Pepperoni Nuggets (Small)",
+          "calories": 480,
+          "protein": 16,
+          "fat": 20,
+          "carbs": 58,
+          "servingSize": "Approx 14 pieces",
+          "fiber": 2,
+          "sodium": 940,
+          "cholesterol": 50,
+          "saturated_fat": 9,
+          "sugars": 9
+        },
+        {
+          "name": "Pepperoni Nuggets (Regular)",
+          "calories": 650,
+          "protein": 22,
+          "fat": 28,
+          "carbs": 79,
+          "servingSize": "Approx 19 pieces",
+          "fiber": 3,
+          "sodium": 1280,
+          "cholesterol": 70,
+          "saturated_fat": 13,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Dips",
+      "items": [
+        {
+          "name": "Caramel Dip",
+          "calories": 160,
+          "protein": 1,
+          "fat": 2,
+          "carbs": 37,
+          "servingSize": "1 dip cup",
+          "sodium": 95,
+          "cholesterol": 5,
+          "saturated_fat": 1.5,
+          "sugars": 19
+        },
+        {
+          "name": "Cheese Dip",
+          "calories": 120,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 5,
+          "servingSize": "1 dip cup",
+          "sodium": 670,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Hot Salsa Cheese Dip",
+          "calories": 120,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 6,
+          "servingSize": "1 dip cup",
+          "sodium": 570,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Honey Mustard Dip",
+          "calories": 300,
+          "protein": 1,
+          "fat": 27,
+          "carbs": 14,
+          "servingSize": "1 dip cup",
+          "sodium": 250,
+          "cholesterol": 20,
+          "saturated_fat": 4,
+          "sugars": 14
+        },
+        {
+          "name": "Cream Cheese Dip",
+          "calories": 100,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 1,
+          "servingSize": "1 dip cup",
+          "sodium": 115,
+          "cholesterol": 20,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Marinara Dip",
+          "calories": 30,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 6,
+          "servingSize": "1 dip cup",
+          "sodium": 330,
+          "sugars": 3
+        },
+        {
+          "name": "Melted Cheese Dip",
+          "calories": 150,
+          "protein": 5,
+          "fat": 11,
+          "carbs": 6,
+          "servingSize": "1 dip cup",
+          "sodium": 840,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 4
+        },
+        {
+          "name": "Ranch Dip",
+          "calories": 240,
+          "protein": 1,
+          "fat": 26,
+          "carbs": 3,
+          "servingSize": "1 dip cup",
+          "sodium": 500,
+          "cholesterol": 15,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Sweet Glaze Dip",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "1 dip cup",
+          "sugars": 34
+        }
+      ]
+    },
+    {
+      "name": "Pretzel Breakfast Sandwiches",
+      "items": [
+        {
+          "name": "Egg & Cheese Sandwich",
+          "calories": 250,
+          "protein": 13,
+          "fat": 9,
+          "carbs": 29,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 780,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Sausage, Egg & Cheese Sandwich",
+          "calories": 400,
+          "protein": 20,
+          "fat": 22,
+          "carbs": 29,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 1090,
+          "cholesterol": 115,
+          "saturated_fat": 10,
+          "sugars": 5
+        },
+        {
+          "name": "Bacon, Egg & Cheese Sandwich",
+          "calories": 300,
+          "protein": 16,
+          "fat": 13,
+          "carbs": 29,
+          "servingSize": "1 each",
+          "fiber": 1,
+          "sodium": 990,
+          "cholesterol": 95,
+          "saturated_fat": 6,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Original Lemonade (Small)",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 47,
+          "servingSize": "16 fl oz",
+          "sodium": 10,
+          "sugars": 44
+        },
+        {
+          "name": "Original Lemonade (Med)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 63,
+          "servingSize": "20 fl oz",
+          "sodium": 15,
+          "sugars": 59
+        },
+        {
+          "name": "Original Lemonade (Large)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 89,
+          "servingSize": "30 fl oz",
+          "sodium": 20,
+          "sugars": 84
+        },
+        {
+          "name": "Frozen Lemonade (Small)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "servingSize": "16 fl oz",
+          "sodium": 15,
+          "sugars": 54
+        },
+        {
+          "name": "Frozen Lemonade (Med)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 73,
+          "servingSize": "20 fl oz",
+          "sodium": 20,
+          "sugars": 68
+        },
+        {
+          "name": "Frozen Lemonade (Large)",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 109,
+          "servingSize": "30 fl oz",
+          "sodium": 30,
+          "sugars": 101
+        },
+        {
+          "name": "Strawberry Spritz (Small)",
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 48,
+          "servingSize": "16 fl oz",
+          "sodium": 20,
+          "sugars": 47
+        },
+        {
+          "name": "Strawberry Spritz (Med)",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 64,
+          "servingSize": "20 fl oz",
+          "sodium": 30,
+          "sugars": 62
+        },
+        {
+          "name": "Strawberry Spritz (Large)",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 95,
+          "servingSize": "30 fl oz",
+          "sodium": 45,
+          "sugars": 92
+        },
+        {
+          "name": "Strawberry Smoothie (Small)",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 59,
+          "servingSize": "16 fl oz",
+          "fiber": 2,
+          "sugars": 59
+        },
+        {
+          "name": "Strawberry Smoothie (Med)",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90,
+          "servingSize": "20 fl oz",
+          "fiber": 3,
+          "sugars": 90
+        },
+        {
+          "name": "Strawberry Smoothie (Large)",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 120,
+          "servingSize": "30 fl oz",
+          "fiber": 4,
+          "sugars": 120
+        },
+        {
+          "name": "Coca-Cola (Med)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56,
+          "servingSize": "21 fl oz",
+          "sodium": 55,
+          "sugars": 56
+        },
+        {
+          "name": "Diet Coke (Med)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "21 fl oz",
+          "sodium": 65
+        }
+      ]
+    },
+    {
+      "name": "Pretzel Buckets",
+      "items": [
+        {
+          "name": "Original Nuggets Bucket",
+          "calories": 2900,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Approx 5-6 servings"
+        },
+        {
+          "name": "Cinnamon Sugar Nuggets Bucket",
+          "calories": 3400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Approx 5-6 servings"
+        },
+        {
+          "name": "Mini Pretzel Dogs Bucket",
+          "calories": 7000,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Approx 10 servings"
+        }
+      ]
+    },
+    {
+      "name": "Featured Products",
+      "items": [
+        {
+          "name": "Crispy Cheesy Mini Dogs (Small)",
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "16 oz cup"
+        },
+        {
+          "name": "Crispy Cheesy Mini Dogs (Regular)",
+          "calories": 970,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "21 oz cup"
+        },
+        {
+          "name": "Peach Lemonade Mixer (Small)",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "16 fl oz"
+        },
+        {
+          "name": "Peach Lemonade Mixer (Med)",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 fl oz"
+        },
+        {
+          "name": "Peach Lemonade Mixer (Large)",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "32 fl oz"
+        },
+        {
+          "name": "Twisted Sip (Coke)",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "21 fl oz"
+        },
+        {
+          "name": "Twisted Sip (Diet Coke)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "21 fl oz"
+        },
+        {
+          "name": "Twisted Sip Lemonade",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "20 fl oz"
+        }
+      ]
+    }
+  ]
+}

@@ -3,9 +3,9 @@
   "slug": "el-pollo-loco-nutrition-calculator",
   "tagline": "Check calories and macros for El Pollo Loco fire-grilled chicken, bowls, tacos, and tostadas.",
   "description": "Check calories and macros for El Pollo Loco fire-grilled chicken, bowls, tacos, and tostadas.",
-  "category": "Chicken",
+  "category": "Chicken & Wings",
   "emoji": "\ud83c\udf57",
-  "itemCount": 112,
+  "itemCount": 247,
   "categories": [
     {
       "name": "Bowls",
@@ -74,6 +74,13 @@
           "saturated_fat": 14,
           "sugars": 6,
           "trans_fat": 0.5
+        },
+        {
+          "name": "Street Corn Chicken Bowl",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ]
     },
@@ -118,6 +125,33 @@
           "saturated_fat": 11,
           "sugars": 6,
           "trans_fat": 0.5
+        },
+        {
+          "name": "Original BRC Burrito",
+          "calories": 410,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 63,
+          "servingSize": "7.6 oz",
+          "fiber": 4,
+          "sodium": 1020,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Citrus Avocado Fresca Wrap",
+          "calories": 600,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mexican Cobb Fresca Wrap",
+          "calories": 940,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ]
     },
@@ -1432,6 +1466,28 @@
           "saturated_fat": 4.5,
           "sugars": 0,
           "trans_fat": 0
+        },
+        {
+          "name": "Cinnamon Churro (1)",
+          "calories": 170,
+          "protein": 1,
+          "fat": 11,
+          "carbs": 16,
+          "servingSize": "1.3 oz",
+          "fiber": 1,
+          "sodium": 190,
+          "saturated_fat": 2.5,
+          "sugars": 6
+        },
+        {
+          "name": "Hatch Diced Green Chiles",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1.3 oz",
+          "sodium": 150,
+          "sugars": 2
         }
       ]
     },
@@ -1476,6 +1532,25 @@
           "saturated_fat": 3.5,
           "sugars": 2,
           "trans_fat": 0
+        },
+        {
+          "name": "Chicken Taco al Carbon",
+          "calories": 170,
+          "protein": 15,
+          "fat": 5,
+          "carbs": 17,
+          "servingSize": "3.2 oz",
+          "fiber": 2,
+          "sodium": 250,
+          "cholesterol": 60,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Baja Shrimp Taco",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ]
     },
@@ -1520,6 +1595,1306 @@
           "saturated_fat": 4.5,
           "sugars": 5,
           "trans_fat": 0
+        },
+        {
+          "name": "Classic Chicken Tostada",
+          "calories": 820,
+          "protein": 42,
+          "fat": 38,
+          "carbs": 80,
+          "servingSize": "17.4 oz",
+          "fiber": 6,
+          "sodium": 1430,
+          "cholesterol": 105,
+          "saturated_fat": 11,
+          "sugars": 6
+        },
+        {
+          "name": "Double Chicken Tostada",
+          "calories": 990,
+          "protein": 65,
+          "fat": 45,
+          "carbs": 82,
+          "servingSize": "21.2 oz",
+          "fiber": 8,
+          "sodium": 1740,
+          "cholesterol": 185,
+          "saturated_fat": 13,
+          "sugars": 6
+        },
+        {
+          "name": "Street Corn Salad",
+          "calories": 390,
+          "protein": 52,
+          "fat": 14,
+          "carbs": 17,
+          "servingSize": "14.3 oz",
+          "fiber": 5,
+          "sodium": 1600,
+          "cholesterol": 165,
+          "saturated_fat": 4.5,
+          "sugars": 5
+        },
+        {
+          "name": "Double Chicken Avocado Salad",
+          "calories": 350,
+          "protein": 51,
+          "fat": 12,
+          "carbs": 13,
+          "servingSize": "13.3 oz",
+          "fiber": 5,
+          "sodium": 810,
+          "cholesterol": 160,
+          "saturated_fat": 3.5,
+          "sugars": 5
+        },
+        {
+          "name": "Citrus Avocado Fresca Salad",
+          "calories": 350,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mexican Cobb Fresca Salad",
+          "calories": 500,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Protein Packed",
+      "items": [
+        {
+          "name": "Mexican Caesar Salad",
+          "calories": 420,
+          "protein": 52,
+          "fat": 17,
+          "carbs": 18,
+          "servingSize": "13.4 oz",
+          "fiber": 5,
+          "sodium": 1530,
+          "cholesterol": 165,
+          "saturated_fat": 4.5,
+          "sugars": 4
+        },
+        {
+          "name": "Original Pollo Bowl",
+          "calories": 580,
+          "protein": 41,
+          "fat": 10,
+          "carbs": 83,
+          "servingSize": "18.2 oz",
+          "fiber": 9,
+          "sodium": 2030,
+          "cholesterol": 105,
+          "saturated_fat": 2.5,
+          "sugars": 3
+        },
+        {
+          "name": "2 PC Breast & Wing Meal w/Corn Tortillas, Pinto Beans & Rice",
+          "calories": 660,
+          "protein": 58,
+          "fat": 14,
+          "carbs": 77,
+          "servingSize": "17.9 oz",
+          "fiber": 8,
+          "sodium": 2070,
+          "cholesterol": 175,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "2 PC Breast & Wing Meal w/Flour Tortillas, Pinto Beans & Rice",
+          "calories": 740,
+          "protein": 59,
+          "fat": 18,
+          "carbs": 85,
+          "servingSize": "18.1 oz",
+          "fiber": 8,
+          "sodium": 2490,
+          "cholesterol": 175,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "2 PC Breast & Wing Meal w/Corn Tortillas, Charro Beans & Rice",
+          "calories": 710,
+          "protein": 60,
+          "fat": 19,
+          "carbs": 75,
+          "servingSize": "17.9 oz",
+          "fiber": 8,
+          "sodium": 2200,
+          "cholesterol": 185,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "2 PC Breast & Wing Meal w/Flour Tortillas, Charro Beans & Rice",
+          "calories": 790,
+          "protein": 62,
+          "fat": 23,
+          "carbs": 83,
+          "servingSize": "18.1 oz",
+          "fiber": 7,
+          "sodium": 2610,
+          "cholesterol": 185,
+          "saturated_fat": 7,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Chicken Meals",
+      "items": [
+        {
+          "name": "2 PC Chicken Leg & Thigh Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "2 PC Chicken Breast & Wing Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "3 PC Chicken Leg & Thigh Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "3 PC Chicken Breast & Wing Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "4 PC Half Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Chicken Meal For Two",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Whole Chicken",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        }
+      ]
+    },
+    {
+      "name": "Fire-Grilled Combos",
+      "items": [
+        {
+          "name": "Original BRC Burrito Combo",
+          "calories": 410,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 63,
+          "servingSize": "varies",
+          "fiber": 4,
+          "sodium": 1020,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Original Pollo Bowl Combo",
+          "calories": 580,
+          "protein": 41,
+          "fat": 10,
+          "carbs": 83,
+          "servingSize": "varies",
+          "fiber": 9,
+          "sodium": 2030,
+          "cholesterol": 105,
+          "saturated_fat": 2.5,
+          "sugars": 3
+        },
+        {
+          "name": "Tacos al Carb\u00f3n (3) Combo",
+          "calories": 510,
+          "protein": 46,
+          "fat": 15,
+          "carbs": 50,
+          "servingSize": "varies",
+          "fiber": 5,
+          "sodium": 760,
+          "cholesterol": 175,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Classic Chicken Burrito Combo",
+          "calories": 480,
+          "protein": 25,
+          "fat": 13,
+          "carbs": 66,
+          "servingSize": "varies",
+          "fiber": 5,
+          "sodium": 1450,
+          "cholesterol": 55,
+          "saturated_fat": 5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Sides, Drinks & Salsas",
+      "items": [
+        {
+          "name": "Charro Beans",
+          "calories": 190,
+          "protein": 11,
+          "fat": 6,
+          "carbs": 23,
+          "servingSize": "6.0 oz",
+          "fiber": 6,
+          "sodium": 580,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 1
+        },
+        {
+          "name": "House Ranch",
+          "calories": 390,
+          "protein": 2,
+          "fat": 41,
+          "carbs": 5,
+          "servingSize": "3.0 oz",
+          "sodium": 680,
+          "cholesterol": 5,
+          "saturated_fat": 7,
+          "sugars": 3
+        },
+        {
+          "name": "Pollo Loco Sauce",
+          "calories": 180,
+          "protein": 1,
+          "fat": 18,
+          "carbs": 4,
+          "servingSize": "1.3 oz",
+          "sodium": 490,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Jalapeno Hot Sauce (packet)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "0.3 oz",
+          "sodium": 110
+        },
+        {
+          "name": "Coca-Cola (Regular)",
+          "calories": 260,
+          "protein": 72,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "21.3 oz",
+          "fiber": 72
+        },
+        {
+          "name": "Coca-Cola (Large)",
+          "calories": 400,
+          "protein": 109,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "32.3 oz",
+          "fiber": 109
+        },
+        {
+          "name": "Coca-Cola Zero Sugar (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 50,
+          "servingSize": "18.3 oz"
+        },
+        {
+          "name": "Coca-Cola Zero Sugar (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 80,
+          "servingSize": "27.9 oz"
+        },
+        {
+          "name": "Diet Coke (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "20.8 oz"
+        },
+        {
+          "name": "Diet Coke (Large)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "32.2 oz"
+        },
+        {
+          "name": "Dr Pepper (Regular)",
+          "calories": 240,
+          "protein": 70,
+          "fat": 0,
+          "carbs": 80,
+          "servingSize": "21.7 oz",
+          "fiber": 70
+        },
+        {
+          "name": "Dr Pepper (Large)",
+          "calories": 370,
+          "protein": 107,
+          "fat": 0,
+          "carbs": 125,
+          "servingSize": "33.1 oz",
+          "fiber": 107
+        },
+        {
+          "name": "Diet Dr Pepper (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 135,
+          "servingSize": "21.7 oz"
+        },
+        {
+          "name": "Diet Dr Pepper (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 210,
+          "servingSize": "33.1 oz"
+        },
+        {
+          "name": "FUZE Sweetened Raspberry Iced Tea (Regular)",
+          "calories": 160,
+          "protein": 43,
+          "fat": 0,
+          "carbs": 20,
+          "servingSize": "21.8 oz",
+          "fiber": 43
+        },
+        {
+          "name": "FUZE Sweetened Raspberry Iced Tea (Large)",
+          "calories": 250,
+          "protein": 67,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "33.8 oz",
+          "fiber": 67
+        },
+        {
+          "name": "Gold Peak Unsweetened Iced Tea (Regular)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 60,
+          "servingSize": "21.1 oz"
+        },
+        {
+          "name": "Gold Peak Unsweetened Iced Tea (Large)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 95,
+          "servingSize": "32.7 oz"
+        },
+        {
+          "name": "Gold Peak Sweetened Iced Tea (Regular)",
+          "calories": 260,
+          "protein": 66,
+          "fat": 0,
+          "carbs": 55,
+          "servingSize": "21.1 oz",
+          "fiber": 66
+        },
+        {
+          "name": "Gold Peak Sweetened Iced Tea (Large)",
+          "calories": 410,
+          "protein": 103,
+          "fat": 0,
+          "carbs": 80,
+          "servingSize": "32.7 oz",
+          "fiber": 103
+        },
+        {
+          "name": "Hi-C Flashin' Fruit Punch (Regular)",
+          "calories": 250,
+          "protein": 67,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "22.2 oz",
+          "fiber": 67
+        },
+        {
+          "name": "Hi-C Flashin' Fruit Punch (Large)",
+          "calories": 380,
+          "protein": 103,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "33.8 oz",
+          "fiber": 103
+        },
+        {
+          "name": "Horchata (Regular)",
+          "calories": 340,
+          "protein": 44,
+          "fat": 12,
+          "carbs": 55,
+          "servingSize": "22.1 oz",
+          "fiber": 56
+        },
+        {
+          "name": "Horchata (Large)",
+          "calories": 530,
+          "protein": 68,
+          "fat": 19,
+          "carbs": 90,
+          "servingSize": "34.4 oz",
+          "fiber": 88
+        },
+        {
+          "name": "Minute Maid Mango Lime Aguas Frescas (Regular)",
+          "calories": 150,
+          "protein": 38,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "19.0 oz",
+          "fiber": 40
+        },
+        {
+          "name": "Minute Maid Mango Lime Aguas Frescas (Large)",
+          "calories": 230,
+          "protein": 59,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "29.6 oz",
+          "fiber": 62
+        },
+        {
+          "name": "Minute Maid Strawberry Hibiscus Aguas Frescas (Regular)",
+          "calories": 130,
+          "protein": 34,
+          "fat": 0,
+          "carbs": 25,
+          "servingSize": "19.0 oz",
+          "fiber": 34
+        },
+        {
+          "name": "Minute Maid Strawberry Hibiscus Aguas Frescas (Large)",
+          "calories": 200,
+          "protein": 53,
+          "fat": 0,
+          "carbs": 40,
+          "servingSize": "29.6 oz",
+          "fiber": 53
+        },
+        {
+          "name": "Minute Maid Lemonade (Regular)",
+          "calories": 260,
+          "protein": 65,
+          "fat": 0,
+          "carbs": 110,
+          "servingSize": "21.8 oz",
+          "fiber": 65
+        },
+        {
+          "name": "Minute Maid Lemonade (Large)",
+          "calories": 400,
+          "protein": 101,
+          "fat": 0,
+          "carbs": 170,
+          "servingSize": "33.8 oz",
+          "fiber": 101
+        },
+        {
+          "name": "Minute Maid Strawberry Lemonade (Regular)",
+          "calories": 250,
+          "protein": 65,
+          "fat": 0,
+          "carbs": 20,
+          "servingSize": "22.3 oz",
+          "fiber": 65
+        },
+        {
+          "name": "Minute Maid Strawberry Lemonade (Large)",
+          "calories": 380,
+          "protein": 100,
+          "fat": 0,
+          "carbs": 30,
+          "servingSize": "34.0 oz",
+          "fiber": 100
+        },
+        {
+          "name": "Sprite (Regular)",
+          "calories": 240,
+          "protein": 61,
+          "fat": 0,
+          "carbs": 60,
+          "servingSize": "22.0 oz",
+          "fiber": 61
+        },
+        {
+          "name": "Sprite (Large)",
+          "calories": 380,
+          "protein": 94,
+          "fat": 0,
+          "carbs": 95,
+          "servingSize": "33.9 oz",
+          "fiber": 94
+        },
+        {
+          "name": "VitaminWater XXX (Regular)",
+          "calories": 130,
+          "protein": 33,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "21.6 oz",
+          "fiber": 33
+        },
+        {
+          "name": "VitaminWater XXX (Large)",
+          "calories": 200,
+          "protein": 51,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "33.3 oz",
+          "fiber": 52
+        },
+        {
+          "name": "Coca-Cola de Mexico (Bottle)",
+          "calories": 150,
+          "protein": 39,
+          "fat": 0,
+          "carbs": 85,
+          "servingSize": "12.0 oz",
+          "fiber": 39
+        },
+        {
+          "name": "Nestle Pure Life Bottled Water (Bottle)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "17.0 oz"
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Original BRC Burrito Kids Meal",
+          "calories": 410,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 63,
+          "servingSize": "7.6 oz",
+          "fiber": 4,
+          "sodium": 1020,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        },
+        {
+          "name": "Chicken Legs (2) Kids Meal",
+          "calories": 220,
+          "protein": 22,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "3.1 oz",
+          "sodium": 760,
+          "cholesterol": 130,
+          "saturated_fat": 4.5
+        },
+        {
+          "name": "Cheese Quesadilla Kids Meal",
+          "calories": 530,
+          "protein": 25,
+          "fat": 30,
+          "carbs": 37,
+          "servingSize": "5.5 oz",
+          "fiber": 1,
+          "sodium": 950,
+          "cholesterol": 75,
+          "saturated_fat": 18,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Family Meals",
+      "items": [
+        {
+          "name": "8 PC Chicken Only Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "8 PC Family Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 PC Family Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "16 PC Family Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Fam Feast (Leg & Thigh)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Fam Feast (Mixed)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        }
+      ]
+    },
+    {
+      "name": "Catering",
+      "items": [
+        {
+          "name": "24 PC Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 10-12"
+        },
+        {
+          "name": "24 PC 3 Course Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 10-12"
+        },
+        {
+          "name": "48 PC Chicken Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 20-24"
+        },
+        {
+          "name": "48 PC 3 Course Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 20-24"
+        },
+        {
+          "name": "24 PC Chicken & Tortillas",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 10-12"
+        },
+        {
+          "name": "24 Taco Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 10-12"
+        },
+        {
+          "name": "48 Taco Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 20-24"
+        },
+        {
+          "name": "12 Burrito Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 10-12"
+        },
+        {
+          "name": "24 Burrito Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "serves 20-24"
+        },
+        {
+          "name": "Burrito Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Quesadilla Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "2 Taco Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Pollo Bowl Box",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Bowl Bar",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Deluxe Bowl Bar",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Nacho Bar",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "per person (min 10)"
+        },
+        {
+          "name": "Build Your Own Nachos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "8 Piece Whole Chicken (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "4 Burrito Platter (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "6 Taco Platter (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Chips & Salsa (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Chips & Guacamole (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Chips & Queso Blanco (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 Churros (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 Churros + 6 Dips (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "12 Caramel Flan Cups (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Street Corn Salad (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        },
+        {
+          "name": "Mexican Caesar Salad (Catering)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "varies"
+        }
+      ]
+    },
+    {
+      "name": "Limited-Time Offers",
+      "items": [
+        {
+          "name": "Mango Habanero Chicken Leg",
+          "calories": 130,
+          "protein": 11,
+          "fat": 9,
+          "carbs": 2,
+          "servingSize": "2.1 oz",
+          "sodium": 520,
+          "cholesterol": 65,
+          "saturated_fat": 2.5,
+          "sugars": 2
+        },
+        {
+          "name": "Mango Habanero Chicken Thigh",
+          "calories": 220,
+          "protein": 21,
+          "fat": 14,
+          "carbs": 4,
+          "servingSize": "3.7 oz",
+          "sodium": 590,
+          "cholesterol": 115,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Mango Habanero Chicken Breast",
+          "calories": 250,
+          "protein": 34,
+          "fat": 11,
+          "carbs": 4,
+          "servingSize": "5.3 oz",
+          "sodium": 1100,
+          "cholesterol": 120,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Mango Habanero Chicken Wing",
+          "calories": 90,
+          "protein": 10,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "1.8 oz",
+          "sodium": 290,
+          "cholesterol": 55,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Mango Habanero Sauce",
+          "calories": 130,
+          "protein": 0,
+          "fat": 9,
+          "carbs": 12,
+          "servingSize": "3.0 oz",
+          "fiber": 1,
+          "sodium": 840,
+          "saturated_fat": 1.5,
+          "sugars": 9
+        },
+        {
+          "name": "Mango Habanero Classic Chicken Tostada",
+          "calories": 870,
+          "protein": 41,
+          "fat": 42,
+          "carbs": 84,
+          "servingSize": "18.4 oz",
+          "fiber": 7,
+          "sodium": 1750,
+          "cholesterol": 105,
+          "saturated_fat": 12,
+          "sugars": 9
+        },
+        {
+          "name": "Mango Habanero Double Chicken Tostada",
+          "calories": 1080,
+          "protein": 65,
+          "fat": 52,
+          "carbs": 91,
+          "servingSize": "23.1 oz",
+          "fiber": 9,
+          "sodium": 2340,
+          "cholesterol": 185,
+          "saturated_fat": 14,
+          "sugars": 12
+        },
+        {
+          "name": "Mango Habanero Classic Shrimp Tostada",
+          "calories": 870,
+          "protein": 28,
+          "fat": 46,
+          "carbs": 86,
+          "servingSize": "17.9 oz",
+          "fiber": 7,
+          "sodium": 1910,
+          "cholesterol": 105,
+          "saturated_fat": 12,
+          "sugars": 10
+        },
+        {
+          "name": "Mango Habanero Double Shrimp Tostada",
+          "calories": 1070,
+          "protein": 40,
+          "fat": 60,
+          "carbs": 94,
+          "servingSize": "22.1 oz",
+          "fiber": 9,
+          "sodium": 2660,
+          "cholesterol": 185,
+          "saturated_fat": 14,
+          "sugars": 14
+        },
+        {
+          "name": "Mango Habanero Chicken & Shrimp Tostada",
+          "calories": 1080,
+          "protein": 52,
+          "fat": 56,
+          "carbs": 92,
+          "servingSize": "22.6 oz",
+          "fiber": 9,
+          "sodium": 2500,
+          "cholesterol": 185,
+          "saturated_fat": 14,
+          "sugars": 13
+        },
+        {
+          "name": "BBQ Black Beans (small)",
+          "calories": 120,
+          "protein": 8,
+          "fat": 0,
+          "carbs": 34,
+          "servingSize": "6.0 oz",
+          "fiber": 13,
+          "sodium": 890,
+          "sugars": 15
+        },
+        {
+          "name": "BBQ Black Beans (large)",
+          "calories": 330,
+          "protein": 22,
+          "fat": 0,
+          "carbs": 92,
+          "servingSize": "16.1 oz",
+          "fiber": 35,
+          "sodium": 2390,
+          "sugars": 41
+        },
+        {
+          "name": "Chicken Avocado Stuffed Quesadilla",
+          "calories": 960,
+          "protein": 54,
+          "fat": 58,
+          "carbs": 56,
+          "servingSize": "13.3 oz",
+          "fiber": 5,
+          "sodium": 1730,
+          "cholesterol": 190,
+          "saturated_fat": 25,
+          "sugars": 3
+        },
+        {
+          "name": "Pollo Fit Bowl - Double Chicken Avocado",
+          "calories": 500,
+          "protein": 58,
+          "fat": 25,
+          "carbs": 14,
+          "servingSize": "14.5 oz",
+          "fiber": 6,
+          "sodium": 970,
+          "cholesterol": 180,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Pollo Fit Bowl - Double Shrimp Avocado",
+          "calories": 490,
+          "protein": 33,
+          "fat": 32,
+          "carbs": 18,
+          "servingSize": "13.5 oz",
+          "fiber": 6,
+          "sodium": 1290,
+          "cholesterol": 180,
+          "saturated_fat": 8,
+          "sugars": 7
+        },
+        {
+          "name": "Pollo Fit Bowl - Chicken & Shrimp Avocado",
+          "calories": 490,
+          "protein": 45,
+          "fat": 28,
+          "carbs": 16,
+          "servingSize": "14.0 oz",
+          "fiber": 6,
+          "sodium": 1130,
+          "cholesterol": 180,
+          "saturated_fat": 8,
+          "sugars": 6
+        },
+        {
+          "name": "Pollo Fit Bowl - Double Chicken Street Corn",
+          "calories": 440,
+          "protein": 54,
+          "fat": 19,
+          "carbs": 18,
+          "servingSize": "13.5 oz",
+          "fiber": 5,
+          "sodium": 1560,
+          "cholesterol": 180,
+          "saturated_fat": 7,
+          "sugars": 5
+        },
+        {
+          "name": "Pollo Fit Bowl - Double Shrimp Street Corn",
+          "calories": 430,
+          "protein": 2,
+          "fat": 27,
+          "carbs": 21,
+          "servingSize": "12.5 oz",
+          "fiber": 5,
+          "sodium": 1880,
+          "cholesterol": 180,
+          "saturated_fat": 7,
+          "sugars": 6
+        },
+        {
+          "name": "Pollo Fit Bowl - Chicken & Shrimp Street Corn",
+          "calories": 440,
+          "protein": 42,
+          "fat": 23,
+          "carbs": 19,
+          "servingSize": "13.0 oz",
+          "fiber": 5,
+          "sodium": 1720,
+          "cholesterol": 180,
+          "saturated_fat": 7,
+          "sugars": 6
+        },
+        {
+          "name": "Shrimp Avocado Street Taco",
+          "calories": 320,
+          "protein": 15,
+          "fat": 20,
+          "carbs": 20,
+          "servingSize": "6.2 oz",
+          "fiber": 2,
+          "sodium": 850,
+          "cholesterol": 80,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Classic Shrimp Tostada",
+          "calories": 820,
+          "protein": 28,
+          "fat": 43,
+          "carbs": 81,
+          "servingSize": "16.9 oz",
+          "fiber": 7,
+          "sodium": 1630,
+          "cholesterol": 105,
+          "saturated_fat": 11,
+          "sugars": 7
+        },
+        {
+          "name": "Double Shrimp Tostada",
+          "calories": 990,
+          "protein": 40,
+          "fat": 54,
+          "carbs": 85,
+          "servingSize": "20.1 oz",
+          "fiber": 9,
+          "sodium": 2100,
+          "cholesterol": 185,
+          "saturated_fat": 13,
+          "sugars": 8
+        },
+        {
+          "name": "Chicken and Shrimp Tostada",
+          "calories": 990,
+          "protein": 52,
+          "fat": 50,
+          "carbs": 84,
+          "servingSize": "20.6 oz",
+          "fiber": 8,
+          "sodium": 1940,
+          "cholesterol": 185,
+          "saturated_fat": 13,
+          "sugars": 7
+        },
+        {
+          "name": "Caramel Dipping Sauce",
+          "calories": 110,
+          "protein": 0,
+          "fat": 0.5,
+          "carbs": 26,
+          "servingSize": "1.4 oz",
+          "sodium": 60,
+          "sugars": 17
+        },
+        {
+          "name": "Chocolate Dipping Sauce",
+          "calories": 90,
+          "protein": 1,
+          "fat": 0.5,
+          "carbs": 23,
+          "servingSize": "1.4 oz",
+          "fiber": 2,
+          "sodium": 45,
+          "sugars": 20
+        },
+        {
+          "name": "Ranch Dressing (packet)",
+          "calories": 190,
+          "protein": 1,
+          "fat": 20,
+          "carbs": 2,
+          "servingSize": "1.5 oz",
+          "sodium": 270,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Street Corn Chicken Pollo Bowl",
+          "calories": 600,
+          "protein": 42,
+          "fat": 11,
+          "carbs": 84,
+          "servingSize": "17.6 oz",
+          "fiber": 8,
+          "sodium": 2070,
+          "cholesterol": 110,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        },
+        {
+          "name": "Shredded Chicken and Cheese Pollo Bowl",
+          "calories": 590,
+          "protein": 34,
+          "fat": 14,
+          "carbs": 83,
+          "servingSize": "17.8 oz",
+          "fiber": 9,
+          "sodium": 2120,
+          "cholesterol": 70,
+          "saturated_fat": 7,
+          "sugars": 4
+        },
+        {
+          "name": "Vegan Chickenless Pollo",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ]
     }

@@ -1,0 +1,725 @@
+{
+  "name": "Jose Pepper's",
+  "slug": "jose-peppers-nutrition-calculator",
+  "tagline": "Track nutrition for Jose Pepper's menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 79 menu items at Jose Pepper's.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 79,
+  "categories": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Espinaca con Queso",
+          "calories": 60,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "2 tbsp",
+          "sodium": 190
+        },
+        {
+          "name": "Chile con Queso",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Guacamole Dip",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mini Chimichangas (8 pcs)",
+          "calories": 1197,
+          "protein": 60.9,
+          "fat": 61.0,
+          "carbs": 101.2,
+          "sodium": 2055
+        },
+        {
+          "name": "Steak and Goat Cheese Towers",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Jumbo Stuffed Jalapenos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Signature Nachos",
+          "calories": 1489,
+          "protein": 93.7,
+          "fat": 84.0,
+          "carbs": 86.5,
+          "sodium": 3136
+        }
+      ]
+    },
+    {
+      "name": "Quesadillas",
+      "items": [
+        {
+          "name": "Char-Grilled Chicken Quesadilla",
+          "calories": 1123,
+          "protein": 73.5,
+          "fat": 64.3,
+          "carbs": 62.7,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2188
+        },
+        {
+          "name": "Char-Grilled Skirt Steak Quesadilla",
+          "calories": 1134,
+          "protein": 56.8,
+          "fat": 69.5,
+          "carbs": 70.3,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2437
+        },
+        {
+          "name": "California Quesadilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Cheese Quesadilla",
+          "calories": 1026,
+          "protein": 42.7,
+          "fat": 65.7,
+          "carbs": 66.1,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 1913
+        },
+        {
+          "name": "Parmesan Crusted Shrimp Quesadilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Vegetable Quesadilla",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Specialties",
+      "items": [
+        {
+          "name": "Pollo Magnifico",
+          "calories": 1646,
+          "protein": 79.7,
+          "fat": 83.0,
+          "carbs": 145,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 3017
+        },
+        {
+          "name": "Flauta Platter",
+          "calories": 1097,
+          "protein": 55.3,
+          "fat": 55.2,
+          "carbs": 130,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2504
+        },
+        {
+          "name": "Blackened Chicken Verde",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Carnitas Tamales",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Chile Relleno Platter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Fajitas",
+      "items": [
+        {
+          "name": "Fajitas del Trio (3 pcs)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Grilled Chicken Fajita",
+          "calories": 883,
+          "protein": 59.6,
+          "fat": 34.2,
+          "carbs": 84.3,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2517
+        },
+        {
+          "name": "Grilled Jumbo Tail on Shrimp Fajita (9 pcs)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Grilled Vegetable Fajita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Grilled Skirt Steak Fajita",
+          "calories": 968,
+          "protein": 72.1,
+          "fat": 36.5,
+          "carbs": 87.9,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2473
+        }
+      ]
+    },
+    {
+      "name": "Enchiladas",
+      "items": [
+        {
+          "name": "Chicken and Avocado Enchiladas (2 pcs)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Creamy Steak Enchiladas",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Enchilada Trio",
+          "calories": 1538,
+          "protein": 68.1,
+          "fat": 74.6,
+          "carbs": 148.6,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 3267
+        },
+        {
+          "name": "Spinach Enchiladas (2 pcs)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Crab and Shrimp Enchiladas (2 pcs)",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Burritos",
+      "items": [
+        {
+          "name": "Chicken and Chorizo Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Monterey Chicken Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Baja Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Carnitas Burrito",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Taco Burrito Platter",
+          "calories": 1298,
+          "protein": 68.2,
+          "fat": 55.0,
+          "carbs": 131.9,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 3012
+        },
+        {
+          "name": "Grande CCQ Burrito",
+          "calories": 1492,
+          "protein": 71.1,
+          "fat": 57.6,
+          "carbs": 168.6,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 3029
+        },
+        {
+          "name": "Burrito Bowl",
+          "calories": 779,
+          "protein": 59.1,
+          "fat": 33.8,
+          "carbs": 70.6,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2409
+        },
+        {
+          "name": "Grilled Mahi Bowl",
+          "calories": 896,
+          "protein": 54.9,
+          "fat": 33.0,
+          "carbs": 112,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2403
+        }
+      ]
+    },
+    {
+      "name": "Tacos",
+      "items": [
+        {
+          "name": "Grilled Mahi Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Shrimp Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Corona Shrimp Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Carnitas Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Taco Al Carbon",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Two Soft Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Two Crispy Tacos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Soups and Salads",
+      "items": [
+        {
+          "name": "Cheese Crisp Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Taco Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Coconut Chicken Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Santa Fe Cobb Salad",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Tortilla Soup",
+          "calories": 453,
+          "protein": 26.8,
+          "fat": 21.0,
+          "carbs": 39.2,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 1449
+        }
+      ]
+    },
+    {
+      "name": "Chimichangas",
+      "items": [
+        {
+          "name": "Nacho-Ordinary Chimichanga",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Carnitas Chimichanga",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Chicken Chimichanga",
+          "calories": 1160,
+          "protein": 54.1,
+          "fat": 41.7,
+          "carbs": 141.9,
+          "servingSize": "Entire Entr\u00e9e",
+          "sodium": 2507
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Jose Burger Sandwich",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Chicken Club Sandwich",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Kids Stuff",
+      "items": [
+        {
+          "name": "Kid Hamburger",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Cheeseburger",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Chicken Tenders",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Grilled Chicken Breast",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Soft Taco",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Crispy Taco",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Enchilada",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        },
+        {
+          "name": "Kid Mac & Cheese",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "Entire Entr\u00e9e"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Cheesecake Chimichanga",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sopapillas",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Very Berry Fried Ice Cream",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Jose Rocks Margarita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Skinny Margarita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Jalapeno Margarita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sangria Swirl Margarita",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Draft Beer",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Soft Drinks",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Flavored Ice Tea",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Mexican Rice",
+          "calories": 147,
+          "protein": 2.5,
+          "fat": 2.9,
+          "carbs": 27.6,
+          "sodium": 332.2
+        },
+        {
+          "name": "Cilantro Rice",
+          "calories": 138,
+          "protein": 2.3,
+          "fat": 2.9,
+          "carbs": 27.1,
+          "sodium": 306.8
+        },
+        {
+          "name": "Pinto Beans",
+          "calories": 124,
+          "protein": 6.1,
+          "fat": 2.6,
+          "carbs": 18.9,
+          "sodium": 322.8
+        },
+        {
+          "name": "Black Beans",
+          "calories": 113,
+          "protein": 6.5,
+          "fat": 0.6,
+          "carbs": 20.5,
+          "sodium": 405.7
+        },
+        {
+          "name": "Charro Beans",
+          "calories": 136,
+          "protein": 6.3,
+          "fat": 2.9,
+          "carbs": 19.0,
+          "sodium": 329.5
+        },
+        {
+          "name": "Side salad no dressing",
+          "calories": 82,
+          "protein": 5.0,
+          "fat": 4.5,
+          "carbs": 5.6,
+          "sodium": 114.6
+        }
+      ]
+    },
+    {
+      "name": "Marketplace",
+      "items": [
+        {
+          "name": "Espinaca Dip (Retail)",
+          "calories": 60,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 2,
+          "servingSize": "2 tbsp",
+          "sodium": 190,
+          "cholesterol": 15,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        },
+        {
+          "name": "Fresh Salsa (Retail)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "2 tbsp",
+          "sodium": 210,
+          "sugars": 1
+        }
+      ]
+    }
+  ]
+}

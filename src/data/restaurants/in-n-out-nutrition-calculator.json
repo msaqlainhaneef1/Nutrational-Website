@@ -3,9 +3,9 @@
   "slug": "in-n-out-nutrition-calculator",
   "tagline": "Check calories, protein, carbs and fat for In-N-Out burgers, fries, shakes and the not-so-secret menu.",
   "description": "Check calories, protein, carbs and fat for In-N-Out burgers, fries, shakes and the not-so-secret menu.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf54",
-  "itemCount": 16,
+  "itemCount": 19,
   "categories": [
     {
       "name": "Burgers",
@@ -48,6 +48,45 @@
           "saturated_fat": 5,
           "sugars": 8,
           "trans_fat": 0
+        },
+        {
+          "name": "Double-Double Burger",
+          "calories": 670,
+          "protein": 37,
+          "fat": 41,
+          "carbs": 39,
+          "servingSize": "1 burger (330g)",
+          "fiber": 3,
+          "sodium": 1440,
+          "cholesterol": 120,
+          "saturated_fat": 18,
+          "sugars": 10
+        },
+        {
+          "name": "Double-Double\u00ae - Protein Style\u00ae",
+          "calories": 460,
+          "protein": 30,
+          "fat": 32,
+          "carbs": 12,
+          "servingSize": "1 burger (289 g)",
+          "fiber": 2,
+          "sodium": 1390,
+          "cholesterol": 110,
+          "saturated_fat": 15,
+          "sugars": 7
+        },
+        {
+          "name": "Hamburger - Protein Style\u00ae",
+          "calories": 240,
+          "protein": 13,
+          "fat": 17,
+          "carbs": 11,
+          "servingSize": "1 burger (211 g)",
+          "fiber": 3,
+          "sodium": 370,
+          "cholesterol": 35,
+          "saturated_fat": 4.5,
+          "sugars": 4
         }
       ]
     },

@@ -1,0 +1,338 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Whopper Burgers",
+    "Double Whopper Burgers",
+    "Triple Whopper Burgers",
+    "Specialty Whoppers",
+    "Plant-Based Whoppers"
+  ],
+  "products": [
+    {
+      "product_id": "bk_whopper",
+      "name": "Whopper",
+      "category": "Whopper Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "A ¼ lb of savory flame-grilled beef topped with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, crunchy pickles, and sliced white onions on a toasted sesame seed bun.",
+      "price": 6.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (277g)",
+        "weight_g": 277.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 20.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 3.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flame-Grilled Beef Patty",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/whopper.png",
+      "product_url": "https://www.bk.com/menu/item-10001",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.bk.com/menu/whopper",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_double_whopper",
+      "name": "Double Whopper",
+      "category": "Double Whopper Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Two flame-grilled beef patties with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, crunchy pickles, and sliced white onions on a toasted sesame seed bun.",
+      "price": 8.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (367g)",
+        "weight_g": 367.0
+      },
+      "nutrition": {
+        "calories": 900,
+        "protein_g": 35.0,
+        "fat_g": 58.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 135.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 610.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 3.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 5.5,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Two Flame-Grilled Beef Patties",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/double-whopper.png",
+      "product_url": "https://www.bk.com/menu/item-10002",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_triple_whopper",
+      "name": "Triple Whopper with Cheese",
+      "category": "Triple Whopper Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Three flame-grilled beef patties with American cheese, juicy tomatoes, fresh lettuce, mayonnaise, ketchup, pickles, and onions on a sesame seed bun.",
+      "price": 9.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (485g)",
+        "weight_g": 485.0
+      },
+      "nutrition": {
+        "calories": 1300,
+        "protein_g": 63.0,
+        "fat_g": 86.0,
+        "saturated_fat_g": 34.0,
+        "trans_fat_g": 4.0,
+        "cholesterol_mg": 215.0,
+        "sodium_mg": 1650.0,
+        "potassium_mg": 850.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 3.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 7.5,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Three Flame-Grilled Beef Patties",
+        "American Cheese",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/triple-whopper-cheese.png",
+      "product_url": "https://www.bk.com/menu/item-10003",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bacon_king_whopper",
+      "name": "Bacon King Whopper",
+      "category": "Specialty Whoppers",
+      "subcategory": "Bacon Burgers",
+      "description": "Two flame-grilled beef patties, thick-cut smoked bacon, American cheese, ketchup, and creamy mayonnaise on a sesame seed bun.",
+      "price": 9.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (353g)",
+        "weight_g": 353.0
+      },
+      "nutrition": {
+        "calories": 1150,
+        "protein_g": 55.0,
+        "fat_g": 79.0,
+        "saturated_fat_g": 30.0,
+        "trans_fat_g": 3.5,
+        "cholesterol_mg": 205.0,
+        "sodium_mg": 1850.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 2.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Two Flame-Grilled Beef Patties",
+        "Thick-Cut Smoked Bacon",
+        "American Cheese",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/bacon-king.png",
+      "product_url": "https://www.bk.com/menu/item-10004",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_impossible_whopper",
+      "name": "Impossible Whopper",
+      "category": "Plant-Based Whoppers",
+      "subcategory": "Plant-Based",
+      "description": "Flame-grilled plant-based patty made from plants, topped with juicy tomatoes, fresh lettuce, mayonnaise, ketchup, pickles, and sliced white onions on a sesame seed bun.",
+      "price": 7.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (279g)",
+        "weight_g": 279.0
+      },
+      "nutrition": {
+        "calories": 630,
+        "protein_g": 25.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 1080.0,
+        "potassium_mg": 550.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 5.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "Plant-Based Patty",
+        "Sesame Seed Bun",
+        "Mayonnaise",
+        "Ketchup",
+        "Tomatoes",
+        "Lettuce",
+        "Pickles",
+        "White Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/impossible-whopper.png",
+      "product_url": "https://www.bk.com/menu/item-10005",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

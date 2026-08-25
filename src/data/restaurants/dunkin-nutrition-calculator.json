@@ -1,0 +1,266 @@
+{
+  "name": "Dunkin'",
+  "slug": "dunkin-nutrition-calculator",
+  "tagline": "Track nutrition for Dunkin' menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 17 menu items at Dunkin'.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 17,
+  "categories": [
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Bacon, Egg & Cheese on Croissant",
+          "calories": 490,
+          "protein": 13,
+          "fat": 31,
+          "carbs": 39,
+          "servingSize": "1 sandwich (146g)",
+          "fiber": 2,
+          "sodium": 980,
+          "cholesterol": 215,
+          "saturated_fat": 15,
+          "sugars": 5
+        },
+        {
+          "name": "Egg & Cheese Wake Up Wrap",
+          "calories": 210,
+          "protein": 8,
+          "fat": 12,
+          "carbs": 16,
+          "servingSize": "1 wrap (84g)",
+          "fiber": 1,
+          "sodium": 410,
+          "cholesterol": 135,
+          "saturated_fat": 4.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Espresso Drinks",
+      "items": [
+        {
+          "name": "Brown Sugar Cookie Shakin' Espresso (Medium)",
+          "calories": 180,
+          "protein": 2,
+          "fat": 3.5,
+          "carbs": 35,
+          "servingSize": "Medium (24 fl oz)",
+          "fiber": 1,
+          "sodium": 140,
+          "saturated_fat": 0.5,
+          "sugars": 29
+        },
+        {
+          "name": "Brown Sugar Cookie Shakin' Espresso (Small)",
+          "calories": 130,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 25,
+          "servingSize": "Small (16 fl oz)",
+          "sodium": 95,
+          "sugars": 21
+        },
+        {
+          "name": "Brown Sugar Cookie Shakin' Espresso (Large)",
+          "calories": 240,
+          "protein": 3,
+          "fat": 4.5,
+          "carbs": 47,
+          "servingSize": "Large (32 fl oz)",
+          "fiber": 1,
+          "sodium": 180,
+          "saturated_fat": 0.5,
+          "sugars": 39
+        },
+        {
+          "name": "Iced Caramel Latte (Medium)",
+          "calories": 310,
+          "protein": 11,
+          "fat": 8,
+          "carbs": 48,
+          "servingSize": "Medium (24 fl oz)",
+          "sodium": 180,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 45
+        }
+      ]
+    },
+    {
+      "name": "Snacks & Wraps",
+      "items": [
+        {
+          "name": "Chicken & Roasted Pepper Wrap",
+          "calories": 270,
+          "protein": 15,
+          "fat": 11,
+          "carbs": 26,
+          "servingSize": "1 wrap (120g)",
+          "fiber": 2,
+          "sodium": 780,
+          "cholesterol": 40,
+          "saturated_fat": 4.5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Donuts",
+      "items": [
+        {
+          "name": "Original Glazed Donut",
+          "calories": 240,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 31,
+          "servingSize": "1 donut (56g)",
+          "fiber": 1,
+          "sodium": 280,
+          "saturated_fat": 5,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Bakery",
+      "items": [
+        {
+          "name": "Blueberry Muffin",
+          "calories": 460,
+          "protein": 6,
+          "fat": 18,
+          "carbs": 68,
+          "servingSize": "1 muffin (142g)",
+          "fiber": 2,
+          "sodium": 440,
+          "cholesterol": 45,
+          "saturated_fat": 3,
+          "sugars": 38
+        }
+      ]
+    },
+    {
+      "name": "Hot Coffee",
+      "items": [
+        {
+          "name": "Original Blend Hot Coffee (Medium)",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "Medium (14 fl oz)",
+          "sodium": 15
+        }
+      ]
+    },
+    {
+      "name": "Iced Coffee",
+      "items": [
+        {
+          "name": "Iced Coffee (Medium)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "Medium (24 fl oz)",
+          "sodium": 25
+        }
+      ]
+    },
+    {
+      "name": "Donuts & Bakery",
+      "items": [
+        {
+          "name": "Glazed Donut",
+          "calories": 260,
+          "protein": 3,
+          "fat": 14,
+          "carbs": 31,
+          "servingSize": "1 donut (52g)",
+          "fiber": 1,
+          "sodium": 310,
+          "saturated_fat": 6,
+          "sugars": 12
+        },
+        {
+          "name": "Boston Kreme Donut",
+          "calories": 300,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 37,
+          "servingSize": "1 donut (80g)",
+          "fiber": 1,
+          "sodium": 270,
+          "saturated_fat": 7,
+          "sugars": 18
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches & Wraps",
+      "items": [
+        {
+          "name": "Bacon, Egg & Cheese Croissant",
+          "calories": 530,
+          "protein": 16,
+          "fat": 33,
+          "carbs": 41,
+          "servingSize": "1 sandwich (150g)",
+          "fiber": 2,
+          "sodium": 1050,
+          "cholesterol": 225,
+          "saturated_fat": 16,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Teas & Refreshers",
+      "items": [
+        {
+          "name": "Strawberry Dragonfruit Dunkin' Refresher (Medium)",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 32,
+          "servingSize": "Medium (24 fl oz)",
+          "sodium": 60,
+          "sugars": 30
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Snacks",
+      "items": [
+        {
+          "name": "Bacon & Cheddar Omelet Bites",
+          "calories": 280,
+          "protein": 18,
+          "fat": 18,
+          "carbs": 9,
+          "servingSize": "1 order (2 bites / 112g)",
+          "sodium": 680,
+          "cholesterol": 260,
+          "saturated_fat": 9,
+          "sugars": 3
+        },
+        {
+          "name": "Egg White & Veggie Omelet Bites",
+          "calories": 160,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 10,
+          "servingSize": "1 order (2 bites / 115g)",
+          "fiber": 1,
+          "sodium": 520,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        }
+      ]
+    }
+  ]
+}

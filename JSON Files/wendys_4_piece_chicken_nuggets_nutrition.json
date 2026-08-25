@@ -1,0 +1,145 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "Kids' Meals",
+    "Sides & More"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_4_piece_chicken_nuggets",
+      "name": "4 Piece Chicken Nuggets",
+      "category": "Chicken",
+      "subcategory": "Nuggets",
+      "description": "100% white-meat chicken breast cutlet, breaded and seasoned to crispy perfection.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces",
+        "weight_g": 64.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 9.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 340.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 0.5,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Chicken Breast With Rib Meat",
+        "Water",
+        "Sodium Phosphates",
+        "Salt",
+        "Battered And Breaded With: Wheat Flour, Water, Modified Corn Starch, Salt, Spices, Wheat Gluten, Leavening, Garlic Powder, Onion Powder"
+      ],
+      "customizations": [
+        "Choice of Dipping Sauce (Buttermilk Ranch, BBQ, Honey Mustard, Sweet & Sour, Creamy Sriracha)"
+      ],
+      "image_url": "https://www.wendys.com/en-us/chicken/4-piece-chicken-nuggets",
+      "product_url": "https://www.wendys.com/en-us/chicken/4-piece-chicken-nuggets",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/chicken/4-piece-chicken-nuggets",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/wendys/chicken-nuggets/4-piece",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_4_piece_spicy_chicken_nuggets",
+      "name": "4 Piece Spicy Chicken Nuggets",
+      "category": "Chicken",
+      "subcategory": "Nuggets",
+      "description": "100% white-meat chicken breast marinated in a fiery blend of peppers and spices, breaded to crispy perfection.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces",
+        "weight_g": 64.0
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 10.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 9.0,
+        "fiber_g": 0.5,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Chicken Breast With Rib Meat",
+        "Water",
+        "Sodium Phosphates",
+        "Salt",
+        "Battered And Breaded With: Wheat Flour, Water, Spices, Salt, Modified Corn Starch, Wheat Gluten, Leavening, Garlic Powder, Onion Powder, Extractives of Paprika"
+      ],
+      "customizations": [
+        "Choice of Dipping Sauce (Buttermilk Ranch, BBQ, Honey Mustard, Sweet & Sour, Creamy Sriracha)"
+      ],
+      "image_url": "https://www.wendys.com/en-us/chicken/4-piece-spicy-chicken-nuggets",
+      "product_url": "https://www.wendys.com/en-us/chicken/4-piece-spicy-chicken-nuggets",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/chicken/4-piece-spicy-chicken-nuggets",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/wendys/spicy-chicken-nuggets/4-piece",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

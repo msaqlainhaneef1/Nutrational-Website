@@ -1,0 +1,928 @@
+{
+  "name": "BurgerFi",
+  "slug": "burgerfi-nutrition-calculator",
+  "tagline": "Track nutrition for BurgerFi menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 72 menu items at BurgerFi.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 72,
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "BurgerFi Burger",
+          "calories": 864,
+          "protein": 39,
+          "fat": 61,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1470,
+          "cholesterol": 172,
+          "saturated_fat": 20,
+          "sugars": 9
+        },
+        {
+          "name": "Single BurgerFi Burger",
+          "calories": 547,
+          "protein": 23,
+          "fat": 33,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1034,
+          "cholesterol": 94,
+          "saturated_fat": 10,
+          "sugars": 9
+        },
+        {
+          "name": "BurgerFi Cheeseburger",
+          "calories": 962,
+          "protein": 44,
+          "fat": 70,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1969,
+          "cholesterol": 197,
+          "saturated_fat": 25,
+          "sugars": 10
+        },
+        {
+          "name": "Single BurgerFi Cheeseburger",
+          "calories": 597,
+          "protein": 26,
+          "fat": 37,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1284,
+          "cholesterol": 106,
+          "saturated_fat": 13,
+          "sugars": 9
+        },
+        {
+          "name": "Ultimate Bacon Cheeseburger",
+          "calories": 1304,
+          "protein": 73,
+          "fat": 96,
+          "carbs": 1,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 2577,
+          "cholesterol": 262,
+          "saturated_fat": 37,
+          "sugars": 7
+        },
+        {
+          "name": "Single Ultimate Bacon Cheeseburger",
+          "calories": 742,
+          "protein": 39,
+          "fat": 49,
+          "carbs": 1,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 1612,
+          "cholesterol": 131,
+          "saturated_fat": 18,
+          "sugars": 6
+        },
+        {
+          "name": "Yes Chef! Burger",
+          "calories": 932,
+          "protein": 43,
+          "fat": 67,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1653,
+          "cholesterol": 182,
+          "saturated_fat": 25,
+          "sugars": 7
+        },
+        {
+          "name": "BBQ Rodeo Burger",
+          "calories": 1174,
+          "protein": 51,
+          "fat": 75,
+          "carbs": 4,
+          "servingSize": "1 burger",
+          "fiber": 4,
+          "sodium": 2426,
+          "cholesterol": 197,
+          "saturated_fat": 29,
+          "sugars": 22
+        },
+        {
+          "name": "Single BBQ Rodeo Burger",
+          "calories": 778,
+          "protein": 30,
+          "fat": 41,
+          "carbs": 4,
+          "servingSize": "1 burger",
+          "fiber": 4,
+          "sodium": 1856,
+          "cholesterol": 99,
+          "saturated_fat": 15,
+          "sugars": 22
+        },
+        {
+          "name": "Conflicted Burger",
+          "calories": 827,
+          "protein": 32,
+          "fat": 49,
+          "carbs": 1,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 1548,
+          "cholesterol": 119,
+          "saturated_fat": 20,
+          "sugars": 13
+        },
+        {
+          "name": "The CEO",
+          "calories": 1196,
+          "protein": 53,
+          "fat": 89,
+          "carbs": 1,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 1361,
+          "cholesterol": 221,
+          "saturated_fat": 31,
+          "sugars": 4
+        },
+        {
+          "name": "Single The CEO",
+          "calories": 811,
+          "protein": 31,
+          "fat": 56,
+          "carbs": 1,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 896,
+          "cholesterol": 124,
+          "saturated_fat": 17,
+          "sugars": 4
+        },
+        {
+          "name": "VegeFi Burger",
+          "calories": 463,
+          "protein": 14,
+          "fat": 17,
+          "carbs": 4,
+          "servingSize": "1 burger",
+          "fiber": 4,
+          "sodium": 1229,
+          "cholesterol": 28,
+          "saturated_fat": 8,
+          "sugars": 12
+        },
+        {
+          "name": "Beyond Burger",
+          "calories": 625,
+          "protein": 28,
+          "fat": 36,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1844,
+          "cholesterol": 18,
+          "saturated_fat": 10,
+          "sugars": 10
+        },
+        {
+          "name": "Vegan Beyond Burger",
+          "calories": 490,
+          "protein": 25,
+          "fat": 21,
+          "carbs": 2,
+          "servingSize": "1 burger",
+          "fiber": 2,
+          "sodium": 1636,
+          "cholesterol": 18,
+          "saturated_fat": 6,
+          "sugars": 12
+        },
+        {
+          "name": "Fi-Lafel Sliders",
+          "calories": 655,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 order"
+        },
+        {
+          "name": "Breakfast All Day Burger",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 burger"
+        },
+        {
+          "name": "Patty Melt",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 burger"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Fried Chicken Sandwich",
+          "calories": 757,
+          "protein": 31,
+          "fat": 43,
+          "carbs": 2,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 1366,
+          "cholesterol": 69,
+          "saturated_fat": 4,
+          "sugars": 12
+        },
+        {
+          "name": "Buffalo Chicken Sandwich",
+          "calories": 945,
+          "protein": 32,
+          "fat": 50,
+          "carbs": 2,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 3506,
+          "cholesterol": 77,
+          "saturated_fat": 5,
+          "sugars": 13
+        },
+        {
+          "name": "Grilled Chicken Sandwich",
+          "calories": 407,
+          "protein": 28,
+          "fat": 15,
+          "carbs": 2,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 636,
+          "cholesterol": 69,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "BBQ Rodeo Fried Chicken Sandwich",
+          "calories": 661,
+          "protein": 37,
+          "fat": 14,
+          "carbs": 4,
+          "servingSize": "1 sandwich",
+          "fiber": 4,
+          "sodium": 2378,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 23
+        },
+        {
+          "name": "BBQ Rodeo Grilled Chicken",
+          "calories": 533,
+          "protein": 34,
+          "fat": 14,
+          "carbs": 3,
+          "servingSize": "1 sandwich",
+          "fiber": 3,
+          "sodium": 1622,
+          "cholesterol": 85,
+          "saturated_fat": 5,
+          "sugars": 17
+        },
+        {
+          "name": "3 Piece Chicken Tenders",
+          "calories": 361,
+          "protein": 29,
+          "fat": 15,
+          "carbs": 0,
+          "servingSize": "3 pieces",
+          "sodium": 632,
+          "cholesterol": 68,
+          "saturated_fat": 3
+        },
+        {
+          "name": "5 Piece Chicken Tenders",
+          "calories": 602,
+          "protein": 48,
+          "fat": 25,
+          "carbs": 0,
+          "servingSize": "5 pieces",
+          "sodium": 1054,
+          "cholesterol": 113,
+          "saturated_fat": 5
+        },
+        {
+          "name": "5 Chicken Wings",
+          "calories": 1157,
+          "protein": 83,
+          "fat": 89,
+          "carbs": 1,
+          "servingSize": "5 wings",
+          "fiber": 1,
+          "sodium": 3262,
+          "cholesterol": 506,
+          "saturated_fat": 20
+        },
+        {
+          "name": "5 Wings BBQ",
+          "calories": 1283,
+          "protein": 85,
+          "fat": 89,
+          "carbs": 3,
+          "servingSize": "5 wings",
+          "fiber": 3,
+          "sodium": 3844,
+          "cholesterol": 506,
+          "saturated_fat": 20,
+          "sugars": 22
+        },
+        {
+          "name": "5 Wings Buffalo",
+          "calories": 1351,
+          "protein": 83,
+          "fat": 112,
+          "carbs": 1,
+          "servingSize": "5 wings",
+          "fiber": 1,
+          "sodium": 4733,
+          "cholesterol": 506,
+          "saturated_fat": 24
+        },
+        {
+          "name": "5 Sweet Thai Chili",
+          "calories": 1285,
+          "protein": 82,
+          "fat": 89,
+          "carbs": 0,
+          "servingSize": "5 wings",
+          "sodium": 1614,
+          "cholesterol": 506,
+          "saturated_fat": 20,
+          "sugars": 34
+        },
+        {
+          "name": "5 Lemon Pepper",
+          "calories": 1138,
+          "protein": 82,
+          "fat": 89,
+          "carbs": 0,
+          "servingSize": "5 wings",
+          "sodium": 1498,
+          "cholesterol": 506,
+          "saturated_fat": 20
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Chicken Caesar Salad",
+          "calories": 436,
+          "protein": 28,
+          "fat": 30,
+          "carbs": 0,
+          "servingSize": "1 bowl",
+          "sodium": 1003,
+          "cholesterol": 82,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Traditional Chicken Salad",
+          "calories": 345,
+          "protein": 23,
+          "fat": 20,
+          "carbs": 1,
+          "servingSize": "1 bowl",
+          "fiber": 1,
+          "sodium": 740,
+          "cholesterol": 65,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Buffalo Chicken Tender Salad",
+          "calories": 587,
+          "protein": 23,
+          "fat": 38,
+          "carbs": 1,
+          "servingSize": "1 bowl",
+          "fiber": 1,
+          "sodium": 2580,
+          "cholesterol": 61,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "Burger Bowl Burger",
+          "calories": 600,
+          "protein": 20,
+          "fat": 47,
+          "carbs": 2,
+          "servingSize": "1 bowl",
+          "fiber": 2,
+          "sodium": 1612,
+          "cholesterol": 102,
+          "saturated_fat": 13,
+          "sugars": 7
+        },
+        {
+          "name": "Cheeseburger Bowl",
+          "calories": 650,
+          "protein": 23,
+          "fat": 51,
+          "carbs": 2,
+          "servingSize": "1 bowl",
+          "fiber": 2,
+          "sodium": 1862,
+          "cholesterol": 114,
+          "saturated_fat": 15,
+          "sugars": 8
+        },
+        {
+          "name": "Burger Bowl VegeFi",
+          "calories": 465,
+          "protein": 8,
+          "fat": 26,
+          "carbs": 4,
+          "servingSize": "1 bowl",
+          "fiber": 4,
+          "sodium": 1557,
+          "cholesterol": 23,
+          "saturated_fat": 7,
+          "sugars": 10
+        },
+        {
+          "name": "Burger Bowl Tenders",
+          "calories": 526,
+          "protein": 23,
+          "fat": 29,
+          "carbs": 2,
+          "servingSize": "1 bowl",
+          "fiber": 2,
+          "sodium": 1599,
+          "cholesterol": 68,
+          "saturated_fat": 4,
+          "sugars": 7
+        },
+        {
+          "name": "Burger Bowl Grilled Chicken",
+          "calories": 386,
+          "protein": 25,
+          "fat": 20,
+          "carbs": 2,
+          "servingSize": "1 bowl",
+          "fiber": 2,
+          "sodium": 1524,
+          "cholesterol": 88,
+          "saturated_fat": 3,
+          "sugars": 8
+        },
+        {
+          "name": "Burger Bowl Fried Chicken",
+          "calories": 732,
+          "protein": 27,
+          "fat": 49,
+          "carbs": 3,
+          "servingSize": "1 bowl",
+          "fiber": 3,
+          "sodium": 2134,
+          "cholesterol": 88,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Beyond Bowl",
+          "calories": 545,
+          "protein": 22,
+          "fat": 37,
+          "carbs": 2,
+          "servingSize": "1 bowl",
+          "fiber": 2,
+          "sodium": 1547,
+          "cholesterol": 23,
+          "saturated_fat": 8,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Dogs",
+      "items": [
+        {
+          "name": "Oringinal Wagyu Dog",
+          "calories": 360,
+          "protein": 17,
+          "fat": 21,
+          "carbs": 0,
+          "servingSize": "1 dog",
+          "sodium": 1400,
+          "cholesterol": 45,
+          "saturated_fat": 6,
+          "sugars": 2
+        },
+        {
+          "name": "Texas Style Wagyu Dog",
+          "calories": 439,
+          "protein": 20,
+          "fat": 26,
+          "carbs": 0,
+          "servingSize": "1 dog",
+          "sodium": 1878,
+          "cholesterol": 55,
+          "saturated_fat": 8,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Regular Fries",
+          "calories": 704,
+          "protein": 10,
+          "fat": 56,
+          "carbs": 0,
+          "servingSize": "1 order",
+          "sodium": 480,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Large Fries",
+          "calories": 1170,
+          "protein": 21,
+          "fat": 85,
+          "carbs": 0,
+          "servingSize": "1 order",
+          "sodium": 960,
+          "saturated_fat": 6
+        },
+        {
+          "name": "Junior Fries",
+          "calories": 621,
+          "protein": 6,
+          "fat": 57,
+          "carbs": 0,
+          "servingSize": "1 order",
+          "sodium": 366,
+          "saturated_fat": 4
+        },
+        {
+          "name": "Jumbo Onion Rings",
+          "calories": 1005,
+          "protein": 12,
+          "fat": 56,
+          "carbs": 6,
+          "servingSize": "1 order",
+          "fiber": 6,
+          "sodium": 4083,
+          "cholesterol": 5,
+          "saturated_fat": 4,
+          "sugars": 6
+        },
+        {
+          "name": "Cry & Fry",
+          "calories": 1381,
+          "protein": 18,
+          "fat": 98,
+          "carbs": 4,
+          "servingSize": "1 order",
+          "fiber": 4,
+          "sodium": 2795,
+          "cholesterol": 5,
+          "saturated_fat": 7,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Custard",
+      "items": [
+        {
+          "name": "Vanilla Custard Cup",
+          "calories": 351,
+          "protein": 6,
+          "fat": 18,
+          "carbs": 0,
+          "servingSize": "1 cup",
+          "sodium": 223,
+          "cholesterol": 120,
+          "saturated_fat": 11,
+          "sugars": 37
+        },
+        {
+          "name": "Chocolate Custard Cup",
+          "calories": 305,
+          "protein": 6,
+          "fat": 16,
+          "carbs": 0,
+          "servingSize": "1 cup",
+          "sodium": 217,
+          "cholesterol": 104,
+          "saturated_fat": 10,
+          "sugars": 32
+        },
+        {
+          "name": "Swirl Custard Cup",
+          "calories": 328,
+          "protein": 6,
+          "fat": 17,
+          "carbs": 0,
+          "servingSize": "1 cup",
+          "sodium": 220,
+          "cholesterol": 112,
+          "saturated_fat": 10,
+          "sugars": 34
+        },
+        {
+          "name": "Chocolate Shake",
+          "calories": 697,
+          "protein": 12,
+          "fat": 40,
+          "carbs": 0,
+          "servingSize": "1 shake",
+          "sodium": 401,
+          "cholesterol": 226,
+          "saturated_fat": 23,
+          "sugars": 64
+        },
+        {
+          "name": "Vanilla Shake",
+          "calories": 776,
+          "protein": 13,
+          "fat": 43,
+          "carbs": 0,
+          "servingSize": "1 shake",
+          "sodium": 410,
+          "cholesterol": 253,
+          "saturated_fat": 27,
+          "sugars": 72
+        },
+        {
+          "name": "Strawberry Shake",
+          "calories": 830,
+          "protein": 13,
+          "fat": 43,
+          "carbs": 1,
+          "servingSize": "1 shake",
+          "fiber": 1,
+          "sodium": 411,
+          "cholesterol": 253,
+          "saturated_fat": 27,
+          "sugars": 86
+        },
+        {
+          "name": "Cookies + Cream with Oreo Shake",
+          "calories": 1047,
+          "protein": 15,
+          "fat": 55,
+          "carbs": 0,
+          "servingSize": "1 shake",
+          "sodium": 714,
+          "cholesterol": 253,
+          "saturated_fat": 28,
+          "sugars": 93
+        },
+        {
+          "name": "Birthday Cake Shake",
+          "calories": 944,
+          "protein": 13,
+          "fat": 46,
+          "carbs": 0,
+          "servingSize": "1 shake",
+          "sodium": 412,
+          "cholesterol": 253,
+          "saturated_fat": 29,
+          "sugars": 80
+        },
+        {
+          "name": "Pumpkin Pie Shake",
+          "calories": 996,
+          "protein": 17,
+          "fat": 51,
+          "carbs": 1,
+          "servingSize": "1 shake",
+          "fiber": 1,
+          "sodium": 562,
+          "cholesterol": 279,
+          "saturated_fat": 29,
+          "sugars": 91
+        },
+        {
+          "name": "Salted Caramel Pretzel Shake",
+          "calories": 934,
+          "protein": 14,
+          "fat": 45,
+          "carbs": 1,
+          "servingSize": "1 shake",
+          "fiber": 1,
+          "sodium": 825,
+          "cholesterol": 253,
+          "saturated_fat": 26,
+          "sugars": 81
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "American Cheese (Slice)",
+          "calories": 180,
+          "protein": 6,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "1 slice",
+          "fiber": 1,
+          "sodium": 280,
+          "sugars": 4
+        },
+        {
+          "name": "Swiss Cheese (Slice)",
+          "calories": 55,
+          "protein": 4,
+          "fat": 4.5,
+          "carbs": 0,
+          "servingSize": "1 slice",
+          "sodium": 25,
+          "cholesterol": 12.3,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Pepper Jack Cheese (Slice)",
+          "calories": 60,
+          "protein": 3.8,
+          "fat": 4.5,
+          "carbs": 0,
+          "servingSize": "1 slice",
+          "sodium": 101.3,
+          "cholesterol": 15,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Applewood Bacon",
+          "calories": 66.4,
+          "protein": 5.1,
+          "fat": 4.8,
+          "carbs": 0,
+          "servingSize": "1 serving",
+          "sodium": 217.1,
+          "cholesterol": 13.5,
+          "saturated_fat": 1.9,
+          "sugars": 0.3
+        },
+        {
+          "name": "Fried Egg",
+          "calories": 90,
+          "protein": 6,
+          "fat": 7,
+          "carbs": 0,
+          "servingSize": "1 egg",
+          "sodium": 95,
+          "cholesterol": 184,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Fi Sauce",
+          "calories": 45,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0,
+          "servingSize": "1 serving",
+          "sodium": 310,
+          "cholesterol": 15,
+          "sugars": 4
+        },
+        {
+          "name": "Garlic Aioli",
+          "calories": 190,
+          "protein": 1,
+          "fat": 20,
+          "carbs": 0,
+          "servingSize": "1 serving",
+          "sodium": 150,
+          "cholesterol": 15,
+          "saturated_fat": 3.5
+        },
+        {
+          "name": "Truffle Aioli",
+          "calories": 200,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 0,
+          "servingSize": "1 serving",
+          "sodium": 150,
+          "cholesterol": 20,
+          "saturated_fat": 3.5
+        }
+      ]
+    },
+    {
+      "name": "Buns",
+      "items": [
+        {
+          "name": "Potato Bun",
+          "calories": 180,
+          "protein": 6,
+          "fat": 2.5,
+          "carbs": 1,
+          "servingSize": "1 bun",
+          "fiber": 1,
+          "sodium": 280,
+          "sugars": 4
+        },
+        {
+          "name": "Hot Dog Buns",
+          "calories": 130,
+          "protein": 5,
+          "fat": 2,
+          "carbs": 0,
+          "servingSize": "1 bun",
+          "sodium": 240
+        },
+        {
+          "name": "Udi's Gluten Free Bun",
+          "calories": 200,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 5,
+          "servingSize": "1 bun",
+          "fiber": 5,
+          "sodium": 370,
+          "sugars": 5
+        },
+        {
+          "name": "Lettuce Buns",
+          "calories": 15,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 10
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Kid's Burger Meal",
+          "calories": 495,
+          "protein": 22,
+          "fat": 30,
+          "carbs": 1,
+          "servingSize": "1 meal",
+          "fiber": 1,
+          "sodium": 715,
+          "cholesterol": 79,
+          "saturated_fat": 10,
+          "sugars": 4
+        },
+        {
+          "name": "Kid's Tenders Meal",
+          "calories": 241,
+          "protein": 19,
+          "fat": 10,
+          "carbs": 0,
+          "servingSize": "1 meal",
+          "sodium": 421,
+          "cholesterol": 45,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Honest Kids Apple Juice",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8,
+          "servingSize": "1 box",
+          "sodium": 15,
+          "sugars": 8
+        }
+      ]
+    }
+  ]
+}

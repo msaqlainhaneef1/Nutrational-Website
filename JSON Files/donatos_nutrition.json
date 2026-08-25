@@ -1,0 +1,73 @@
+{
+  "restaurant": "Donatos Pizza",
+  "last_updated": "2026-08-06",
+  "source": "Donatos Master Nutrition File (May 2023 & Jan 2024) and 2025-2026 Menu Updates",
+  "menu_items": [
+    {
+      "category": "Signature Pizzas - 14\" Famous Thin (17 slices)",
+      "items": [
+        {"name": "Pepperoni Pizza", "serving_size": "1 slice", "calories": 150, "total_fat_g": 8, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 330, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Serious Cheese Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 320, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Founder's Favorite Pizza", "serving_size": "1 slice", "calories": 170, "total_fat_g": 9, "saturated_fat_g": 3.5, "trans_fat_g": 0, "cholesterol_mg": 25, "sodium_mg": 520, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 9, "allergens": ["Milk", "Wheat"]},
+        {"name": "Ultimate 4 Cheese Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 290, "total_carb_g": 11, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "The Works Pizza", "serving_size": "1 slice", "calories": 160, "total_fat_g": 9, "saturated_fat_g": 3.5, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 350, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 8, "allergens": ["Milk", "Wheat"]},
+        {"name": "Chicken Spinach Mozzarella Pizza", "serving_size": "1 slice", "calories": 150, "total_fat_g": 8, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 290, "total_carb_g": 11, "dietary_fiber_g": 0, "sugars_g": 1, "protein_g": 8, "allergens": ["Milk", "Wheat"]},
+        {"name": "Mariachi Chicken Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 420, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Mariachi Beef Pizza", "serving_size": "1 slice", "calories": 150, "total_fat_g": 8, "saturated_fat_g": 3.5, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 430, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat", "Soy"]},
+        {"name": "Double Bacon Pepperoni Pizza", "serving_size": "1 slice", "calories": 180, "total_fat_g": 11, "saturated_fat_g": 4, "trans_fat_g": 0, "cholesterol_mg": 25, "sodium_mg": 440, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 9, "allergens": ["Milk", "Wheat"]},
+        {"name": "Serious Meat Pizza", "serving_size": "1 slice", "calories": 180, "total_fat_g": 10, "saturated_fat_g": 4, "trans_fat_g": 0, "cholesterol_mg": 25, "sodium_mg": 480, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 10, "allergens": ["Milk", "Wheat", "Soy"]},
+        {"name": "Margherita Pizza", "serving_size": "1 slice", "calories": 160, "total_fat_g": 9, "saturated_fat_g": 4, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 250, "total_carb_g": 11, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Hot Chicken Pizza", "serving_size": "1 slice", "calories": 150, "total_fat_g": 7, "saturated_fat_g": 2.5, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 490, "total_carb_g": 14, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 7, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Very Vegy Pizza", "serving_size": "1 slice", "calories": 130, "total_fat_g": 6, "saturated_fat_g": 2, "trans_fat_g": 0, "cholesterol_mg": 10, "sodium_mg": 310, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 5, "allergens": ["Milk", "Wheat"]},
+        {"name": "Classic Trio Pizza", "serving_size": "1 slice", "calories": 160, "total_fat_g": 9, "saturated_fat_g": 3.5, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 350, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 8, "allergens": ["Milk", "Wheat"]},
+        {"name": "Hawaiian Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 7, "saturated_fat_g": 2, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 350, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat", "Tree Nuts"]},
+        {"name": "Chicken Vegy Parm Pizza (New 2025)", "serving_size": "1 slice", "calories": 140, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 340, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Smoky Hot Honey Pizza (New 2025)", "serving_size": "1 slice", "calories": 170, "total_fat_g": 10, "saturated_fat_g": 4, "trans_fat_g": 0, "cholesterol_mg": 25, "sodium_mg": 410, "total_carb_g": 13, "dietary_fiber_g": 1, "sugars_g": 3, "protein_g": 8, "allergens": ["Milk", "Wheat"]}
+      ]
+    },
+    {
+      "category": "Signature Pizzas - 12\" Famous Thin (14 slices)",
+      "items": [
+        {"name": "Pepperoni Pizza", "serving_size": "1 slice", "calories": 130, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 290, "total_carb_g": 11, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 6, "allergens": ["Milk", "Wheat"]},
+        {"name": "Serious Cheese Pizza", "serving_size": "1 slice", "calories": 130, "total_fat_g": 7, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 280, "total_carb_g": 11, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 6, "allergens": ["Milk", "Wheat"]},
+        {"name": "Founder's Favorite Pizza", "serving_size": "1 slice", "calories": 150, "total_fat_g": 8, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 20, "sodium_mg": 460, "total_carb_g": 11, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 8, "allergens": ["Milk", "Wheat"]},
+        {"name": "Ultimate 4 Cheese Pizza", "serving_size": "1 slice", "calories": 120, "total_fat_g": 6, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 250, "total_carb_g": 10, "dietary_fiber_g": 1, "sugars_g": 1, "protein_g": 6, "allergens": ["Milk", "Wheat"]},
+        {"name": "The Works Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 8, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 310, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat"]},
+        {"name": "Hot Honey Pepperoni Pizza", "serving_size": "1 slice", "calories": 140, "total_fat_g": 8, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 15, "sodium_mg": 280, "total_carb_g": 12, "dietary_fiber_g": 1, "sugars_g": 2, "protein_g": 7, "allergens": ["Milk", "Wheat"]}
+      ]
+    },
+    {
+      "category": "Wings and Sides",
+      "items": [
+        {"name": "Traditional Wings - Mild", "serving_size": "5 wings", "calories": 410, "total_fat_g": 30, "saturated_fat_g": 6, "trans_fat_g": 0, "cholesterol_mg": 125, "sodium_mg": 1420, "total_carb_g": 4, "dietary_fiber_g": 0, "sugars_g": 2, "protein_g": 29, "allergens": ["Milk"]},
+        {"name": "Traditional Wings - Hot", "serving_size": "5 wings", "calories": 400, "total_fat_g": 30, "saturated_fat_g": 6, "trans_fat_g": 0, "cholesterol_mg": 125, "sodium_mg": 1410, "total_carb_g": 4, "dietary_fiber_g": 0, "sugars_g": 2, "protein_g": 29, "allergens": ["Milk"]},
+        {"name": "Boneless Wings - Mild", "serving_size": "6 pieces", "calories": 350, "total_fat_g": 15, "saturated_fat_g": 3, "trans_fat_g": 0, "cholesterol_mg": 55, "sodium_mg": 3170, "total_carb_g": 30, "dietary_fiber_g": 0, "sugars_g": 3, "protein_g": 23, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Boneless Wings - BBQ", "serving_size": "6 pieces", "calories": 380, "total_fat_g": 12, "saturated_fat_g": 2.5, "trans_fat_g": 0, "cholesterol_mg": 55, "sodium_mg": 1820, "total_carb_g": 45, "dietary_fiber_g": 1, "sugars_g": 19, "protein_g": 23, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Cinnamon Bread", "serving_size": "1/4 bread", "calories": 260, "total_fat_g": 8, "saturated_fat_g": 2.5, "trans_fat_g": 0, "cholesterol_mg": 0, "sodium_mg": 270, "total_carb_g": 41, "dietary_fiber_g": 1, "sugars_g": 13, "protein_g": 6, "allergens": ["Milk", "Wheat", "Soy"]}
+      ]
+    },
+    {
+      "category": "Subs and Calzones",
+      "items": [
+        {"name": "Big Don Italian Sub (Marinara)", "serving_size": "1 each", "calories": 600, "total_fat_g": 24, "saturated_fat_g": 10, "trans_fat_g": 0.5, "cholesterol_mg": 80, "sodium_mg": 1880, "total_carb_g": 61, "dietary_fiber_g": 2, "sugars_g": 8, "protein_g": 32, "allergens": ["Milk", "Wheat"]},
+        {"name": "Meatball Sub", "serving_size": "1 each", "calories": 850, "total_fat_g": 37, "saturated_fat_g": 18, "trans_fat_g": 1.5, "cholesterol_mg": 155, "sodium_mg": 2560, "total_carb_g": 76, "dietary_fiber_g": 4, "sugars_g": 13, "protein_g": 47, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Chicken Bacon Ranch Sub", "serving_size": "1 each", "calories": 740, "total_fat_g": 34, "saturated_fat_g": 13, "trans_fat_g": 0.5, "cholesterol_mg": 115, "sodium_mg": 1880, "total_carb_g": 59, "dietary_fiber_g": 1, "sugars_g": 6, "protein_g": 46, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Smoky Hot Honey Chicken Sub (New 2025)", "serving_size": "1 each", "calories": 780, "total_fat_g": 38, "saturated_fat_g": 14, "trans_fat_g": 0.5, "cholesterol_mg": 110, "sodium_mg": 2100, "total_carb_g": 65, "dietary_fiber_g": 2, "sugars_g": 10, "protein_g": 44, "allergens": ["Milk", "Wheat"]}
+      ]
+    },
+    {
+      "category": "Salads",
+      "items": [
+        {"name": "Italian Side Salad (w/ Dressing)", "serving_size": "1 serv", "calories": 330, "total_fat_g": 31, "saturated_fat_g": 7, "trans_fat_g": 0.5, "cholesterol_mg": 20, "sodium_mg": 730, "total_carb_g": 7, "dietary_fiber_g": 2, "sugars_g": 3, "protein_g": 7, "allergens": ["Milk"]},
+        {"name": "Chicken Bacon Ranch Entrée Salad", "serving_size": "1 serv", "calories": 590, "total_fat_g": 45, "saturated_fat_g": 13, "trans_fat_g": 0.5, "cholesterol_mg": 120, "sodium_mg": 1640, "total_carb_g": 12, "dietary_fiber_g": 2, "sugars_g": 6, "protein_g": 36, "allergens": ["Milk", "Egg"]}
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        {"name": "Triple Chocolate Chunk Cookie", "serving_size": "1 each", "calories": 310, "total_fat_g": 15, "saturated_fat_g": 8, "trans_fat_g": 0, "cholesterol_mg": 35, "sodium_mg": 290, "total_carb_g": 35, "dietary_fiber_g": 2, "sugars_g": 26, "protein_g": 5, "allergens": ["Milk", "Wheat", "Soy", "Egg"]},
+        {"name": "Fudge Brownie", "serving_size": "1 each", "calories": 360, "total_fat_g": 21, "saturated_fat_g": 12, "trans_fat_g": 0, "cholesterol_mg": 75, "sodium_mg": 210, "total_carb_g": 45, "dietary_fiber_g": 3, "sugars_g": 34, "protein_g": 5, "allergens": ["Milk", "Wheat", "Soy", "Egg"]}
+      ]
+    }
+  ]
+}

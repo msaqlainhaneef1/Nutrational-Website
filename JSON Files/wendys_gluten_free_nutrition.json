@@ -1,0 +1,128 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Gluten-Free Frosty",
+    "Gluten-Free Sides"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_chocolate_frosty_small_gf",
+      "name": "Classic Chocolate Frosty (Small - Gluten-Free)",
+      "category": "Gluten-Free Frosty",
+      "subcategory": "Frosty",
+      "description": "The legendary rich and creamy chocolate Wendy's Frosty. Naturally gluten-free (served without cone or bakery items).",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (310g / 12 fl oz)",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 8.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 200.0,
+        "potassium_mg": 330.0,
+        "carbohydrates_g": 57.0,
+        "fiber_g": 0.0,
+        "sugars_g": 49.0,
+        "added_sugars_g": 38.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Cream",
+        "Nonfat Milk",
+        "Whey",
+        "Cocoa (Processed with Alkali)",
+        "Guar Gum",
+        "Mono and Diglycerides",
+        "Cellulose Gum",
+        "Carrageenan"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/chocolate-frosty-small.png",
+      "product_url": "https://www.wendys.com/menu/frosty/chocolate-frosty",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_baked_potato_plain_gf",
+      "name": "Plain Baked Potato (Gluten-Free)",
+      "category": "Gluten-Free Sides",
+      "subcategory": "Baked Potatoes",
+      "description": "A warm, fluffy U.S. grown potato with a mealy texture, completely gluten-free when ordered plain.",
+      "price": 2.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 potato (307g)",
+        "weight_g": 307.0
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 7.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 35.0,
+        "potassium_mg": 930.0,
+        "carbohydrates_g": 61.0,
+        "fiber_g": 7.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/baked-potato-plain.png",
+      "product_url": "https://www.wendys.com/menu/sides/sour-cream-chive-baked-potato",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

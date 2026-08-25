@@ -1,0 +1,146 @@
+---
+import {
+  getRelatedRestaurants,
+  getCompanionCalculators,
+  getCategoryHubs,
+} from '@/features/shared/services/internalLinks';
+import { Utensils, Calculator, Compass, ArrowUpRight } from '@lucide/astro';
+
+interface Props {
+  currentSlug: string;
+  restaurantName: string;
+  category?: string;
+}
+
+const { currentSlug, restaurantName, category } = Astro.props;
+
+const relatedRestaurants = getRelatedRestaurants(currentSlug, category, 6);
+const companionCalculators = getCompanionCalculators('restaurant', undefined, 4);
+const categoryHubs = getCategoryHubs(category, 8);
+---
+
+<section class="mt-16 pt-12 border-t border-zinc-800/80 space-y-12" aria-label="Related Guides & Tools">
+  <!-- Section 1: Similar Restaurant Menus -->
+  {relatedRestaurants.length > 0 && (
+    <div class="space-y-5">
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-emerald-400 mb-1">
+            <Utensils class="h-3.5 w-3.5" />
+            Similar Nutrition Guides
+          </div>
+          <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            More {category || 'Popular'} Restaurant Calculators
+          </h3>
+        </div>
+        <a
+          href="/restaurants/"
+          class="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-zinc-400 hover:text-emerald-400 transition-colors"
+        >
+          View all 194+ chains
+          <ArrowUpRight class="h-3.5 w-3.5" />
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {relatedRestaurants.map((res) => (
+          <a
+            href={res.url}
+            class="glass-card-hover group rounded-2xl p-4.5 border border-zinc-800/80 hover:border-emerald-500/30 transition-all duration-200 flex flex-col justify-between"
+          >
+            <div class="flex items-start gap-3.5">
+              <span class="text-3xl p-2 rounded-xl bg-zinc-900/80 border border-zinc-800 group-hover:scale-105 transition-transform flex-shrink-0">
+                {res.emoji}
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-2 mb-1">
+                  <span class="text-[10px] font-semibold text-emerald-400/90 uppercase tracking-wider bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                    {res.category}
+                  </span>
+                </div>
+                <h4 class="font-bold text-white text-base group-hover:text-emerald-300 transition-colors truncate">
+                  {res.name}
+                </h4>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-zinc-800/60 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-medium text-zinc-400">{res.itemCount} items indexed</span>
+              <span class="text-emerald-400 font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                Calculate &rarr;
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Section 2: Companion Health & Calorie Calculators -->
+  {companionCalculators.length > 0 && (
+    <div class="space-y-5">
+      <div>
+        <div class="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-emerald-400 mb-1">
+          <Calculator class="h-3.5 w-3.5" />
+          Diet & Calorie Planning
+        </div>
+        <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">
+          Tools to Plan Your {restaurantName} Meal
+        </h3>
+        <p class="text-xs sm:text-sm text-zinc-400 mt-1 max-w-2xl">
+          Use our free, private browser-based calculators to find your target calories, calculate macro splits, and balance eating out with your health goals.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {companionCalculators.map((calc) => (
+          <a
+            href={calc.url}
+            class="glass-card-hover group rounded-2xl p-4.5 border border-zinc-800/80 hover:border-emerald-500/30 transition-all duration-200 flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-2xl">{calc.icon}</span>
+                <span class="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded-full">
+                  Free Tool
+                </span>
+              </div>
+              <h4 class="font-bold text-white text-sm group-hover:text-emerald-300 transition-colors mb-1">
+                {calc.name}
+              </h4>
+              <p class="text-xs text-zinc-400 line-clamp-2 leading-relaxed">
+                {calc.description}
+              </p>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-zinc-800/60 flex items-center justify-between text-xs text-emerald-400 font-semibold">
+              <span>{calc.tagline}</span>
+              <span class="group-hover:translate-x-0.5 transition-transform">&rarr;</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Section 3: Dining Category Hubs -->
+  {categoryHubs.length > 0 && (
+    <div class="space-y-4 pt-2">
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-zinc-400">
+        <Compass class="h-3.5 w-3.5 text-emerald-400" />
+        Explore More Dining Categories
+      </div>
+      <div class="flex flex-wrap gap-2">
+        {categoryHubs.map((hub) => (
+          <a
+            href={hub.url}
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-zinc-900/80 hover:bg-zinc-800 border border-zinc-800/80 hover:border-emerald-500/30 text-xs font-medium text-zinc-300 hover:text-white transition-all"
+          >
+            <span>{hub.name}</span>
+            <span class="text-[10px] text-zinc-500 font-mono">({hub.count})</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+</section>

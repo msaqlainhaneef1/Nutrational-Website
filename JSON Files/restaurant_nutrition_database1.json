@@ -1,0 +1,4090 @@
+{
+  "restaurants": [
+    {
+      "brand": {
+        "name": "Barberitos",
+        "website": "https://barberitos.com",
+        "country": "USA",
+        "last_updated": "2026-08-07"
+      },
+      "categories": [
+        "Signature Favs",
+        "Tortillas & Shells",
+        "Proteins",
+        "Rice, Beans & Cheese",
+        "Toppings & Veggies",
+        "Salsas & Sauces",
+        "Add-Ons & Sides",
+        "Beverages",
+        "Desserts"
+      ],
+      "products": [
+        {
+          "product_id": "sig-01",
+          "name": "The Better Chicken Burrito",
+          "category": "Signature Favs",
+          "subcategory": "Burritos",
+          "description": "Signature burrito packed with juicy chicken, rice, black beans, shredded cheese, Pico de Gallo, queso, crunchy tortilla strips, and pickled jalapeños, grilled to crispy golden perfection. Served with chips and your choice of salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 burrito with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 950,
+            "protein_g": 48.0,
+            "fat_g": 32.0,
+            "saturated_fat_g": 12.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 95.0,
+            "sodium_mg": 1850.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 115.0,
+            "fiber_g": 10.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": null,
+            "calcium_mg": 350.0,
+            "iron_mg": 4.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Soy"
+          ],
+          "ingredients": [
+            "Flour Tortilla",
+            "Chicken",
+            "Rice",
+            "Black Beans",
+            "Shredded Cheese",
+            "Pico de Gallo",
+            "Queso",
+            "Tortilla Strips",
+            "Pickled Jalapeños",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Can be made spicy with spicy chicken and chipotle tortilla"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            },
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "sig-02",
+          "name": "Philly Cheesesteak Burrito",
+          "category": "Signature Favs",
+          "subcategory": "Burritos",
+          "description": "Stuffed with tender steak, grilled fajita veggies, rice, black beans, creamy queso, Pico de Gallo, and jalapeño crema. Served with chips and your choice of salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 burrito with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1020,
+            "protein_g": 52.0,
+            "fat_g": 36.0,
+            "saturated_fat_g": 14.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 110.0,
+            "sodium_mg": 1980.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 112.0,
+            "fiber_g": 9.0,
+            "sugars_g": 5.0,
+            "added_sugars_g": null,
+            "calcium_mg": 380.0,
+            "iron_mg": 5.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Soy"
+          ],
+          "ingredients": [
+            "Flour Tortilla",
+            "Steak",
+            "Fajita Veggies",
+            "Rice",
+            "Black Beans",
+            "Queso",
+            "Pico de Gallo",
+            "Jalapeño Crema",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Tortilla and protein options customizable"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sig-03",
+          "name": "Chicken Bacon Chipotle Ranch Quesadilla/Burrito",
+          "category": "Signature Favs",
+          "subcategory": "Quesadillas & Burritos",
+          "description": "Loaded with juicy chicken, crispy bacon, rice, shredded cheese, and fresh Pico de Gallo, drizzled with zesty chipotle ranch. Served with chips and your choice of salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 entree with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1100,
+            "protein_g": 58.0,
+            "fat_g": 48.0,
+            "saturated_fat_g": 18.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 140.0,
+            "sodium_mg": 2150.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 98.0,
+            "fiber_g": 7.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": null,
+            "calcium_mg": 450.0,
+            "iron_mg": 4.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Soy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Tortilla",
+            "Chicken",
+            "Bacon",
+            "Rice",
+            "Shredded Cheese",
+            "Pico de Gallo",
+            "Chipotle Ranch",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Available as quesadilla or burrito"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sig-04",
+          "name": "Avocado BLT Bowl",
+          "category": "Signature Favs",
+          "subcategory": "Burrito Bowls",
+          "description": "Bowl with rice, crisp lettuce, black beans, shredded cheese, pico de gallo, crispy bacon, and fresh avocado, drizzled with chipotle ranch. Served with chips and salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 bowl with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 780,
+            "protein_g": 32.0,
+            "fat_g": 42.0,
+            "saturated_fat_g": 12.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 65.0,
+            "sodium_mg": 1520.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 78.0,
+            "fiber_g": 12.0,
+            "sugars_g": 5.0,
+            "added_sugars_g": null,
+            "calcium_mg": 320.0,
+            "iron_mg": 4.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Rice",
+            "Lettuce",
+            "Black Beans",
+            "Shredded Cheese",
+            "Pico de Gallo",
+            "Bacon",
+            "Avocado",
+            "Chipotle Ranch",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Can add protein of choice"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sig-05",
+          "name": "Southwest Salad",
+          "category": "Signature Favs",
+          "subcategory": "Salads",
+          "description": "Crisp romaine lettuce, black beans, tender chicken, shredded cheese, fresh Pico de Gallo, cilantro, and crunchy tortilla strips, drizzled with southwest vinaigrette. Served with chips and salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 salad with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 710,
+            "protein_g": 45.0,
+            "fat_g": 35.0,
+            "saturated_fat_g": 10.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 85.0,
+            "sodium_mg": 1450.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 62.0,
+            "fiber_g": 9.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": null,
+            "calcium_mg": 340.0,
+            "iron_mg": 3.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Soy"
+          ],
+          "ingredients": [
+            "Romaine Lettuce",
+            "Black Beans",
+            "Chicken",
+            "Shredded Cheese",
+            "Pico de Gallo",
+            "Cilantro",
+            "Tortilla Strips",
+            "Southwest Vinaigrette",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Customizable greens and dressing"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sig-06",
+          "name": "Traditional Taco Salad",
+          "category": "Signature Favs",
+          "subcategory": "Salads",
+          "description": "Crispy taco shell filled with romaine lettuce, black beans, seasoned ground beef, shredded cheese, Pico de Gallo, guacamole, and sour cream, drizzled with chipotle ranch. Served with chips and salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 salad with chips & salsa",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 980,
+            "protein_g": 42.0,
+            "fat_g": 58.0,
+            "saturated_fat_g": 18.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 115.0,
+            "sodium_mg": 1780.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 78.0,
+            "fiber_g": 11.0,
+            "sugars_g": 7.0,
+            "added_sugars_g": null,
+            "calcium_mg": 410.0,
+            "iron_mg": 5.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg",
+            "Soy"
+          ],
+          "ingredients": [
+            "Taco Shell Bowl",
+            "Romaine Lettuce",
+            "Black Beans",
+            "Ground Beef",
+            "Shredded Cheese",
+            "Pico de Gallo",
+            "Guacamole",
+            "Sour Cream",
+            "Chipotle Ranch",
+            "Tortilla Chips",
+            "Salsa"
+          ],
+          "customizations": [
+            "Protein choice customizable"
+          ],
+          "image_url": "https://barberitos.com/menu/favorites/",
+          "product_url": "https://barberitos.com/menu/favorites/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/favorites/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "tort-01",
+          "name": "Flour Tortilla",
+          "category": "Tortillas & Shells",
+          "subcategory": "Tortillas",
+          "description": "Standard soft flour tortilla used for burritos and quesadillas.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 tortilla",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 300,
+            "protein_g": 10.0,
+            "fat_g": 8.0,
+            "saturated_fat_g": 2.0,
+            "trans_fat_g": 2.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 770.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 47.0,
+            "fiber_g": 3.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 100.0,
+            "iron_mg": 3.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Soy"
+          ],
+          "ingredients": [
+            "Enriched Flour",
+            "Water",
+            "Vegetable Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "tort-02",
+          "name": "Wheat Tortilla",
+          "category": "Tortillas & Shells",
+          "subcategory": "Tortillas",
+          "description": "Whole wheat soft tortilla.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 tortilla",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 250,
+            "protein_g": 9.0,
+            "fat_g": 8.0,
+            "saturated_fat_g": 1.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 770.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 37.0,
+            "fiber_g": 5.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 90.0,
+            "iron_mg": 2.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten"
+          ],
+          "ingredients": [
+            "Whole Wheat Flour",
+            "Water",
+            "Vegetable Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "tort-03",
+          "name": "Chipotle Tortilla",
+          "category": "Tortillas & Shells",
+          "subcategory": "Tortillas",
+          "description": "Spicy chipotle-infused soft tortilla.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 tortilla",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 260,
+            "protein_g": 8.0,
+            "fat_g": 3.0,
+            "saturated_fat_g": 1.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 880.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 39.0,
+            "fiber_g": 2.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 80.0,
+            "iron_mg": 2.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten"
+          ],
+          "ingredients": [
+            "Enriched Flour",
+            "Chipotle Seasoning",
+            "Water",
+            "Vegetable Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "tort-04",
+          "name": "Spinach Tortilla",
+          "category": "Tortillas & Shells",
+          "subcategory": "Tortillas",
+          "description": "Spinach-infused green soft tortilla.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 tortilla",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 260,
+            "protein_g": 8.0,
+            "fat_g": 2.0,
+            "saturated_fat_g": 0.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 700.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 41.0,
+            "fiber_g": 4.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 85.0,
+            "iron_mg": 2.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten"
+          ],
+          "ingredients": [
+            "Enriched Flour",
+            "Spinach Extract",
+            "Water",
+            "Vegetable Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "tort-05",
+          "name": "Hard Taco Shell",
+          "category": "Tortillas & Shells",
+          "subcategory": "Taco Shells",
+          "description": "Crispy corn taco shell.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 shell",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 60,
+            "protein_g": 1.0,
+            "fat_g": 3.0,
+            "saturated_fat_g": 0.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 45.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 7.0,
+            "fiber_g": 1.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 0.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Corn Masa",
+            "Vegetable Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/tacos/",
+          "product_url": "https://barberitos.com/menu/tacos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "prot-01",
+          "name": "Chicken (Burrito/Salad Portion)",
+          "category": "Proteins",
+          "subcategory": "Chicken",
+          "description": "All white breast meat marinated and grilled daily. Also available spicy.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (standard burrito portion)",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 130,
+            "protein_g": 24.0,
+            "fat_g": 3.5,
+            "saturated_fat_g": 1.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 70.0,
+            "sodium_mg": 380.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 1.0,
+            "fiber_g": 0.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Chicken Breast",
+            "Marinade Spices"
+          ],
+          "customizations": [
+            "Can be made spicy"
+          ],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://foods.fatsecret.com/calories-nutrition/barberitos/chicken",
+              "source_type": "FatSecret Nutrition Database",
+              "confidence": 0.95
+            },
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "prot-02",
+          "name": "Chicken (Bowl Portion)",
+          "category": "Proteins",
+          "subcategory": "Chicken",
+          "description": "Larger protein scoop for burrito bowls.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 bowl portion",
+            "weight_g": 115
+          },
+          "nutrition": {
+            "calories": 190,
+            "protein_g": 36.0,
+            "fat_g": 5.0,
+            "saturated_fat_g": 1.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 95.0,
+            "sodium_mg": 520.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 1.5,
+            "fiber_g": 0.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 1.1,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Chicken Breast",
+            "Marinade Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burrito-bowls/",
+          "product_url": "https://barberitos.com/menu/burrito-bowls/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "prot-03",
+          "name": "Steak",
+          "category": "Proteins",
+          "subcategory": "Steak",
+          "description": "Marinated with unique spice blend and grilled to perfection.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 standard portion",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 180,
+            "protein_g": 25.0,
+            "fat_g": 7.0,
+            "saturated_fat_g": 2.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 75.0,
+            "sodium_mg": 460.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 1.0,
+            "fiber_g": 0.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 12.0,
+            "iron_mg": 2.4,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Beef Steak",
+            "Southwest Spices",
+            "Marinade"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "prot-04",
+          "name": "Tofu",
+          "category": "Proteins",
+          "subcategory": "Tofu",
+          "description": "Vegan & sautéed in a southwest chipotle sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 standard portion",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 110,
+            "protein_g": 10.0,
+            "fat_g": 6.0,
+            "saturated_fat_g": 1.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 320.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 4.0,
+            "fiber_g": 1.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 120.0,
+            "iron_mg": 1.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Soy"
+          ],
+          "ingredients": [
+            "Tofu",
+            "Chipotle Sauce",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "prot-05",
+          "name": "Ground Beef",
+          "category": "Proteins",
+          "subcategory": "Ground Beef",
+          "description": "All-natural ground beef cooked with a blend of southwest seasonings.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "Varies by location"
+          },
+          "serving": {
+            "size": "1 standard portion",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 210,
+            "protein_g": 18.0,
+            "fat_g": 14.0,
+            "saturated_fat_g": 5.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 60.0,
+            "sodium_mg": 410.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.0,
+            "fiber_g": 0.5,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 2.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Ground Beef",
+            "Southwest Seasonings"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "prot-06",
+          "name": "Ground Turkey",
+          "category": "Proteins",
+          "subcategory": "Ground Turkey",
+          "description": "Lean ground turkey cooked with a blend of southwest seasonings.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "Varies by location"
+          },
+          "serving": {
+            "size": "1 standard portion",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 160,
+            "protein_g": 20.0,
+            "fat_g": 8.0,
+            "saturated_fat_g": 2.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 70.0,
+            "sodium_mg": 390.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.0,
+            "fiber_g": 0.5,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 1.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Ground Turkey",
+            "Southwest Seasonings"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "rbc-01",
+          "name": "Rice",
+          "category": "Rice, Beans & Cheese",
+          "subcategory": "Rice",
+          "description": "Fluffy seasoned rice.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (3 oz)",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 120,
+            "protein_g": 3.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 250.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 28.0,
+            "fiber_g": 1.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 1.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Long Grain Rice",
+            "Seasonings",
+            "Oil"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://foods.fatsecret.com/calories-nutrition/barberitos/rice",
+              "source_type": "FatSecret Nutrition Database",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "rbc-02",
+          "name": "Black Beans",
+          "category": "Rice, Beans & Cheese",
+          "subcategory": "Beans",
+          "description": "Whole black beans simmered in spices.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (3 oz)",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 60,
+            "protein_g": 3.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 220.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 11.0,
+            "fiber_g": 4.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Black Beans",
+            "Water",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://foods.fatsecret.com/calories-nutrition/barberitos/black-beans",
+              "source_type": "FatSecret Nutrition Database",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "rbc-03",
+          "name": "Pinto Beans",
+          "category": "Rice, Beans & Cheese",
+          "subcategory": "Beans",
+          "description": "Savory pinto beans.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (3 oz)",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 90,
+            "protein_g": 5.0,
+            "fat_g": 0.5,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 240.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 16.0,
+            "fiber_g": 5.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 30.0,
+            "iron_mg": 1.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Pinto Beans",
+            "Water",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "rbc-04",
+          "name": "Shredded Cheese",
+          "category": "Rice, Beans & Cheese",
+          "subcategory": "Cheese",
+          "description": "Blended shredded cheeses.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (1.5 oz)",
+            "weight_g": 42
+          },
+          "nutrition": {
+            "calories": 160,
+            "protein_g": 10.0,
+            "fat_g": 13.0,
+            "saturated_fat_g": 8.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 35.0,
+            "sodium_mg": 270.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 0.0,
+            "fiber_g": 0.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 300.0,
+            "iron_mg": 0.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Dairy"
+          ],
+          "ingredients": [
+            "Cheddar Cheese",
+            "Monterey Jack Cheese"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://foods.fatsecret.com/calories-nutrition/barberitos/cheese",
+              "source_type": "FatSecret Nutrition Database",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "top-01",
+          "name": "Romaine Lettuce",
+          "category": "Toppings & Veggies",
+          "subcategory": "Greens",
+          "description": "Freshly chopped romaine lettuce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving",
+            "weight_g": 30
+          },
+          "nutrition": {
+            "calories": 10,
+            "protein_g": 1.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 5.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.0,
+            "fiber_g": 1.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 0.4,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Romaine Lettuce"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "top-02",
+          "name": "Pico de Gallo",
+          "category": "Toppings & Veggies",
+          "subcategory": "Salsas & Veggies",
+          "description": "Fresh diced tomatoes, onions, cilantro, and lime juice.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving",
+            "weight_g": 30
+          },
+          "nutrition": {
+            "calories": 10,
+            "protein_g": 0.5,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 100.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.5,
+            "fiber_g": 0.5,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Tomatoes",
+            "Onions",
+            "Cilantro",
+            "Lime Juice",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "top-03",
+          "name": "Corn Salsa",
+          "category": "Toppings & Veggies",
+          "subcategory": "Salsas & Veggies",
+          "description": "Sweet corn roasted with peppers and spices.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving",
+            "weight_g": 35
+          },
+          "nutrition": {
+            "calories": 40,
+            "protein_g": 1.0,
+            "fat_g": 1.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 150.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 8.0,
+            "fiber_g": 1.0,
+            "sugars_g": 3.0,
+            "added_sugars_g": null,
+            "calcium_mg": 5.0,
+            "iron_mg": 0.3,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Corn",
+            "Peppers",
+            "Spices",
+            "Oil"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "top-04",
+          "name": "Fajita Veggies (Mushrooms & Peppers)",
+          "category": "Toppings & Veggies",
+          "subcategory": "Veggies",
+          "description": "Sautéed green peppers and mushrooms.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving",
+            "weight_g": 40
+          },
+          "nutrition": {
+            "calories": 25,
+            "protein_g": 1.0,
+            "fat_g": 1.5,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 110.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 3.0,
+            "fiber_g": 1.0,
+            "sugars_g": 1.5,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.4,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Green Peppers",
+            "Mushrooms",
+            "Oil",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "top-05",
+          "name": "Sour Cream",
+          "category": "Toppings & Veggies",
+          "subcategory": "Dairy & Sauces",
+          "description": "Cool and creamy sour cream.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (1 oz)",
+            "weight_g": 28
+          },
+          "nutrition": {
+            "calories": 60,
+            "protein_g": 1.0,
+            "fat_g": 5.0,
+            "saturated_fat_g": 3.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 15.0,
+            "sodium_mg": 20.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 1.0,
+            "fiber_g": 0.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 30.0,
+            "iron_mg": 0.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Dairy"
+          ],
+          "ingredients": [
+            "Cultured Cream",
+            "Milk"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/burritos/",
+          "product_url": "https://barberitos.com/menu/burritos/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "salsa-01",
+          "name": "Heavy-D Salsa (Mild)",
+          "category": "Salsas & Sauces",
+          "subcategory": "Salsas",
+          "description": "Mild house salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (2 oz)",
+            "weight_g": 56
+          },
+          "nutrition": {
+            "calories": 20,
+            "protein_g": 1.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 280.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 4.0,
+            "fiber_g": 1.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 15.0,
+            "iron_mg": 0.4,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Tomatoes",
+            "Onions",
+            "Cilantro",
+            "Spices",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "salsa-02",
+          "name": "Tomatillo Salsa (Medium)",
+          "category": "Salsas & Sauces",
+          "subcategory": "Salsas",
+          "description": "Medium green tomatillo salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (2 oz)",
+            "weight_g": 56
+          },
+          "nutrition": {
+            "calories": 25,
+            "protein_g": 1.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 310.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 5.0,
+            "fiber_g": 1.0,
+            "sugars_g": 2.5,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.3,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Tomatillos",
+            "Green Chilies",
+            "Cilantro",
+            "Garlic",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "sauce-01",
+          "name": "Chipotle Ranch",
+          "category": "Salsas & Sauces",
+          "subcategory": "Dressings & Sauces",
+          "description": "Zesty and creamy chipotle ranch dressing.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (2 oz)",
+            "weight_g": 56
+          },
+          "nutrition": {
+            "calories": 190,
+            "protein_g": 1.0,
+            "fat_g": 20.0,
+            "saturated_fat_g": 3.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 15.0,
+            "sodium_mg": 320.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 3.0,
+            "fiber_g": 0.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": null,
+            "calcium_mg": 20.0,
+            "iron_mg": 0.1,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Soybean Oil",
+            "Buttermilk",
+            "Chipotle Peppers",
+            "Egg Yolk",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "sauce-02",
+          "name": "Southwest Vinaigrette",
+          "category": "Salsas & Sauces",
+          "subcategory": "Dressings & Sauces",
+          "description": "Tangy southwest vinaigrette dressing.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (2 oz)",
+            "weight_g": 56
+          },
+          "nutrition": {
+            "calories": 230,
+            "protein_g": 0.0,
+            "fat_g": 26.0,
+            "saturated_fat_g": 3.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 380.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.0,
+            "fiber_g": 0.0,
+            "sugars_g": 1.5,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Oil",
+            "Vinegar",
+            "Spices",
+            "Lime Juice"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "addon-01",
+          "name": "Guacamole",
+          "category": "Add-Ons & Sides",
+          "subcategory": "Guacamole",
+          "description": "Freshly mashed avocados with lime, cilantro, and spices.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (2 oz)",
+            "weight_g": 56
+          },
+          "nutrition": {
+            "calories": 90,
+            "protein_g": 1.0,
+            "fat_g": 8.0,
+            "saturated_fat_g": 1.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 180.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 5.0,
+            "fiber_g": 3.0,
+            "sugars_g": 0.5,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Avocados",
+            "Lime Juice",
+            "Cilantro",
+            "Jalapeños",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "addon-02",
+          "name": "Cheese Dip (Queso) - Small",
+          "category": "Add-Ons & Sides",
+          "subcategory": "Queso",
+          "description": "Warm, creamy melted cheese dip.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "Small serving (4 oz)",
+            "weight_g": 113
+          },
+          "nutrition": {
+            "calories": 200,
+            "protein_g": 20.0,
+            "fat_g": 12.0,
+            "saturated_fat_g": 7.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 40.0,
+            "sodium_mg": 520.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 2.0,
+            "fiber_g": 0.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 400.0,
+            "iron_mg": 0.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Dairy"
+          ],
+          "ingredients": [
+            "Cheese Blend",
+            "Milk",
+            "Peppers",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "addon-03",
+          "name": "Cheese Dip (Queso) - Large",
+          "category": "Add-Ons & Sides",
+          "subcategory": "Queso",
+          "description": "Large warm, creamy melted cheese dip.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "Large serving (16 oz)",
+            "weight_g": 454
+          },
+          "nutrition": {
+            "calories": 780,
+            "protein_g": 81.0,
+            "fat_g": 40.0,
+            "saturated_fat_g": 25.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 160.0,
+            "sodium_mg": 2080.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 8.0,
+            "fiber_g": 0.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": null,
+            "calcium_mg": 1600.0,
+            "iron_mg": 0.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Dairy"
+          ],
+          "ingredients": [
+            "Cheese Blend",
+            "Milk",
+            "Peppers",
+            "Spices"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://bowlmacros.com/restaurants/barberitos",
+              "source_type": "Third-Party Nutrition Calculator",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "addon-04",
+          "name": "Nacho Chips & Salsa",
+          "category": "Add-Ons & Sides",
+          "subcategory": "Chips & Sides",
+          "description": "Freshly fried tortilla chips served with complimentary salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (1.75 oz chips)",
+            "weight_g": 50
+          },
+          "nutrition": {
+            "calories": 170,
+            "protein_g": 4.0,
+            "fat_g": 4.5,
+            "saturated_fat_g": 0.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 160.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 30.0,
+            "fiber_g": 2.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Corn Tortillas",
+            "Vegetable Oil",
+            "Salt",
+            "Salsa"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://foods.fatsecret.com/calories-nutrition/barberitos/chips",
+              "source_type": "FatSecret Nutrition Database",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "product_id": "bev-01",
+          "name": "Fountain Soft Drinks",
+          "category": "Beverages",
+          "subcategory": "Soft Drinks",
+          "description": "Assorted fountain carbonated beverages.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "16 fl oz",
+            "weight_g": 473
+          },
+          "nutrition": {
+            "calories": 150,
+            "protein_g": 0.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 45.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 39.0,
+            "fiber_g": 0.0,
+            "sugars_g": 39.0,
+            "added_sugars_g": 39.0,
+            "calcium_mg": 0.0,
+            "iron_mg": 0.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": 35.0
+          },
+          "allergens": [],
+          "ingredients": [
+            "Carbonated Water",
+            "High Fructose Corn Syrup",
+            "Natural Flavors"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/",
+              "source_type": "Official Website",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "bev-02",
+          "name": "Sweet Tea",
+          "category": "Beverages",
+          "subcategory": "Teas",
+          "description": "Southern style freshly brewed sweet iced tea.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "16 fl oz",
+            "weight_g": 473
+          },
+          "nutrition": {
+            "calories": 140,
+            "protein_g": 0.0,
+            "fat_g": 0.0,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 10.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 35.0,
+            "fiber_g": 0.0,
+            "sugars_g": 35.0,
+            "added_sugars_g": 35.0,
+            "calcium_mg": 0.0,
+            "iron_mg": 0.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": 40.0
+          },
+          "allergens": [],
+          "ingredients": [
+            "Brewed Tea",
+            "Cane Sugar",
+            "Water"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/",
+              "source_type": "Official Website",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "dessert-01",
+          "name": "Chocolate Chip Cookie",
+          "category": "Desserts",
+          "subcategory": "Cookies",
+          "description": "Freshly baked warm chocolate chip cookie.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 cookie",
+            "weight_g": 60
+          },
+          "nutrition": {
+            "calories": 280,
+            "protein_g": 3.0,
+            "fat_g": 14.0,
+            "saturated_fat_g": 7.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 20.0,
+            "sodium_mg": 190.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 38.0,
+            "fiber_g": 1.0,
+            "sugars_g": 24.0,
+            "added_sugars_g": 24.0,
+            "calcium_mg": 15.0,
+            "iron_mg": 1.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": 0.0
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Soy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Enriched Flour",
+            "Chocolate Chips",
+            "Butter",
+            "Sugar",
+            "Eggs",
+            "Baking Soda",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/",
+              "source_type": "Official Website",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "product_id": "dessert-02",
+          "name": "Churro Bites",
+          "category": "Desserts",
+          "subcategory": "Churros",
+          "description": "Crispy fried pastry bites dusted with cinnamon and sugar.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order (5 bites)",
+            "weight_g": 80
+          },
+          "nutrition": {
+            "calories": 310,
+            "protein_g": 4.0,
+            "fat_g": 16.0,
+            "saturated_fat_g": 3.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 220.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 40.0,
+            "fiber_g": 2.0,
+            "sugars_g": 15.0,
+            "added_sugars_g": 15.0,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": 0.0
+          },
+          "allergens": [
+            "Gluten",
+            "Soy"
+          ],
+          "ingredients": [
+            "Pastry Dough",
+            "Vegetable Oil",
+            "Cinnamon Sugar"
+          ],
+          "customizations": [],
+          "image_url": "https://barberitos.com/menu/",
+          "product_url": "https://barberitos.com/menu/",
+          "sources": [
+            {
+              "url": "https://barberitos.com/menu/",
+              "source_type": "Official Website",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": {
+        "name": "Black Bear Diner",
+        "website": "https://blackbeardiner.com",
+        "country": "USA",
+        "last_updated": "2026-08-07"
+      },
+      "categories": [
+        "Breakfast Specials",
+        "Hungry Bear's Breakfast",
+        "Omelettes & Scrambles",
+        "Classic Combos",
+        "The Griddle",
+        "Burgers & Sandwiches",
+        "Dinner Classics",
+        "Sides & Add-Ons",
+        "Beverages",
+        "Desserts",
+        "Cubs Menu"
+      ],
+      "products": [
+        {
+          "product_id": "bbd-bf-01",
+          "name": "Classic Eggs Benedict",
+          "category": "Breakfast Specials",
+          "subcategory": "Benedicts",
+          "description": "Sliced ham and poached eggs covered in Hollandaise sauce. Served on an English muffin with fresh fruit and your choice of side.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 700,
+            "protein_g": 32.0,
+            "fat_g": 42.0,
+            "saturated_fat_g": 16.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 380.0,
+            "sodium_mg": 1450.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 48.0,
+            "fiber_g": 3.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": null,
+            "calcium_mg": 180.0,
+            "iron_mg": 3.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "English Muffin",
+            "Ham",
+            "Poached Eggs",
+            "Hollandaise Sauce",
+            "Fresh Fruit"
+          ],
+          "customizations": [
+            "Choice of side (potatoes, grits, etc.)"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-bf-02",
+          "name": "Bacon Avocado Benedict",
+          "category": "Breakfast Specials",
+          "subcategory": "Benedicts",
+          "description": "Bacon, poached eggs, avocado, spinach, and grilled tomato slices. Served on an English muffin with fresh fruit and choice of side.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 850,
+            "protein_g": 28.0,
+            "fat_g": 58.0,
+            "saturated_fat_g": 14.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 350.0,
+            "sodium_mg": 1320.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 52.0,
+            "fiber_g": 8.0,
+            "sugars_g": 7.0,
+            "added_sugars_g": null,
+            "calcium_mg": 200.0,
+            "iron_mg": 4.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "English Muffin",
+            "Bacon",
+            "Poached Eggs",
+            "Avocado",
+            "Spinach",
+            "Tomato",
+            "Hollandaise Sauce"
+          ],
+          "customizations": [
+            "Choice of side"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-bf-03",
+          "name": "Chorizo Breakfast Burrito",
+          "category": "Breakfast Specials",
+          "subcategory": "Burritos",
+          "description": "Sausage, potatoes, scrambled eggs, cheese, onion, and cilantro wrapped in a giant flour tortilla. Served with side of homemade salsa.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 burrito",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1240,
+            "protein_g": 54.0,
+            "fat_g": 78.0,
+            "saturated_fat_g": 26.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 450.0,
+            "sodium_mg": 2100.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 82.0,
+            "fiber_g": 6.0,
+            "sugars_g": 5.0,
+            "added_sugars_g": null,
+            "calcium_mg": 450.0,
+            "iron_mg": 6.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Flour Tortilla",
+            "Chorizo Sausage",
+            "Potatoes",
+            "Scrambled Eggs",
+            "Cheese",
+            "Onion",
+            "Cilantro",
+            "Salsa"
+          ],
+          "customizations": [],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-bf-04",
+          "name": "The Original ScramBOWL",
+          "category": "Breakfast Specials",
+          "subcategory": "Bowls",
+          "description": "Eggs scrambled with thick-cut bacon, pork sausage link, smoked ham, bell pepper, onion, and pickled jalapeño. Served over country red potatoes and topped with cheddar cheese and country gravy. Served with a homemade biscuit or toast.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 bowl with biscuit/toast",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1610,
+            "protein_g": 72.0,
+            "fat_g": 105.0,
+            "saturated_fat_g": 38.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 680.0,
+            "sodium_mg": 2850.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 102.0,
+            "fiber_g": 8.0,
+            "sugars_g": 7.0,
+            "added_sugars_g": null,
+            "calcium_mg": 600.0,
+            "iron_mg": 7.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Eggs",
+            "Bacon",
+            "Pork Sausage",
+            "Ham",
+            "Bell Pepper",
+            "Onion",
+            "Jalapeño",
+            "Country Red Potatoes",
+            "Cheddar Cheese",
+            "Country Gravy",
+            "Homemade Biscuit"
+          ],
+          "customizations": [
+            "Egg whites available (-10 cal per egg)"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-hb-01",
+          "name": "BIGFOOT Chicken Fried Steak & Eggs",
+          "category": "Hungry Bear's Breakfast",
+          "subcategory": "Hearty Breakfasts",
+          "description": "Tender beef breaded, deep-fried, and smothered in country gravy. Served with 3 eggs and 2 homemade biscuits.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 full meal",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 2480,
+            "protein_g": 78.0,
+            "fat_g": 145.0,
+            "saturated_fat_g": 52.0,
+            "trans_fat_g": 2.0,
+            "cholesterol_mg": 790.0,
+            "sodium_mg": 4200.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 205.0,
+            "fiber_g": 12.0,
+            "sugars_g": 10.0,
+            "added_sugars_g": null,
+            "calcium_mg": 750.0,
+            "iron_mg": 14.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Beef Cutlet",
+            "Breadcrumbs",
+            "Country Gravy",
+            "Eggs",
+            "Homemade Biscuits"
+          ],
+          "customizations": [
+            "Egg style customizable"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-hb-02",
+          "name": "The GRIZZ",
+          "category": "Hungry Bear's Breakfast",
+          "subcategory": "Hearty Breakfasts",
+          "description": "2 sweet cream pancakes, 2 slices of thick-cut bacon, 2 pork sausage links, and smoked ham steak. Served with 3 eggs.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 full meal",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1560,
+            "protein_g": 74.0,
+            "fat_g": 92.0,
+            "saturated_fat_g": 31.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 890.0,
+            "sodium_mg": 2980.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 112.0,
+            "fiber_g": 4.0,
+            "sugars_g": 18.0,
+            "added_sugars_g": null,
+            "calcium_mg": 480.0,
+            "iron_mg": 8.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Pancakes",
+            "Bacon",
+            "Pork Sausage",
+            "Ham",
+            "Eggs"
+          ],
+          "customizations": [],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-om-01",
+          "name": "Joe's Hobo Omelette",
+          "category": "Omelettes & Scrambles",
+          "subcategory": "Omelettes",
+          "description": "3-egg omelette made with thick-cut bacon, pork sausage link, smoked ham, spinach, onion, jack cheese, and cheddar cheese. Served with side and biscuit or toast.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 omelette meal",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1450,
+            "protein_g": 78.0,
+            "fat_g": 98.0,
+            "saturated_fat_g": 38.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 710.0,
+            "sodium_mg": 2450.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 62.0,
+            "fiber_g": 5.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": null,
+            "calcium_mg": 700.0,
+            "iron_mg": 6.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Eggs",
+            "Bacon",
+            "Pork Sausage",
+            "Ham",
+            "Spinach",
+            "Onion",
+            "Jack Cheese",
+            "Cheddar Cheese"
+          ],
+          "customizations": [
+            "Egg whites available (-10 cal per egg)"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-om-02",
+          "name": "Bruce's Meat Lover's Omelette",
+          "category": "Omelettes & Scrambles",
+          "subcategory": "Omelettes",
+          "description": "3-egg omelette made with thick-cut bacon, pork sausage link, smoked ham, and jack cheese. Served with side and biscuit or toast.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 omelette meal",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1520,
+            "protein_g": 82.0,
+            "fat_g": 105.0,
+            "saturated_fat_g": 42.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 740.0,
+            "sodium_mg": 2600.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 58.0,
+            "fiber_g": 3.0,
+            "sugars_g": 5.0,
+            "added_sugars_g": null,
+            "calcium_mg": 650.0,
+            "iron_mg": 6.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Eggs",
+            "Bacon",
+            "Pork Sausage",
+            "Ham",
+            "Jack Cheese"
+          ],
+          "customizations": [
+            "Egg whites available"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-om-03",
+          "name": "Vegetarian Omelette",
+          "category": "Omelettes & Scrambles",
+          "subcategory": "Omelettes",
+          "description": "3-egg omelette made with mushrooms, onion, tomato, bell pepper, spinach, and jack cheese. Served with side and biscuit or toast.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 omelette meal",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1230,
+            "protein_g": 48.0,
+            "fat_g": 72.0,
+            "saturated_fat_g": 24.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 520.0,
+            "sodium_mg": 1850.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 72.0,
+            "fiber_g": 8.0,
+            "sugars_g": 9.0,
+            "added_sugars_g": null,
+            "calcium_mg": 620.0,
+            "iron_mg": 5.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Eggs",
+            "Mushrooms",
+            "Onion",
+            "Tomato",
+            "Bell Pepper",
+            "Spinach",
+            "Jack Cheese"
+          ],
+          "customizations": [
+            "Egg whites available"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-grid-01",
+          "name": "Sweet Cream Pancakes (Stack of 3)",
+          "category": "The Griddle",
+          "subcategory": "Pancakes",
+          "description": "Fluffy sweet cream pancakes made from scratch.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "3 pancakes",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1140,
+            "protein_g": 22.0,
+            "fat_g": 32.0,
+            "saturated_fat_g": 8.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 140.0,
+            "sodium_mg": 1920.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 190.0,
+            "fiber_g": 5.0,
+            "sugars_g": 45.0,
+            "added_sugars_g": 40.0,
+            "calcium_mg": 320.0,
+            "iron_mg": 5.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Flour",
+            "Sweet Cream",
+            "Eggs",
+            "Sugar",
+            "Baking Powder",
+            "Salt"
+          ],
+          "customizations": [
+            "Can add blueberries, chocolate chips, strawberries & whipped cream"
+          ],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-grid-02",
+          "name": "Cinnamon Roll French Toast",
+          "category": "The Griddle",
+          "subcategory": "French Toast",
+          "description": "3 slices of thick-cut cinnamon roll, battered, grilled and drizzled with icing. Served with fresh fruit.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 1150,
+            "protein_g": 18.0,
+            "fat_g": 48.0,
+            "saturated_fat_g": 16.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 210.0,
+            "sodium_mg": 1100.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 165.0,
+            "fiber_g": 6.0,
+            "sugars_g": 75.0,
+            "added_sugars_g": 65.0,
+            "calcium_mg": 250.0,
+            "iron_mg": 4.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Cinnamon Roll",
+            "Egg Batter",
+            "Icing",
+            "Fresh Fruit"
+          ],
+          "customizations": [],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-side-01",
+          "name": "Thick-Cut Smoked Bacon",
+          "category": "Sides & Add-Ons",
+          "subcategory": "Meats",
+          "description": "4 slices of thick-cut smoked bacon.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "4 slices",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 330,
+            "protein_g": 18.0,
+            "fat_g": 28.0,
+            "saturated_fat_g": 10.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 70.0,
+            "sodium_mg": 960.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 1.0,
+            "fiber_g": 0.0,
+            "sugars_g": 0.0,
+            "added_sugars_g": null,
+            "calcium_mg": 10.0,
+            "iron_mg": 0.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Pork Bacon",
+            "Smoke Flavoring"
+          ],
+          "customizations": [],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "bbd-side-02",
+          "name": "Wide Strip-Cut Hash Browns",
+          "category": "Sides & Add-Ons",
+          "subcategory": "Potatoes",
+          "description": "Crispy wide strip-cut hash browns.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order",
+            "weight_g": null
+          },
+          "nutrition": {
+            "calories": 330,
+            "protein_g": 4.0,
+            "fat_g": 16.0,
+            "saturated_fat_g": 3.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 580.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 42.0,
+            "fiber_g": 4.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": null,
+            "calcium_mg": 20.0,
+            "iron_mg": 2.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Potatoes",
+            "Oil",
+            "Salt"
+          ],
+          "customizations": [],
+          "image_url": "https://blackbeardiner.com/menus/",
+          "product_url": "https://blackbeardiner.com/menus/",
+          "sources": [
+            {
+              "url": "https://blackbeardiner.com/menus/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": {
+        "name": "Sbarro",
+        "website": "https://sbarro.com",
+        "country": "USA",
+        "last_updated": "2026-08-07"
+      },
+      "categories": [
+        "Pizza Slices",
+        "Whole Pizza Pies",
+        "Strombolis & Calzones",
+        "Pasta",
+        "Salads",
+        "Sides",
+        "Beverages",
+        "Desserts"
+      ],
+      "products": [
+        {
+          "product_id": "sb-pz-01",
+          "name": "New York Style Cheese Pizza Slice",
+          "category": "Pizza Slices",
+          "subcategory": "Cheese Pizza",
+          "description": "Classic New York style thin crust pizza slice topped with 100% whole milk mozzarella and signature tomato sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 slice",
+            "weight_g": 150
+          },
+          "nutrition": {
+            "calories": 370,
+            "protein_g": 15.0,
+            "fat_g": 14.0,
+            "saturated_fat_g": 6.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 30.0,
+            "sodium_mg": 780.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 45.0,
+            "fiber_g": 3.0,
+            "sugars_g": 3.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 300.0,
+            "iron_mg": 2.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy"
+          ],
+          "ingredients": [
+            "Pizza Dough",
+            "Tomato Sauce",
+            "Whole Milk Mozzarella Cheese"
+          ],
+          "customizations": [
+            "Can be ordered as a whole pie"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-pz-02",
+          "name": "New York Style Pepperoni Pizza Slice",
+          "category": "Pizza Slices",
+          "subcategory": "Pepperoni Pizza",
+          "description": "Classic New York style thin crust pizza slice topped with tomato sauce, mozzarella cheese, and sliced pepperoni.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 slice",
+            "weight_g": 170
+          },
+          "nutrition": {
+            "calories": 460,
+            "protein_g": 18.0,
+            "fat_g": 22.0,
+            "saturated_fat_g": 9.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 45.0,
+            "sodium_mg": 1050.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 46.0,
+            "fiber_g": 3.0,
+            "sugars_g": 3.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 320.0,
+            "iron_mg": 2.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy"
+          ],
+          "ingredients": [
+            "Pizza Dough",
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Pepperoni"
+          ],
+          "customizations": [
+            "Can be ordered as a whole pie"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-pz-03",
+          "name": "Supreme Pizza Slice",
+          "category": "Pizza Slices",
+          "subcategory": "Specialty Pizza",
+          "description": "Loaded New York style slice with pepperoni, sausage, bell peppers, onions, and mushrooms.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 slice",
+            "weight_g": 210
+          },
+          "nutrition": {
+            "calories": 510,
+            "protein_g": 22.0,
+            "fat_g": 26.0,
+            "saturated_fat_g": 11.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 55.0,
+            "sodium_mg": 1220.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 48.0,
+            "fiber_g": 4.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 350.0,
+            "iron_mg": 3.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy"
+          ],
+          "ingredients": [
+            "Pizza Dough",
+            "Tomato Sauce",
+            "Mozzarella Cheese",
+            "Pepperoni",
+            "Sausage",
+            "Bell Peppers",
+            "Onions",
+            "Mushrooms"
+          ],
+          "customizations": [
+            "Can be ordered as a whole pie"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-pz-04",
+          "name": "Stuffed Meat Pizza Slice",
+          "category": "Pizza Slices",
+          "subcategory": "Stuffed Pizza",
+          "description": "Double-crust stuffed pizza slice packed with pepperoni, sausage, ham, beef, bacon, and extra mozzarella cheese.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 slice",
+            "weight_g": 310
+          },
+          "nutrition": {
+            "calories": 820,
+            "protein_g": 38.0,
+            "fat_g": 48.0,
+            "saturated_fat_g": 20.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 110.0,
+            "sodium_mg": 1890.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 56.0,
+            "fiber_g": 4.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 550.0,
+            "iron_mg": 4.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy"
+          ],
+          "ingredients": [
+            "Double Crust Dough",
+            "Mozzarella",
+            "Pepperoni",
+            "Sausage",
+            "Ham",
+            "Beef",
+            "Bacon",
+            "Tomato Sauce"
+          ],
+          "customizations": [],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-st-01",
+          "name": "Pepperoni Stromboli",
+          "category": "Strombolis & Calzones",
+          "subcategory": "Stromboli",
+          "description": "Fresh dough rolled with pepperoni, mozzarella cheese, and seasonings, baked golden brown.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 portion",
+            "weight_g": 280
+          },
+          "nutrition": {
+            "calories": 740,
+            "protein_g": 32.0,
+            "fat_g": 42.0,
+            "saturated_fat_g": 18.0,
+            "trans_fat_g": 0.5,
+            "cholesterol_mg": 90.0,
+            "sodium_mg": 1680.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 58.0,
+            "fiber_g": 3.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 450.0,
+            "iron_mg": 3.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy"
+          ],
+          "ingredients": [
+            "Dough",
+            "Pepperoni",
+            "Mozzarella Cheese",
+            "Seasonings"
+          ],
+          "customizations": [],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-st-02",
+          "name": "Cheese Calzone",
+          "category": "Strombolis & Calzones",
+          "subcategory": "Calzone",
+          "description": "Folded pizza dough stuffed with ricotta, mozzarella, and romano cheeses.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 portion",
+            "weight_g": 300
+          },
+          "nutrition": {
+            "calories": 790,
+            "protein_g": 36.0,
+            "fat_g": 40.0,
+            "saturated_fat_g": 22.0,
+            "trans_fat_g": 1.0,
+            "cholesterol_mg": 120.0,
+            "sodium_mg": 1520.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 68.0,
+            "fiber_g": 3.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 750.0,
+            "iron_mg": 4.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Dough",
+            "Ricotta Cheese",
+            "Mozzarella Cheese",
+            "Romano Cheese"
+          ],
+          "customizations": [
+            "Can add ham or pepperoni"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-pa-01",
+          "name": "Spaghetti with Marinara Sauce",
+          "category": "Pasta",
+          "subcategory": "Spaghetti",
+          "description": "Tender spaghetti pasta served with Sbarro's signature tomato marinara sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 regular portion",
+            "weight_g": 350
+          },
+          "nutrition": {
+            "calories": 480,
+            "protein_g": 14.0,
+            "fat_g": 6.0,
+            "saturated_fat_g": 1.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 980.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 92.0,
+            "fiber_g": 6.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": 2.0,
+            "calcium_mg": 60.0,
+            "iron_mg": 4.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten"
+          ],
+          "ingredients": [
+            "Spaghetti Pasta",
+            "Marinara Sauce"
+          ],
+          "customizations": [
+            "Can add meatballs or chicken"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-pa-02",
+          "name": "Fettuccine Alfredo",
+          "category": "Pasta",
+          "subcategory": "Fettuccine",
+          "description": "Fettuccine pasta tossed in rich, creamy garlic and parmesan alfredo sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 regular portion",
+            "weight_g": 380
+          },
+          "nutrition": {
+            "calories": 890,
+            "protein_g": 22.0,
+            "fat_g": 54.0,
+            "saturated_fat_g": 32.0,
+            "trans_fat_g": 1.5,
+            "cholesterol_mg": 160.0,
+            "sodium_mg": 1150.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 84.0,
+            "fiber_g": 4.0,
+            "sugars_g": 4.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 450.0,
+            "iron_mg": 3.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Fettuccine Pasta",
+            "Alfredo Sauce",
+            "Parmesan Cheese",
+            "Butter",
+            "Cream"
+          ],
+          "customizations": [
+            "Can add grilled chicken"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-sd-01",
+          "name": "Garden Salad",
+          "category": "Salads",
+          "subcategory": "Green Salads",
+          "description": "Fresh mixed greens with tomatoes, cucumbers, and red onions.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 salad (without dressing)",
+            "weight_g": 150
+          },
+          "nutrition": {
+            "calories": 35,
+            "protein_g": 2.0,
+            "fat_g": 0.5,
+            "saturated_fat_g": 0.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 25.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 7.0,
+            "fiber_g": 2.5,
+            "sugars_g": 4.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 40.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [],
+          "ingredients": [
+            "Lettuce",
+            "Tomatoes",
+            "Cucumbers",
+            "Red Onions"
+          ],
+          "customizations": [
+            "Choice of dressing"
+          ],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "sb-ds-01",
+          "name": "Chocolate Chip Cannoli",
+          "category": "Desserts",
+          "subcategory": "Pastries",
+          "description": "Crispy pastry shell filled with sweet ricotta cream and chocolate chips.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 cannoli",
+            "weight_g": 90
+          },
+          "nutrition": {
+            "calories": 320,
+            "protein_g": 6.0,
+            "fat_g": 18.0,
+            "saturated_fat_g": 8.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 35.0,
+            "sodium_mg": 140.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 34.0,
+            "fiber_g": 1.0,
+            "sugars_g": 18.0,
+            "added_sugars_g": 15.0,
+            "calcium_mg": 120.0,
+            "iron_mg": 1.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Egg"
+          ],
+          "ingredients": [
+            "Cannoli Shell",
+            "Ricotta Cream",
+            "Chocolate Chips",
+            "Powdered Sugar"
+          ],
+          "customizations": [],
+          "image_url": "https://sbarro.com/",
+          "product_url": "https://sbarro.com/",
+          "sources": [
+            {
+              "url": "https://sbarro.com/wp-content/uploads/2022/10/Sbarro-Nutrition-and-Allergen-Info-10.12.22.pdf",
+              "source_type": "Official PDF",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": {
+        "name": "Panda Express",
+        "website": "https://www.pandaexpress.com",
+        "country": "USA",
+        "last_updated": "2026-08-07"
+      },
+      "categories": [
+        "Entrees",
+        "Sides",
+        "Appetizers",
+        "Drinks",
+        "Desserts",
+        "Sauces"
+      ],
+      "products": [
+        {
+          "product_id": "pe-ent-01",
+          "name": "Orange Chicken",
+          "category": "Entrees",
+          "subcategory": "Chicken",
+          "description": "Crispy chicken breast bites tossed in Panda's signature sweet and spicy orange sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (5.7 oz)",
+            "weight_g": 162
+          },
+          "nutrition": {
+            "calories": 490,
+            "protein_g": 24.0,
+            "fat_g": 23.0,
+            "saturated_fat_g": 4.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 45.0,
+            "sodium_mg": 860.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 51.0,
+            "fiber_g": 1.0,
+            "sugars_g": 19.0,
+            "added_sugars_g": 18.0,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Soy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "Chicken Breast",
+            "Orange Sauce",
+            "Sugar",
+            "Soy Sauce",
+            "Garlic",
+            "Ginger"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-ent-02",
+          "name": "Beijing Beef",
+          "category": "Entrees",
+          "subcategory": "Beef",
+          "description": "Crispy beef strips, bell peppers, and onions in a sweet and tangy spicy sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (5.6 oz)",
+            "weight_g": 159
+          },
+          "nutrition": {
+            "calories": 480,
+            "protein_g": 14.0,
+            "fat_g": 27.0,
+            "saturated_fat_g": 5.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 30.0,
+            "sodium_mg": 890.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 47.0,
+            "fiber_g": 2.0,
+            "sugars_g": 24.0,
+            "added_sugars_g": 22.0,
+            "calcium_mg": 30.0,
+            "iron_mg": 1.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Soy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "Beef",
+            "Bell Peppers",
+            "Onions",
+            "Beijing Sauce",
+            "Soy Sauce"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-ent-03",
+          "name": "Honey Walnut Shrimp",
+          "category": "Entrees",
+          "subcategory": "Seafood",
+          "description": "Large crispy shrimp tossed in a sweet honey sauce and topped with glazed walnuts.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (4.9 oz)",
+            "weight_g": 139
+          },
+          "nutrition": {
+            "calories": 360,
+            "protein_g": 13.0,
+            "fat_g": 21.0,
+            "saturated_fat_g": 2.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 105.0,
+            "sodium_mg": 530.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 33.0,
+            "fiber_g": 1.0,
+            "sugars_g": 14.0,
+            "added_sugars_g": 13.0,
+            "calcium_mg": 40.0,
+            "iron_mg": 0.8,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Shellfish",
+            "Tree Nuts",
+            "Egg",
+            "Gluten"
+          ],
+          "ingredients": [
+            "Shrimp",
+            "Walnuts",
+            "Honey Sauce",
+            "Mayonnaise"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-ent-04",
+          "name": "Grilled Teriyaki Chicken",
+          "category": "Entrees",
+          "subcategory": "Chicken",
+          "description": "Grilled chicken thigh sliced and served with teriyaki sauce.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (6.1 oz)",
+            "weight_g": 173
+          },
+          "nutrition": {
+            "calories": 300,
+            "protein_g": 36.0,
+            "fat_g": 13.0,
+            "saturated_fat_g": 3.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 165.0,
+            "sodium_mg": 530.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 8.0,
+            "fiber_g": 0.0,
+            "sugars_g": 7.0,
+            "added_sugars_g": 6.0,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.2,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Soy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "Chicken Thigh",
+            "Teriyaki Sauce",
+            "Soy Sauce",
+            "Ginger"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-side-01",
+          "name": "Fried Rice",
+          "category": "Sides",
+          "subcategory": "Rice",
+          "description": "Prepared with white rice, eggs, peas, carrots, and green onions.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (5.9 oz)",
+            "weight_g": 167
+          },
+          "nutrition": {
+            "calories": 520,
+            "protein_g": 12.0,
+            "fat_g": 16.0,
+            "saturated_fat_g": 3.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 85.0,
+            "sodium_mg": 790.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 78.0,
+            "fiber_g": 3.0,
+            "sugars_g": 3.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 30.0,
+            "iron_mg": 2.5,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Egg",
+            "Soy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "White Rice",
+            "Eggs",
+            "Peas",
+            "Carrots",
+            "Green Onions",
+            "Soy Sauce",
+            "Oil"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-side-02",
+          "name": "Chow Mein",
+          "category": "Sides",
+          "subcategory": "Noodles",
+          "description": "Chinese wheat noodles tossed with celery, onions, and cabbage.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 serving (5.7 oz)",
+            "weight_g": 162
+          },
+          "nutrition": {
+            "calories": 510,
+            "protein_g": 13.0,
+            "fat_g": 24.0,
+            "saturated_fat_g": 3.5,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 0.0,
+            "sodium_mg": 600.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 62.0,
+            "fiber_g": 4.0,
+            "sugars_g": 6.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 40.0,
+            "iron_mg": 3.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Soy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "Wheat Noodles",
+            "Celery",
+            "Onions",
+            "Cabbage",
+            "Soy Sauce",
+            "Oil"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-app-01",
+          "name": "Chicken Egg Roll",
+          "category": "Appetizers",
+          "subcategory": "Rolls",
+          "description": "Crispy egg roll filled with chicken, cabbage, carrots, celery, and green onions.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 egg roll",
+            "weight_g": 85
+          },
+          "nutrition": {
+            "calories": 200,
+            "protein_g": 7.0,
+            "fat_g": 10.0,
+            "saturated_fat_g": 2.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 15.0,
+            "sodium_mg": 400.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 21.0,
+            "fiber_g": 1.0,
+            "sugars_g": 2.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 20.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Soy",
+            "Wheat",
+            "Egg"
+          ],
+          "ingredients": [
+            "Wrapper",
+            "Chicken",
+            "Cabbage",
+            "Carrots",
+            "Celery",
+            "Seasonings"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "product_id": "pe-app-02",
+          "name": "Cream Cheese Rangoon",
+          "category": "Appetizers",
+          "subcategory": "Wontons",
+          "description": "Crispy wonton skin filled with seasoned cream cheese and scallions.",
+          "price": null,
+          "currency": "USD",
+          "availability": {
+            "active": true,
+            "limited_time": false,
+            "discontinued": false,
+            "region": "All locations"
+          },
+          "serving": {
+            "size": "1 order (3 pieces)",
+            "weight_g": 50
+          },
+          "nutrition": {
+            "calories": 190,
+            "protein_g": 4.0,
+            "fat_g": 10.0,
+            "saturated_fat_g": 5.0,
+            "trans_fat_g": 0.0,
+            "cholesterol_mg": 25.0,
+            "sodium_mg": 140.0,
+            "potassium_mg": null,
+            "carbohydrates_g": 19.0,
+            "fiber_g": 1.0,
+            "sugars_g": 1.0,
+            "added_sugars_g": 0.0,
+            "calcium_mg": 40.0,
+            "iron_mg": 1.0,
+            "vitamin_d_mcg": null,
+            "caffeine_mg": null
+          },
+          "allergens": [
+            "Gluten",
+            "Dairy",
+            "Wheat"
+          ],
+          "ingredients": [
+            "Wonton Wrapper",
+            "Cream Cheese",
+            "Scallions"
+          ],
+          "customizations": [],
+          "image_url": "https://www.pandaexpress.com/",
+          "product_url": "https://www.pandaexpress.com/",
+          "sources": [
+            {
+              "url": "https://www.pandaexpress.com/",
+              "source_type": "Official Website",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { ShieldCheck, Lock, FileText, Globe, ExternalLink, Info, CheckCircle2 } from '@lucide/astro';
+
+interface Props {
+  lastUpdated?: string;
+}
+
+const { lastUpdated = 'August 2026' } = Astro.props;
+
+const sections = [
+  { id: 'overview', label: '1. Privacy Overview' },
+  { id: 'collection', label: '2. Information We Collect' },
+  { id: 'storage', label: '3. Browser Local Storage' },
+  { id: 'adsense', label: '4. Google AdSense & Cookies' },
+  { id: 'gdpr', label: '5. GDPR (European User Rights)' },
+  { id: 'ccpa', label: '6. CCPA / CPRA (California Rights)' },
+  { id: 'coppa', label: '7. Children\'s Privacy' },
+  { id: 'security', label: '8. Security & Data Retention' },
+  { id: 'contact', label: '9. Contact Data Protection' }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'Privacy Policy', url: '/privacy' }]} />
+
+  <!-- Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <ShieldCheck class="h-3.5 w-3.5" />
+      <span>GDPR & CCPA Compliant Privacy Standards</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      Privacy <span class="text-gradient">Policy</span>
+    </h1>
+    <div class="flex items-center gap-4 text-xs text-zinc-400">
+      <span><strong>Effective Date:</strong> August 2026</span>
+      <span>•</span>
+      <span><strong>Last Updated:</strong> {lastUpdated}</span>
+    </div>
+  </div>
+
+  <!-- Highlight Box -->
+  <div class="glass-card rounded-2xl p-6 border border-emerald-500/20 bg-emerald-500/[0.02] space-y-3">
+    <h3 class="font-bold text-white text-base flex items-center gap-2">
+      <Lock class="h-5 w-5 text-emerald-400" />
+      Our Privacy Pledge
+    </h3>
+    <p class="text-sm text-zinc-300 leading-relaxed">
+      Nutrition Solver (accessible at <code>https://nutritionsolver.com</code>) values and prioritizes your privacy. We do not require accounts, we do not collect personal health records, and all calculator computations occur directly within your web browser.
+    </p>
+  </div>
+
+  <!-- Navigation Index -->
+  <div class="glass-card rounded-2xl p-5 border border-zinc-800 space-y-2">
+    <p class="text-xs font-bold uppercase tracking-wider text-zinc-400">Quick Navigation</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs">
+      {sections.map((s) => (
+        <a href={`#${s.id}`} class="text-zinc-300 hover:text-emerald-400 transition-colors py-1">
+          {s.label}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Main Content Body -->
+  <div class="space-y-10 text-zinc-300">
+    <section id="overview" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">1. Privacy Overview</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        This Privacy Policy describes our policies on the collection, use, and disclosure of information when you visit Nutrition Solver. By using our website, you consent to the data practices described in this statement.
+      </p>
+    </section>
+
+    <section id="collection" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">2. Information We Collect</h2>
+      <div class="space-y-3 text-sm text-zinc-400 leading-relaxed">
+        <p>
+          <strong class="text-white">A. Personal Information:</strong> We do not require user registration. You do not need to provide your name, email, phone number, or physical address to use our calculators, search our restaurant database, or read nutritional guides.
+        </p>
+        <p>
+          <strong class="text-white">B. Automatically Collected Technical Data:</strong> When you access the website, standard web server logs may automatically record technical metadata such as your IP address, browser type, operating system, referring URLs, and timestamps. This standard diagnostic data is utilized solely for server uptime monitoring, DDoS defense, and security integrity.
+        </p>
+      </div>
+    </section>
+
+    <section id="storage" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">3. Browser Local Storage & Private Sandbox</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        When using interactive tools like the Meal Builder or entering custom calorie goals, your inputs are saved exclusively in your browser's private <code>localStorage</code> sandbox. This data is never transmitted to our servers or third parties. You can clear this data at any time via your browser settings.
+      </p>
+      <ul class="space-y-1 text-xs font-mono text-zinc-400 ml-4 list-disc">
+        <li><span class="text-emerald-400">nf-meal-items</span>: Saved meal selections</li>
+        <li><span class="text-emerald-400">nf-meal-goal</span>: User-configured daily macronutrient and caloric target</li>
+        <li><span class="text-emerald-400">ns-cookie-ack</span>: Privacy notice acknowledgment</li>
+      </ul>
+    </section>
+
+    <section id="adsense" class="space-y-4">
+      <h2 class="text-2xl font-bold text-white">4. Google AdSense & Third-Party Advertising Cookies</h2>
+      <div class="space-y-3 text-sm text-zinc-400 leading-relaxed">
+        <p>
+          We use Google AdSense and third-party advertising partners to display advertisements that support our free research and calculation tools.
+        </p>
+        <div class="p-5 rounded-2xl bg-zinc-900 border border-zinc-800 space-y-3">
+          <h4 class="font-bold text-white text-sm">Google DoubleClick DART Cookies</h4>
+          <p class="text-xs text-zinc-300 leading-relaxed">
+            Google is a third-party vendor on our site. Google uses cookies, including the DART cookie, to serve ads based on a user's prior visits to Nutrition Solver and other websites on the internet.
+          </p>
+          <p class="text-xs text-zinc-300 leading-relaxed">
+            Users may opt out of personalized advertising by visiting the <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline font-medium">Google Ads Settings page</a> or through the <a href="https://optout.aboutads.info" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline font-medium">AboutAds.info Opt-Out Portal</a>.
+          </p>
+        </div>
+        <p>
+          For more information on how Google uses data when you visit partner sites, review <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline font-medium">Google's Privacy & Terms</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="gdpr" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">5. GDPR Compliance (European Union & EEA Users)</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        If you reside in the European Economic Area (EEA) or the United Kingdom, you possess specific data protection rights under the General Data Protection Regulation (GDPR), including:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li><strong>Right to Access & Rectification:</strong> The right to know if any data is held and request corrections.</li>
+        <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> The right to request deletion of any identifiable server logs or submitted messages.</li>
+        <li><strong>Right to Restrict or Object to Processing:</strong> The right to limit how your data is processed.</li>
+        <li><strong>Right to Data Portability:</strong> The right to receive your data in a structured, commonly used format.</li>
+      </ul>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        To exercise any of these rights, please email <a href="mailto:privacy@nutritionsolver.com" class="text-emerald-400 underline">privacy@nutritionsolver.com</a>.
+      </p>
+    </section>
+
+    <section id="ccpa" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">6. California Consumer Privacy Rights (CCPA / CPRA)</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Under the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA), California residents have specific rights:
+      </p>
+      <ul class="space-y-2 text-sm text-zinc-400 leading-relaxed list-disc ml-5">
+        <li><strong>Right to Know:</strong> You have the right to request disclosure of what categories of personal information we collect, sell, or disclose.</li>
+        <li><strong>Right to Delete:</strong> You have the right to request deletion of personal information collected from you.</li>
+        <li><strong>We Do Not Sell Your Personal Information:</strong> Nutrition Solver does not sell, rent, or trade your personal information to third parties.</li>
+        <li><strong>Non-Discrimination:</strong> We will not discriminate against you in pricing or service quality for exercising any of your privacy rights.</li>
+      </ul>
+    </section>
+
+    <section id="coppa" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">7. Children's Privacy (COPPA Compliance)</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        Protecting the privacy of young children is especially important. Nutrition Solver does not knowingly collect or solicit personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately so we can remove it.
+      </p>
+    </section>
+
+    <section id="security" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">8. Security & Data Retention</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        We implement industry-standard security measures including SSL/TLS encryption across all connections. Server log files are purged on a 30-day automated rolling cycle.
+      </p>
+    </section>
+
+    <section id="contact" class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">9. Contact Data Protection</h2>
+      <p class="text-sm text-zinc-400 leading-relaxed">
+        If you have questions, comments, or requests regarding this Privacy Policy or our compliance, please reach out to our privacy officer:
+      </p>
+      <div class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-sm space-y-1">
+        <p class="text-white font-semibold">Nutrition Solver Privacy Office</p>
+        <p class="text-zinc-400">Email: <a href="mailto:privacy@nutritionsolver.com" class="text-emerald-400 underline">privacy@nutritionsolver.com</a></p>
+        <p class="text-zinc-400">Website: <a href="https://nutritionsolver.com/contact" class="text-emerald-400 underline">https://nutritionsolver.com/contact</a></p>
+      </div>
+    </section>
+  </div>
+</div>

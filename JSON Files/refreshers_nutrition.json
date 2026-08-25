@@ -1,0 +1,293 @@
+{
+  "brand": {
+    "name": "Refreshers",
+    "website": "https://www.refreshersbev.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Fruit & Berry Refreshers",
+    "Tropical & Citrus Refreshers",
+    "Coconut Milk Refreshers (Drinks)",
+    "Lemonade Refreshers",
+    "Refresher Add-ons & Inclusions"
+  ],
+  "products": [
+    {
+      "product_id": "ref_strawberry_acai",
+      "name": "Strawberry Açaí Refresher",
+      "category": "Fruit & Berry Refreshers",
+      "subcategory": "Fruit Drinks",
+      "description": "Sweet strawberry flavors accented by passion fruit and açaí notes, hand-shaken with ice and real strawberry pieces.",
+      "price": 4.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 120.0,
+        "carbohydrates_g": 21.0,
+        "fiber_g": 1.0,
+        "sugars_g": 19.0,
+        "added_sugars_g": 18.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Ice",
+        "Water",
+        "Strawberry Acai Base (Sugar, Water, White Grape Juice Concentrate, Citric Acid, Natural Flavors, Green Coffee Bean Extract, Fruit and Vegetable Juice)",
+        "Freeze-Dried Strawberries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.refreshersbev.com/media/menu/strawberry-acai.png",
+      "product_url": "https://www.refreshersbev.com/menu/fruit/strawberry-acai",
+      "sources": [
+        {
+          "url": "https://www.refreshersbev.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/refreshers",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ref_dragon_drink",
+      "name": "Dragon Drink (Mango Dragonfruit Coconutmilk)",
+      "category": "Coconut Milk Refreshers (Drinks)",
+      "subcategory": "Coconut Milk Blends",
+      "description": "Mango and dragonfruit flavors combined with creamy coconutmilk and real diced dragonfruit pieces, hand-shaken with ice.",
+      "price": 5.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 1.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 1.0,
+        "sugars_g": 23.0,
+        "added_sugars_g": 20.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [
+        "Tree Nuts (Coconut)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Coconutmilk",
+        "Mango Dragonfruit Base",
+        "Freeze-Dried Dragonfruit Pieces"
+      ],
+      "customizations": [],
+      "image_url": "https://www.refreshersbev.com/media/menu/dragon-drink.png",
+      "product_url": "https://www.refreshersbev.com/menu/coconut/dragon-drink",
+      "sources": [
+        {
+          "url": "https://www.refreshersbev.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ref_strawberry_lemonade",
+      "name": "Strawberry Açaí Lemonade Refresher",
+      "category": "Lemonade Refreshers",
+      "subcategory": "Lemonade Blends",
+      "description": "Strawberry açaí flavors balanced with refreshing lemonade, water, and ice, shaken with real strawberry pieces.",
+      "price": 5.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 32.0,
+        "added_sugars_g": 30.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Ice",
+        "Lemonade",
+        "Strawberry Acai Base",
+        "Freeze-Dried Strawberries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.refreshersbev.com/media/menu/strawberry-lemonade.png",
+      "product_url": "https://www.refreshersbev.com/menu/lemonade/strawberry-lemonade",
+      "sources": [
+        {
+          "url": "https://www.refreshersbev.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ref_paradise_drink",
+      "name": "Paradise Drink (Pineapple Passionfruit Coconutmilk)",
+      "category": "Coconut Milk Refreshers (Drinks)",
+      "subcategory": "Coconut Milk Blends",
+      "description": "Tropical pineapple and passionfruit flavors combined with creamy coconutmilk and real diced pineapple pieces.",
+      "price": 5.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 1.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 1.0,
+        "sugars_g": 25.0,
+        "added_sugars_g": 22.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [
+        "Tree Nuts (Coconut)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Coconutmilk",
+        "Pineapple Passionfruit Base",
+        "Freeze-Dried Pineapple Pieces"
+      ],
+      "customizations": [],
+      "image_url": "https://www.refreshersbev.com/media/menu/paradise-drink.png",
+      "product_url": "https://www.refreshersbev.com/menu/coconut/paradise-drink",
+      "sources": [
+        {
+          "url": "https://www.refreshersbev.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ref_freeze_dried_strawberries",
+      "name": "Extra Freeze-Dried Strawberry Inclusions",
+      "category": "Refresher Add-ons & Inclusions",
+      "subcategory": "Inclusions",
+      "description": "Crisp freeze-dried whole strawberry pieces added to enhance flavor and appearance.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 scoop (5g)",
+        "weight_g": 5.0
+      },
+      "nutrition": {
+        "calories": 20,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 60.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Freeze-Dried Strawberries"
+      ],
+      "customizations": [],
+      "image_url": "https://www.refreshersbev.com/media/menu/strawberries-inclusion.png",
+      "product_url": "https://www.refreshersbev.com/menu/addons/strawberries",
+      "sources": [
+        {
+          "url": "https://www.refreshersbev.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

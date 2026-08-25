@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "name": "Steak 'n Shake",
+    "website": "https://www.steaknshake.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Steakburgers",
+    "Classic Steakburgers"
+  ],
+  "products": [
+    {
+      "product_id": "steak_n_shake_single_steakburger_with_cheese",
+      "name": "Single Steakburger with Cheese",
+      "category": "Steakburgers",
+      "subcategory": "Classic Steakburgers",
+      "description": "A signature 100% beef steakburger pressed thin with a crispy edge, topped with American cheese, and served on a toasted bun.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger (165 g)",
+        "weight_g": 165.0
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 19.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 890.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 1.5,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": 150.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "100% Beef Steakburger Patty",
+        "American Cheese (Milk, Cheese Culture, Salt, Enzymes)",
+        "Toasted Bun (Enriched Wheat Flour, Water, Sugar, Yeast, Soybean Oil, Salt)",
+        "Optional Condiments (Ketchup, Mustard, Pickle, Onion)"
+      ],
+      "customizations": [
+        "Add Bacon",
+        "Double Meat",
+        "No Cheese",
+        "Extra Pickle"
+      ],
+      "image_url": "https://www.steaknshake.com/menu/steakburgers/single-steakburger-with-cheese",
+      "product_url": "https://www.steaknshake.com/menu/steakburgers/single-steakburger-with-cheese",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/steak-n-shake/single-steakburger/with-cheese",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.steaknshake.com/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "Zaxby's",
+    "website": "https://www.zaxbys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken Fingerz & Wings"
+  ],
+  "products": [
+    {
+      "product_id": "zaxbys-5-piece-chicken-fingerz",
+      "name": "5 Piece Chicken Fingerz",
+      "category": "Chicken Fingerz & Wings",
+      "subcategory": "Chicken Fingerz",
+      "description": "Five hand-breaded, marinated chicken fingerz, freshly prepared and cooked to golden perfection.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "5 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 46.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 5.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 130.0,
+        "sodium_mg": 1890.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken Tenderloin",
+        "Breading",
+        "Marination"
+      ],
+      "customizations": [],
+      "image_url": "https://www.zaxbys.com/menu/fingerz-wings-meals/chicken-finger-plate",
+      "product_url": "https://www.zaxbys.com/menu/fingerz-wings-meals/chicken-finger-plate",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/zaxbys/chicken-fingerz/5-piece",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.zaxbys.com/uploads/2023_P1_Zaxbys_NAI_Guide_Digital_d804127ec6.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

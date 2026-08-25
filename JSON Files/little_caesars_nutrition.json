@@ -1,0 +1,486 @@
+{
+  "brand": {
+    "name": "Little Caesars",
+    "website": "https://www.littlecaesars.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Pizzas",
+    "Crazy Bread & Sides",
+    "Wings",
+    "Dipping Sauces",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "lc_classic_pepperoni",
+      "name": "Classic Pepperoni Pizza (Large)",
+      "category": "Pizzas",
+      "subcategory": "Classic Pizzas",
+      "description": "Signature round pizza topped with fresh cheese made from mozzarella and Muenster, and pepperoni slices.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice (1/8 of pizza)",
+        "weight_g": 70.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 11.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 570.0,
+        "potassium_mg": 160.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Flour",
+        "Water",
+        "Low Moisture Mozzarella Cheese",
+        "Muenster Cheese",
+        "Pepperoni",
+        "Tomato Sauce",
+        "Yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/pepperoni-pizza.png",
+      "product_url": "https://www.littlecaesars.com/menu/pizzas/classic-pepperoni",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/little-caesars",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "lc_classic_cheese",
+      "name": "Classic Cheese Pizza (Large)",
+      "category": "Pizzas",
+      "subcategory": "Classic Pizzas",
+      "description": "Signature round pizza topped with fresh cheese made from mozzarella and Muenster.",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice (1/8 of pizza)",
+        "weight_g": 65.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 510.0,
+        "potassium_mg": 150.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Flour",
+        "Water",
+        "Low Moisture Mozzarella Cheese",
+        "Muenster Cheese",
+        "Tomato Sauce",
+        "Yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/cheese-pizza.png",
+      "product_url": "https://www.littlecaesars.com/menu/pizzas/classic-cheese",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_extra_most_bestest_pepperoni",
+      "name": "Extra Most Bestest Pepperoni Pizza",
+      "category": "Pizzas",
+      "subcategory": "Extra Most Bestest",
+      "description": "Large pizza with more cheese and more pepperoni.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice (1/8 of pizza)",
+        "weight_g": 85.0
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 14.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 190.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 200.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Flour",
+        "Extra Mozzarella & Muenster Cheese",
+        "Extra Pepperoni",
+        "Tomato Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/emb-pepperoni.png",
+      "product_url": "https://www.littlecaesars.com/menu/pizzas/extra-most-bestest-pepperoni",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_crazy_bread",
+      "name": "Crazy Bread (Order of 8)",
+      "category": "Crazy Bread & Sides",
+      "subcategory": "Sides",
+      "description": "Freshly baked bread sticks brushed with buttery garlic spread and sprinkled with parmesan cheese.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bread stick",
+        "weight_g": 25.0
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 2.0,
+        "fat_g": 3.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 130.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Bread Dough",
+        "Butter Flavored Oil",
+        "Garlic Salt",
+        "Parmesan Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/crazy-bread.png",
+      "product_url": "https://www.littlecaesars.com/menu/sides/crazy-bread",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_caesar_wings_oven_roasted",
+      "name": "Caesar Wings (Oven Roasted - 8 pc)",
+      "category": "Wings",
+      "subcategory": "Chicken Wings",
+      "description": "Oven roasted chicken wings seasoned with savory spices.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "8 pieces",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 52.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.2,
+        "cholesterol_mg": 220.0,
+        "sodium_mg": 1420.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken Wings",
+        "Seasoning Blend",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/caesar-wings.png",
+      "product_url": "https://www.littlecaesars.com/menu/wings/caesar-wings",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_crazy_sauce",
+      "name": "Crazy Sauce",
+      "category": "Dipping Sauces",
+      "subcategory": "Marinara",
+      "description": "Rich tomato sauce seasoned with herbs and spices for dipping.",
+      "price": 0.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 cup (57g)",
+        "weight_g": 57.0
+      },
+      "nutrition": {
+        "calories": 35,
+        "protein_g": 1.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 7.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Tomato Puree",
+        "Water",
+        "Spices",
+        "Salt",
+        "Sugar",
+        "Garlic Powder"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/crazy-sauce.png",
+      "product_url": "https://www.littlecaesars.com/menu/sauces/crazy-sauce",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_butter_garlic_sauce",
+      "name": "Butter Garlic Flavored Sauce",
+      "category": "Dipping Sauces",
+      "subcategory": "Flavored Sauces",
+      "description": "Rich buttery sauce with garlic flavor.",
+      "price": 0.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 container (28g)",
+        "weight_g": 28.0
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 0.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [
+        "Liquid Soybean Oil",
+        "Water",
+        "Salt",
+        "Hydrogenated Soybean Oil",
+        "Soy Lecithin",
+        "Artificial Flavor",
+        "Beta Carotene"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/butter-garlic-sauce.png",
+      "product_url": "https://www.littlecaesars.com/menu/sauces/butter-garlic-sauce",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "lc_pepsi_20oz",
+      "name": "Pepsi (20 fl oz)",
+      "category": "Beverages",
+      "subcategory": "Soft Drinks",
+      "description": "Refreshing carbonated cola soft drink.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz bottle",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 60.0,
+        "potassium_mg": 0.0,
+        "carbohydrates_g": 69.0,
+        "fiber_g": 0.0,
+        "sugars_g": 69.0,
+        "added_sugars_g": 68.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 63.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "High Fructose Corn Syrup",
+        "Caramel Color",
+        "Sugar",
+        "Phosphoric Acid",
+        "Caffeine",
+        "Citric Acid",
+        "Natural Flavor"
+      ],
+      "customizations": [],
+      "image_url": "https://www.littlecaesars.com/media/menu/pepsi-20oz.png",
+      "product_url": "https://www.littlecaesars.com/menu/beverages/pepsi-20oz",
+      "sources": [
+        {
+          "url": "https://www.littlecaesars.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

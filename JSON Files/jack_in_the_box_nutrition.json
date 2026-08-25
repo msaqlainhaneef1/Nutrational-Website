@@ -1,0 +1,624 @@
+{
+  "brand": {
+    "name": "Jack in the Box",
+    "website": "https://www.jackinthebox.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Chicken",
+    "Tacos & Specialty",
+    "Breakfast",
+    "Sides & Munchies",
+    "Desserts & Shakes",
+    "Beverages",
+    "Sauces & Dressings"
+  ],
+  "products": [
+    {
+      "product_id": "jitb_sourdough_jack",
+      "name": "Sourdough Jack",
+      "category": "Burgers",
+      "subcategory": "Signature Burgers",
+      "description": "100% beef patty, melted American cheese, tomato, bacon, and creamy tomato sauce on toasted sourdough bread.",
+      "price": 6.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 29.0,
+        "fat_g": 43.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1330.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Sourdough Bread",
+        "American Cheese",
+        "Bacon",
+        "Tomato",
+        "Ketchup-Mayonnaise Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/sourdough-jack.png",
+      "product_url": "https://www.jackinthebox.com/food/burgers/sourdough-jack",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/jack-in-the-box",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_ultimate_cheeseburger",
+      "name": "Ultimate Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Two beef patties, two slices of American cheese, real Swiss cheese, and ketchup-mustard sauce on a bakery bun.",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 255.0
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 43.0,
+        "fat_g": 57.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 1340.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 1.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 520.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Two Beef Patties",
+        "Bakery Bun",
+        "American Cheese",
+        "Swiss Cheese",
+        "Ketchup",
+        "Mustard Sauce",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/ultimate-cheeseburger.png",
+      "product_url": "https://www.jackinthebox.com/food/burgers/ultimate-cheeseburger",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_jumbo_jack_cheese",
+      "name": "Jumbo Jack with Cheese",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Seasoned beef patty, American cheese, lettuce, tomato, pickles, onions, ketchup, and mayonnaise on a jumbo bun.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 270.0
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 25.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Jumbo Bun",
+        "American Cheese",
+        "Lettuce",
+        "Tomato",
+        "Pickles",
+        "Onions",
+        "Ketchup",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/jumbo-jack-cheese.png",
+      "product_url": "https://www.jackinthebox.com/food/burgers/jumbo-jack-with-cheese",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_spicy_chicken_sandwich",
+      "name": "Spicy Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Sandwiches",
+      "description": "Crispy spicy chicken fillet, lettuce, and mayonnaise on a bakery bun.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 235.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 21.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1390.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 60.0,
+        "fiber_g": 4.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Spicy Chicken Fillet",
+        "Bakery Bun",
+        "Lettuce",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/spicy-chicken-sandwich.png",
+      "product_url": "https://www.jackinthebox.com/food/chicken/spicy-chicken-sandwich",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_chicken_fajita_pita",
+      "name": "Chicken Fajita Pita",
+      "category": "Chicken",
+      "subcategory": "Pitas",
+      "description": "Grilled chicken, melted cheddar and pepper jack cheese, onions, and bell peppers in a warm pita bread with fiery sauce.",
+      "price": 6.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 pita",
+        "weight_g": 220.0
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 27.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 340.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Grilled Chicken Strips",
+        "Pita Bread",
+        "Cheddar Cheese",
+        "Pepper Jack Cheese",
+        "Onions",
+        "Bell Peppers",
+        "Fiery Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/chicken-fajita-pita.png",
+      "product_url": "https://www.jackinthebox.com/food/chicken/chicken-fajita-pita",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_tacos_2pack",
+      "name": "Jack's Spicy Tacos (2 pcs)",
+      "category": "Tacos & Specialty",
+      "subcategory": "Tacos",
+      "description": "Two crunchy tacos filled with savory meat, American cheese, lettuce, and taco sauce.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "2 tacos",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 10.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 720.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Taco Shell",
+        "Savory Beef Filling",
+        "American Cheese",
+        "Lettuce",
+        "Taco Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/tacos-2pack.png",
+      "product_url": "https://www.jackinthebox.com/food/tacos/tacos-2pack",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_curly_fries_medium",
+      "name": "Curly Fries (Medium)",
+      "category": "Sides & Munchies",
+      "subcategory": "Fries & Sides",
+      "description": "Seasoned spiral-cut potatoes, crispy fried to perfection.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium order",
+        "weight_g": 135.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 5.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Enriched Bleached Flour",
+        "Salt",
+        "Spices",
+        "Garlic Powder",
+        "Onion Powder",
+        "Paprika"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/curly-fries-med.png",
+      "product_url": "https://www.jackinthebox.com/food/sides/curly-fries",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_stuffed_jalapenos",
+      "name": "Stuffed Jalapeños (4 pcs)",
+      "category": "Sides & Munchies",
+      "subcategory": "Munchies",
+      "description": "Jalapeño peppers stuffed with melted cheddar cheese, breaded and deep-fried.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces",
+        "weight_g": 110.0
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 7.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 890.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 27.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Jalapeño Peppers",
+        "Cheddar Cheese",
+        "Breadcrumbs",
+        "Vegetable Oil",
+        "Wheat Flour",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/stuffed-jalapenos.png",
+      "product_url": "https://www.jackinthebox.com/food/sides/stuffed-jalapenos",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_oreo_shake",
+      "name": "OREO Cookie Shake (Regular)",
+      "category": "Desserts & Shakes",
+      "subcategory": "Shakes",
+      "description": "Vanilla ice cream shake mixed with OREO cookie pieces, topped with whipped topping and a maraschino cherry.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular size (16 fl oz)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 14.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 470.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 97.0,
+        "fiber_g": 2.0,
+        "sugars_g": 78.0,
+        "added_sugars_g": 65.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 2.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Shake Mix",
+        "OREO Cookie Pieces",
+        "Whipped Topping",
+        "Maraschino Cherry"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/oreo-shake.png",
+      "product_url": "https://www.jackinthebox.com/food/desserts/oreo-cookie-shake",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_coca_cola",
+      "name": "Coca-Cola (Medium)",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "description": "Classic refreshing Coca-Cola fountain beverage.",
+      "price": 2.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (24 fl oz)",
+        "weight_g": 700.0
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 40.0,
+        "potassium_mg": 0.0,
+        "carbohydrates_g": 79.0,
+        "fiber_g": 0.0,
+        "sugars_g": 79.0,
+        "added_sugars_g": 79.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 65.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "High Fructose Corn Syrup",
+        "Caramel Color",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/media/menu/coca-cola.png",
+      "product_url": "https://www.jackinthebox.com/food/beverages/coca-cola",
+      "sources": [
+        {
+          "url": "http://static.jackinthebox.com/pdfs/nutritional_brochure.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

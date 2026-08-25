@@ -1,0 +1,72 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Chicken"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_hot_n_spicy_mcchicken",
+      "name": "Hot 'n Spicy McChicken",
+      "category": "Sandwiches",
+      "subcategory": "Chicken",
+      "description": "A seasoned chicken patty with a kick of spice, topped with shredded lettuce and mayonnaise on a toasted regular bun.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (143g)",
+        "weight_g": 143.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 14.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 830.0,
+        "potassium_mg": 190.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken patty (chicken breast with rib meat, water, seasoning, salt, spices)",
+        "regular bun (enriched flour, water, sugar, yeast, soybean oil)",
+        "shredded lettuce",
+        "mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-hot-n-spicy-mcchicken.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/hot-n-spicy-mcchicken.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

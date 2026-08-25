@@ -103,18 +103,17 @@ import { Wand2, X } from '@lucide/astro';
       // Pull menu items from the page DOM (data attributes set by RestaurantMenu.astro)
       const cards = document.querySelectorAll('.menu-item-card');
       const menuItems = Array.from(cards).map((card) => {
-        const name = card.dataset.itemName || '';
-        const category = card.dataset.itemCategory || '';
-        // Parse from the card's data attributes if set, otherwise parse from inner HTML
-        const calText = card.querySelector('[data-cal]')?.getAttribute('data-cal') || '0';
-        const proText = card.querySelector('[data-pro]')?.getAttribute('data-pro') || '0';
+        const name = card.dataset.title || card.dataset.searchName || '';
+        const category = card.dataset.catName || '';
+        const calText = card.dataset.cal || '0';
+        const proText = card.dataset.pro || '0';
         return {
-          id: `${category}::${name}`,
-          name: name.split(' ').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+          id: card.dataset.id || `${category}::${name}`,
+          name: name,
           source: category,
           calories: parseFloat(calText) || 0,
           protein: parseFloat(proText) || 0,
-          carbs: 0, // not used by solver
+          carbs: 0,
           fat: 0,
         };
       }).filter((it) => it.calories > 0);
@@ -153,7 +152,7 @@ import { Wand2, X } from '@lucide/astro';
         card.classList.remove('ring-2', 'ring-emerald-500');
       });
       result.selected.forEach((item) => {
-        const card = document.querySelector(`.menu-item-card[data-item-name="${item.name.toLowerCase()}"]`);
+        const card = document.querySelector(`.menu-item-card[data-search-name="${item.name.toLowerCase()}"]`);
         card?.classList.add('ring-2', 'ring-emerald-500');
         setTimeout(() => card?.classList.remove('ring-2', 'ring-emerald-500'), 3000);
       });

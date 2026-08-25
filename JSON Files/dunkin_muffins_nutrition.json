@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Bakery",
+    "Muffins"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_blueberry_muffin",
+      "name": "Blueberry Muffin",
+      "category": "Bakery",
+      "subcategory": "Muffins",
+      "description": "A classic moist and tender muffin packed with blueberries and topped with coarse sugar.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 muffin (142g)",
+        "weight_g": 142.0
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 6.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 440.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 2.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 34.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Bleached Wheat Flour",
+        "Sugar",
+        "Blueberries",
+        "Soybean Oil",
+        "Eggs",
+        "Milk",
+        "Leavening",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/blueberry-muffin.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/bakery/blueberry-muffin",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

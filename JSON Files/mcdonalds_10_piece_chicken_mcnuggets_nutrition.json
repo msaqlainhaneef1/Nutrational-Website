@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds-10-piece-chicken-mcnuggets",
+      "name": "10 Piece Chicken McNuggets",
+      "category": "Chicken",
+      "subcategory": "Chicken McNuggets",
+      "description": "Tender, bite-sized chicken breast nuggets made with 100% white meat chicken.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "10 pieces",
+        "weight_g": 159.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 24.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 850.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": 20.0,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "White Boneless Chicken",
+        "Water",
+        "Food Starch-Modified",
+        "Salt",
+        "Breading"
+      ],
+      "customizations": [
+        "Choice of Dipping Sauce"
+      ],
+      "image_url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-10-piece.html",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-10-piece.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-10-piece.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/mcdonalds/chicken-mcnuggets/10-piece",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

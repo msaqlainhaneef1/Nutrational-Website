@@ -1,0 +1,487 @@
+{
+  "brand": {
+    "name": "Saladworks",
+    "website": "https://www.saladworks.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Signature Salads",
+    "Warm Grain Bowls",
+    "Wraps",
+    "Soups",
+    "Dressings & Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "sw_buffalo_chicken_salad",
+      "name": "Buffalo Blue Salad",
+      "category": "Signature Salads",
+      "subcategory": "Signature Salads",
+      "description": "Grilled chicken tossed in buffalo sauce, tomatoes, cucumbers, blue cheese crumbles, onion, mixed greens, buffalo ranch dressing.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular salad",
+        "weight_g": 390.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 32.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1120.0,
+        "potassium_mg": 540.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 210.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Grilled Chicken",
+        "Buffalo Sauce",
+        "Tomatoes",
+        "Cucumbers",
+        "Blue Cheese",
+        "Red Onion",
+        "Mixed Greens",
+        "Buffalo Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/buffalo-blue.png",
+      "product_url": "https://www.saladworks.com/menu/salads/buffalo-blue",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/saladworks",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "sw_the_saratoga",
+      "name": "The Saratoga Salad",
+      "category": "Signature Salads",
+      "subcategory": "Signature Salads",
+      "description": "Grilled chicken, dried cranberries, mandarin oranges, walnuts, feta cheese, mixed greens, fat-free raspberry vinaigrette.",
+      "price": 12.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular salad",
+        "weight_g": 410.0
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 29.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 580.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 6.0,
+        "sugars_g": 42.0,
+        "added_sugars_g": 12.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Grilled Chicken",
+        "Dried Cranberries",
+        "Mandarin Oranges",
+        "Walnuts",
+        "Feta Cheese",
+        "Mixed Greens",
+        "Raspberry Vinaigrette"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/saratoga.png",
+      "product_url": "https://www.saladworks.com/menu/salads/saratoga",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_southwest_chipotle_bowl",
+      "name": "Southwest Chipotle Grain Bowl",
+      "category": "Warm Grain Bowls",
+      "subcategory": "Grain Bowls",
+      "description": "Brown rice & quinoa blend, grilled chicken, black beans, corn, roasted peppers, cheddar cheese, chipotle ranch.",
+      "price": 12.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": 460.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 38.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 940.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 64.0,
+        "fiber_g": 9.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 4.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Brown Rice & Quinoa",
+        "Grilled Chicken",
+        "Black Beans",
+        "Corn",
+        "Roasted Peppers",
+        "Cheddar",
+        "Chipotle Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/southwest-bowl.png",
+      "product_url": "https://www.saladworks.com/menu/bowls/southwest-chipotle",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_el_paso_wrap",
+      "name": "El Paso Wrap",
+      "category": "Wraps",
+      "subcategory": "Wraps",
+      "description": "Grilled chicken, black beans, corn, tortilla strips, cheddar cheese, romaine lettuce, chipotle ranch in a flour tortilla.",
+      "price": 10.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 36.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1210.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Grilled Chicken",
+        "Black Beans",
+        "Corn",
+        "Tortilla Strips",
+        "Cheddar",
+        "Romaine",
+        "Chipotle Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/el-paso-wrap.png",
+      "product_url": "https://www.saladworks.com/menu/wraps/el-paso",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_chicken_noodle_soup",
+      "name": "Homestyle Chicken Noodle Soup",
+      "category": "Soups",
+      "subcategory": "Soups",
+      "description": "Classic comforting chicken noodle soup with tender chicken, egg noodles, carrots, and celery.",
+      "price": 4.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl (8 oz)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 11.0,
+        "fat_g": 4.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 780.0,
+        "potassium_mg": 190.0,
+        "carbohydrates_g": 20.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Broth",
+        "Diced Chicken",
+        "Egg Noodles",
+        "Carrots",
+        "Celery",
+        "Onions",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/chicken-noodle.png",
+      "product_url": "https://www.saladworks.com/menu/soups/chicken-noodle",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_balsamic_vinaigrette",
+      "name": "Balsamic Vinaigrette Dressing",
+      "category": "Dressings & Beverages",
+      "subcategory": "Dressings",
+      "description": "Classic tangy balsamic vinegar and olive oil blend dressing.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "2 fl oz cup",
+        "weight_g": 60.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 0.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Vegetable Oil",
+        "Balsamic Vinegar",
+        "Water",
+        "Sugar",
+        "Salt",
+        "Garlic",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/balsamic.png",
+      "product_url": "https://www.saladworks.com/menu/dressings/balsamic",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_lemonade",
+      "name": "Fresh Lemonade",
+      "category": "Dressings & Beverages",
+      "subcategory": "Beverages",
+      "description": "House-made classic sweet and tart lemonade.",
+      "price": 3.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz cup",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 50.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 0.0,
+        "sugars_g": 60.0,
+        "added_sugars_g": 58.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Lemon Juice",
+        "Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/lemonade.png",
+      "product_url": "https://www.saladworks.com/menu/beverages/lemonade",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sw_iced_tea",
+      "name": "Freshly Brewed Iced Tea",
+      "category": "Dressings & Beverages",
+      "subcategory": "Beverages",
+      "description": "Freshly brewed premium black tea.",
+      "price": 2.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz cup",
+        "weight_g": 570.0
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 10.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Brewed Black Tea"
+      ],
+      "customizations": [],
+      "image_url": "https://www.saladworks.com/media/menu/iced-tea.png",
+      "product_url": "https://www.saladworks.com/menu/beverages/iced-tea",
+      "sources": [
+        {
+          "url": "https://www.saladworks.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

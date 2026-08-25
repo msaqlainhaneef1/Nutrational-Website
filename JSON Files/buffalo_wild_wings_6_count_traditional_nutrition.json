@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Buffalo Wild Wings",
+    "website": "https://www.buffalowildwings.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Wings"
+  ],
+  "products": [
+    {
+      "product_id": "buffalo-wild-wings-6-count-traditional",
+      "name": "6 Count Traditional Wings",
+      "category": "Wings",
+      "subcategory": "Traditional Wings",
+      "description": "Signature traditional bone-in chicken wings, hand-spun in your choice of signature sauce or dry rub.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 count",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 53.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 215.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken Wings"
+      ],
+      "customizations": [
+        "Choice of Signature Sauce or Dry Rub"
+      ],
+      "image_url": "https://www.buffalowildwings.com/menu/categories/wings/",
+      "product_url": "https://www.buffalowildwings.com/menu/categories/wings/",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/l5fkpck1mwg3/xW0KIWJCivPU5wWP72LDx/5ab6367ad5d66b40e9ba364abb45dc47/24_BWW_1464398_IS_25_AW1_Nutrition_Guide_-_FINAL.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

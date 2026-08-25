@@ -5,7 +5,7 @@
   "description": "Review nutrition facts for Wawa hoagies, bowls, and beverages.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd6a",
-  "itemCount": 323,
+  "itemCount": 324,
   "categories": [
     {
       "name": "Other",
@@ -3972,6 +3972,24 @@
           "saturated_fat": 10,
           "sugars": 5,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Hot Hoagies",
+      "items": [
+        {
+          "name": "Meatballs & Marinara (Shorti)",
+          "calories": 780,
+          "protein": 36,
+          "fat": 32,
+          "carbs": 88,
+          "servingSize": "1 Shorti hoagie (360g)",
+          "fiber": 5,
+          "sodium": 1820,
+          "cholesterol": 70,
+          "saturated_fat": 12,
+          "sugars": 12
         }
       ]
     }

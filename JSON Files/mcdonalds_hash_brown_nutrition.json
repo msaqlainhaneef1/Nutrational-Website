@@ -1,0 +1,72 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_hash_brown",
+      "name": "Hash Brown",
+      "category": "Breakfast",
+      "subcategory": "Sides",
+      "description": "Crispy, golden brown McDonald's Hash Browns are made with grated potatoes, seasoning, and fried to crispy perfection.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 hash brown (57g)",
+        "weight_g": 57.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 1.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 110.0,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "vegetable oil (canola oil, soybean oil, hydrogenated soybean oil, natural beef flavor)",
+        "salt",
+        "corn flour",
+        "dehydrated potato",
+        "dextrose",
+        "sodium acid pyrophosphate",
+        "extractives of black pepper"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-hash-browns.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/hash-browns.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

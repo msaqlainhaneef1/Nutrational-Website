@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Panera Bread",
+    "website": "https://www.panerabread.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Soups"
+  ],
+  "products": [
+    {
+      "product_id": "panera-broccoli-cheddar-soup-bowl",
+      "name": "Broccoli Cheddar Soup (Bowl)",
+      "category": "Soups",
+      "subcategory": "Hot Soups",
+      "description": "Chopped broccoli, carrots and select seasonings simmered in a velvety sharp cheddar cheese sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Bowl (approx. 12 oz)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 14.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 19.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 1520.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Broccoli",
+        "Cheddar Cheese Sauce",
+        "Milk",
+        "Carrots",
+        "Onions",
+        "Seasonings"
+      ],
+      "customizations": [],
+      "image_url": "https://www.panerabread.com/en-us/menu/products/broccoli-cheddar-soup.html",
+      "product_url": "https://www.panerabread.com/en-us/menu/products/broccoli-cheddar-soup.html",
+      "sources": [
+        {
+          "url": "https://www.panerabread.com/en-us/menu/products/broccoli-cheddar-soup.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/panera-bread/broccoli-cheddar-soup/bowl",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

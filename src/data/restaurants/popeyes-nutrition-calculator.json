@@ -1,0 +1,64 @@
+{
+  "name": "Popeyes",
+  "slug": "popeyes-nutrition-calculator",
+  "tagline": "Track nutrition for Popeyes menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 3 menu items at Popeyes.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 3,
+  "categories": [
+    {
+      "name": "Sides & Biscuits",
+      "items": [
+        {
+          "name": "Biscuit",
+          "calories": 260,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 26,
+          "servingSize": "1 biscuit",
+          "fiber": 1,
+          "sodium": 440,
+          "saturated_fat": 7,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Blackened Chicken Sandwich",
+          "calories": 550,
+          "protein": 35,
+          "fat": 26,
+          "carbs": 43,
+          "servingSize": "1 sandwich (210g)",
+          "fiber": 2,
+          "sodium": 1390,
+          "cholesterol": 85,
+          "saturated_fat": 4.5,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Red Beans and Rice (Regular)",
+          "calories": 230,
+          "protein": 7,
+          "fat": 7,
+          "carbs": 35,
+          "servingSize": "1 regular (165g)",
+          "fiber": 5,
+          "sodium": 710,
+          "cholesterol": 10,
+          "saturated_fat": 2.5,
+          "sugars": 1
+        }
+      ]
+    }
+  ]
+}

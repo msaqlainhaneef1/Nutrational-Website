@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "McGriddles"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_sausage_egg_cheese_mcgriddles",
+      "name": "Sausage, Egg & Cheese McGriddles",
+      "category": "Breakfast",
+      "subcategory": "McGriddles",
+      "description": "Warm griddle cakes with the sweet taste of maple, holding a savory hot sausage patty, a fluffy folded egg, and a slice of melty American cheese.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (216g)",
+        "weight_g": 216.0
+      },
+      "nutrition": {
+        "calories": 550,
+        "protein_g": 16.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 245.0,
+        "sodium_mg": 1260.0,
+        "potassium_mg": 230.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 1.0,
+        "sugars_g": 15.0,
+        "added_sugars_g": 12.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Griddle Cakes",
+        "Sausage Patty",
+        "Folded Egg",
+        "American Cheese",
+        "Pasteurized Process American Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/sausage-egg-cheese-mcgriddles.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/sausage-egg-cheese-mcgriddles.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_bacon_egg_cheese_mcgriddles",
+      "name": "Bacon, Egg & Cheese McGriddles",
+      "category": "Breakfast",
+      "subcategory": "McGriddles",
+      "description": "Soft, warm griddle cakes with the sweet taste of maple, paired with thick-cut applewood smoked bacon, a fluffy folded egg, and American cheese.",
+      "price": 4.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (183g)",
+        "weight_g": 183.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 15.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 240.0,
+        "sodium_mg": 1230.0,
+        "potassium_mg": 200.0,
+        "carbohydrates_g": 47.0,
+        "fiber_g": 1.0,
+        "sugars_g": 15.0,
+        "added_sugars_g": 12.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Griddle Cakes",
+        "Applewood Smoked Bacon",
+        "Folded Egg",
+        "American Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/bacon-egg-cheese-mcgriddles.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/bacon-egg-cheese-mcgriddles.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

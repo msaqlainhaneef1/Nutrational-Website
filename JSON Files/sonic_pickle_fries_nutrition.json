@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Sonic Drive-In",
+    "website": "https://www.sonicdrivein.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Snacks & Sides",
+    "Limited Time Offerings"
+  ],
+  "products": [
+    {
+      "product_id": "sonic_pickle_fries_medium",
+      "name": "Pickle Fries (Medium)",
+      "category": "Snacks & Sides",
+      "subcategory": "Sides",
+      "description": "Dill pickle slices breaded and fried to crispy perfection, served with a side of buttermilk ranch dressing.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium order",
+        "weight_g": 140.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 3.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 15.0,
+        "sodium_mg": 1430.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Dill Pickle Slices",
+        "Breading (Enriched Bleached Wheat Flour, Water, Yellow Corn Flour, Salt, Spices, Leavening)",
+        "Fried in Vegetable Oil (Soybean Oil, Canola Oil)"
+      ],
+      "customizations": [
+        "Choice of Dipping Sauce (Buttermilk Ranch, Cheddar Cheese Sauce)"
+      ],
+      "image_url": "https://www.sonicdrivein.com/menu/categories/snacks-sides/sides/pickle-fries",
+      "product_url": "https://www.sonicdrivein.com/menu/categories/snacks-sides/sides/pickle-fries",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/sonic/pickle-fries/medium",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.sonicdrivein.com/nutrition-allergen/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "name": "Black Bear Diner",
+  "slug": "black-bear-diner-nutrition-calculator",
+  "tagline": "Track nutrition for Black Bear Diner menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 13 menu items at Black Bear Diner.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 13,
+  "categories": [
+    {
+      "name": "Breakfast Specials",
+      "items": [
+        {
+          "name": "Classic Eggs Benedict",
+          "calories": 700,
+          "protein": 32,
+          "fat": 42,
+          "carbs": 48,
+          "servingSize": "1 order",
+          "fiber": 3,
+          "sodium": 1450,
+          "cholesterol": 380,
+          "saturated_fat": 16,
+          "sugars": 6
+        },
+        {
+          "name": "Bacon Avocado Benedict",
+          "calories": 850,
+          "protein": 28,
+          "fat": 58,
+          "carbs": 52,
+          "servingSize": "1 order",
+          "fiber": 8,
+          "sodium": 1320,
+          "cholesterol": 350,
+          "saturated_fat": 14,
+          "sugars": 7
+        },
+        {
+          "name": "Chorizo Breakfast Burrito",
+          "calories": 1240,
+          "protein": 54,
+          "fat": 78,
+          "carbs": 82,
+          "servingSize": "1 burrito",
+          "fiber": 6,
+          "sodium": 2100,
+          "cholesterol": 450,
+          "saturated_fat": 26,
+          "sugars": 5
+        },
+        {
+          "name": "The Original ScramBOWL",
+          "calories": 1610,
+          "protein": 72,
+          "fat": 105,
+          "carbs": 102,
+          "servingSize": "1 bowl with biscuit/toast",
+          "fiber": 8,
+          "sodium": 2850,
+          "cholesterol": 680,
+          "saturated_fat": 38,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Hungry Bear's Breakfast",
+      "items": [
+        {
+          "name": "BIGFOOT Chicken Fried Steak & Eggs",
+          "calories": 2480,
+          "protein": 78,
+          "fat": 145,
+          "carbs": 205,
+          "servingSize": "1 full meal",
+          "fiber": 12,
+          "sodium": 4200,
+          "cholesterol": 790,
+          "saturated_fat": 52,
+          "sugars": 10
+        },
+        {
+          "name": "The GRIZZ",
+          "calories": 1560,
+          "protein": 74,
+          "fat": 92,
+          "carbs": 112,
+          "servingSize": "1 full meal",
+          "fiber": 4,
+          "sodium": 2980,
+          "cholesterol": 890,
+          "saturated_fat": 31,
+          "sugars": 18
+        }
+      ]
+    },
+    {
+      "name": "Omelettes & Scrambles",
+      "items": [
+        {
+          "name": "Joe's Hobo Omelette",
+          "calories": 1450,
+          "protein": 78,
+          "fat": 98,
+          "carbs": 62,
+          "servingSize": "1 omelette meal",
+          "fiber": 5,
+          "sodium": 2450,
+          "cholesterol": 710,
+          "saturated_fat": 38,
+          "sugars": 6
+        },
+        {
+          "name": "Bruce's Meat Lover's Omelette",
+          "calories": 1520,
+          "protein": 82,
+          "fat": 105,
+          "carbs": 58,
+          "servingSize": "1 omelette meal",
+          "fiber": 3,
+          "sodium": 2600,
+          "cholesterol": 740,
+          "saturated_fat": 42,
+          "sugars": 5
+        },
+        {
+          "name": "Vegetarian Omelette",
+          "calories": 1230,
+          "protein": 48,
+          "fat": 72,
+          "carbs": 72,
+          "servingSize": "1 omelette meal",
+          "fiber": 8,
+          "sodium": 1850,
+          "cholesterol": 520,
+          "saturated_fat": 24,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "The Griddle",
+      "items": [
+        {
+          "name": "Sweet Cream Pancakes (Stack of 3)",
+          "calories": 1140,
+          "protein": 22,
+          "fat": 32,
+          "carbs": 190,
+          "servingSize": "3 pancakes",
+          "fiber": 5,
+          "sodium": 1920,
+          "cholesterol": 140,
+          "saturated_fat": 8,
+          "sugars": 45
+        },
+        {
+          "name": "Cinnamon Roll French Toast",
+          "calories": 1150,
+          "protein": 18,
+          "fat": 48,
+          "carbs": 165,
+          "servingSize": "1 order",
+          "fiber": 6,
+          "sodium": 1100,
+          "cholesterol": 210,
+          "saturated_fat": 16,
+          "sugars": 75
+        }
+      ]
+    },
+    {
+      "name": "Sides & Add-Ons",
+      "items": [
+        {
+          "name": "Thick-Cut Smoked Bacon",
+          "calories": 330,
+          "protein": 18,
+          "fat": 28,
+          "carbs": 1,
+          "servingSize": "4 slices",
+          "sodium": 960,
+          "cholesterol": 70,
+          "saturated_fat": 10
+        },
+        {
+          "name": "Wide Strip-Cut Hash Browns",
+          "calories": 330,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 42,
+          "servingSize": "1 order",
+          "fiber": 4,
+          "sodium": 580,
+          "saturated_fat": 3,
+          "sugars": 1
+        }
+      ]
+    }
+  ]
+}

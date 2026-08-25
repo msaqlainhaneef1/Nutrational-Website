@@ -1,0 +1,415 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Coffee",
+    "Iced Coffee",
+    "Espresso Drinks",
+    "Teas & Refreshers",
+    "Donuts & Bakery",
+    "Sandwiches & Wraps"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_original_blend_coffee",
+      "name": "Original Blend Hot Coffee (Medium)",
+      "category": "Hot Coffee",
+      "subcategory": "Hot Coffee",
+      "description": "Dunkin' signature medium roast hot coffee, rich and smooth.",
+      "price": 2.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (14 fl oz)",
+        "weight_g": 410.0
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 170.0,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 210.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed 100% Arabica Coffee"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/hot-coffee.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/coffee/hot-coffee",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/dunkin-donuts",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_iced_coffee_medium",
+      "name": "Iced Coffee (Medium)",
+      "category": "Iced Coffee",
+      "subcategory": "Iced Coffee",
+      "description": "Dunkin' signature iced coffee, brewed double strength then cooled.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (24 fl oz)",
+        "weight_g": 680.0
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 25.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 297.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Brewed Arabica Coffee",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/iced-coffee.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/coffee/iced-coffee",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_caramel_latte_iced",
+      "name": "Iced Caramel Latte (Medium)",
+      "category": "Espresso Drinks",
+      "subcategory": "Lattes",
+      "description": "Espresso combined with milk and caramel flavor served over ice.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (24 fl oz)",
+        "weight_g": 710.0
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 11.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 180.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 0.0,
+        "sugars_g": 45.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 166.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milk",
+        "Espresso",
+        "Caramel Flavor Swirl"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/iced-latte.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/espresso/iced-latte",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_glazed_donut",
+      "name": "Glazed Donut",
+      "category": "Donuts & Bakery",
+      "subcategory": "Donuts",
+      "description": "Dunkin's signature yeast donut with a sweet sugar glaze.",
+      "price": 1.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 donut (52g)",
+        "weight_g": 52.0
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 3.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 45.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 10.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Enriched Bleached Flour",
+        "Water",
+        "Palm Oil",
+        "Sugar",
+        "Soybean Oil",
+        "Whey",
+        "Yeast",
+        "Egg Yolk"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/glazed-donut.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/bakery/glazed-donut",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_boston_kreme_donut",
+      "name": "Boston Kreme Donut",
+      "category": "Donuts & Bakery",
+      "subcategory": "Donuts",
+      "description": "Yeast donut filled with Bavarian cream and topped with chocolate icing.",
+      "price": 1.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 donut (80g)",
+        "weight_g": 80.0
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 4.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 270.0,
+        "potassium_mg": 90.0,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 1.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 15.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 1.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Yeast Donut",
+        "Bavarian Cream Filling",
+        "Chocolate Icing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/boston-kreme.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/bakery/boston-kreme",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_bacon_egg_cheese_croissant",
+      "name": "Bacon, Egg & Cheese Croissant",
+      "category": "Sandwiches & Wraps",
+      "subcategory": "Breakfast Sandwiches",
+      "description": "Crispy bacon, egg, and American cheese served on a warm, flaky croissant.",
+      "price": 4.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (150g)",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 16.0,
+        "fat_g": 33.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 225.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 41.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 200.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Croissant",
+        "Egg",
+        "American Cheese",
+        "Bacon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/bec-croissant.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/sandwiches/bacon-egg-cheese-croissant",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dunkin_strawberry_dragonfruit_refresher",
+      "name": "Strawberry Dragonfruit Dunkin' Refresher (Medium)",
+      "category": "Teas & Refreshers",
+      "subcategory": "Refreshers",
+      "description": "Strawberry and dragonfruit flavored refreshment infused with B vitamins and green tea.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (24 fl oz)",
+        "weight_g": 680.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 60.0,
+        "potassium_mg": 50.0,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 0.0,
+        "sugars_g": 30.0,
+        "added_sugars_g": 28.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 65.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Water",
+        "Strawberry Dragonfruit Concentrate",
+        "Green Tea Extract",
+        "B Vitamins"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu/refresher.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/beverages/strawberry-dragonfruit-refresher",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

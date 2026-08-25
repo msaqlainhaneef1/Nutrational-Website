@@ -1,0 +1,93 @@
+{
+  "name": "Chai Tea Cream Frappuccino",
+  "slug": "chai-tea-cream-frappuccino-nutrition-calculator",
+  "tagline": "Track nutrition for Chai Tea Cream Frappuccino menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Chai Tea Cream Frappuccino.",
+  "category": "Coffee & Drinks",
+  "emoji": "\ud83c\udf75",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Classic Chai Tea Cream Frappuccino",
+      "items": [
+        {
+          "name": "Chai Tea Cream Frappuccino with Whole Milk",
+          "calories": 370,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 56,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "sodium": 210,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 53
+        }
+      ]
+    },
+    {
+      "name": "Nonfat Milk Chai Cream Frappuccino",
+      "items": [
+        {
+          "name": "Chai Tea Cream Frappuccino with Nonfat Milk (No Whip)",
+          "calories": 250,
+          "protein": 5,
+          "fat": 0.5,
+          "carbs": 54,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "sodium": 190,
+          "cholesterol": 5,
+          "saturated_fat": 0.1,
+          "sugars": 51
+        }
+      ]
+    },
+    {
+      "name": "Oat Milk Chai Cream Frappuccino",
+      "items": [
+        {
+          "name": "Chai Tea Cream Frappuccino with Oat Milk",
+          "calories": 330,
+          "protein": 3,
+          "fat": 9,
+          "carbs": 60,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 2,
+          "sodium": 230,
+          "saturated_fat": 3,
+          "sugars": 52
+        }
+      ]
+    },
+    {
+      "name": "Almond Milk Chai Cream Frappuccino",
+      "items": [
+        {
+          "name": "Chai Tea Cream Frappuccino with Almond Milk",
+          "calories": 270,
+          "protein": 2,
+          "fat": 6,
+          "carbs": 54,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1.5,
+          "sodium": 240,
+          "saturated_fat": 0.5,
+          "sugars": 49
+        }
+      ]
+    },
+    {
+      "name": "Chai Frappuccino Toppings & Add-ons",
+      "items": [
+        {
+          "name": "Cinnamon Dust Topping",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "servingSize": "1 serving (2g)",
+          "fiber": 1
+        }
+      ]
+    }
+  ]
+}

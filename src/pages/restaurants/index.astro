@@ -5,11 +5,43 @@ import { getAllRestaurants, getAllCategories } from '@/features/restaurants/serv
 
 const restaurants = getAllRestaurants();
 const categories = getAllCategories();
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/restaurants/`;
+
+const schema = [
+  {
+    "@type": "CollectionPage",
+    "@id": `${canonicalUrl}#collection`,
+    "url": canonicalUrl,
+    "name": "Restaurant Nutrition Database",
+    "description": "Browse nutrition data for 100+ restaurant chains. Search by name, filter by cuisine, and check calories and macros for every dish.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": `${siteOrigin}/`
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Restaurants",
+          "item": canonicalUrl
+        }
+      ]
+    }
+  }
+];
 ---
 
 <Layout
   title="Restaurant Nutrition Database"
-  description="Browse nutrition data for 100+ restaurant chains and 16,000+ menu items. Search by name, filter by cuisine, see calories and macros for every dish."
+  description="Browse nutrition data for 100+ restaurant chains. Search by name, filter by cuisine, and check calories and macros for every dish."
+  canonicalUrl={canonicalUrl}
+  schema={schema}
 >
   <RestaurantsDirectory restaurants={restaurants} categories={categories} />
 </Layout>

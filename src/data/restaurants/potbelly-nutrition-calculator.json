@@ -5,7 +5,7 @@
   "description": "Build your Potbelly sandwich order and track calories, protein, carbs and fat across subs, salads, soups and shakes.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd6a",
-  "itemCount": 55,
+  "itemCount": 57,
   "categories": [
     {
       "name": "Sandwiches - Originals",
@@ -630,6 +630,19 @@
           "saturated_fat": 4,
           "sugars": 4,
           "trans_fat": 0
+        },
+        {
+          "name": "Powerhouse Salad",
+          "calories": 541,
+          "protein": 32,
+          "fat": 35,
+          "carbs": 25,
+          "servingSize": "1 salad",
+          "fiber": 8,
+          "sodium": 680,
+          "cholesterol": 185,
+          "saturated_fat": 6,
+          "sugars": 7
         }
       ]
     },
@@ -744,6 +757,24 @@
           "saturated_fat": 9,
           "sugars": 38,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Turkey Breast Sandwich (Original)",
+          "calories": 552,
+          "protein": 38,
+          "fat": 20,
+          "carbs": 61,
+          "servingSize": "Original sandwich (285 g)",
+          "fiber": 3,
+          "sodium": 1550,
+          "cholesterol": 75,
+          "saturated_fat": 6,
+          "sugars": 6
         }
       ]
     }

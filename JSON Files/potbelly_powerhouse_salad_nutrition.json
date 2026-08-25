@@ -1,0 +1,82 @@
+{
+  "brand": {
+    "name": "Potbelly",
+    "website": "https://www.potbelly.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Salads",
+    "Gluten-Free Options"
+  ],
+  "products": [
+    {
+      "product_id": "potbelly_powerhouse_salad",
+      "name": "Powerhouse Salad",
+      "category": "Salads",
+      "subcategory": "Gluten-Free Salads",
+      "description": "All-natural grilled chicken breast, fresh-sliced avocado, hummus, hard-boiled egg, cucumber, and tomatoes, served on a bed of field greens. Naturally gluten-free.",
+      "price": 9.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 541,
+        "protein_g": 32.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "Field Greens",
+        "All-Natural Grilled Chicken Breast",
+        "Fresh-Sliced Avocado",
+        "Hummus",
+        "Hard-Boiled Egg",
+        "Cucumber",
+        "Tomatoes"
+      ],
+      "customizations": [
+        "Choice of Gluten-Free Dressing (e.g., Fat Free Vinaigrette, Oil & Vinaigrette)",
+        "No Hummus",
+        "Extra Avocado"
+      ],
+      "image_url": "https://www.potbelly.com/menu/salads/powerhouse-salad",
+      "product_url": "https://www.potbelly.com/menu/salads/powerhouse-salad",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/potbelly/powerhouse-salad",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.potbelly.com/menu/salads/powerhouse-salad",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

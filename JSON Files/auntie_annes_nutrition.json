@@ -1,0 +1,3205 @@
+{
+  "brand": {
+    "name": "Auntie Anne's",
+    "website": "https://www.auntieannes.com",
+    "country": "USA",
+    "last_updated": "2026-08-03"
+  },
+  "categories": [
+    "Classic Pretzels",
+    "Pretzel Nuggets",
+    "Pretzel Dogs",
+    "Drinks",
+    "Dips",
+    "Pretzel Breakfast Sandwiches",
+    "Featured Products",
+    "Pretzel Buckets"
+  ],
+  "products": [
+    {
+      "product_id": "01c7347b-7cec-4f9e-beba-5677a1cdee54",
+      "name": "Original Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "A simple, buttery and salty pretzel.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 8,
+        "fat_g": 5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 900,
+        "potassium_mg": null,
+        "carbohydrates_g": 68,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": 9,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Water",
+        "Brown Sugar",
+        "Yeast",
+        "Salt",
+        "Butter"
+      ],
+      "customizations": [
+        {
+          "option": "No Butter",
+          "calories_change": -40,
+          "fat_g_change": -4
+        },
+        {
+          "option": "No Salt",
+          "sodium_mg_change": -500
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/original-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d6e5f846-67d0-4c01-b975-20c0fd5cf7c4",
+      "name": "Cinnamon Sugar Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "A sweet pretzel coated in cinnamon sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 9,
+        "fat_g": 11,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 310,
+        "potassium_mg": null,
+        "carbohydrates_g": 88,
+        "fiber_g": 2,
+        "sugars_g": 29,
+        "added_sugars_g": 28,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Water",
+        "Brown Sugar",
+        "Yeast",
+        "Salt",
+        "Butter"
+      ],
+      "customizations": [
+        {
+          "option": "No Butter",
+          "calories_change": -40,
+          "fat_g_change": -4
+        },
+        {
+          "option": "No Salt",
+          "sodium_mg_change": -500
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/cinnamon-sugar-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "20953d31-85d4-4d6b-a308-e76bbd13d061",
+      "name": "Pepperoni Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "A savory pretzel topped with pepperoni and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 17,
+        "fat_g": 17,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45,
+        "sodium_mg": 800,
+        "potassium_mg": null,
+        "carbohydrates_g": 69,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": 10,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Water",
+        "Brown Sugar",
+        "Yeast",
+        "Salt",
+        "Butter"
+      ],
+      "customizations": [
+        {
+          "option": "No Butter",
+          "calories_change": -40,
+          "fat_g_change": -4
+        },
+        {
+          "option": "No Salt",
+          "sodium_mg_change": -500
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/pepperoni-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b4b52e84-1742-4a28-be20-c11059c87357",
+      "name": "Sweet Almond Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "A sweet pretzel topped with toasted almonds.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 9,
+        "fat_g": 6,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 310,
+        "potassium_mg": null,
+        "carbohydrates_g": 77,
+        "fiber_g": 2,
+        "sugars_g": 17,
+        "added_sugars_g": 16,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean",
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Water",
+        "Brown Sugar",
+        "Yeast",
+        "Salt",
+        "Butter"
+      ],
+      "customizations": [
+        {
+          "option": "No Butter",
+          "calories_change": -40,
+          "fat_g_change": -4
+        },
+        {
+          "option": "No Salt",
+          "sodium_mg_change": -500
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/sweet-almond-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1a609862-c7ce-4fa5-a64d-4fc46b03898b",
+      "name": "Jalapeno Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "A spicy pretzel topped with jalapenos.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 8,
+        "fat_g": 5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 1000,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "added_sugars_g": 8,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Water",
+        "Brown Sugar",
+        "Yeast",
+        "Salt",
+        "Butter"
+      ],
+      "customizations": [
+        {
+          "option": "No Butter",
+          "calories_change": -40,
+          "fat_g_change": -4
+        },
+        {
+          "option": "No Salt",
+          "sodium_mg_change": -500
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/jalapeno-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c00065ed-6fd0-4e83-b5a7-212e4f7b28ca",
+      "name": "Raisin Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "Sweet pretzel with raisins.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/raisin-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8ad31089-34ec-4e7f-aa71-49f16e7c12a5",
+      "name": "Sour Cream & Onion Pretzel",
+      "category": "Classic Pretzels",
+      "subcategory": "",
+      "description": "Savory pretzel with sour cream and onion seasoning.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/classic-pretzels/sour-cream-&-onion-pretzel",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cdf0a1fb-c5d0-4a63-8a67-1fd5e85d7a85",
+      "name": "Mini Pretzel Dogs (Small)",
+      "category": "Pretzel Dogs",
+      "subcategory": "",
+      "description": "Bite-sized pretzel dogs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 10 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 21,
+        "fat_g": 37,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 1590,
+        "potassium_mg": null,
+        "carbohydrates_g": 73,
+        "fiber_g": 2,
+        "sugars_g": 10,
+        "added_sugars_g": 9,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-dogs/mini-pretzel-dogs-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b0f7e97d-6664-4c12-846f-15f5dada993a",
+      "name": "Mini Pretzel Dogs (Regular)",
+      "category": "Pretzel Dogs",
+      "subcategory": "",
+      "description": "Bite-sized pretzel dogs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 14 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 980,
+        "protein_g": 29,
+        "fat_g": 51,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 115,
+        "sodium_mg": 2230,
+        "potassium_mg": null,
+        "carbohydrates_g": 102,
+        "fiber_g": 3,
+        "sugars_g": 14,
+        "added_sugars_g": 13,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-dogs/mini-pretzel-dogs-(regular)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "7e4f9c41-14bf-428d-af74-b2c6aa5cb03a",
+      "name": "Pretzel Dog",
+      "category": "Pretzel Dogs",
+      "subcategory": "",
+      "description": "A Nathan's Famous beef frank wrapped in a pretzel.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 10,
+        "fat_g": 20,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 40,
+        "sodium_mg": 700,
+        "potassium_mg": null,
+        "carbohydrates_g": 35,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-dogs/pretzel-dog",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "25a3eafd-c8ba-4526-beef-31c211e9bba0",
+      "name": "Cheese Pretzel Dog",
+      "category": "Pretzel Dogs",
+      "subcategory": "",
+      "description": "A pretzel dog topped with cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 13,
+        "fat_g": 23,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 50,
+        "sodium_mg": 810,
+        "potassium_mg": null,
+        "carbohydrates_g": 35,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-dogs/cheese-pretzel-dog",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "818fd5ad-375c-4383-8276-79f729e34d09",
+      "name": "Jalapeno Cheese Pretzel Dog",
+      "category": "Pretzel Dogs",
+      "subcategory": "",
+      "description": "A pretzel dog topped with jalapenos and cheese.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 13,
+        "fat_g": 23,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 50,
+        "sodium_mg": 1080,
+        "potassium_mg": null,
+        "carbohydrates_g": 36,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-dogs/jalapeno-cheese-pretzel-dog",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "94e3e6bf-cd77-47aa-b2e5-0afb7b37a37a",
+      "name": "Cinnamon Sugar Nuggets (Small)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized pretzel nuggets with cinnamon sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 19 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 10,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 380,
+        "potassium_mg": null,
+        "carbohydrates_g": 96,
+        "fiber_g": 2,
+        "sugars_g": 29,
+        "added_sugars_g": 28,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/cinnamon-sugar-nuggets-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "87828f0f-2b54-4944-a2d9-54e8e5614419",
+      "name": "Cinnamon Sugar Nuggets (Regular)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized pretzel nuggets with cinnamon sugar.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 26 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 13,
+        "fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 530,
+        "potassium_mg": null,
+        "carbohydrates_g": 131,
+        "fiber_g": 3,
+        "sugars_g": 39,
+        "added_sugars_g": 38,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/cinnamon-sugar-nuggets-(regular)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "609ac5be-5110-4721-b2ed-fe722e43ff56",
+      "name": "Original Nuggets (Small)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized original pretzel nuggets.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 19 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 10,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 1080,
+        "potassium_mg": null,
+        "carbohydrates_g": 78,
+        "fiber_g": 2,
+        "sugars_g": 11,
+        "added_sugars_g": 10,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/original-nuggets-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "333e1f48-ff52-44ba-8973-6f61976ad077",
+      "name": "Original Nuggets (Regular)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized original pretzel nuggets.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 26 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580,
+        "protein_g": 13,
+        "fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1450,
+        "potassium_mg": null,
+        "carbohydrates_g": 105,
+        "fiber_g": 3,
+        "sugars_g": 15,
+        "added_sugars_g": 14,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/original-nuggets-(regular)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5d282d9d-8579-4b4f-9a7a-1d9dbd9477db",
+      "name": "Pepperoni Nuggets (Small)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized pretzel nuggets with pepperoni.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 14 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 16,
+        "fat_g": 20,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50,
+        "sodium_mg": 940,
+        "potassium_mg": null,
+        "carbohydrates_g": 58,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "added_sugars_g": 7,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/pepperoni-nuggets-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "63ff9e60-9868-488e-88c6-180beb235d05",
+      "name": "Pepperoni Nuggets (Regular)",
+      "category": "Pretzel Nuggets",
+      "subcategory": "",
+      "description": "Bite-sized pretzel nuggets with pepperoni.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 19 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 22,
+        "fat_g": 28,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1280,
+        "potassium_mg": null,
+        "carbohydrates_g": 79,
+        "fiber_g": 3,
+        "sugars_g": 12,
+        "added_sugars_g": 10,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-nuggets/pepperoni-nuggets-(regular)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b1eed1f2-1ebc-42ec-93f2-86c310fed458",
+      "name": "Caramel Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Sweet caramel dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 1,
+        "fat_g": 2,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 95,
+        "potassium_mg": null,
+        "carbohydrates_g": 37,
+        "fiber_g": 0,
+        "sugars_g": 19,
+        "added_sugars_g": 15,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/caramel-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ad6bd3f4-fd7b-4436-9cb3-74d6194a931a",
+      "name": "Cheese Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Classic cheese dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 2,
+        "fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 670,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/cheese-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ec750b91-22c9-4ef5-ab1f-59048c6c8162",
+      "name": "Hot Salsa Cheese Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Spicy salsa cheese dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 2,
+        "fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 570,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/hot-salsa-cheese-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4e6e0296-332a-455c-ba99-1a77371b5537",
+      "name": "Honey Mustard Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Tangy honey mustard dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 1,
+        "fat_g": 27,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 14,
+        "fiber_g": 0,
+        "sugars_g": 14,
+        "added_sugars_g": 14,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/honey-mustard-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d2f016db-d266-4f8c-8e0f-7303543aeb16",
+      "name": "Cream Cheese Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Smooth cream cheese dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1,
+        "fat_g": 7,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 115,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/cream-cheese-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f45b69c5-eea6-458c-8cc5-ac1de7b1c7ed",
+      "name": "Marinara Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Classic marinara dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 1,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 330,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": 1,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/marinara-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0ca01133-8863-4a00-88ab-4690983e5b12",
+      "name": "Melted Cheese Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Warm melted cheese dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 5,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 840,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 0,
+        "sugars_g": 4,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/melted-cheese-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "7d215e78-9885-4b8d-827f-dc59b31d6b33",
+      "name": "Ranch Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Creamy ranch dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 1,
+        "fat_g": 26,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 500,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 2,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/ranch-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4ee298d9-58bb-404b-9253-f25d32f26500",
+      "name": "Sweet Glaze Dip",
+      "category": "Dips",
+      "subcategory": "",
+      "description": "Sweet glaze dipping sauce.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 dip cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 35,
+        "fiber_g": 0,
+        "sugars_g": 34,
+        "added_sugars_g": 34,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/dips/sweet-glaze-dip",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "761d91d3-1456-48d1-9ec6-3635e2cf6d72",
+      "name": "Egg & Cheese Sandwich",
+      "category": "Pretzel Breakfast Sandwiches",
+      "subcategory": "",
+      "description": "Egg and cheese on a pretzel bun.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 13,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 780,
+        "potassium_mg": null,
+        "carbohydrates_g": 29,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-breakfast-sandwiches/egg-&-cheese-sandwich",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "636cffea-4afa-4cff-b2bb-81859f38f2bc",
+      "name": "Sausage, Egg & Cheese Sandwich",
+      "category": "Pretzel Breakfast Sandwiches",
+      "subcategory": "",
+      "description": "Sausage, egg, and cheese on a pretzel bun.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 20,
+        "fat_g": 22,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 115,
+        "sodium_mg": 1090,
+        "potassium_mg": null,
+        "carbohydrates_g": 29,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-breakfast-sandwiches/sausage,-egg-&-cheese-sandwich",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ceeddc56-806d-474f-92ea-88a939c86dbd",
+      "name": "Bacon, Egg & Cheese Sandwich",
+      "category": "Pretzel Breakfast Sandwiches",
+      "subcategory": "",
+      "description": "Bacon, egg, and cheese on a pretzel bun.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 16,
+        "fat_g": 13,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 990,
+        "potassium_mg": null,
+        "carbohydrates_g": 29,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": 4,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-breakfast-sandwiches/bacon,-egg-&-cheese-sandwich",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "545e3dd4-a617-4de9-ac16-656ffbb48d5b",
+      "name": "Original Lemonade (Small)",
+      "category": "Drinks",
+      "subcategory": "Lemonade",
+      "description": "Classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 47,
+        "fiber_g": 0,
+        "sugars_g": 44,
+        "added_sugars_g": 44,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/original-lemonade-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "6567723e-95d0-40d3-a0fd-baf706e9b91a",
+      "name": "Original Lemonade (Med)",
+      "category": "Drinks",
+      "subcategory": "Lemonade",
+      "description": "Classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 0,
+        "sugars_g": 59,
+        "added_sugars_g": 59,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/original-lemonade-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bf496bbb-8f0c-4c5c-85b6-38acca0e82c6",
+      "name": "Original Lemonade (Large)",
+      "category": "Drinks",
+      "subcategory": "Lemonade",
+      "description": "Classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "30 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "potassium_mg": null,
+        "carbohydrates_g": 89,
+        "fiber_g": 0,
+        "sugars_g": 84,
+        "added_sugars_g": 84,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/original-lemonade-(large)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bb606c63-dde6-4391-8bcf-f7bf8081fb93",
+      "name": "Frozen Lemonade (Small)",
+      "category": "Drinks",
+      "subcategory": "Frozen Lemonade",
+      "description": "Frozen classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 59,
+        "fiber_g": 0,
+        "sugars_g": 54,
+        "added_sugars_g": 54,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/frozen-lemonade-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "94329d18-a473-484f-9671-555b616813a6",
+      "name": "Frozen Lemonade (Med)",
+      "category": "Drinks",
+      "subcategory": "Frozen Lemonade",
+      "description": "Frozen classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "potassium_mg": null,
+        "carbohydrates_g": 73,
+        "fiber_g": 0,
+        "sugars_g": 68,
+        "added_sugars_g": 68,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/frozen-lemonade-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fef52c71-58e8-43bb-8f0f-84e64f6b8d0b",
+      "name": "Frozen Lemonade (Large)",
+      "category": "Drinks",
+      "subcategory": "Frozen Lemonade",
+      "description": "Frozen classic lemonade.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "30 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 30,
+        "potassium_mg": null,
+        "carbohydrates_g": 109,
+        "fiber_g": 0,
+        "sugars_g": 101,
+        "added_sugars_g": 101,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/frozen-lemonade-(large)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "f3ce14e4-945b-4499-a290-d1c9b5e00c83",
+      "name": "Strawberry Spritz (Small)",
+      "category": "Drinks",
+      "subcategory": "Spritz",
+      "description": "Strawberry flavored sparkling drink.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "potassium_mg": null,
+        "carbohydrates_g": 48,
+        "fiber_g": 0,
+        "sugars_g": 47,
+        "added_sugars_g": 47,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-spritz-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "c33f7851-4bc9-42f6-8608-abedff633a66",
+      "name": "Strawberry Spritz (Med)",
+      "category": "Drinks",
+      "subcategory": "Spritz",
+      "description": "Strawberry flavored sparkling drink.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 30,
+        "potassium_mg": null,
+        "carbohydrates_g": 64,
+        "fiber_g": 0,
+        "sugars_g": 62,
+        "added_sugars_g": 62,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-spritz-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "3de5700f-92a3-461b-b12d-dedd41798806",
+      "name": "Strawberry Spritz (Large)",
+      "category": "Drinks",
+      "subcategory": "Spritz",
+      "description": "Strawberry flavored sparkling drink.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "30 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "potassium_mg": null,
+        "carbohydrates_g": 95,
+        "fiber_g": 0,
+        "sugars_g": 92,
+        "added_sugars_g": 92,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-spritz-(large)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "5ebc9ce5-7a7b-421b-acd3-a4ed1526ef21",
+      "name": "Strawberry Smoothie (Small)",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Strawberry smoothie.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 59,
+        "fiber_g": 2,
+        "sugars_g": 59,
+        "added_sugars_g": 50,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-smoothie-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "a8d41cab-04cb-41d4-8a81-ccb7dbfca449",
+      "name": "Strawberry Smoothie (Med)",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Strawberry smoothie.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 90,
+        "fiber_g": 3,
+        "sugars_g": 90,
+        "added_sugars_g": 77,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-smoothie-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "34e29fc0-6a7e-4b1f-ad49-6e1d3a757047",
+      "name": "Strawberry Smoothie (Large)",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Strawberry smoothie.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "30 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 120,
+        "fiber_g": 4,
+        "sugars_g": 120,
+        "added_sugars_g": 103,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/strawberry-smoothie-(large)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "d80ad0ce-6b2a-4941-a81f-d73bd2a97de5",
+      "name": "Coca-Cola (Med)",
+      "category": "Drinks",
+      "subcategory": "Fountain Drinks",
+      "description": "Coca-Cola.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "21 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 0,
+        "sugars_g": 56,
+        "added_sugars_g": 56,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/coca-cola-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9aa4faae-0c2f-42c4-b6ce-9f3d33ad092d",
+      "name": "Diet Coke (Med)",
+      "category": "Drinks",
+      "subcategory": "Fountain Drinks",
+      "description": "Diet Coke.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "21 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/drinks/diet-coke-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "8ea796b6-8ae5-480d-8720-fed62fec95af",
+      "name": "Original Nuggets Bucket",
+      "category": "Pretzel Buckets",
+      "subcategory": "",
+      "description": "A bucket of original pretzel nuggets.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 5-6 servings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 2900,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-buckets/original-nuggets-bucket",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "783a4a56-0a18-4359-8062-b1b38cd7a8e8",
+      "name": "Cinnamon Sugar Nuggets Bucket",
+      "category": "Pretzel Buckets",
+      "subcategory": "",
+      "description": "A bucket of cinnamon sugar pretzel nuggets.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 5-6 servings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 3400,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-buckets/cinnamon-sugar-nuggets-bucket",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "e5eb2e37-b312-4d3e-b495-9e405d9a615b",
+      "name": "Mini Pretzel Dogs Bucket",
+      "category": "Pretzel Buckets",
+      "subcategory": "",
+      "description": "A bucket of mini pretzel dogs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "Approx 10 servings",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 7000,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/pretzel-buckets/mini-pretzel-dogs-bucket",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccad3bb5-1179-4c9d-88a5-0058efb3ce9b",
+      "name": "Crispy Cheesy Mini Dogs (Small)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "Mini dogs baked with a cheese blend for a golden, toasty crunch.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 oz cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/crispy-cheesy-mini-dogs-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b80a71ad-826d-448c-80d7-3c424193518d",
+      "name": "Crispy Cheesy Mini Dogs (Regular)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "Mini dogs baked with a cheese blend for a golden, toasty crunch.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "21 oz cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 970,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soybean"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/crispy-cheesy-mini-dogs-(regular)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "55f5ebb1-f9c6-49b3-b53b-4b30d0d1b32e",
+      "name": "Peach Lemonade Mixer (Small)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "Original lemonade twisted up with Peach puree.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "16 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/peach-lemonade-mixer-(small)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "219ead41-f38e-4f29-9376-a1c265124f5e",
+      "name": "Peach Lemonade Mixer (Med)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "Original lemonade twisted up with Peach puree.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/peach-lemonade-mixer-(med)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "0bbedadd-d2fe-4013-adfe-e25668641b97",
+      "name": "Peach Lemonade Mixer (Large)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "Original lemonade twisted up with Peach puree.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "32 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/peach-lemonade-mixer-(large)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "b020bcaf-bd3c-41ee-8f7a-71d8eab2c104",
+      "name": "Twisted Sip (Coke)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "A classic dirty-style soda elevated with rich French vanilla creamer.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "21 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/twisted-sip-(coke)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "9ee8b61c-35be-48ec-896d-f79d75193534",
+      "name": "Twisted Sip (Diet Coke)",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "A bright, refreshing take featuring rich French vanilla creamer.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "21 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/twisted-sip-(diet-coke)",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "4a9441d0-133b-4934-a321-870d385ba584",
+      "name": "Twisted Sip Lemonade",
+      "category": "Featured Products",
+      "subcategory": "",
+      "description": "A bright, refreshing take featuring rich French vanilla creamer.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "USA"
+      },
+      "serving": {
+        "size": "20 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.auntieannes.com/menu/featured-products/twisted-sip-lemonade",
+      "sources": [
+        {
+          "url": "https://assets.ctfassets.net/zqt8tllj2cy0/2jjVNaTNGDoMGd4QVucpSy/0f94c0d0541ec11a334dba7ce6fc56b0/Auntie-Annes-Nutrition-Guide.pdf",
+          "source_type": "Official Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.auntieannes.com/menu",
+          "source_type": "Official Menu Page",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

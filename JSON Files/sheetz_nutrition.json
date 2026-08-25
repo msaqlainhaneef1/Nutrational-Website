@@ -1,0 +1,435 @@
+{
+  "brand": {
+    "name": "Sheetz",
+    "website": "https://www.sheetz.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Made-to-Order Subs & Sandwiches",
+    "Appetizers & Sides",
+    "Burgers & Hot Dogs",
+    "Breakfast",
+    "Bakery & Snacks",
+    "Coffee & Specialty Drinks",
+    "Shakes & Smoothies"
+  ],
+  "products": [
+    {
+      "product_id": "sheetz_mto_turkey_sub",
+      "name": "MTO Turkey Sub (6 inch)",
+      "category": "Made-to-Order Subs & Sandwiches",
+      "subcategory": "Subs",
+      "description": "Freshly sliced turkey breast on a freshly baked sub roll with choice of cheese and toppings.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 inch sub (240g)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 28.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1120.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Sub Roll",
+        "Turkey Breast",
+        "Provolone Cheese",
+        "Lettuce",
+        "Tomato"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/turkey-sub.png",
+      "product_url": "https://www.sheetz.com/menu/mto/turkey-sub",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/sheetz",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_boom_boom_shrimp_app",
+      "name": "Boom Boom Shrimp",
+      "category": "Appetizers & Sides",
+      "subcategory": "Appetizers",
+      "description": "Crispy breaded shrimp tossed in spicy Boom Boom sauce.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (180g)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 14.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Shellfish",
+        "Wheat",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Breaded Shrimp",
+        "Boom Boom Sauce",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/boom-boom-shrimp.png",
+      "product_url": "https://www.sheetz.com/menu/appetizers/boom-boom-shrimp",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_mac_cheese_bites",
+      "name": "Mac 'n Cheese Bites",
+      "category": "Appetizers & Sides",
+      "subcategory": "Sides",
+      "description": "Crispy battered macaroni and cheese bites.",
+      "price": 4.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (150g)",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 12.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 760.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Macaroni",
+        "Cheddar Cheese",
+        "Breading",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/mac-cheese-bites.png",
+      "product_url": "https://www.sheetz.com/menu/appetizers/mac-cheese-bites",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_ultimate_breakfast_sandwich",
+      "name": "Ultimate Breakfast Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "description": "Eggs, sausage, bacon, ham, and American cheese on a toasted hard roll.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (210g)",
+        "weight_g": 210.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 34.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 310.0,
+        "sodium_mg": 1420.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 310.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Hard Roll",
+        "Eggs",
+        "Sausage",
+        "Bacon",
+        "Ham",
+        "American Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/ultimate-breakfast.png",
+      "product_url": "https://www.sheetz.com/menu/breakfast/ultimate-sandwich",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_peanut_butter_banana_milkshake",
+      "name": "Peanut Butter Banana Milkshake",
+      "category": "Shakes & Smoothies",
+      "subcategory": "Milkshakes",
+      "description": "Rich vanilla ice cream blended with real banana and peanut butter, topped with whipped cream.",
+      "price": 4.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 810,
+        "protein_g": 20.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 460.0,
+        "potassium_mg": 820.0,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 4.0,
+        "sugars_g": 82.0,
+        "added_sugars_g": 62.0,
+        "calcium_mg": 480.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Peanuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Ice Cream",
+        "Banana",
+        "Peanut Butter",
+        "Whole Milk",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/pb-banana-shake.png",
+      "product_url": "https://www.sheetz.com/menu/shakes/peanut-butter-banana",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_cold_brew_latte",
+      "name": "Caramel Cold Brew Latte",
+      "category": "Coffee & Specialty Drinks",
+      "subcategory": "Cold Brew",
+      "description": "Smooth cold brew coffee blended with milk and sweet caramel syrup over ice.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 fl oz)",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 8.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 120.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 0.0,
+        "sugars_g": 42.0,
+        "added_sugars_g": 38.0,
+        "calcium_mg": 290.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 225.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Cold Brew Coffee",
+        "Whole Milk",
+        "Caramel Syrup",
+        "Ice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/cold-brew-latte.png",
+      "product_url": "https://www.sheetz.com/menu/coffee/caramel-cold-brew",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sheetz_pretzel_melt",
+      "name": "Pretzel Bacon Cheeseburger",
+      "category": "Burgers & Hot Dogs",
+      "subcategory": "Burgers",
+      "description": "Beef burger patty, cheddar cheese, crispy bacon, and creamy cheese sauce on a warm soft pretzel bun.",
+      "price": 7.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger (310g)",
+        "weight_g": 310.0
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 42.0,
+        "fat_g": 54.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1640.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 420.0,
+        "iron_mg": 5.2,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Pretzel Bun",
+        "Beef Patty",
+        "Cheddar Cheese",
+        "Bacon",
+        "Cheese Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sheetz.com/media/menu/pretzel-burger.png",
+      "product_url": "https://www.sheetz.com/menu/burgers/pretzel-burger",
+      "sources": [
+        {
+          "url": "https://www.sheetz.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

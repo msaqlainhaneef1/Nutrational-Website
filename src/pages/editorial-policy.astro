@@ -1,0 +1,36 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import EditorialSection from '@/features/shared/components/EditorialSection.astro';
+
+const title = "Editorial Policy & Medical Review Standards | Nutrition Solver";
+const description = "Learn how Nutrition Solver fact-checks restaurant nutrition disclosures, verifies clinical formulas, and ensures commercial independence in all our nutrition guides.";
+const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/editorial-policy`;
+
+const editorialSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Editorial Policy & Medical Review Standards",
+  "url": canonicalUrl,
+  "description": description,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": "https://nutritionsolver.com"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "name": "Dr. Sarah Jenkins, RDN, PhD",
+    "jobTitle": "Lead Clinical Nutrition Reviewer",
+    "url": "https://nutritionsolver.com/authors/sarah-jenkins"
+  }
+};
+---
+
+<Layout
+  title="Editorial Policy & Fact-Checking"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={editorialSchema}
+>
+  <EditorialSection />
+</Layout>

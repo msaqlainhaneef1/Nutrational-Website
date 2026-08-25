@@ -1,0 +1,45 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ContactSection from '@/features/shared/components/ContactSection.astro';
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/contact/`;
+const description = "Get in touch with Nutrition Solver. Submit nutrition data corrections, suggest menus, contact our editorial board, or ask privacy questions.";
+
+const contactSchema = {
+  "@type": "ContactPage",
+  "@id": `${canonicalUrl}#contact`,
+  "name": "Contact Nutrition Solver",
+  "url": canonicalUrl,
+  "description": description,
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": `${siteOrigin}/`,
+    "email": "hello@nutritionsolver.com",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "email": "corrections@nutritionsolver.com",
+        "contactType": "customer support",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "editorial@nutritionsolver.com",
+        "contactType": "editorial board",
+        "availableLanguage": "English"
+      }
+    ]
+  }
+};
+---
+
+<Layout
+  title="Contact Us & Support"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={contactSchema}
+>
+  <ContactSection />
+</Layout>

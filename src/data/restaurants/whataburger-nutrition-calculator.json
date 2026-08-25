@@ -3,9 +3,9 @@
   "slug": "whataburger-nutrition-calculator",
   "tagline": "Estimate calories and macros for burgers, sides, and drinks.",
   "description": "Estimate calories and macros for burgers, sides, and drinks.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf54",
-  "itemCount": 26,
+  "itemCount": 27,
   "categories": [
     {
       "name": "Burgers",
@@ -350,6 +350,22 @@
           "cholesterol": 35,
           "saturated_fat": 7,
           "sugars": 60
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "French Fries (Medium)",
+          "calories": 370,
+          "protein": 4,
+          "fat": 19,
+          "carbs": 47,
+          "servingSize": "1 medium (131g)",
+          "fiber": 4,
+          "sodium": 470,
+          "saturated_fat": 3
         }
       ]
     }

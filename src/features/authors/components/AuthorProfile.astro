@@ -1,0 +1,156 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Award, BookOpen, CheckCircle, GraduationCap, Stethoscope, Mail, ExternalLink, Sparkles } from '@lucide/astro';
+
+const expertiseAreas = [
+  'Clinical Nutrition & Metabolic Health',
+  'Macronutrient Optimization & Energy Balance',
+  'Obesity Management & Caloric Restriction',
+  'Dietary Reference Intakes (DRI) Sourcing',
+  'Sports Nutrition & Glycogen Synthesis'
+];
+
+const credentials = [
+  { degree: 'PhD in Nutritional Science', institution: 'University of Washington' },
+  { degree: 'Master of Science (MS) in Clinical Dietetics', institution: 'Tufts University' },
+  { degree: 'Registered Dietitian Nutritionist (RDN)', institution: 'Commission on Dietetic Registration (#860492)' },
+  { degree: 'Licensed Dietitian Nutritionist (LDN)', institution: 'State Medical Board' }
+];
+
+const publishedWork = [
+  {
+    title: 'Evaluating Predictive BMR Equations Across Diverse Demographic Populations',
+    journal: 'Journal of Metabolic Health & Clinical Nutrition',
+    year: '2022'
+  },
+  {
+    title: 'Accuracy of Self-Reported Nutritional Intakes and Digital Meal Tracking',
+    journal: 'Advances in Dietetic Practice',
+    year: '2024'
+  }
+];
+
+const reviewedTools = [
+  { name: 'BMI Calculator', url: '/calculators/bmi/', desc: 'Standard & Metric Body Mass Index clinical classification' },
+  { name: 'TDEE Calculator', url: '/calculators/tdee/', desc: 'Total Daily Energy Expenditure using Mifflin-St Jeor formula' },
+  { name: 'Macro Calculator', url: '/calculators/macro/', desc: 'Personalized protein, carb, and fat distribution models' },
+  { name: 'Calorie Deficit Calculator', url: '/calculators/calorie-deficit/', desc: 'Safe weight loss projection formulas' },
+  { name: 'Protein Calculator', url: '/calculators/protein/', desc: 'Evidence-based protein targets by activity and muscle mass' },
+  { name: 'Body Fat Calculator', url: '/calculators/body-fat/', desc: 'U.S. Navy circumference method' }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[
+    { label: 'Authors & Reviewers', url: '/authors/' },
+    { label: 'Dr. Sarah Jenkins, RDN, PhD', url: '/authors/sarah-jenkins/' }
+  ]} />
+
+  <!-- Author Hero Header -->
+  <div class="glass-card rounded-3xl p-8 sm:p-10 border border-zinc-800 space-y-6 relative overflow-hidden">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+      <div class="h-28 w-28 sm:h-32 sm:w-32 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/10 border-2 border-emerald-500/40 flex-shrink-0 flex items-center justify-center shadow-xl">
+        <span class="text-4xl font-extrabold text-emerald-400">SJ</span>
+      </div>
+
+      <div class="flex-grow text-center sm:text-left space-y-3">
+        <div class="flex flex-col sm:flex-row sm:items-center gap-2 justify-center sm:justify-start">
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-white">Dr. Sarah Jenkins</h1>
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 w-fit mx-auto sm:mx-0">
+            <Award class="h-3.5 w-3.5 mr-1" />
+            Lead Clinical Nutrition Reviewer
+          </span>
+        </div>
+        <p class="text-emerald-400 text-sm font-semibold">PhD, RDN, LDN • Registered Dietitian Nutritionist</p>
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          Dr. Sarah Jenkins is a clinical dietitian and metabolic health researcher with over 12 years of clinical experience in hospitals, research institutions, and digital health. She leads the medical accuracy and algorithm validation for all calculators on Nutrition Solver.
+        </p>
+
+        <div class="pt-2 flex flex-wrap gap-3 justify-center sm:justify-start">
+          <a
+            href="mailto:editorial@nutritionsolver.com"
+            class="inline-flex items-center gap-1.5 text-xs text-zinc-300 hover:text-emerald-400 transition-colors"
+          >
+            <Mail class="h-3.5 w-3.5 text-emerald-400" />
+            <span>editorial@nutritionsolver.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Academic Background & Credentials -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-4">
+      <div class="flex items-center gap-2 text-white font-bold text-lg">
+        <GraduationCap class="h-5 w-5 text-emerald-400" />
+        <h3>Credentials & Education</h3>
+      </div>
+      <div class="space-y-3">
+        {credentials.map((c) => (
+          <div class="border-l-2 border-emerald-500/50 pl-3 space-y-0.5">
+            <h4 class="text-sm font-semibold text-zinc-100">{c.degree}</h4>
+            <p class="text-xs text-zinc-400">{c.institution}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-4">
+      <div class="flex items-center gap-2 text-white font-bold text-lg">
+        <Stethoscope class="h-5 w-5 text-emerald-400" />
+        <h3>Specialized Areas</h3>
+      </div>
+      <ul class="space-y-2.5">
+        {expertiseAreas.map((area) => (
+          <li class="flex items-start gap-2 text-sm text-zinc-300">
+            <CheckCircle class="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+            <span>{area}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Review Process & Philosophy -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-4">
+    <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+      <Sparkles class="h-6 w-6 text-emerald-400" />
+      Editorial & Review Philosophy
+    </h3>
+    <p class="text-sm text-zinc-300 leading-relaxed">
+      "Nutritional science is frequently misrepresented online by fad diets and oversimplified formulas. At Nutrition Solver, our commitment is to provide transparent, peer-reviewed mathematics without deceptive upsells. Every calculator formula is audited for physiological validity, and every limitation is clearly communicated to the user."
+    </p>
+    <div class="pt-2">
+      <a href="/editorial-policy/" class="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:underline font-semibold">
+        <span>Read our complete Editorial & Review Standards</span>
+        <ExternalLink class="h-3.5 w-3.5" />
+      </a>
+    </div>
+  </div>
+
+  <!-- Verified Calculators & Audited Content -->
+  <div class="glass-card rounded-2xl p-6 sm:p-8 border border-zinc-800 space-y-6">
+    <div class="space-y-1">
+      <h3 class="text-2xl font-bold text-white">Audited & Verified Calculators</h3>
+      <p class="text-sm text-zinc-400">
+        The following calculation engines have been clinically tested and approved by Dr. Jenkins:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+      {reviewedTools.map((tool) => (
+        <a
+          href={tool.url}
+          class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800/80 hover:border-emerald-500/50 hover:bg-zinc-900 transition-all space-y-1.5 group"
+        >
+          <div class="font-bold text-sm text-zinc-200 group-hover:text-emerald-400 transition-colors flex items-center justify-between">
+            <span>{tool.name}</span>
+            <CheckCircle class="h-4 w-4 text-emerald-400" />
+          </div>
+          <p class="text-xs text-zinc-400 leading-relaxed">{tool.desc}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>

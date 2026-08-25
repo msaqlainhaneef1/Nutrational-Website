@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "Tim Hortons",
+    "website": "https://www.timhortons.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Wraps"
+  ],
+  "products": [
+    {
+      "product_id": "tim_hortons_grilled_breakfast_wrap_bacon",
+      "name": "Grilled Breakfast Wrap (Bacon)",
+      "category": "Breakfast",
+      "subcategory": "Wraps",
+      "description": "Scrambled eggs, bacon, processed cheddar cheese, and a creamy sauce wrapped in a soft tortilla and grilled.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (168g)",
+        "weight_g": 168.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 20.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Tortilla",
+        "Scrambled Egg Patty",
+        "Bacon",
+        "Processed Cheddar Cheese",
+        "Creamy Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.timhortons.com/images/grilled-breakfast-wrap.png",
+      "product_url": "https://www.timhortons.com/menu/breakfast/grilled-breakfast-wrap",
+      "sources": [
+        {
+          "url": "https://www.timhortons.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

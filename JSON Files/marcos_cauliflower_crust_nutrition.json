@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "Marco's Pizza",
+    "website": "https://www.marcos.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Pizza Crusts",
+    "Cauliflower Crust Pizzas"
+  ],
+  "products": [
+    {
+      "product_id": "marcos_small_cauliflower_crust",
+      "name": "Small Cauliflower Crust (Per Slice)",
+      "category": "Pizza Crusts",
+      "subcategory": "Gluten-Friendly Crusts",
+      "description": "Crispy, gluten-friendly small cauliflower pizza crust designed as a lighter alternative to traditional pizza dough.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice (approx. 35 g)",
+        "weight_g": 35.0
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein_g": 2.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 85.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "Cauliflower",
+        "Low-Moisture Mozzarella Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes)",
+        "Rice Flour",
+        "Rice Starch",
+        "Egg",
+        "Water",
+        "Yeast",
+        "Sugar",
+        "Salt",
+        "Cultured Brown Rice"
+      ],
+      "customizations": [
+        "Choice of Sauce",
+        "Choice of Cheese",
+        "Choice of Toppings"
+      ],
+      "image_url": "https://www.marcos.com/menu/pizza/cauliflower-crust",
+      "product_url": "https://www.marcos.com/menu/pizza/cauliflower-crust",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/marcos-pizza/small-cauliflower-crust",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.marcos.com/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

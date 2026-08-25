@@ -3,9 +3,9 @@
   "slug": "jack-in-the-box-nutrition-calculator",
   "tagline": "Calculate Jack in the Box calories, protein, carbs and fat. Free Jack in the Box nutrition calculator with...",
   "description": "Calculate Jack in the Box calories, protein, carbs and fat. Free Jack in the Box nutrition calculator with complete menu data for all items.",
-  "category": "Burgers",
+  "category": "Burgers & Fast Food",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 84,
+  "itemCount": 96,
   "categories": [
     {
       "name": "Old-Fashioned Shakes & Desserts",
@@ -925,6 +925,193 @@
           "fat": 0,
           "carbs": 1,
           "sodium": 15
+        }
+      ]
+    },
+    {
+      "name": "Monster Tacos",
+      "items": [
+        {
+          "name": "Monster Taco",
+          "calories": 290,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 26,
+          "servingSize": "1 taco (130g)",
+          "fiber": 2,
+          "sodium": 680,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 2
+        },
+        {
+          "name": "Spicy Monster Taco",
+          "calories": 290,
+          "protein": 11,
+          "fat": 16,
+          "carbs": 26,
+          "servingSize": "1 taco (131g)",
+          "fiber": 2,
+          "sodium": 710,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Sourdough Jack",
+          "calories": 670,
+          "protein": 29,
+          "fat": 43,
+          "carbs": 43,
+          "servingSize": "1 sandwich",
+          "fiber": 2,
+          "sodium": 1330,
+          "cholesterol": 95,
+          "saturated_fat": 14,
+          "sugars": 6
+        },
+        {
+          "name": "Ultimate Cheeseburger",
+          "calories": 840,
+          "protein": 43,
+          "fat": 57,
+          "carbs": 38,
+          "servingSize": "1 burger",
+          "fiber": 1,
+          "sodium": 1340,
+          "cholesterol": 160,
+          "saturated_fat": 24,
+          "sugars": 7
+        },
+        {
+          "name": "Jumbo Jack with Cheese",
+          "calories": 600,
+          "protein": 25,
+          "fat": 36,
+          "carbs": 43,
+          "servingSize": "1 burger",
+          "fiber": 3,
+          "sodium": 1050,
+          "cholesterol": 75,
+          "saturated_fat": 11,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "Spicy Chicken Sandwich",
+          "calories": 590,
+          "protein": 21,
+          "fat": 31,
+          "carbs": 60,
+          "servingSize": "1 sandwich",
+          "fiber": 4,
+          "sodium": 1390,
+          "cholesterol": 45,
+          "saturated_fat": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Chicken Fajita Pita",
+          "calories": 330,
+          "protein": 27,
+          "fat": 9,
+          "carbs": 35,
+          "servingSize": "1 pita",
+          "fiber": 3,
+          "sodium": 1050,
+          "cholesterol": 70,
+          "saturated_fat": 4.5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Tacos & Specialty",
+      "items": [
+        {
+          "name": "Jack's Spicy Tacos (2 pcs)",
+          "calories": 330,
+          "protein": 10,
+          "fat": 17,
+          "carbs": 34,
+          "servingSize": "2 tacos",
+          "fiber": 3,
+          "sodium": 720,
+          "cholesterol": 20,
+          "saturated_fat": 5,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Sides & Munchies",
+      "items": [
+        {
+          "name": "Curly Fries (Medium)",
+          "calories": 410,
+          "protein": 5,
+          "fat": 22,
+          "carbs": 50,
+          "servingSize": "Medium order",
+          "fiber": 4,
+          "sodium": 980,
+          "saturated_fat": 4,
+          "sugars": 1
+        },
+        {
+          "name": "Stuffed Jalape\u00f1os (4 pcs)",
+          "calories": 310,
+          "protein": 7,
+          "fat": 19,
+          "carbs": 27,
+          "servingSize": "4 pieces",
+          "fiber": 2,
+          "sodium": 890,
+          "cholesterol": 25,
+          "saturated_fat": 7,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Desserts & Shakes",
+      "items": [
+        {
+          "name": "OREO Cookie Shake (Regular)",
+          "calories": 710,
+          "protein": 14,
+          "fat": 31,
+          "carbs": 97,
+          "servingSize": "Regular size (16 fl oz)",
+          "fiber": 2,
+          "sodium": 470,
+          "cholesterol": 95,
+          "saturated_fat": 20,
+          "sugars": 78
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Coca-Cola (Medium)",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 79,
+          "servingSize": "Medium (24 fl oz)",
+          "sodium": 40,
+          "sugars": 79
         }
       ]
     }

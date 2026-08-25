@@ -1,0 +1,179 @@
+{
+  "name": "Baskin-Robbins",
+  "slug": "baskin-robbins-nutrition-calculator",
+  "tagline": "Track nutrition for Baskin-Robbins menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 11 menu items at Baskin-Robbins.",
+  "category": "Desserts & Treats",
+  "emoji": "\ud83c\udf66",
+  "itemCount": 11,
+  "categories": [
+    {
+      "name": "Ice Cream Flavors",
+      "items": [
+        {
+          "name": "Mint Chocolate Chip Ice Cream",
+          "calories": 220,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 24,
+          "servingSize": "1 regular scoop (2.5 oz / 71g)",
+          "fiber": 1,
+          "sodium": 70,
+          "cholesterol": 45,
+          "saturated_fat": 8,
+          "sugars": 19
+        },
+        {
+          "name": "Jamoca Almond Fudge Ice Cream",
+          "calories": 230,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 25,
+          "servingSize": "1 regular scoop (2.5 oz / 71g)",
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 20
+        },
+        {
+          "name": "Peanut Butter Chocolate Ice Cream",
+          "calories": 260,
+          "protein": 5,
+          "fat": 15,
+          "carbs": 27,
+          "servingSize": "1 regular scoop (2.5 oz / 71g)",
+          "fiber": 1.5,
+          "sodium": 130,
+          "cholesterol": 40,
+          "saturated_fat": 7,
+          "sugars": 21
+        },
+        {
+          "name": "Gold Medal Ribbon Ice Cream",
+          "calories": 220,
+          "protein": 3.5,
+          "fat": 12,
+          "carbs": 26,
+          "servingSize": "1 regular scoop (2.5 oz / 71g)",
+          "fiber": 0.5,
+          "sodium": 80,
+          "cholesterol": 45,
+          "saturated_fat": 7,
+          "sugars": 21
+        },
+        {
+          "name": "Oreo Cookies 'n Cream Ice Cream",
+          "calories": 230,
+          "protein": 3.5,
+          "fat": 13,
+          "carbs": 26,
+          "servingSize": "1 regular scoop (2.5 oz / 71g)",
+          "fiber": 0.5,
+          "sodium": 115,
+          "cholesterol": 40,
+          "saturated_fat": 7,
+          "sugars": 20
+        }
+      ]
+    },
+    {
+      "name": "Sundaes",
+      "items": [
+        {
+          "name": "Traditional Banana Split",
+          "calories": 1020,
+          "protein": 16,
+          "fat": 48,
+          "carbs": 138,
+          "servingSize": "1 sundae",
+          "fiber": 9,
+          "sodium": 420,
+          "cholesterol": 130,
+          "saturated_fat": 26,
+          "sugars": 102
+        }
+      ]
+    },
+    {
+      "name": "Shakes & Beverages",
+      "items": [
+        {
+          "name": "Oreo Cookies 'n Cream Milkshake",
+          "calories": 830,
+          "protein": 18,
+          "fat": 42,
+          "carbs": 101,
+          "servingSize": "Regular (16 fl oz)",
+          "fiber": 2,
+          "sodium": 410,
+          "cholesterol": 150,
+          "saturated_fat": 25,
+          "sugars": 82
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Hot Fudge Topping",
+          "calories": 160,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 25,
+          "servingSize": "1.5 fl oz ladle (45g)",
+          "fiber": 1,
+          "sodium": 65,
+          "cholesterol": 10,
+          "saturated_fat": 4.5,
+          "sugars": 20
+        }
+      ]
+    },
+    {
+      "name": "Milkshakes",
+      "items": [
+        {
+          "name": "OREO 'n Ice Cream Milkshake (Small)",
+          "calories": 760,
+          "protein": 15,
+          "fat": 38,
+          "carbs": 94,
+          "servingSize": "Small (320g / 15 fl oz)",
+          "fiber": 2,
+          "sodium": 390,
+          "cholesterol": 115,
+          "saturated_fat": 23,
+          "sugars": 78
+        },
+        {
+          "name": "OREO 'n Ice Cream Milkshake (Medium)",
+          "calories": 1130,
+          "protein": 22,
+          "fat": 57,
+          "carbs": 140,
+          "servingSize": "Medium (480g / 22 fl oz)",
+          "fiber": 3,
+          "sodium": 580,
+          "cholesterol": 170,
+          "saturated_fat": 34,
+          "sugars": 116
+        },
+        {
+          "name": "OREO 'n Ice Cream Milkshake (Large)",
+          "calories": 1510,
+          "protein": 30,
+          "fat": 76,
+          "carbs": 187,
+          "servingSize": "Large (640g / 32 fl oz)",
+          "fiber": 4,
+          "sodium": 770,
+          "cholesterol": 230,
+          "saturated_fat": 46,
+          "sugars": 155
+        }
+      ]
+    }
+  ]
+}

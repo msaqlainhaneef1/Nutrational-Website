@@ -1,0 +1,44 @@
+{
+  "name": "Marco's Pizza",
+  "slug": "marcos-pizza-nutrition-calculator",
+  "tagline": "Track nutrition for Marco's Pizza menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 2 menu items at Marco's Pizza.",
+  "category": "Pizza & Italian",
+  "emoji": "\ud83c\udf55",
+  "itemCount": 2,
+  "categories": [
+    {
+      "name": "Pizza Crusts",
+      "items": [
+        {
+          "name": "Small Cauliflower Crust (Per Slice)",
+          "calories": 85,
+          "protein": 2,
+          "fat": 2.5,
+          "carbs": 14,
+          "servingSize": "1 slice (approx. 35 g)",
+          "fiber": 1,
+          "sodium": 85,
+          "cholesterol": 5,
+          "saturated_fat": 1,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Seasonings & Crust Toppings",
+      "items": [
+        {
+          "name": "Romesan Crust Seasoning",
+          "calories": 10,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 0,
+          "servingSize": "Per pizza crust seasoning (2g)",
+          "sodium": 110,
+          "saturated_fat": 0.5
+        }
+      ]
+    }
+  ]
+}

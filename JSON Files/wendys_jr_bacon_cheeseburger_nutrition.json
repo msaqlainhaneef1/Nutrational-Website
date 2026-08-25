@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Value Menu"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_jr_bacon_cheeseburger",
+      "name": "Jr. Bacon Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Value Burgers",
+      "description": "Fresh beef patty topped with Applewood smoked bacon, American cheese, crisp lettuce, tomato, and mayonnaise.",
+      "price": 2.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (145g)",
+        "weight_g": 145.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 18.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 870.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 1.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Fresh Beef Patty",
+        "Junior Bun",
+        "Applewood Smoked Bacon",
+        "American Cheese",
+        "Lettuce",
+        "Tomato",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/jr-bacon-cheeseburger.png",
+      "product_url": "https://www.wendys.com/menu/burgers/jr-bacon-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

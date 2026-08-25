@@ -1,0 +1,809 @@
+{
+  "brand": {
+    "name": "Black Bear Diner",
+    "website": "https://blackbeardiner.com",
+    "country": "USA",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast Specials",
+    "Hungry Bear's Breakfast",
+    "Omelettes & Scrambles",
+    "Classic Combos",
+    "The Griddle",
+    "Burgers & Sandwiches",
+    "Dinner Classics",
+    "Sides & Add-Ons",
+    "Beverages",
+    "Desserts",
+    "Cubs Menu"
+  ],
+  "products": [
+    {
+      "product_id": "bbd-bf-01",
+      "name": "Classic Eggs Benedict",
+      "category": "Breakfast Specials",
+      "subcategory": "Benedicts",
+      "description": "Sliced ham and poached eggs covered in Hollandaise sauce. Served on an English muffin with fresh fruit and your choice of side.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 32.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 380.0,
+        "sodium_mg": 1450.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": 180.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "English Muffin",
+        "Ham",
+        "Poached Eggs",
+        "Hollandaise Sauce",
+        "Fresh Fruit"
+      ],
+      "customizations": [
+        "Choice of side (potatoes, grits, etc.)"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-bf-02",
+      "name": "Bacon Avocado Benedict",
+      "category": "Breakfast Specials",
+      "subcategory": "Benedicts",
+      "description": "Bacon, poached eggs, avocado, spinach, and grilled tomato slices. Served on an English muffin with fresh fruit and choice of side.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 850,
+        "protein_g": 28.0,
+        "fat_g": 58.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 350.0,
+        "sodium_mg": 1320.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": 200.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "English Muffin",
+        "Bacon",
+        "Poached Eggs",
+        "Avocado",
+        "Spinach",
+        "Tomato",
+        "Hollandaise Sauce"
+      ],
+      "customizations": [
+        "Choice of side"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-bf-03",
+      "name": "Chorizo Breakfast Burrito",
+      "category": "Breakfast Specials",
+      "subcategory": "Burritos",
+      "description": "Sausage, potatoes, scrambled eggs, cheese, onion, and cilantro wrapped in a giant flour tortilla. Served with side of homemade salsa.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 burrito",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1240,
+        "protein_g": 54.0,
+        "fat_g": 78.0,
+        "saturated_fat_g": 26.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 450.0,
+        "sodium_mg": 2100.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 82.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": 450.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Chorizo Sausage",
+        "Potatoes",
+        "Scrambled Eggs",
+        "Cheese",
+        "Onion",
+        "Cilantro",
+        "Salsa"
+      ],
+      "customizations": [],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-bf-04",
+      "name": "The Original ScramBOWL",
+      "category": "Breakfast Specials",
+      "subcategory": "Bowls",
+      "description": "Eggs scrambled with thick-cut bacon, pork sausage link, smoked ham, bell pepper, onion, and pickled jalapeño. Served over country red potatoes and topped with cheddar cheese and country gravy. Served with a homemade biscuit or toast.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 bowl with biscuit/toast",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1610,
+        "protein_g": 72.0,
+        "fat_g": 105.0,
+        "saturated_fat_g": 38.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 680.0,
+        "sodium_mg": 2850.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": 600.0,
+        "iron_mg": 7.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Bacon",
+        "Pork Sausage",
+        "Ham",
+        "Bell Pepper",
+        "Onion",
+        "Jalapeño",
+        "Country Red Potatoes",
+        "Cheddar Cheese",
+        "Country Gravy",
+        "Homemade Biscuit"
+      ],
+      "customizations": [
+        "Egg whites available (-10 cal per egg)"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-hb-01",
+      "name": "BIGFOOT Chicken Fried Steak & Eggs",
+      "category": "Hungry Bear's Breakfast",
+      "subcategory": "Hearty Breakfasts",
+      "description": "Tender beef breaded, deep-fried, and smothered in country gravy. Served with 3 eggs and 2 homemade biscuits.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 full meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 2480,
+        "protein_g": 78.0,
+        "fat_g": 145.0,
+        "saturated_fat_g": 52.0,
+        "trans_fat_g": 2.0,
+        "cholesterol_mg": 790.0,
+        "sodium_mg": 4200.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 205.0,
+        "fiber_g": 12.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": null,
+        "calcium_mg": 750.0,
+        "iron_mg": 14.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Beef Cutlet",
+        "Breadcrumbs",
+        "Country Gravy",
+        "Eggs",
+        "Homemade Biscuits"
+      ],
+      "customizations": [
+        "Egg style customizable"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-hb-02",
+      "name": "The GRIZZ",
+      "category": "Hungry Bear's Breakfast",
+      "subcategory": "Hearty Breakfasts",
+      "description": "2 sweet cream pancakes, 2 slices of thick-cut bacon, 2 pork sausage links, and smoked ham steak. Served with 3 eggs.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 full meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1560,
+        "protein_g": 74.0,
+        "fat_g": 92.0,
+        "saturated_fat_g": 31.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 890.0,
+        "sodium_mg": 2980.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 112.0,
+        "fiber_g": 4.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": 480.0,
+        "iron_mg": 8.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Pancakes",
+        "Bacon",
+        "Pork Sausage",
+        "Ham",
+        "Eggs"
+      ],
+      "customizations": [],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-om-01",
+      "name": "Joe's Hobo Omelette",
+      "category": "Omelettes & Scrambles",
+      "subcategory": "Omelettes",
+      "description": "3-egg omelette made with thick-cut bacon, pork sausage link, smoked ham, spinach, onion, jack cheese, and cheddar cheese. Served with side and biscuit or toast.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 omelette meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1450,
+        "protein_g": 78.0,
+        "fat_g": 98.0,
+        "saturated_fat_g": 38.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 710.0,
+        "sodium_mg": 2450.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": 700.0,
+        "iron_mg": 6.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Bacon",
+        "Pork Sausage",
+        "Ham",
+        "Spinach",
+        "Onion",
+        "Jack Cheese",
+        "Cheddar Cheese"
+      ],
+      "customizations": [
+        "Egg whites available (-10 cal per egg)"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-om-02",
+      "name": "Bruce's Meat Lover's Omelette",
+      "category": "Omelettes & Scrambles",
+      "subcategory": "Omelettes",
+      "description": "3-egg omelette made with thick-cut bacon, pork sausage link, smoked ham, and jack cheese. Served with side and biscuit or toast.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 omelette meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1520,
+        "protein_g": 82.0,
+        "fat_g": 105.0,
+        "saturated_fat_g": 42.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 740.0,
+        "sodium_mg": 2600.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": 650.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Bacon",
+        "Pork Sausage",
+        "Ham",
+        "Jack Cheese"
+      ],
+      "customizations": [
+        "Egg whites available"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-om-03",
+      "name": "Vegetarian Omelette",
+      "category": "Omelettes & Scrambles",
+      "subcategory": "Omelettes",
+      "description": "3-egg omelette made with mushrooms, onion, tomato, bell pepper, spinach, and jack cheese. Served with side and biscuit or toast.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 omelette meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1230,
+        "protein_g": 48.0,
+        "fat_g": 72.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 520.0,
+        "sodium_mg": 1850.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 72.0,
+        "fiber_g": 8.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": null,
+        "calcium_mg": 620.0,
+        "iron_mg": 5.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Mushrooms",
+        "Onion",
+        "Tomato",
+        "Bell Pepper",
+        "Spinach",
+        "Jack Cheese"
+      ],
+      "customizations": [
+        "Egg whites available"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-grid-01",
+      "name": "Sweet Cream Pancakes (Stack of 3)",
+      "category": "The Griddle",
+      "subcategory": "Pancakes",
+      "description": "Fluffy sweet cream pancakes made from scratch.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "3 pancakes",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1140,
+        "protein_g": 22.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1920.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 190.0,
+        "fiber_g": 5.0,
+        "sugars_g": 45.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Flour",
+        "Sweet Cream",
+        "Eggs",
+        "Sugar",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [
+        "Can add blueberries, chocolate chips, strawberries & whipped cream"
+      ],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-grid-02",
+      "name": "Cinnamon Roll French Toast",
+      "category": "The Griddle",
+      "subcategory": "French Toast",
+      "description": "3 slices of thick-cut cinnamon roll, battered, grilled and drizzled with icing. Served with fresh fruit.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1150,
+        "protein_g": 18.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 210.0,
+        "sodium_mg": 1100.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 165.0,
+        "fiber_g": 6.0,
+        "sugars_g": 75.0,
+        "added_sugars_g": 65.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Gluten",
+        "Dairy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Cinnamon Roll",
+        "Egg Batter",
+        "Icing",
+        "Fresh Fruit"
+      ],
+      "customizations": [],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-side-01",
+      "name": "Thick-Cut Smoked Bacon",
+      "category": "Sides & Add-Ons",
+      "subcategory": "Meats",
+      "description": "4 slices of thick-cut smoked bacon.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "4 slices",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 18.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 960.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Pork Bacon",
+        "Smoke Flavoring"
+      ],
+      "customizations": [],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bbd-side-02",
+      "name": "Wide Strip-Cut Hash Browns",
+      "category": "Sides & Add-Ons",
+      "subcategory": "Potatoes",
+      "description": "Crispy wide strip-cut hash browns.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All locations"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 4.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 580.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": 20.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Oil",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://blackbeardiner.com/menus/",
+      "product_url": "https://blackbeardiner.com/menus/",
+      "sources": [
+        {
+          "url": "https://blackbeardiner.com/menus/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

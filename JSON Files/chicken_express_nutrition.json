@@ -1,0 +1,3364 @@
+{
+  "brand": {
+    "name": "Chicken Express",
+    "website": "https://chickene.com/",
+    "country": "United States",
+    "last_updated": "2026-08-05"
+  },
+  "categories": [
+    "Chicken",
+    "Fish",
+    "Side Orders",
+    "Desserts",
+    "Sauces",
+    "Drinks",
+    "Chicken E Blend Add-Ins"
+  ],
+  "products": [
+    {
+      "product_id": "ce-chicken-breast",
+      "name": "Chicken Breast",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken breast piece",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (267g)",
+        "weight_g": 267
+      },
+      "nutrition": {
+        "calories": 614,
+        "protein_g": 58,
+        "fat_g": 32,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 213,
+        "sodium_mg": 1975,
+        "potassium_mg": null,
+        "carbohydrates_g": 18,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/chicken-breast",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-wing",
+      "name": "Fried Chicken Wing",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken wing",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (61g)",
+        "weight_g": 61
+      },
+      "nutrition": {
+        "calories": 165,
+        "protein_g": 12,
+        "fat_g": 10,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 61,
+        "sodium_mg": 573,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-wing",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-thigh",
+      "name": "Fried Chicken Thigh",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken thigh",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (152g)",
+        "weight_g": 152
+      },
+      "nutrition": {
+        "calories": 435,
+        "protein_g": 25,
+        "fat_g": 33,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 150,
+        "sodium_mg": 1035,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-thigh",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-leg",
+      "name": "Fried Chicken Leg",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken leg/drumstick",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (90g)",
+        "weight_g": 90
+      },
+      "nutrition": {
+        "calories": 198,
+        "protein_g": 18,
+        "fat_g": 12,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 99,
+        "sodium_mg": 684,
+        "potassium_mg": null,
+        "carbohydrates_g": 7.2,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-leg",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-tender",
+      "name": "Fried Chicken Tender",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken tender",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (50g)",
+        "weight_g": 50
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 10.5,
+        "fat_g": 7.5,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 400,
+        "potassium_mg": null,
+        "carbohydrates_g": 7.5,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-tender",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-liver",
+      "name": "Fried Chicken Liver",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken liver",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (28g)",
+        "weight_g": 28
+      },
+      "nutrition": {
+        "calories": 112,
+        "protein_g": 5,
+        "fat_g": 7,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 91,
+        "sodium_mg": 157,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-liver",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-chicken-gizzard",
+      "name": "Fried Chicken Gizzard",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried chicken gizzard",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pc (35g)",
+        "weight_g": 35
+      },
+      "nutrition": {
+        "calories": 126,
+        "protein_g": 7,
+        "fat_g": 8,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 72,
+        "sodium_mg": 315,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-chicken-gizzard",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-hot-wing",
+      "name": "Fried Hot Wing",
+      "category": "Chicken",
+      "subcategory": "Fried Chicken Pieces",
+      "description": "Hand-breaded fried hot/spicy chicken wing",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3.5oz (100g)",
+        "weight_g": 100
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 24,
+        "fat_g": 16,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0.46,
+        "cholesterol_mg": 115,
+        "sodium_mg": 1120,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-hot-wing",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-fish-fillet",
+      "name": "Fried Fish Fillet",
+      "category": "Fish",
+      "subcategory": "Fish",
+      "description": "Hand-breaded fried fish fillet",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "4oz (113g)",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 17,
+        "fat_g": 3.5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 40,
+        "potassium_mg": null,
+        "carbohydrates_g": 25.8,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Fish"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-fish-fillet",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-hushpuppies",
+      "name": "Hushpuppies",
+      "category": "Fish",
+      "subcategory": "Fish",
+      "description": "Fried cornmeal hushpuppies served with fish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3pcs (52g)",
+        "weight_g": 52
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 2,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 400,
+        "potassium_mg": 50,
+        "carbohydrates_g": 20,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": 2,
+        "calcium_mg": 16,
+        "iron_mg": 1,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Fish", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/hushpuppies",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-okra",
+      "name": "Fried Okra",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Hand-breaded fried okra pieces",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "27pcs",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 5,
+        "fat_g": 18,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 700,
+        "potassium_mg": null,
+        "carbohydrates_g": 42,
+        "fiber_g": 3,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-french-fries",
+      "name": "French Fries",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Crispy fried french fries",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3oz (85g)",
+        "weight_g": 85
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 2,
+        "fat_g": 7,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 360,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-corn-on-the-cob",
+      "name": "Corn on the Cob",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Fresh corn on the cob",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Ear (85g)",
+        "weight_g": 85
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 3,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 18,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-seasoned-italian-green-beans",
+      "name": "Seasoned Italian Green Beans",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Seasoned Italian-style green beans",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1/2 cup (128g)",
+        "weight_g": 128
+      },
+      "nutrition": {
+        "calories": 40,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-cheese-sticks",
+      "name": "Cheese Sticks",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Hand-breaded fried cheese sticks",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1pc (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 3,
+        "fat_g": 2.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mini-poppers",
+      "name": "Mini Poppers",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Fried mini jalapeno poppers",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "3pcs (62g)",
+        "weight_g": 62
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 5,
+        "fat_g": 5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 550,
+        "potassium_mg": null,
+        "carbohydrates_g": 16,
+        "fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-corn-nuggets",
+      "name": "Corn Nuggets",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Fried corn nuggets",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "6pcs (82g)",
+        "weight_g": 82
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 3,
+        "fat_g": 6,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-pickle-slices",
+      "name": "Fried Pickle Slices",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Hand-breaded fried pickle slices",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "4pcs (45g)",
+        "weight_g": 45
+      },
+      "nutrition": {
+        "calories": 124,
+        "protein_g": 5,
+        "fat_g": 6,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 15,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mashed-potatoes",
+      "name": "Mashed Potatoes without Gravy",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Creamy mashed potatoes served without gravy",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "6oz (113g)",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1,
+        "fat_g": 3,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 380,
+        "potassium_mg": null,
+        "carbohydrates_g": 17,
+        "fiber_g": null,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-deluxe-mac-cheese",
+      "name": "Deluxe Macaroni & Cheese",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Creamy macaroni and cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 cup (241g)",
+        "weight_g": 241
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 9,
+        "fat_g": 14,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 900,
+        "potassium_mg": null,
+        "carbohydrates_g": 30,
+        "fiber_g": 3,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Egg", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-biscuits",
+      "name": "Biscuits",
+      "category": "Side Orders",
+      "subcategory": "Bread",
+      "description": "Freshly baked buttermilk biscuits",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.9oz (55g)",
+        "weight_g": 55
+      },
+      "nutrition": {
+        "calories": 178,
+        "protein_g": 2.7,
+        "fat_g": 8,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 2,
+        "cholesterol_mg": null,
+        "sodium_mg": 390,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": null,
+        "sugars_g": 2.59,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Egg", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-yeast-roll",
+      "name": "Yeast Roll",
+      "category": "Side Orders",
+      "subcategory": "Bread",
+      "description": "Freshly baked yeast roll",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1.5oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 3,
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-coleslaw",
+      "name": "Cole Slaw",
+      "category": "Side Orders",
+      "subcategory": "Sides",
+      "description": "Cole slaw with dressing",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "2tbsp (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 340,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Egg"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-gravy",
+      "name": "Gravy",
+      "category": "Side Orders",
+      "subcategory": "Sauces & Gravy",
+      "description": "Chicken Express gravy",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "6oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 8,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 4,
+        "cholesterol_mg": 0,
+        "sodium_mg": 820,
+        "potassium_mg": null,
+        "carbohydrates_g": 16,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-cherry-turnovers",
+      "name": "Fried Cherry Turnovers",
+      "category": "Desserts",
+      "subcategory": "Pastries",
+      "description": "Fried turnover with cherry filling",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pie (86g)",
+        "weight_g": 86
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 2,
+        "fat_g": 7,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 170,
+        "potassium_mg": null,
+        "carbohydrates_g": 33,
+        "fiber_g": 1,
+        "sugars_g": 15,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-cherry-turnovers",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-fried-apple-turnovers",
+      "name": "Fried Apple Turnovers",
+      "category": "Desserts",
+      "subcategory": "Pastries",
+      "description": "Fried turnover with apple filling",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 pie (85g)",
+        "weight_g": 85
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 2,
+        "fat_g": 7,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 1,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/fried-apple-turnovers",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-chunky-chocolate-chip-cookie",
+      "name": "Chunky Chocolate Chip Cookie",
+      "category": "Desserts",
+      "subcategory": "Cookies",
+      "description": "Chunky chocolate chip cookie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 cookie (57g)",
+        "weight_g": 57
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 3,
+        "fat_g": 13,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 210,
+        "potassium_mg": null,
+        "carbohydrates_g": 35,
+        "fiber_g": 0,
+        "sugars_g": 21,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Soy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/chunky-chocoloate-chip-cookie",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-chocolate-soft-serve",
+      "name": "Chocolate Soft Serve Ice Cream",
+      "category": "Desserts",
+      "subcategory": "Ice Cream",
+      "description": "Chocolate soft serve ice cream",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "4 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 0,
+        "fat_g": 3,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 19,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/chocolate-soft-serve-ice-cream",
+          "source_type": "third_party",
+          "confidence": 0.85
+        },
+        {
+          "url": "https://foods.fatsecret.com/calories-nutrition/chicken-express",
+          "source_type": "third_party",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "product_id": "ce-vanilla-soft-serve",
+      "name": "Vanilla Soft Serve Ice Cream",
+      "category": "Desserts",
+      "subcategory": "Ice Cream",
+      "description": "Vanilla soft serve ice cream",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "4 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 0,
+        "fat_g": 3,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 19,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/vanilla-soft-serve-ice-cream",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-butterfinger-addin",
+      "name": "Butterfinger Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Butterfinger candy add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/butterfinger-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-caramel-addin",
+      "name": "Caramel Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Caramel topping add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/caramel-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-chocolate-addin",
+      "name": "Chocolate Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Chocolate topping add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/chocolate-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-heath-addin",
+      "name": "Heath Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Heath candy bar add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/heath-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mms-addin",
+      "name": "M&M's Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "M&M's candy add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/mms-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mango-addin",
+      "name": "Mango Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Mango fruit add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 18,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/mango-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-oreo-addin",
+      "name": "Oreo Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Oreo cookie add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Wheat/Gluten"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/oreo-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-peach-addin",
+      "name": "Peach Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Peach fruit add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 16,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/peach-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-reeses-addin",
+      "name": "Reese's Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Reese's peanut butter cup add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/reeses-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-strawberry-addin",
+      "name": "Strawberry Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Strawberry fruit add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 16,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/strawberry-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-strawberry-banana-addin",
+      "name": "Strawberry Banana Add-In",
+      "category": "Chicken E Blend Add-Ins",
+      "subcategory": "Add-In",
+      "description": "Strawberry banana fruit add-in for Chicken E Blend smoothies",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 16,
+        "protein_g": null,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/strawberry-banana-add-in",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-heinz-ketchup",
+      "name": "Heinz Ketchup",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Heinz ketchup packet",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Packet (9g)",
+        "weight_g": 9
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/heinz-ketchup",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-heinz-honey",
+      "name": "Heinz Honey",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Heinz honey packet",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Packet (9g)",
+        "weight_g": 9
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/heinz-honey",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-buffalo-sauce",
+      "name": "Buffalo Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Buffalo wing sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (35g)",
+        "weight_g": 35
+      },
+      "nutrition": {
+        "calories": 40,
+        "protein_g": 0,
+        "fat_g": 3.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 580,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/buffalo-sauce",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-buttermilk-ranch",
+      "name": "Buttermilk Ranch Dressing",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Buttermilk ranch dipping sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 0,
+        "fat_g": 17,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Dairy", "Egg", "Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/buttermilk-ranch-dressing",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-cocktail-sauce",
+      "name": "Cocktail Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Cocktail sauce for fish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (34g)",
+        "weight_g": 34
+      },
+      "nutrition": {
+        "calories": 35,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 450,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/cocktail-sauce",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-honey-mustard",
+      "name": "Honey Mustard Dressing",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Honey mustard dipping sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Egg", "Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/honey-mustard-dressing",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-tartar-sauce",
+      "name": "Tartar Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Tartar sauce for fish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 0,
+        "fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 270,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Egg", "Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/tarter-sauce",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-bbq-sauce",
+      "name": "BBQ Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "BBQ sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 11,
+        "fiber_g": 0,
+        "sugars_g": 9,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/bbq-sauce",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-chipotle-ranch",
+      "name": "Chipotle Ranch",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Chipotle ranch dipping sauce",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup (30g)",
+        "weight_g": 30
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 0,
+        "fat_g": 15,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": ["Egg", "Soy"],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/chipotle-ranch",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-marinara-sauce",
+      "name": "Marinara Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Marinara sauce for dipping",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "1 Serv Cup",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/marinara-sauce",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-coca-cola-classic",
+      "name": "Coca-Cola Classic",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Coca-Cola Classic fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 99,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 6,
+        "potassium_mg": null,
+        "carbohydrates_g": 27,
+        "fiber_g": 0,
+        "sugars_g": 27,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/coca-cola-classic",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-coca-cola-zero",
+      "name": "Coca-Cola Zero",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Coca-Cola Zero Sugar fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 30,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/coca-cola-zero",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-diet-coke",
+      "name": "Diet Coke",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Diet Coke fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/diet-coke",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-sprite",
+      "name": "Sprite",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Sprite lemon-lime fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 97,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 22,
+        "potassium_mg": null,
+        "carbohydrates_g": 26,
+        "fiber_g": 0,
+        "sugars_g": 26,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/sprite",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-hic-flashin-fruit-punch",
+      "name": "Hi-C Flashin' Fruit Punch",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Hi-C Flashin' Fruit Punch fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 104,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 9,
+        "potassium_mg": null,
+        "carbohydrates_g": 28,
+        "fiber_g": 0,
+        "sugars_g": 27,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/hi-c-flashin-fruit-punch",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-minute-maid-lemonade",
+      "name": "Minute Maid Lemonade",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Minute Maid Lemonade fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 97,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 41,
+        "potassium_mg": null,
+        "carbohydrates_g": 26,
+        "fiber_g": 0,
+        "sugars_g": 26,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/minute-maid-lemonade",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-dr-pepper",
+      "name": "Dr Pepper",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Dr Pepper fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "20oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 100,
+        "potassium_mg": null,
+        "carbohydrates_g": 66,
+        "fiber_g": 0,
+        "sugars_g": 64,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/dr-pepper",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-diet-dr-pepper",
+      "name": "Diet Dr Pepper",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Diet Dr Pepper fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "20oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 100,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/diet-dr-pepper",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-sweet-tea",
+      "name": "Chicken Express Sweet Tea",
+      "category": "Drinks",
+      "subcategory": "Tea",
+      "description": "Famous Chicken Express sweet iced tea",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "20oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://chickene.com/",
+      "sources": [
+        {
+          "url": "https://web.chickene.com/nutrition",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/sweet-tea",
+          "source_type": "third_party",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ce-barqs-root-beer",
+      "name": "Barq's Root Beer",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Barq's Root Beer fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 111,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 28,
+        "fiber_g": 0,
+        "sugars_g": 28,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/barqs-root-beer",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-red-flash",
+      "name": "Red Flash",
+      "category": "Drinks",
+      "subcategory": "Soft Drinks",
+      "description": "Red Flash flavored fountain drink",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 105,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 21,
+        "potassium_mg": 0,
+        "carbohydrates_g": 28,
+        "fiber_g": 0,
+        "sugars_g": 28,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/red-flash",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mm-mango-smoothie",
+      "name": "Minute Maid Mango Smoothie",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Minute Maid Mango flavored smoothie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 35,
+        "fiber_g": 0,
+        "sugars_g": 35,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/minute-maid-mango-smoothie",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mm-peach-smoothie",
+      "name": "Minute Maid Peach Smoothie",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Minute Maid Peach flavored smoothie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 33,
+        "fiber_g": 0,
+        "sugars_g": 33,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/minute-maid-peach-smoothie",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mm-strawberry-smoothie",
+      "name": "Minute Maid Strawberry Smoothie",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Minute Maid Strawberry flavored smoothie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 33,
+        "fiber_g": 0,
+        "sugars_g": 33,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/minute-maid-strawberry-smoothie",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "ce-mm-strawberry-banana-smoothie",
+      "name": "Minute Maid Strawberry and Banana Smoothie",
+      "category": "Drinks",
+      "subcategory": "Smoothies",
+      "description": "Minute Maid Strawberry and Banana flavored smoothie",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "8oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": 0,
+        "sugars_g": 31,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/chicken-express/minute-maid-strawberry-and-banana-smoothie",
+          "source_type": "third_party",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

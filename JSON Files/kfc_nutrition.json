@@ -1,0 +1,4983 @@
+{
+  "brand": "KFC",
+  "last_updated": "2026-08-05",
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Apple Pie Poppers",
+      "description": "A delicious Apple Pie Poppers from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Boneless Bucket",
+      "description": "A delicious Boneless Bucket from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 1590,
+        "total_fat_g": 90,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 175,
+        "sodium_mg": 4400,
+        "total_carbohydrates_g": 139,
+        "dietary_fiber_g": 5,
+        "sugars_g": 7,
+        "added_sugars_g": 0,
+        "protein_g": 59
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Country Fried Steak Meal",
+      "description": "A delicious Country Fried Steak Meal from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 870,
+        "total_fat_g": 51,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 40,
+        "sodium_mg": 2120,
+        "total_carbohydrates_g": 83,
+        "dietary_fiber_g": 8,
+        "sugars_g": 11,
+        "added_sugars_g": 0,
+        "protein_g": 21
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Dr Pepper\u00ae (20 fl oz)",
+      "description": "A delicious Dirty Dr Pepper\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 310,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 74,
+        "dietary_fiber_g": 0,
+        "sugars_g": 73,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Dr Pepper\u00ae (30 fl oz)",
+      "description": "A delicious Dirty Dr Pepper\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 430,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 107,
+        "dietary_fiber_g": 0,
+        "sugars_g": 105,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Lemonade (20 fl oz)",
+      "description": "A delicious Dirty Lemonade (20 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 130,
+        "total_carbohydrates_g": 48,
+        "dietary_fiber_g": 0,
+        "sugars_g": 47,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Lemonade (30 fl oz)",
+      "description": "A delicious Dirty Lemonade (30 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 0,
+        "sugars_g": 66,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Pepsi\u00ae (20 fl oz)",
+      "description": "A delicious Dirty Pepsi\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 320,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 78,
+        "dietary_fiber_g": 0,
+        "sugars_g": 78,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dirty Pepsi\u00ae (30 fl oz)",
+      "description": "A delicious Dirty Pepsi\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 450,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 113,
+        "dietary_fiber_g": 0,
+        "sugars_g": 112,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Fried Pickles",
+      "description": "A delicious Fried Pickles from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Fries + Fried Pickles",
+      "description": "A delicious Fries + Fried Pickles from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 610,
+        "total_fat_g": 31,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2500,
+        "total_carbohydrates_g": 73,
+        "dietary_fiber_g": 5,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 9
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "HandHeld Pot Pie",
+      "description": "Tender pieces of chicken, diced potatoes, peas, and carrots in a savory sauce, covered with a flaky, buttery crust.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 540,
+        "total_fat_g": 34,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 790,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 5,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 12
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Honey BBQ Hot & Spicy Wings (1)",
+      "description": "A delicious Honey BBQ Hot & Spicy Wings (1) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 6,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 310,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Honey Chili Crisp Dip Cup",
+      "description": "A delicious Honey Chili Crisp Dip Cup from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 14,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 290,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Honey Chili Crisp Snacker",
+      "description": "A delicious Honey Chili Crisp Snacker from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 490,
+        "total_fat_g": 25,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 1210,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 1,
+        "sugars_g": 10,
+        "added_sugars_g": 3,
+        "protein_g": 17
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Hot & Spicy Wings (1)",
+      "description": "A delicious Hot & Spicy Wings (1) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 6,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Jalapeno Ranch Dip Cup",
+      "description": "A delicious Jalapeno Ranch Dip Cup from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 15,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mac & Cheese Bowl",
+      "description": "A delicious Mac & Cheese Bowl from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 480,
+        "total_fat_g": 22,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 1970,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 2,
+        "sugars_g": 4,
+        "added_sugars_g": 0,
+        "protein_g": 30
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mashed Potatoes With Gravy (Medium)",
+      "description": "A delicious Mashed Potatoes With Gravy (Medium) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 180,
+        "total_fat_g": 6,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 680,
+        "total_carbohydrates_g": 27,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Matty's Cheesy Nuggy Gravy Bowl",
+      "description": "A delicious Matty's Cheesy Nuggy Gravy Bowl from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 740,
+        "total_fat_g": 39,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 2470,
+        "total_carbohydrates_g": 63,
+        "dietary_fiber_g": 3,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 34
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mike's Hot Honey Hot & Spicy Wings (1)",
+      "description": "A delicious Mike's Hot Honey Hot & Spicy Wings (1) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 6,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 0,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Twister\u00ae",
+      "description": "A delicious Original Twister\u00ae from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 1100,
+        "total_fat_g": 73,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 2040,
+        "total_carbohydrates_g": 88,
+        "dietary_fiber_g": 2,
+        "sugars_g": 7,
+        "added_sugars_g": 6,
+        "protein_g": 29
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Twister\u00ae with Bacon",
+      "description": "A delicious Original Twister\u00ae with Bacon from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 1170,
+        "total_fat_g": 79,
+        "saturated_fat_g": 31,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 2300,
+        "total_carbohydrates_g": 89,
+        "dietary_fiber_g": 2,
+        "sugars_g": 8,
+        "added_sugars_g": 6,
+        "protein_g": 33
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Popcorn Chicken",
+      "description": "A delicious Popcorn Chicken from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 620,
+        "total_fat_g": 41,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1970,
+        "total_carbohydrates_g": 40,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 23
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Popcorn Chicken Big Box",
+      "description": "A delicious Popcorn Chicken Big Box from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 1470,
+        "total_fat_g": 77,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 3980,
+        "total_carbohydrates_g": 147,
+        "dietary_fiber_g": 6,
+        "sugars_g": 15,
+        "added_sugars_g": 14,
+        "protein_g": 52
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Popcorn Chicken Bucket",
+      "description": "A delicious Popcorn Chicken Bucket from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 1670,
+        "total_fat_g": 110,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 5260,
+        "total_carbohydrates_g": 106,
+        "dietary_fiber_g": 4,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 63
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Popcorn Chicken Combo",
+      "description": "A delicious Popcorn Chicken Combo from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 940,
+        "total_fat_g": 56,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 3070,
+        "total_carbohydrates_g": 81,
+        "dietary_fiber_g": 5,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 28
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Potato Wedges",
+      "description": "A delicious Potato Wedges from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 320,
+        "total_fat_g": 15,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 830,
+        "total_carbohydrates_g": 40,
+        "dietary_fiber_g": 4,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Potato Wedges (Large)",
+      "description": "A delicious Potato Wedges (Large) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 760,
+        "total_fat_g": 36,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1980,
+        "total_carbohydrates_g": 97,
+        "dietary_fiber_g": 10,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 11
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Prickly Pear Lemonade (20 fl oz)",
+      "description": "A delicious Prickly Pear Lemonade (20 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 130,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 0,
+        "sugars_g": 44,
+        "added_sugars_g": 6,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Prickly Pear Lemonade (32 fl oz)",
+      "description": "A delicious Prickly Pear Lemonade (32 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 210,
+        "total_carbohydrates_g": 76,
+        "dietary_fiber_g": 0,
+        "sugars_g": 74,
+        "added_sugars_g": 13,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Prickly Pear Lemonade (64 fl oz)",
+      "description": "A delicious Prickly Pear Lemonade (64 fl oz) from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 610,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 420,
+        "total_carbohydrates_g": 165,
+        "dietary_fiber_g": 0,
+        "sugars_g": 160,
+        "added_sugars_g": 38,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Saucy Fries",
+      "description": "A delicious Saucy Fries from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 560,
+        "total_fat_g": 29,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 1390,
+        "total_carbohydrates_g": 71,
+        "dietary_fiber_g": 3,
+        "sugars_g": 28,
+        "added_sugars_g": 0,
+        "protein_g": 6
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Side of Pickles",
+      "description": "A delicious Side of Pickles from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 16,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1400,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Snack Box",
+      "description": "A delicious Snack Box from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 460,
+        "total_fat_g": 24,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 2090,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 21
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Twister\u00ae",
+      "description": "A delicious Spicy Twister\u00ae from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 740,
+        "total_fat_g": 37,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 1420,
+        "total_carbohydrates_g": 79,
+        "dietary_fiber_g": 2,
+        "sugars_g": 4,
+        "added_sugars_g": 2,
+        "protein_g": 28
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Twister\u00ae with Bacon",
+      "description": "A delicious Spicy Twister\u00ae with Bacon from KFC's menu.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 810,
+        "total_fat_g": 43,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1680,
+        "total_carbohydrates_g": 79,
+        "dietary_fiber_g": 2,
+        "sugars_g": 4,
+        "added_sugars_g": 2,
+        "protein_g": 33
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Zinger Sandwich",
+      "description": "A spicy, double-breaded chicken breast fillet topped with lettuce and mayo on a toasted bun.",
+      "category": "Limited Time Offers",
+      "nutrition": {
+        "calories": 480,
+        "total_fat_g": 23,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1360,
+        "total_carbohydrates_g": 37,
+        "dietary_fiber_g": 2,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 33
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Recipe\u00ae Chicken Breast",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Original Recipe Chicken",
+      "nutrition": {
+        "calories": 390,
+        "total_fat_g": 21,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 120,
+        "sodium_mg": 1190,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 39
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Recipe\u00ae Chicken Drumstick",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Original Recipe Chicken",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 430,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 12
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Recipe\u00ae Chicken Thigh",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Original Recipe Chicken",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 19,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 910,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 19
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Recipe\u00ae Chicken Whole Wing",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Original Recipe Chicken",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 8,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 380,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 10
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Extra Crispy\u2122 Chicken Breast",
+      "description": "Double-breaded and open-fried for a signature crunch.",
+      "category": "Extra Crispy Chicken",
+      "nutrition": {
+        "calories": 530,
+        "total_fat_g": 35,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 1150,
+        "total_carbohydrates_g": 18,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 35
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Extra Crispy\u2122 Chicken Drumstick",
+      "description": "Double-breaded and open-fried for a signature crunch.",
+      "category": "Extra Crispy Chicken",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 390,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 10
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Extra Crispy\u2122 Chicken Thigh",
+      "description": "Double-breaded and open-fried for a signature crunch.",
+      "category": "Extra Crispy Chicken",
+      "nutrition": {
+        "calories": 330,
+        "total_fat_g": 23,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 700,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 22
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Extra Crispy\u2122 Chicken Whole Wing",
+      "description": "Double-breaded and open-fried for a signature crunch.",
+      "category": "Extra Crispy Chicken",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 13,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 340,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 10
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Grilled Chicken\u00ae Breast",
+      "description": "A delicious Kentucky Grilled Chicken\u00ae Breast from KFC's menu.",
+      "category": "Kentucky Grilled Chicken",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 7,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 130,
+        "sodium_mg": 710,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 38
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Grilled Chicken\u00ae Drumstick",
+      "description": "A delicious Kentucky Grilled Chicken\u00ae Drumstick from KFC's menu.",
+      "category": "Kentucky Grilled Chicken",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 4,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 11
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Grilled Chicken\u00ae Thigh",
+      "description": "A delicious Kentucky Grilled Chicken\u00ae Thigh from KFC's menu.",
+      "category": "Kentucky Grilled Chicken",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 9,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 420,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 17
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Grilled Chicken\u00ae Whole Wing",
+      "description": "A delicious Kentucky Grilled Chicken\u00ae Whole Wing from KFC's menu.",
+      "category": "Kentucky Grilled Chicken",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 3,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 9
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Crispy Chicken Breast",
+      "description": "A delicious Spicy Crispy Chicken Breast from KFC's menu.",
+      "category": "Spicy Crispy Chicken",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 20,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1100,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 30
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Crispy Chicken Drumstick",
+      "description": "A delicious Spicy Crispy Chicken Drumstick from KFC's menu.",
+      "category": "Spicy Crispy Chicken",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 420,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 9
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Crispy Chicken Thigh",
+      "description": "A delicious Spicy Crispy Chicken Thigh from KFC's menu.",
+      "category": "Spicy Crispy Chicken",
+      "nutrition": {
+        "calories": 270,
+        "total_fat_g": 20,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 720,
+        "total_carbohydrates_g": 10,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 13
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Crispy Chicken Whole Wing",
+      "description": "A delicious Spicy Crispy Chicken Whole Wing from KFC's menu.",
+      "category": "Spicy Crispy Chicken",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 350,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 7
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "NEW! Original Recipe\u00ae Tender (each)",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Original Recipe\u00ae Tenders",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 6,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 400,
+        "total_carbohydrates_g": 20,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 11
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Fried Nuggets (1)",
+      "description": "Hand-breaded in the Colonel's Original Recipe for a juicy, flavorful bite.",
+      "category": "Kentucky Fried Nuggets",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 1.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "BBQ Baked Beans",
+      "description": "A delicious BBQ Baked Beans from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 650,
+        "total_carbohydrates_g": 34,
+        "dietary_fiber_g": 7,
+        "sugars_g": 15,
+        "added_sugars_g": 0,
+        "protein_g": 11
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Biscuit",
+      "description": "A delicious Biscuit from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 180,
+        "total_fat_g": 8,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 520,
+        "total_carbohydrates_g": 22,
+        "dietary_fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Cheese Curds",
+      "description": "A delicious Cheese Curds from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 23,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 640,
+        "total_carbohydrates_g": 17,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 17
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Cheese Curd Snack Box",
+      "description": "A delicious Cheese Curd Snack Box from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 340,
+        "total_fat_g": 20,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1010,
+        "total_carbohydrates_g": 15,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 25
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Coleslaw",
+      "description": "A delicious Coleslaw from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 14,
+        "dietary_fiber_g": 4,
+        "sugars_g": 10,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [
+        "Egg",
+        "Soy"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Corn on the Cob",
+      "description": "A delicious Corn on the Cob from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 17,
+        "dietary_fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Green Beans",
+      "description": "A delicious Green Beans from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 25,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 300,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 3,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC\u00ae Cornbread Muffin",
+      "description": "A delicious KFC\u00ae Cornbread Muffin from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 9,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 240,
+        "total_carbohydrates_g": 28,
+        "dietary_fiber_g": 1,
+        "sugars_g": 11,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Macaroni & Cheese",
+      "description": "A delicious Macaroni & Cheese from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 6,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 590,
+        "total_carbohydrates_g": 17,
+        "dietary_fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mashed Potatoes",
+      "description": "A delicious Mashed Potatoes from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 3.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 330,
+        "total_carbohydrates_g": 17,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mashed Potatoes With Gravy",
+      "description": "A delicious Mashed Potatoes With Gravy from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 4.5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 520,
+        "total_carbohydrates_g": 20,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Secret Recipe Fries",
+      "description": "A delicious Secret Recipe Fries from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 320,
+        "total_fat_g": 15,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1100,
+        "total_carbohydrates_g": 41,
+        "dietary_fiber_g": 3,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sweet Kernel Corn",
+      "description": "A delicious Sweet Kernel Corn from KFC's menu.",
+      "category": "Homestyle Sides (Individual)",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 16,
+        "dietary_fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "BBQ Baked Beans (Family)",
+      "description": "A delicious BBQ Baked Beans (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 830,
+        "total_fat_g": 5,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2810,
+        "total_carbohydrates_g": 148,
+        "dietary_fiber_g": 31,
+        "sugars_g": 63,
+        "added_sugars_g": 0,
+        "protein_g": 47
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Coleslaw (Family)",
+      "description": "A delicious Coleslaw (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 640,
+        "total_fat_g": 46,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 670,
+        "total_carbohydrates_g": 54,
+        "dietary_fiber_g": 14,
+        "sugars_g": 37,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [
+        "Egg",
+        "Soy"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Corn on the Cob (Family)",
+      "description": "A delicious Corn on the Cob (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 8,
+        "sugars_g": 11,
+        "added_sugars_g": 0,
+        "protein_g": 9
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Green Beans (Family)",
+      "description": "A delicious Green Beans (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 930,
+        "total_carbohydrates_g": 15,
+        "dietary_fiber_g": 9,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Macaroni & Cheese (Family)",
+      "description": "A delicious Macaroni & Cheese (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 540,
+        "total_fat_g": 23,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 2220,
+        "total_carbohydrates_g": 66,
+        "dietary_fiber_g": 5,
+        "sugars_g": 8,
+        "added_sugars_g": 0,
+        "protein_g": 18
+      },
+      "allergens": [
+        "Milk",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mashed Potatoes (Family)",
+      "description": "A delicious Mashed Potatoes (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 460,
+        "total_fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1410,
+        "total_carbohydrates_g": 72,
+        "dietary_fiber_g": 6,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 9
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mashed Potatoes With Gravy (Family)",
+      "description": "A delicious Mashed Potatoes With Gravy (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 590,
+        "total_fat_g": 21,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2590,
+        "total_carbohydrates_g": 88,
+        "dietary_fiber_g": 6,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 12
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Secret Recipe Fries (Family)",
+      "description": "A delicious Secret Recipe Fries (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 840,
+        "total_fat_g": 40,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2890,
+        "total_carbohydrates_g": 108,
+        "dietary_fiber_g": 9,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 13
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sweet Kernel Corn (Family)",
+      "description": "A delicious Sweet Kernel Corn (Family) from KFC's menu.",
+      "category": "Homestyle Sides (Family)",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 2.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 7,
+        "sugars_g": 8,
+        "added_sugars_g": 0,
+        "protein_g": 10
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Classic Chicken Sandwich",
+      "description": "A delicious Classic Chicken Sandwich from KFC's menu.",
+      "category": "Sandwiches",
+      "nutrition": {
+        "calories": 650,
+        "total_fat_g": 35,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1260,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "protein_g": 34
+      },
+      "allergens": [
+        "Egg",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC Snacker",
+      "description": "A delicious KFC Snacker from KFC's menu.",
+      "category": "Sandwiches",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 16,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 730,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 15
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Chicken Sandwich",
+      "description": "A delicious Spicy Chicken Sandwich from KFC's menu.",
+      "category": "Sandwiches",
+      "nutrition": {
+        "calories": 620,
+        "total_fat_g": 33,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 2140,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 1,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "protein_g": 34
+      },
+      "allergens": [
+        "Egg",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Twister\u00ae",
+      "description": "A delicious Twister\u00ae from KFC's menu.",
+      "category": "Sandwiches",
+      "nutrition": {
+        "calories": 680,
+        "total_fat_g": 31,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 1360,
+        "total_carbohydrates_g": 74,
+        "dietary_fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 29
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Chicken Pot Pie",
+      "description": "Tender pieces of chicken, diced potatoes, peas, and carrots in a savory sauce, covered with a flaky, buttery crust.",
+      "category": "Pot Pie and Bowls",
+      "nutrition": {
+        "calories": 720,
+        "total_fat_g": 41,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 1750,
+        "total_carbohydrates_g": 60,
+        "dietary_fiber_g": 7,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 26
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC\u00ae Famous Bowl",
+      "description": "Creamy mashed potatoes, sweet corn, and bite-sized chunks of crispy chicken, drizzled with home-style gravy and topped with a three-cheese blend.",
+      "category": "Pot Pie and Bowls",
+      "nutrition": {
+        "calories": 590,
+        "total_fat_g": 22,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85,
+        "sodium_mg": 2160,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 4,
+        "sugars_g": 3,
+        "added_sugars_g": 0,
+        "protein_g": 31
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Caesar Side Salad",
+      "description": "A delicious Caesar Side Salad from KFC's menu.",
+      "category": "Salads",
+      "nutrition": {
+        "calories": 40,
+        "total_fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "House Side Salad",
+      "description": "A delicious House Side Salad from KFC's menu.",
+      "category": "Salads",
+      "nutrition": {
+        "calories": 15,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Heinz Buttermilk Dressing",
+      "description": "A delicious Heinz Buttermilk Dressing from KFC's menu.",
+      "category": "Dressing and Croutons",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 17,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Hidden Valley The Original Ranch Fat Free Dressing",
+      "description": "A delicious Hidden Valley The Original Ranch Fat Free Dressing from KFC's menu.",
+      "category": "Dressing and Croutons",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 410,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC\u00ae Creamy Parmesan Caesar Dressing",
+      "description": "A delicious KFC\u00ae Creamy Parmesan Caesar Dressing from KFC's menu.",
+      "category": "Dressing and Croutons",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 26,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 540,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Marzetti Light Italian Dressing",
+      "description": "A delicious Marzetti Light Italian Dressing from KFC's menu.",
+      "category": "Dressing and Croutons",
+      "nutrition": {
+        "calories": 15,
+        "total_fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 510,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Parmesan Garlic Croutons",
+      "description": "A delicious Parmesan Garlic Croutons from KFC's menu.",
+      "category": "Dressing and Croutons",
+      "nutrition": {
+        "calories": 60,
+        "total_fat_g": 3,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 135,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Apple Turnover",
+      "description": "A delicious Apple Turnover from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 230,
+        "total_fat_g": 10,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 12,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Caf\u00e9 Valley Chocolate Chip Cake (1 Slice)",
+      "description": "A delicious Caf\u00e9 Valley Chocolate Chip Cake (1 Slice) from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 260,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 1,
+        "sugars_g": 27,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Caf\u00e9 Valley Lemon Cake (1 Slice)",
+      "description": "A delicious Caf\u00e9 Valley Lemon Cake (1 Slice) from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 220,
+        "total_fat_g": 10,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 0,
+        "sugars_g": 20,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Caf\u00e9 Valley Mini Chocolate Chip Cake",
+      "description": "A delicious Caf\u00e9 Valley Mini Chocolate Chip Cake from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 1,
+        "sugars_g": 35,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Caf\u00e9 Valley Mini Lemon Cake",
+      "description": "A delicious Caf\u00e9 Valley Mini Lemon Cake from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 13,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 230,
+        "total_carbohydrates_g": 43,
+        "dietary_fiber_g": 0,
+        "sugars_g": 31,
+        "added_sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Chocolate Chunk Cookie",
+      "description": "A delicious Chocolate Chunk Cookie from KFC's menu.",
+      "category": "Desserts",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 9,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 105,
+        "total_carbohydrates_g": 26,
+        "dietary_fiber_g": 1,
+        "sugars_g": 15,
+        "added_sugars_g": 14,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "BBQ - Dipping Sauce Cup",
+      "description": "A delicious BBQ - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 45,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 150,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 0,
+        "sugars_g": 11,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Buffalo Ranch - Dipping Sauce Cup",
+      "description": "A delicious Buffalo Ranch - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 13,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 290,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Colonel's Buttery Spread",
+      "description": "A delicious Colonel's Buttery Spread from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 4,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Comeback Sauce - Dipping Sauce Cup",
+      "description": "A delicious Comeback Sauce - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 340,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Grape Jelly Packet",
+      "description": "A delicious Grape Jelly Packet from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 0,
+        "sugars_g": 7,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Honey Mustard - Dipping Sauce Cup",
+      "description": "A delicious Honey Mustard - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 9,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 6,
+        "dietary_fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Honey Sauce Packet",
+      "description": "A delicious Honey Sauce Packet from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 30,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 0,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Ketchup",
+      "description": "A delicious Ketchup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 30,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 250,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC Sauce - Dipping Sauce Cup",
+      "description": "A delicious KFC Sauce - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 8,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 5,
+        "dietary_fiber_g": 0,
+        "sugars_g": 5,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lemon Juice Packet",
+      "description": "A delicious Lemon Juice Packet from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Ranch - Dipping Sauce Cup",
+      "description": "A delicious Ranch - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 14,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 240,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Spicy Zinger Mayo",
+      "description": "A spicy, double-breaded chicken breast fillet topped with lettuce and mayo on a toasted bun.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 590,
+        "total_fat_g": 64,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 420,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": 1,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sticky Chicky Sweet n' Sour Dipping Sauce Cup",
+      "description": "A delicious Sticky Chicky Sweet n' Sour Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 45,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": 10,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Strawberry Jam Packet",
+      "description": "A delicious Strawberry Jam Packet from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 35,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 9,
+        "dietary_fiber_g": 0,
+        "sugars_g": 6,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Supergirl Honey Mustard - Dipping Sauce Cup",
+      "description": "A delicious Supergirl Honey Mustard - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "added_sugars_g": 4,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Supergirl Ranch - Dipping Sauce Cup",
+      "description": "A delicious Supergirl Ranch - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 200,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 1,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Supergirl Sweet Chili - Dipping Sauce Cup",
+      "description": "A delicious Supergirl Sweet Chili - Dipping Sauce Cup from KFC's menu.",
+      "category": "Dipping Sauces & Condiments",
+      "nutrition": {
+        "calories": 40,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": 9,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Kentucky Fried Chicken Nuggets Kids Meal",
+      "description": "Hand-breaded in the Colonel's Original Recipe for a juicy, flavorful bite.",
+      "category": "Kids Meal",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 8,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 690,
+        "total_carbohydrates_g": 7,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 17
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Original Recipe\u00ae Tenders Kids Meal",
+      "description": "KFC's signature chicken, pressure-fried with the Colonel's secret blend of 11 herbs and spices.",
+      "category": "Kids Meal",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 12,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 810,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 21
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Capri Sun\u00ae 100% Juice Fruit Punch",
+      "description": "A delicious Capri Sun\u00ae 100% Juice Fruit Punch from KFC's menu.",
+      "category": "Kids Drinks",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 25,
+        "total_carbohydrates_g": 21,
+        "dietary_fiber_g": 0,
+        "sugars_g": 20,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Chocolate Milk 1%",
+      "description": "A delicious Chocolate Milk 1% from KFC's menu.",
+      "category": "Kids Drinks",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 2.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 26,
+        "dietary_fiber_g": 0,
+        "sugars_g": 23,
+        "added_sugars_g": 0,
+        "protein_g": 7
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Milk 1%",
+      "description": "A delicious Milk 1% from KFC's menu.",
+      "category": "Kids Drinks",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 2,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 105,
+        "total_carbohydrates_g": 10,
+        "dietary_fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": 0,
+        "protein_g": 7
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Musselman's\u2122 Applesauce",
+      "description": "A delicious Musselman's\u2122 Applesauce from KFC's menu.",
+      "category": "Kids Meal Applesauce",
+      "nutrition": {
+        "calories": 45,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 12,
+        "dietary_fiber_g": 1,
+        "sugars_g": 8,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "7UP\u00ae (12 fl oz)",
+      "description": "A delicious 7UP\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 35,
+        "dietary_fiber_g": 0,
+        "sugars_g": 35,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "7UP\u00ae (16 fl oz)",
+      "description": "A delicious 7UP\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 0,
+        "sugars_g": 46,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "7UP\u00ae (20 fl oz)",
+      "description": "A delicious 7UP\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 240,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "total_carbohydrates_g": 58,
+        "dietary_fiber_g": 0,
+        "sugars_g": 58,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "7UP\u00ae (30 fl oz)",
+      "description": "A delicious 7UP\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 125,
+        "total_carbohydrates_g": 87,
+        "dietary_fiber_g": 0,
+        "sugars_g": 87,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Classic Lemonade (1/2 Gallon)",
+      "description": "A delicious Classic Lemonade (1/2 Gallon) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 880,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 780,
+        "total_carbohydrates_g": 234,
+        "dietary_fiber_g": 0,
+        "sugars_g": 228,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Classic Lemonade (20 fl oz)",
+      "description": "A delicious Classic Lemonade (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 130,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 0,
+        "sugars_g": 38,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Code Red Mountain Dew\u00ae (12 fl oz)",
+      "description": "A delicious Code Red Mountain Dew\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 0,
+        "sugars_g": 46,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Code Red Mountain Dew\u00ae (16 fl oz)",
+      "description": "A delicious Code Red Mountain Dew\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 230,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 62,
+        "dietary_fiber_g": 0,
+        "sugars_g": 62,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Code Red Mountain Dew\u00ae (20 fl oz)",
+      "description": "A delicious Code Red Mountain Dew\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "total_carbohydrates_g": 77,
+        "dietary_fiber_g": 0,
+        "sugars_g": 77,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Code Red Mountain Dew\u00ae (30 fl oz)",
+      "description": "A delicious Code Red Mountain Dew\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 430,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 125,
+        "total_carbohydrates_g": 116,
+        "dietary_fiber_g": 0,
+        "sugars_g": 115,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Dr Pepper\u00ae (12 fl oz)",
+      "description": "A delicious Diet Dr Pepper\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Dr Pepper\u00ae (16 fl oz)",
+      "description": "A delicious Diet Dr Pepper\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Dr Pepper\u00ae (20 fl oz)",
+      "description": "A delicious Diet Dr Pepper\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Dr Pepper\u00ae (30 fl oz)",
+      "description": "A delicious Diet Dr Pepper\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Mountain Dew\u00ae (12 fl oz)",
+      "description": "A delicious Diet Mountain Dew\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Mountain Dew\u00ae (16 fl oz)",
+      "description": "A delicious Diet Mountain Dew\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Mountain Dew\u00ae (20 fl oz)",
+      "description": "A delicious Diet Mountain Dew\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 10,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Mountain Dew\u00ae (30 fl oz)",
+      "description": "A delicious Diet Mountain Dew\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 10,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (12 fl oz)",
+      "description": "A delicious Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (16 fl oz)",
+      "description": "A delicious Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (20 fl oz)",
+      "description": "A delicious Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (30 fl oz)",
+      "description": "A delicious Diet Pepsi\u00ae Wild Cherry Pepsi\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dr Pepper\u00ae (12 fl oz)",
+      "description": "A delicious Dr Pepper\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 0,
+        "sugars_g": 38,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dr Pepper\u00ae (16 fl oz)",
+      "description": "A delicious Dr Pepper\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 52,
+        "dietary_fiber_g": 0,
+        "sugars_g": 51,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dr Pepper\u00ae (20 fl oz)",
+      "description": "A delicious Dr Pepper\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 240,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 65,
+        "dietary_fiber_g": 0,
+        "sugars_g": 64,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Dr Pepper\u00ae (30 fl oz)",
+      "description": "A delicious Dr Pepper\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 360,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 98,
+        "dietary_fiber_g": 0,
+        "sugars_g": 96,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (12 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Lemon Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "total_carbohydrates_g": 22,
+        "dietary_fiber_g": 0,
+        "sugars_g": 22,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (16 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Lemon Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 29,
+        "dietary_fiber_g": 0,
+        "sugars_g": 29,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (20 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Lemon Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 36,
+        "dietary_fiber_g": 0,
+        "sugars_g": 36,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Lemon Tea (30 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Lemon Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 105,
+        "total_carbohydrates_g": 55,
+        "dietary_fiber_g": 0,
+        "sugars_g": 54,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (12 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 105,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (16 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (20 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (30 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae No Calorie Peach Iced Green Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 10,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 270,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (12 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Raspberry Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 20,
+        "dietary_fiber_g": 0,
+        "sugars_g": 20,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (16 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Raspberry Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 100,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 26,
+        "dietary_fiber_g": 0,
+        "sugars_g": 26,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (20 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Raspberry Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 33,
+        "dietary_fiber_g": 0,
+        "sugars_g": 33,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Raspberry Tea (30 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Raspberry Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 0,
+        "sugars_g": 49,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (12 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Sweet Iced Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 22,
+        "dietary_fiber_g": 0,
+        "sugars_g": 21,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (16 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Sweet Iced Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 29,
+        "dietary_fiber_g": 0,
+        "sugars_g": 29,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (20 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Sweet Iced Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 130,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 36,
+        "dietary_fiber_g": 0,
+        "sugars_g": 36,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Sweet Iced Tea (30 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Sweet Iced Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 54,
+        "dietary_fiber_g": 0,
+        "sugars_g": 54,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (12 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (16 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (20 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (30 fl oz)",
+      "description": "A delicious Lipton\u00ae Brisk\u00ae Unsweetened No Lemon Iced Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 115,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Manzanita Sol\u00ae (12 fl oz)",
+      "description": "A delicious Manzanita Sol\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 0,
+        "sugars_g": 42,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Manzanita Sol\u00ae (16 fl oz)",
+      "description": "A delicious Manzanita Sol\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 0,
+        "sugars_g": 57,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Manzanita Sol\u00ae (20 fl oz)",
+      "description": "A delicious Manzanita Sol\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 71,
+        "dietary_fiber_g": 0,
+        "sugars_g": 71,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Manzanita Sol\u00ae (30 fl oz)",
+      "description": "A delicious Manzanita Sol\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 106,
+        "dietary_fiber_g": 0,
+        "sugars_g": 106,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Miranda\u00ae Strawberry (12 fl oz)",
+      "description": "A delicious Miranda\u00ae Strawberry (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 44,
+        "dietary_fiber_g": 0,
+        "sugars_g": 44,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Miranda\u00ae Strawberry (16 fl oz)",
+      "description": "A delicious Miranda\u00ae Strawberry (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 220,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 58,
+        "dietary_fiber_g": 0,
+        "sugars_g": 58,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Miranda\u00ae Strawberry (20 fl oz)",
+      "description": "A delicious Miranda\u00ae Strawberry (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 270,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 73,
+        "dietary_fiber_g": 0,
+        "sugars_g": 73,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Miranda\u00ae Strawberry (30 fl oz)",
+      "description": "A delicious Miranda\u00ae Strawberry (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 410,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "total_carbohydrates_g": 109,
+        "dietary_fiber_g": 0,
+        "sugars_g": 109,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "MNT DEW Sweet Lightning (20 fl oz)",
+      "description": "A delicious MNT DEW Sweet Lightning (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 0,
+        "sugars_g": 25,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mountain Dew\u00ae (12 fl oz)",
+      "description": "A delicious Mountain Dew\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 44,
+        "dietary_fiber_g": 0,
+        "sugars_g": 44,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mountain Dew\u00ae (16 fl oz)",
+      "description": "A delicious Mountain Dew\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 220,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 59,
+        "dietary_fiber_g": 0,
+        "sugars_g": 58,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mountain Dew\u00ae (20 fl oz)",
+      "description": "A delicious Mountain Dew\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 270,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "total_carbohydrates_g": 73,
+        "dietary_fiber_g": 0,
+        "sugars_g": 73,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mountain Dew\u00ae (30 fl oz)",
+      "description": "A delicious Mountain Dew\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 410,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 125,
+        "total_carbohydrates_g": 110,
+        "dietary_fiber_g": 0,
+        "sugars_g": 109,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mug Root Beer\u00ae (12 fl oz)",
+      "description": "A delicious Mug Root Beer\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 0,
+        "sugars_g": 39,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mug Root Beer\u00ae (16 fl oz)",
+      "description": "A delicious Mug Root Beer\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 52,
+        "dietary_fiber_g": 0,
+        "sugars_g": 52,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mug Root Beer\u00ae (20 fl oz)",
+      "description": "A delicious Mug Root Beer\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 240,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 65,
+        "dietary_fiber_g": 0,
+        "sugars_g": 65,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Mug Root Beer\u00ae (30 fl oz)",
+      "description": "A delicious Mug Root Beer\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 360,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 98,
+        "dietary_fiber_g": 0,
+        "sugars_g": 98,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi Zero Sugar\u00ae (12 fl oz)",
+      "description": "A delicious Pepsi Zero Sugar\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi Zero Sugar\u00ae (16 fl oz)",
+      "description": "A delicious Pepsi Zero Sugar\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi Zero Sugar\u00ae (20 fl oz)",
+      "description": "A delicious Pepsi Zero Sugar\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi Zero Sugar\u00ae (30 fl oz)",
+      "description": "A delicious Pepsi Zero Sugar\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi\u00ae (12 fl oz)",
+      "description": "A delicious Pepsi\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 30,
+        "total_carbohydrates_g": 41,
+        "dietary_fiber_g": 0,
+        "sugars_g": 41,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi\u00ae (16 fl oz)",
+      "description": "A delicious Pepsi\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 55,
+        "dietary_fiber_g": 0,
+        "sugars_g": 55,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi\u00ae (20 fl oz)",
+      "description": "A delicious Pepsi\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 250,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 69,
+        "dietary_fiber_g": 0,
+        "sugars_g": 69,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Pepsi\u00ae (30 fl oz)",
+      "description": "A delicious Pepsi\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 380,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 104,
+        "dietary_fiber_g": 0,
+        "sugars_g": 103,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sobe Lifewater Yumberry Pomegranate (12 fl oz)",
+      "description": "A delicious Sobe Lifewater Yumberry Pomegranate (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sobe Lifewater Yumberry Pomegranate (16 fl oz)",
+      "description": "A delicious Sobe Lifewater Yumberry Pomegranate (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sobe Lifewater Yumberry Pomegranate (20 fl oz)",
+      "description": "A delicious Sobe Lifewater Yumberry Pomegranate (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Sobe Lifewater Yumberry Pomegranate (30 fl oz)",
+      "description": "A delicious Sobe Lifewater Yumberry Pomegranate (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 120,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (1/2 Gallon)",
+      "description": "A delicious Southern Iced Tea (1/2 Gallon) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 1130,
+        "total_fat_g": 1,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 10,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 274,
+        "dietary_fiber_g": 5,
+        "sugars_g": 276,
+        "added_sugars_g": 0,
+        "protein_g": 8
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (12 fl oz)",
+      "description": "A delicious Southern Iced Tea (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 25,
+        "total_carbohydrates_g": 51,
+        "dietary_fiber_g": 1,
+        "sugars_g": 52,
+        "added_sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (16 fl oz)",
+      "description": "A delicious Southern Iced Tea (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 69,
+        "dietary_fiber_g": 1,
+        "sugars_g": 69,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (20 fl oz)",
+      "description": "A delicious Southern Iced Tea (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 86,
+        "dietary_fiber_g": 1,
+        "sugars_g": 86,
+        "added_sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (30 fl oz)",
+      "description": "A delicious Southern Iced Tea (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 530,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 128,
+        "dietary_fiber_g": 2,
+        "sugars_g": 129,
+        "added_sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Southern Iced Tea (Gallon)",
+      "description": "A delicious Southern Iced Tea (Gallon) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 2250,
+        "total_fat_g": 2,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 2,
+        "cholesterol_mg": 15,
+        "sodium_mg": 280,
+        "total_carbohydrates_g": 548,
+        "dietary_fiber_g": 9,
+        "sugars_g": 552,
+        "added_sugars_g": 0,
+        "protein_g": 15
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Starry\u00ae (12 fl oz)",
+      "description": "A delicious Starry\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 0,
+        "sugars_g": 39,
+        "added_sugars_g": 39,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Starry\u00ae (16 fl oz)",
+      "description": "A delicious Starry\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 52,
+        "dietary_fiber_g": 0,
+        "sugars_g": 52,
+        "added_sugars_g": 52,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Starry\u00ae (20 fl oz)",
+      "description": "A delicious Starry\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 240,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 65,
+        "dietary_fiber_g": 0,
+        "sugars_g": 65,
+        "added_sugars_g": 65,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Starry\u00ae (30 fl oz)",
+      "description": "A delicious Starry\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 370,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "total_carbohydrates_g": 97,
+        "dietary_fiber_g": 0,
+        "sugars_g": 97,
+        "added_sugars_g": 97,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Fruit Punch (12 fl oz)",
+      "description": "A delicious Tropicana\u00ae Fruit Punch (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 45,
+        "dietary_fiber_g": 0,
+        "sugars_g": 45,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Fruit Punch (16 fl oz)",
+      "description": "A delicious Tropicana\u00ae Fruit Punch (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 230,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 60,
+        "dietary_fiber_g": 0,
+        "sugars_g": 60,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Fruit Punch (20 fl oz)",
+      "description": "A delicious Tropicana\u00ae Fruit Punch (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 75,
+        "dietary_fiber_g": 0,
+        "sugars_g": 75,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Fruit Punch (30 fl oz)",
+      "description": "A delicious Tropicana\u00ae Fruit Punch (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 420,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 113,
+        "dietary_fiber_g": 0,
+        "sugars_g": 112,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Light Lemonade (12 fl oz)",
+      "description": "A delicious Tropicana\u00ae Light Lemonade (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 5,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Light Lemonade (16 fl oz)",
+      "description": "A delicious Tropicana\u00ae Light Lemonade (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 10,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Light Lemonade (20 fl oz)",
+      "description": "A delicious Tropicana\u00ae Light Lemonade (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 10,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 240,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Light Lemonade (30 fl oz)",
+      "description": "A delicious Tropicana\u00ae Light Lemonade (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 15,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Pink Lemonade (12 fl oz)",
+      "description": "A delicious Tropicana\u00ae Pink Lemonade (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 160,
+        "total_carbohydrates_g": 40,
+        "dietary_fiber_g": 0,
+        "sugars_g": 40,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Pink Lemonade (16 fl oz)",
+      "description": "A delicious Tropicana\u00ae Pink Lemonade (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 210,
+        "total_carbohydrates_g": 53,
+        "dietary_fiber_g": 0,
+        "sugars_g": 53,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Pink Lemonade (20 fl oz)",
+      "description": "A delicious Tropicana\u00ae Pink Lemonade (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 260,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 0,
+        "sugars_g": 67,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Pink Lemonade (30 fl oz)",
+      "description": "A delicious Tropicana\u00ae Pink Lemonade (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 390,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 390,
+        "total_carbohydrates_g": 100,
+        "dietary_fiber_g": 0,
+        "sugars_g": 100,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Twister\u00ae Orange (12 fl oz)",
+      "description": "A delicious Tropicana\u00ae Twister\u00ae Orange (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 0,
+        "sugars_g": 46,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Twister\u00ae Orange (16 fl oz)",
+      "description": "A delicious Tropicana\u00ae Twister\u00ae Orange (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 230,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 61,
+        "dietary_fiber_g": 0,
+        "sugars_g": 61,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Twister\u00ae Orange (20 fl oz)",
+      "description": "A delicious Tropicana\u00ae Twister\u00ae Orange (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "total_carbohydrates_g": 76,
+        "dietary_fiber_g": 0,
+        "sugars_g": 76,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Tropicana\u00ae Twister\u00ae Orange (30 fl oz)",
+      "description": "A delicious Tropicana\u00ae Twister\u00ae Orange (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 430,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 115,
+        "dietary_fiber_g": 0,
+        "sugars_g": 114,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Wild Cherry Pepsi\u00ae (12 fl oz)",
+      "description": "A delicious Wild Cherry Pepsi\u00ae (12 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 30,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 0,
+        "sugars_g": 42,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Wild Cherry Pepsi\u00ae (16 fl oz)",
+      "description": "A delicious Wild Cherry Pepsi\u00ae (16 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "total_carbohydrates_g": 56,
+        "dietary_fiber_g": 0,
+        "sugars_g": 56,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Wild Cherry Pepsi\u00ae (20 fl oz)",
+      "description": "A delicious Wild Cherry Pepsi\u00ae (20 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 70,
+        "dietary_fiber_g": 0,
+        "sugars_g": 70,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Wild Cherry Pepsi\u00ae (30 fl oz)",
+      "description": "A delicious Wild Cherry Pepsi\u00ae (30 fl oz) from KFC's menu.",
+      "category": "Beverages",
+      "nutrition": {
+        "calories": 390,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 105,
+        "dietary_fiber_g": 0,
+        "sugars_g": 105,
+        "added_sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Country Fried Steak without Peppered White Gravy",
+      "description": "A delicious Country Fried Steak without Peppered White Gravy from KFC's menu.",
+      "category": "Regional Menu Items",
+      "nutrition": {
+        "calories": 360,
+        "total_fat_g": 24,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 35,
+        "sodium_mg": 750,
+        "total_carbohydrates_g": 22,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 13
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Country Fried Steak with Peppered White Gravy",
+      "description": "A delicious Country Fried Steak with Peppered White Gravy from KFC's menu.",
+      "category": "Regional Menu Items",
+      "nutrition": {
+        "calories": 390,
+        "total_fat_g": 26,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 35,
+        "sodium_mg": 910,
+        "total_carbohydrates_g": 26,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 13
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC\u00ae Gizzards",
+      "description": "A delicious KFC\u00ae Gizzards from KFC's menu.",
+      "category": "Regional Menu Items",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 16,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 210,
+        "sodium_mg": 770,
+        "total_carbohydrates_g": 18,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 20
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    },
+    {
+      "name": "KFC\u00ae Livers",
+      "description": "A delicious KFC\u00ae Livers from KFC's menu.",
+      "category": "Regional Menu Items",
+      "nutrition": {
+        "calories": 230,
+        "total_fat_g": 13,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 285,
+        "sodium_mg": 750,
+        "total_carbohydrates_g": 12,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": 0,
+        "protein_g": 17
+      },
+      "allergens": [],
+      "source": "Nutritionix (KFC US Interactive Menu), KFC Official Allergen Guide 2026",
+      "confidence_score": 0.95
+    }
+  ]
+}

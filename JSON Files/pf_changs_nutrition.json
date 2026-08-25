@@ -1,0 +1,437 @@
+{
+  "brand": {
+    "name": "P.F. Chang's",
+    "website": "https://www.pfchangs.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Appetizers & Dim Sum",
+    "Soup & Salads",
+    "Entrees",
+    "Noodles & Rice",
+    "Sushi",
+    "Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "pfc_chang_chicken_lettuce_wraps",
+      "name": "P.F. Chang's Home Lettuce Wraps (Chicken)",
+      "category": "Appetizers & Dim Sum",
+      "subcategory": "Lettuce Wraps",
+      "description": "Crispy lettuce cups with spicy minced chicken, water chestnuts, scallions, and crispy rice sticks.",
+      "price": 14.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 appetizer portion (380g)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 34.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 125.0,
+        "sodium_mg": 1740.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 5.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 12.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Minced Chicken",
+        "Water Chestnuts",
+        "Garlic",
+        "Scallions",
+        "Soy Sauce",
+        "Iceberg Lettuce Cups"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/chicken-lettuce-wraps.png",
+      "product_url": "https://www.pfchangs.com/menu/appetizers/chicken-lettuce-wraps",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/pf-changs",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_spicy_crispy_shrimp",
+      "name": "Dynamite Shrimp",
+      "category": "Appetizers & Dim Sum",
+      "subcategory": "Appetizers",
+      "description": "Crispy tempura shrimp tossed in a spicy, creamy sriracha aioli.",
+      "price": 16.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 appetizer portion (290g)",
+        "weight_g": 290.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 22.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 160.0,
+        "sodium_mg": 1450.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 2.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Shellfish",
+        "Wheat",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Tempura Shrimp",
+        "Sriracha Aioli",
+        "Green Onions",
+        "Sesame Seeds"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/dynamite-shrimp.png",
+      "product_url": "https://www.pfchangs.com/menu/appetizers/dynamite-shrimp",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_crispy_honey_chicken",
+      "name": "Crispy Honey Chicken",
+      "category": "Entrees",
+      "subcategory": "Chicken Entrees",
+      "description": "Lightly battered crispy chicken strips tossed in a sweet honey garlic glaze with green onions.",
+      "price": 22.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entree portion (480g)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 1120,
+        "protein_g": 46.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 130.0,
+        "sodium_mg": 1280.0,
+        "potassium_mg": 640.0,
+        "carbohydrates_g": 148.0,
+        "fiber_g": 3.0,
+        "sugars_g": 88.0,
+        "added_sugars_g": 76.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Honey Glaze",
+        "Rice Starch",
+        "Garlic",
+        "Green Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/honey-chicken.png",
+      "product_url": "https://www.pfchangs.com/menu/entrees/honey-chicken",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_mongolian_beef",
+      "name": "Mongolian Beef",
+      "category": "Entrees",
+      "subcategory": "Beef Entrees",
+      "description": "Slice flank steak wok-seared with garlic, sweet soy glaze, and green onions over crispy rice sticks.",
+      "price": 25.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entree portion (450g)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 42.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 4.0,
+        "sugars_g": 62.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 5.4,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Flank Steak",
+        "Sweet Soy Sauce",
+        "Garlic",
+        "Scallions",
+        "Crispy Rice Sticks"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/mongolian-beef.png",
+      "product_url": "https://www.pfchangs.com/menu/entrees/mongolian-beef",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_lo_mein_chicken",
+      "name": "Lo Mein (Chicken)",
+      "category": "Noodles & Rice",
+      "subcategory": "Noodles",
+      "description": "Egg noodles wok-tossed with chicken, mushrooms, carrots, scallions, and savory soy-garlic sauce.",
+      "price": 19.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entree portion (520g)",
+        "weight_g": 520.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 44.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1980.0,
+        "potassium_mg": 590.0,
+        "carbohydrates_g": 92.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 4.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Egg Noodles",
+        "Chicken Breast",
+        "Mushrooms",
+        "Carrots",
+        "Soy Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/lo-mein.png",
+      "product_url": "https://www.pfchangs.com/menu/noodles/lo-mein",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_spicy_tuna_roll",
+      "name": "Spicy Tuna Roll",
+      "category": "Sushi",
+      "subcategory": "Sushi Rolls",
+      "description": "Fresh tuna, cucumber, avocado, spicy sriracha sauce, sesame seeds, wrapped in seasoned sushi rice and nori.",
+      "price": 14.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 roll / 8 pieces (240g)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 21.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 720.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 25.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soy"
+      ],
+      "ingredients": [
+        "Ahi Tuna",
+        "Sushi Rice",
+        "Nori",
+        "Cucumber",
+        "Avocado",
+        "Spicy Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/spicy-tuna-roll.png",
+      "product_url": "https://www.pfchangs.com/menu/sushi/spicy-tuna",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pfc_chang_great_wall_chocolate_cake",
+      "name": "Great Wall of Chocolate",
+      "category": "Desserts",
+      "subcategory": "Cakes",
+      "description": "Six decadent layers of rich chocolate cake with chocolate fudge frosting and raspberry sauce.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 slice for sharing (280g)",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 1480,
+        "protein_g": 18.0,
+        "fat_g": 78.0,
+        "saturated_fat_g": 38.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 180.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 192.0,
+        "fiber_g": 11.0,
+        "sugars_g": 142.0,
+        "added_sugars_g": 128.0,
+        "calcium_mg": 210.0,
+        "iron_mg": 8.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 25.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chocolate Cake Layers",
+        "Fudge Frosting",
+        "Raspberry Coulis"
+      ],
+      "customizations": [],
+      "image_url": "https://www.pfchangs.com/media/menu/chocolate-cake.png",
+      "product_url": "https://www.pfchangs.com/menu/desserts/chocolate-cake",
+      "sources": [
+        {
+          "url": "https://www.pfchangs.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

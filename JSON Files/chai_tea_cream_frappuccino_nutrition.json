@@ -1,0 +1,299 @@
+{
+  "brand": {
+    "name": "Chai Tea Cream Frappuccino",
+    "website": "https://www.chaiteacreamfrappuccino.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Classic Chai Tea Cream Frappuccino",
+    "Nonfat Milk Chai Cream Frappuccino",
+    "Oat Milk Chai Cream Frappuccino",
+    "Almond Milk Chai Cream Frappuccino",
+    "Chai Frappuccino Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "ccf_grande_whole_milk",
+      "name": "Chai Tea Cream Frappuccino with Whole Milk",
+      "category": "Classic Chai Tea Cream Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Spiced chai tea blended with milk, ice and crème base, topped with sweetened whipped cream and a sprinkle of cinnamon.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 4.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 0.0,
+        "sugars_g": 53.0,
+        "added_sugars_g": 47.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 60.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Whole Milk",
+        "Crème Frappuccino Syrup",
+        "Chai Tea Concentrate",
+        "Whipped Cream",
+        "Cinnamon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chaiteacreamfrappuccino.com/media/menu/chai-cream-frap-whole.png",
+      "product_url": "https://www.chaiteacreamfrappuccino.com/menu/classic/whole-milk",
+      "sources": [
+        {
+          "url": "https://www.chaiteacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chai-creme-frappuccino",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_grande_nonfat_milk",
+      "name": "Chai Tea Cream Frappuccino with Nonfat Milk (No Whip)",
+      "category": "Nonfat Milk Chai Cream Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Lighter version made with nonfat milk, spiced chai tea concentrate, and no whipped cream.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 455.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 5.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.1,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 190.0,
+        "potassium_mg": 360.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 0.0,
+        "sugars_g": 51.0,
+        "added_sugars_g": 45.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 60.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Nonfat Milk",
+        "Crème Base",
+        "Chai Tea Concentrate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chaiteacreamfrappuccino.com/media/menu/chai-cream-frap-nonfat.png",
+      "product_url": "https://www.chaiteacreamfrappuccino.com/menu/nonfat/nonfat-milk",
+      "sources": [
+        {
+          "url": "https://www.chaiteacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_grande_oat_milk",
+      "name": "Chai Tea Cream Frappuccino with Oat Milk",
+      "category": "Oat Milk Chai Cream Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Spiced chai tea blended beverage crafted with creamy oat milk.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 3.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 60.0,
+        "fiber_g": 2.0,
+        "sugars_g": 52.0,
+        "added_sugars_g": 46.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 60.0
+      },
+      "allergens": [
+        "Gluten (Oat)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Oat Milk",
+        "Crème Base",
+        "Chai Tea Concentrate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chaiteacreamfrappuccino.com/media/menu/chai-cream-frap-oat.png",
+      "product_url": "https://www.chaiteacreamfrappuccino.com/menu/plant-based/oat-milk",
+      "sources": [
+        {
+          "url": "https://www.chaiteacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_grande_almond_milk",
+      "name": "Chai Tea Cream Frappuccino with Almond Milk",
+      "category": "Almond Milk Chai Cream Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Spiced chai tea blended beverage made with nutritious almond milk.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 2.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 240.0,
+        "potassium_mg": 200.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 1.5,
+        "sugars_g": 49.0,
+        "added_sugars_g": 43.0,
+        "calcium_mg": 210.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 60.0
+      },
+      "allergens": [
+        "Tree Nuts (Almonds)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Almond Milk",
+        "Crème Base",
+        "Chai Tea Concentrate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chaiteacreamfrappuccino.com/media/menu/chai-cream-frap-almond.png",
+      "product_url": "https://www.chaiteacreamfrappuccino.com/menu/plant-based/almond-milk",
+      "sources": [
+        {
+          "url": "https://www.chaiteacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "ccf_cinnamon_topping",
+      "name": "Cinnamon Dust Topping",
+      "category": "Chai Frappuccino Toppings & Add-ons",
+      "subcategory": "Toppings",
+      "description": "Ground aromatic cinnamon sprinkled on top.",
+      "price": 0.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 serving (2g)",
+        "weight_g": 2.0
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Cinnamon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chaiteacreamfrappuccino.com/media/menu/cinnamon.png",
+      "product_url": "https://www.chaiteacreamfrappuccino.com/menu/addons/cinnamon",
+      "sources": [
+        {
+          "url": "https://www.chaiteacreamfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Matcha",
+  "slug": "matcha-nutrition-calculator",
+  "tagline": "Track nutrition for Matcha menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Matcha.",
+  "category": "Coffee & Drinks",
+  "emoji": "\ud83c\udf75",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Hot Matcha Lattes",
+      "items": [
+        {
+          "name": "Classic Hot Matcha Green Tea Latte",
+          "calories": 240,
+          "protein": 12,
+          "fat": 7,
+          "carbs": 34,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1,
+          "sodium": 130,
+          "cholesterol": 30,
+          "saturated_fat": 4.5,
+          "sugars": 32
+        },
+        {
+          "name": "Oat Milk Matcha Green Tea Latte",
+          "calories": 220,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 40,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 3,
+          "sodium": 150,
+          "saturated_fat": 0.5,
+          "sugars": 24
+        }
+      ]
+    },
+    {
+      "name": "Iced Matcha Lattes",
+      "items": [
+        {
+          "name": "Iced Matcha Green Tea Latte",
+          "calories": 200,
+          "protein": 10,
+          "fat": 5,
+          "carbs": 28,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1,
+          "sodium": 110,
+          "cholesterol": 20,
+          "saturated_fat": 3,
+          "sugars": 26
+        }
+      ]
+    },
+    {
+      "name": "Blended Matcha Drinks",
+      "items": [
+        {
+          "name": "Matcha Green Tea Cr\u00e8me Frappuccino",
+          "calories": 420,
+          "protein": 6,
+          "fat": 15,
+          "carbs": 65,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1.5,
+          "sodium": 230,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 61
+        }
+      ]
+    },
+    {
+      "name": "Matcha Toppings & Add-ons",
+      "items": [
+        {
+          "name": "Extra Matcha Powder Scoop",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "1 scoop (5g)",
+          "fiber": 1,
+          "sugars": 2
+        }
+      ]
+    }
+  ]
+}

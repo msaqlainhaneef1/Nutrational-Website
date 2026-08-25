@@ -1,0 +1,275 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Chicken & Fish",
+    "Breakfast",
+    "Sides & Sweets",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_big_mac",
+      "name": "Big Mac",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "Mouthwatering perfection starts with two 100% pure beef patties and Big Mac sauce sandwiched between a sesame seed bun.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (211g)",
+        "weight_g": 211.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 25.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 16,
+        "smart_points": 16,
+        "pts": 16
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Sesame",
+        "Egg"
+      ],
+      "ingredients": [
+        "100% Beef Patty",
+        "Sesame Seed Bun",
+        "Big Mac Sauce",
+        "American Cheese",
+        "Lettuce",
+        "Pickles",
+        "Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/big-mac.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/big-mac-0040.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_world_famous_fries_medium",
+      "name": "World Famous Fries (Medium)",
+      "category": "Sides & Sweets",
+      "subcategory": "Fries",
+      "description": "Our World Famous Fries are made from high-quality potatoes, cooked to golden perfection and salted with fine sea salt.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (117g)",
+        "weight_g": 117.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 9,
+        "smart_points": 9,
+        "pts": 9
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Natural Beef Flavor",
+        "Dextrose",
+        "Sodium Acid Pyrophosphate",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/fries-medium.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/medium-world-famous-fries.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_chicken_mcnuggets_10pc",
+      "name": "Chicken McNuggets (10 pc)",
+      "category": "Chicken & Fish",
+      "subcategory": "Nuggets",
+      "description": "Tender, juicy white meat chicken McNuggets coated in a crisp tempura batter.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "10 pieces (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 23.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 900.0,
+        "potassium_mg": 300.0,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 11,
+        "smart_points": 11,
+        "pts": 11
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "White Boneless Chicken",
+        "Water",
+        "Food Starch-Modified",
+        "Salt",
+        "Breading",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/chicken-mcnuggets-10pc.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-10-piece.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_egg_muffin",
+      "name": "Egg McMuffin",
+      "category": "Breakfast",
+      "subcategory": "Sandwiches",
+      "description": "A freshly cracked Grade A egg on a toasted English muffin, topped with lean Canadian bacon and real American cheese.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (136g)",
+        "weight_g": 136.0
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 17.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 770.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 30.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.9,
+        "caffeine_mg": 0.0
+      },
+      "weight_watchers": {
+        "points_plus": 8,
+        "smart_points": 8,
+        "pts": 8
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "English Muffin",
+        "Grade A Egg",
+        "Canadian Bacon",
+        "American Cheese",
+        "Butter"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/egg-mcmuffin.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/egg-mcmuffin-0010.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

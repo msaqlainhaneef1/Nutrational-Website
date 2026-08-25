@@ -79,78 +79,48 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
   <!-- Menu grid -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="menu-items-grid">
     {restaurant.categories.flatMap((cat) =>
-      cat.items.map((item, idx) => {
-        const itemId = `${cat.name}::${item.name}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        return (
-          <div
-            class="menu-item-card glass-card rounded-2xl p-4 flex flex-col border border-zinc-800/60 transition-all"
-            data-item-name={item.name.toLowerCase()}
-            data-item-category={cat.name}
-            data-item-cal={item.calories}
-            data-item-pro={item.protein}
-            data-item-carb={item.carbs}
-            data-item-fat={item.fat}
-            data-item-id={itemId}
-          >
-            <div class="flex justify-between items-start gap-3 mb-3">
-              <div class="flex-grow min-w-0">
-                <h4 class="font-bold text-white text-sm leading-snug">{item.name}</h4>
-                {item.servingSize && (
-                  <p class="text-[11px] text-zinc-500 mt-0.5">Serving: {item.servingSize}</p>
-                )}
+      cat.items.map((item) => (
+        <div
+          class="menu-item-card mic"
+          data-n={item.name}
+          data-c={cat.name}
+          data-k={item.calories}
+          data-p={item.protein}
+          data-cb={item.carbs}
+          data-f={item.fat}
+        >
+          <div>
+            <div class="m-hdr">
+              <div class="min-w-0 flex-grow">
+                <h4>{item.name}</h4>
+                {item.servingSize && <p>{item.servingSize}</p>}
               </div>
-              <span class="inline-flex items-center gap-1 text-xs font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 flex-shrink-0">
-                <Flame class="h-3 w-3 fill-amber-500" />
-                {item.calories} cal
-              </span>
+              <span class="cal-badge">🔥 {item.calories} cal</span>
             </div>
 
-            <div class="grid grid-cols-4 gap-1.5 text-center">
-              <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
-                <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Protein</div>
-                <div class="text-sm font-extrabold text-emerald-400">{item.protein}g</div>
-              </div>
-              <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
-                <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Carbs</div>
-                <div class="text-sm font-extrabold text-blue-400">{item.carbs}g</div>
-              </div>
-              <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
-                <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Fat</div>
-                <div class="text-sm font-extrabold text-amber-400">{item.fat}g</div>
-              </div>
-              <div class="bg-zinc-900/60 py-1.5 px-1 rounded-md border border-zinc-900">
-                <div class="text-[9px] uppercase font-bold tracking-wider text-zinc-500">Sodium</div>
-                <div class="text-sm font-extrabold text-zinc-300">{item.sodium != null ? `${Math.round(item.sodium)}mg` : '--'}</div>
-              </div>
+            <div class="m-grid">
+              <div class="mbx"><span>Pro</span><b class="p">{item.protein}g</b></div>
+              <div class="mbx"><span>Carb</span><b class="c">{item.carbs}g</b></div>
+              <div class="mbx"><span>Fat</span><b class="f">{item.fat}g</b></div>
+              <div class="mbx"><span>Sod</span><b class="s">{item.sodium != null ? `${Math.round(item.sodium)}mg` : '--'}</b></div>
             </div>
 
             {(item.sugars != null || item.cholesterol != null || item.fiber != null) && (
-              <div class="mt-2 flex items-center gap-2 flex-wrap text-[10px] text-zinc-500">
-                {item.fiber != null && <span class="inline-flex items-center gap-0.5">Fiber: <span class="text-zinc-300 font-semibold">{item.fiber}g</span></span>}
-                {item.sugars != null && <span class="inline-flex items-center gap-0.5">Sugars: <span class="text-zinc-300 font-semibold">{item.sugars}g</span></span>}
-                {item.cholesterol != null && <span class="inline-flex items-center gap-0.5">Chol: <span class="text-zinc-300 font-semibold">{Math.round(item.cholesterol)}mg</span></span>}
-                {item.saturated_fat != null && <span class="inline-flex items-center gap-0.5">Sat fat: <span class="text-zinc-300 font-semibold">{item.saturated_fat}g</span></span>}
+              <div class="n-strip">
+                {item.fiber != null && <span>Fib <strong>{item.fiber}g</strong></span>}
+                {item.sugars != null && <span>Sug <strong>{item.sugars}g</strong></span>}
+                {item.cholesterol != null && <span>Chol <strong>{Math.round(item.cholesterol)}mg</strong></span>}
+                {item.saturated_fat != null && <span>Sat <strong>{item.saturated_fat}g</strong></span>}
               </div>
             )}
-
-            <!-- Add to meal button -->
-            <button
-              type="button"
-              class="mt-3 add-to-meal-btn flex items-center justify-center gap-1.5 w-full py-2 bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 hover:border-emerald-500/40 text-emerald-400 text-xs font-bold rounded-lg transition-all"
-              data-name={item.name}
-              data-cal={item.calories}
-              data-pro={item.protein}
-              data-carb={item.carbs}
-              data-fat={item.fat}
-              data-id={itemId}
-              data-source={restaurant.name}
-            >
-              <Plus class="h-3.5 w-3.5" />
-              <span>Add to meal</span>
-            </button>
           </div>
-        );
-      })
+
+          <!-- Add to meal button -->
+          <button type="button" class="atmb">
+            <b>+</b> Add to meal
+          </button>
+        </div>
+      ))
     )}
   </div>
 
@@ -166,7 +136,7 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
   </div>
 </div>
 
-<script is:inline>
+<script is:inline define:vars={{ restaurantName: restaurant.name }}>
   (function () {
     const searchInput = document.getElementById('menu-search-input');
     const clearBtn = document.getElementById('menu-clear-search');
@@ -181,8 +151,8 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
 
     const cardData = cards.map((card) => ({
       el: card,
-      name: (card.dataset.itemName || '').toLowerCase(),
-      category: card.dataset.itemCategory || '',
+      name: (card.dataset.n || '').toLowerCase(),
+      category: card.dataset.c || '',
     }));
 
     function apply() {
@@ -252,25 +222,134 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
     });
 
     // Wire up "Add to meal" buttons
-    document.querySelectorAll('.add-to-meal-btn').forEach((btn) => {
+    document.querySelectorAll('.atmb').forEach((btn) => {
       btn.addEventListener('click', () => {
+        const card = btn.closest('.menu-item-card');
+        if (!card) return;
+        const name = card.dataset.n || 'Unknown item';
+        const cat = card.dataset.c || '';
         const item = {
-          id: btn.dataset.id || btn.dataset.name || Math.random().toString(36),
-          name: btn.dataset.name || 'Unknown item',
-          source: btn.dataset.source || 'Restaurant',
-          calories: parseFloat(btn.dataset.cal || '0'),
-          protein: parseFloat(btn.dataset.pro || '0'),
-          carbs: parseFloat(btn.dataset.carb || '0'),
-          fat: parseFloat(btn.dataset.fat || '0'),
+          id: `${cat}::${name}`,
+          name: name,
+          source: restaurantName || 'Restaurant',
+          calories: parseFloat(card.dataset.k || '0'),
+          protein: parseFloat(card.dataset.p || '0'),
+          carbs: parseFloat(card.dataset.cb || '0'),
+          fat: parseFloat(card.dataset.f || '0'),
         };
         if (window.nsAddToMeal) {
           window.nsAddToMeal(item);
-          // Brief visual feedback
           const original = btn.innerHTML;
-          btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg><span>Added</span>';
+          btn.innerHTML = '<b>✓</b> Added';
           setTimeout(() => { btn.innerHTML = original; }, 1200);
         }
       });
     });
   })();
 </script>
+
+<style is:global>
+  .mic {
+    background-color: rgba(24, 24, 27, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(39, 39, 42, 0.6);
+    transition: all 0.2s ease;
+  }
+  .m-hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .m-hdr h4 {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.375;
+  }
+  .m-hdr p {
+    font-size: 11px;
+    color: #71717a;
+    margin-top: 0.125rem;
+  }
+  .cal-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fbbf24;
+    background-color: rgba(245, 158, 11, 0.1);
+    padding: 0.125rem 0.625rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    flex-shrink: 0;
+  }
+  .m-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.375rem;
+    text-align: center;
+  }
+  .mbx {
+    background-color: rgba(24, 24, 27, 0.6);
+    padding: 0.375rem 0.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(39, 39, 42, 0.5);
+  }
+  .mbx span {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #71717a;
+    display: block;
+  }
+  .mbx b {
+    font-size: 0.875rem;
+    font-weight: 800;
+    display: block;
+  }
+  .mbx b.p { color: #34d399; }
+  .mbx b.c { color: #60a5fa; }
+  .mbx b.f { color: #fbbf24; }
+  .mbx b.s { color: #d4d4d8; }
+  .n-strip {
+    font-size: 10px;
+    color: #71717a;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  .n-strip strong {
+    color: #d4d4d8;
+    font-weight: 600;
+  }
+  .atmb {
+    margin-top: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    color: #34d399;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    transition: all 0.15s ease;
+  }
+  .atmb:hover {
+    background-color: rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.4);
+  }
+</style>

@@ -1,0 +1,297 @@
+{
+  "brand": {
+    "name": "Wendy's French Fries",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Natural-Cut French Fries",
+    "Loaded French Fries",
+    "Dipping Sauces & Seasonings"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_fries_small",
+      "name": "Natural-Cut French Fries (Small)",
+      "category": "Natural-Cut French Fries",
+      "subcategory": "Fries",
+      "description": "Hot, crispy, natural-cut potatoes sprinkled with sea salt.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (96g)",
+        "weight_g": 96.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": 440.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil (Soybean, Canola, and/or Cottonseed Oils)",
+        "Sea Salt",
+        "Disodium Dihydrogen Pyrophosphate",
+        "Dextrose"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/fries-small.png",
+      "product_url": "https://www.wendys.com/menu/sides/natural-cut-french-fries-small",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/wendys/french-fries-small",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_fries_medium",
+      "name": "Natural-Cut French Fries (Medium)",
+      "category": "Natural-Cut French Fries",
+      "subcategory": "Fries",
+      "description": "Hot, crispy, natural-cut potatoes sprinkled with sea salt in a medium size.",
+      "price": 2.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (136g)",
+        "weight_g": 136.0
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 6.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 540.0,
+        "potassium_mg": 630.0,
+        "carbohydrates_g": 59.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Sea Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/fries-medium.png",
+      "product_url": "https://www.wendys.com/menu/sides/natural-cut-french-fries-medium",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_fries_large",
+      "name": "Natural-Cut French Fries (Large)",
+      "category": "Natural-Cut French Fries",
+      "subcategory": "Fries",
+      "description": "Hot, crispy, natural-cut potatoes sprinkled with sea salt in a large size.",
+      "price": 3.39,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (179g)",
+        "weight_g": 179.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 7.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 830.0,
+        "carbohydrates_g": 77.0,
+        "fiber_g": 7.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.3,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Sea Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/fries-large.png",
+      "product_url": "https://www.wendys.com/menu/sides/natural-cut-french-fries-large",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_loaded_cheese_fries",
+      "name": "Loaded Cheese Fries",
+      "category": "Loaded French Fries",
+      "subcategory": "Fries",
+      "description": "Natural-cut french fries topped with warm cheddar cheese sauce, shredded cheddar cheese, and applewood smoked bacon.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (210g)",
+        "weight_g": 210.0
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 14.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 47.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 1.6,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Natural-Cut French Fries",
+        "Cheddar Cheese Sauce",
+        "Shredded Cheddar Cheese",
+        "Applewood Smoked Bacon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/loaded-cheese-fries.png",
+      "product_url": "https://www.wendys.com/menu/sides/loaded-cheese-fries",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_honey_mustard_sauce",
+      "name": "Honey Mustard Dipping Sauce",
+      "category": "Dipping Sauces & Seasonings",
+      "subcategory": "Sauces",
+      "description": "Sweet and tangy honey mustard dipping sauce.",
+      "price": 0.3,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 container (28g)",
+        "weight_g": 28.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 190.0,
+        "potassium_mg": 25.0,
+        "carbohydrates_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [
+        "Soybean Oil",
+        "Water",
+        "High Fructose Corn Syrup",
+        "Honey",
+        "Distilled Vinegar",
+        "Egg Yolk",
+        "Mustard Seed"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/honey-mustard.png",
+      "product_url": "https://www.wendys.com/menu/sauces/honey-mustard",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

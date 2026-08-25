@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "Italian Subs"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_boss_6_inch",
+      "name": "#6 The Boss (6-Inch)",
+      "category": "Subway Series",
+      "subcategory": "Meatball & Italian Subs",
+      "description": "Meatballs in marinara sauce, pepperoni, and mozzarella cheese on freshly baked artisan Italian bread.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6-inch sub (270 g)",
+        "weight_g": 270.0
+      },
+      "nutrition": {
+        "calories": 580,
+        "protein_g": 29.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 1400.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": 200.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread (Enriched Wheat Flour, Water, Yeast, Sugar, Salt, Soybean Oil)",
+        "Meatballs (Beef, Pork, Water, Breadcrumbs, Seasonings)",
+        "Marinara Sauce (Tomato Puree, Diced Tomatoes, Olive Oil, Garlic, Spices, Salt)",
+        "Pepperoni (Pork, Beef, Salt, Dextrose, Spices, Lactic Acid Starter Culture, Sodium Nitrite)",
+        "Mozzarella Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes)"
+      ],
+      "customizations": [
+        "Footlong Size Option (1160 Calories)",
+        "Footlong Pro Size Option (1810 Calories)",
+        "Choice of Bread",
+        "Add Veggies",
+        "Extra Cheese"
+      ],
+      "image_url": "https://www.subway.com/en-us/menunutrition/menuitem/the-boss",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menuitem/the-boss",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/the-boss/6",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

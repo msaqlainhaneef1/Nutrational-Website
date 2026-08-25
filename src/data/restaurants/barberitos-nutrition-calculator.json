@@ -1,0 +1,496 @@
+{
+  "name": "Barberitos",
+  "slug": "barberitos-nutrition-calculator",
+  "tagline": "Track nutrition for Barberitos menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 38 menu items at Barberitos.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 38,
+  "categories": [
+    {
+      "name": "Signature Favs",
+      "items": [
+        {
+          "name": "The Better Chicken Burrito",
+          "calories": 950,
+          "protein": 48,
+          "fat": 32,
+          "carbs": 115,
+          "servingSize": "1 burrito with chips & salsa",
+          "fiber": 10,
+          "sodium": 1850,
+          "cholesterol": 95,
+          "saturated_fat": 12,
+          "sugars": 6
+        },
+        {
+          "name": "Philly Cheesesteak Burrito",
+          "calories": 1020,
+          "protein": 52,
+          "fat": 36,
+          "carbs": 112,
+          "servingSize": "1 burrito with chips & salsa",
+          "fiber": 9,
+          "sodium": 1980,
+          "cholesterol": 110,
+          "saturated_fat": 14,
+          "sugars": 5
+        },
+        {
+          "name": "Chicken Bacon Chipotle Ranch Quesadilla/Burrito",
+          "calories": 1100,
+          "protein": 58,
+          "fat": 48,
+          "carbs": 98,
+          "servingSize": "1 entree with chips & salsa",
+          "fiber": 7,
+          "sodium": 2150,
+          "cholesterol": 140,
+          "saturated_fat": 18,
+          "sugars": 6
+        },
+        {
+          "name": "Avocado BLT Bowl",
+          "calories": 780,
+          "protein": 32,
+          "fat": 42,
+          "carbs": 78,
+          "servingSize": "1 bowl with chips & salsa",
+          "fiber": 12,
+          "sodium": 1520,
+          "cholesterol": 65,
+          "saturated_fat": 12,
+          "sugars": 5
+        },
+        {
+          "name": "Southwest Salad",
+          "calories": 710,
+          "protein": 45,
+          "fat": 35,
+          "carbs": 62,
+          "servingSize": "1 salad with chips & salsa",
+          "fiber": 9,
+          "sodium": 1450,
+          "cholesterol": 85,
+          "saturated_fat": 10,
+          "sugars": 6
+        },
+        {
+          "name": "Traditional Taco Salad",
+          "calories": 980,
+          "protein": 42,
+          "fat": 58,
+          "carbs": 78,
+          "servingSize": "1 salad with chips & salsa",
+          "fiber": 11,
+          "sodium": 1780,
+          "cholesterol": 115,
+          "saturated_fat": 18,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Tortillas & Shells",
+      "items": [
+        {
+          "name": "Flour Tortilla",
+          "calories": 300,
+          "protein": 10,
+          "fat": 8,
+          "carbs": 47,
+          "servingSize": "1 tortilla",
+          "fiber": 3,
+          "sodium": 770,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Wheat Tortilla",
+          "calories": 250,
+          "protein": 9,
+          "fat": 8,
+          "carbs": 37,
+          "servingSize": "1 tortilla",
+          "fiber": 5,
+          "sodium": 770,
+          "saturated_fat": 1.5,
+          "sugars": 2
+        },
+        {
+          "name": "Chipotle Tortilla",
+          "calories": 260,
+          "protein": 8,
+          "fat": 3,
+          "carbs": 39,
+          "servingSize": "1 tortilla",
+          "fiber": 2,
+          "sodium": 880,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Spinach Tortilla",
+          "calories": 260,
+          "protein": 8,
+          "fat": 2,
+          "carbs": 41,
+          "servingSize": "1 tortilla",
+          "fiber": 4,
+          "sodium": 700,
+          "saturated_fat": 0.5,
+          "sugars": 2
+        },
+        {
+          "name": "Hard Taco Shell",
+          "calories": 60,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 7,
+          "servingSize": "1 shell",
+          "fiber": 1,
+          "sodium": 45,
+          "saturated_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Proteins",
+      "items": [
+        {
+          "name": "Chicken (Burrito/Salad Portion)",
+          "calories": 130,
+          "protein": 24,
+          "fat": 3.5,
+          "carbs": 1,
+          "servingSize": "1 serving (standard burrito portion)",
+          "sodium": 380,
+          "cholesterol": 70,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Chicken (Bowl Portion)",
+          "calories": 190,
+          "protein": 36,
+          "fat": 5,
+          "carbs": 1.5,
+          "servingSize": "1 bowl portion",
+          "sodium": 520,
+          "cholesterol": 95,
+          "saturated_fat": 1.5
+        },
+        {
+          "name": "Steak",
+          "calories": 180,
+          "protein": 25,
+          "fat": 7,
+          "carbs": 1,
+          "servingSize": "1 standard portion",
+          "sodium": 460,
+          "cholesterol": 75,
+          "saturated_fat": 2.5
+        },
+        {
+          "name": "Tofu",
+          "calories": 110,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 4,
+          "servingSize": "1 standard portion",
+          "fiber": 1,
+          "sodium": 320,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Ground Beef",
+          "calories": 210,
+          "protein": 18,
+          "fat": 14,
+          "carbs": 2,
+          "servingSize": "1 standard portion",
+          "fiber": 0.5,
+          "sodium": 410,
+          "cholesterol": 60,
+          "saturated_fat": 5
+        },
+        {
+          "name": "Ground Turkey",
+          "calories": 160,
+          "protein": 20,
+          "fat": 8,
+          "carbs": 2,
+          "servingSize": "1 standard portion",
+          "fiber": 0.5,
+          "sodium": 390,
+          "cholesterol": 70,
+          "saturated_fat": 2
+        }
+      ]
+    },
+    {
+      "name": "Rice, Beans & Cheese",
+      "items": [
+        {
+          "name": "Rice",
+          "calories": 120,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 28,
+          "servingSize": "1 serving (3 oz)",
+          "fiber": 1,
+          "sodium": 250
+        },
+        {
+          "name": "Black Beans",
+          "calories": 60,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 11,
+          "servingSize": "1 serving (3 oz)",
+          "fiber": 4,
+          "sodium": 220
+        },
+        {
+          "name": "Pinto Beans",
+          "calories": 90,
+          "protein": 5,
+          "fat": 0.5,
+          "carbs": 16,
+          "servingSize": "1 serving (3 oz)",
+          "fiber": 5,
+          "sodium": 240
+        },
+        {
+          "name": "Shredded Cheese",
+          "calories": 160,
+          "protein": 10,
+          "fat": 13,
+          "carbs": 0,
+          "servingSize": "1 serving (1.5 oz)",
+          "sodium": 270,
+          "cholesterol": 35,
+          "saturated_fat": 8
+        }
+      ]
+    },
+    {
+      "name": "Toppings & Veggies",
+      "items": [
+        {
+          "name": "Romaine Lettuce",
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Pico de Gallo",
+          "calories": 10,
+          "protein": 0.5,
+          "fat": 0,
+          "carbs": 2.5,
+          "servingSize": "1 serving",
+          "fiber": 0.5,
+          "sodium": 100,
+          "sugars": 1
+        },
+        {
+          "name": "Corn Salsa",
+          "calories": 40,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 150,
+          "sugars": 3
+        },
+        {
+          "name": "Fajita Veggies (Mushrooms & Peppers)",
+          "calories": 25,
+          "protein": 1,
+          "fat": 1.5,
+          "carbs": 3,
+          "servingSize": "1 serving",
+          "fiber": 1,
+          "sodium": 110,
+          "sugars": 1.5
+        },
+        {
+          "name": "Sour Cream",
+          "calories": 60,
+          "protein": 1,
+          "fat": 5,
+          "carbs": 1,
+          "servingSize": "1 serving (1 oz)",
+          "sodium": 20,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Salsas & Sauces",
+      "items": [
+        {
+          "name": "Heavy-D Salsa (Mild)",
+          "calories": 20,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "1 serving (2 oz)",
+          "fiber": 1,
+          "sodium": 280,
+          "sugars": 2
+        },
+        {
+          "name": "Tomatillo Salsa (Medium)",
+          "calories": 25,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 5,
+          "servingSize": "1 serving (2 oz)",
+          "fiber": 1,
+          "sodium": 310,
+          "sugars": 2.5
+        },
+        {
+          "name": "Chipotle Ranch",
+          "calories": 190,
+          "protein": 1,
+          "fat": 20,
+          "carbs": 3,
+          "servingSize": "1 serving (2 oz)",
+          "sodium": 320,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Southwest Vinaigrette",
+          "calories": 230,
+          "protein": 0,
+          "fat": 26,
+          "carbs": 2,
+          "servingSize": "1 serving (2 oz)",
+          "sodium": 380,
+          "saturated_fat": 3.5,
+          "sugars": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Add-Ons & Sides",
+      "items": [
+        {
+          "name": "Guacamole",
+          "calories": 90,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 5,
+          "servingSize": "1 serving (2 oz)",
+          "fiber": 3,
+          "sodium": 180,
+          "saturated_fat": 1,
+          "sugars": 0.5
+        },
+        {
+          "name": "Cheese Dip (Queso) - Small",
+          "calories": 200,
+          "protein": 20,
+          "fat": 12,
+          "carbs": 2,
+          "servingSize": "Small serving (4 oz)",
+          "sodium": 520,
+          "cholesterol": 40,
+          "saturated_fat": 7,
+          "sugars": 1
+        },
+        {
+          "name": "Cheese Dip (Queso) - Large",
+          "calories": 780,
+          "protein": 81,
+          "fat": 40,
+          "carbs": 8,
+          "servingSize": "Large serving (16 oz)",
+          "sodium": 2080,
+          "cholesterol": 160,
+          "saturated_fat": 25,
+          "sugars": 4
+        },
+        {
+          "name": "Nacho Chips & Salsa",
+          "calories": 170,
+          "protein": 4,
+          "fat": 4.5,
+          "carbs": 30,
+          "servingSize": "1 serving (1.75 oz chips)",
+          "fiber": 2,
+          "sodium": 160,
+          "saturated_fat": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Fountain Soft Drinks",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "servingSize": "16 fl oz",
+          "sodium": 45,
+          "sugars": 39
+        },
+        {
+          "name": "Sweet Tea",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 35,
+          "servingSize": "16 fl oz",
+          "sodium": 10,
+          "sugars": 35
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 280,
+          "protein": 3,
+          "fat": 14,
+          "carbs": 38,
+          "servingSize": "1 cookie",
+          "fiber": 1,
+          "sodium": 190,
+          "cholesterol": 20,
+          "saturated_fat": 7,
+          "sugars": 24
+        },
+        {
+          "name": "Churro Bites",
+          "calories": 310,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 40,
+          "servingSize": "1 order (5 bites)",
+          "fiber": 2,
+          "sodium": 220,
+          "saturated_fat": 3,
+          "sugars": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hamburgers",
+    "Featured"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_son_of_baconator",
+      "name": "Son of Baconator",
+      "category": "Hamburgers",
+      "subcategory": "Beef",
+      "description": "Two fresh beef patties, American cheese, six strips of Applewood smoked bacon, ketchup, and mayonnaise on a toasted bun.",
+      "price": 5.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (218g)",
+        "weight_g": 218.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 34.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 135.0,
+        "sodium_mg": 1390.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Fresh Beef Patties",
+        "American Cheese",
+        "Applewood Smoked Bacon",
+        "Ketchup",
+        "Mayonnaise",
+        "Bun"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/son-of-baconator.png",
+      "product_url": "https://www.wendys.com/menu/son-of-baconator",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

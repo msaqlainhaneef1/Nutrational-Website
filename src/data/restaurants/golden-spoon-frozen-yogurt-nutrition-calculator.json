@@ -1,0 +1,115 @@
+{
+  "name": "Golden Spoon Frozen Yogurt",
+  "slug": "golden-spoon-frozen-yogurt-nutrition-calculator",
+  "tagline": "Track nutrition for Golden Spoon Frozen Yogurt menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 7 menu items at Golden Spoon Frozen Yogurt.",
+  "category": "Desserts & Treats",
+  "emoji": "\ud83c\udf66",
+  "itemCount": 7,
+  "categories": [
+    {
+      "name": "Nonfat Frozen Yogurt",
+      "items": [
+        {
+          "name": "Old Fashioned Vanilla Frozen Yogurt",
+          "calories": 110,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 24,
+          "servingSize": "0.5 cup",
+          "sodium": 115,
+          "sugars": 18
+        },
+        {
+          "name": "Just Chocolate Frozen Yogurt",
+          "calories": 110,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 24,
+          "servingSize": "0.5 cup",
+          "fiber": 1,
+          "sodium": 105,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Lowfat Frozen Yogurt",
+      "items": [
+        {
+          "name": "Peanut Butter Frozen Yogurt",
+          "calories": 130,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 24,
+          "servingSize": "0.5 cup",
+          "fiber": 1,
+          "sodium": 135,
+          "sugars": 18
+        }
+      ]
+    },
+    {
+      "name": "No Sugar Added (NSA) Frozen Yogurt",
+      "items": [
+        {
+          "name": "French Vanilla Frozen Yogurt (NSA)",
+          "calories": 90,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 20,
+          "servingSize": "0.5 cup",
+          "fiber": 3,
+          "sodium": 80,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sorbet (Dairy-Free)",
+      "items": [
+        {
+          "name": "Pineapple Sorbet",
+          "calories": 100,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 22,
+          "servingSize": "0.5 cup",
+          "sodium": 100,
+          "sugars": 19
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "items": [
+        {
+          "name": "Gummy Bears",
+          "calories": 45,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 11,
+          "servingSize": "1 scoop",
+          "sodium": 5,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Treats & Others",
+      "items": [
+        {
+          "name": "Edible Cookie Dough",
+          "calories": 130,
+          "protein": 1,
+          "fat": 6,
+          "carbs": 18,
+          "servingSize": "1 oz",
+          "sodium": 80,
+          "saturated_fat": 3,
+          "sugars": 12
+        }
+      ]
+    }
+  ]
+}

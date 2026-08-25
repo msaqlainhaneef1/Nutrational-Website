@@ -1,0 +1,313 @@
+{
+  "brand": {
+    "name": "Peppermint Mocha",
+    "website": "https://www.peppermintmocha.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Peppermint Mocha",
+    "Iced Peppermint Mocha",
+    "Blended Peppermint Mocha",
+    "Peppermint Mocha Variations",
+    "Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "pm_hot_classic",
+      "name": "Classic Hot Peppermint Mocha",
+      "category": "Hot Peppermint Mocha",
+      "subcategory": "Hot Beverages",
+      "description": "Signature espresso combined with steamed whole milk, rich mocha sauce, and peppermint syrup, topped with whipped cream and dark chocolate curls.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 440,
+        "protein_g": 13.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 580.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 4.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 46.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Espresso",
+        "Steamed Whole Milk",
+        "Mocha Sauce",
+        "Peppermint Syrup",
+        "Whipped Cream",
+        "Chocolate Curls"
+      ],
+      "customizations": [],
+      "image_url": "https://www.peppermintmocha.com/media/menu/hot-peppermint-mocha.png",
+      "product_url": "https://www.peppermintmocha.com/menu/hot/classic-mocha",
+      "sources": [
+        {
+          "url": "https://www.peppermintmocha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/peppermint-mocha",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pm_iced_classic",
+      "name": "Iced Peppermint Mocha",
+      "category": "Iced Peppermint Mocha",
+      "subcategory": "Iced Beverages",
+      "description": "Signature espresso, milk, mocha sauce, and peppermint syrup served over ice, topped with whipped cream and chocolate curls.",
+      "price": 5.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 11.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 150.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 60.0,
+        "fiber_g": 3.5,
+        "sugars_g": 52.0,
+        "added_sugars_g": 44.0,
+        "calcium_mg": 360.0,
+        "iron_mg": 1.4,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Espresso",
+        "Milk",
+        "Mocha Sauce",
+        "Peppermint Syrup",
+        "Ice",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.peppermintmocha.com/media/menu/iced-peppermint-mocha.png",
+      "product_url": "https://www.peppermintmocha.com/menu/iced/classic-mocha",
+      "sources": [
+        {
+          "url": "https://www.peppermintmocha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pm_blended_frappe",
+      "name": "Peppermint Mocha Frappe",
+      "category": "Blended Peppermint Mocha",
+      "subcategory": "Blended Beverages",
+      "description": "Blended ice drink with espresso, milk, mocha sauce, and peppermint syrup, topped with whipped cream.",
+      "price": 6.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 510.0
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 9.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 3.0,
+        "sugars_g": 68.0,
+        "added_sugars_g": 58.0,
+        "calcium_mg": 310.0,
+        "iron_mg": 1.6,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 130.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Coffee Base",
+        "Mocha Sauce",
+        "Peppermint Syrup",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.peppermintmocha.com/media/menu/blended-peppermint-mocha.png",
+      "product_url": "https://www.peppermintmocha.com/menu/blended/frappe",
+      "sources": [
+        {
+          "url": "https://www.peppermintmocha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pm_oat_milk_variant",
+      "name": "Oat Milk Peppermint Mocha",
+      "category": "Peppermint Mocha Variations",
+      "subcategory": "Plant-Based",
+      "description": "Classic peppermint mocha crafted with creamy oat milk and vegan chocolate curls.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 4.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 180.0,
+        "potassium_mg": 390.0,
+        "carbohydrates_g": 70.0,
+        "fiber_g": 5.0,
+        "sugars_g": 48.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Soy",
+        "Gluten (Oat)"
+      ],
+      "ingredients": [
+        "Espresso",
+        "Oat Milk",
+        "Mocha Sauce",
+        "Peppermint Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.peppermintmocha.com/media/menu/oat-milk-mocha.png",
+      "product_url": "https://www.peppermintmocha.com/menu/variations/oat-milk",
+      "sources": [
+        {
+          "url": "https://www.peppermintmocha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pm_chocolate_curls_topping",
+      "name": "Dark Chocolate Curls Topping",
+      "category": "Toppings & Add-ons",
+      "subcategory": "Toppings",
+      "description": "Crisp dark chocolate shavings sprinkled on top of beverages.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 portion (15g)",
+        "weight_g": 15.0
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 1.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 5.0,
+        "potassium_mg": 90.0,
+        "carbohydrates_g": 9.0,
+        "fiber_g": 1.5,
+        "sugars_g": 7.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 5.0
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [
+        "Sugar",
+        "Unsweetened Chocolate",
+        "Cocoa Butter",
+        "Soy Lecithin",
+        "Vanilla"
+      ],
+      "customizations": [],
+      "image_url": "https://www.peppermintmocha.com/media/menu/chocolate-curls.png",
+      "product_url": "https://www.peppermintmocha.com/menu/addons/chocolate-curls",
+      "sources": [
+        {
+          "url": "https://www.peppermintmocha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

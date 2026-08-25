@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Domino's Pizza",
+    "website": "https://www.dominos.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Dessert"
+  ],
+  "products": [
+    {
+      "product_id": "dominos-marbled-cookie-brownie",
+      "name": "Marbled Cookie Brownie",
+      "category": "Dessert",
+      "subcategory": "Desserts",
+      "description": "Oven baked goodness: a decadent combination of gooey milk chocolate chunk cookie and fudgy brownie, freshly baked in our ovens.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 brownie",
+        "weight_g": 43.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 2.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 125.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 1.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Flour",
+        "Sugar",
+        "Chocolate Chunks",
+        "Cocoa",
+        "Butter",
+        "Eggs",
+        "Soy Lecithin"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dominos.com/en/menu/dessert/F_MRBRWNE/dominos_marbled_cookie_brownie",
+      "product_url": "https://www.dominos.com/en/menu/dessert/F_MRBRWNE/dominos_marbled_cookie_brownie",
+      "sources": [
+        {
+          "url": "https://cache.dominos.com/olo/6_148_5/assets/build/market/US/_en/pdf/DominosNutritionGuide.pdf",
+          "source_type": "Official PDF Nutrition Guide",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.dominos.com/en/menu/dessert/F_MRBRWNE/dominos_marbled_cookie_brownie",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

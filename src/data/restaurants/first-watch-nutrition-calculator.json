@@ -5,7 +5,7 @@
   "description": "Calculate First Watch calories, protein, carbs and fat. Free First Watch nutrition calculator with complete menu data for all items.",
   "category": "Breakfast & Healthy",
   "emoji": "\ud83c\udf7d",
-  "itemCount": 86,
+  "itemCount": 88,
   "categories": [
     {
       "name": "Seasonal",
@@ -1061,6 +1061,40 @@
           "cholesterol": 25,
           "saturated_fat": 24,
           "sugars": 82
+        }
+      ]
+    },
+    {
+      "name": "Juice Bar & Beverages",
+      "items": [
+        {
+          "name": "Power Kale Juice",
+          "calories": 130,
+          "protein": 3,
+          "fat": 0.5,
+          "carbs": 31,
+          "servingSize": "1 glass (300ml)",
+          "fiber": 4,
+          "sodium": 65,
+          "sugars": 22
+        }
+      ]
+    },
+    {
+      "name": "Egg-Sclusives & Omelets",
+      "items": [
+        {
+          "name": "Farmhouse Skillet Hash",
+          "calories": 920,
+          "protein": 42,
+          "fat": 64,
+          "carbs": 46,
+          "servingSize": "1 skillet (480g)",
+          "fiber": 7,
+          "sodium": 1450,
+          "cholesterol": 480,
+          "saturated_fat": 22,
+          "sugars": 6
         }
       ]
     }

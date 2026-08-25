@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Cafe Rio",
+    "website": "https://www.caferio.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Mexican Grill",
+    "Weight Watchers"
+  ],
+  "products": [
+    {
+      "product_id": "cafe_rio_sweet_pork_salad_ww",
+      "name": "Sweet Pork Salad (Weight Watchers Custom)",
+      "category": "Mexican Grill",
+      "subcategory": "Salads",
+      "description": "Cafe Rio Sweet Pork salad with customized light ingredients for Weight Watchers tracking.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad (450g)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 32.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 1250.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 82.0,
+        "fiber_g": 9.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Sweet Pork",
+        "Black Beans",
+        "Cilantro Lime Rice",
+        "Romaine Lettuce",
+        "Pico de Gallo",
+        "Cotija Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caferio.com/wp-content/uploads/2020/0/salad.png",
+      "product_url": "https://www.caferio.com/nutrition",
+      "sources": [
+        {
+          "url": "https://www.caferio.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

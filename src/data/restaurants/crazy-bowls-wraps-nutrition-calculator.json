@@ -1,0 +1,338 @@
+{
+  "name": "Crazy Bowls & Wraps",
+  "slug": "crazy-bowls-wraps-nutrition-calculator",
+  "tagline": "Track nutrition for Crazy Bowls & Wraps menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 41 menu items at Crazy Bowls & Wraps.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 41,
+  "categories": [
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "BBQ Bowl",
+          "calories": 410,
+          "protein": 33,
+          "fat": 0,
+          "carbs": 50
+        },
+        {
+          "name": "Buffalo Bowl",
+          "calories": 320,
+          "protein": 34,
+          "fat": 0,
+          "carbs": 24
+        },
+        {
+          "name": "Caesar Bowl",
+          "calories": 480,
+          "protein": 34,
+          "fat": 0,
+          "carbs": 26
+        },
+        {
+          "name": "Jerk Bowl",
+          "calories": 770,
+          "protein": 47,
+          "fat": 0,
+          "carbs": 96
+        },
+        {
+          "name": "Fajita Bowl",
+          "calories": 710,
+          "protein": 43,
+          "fat": 0,
+          "carbs": 98
+        },
+        {
+          "name": "High-Protein Bowl",
+          "calories": 380,
+          "protein": 62,
+          "fat": 0,
+          "carbs": 23
+        },
+        {
+          "name": "Pesto Bowl",
+          "calories": 670,
+          "protein": 46,
+          "fat": 0,
+          "carbs": 71
+        },
+        {
+          "name": "Poke Bowl",
+          "calories": 410,
+          "protein": 34,
+          "fat": 13,
+          "carbs": 38
+        },
+        {
+          "name": "Power Bowl",
+          "calories": 680,
+          "protein": 42,
+          "fat": 0,
+          "carbs": 92
+        },
+        {
+          "name": "Stir Fry Bowl",
+          "calories": 530,
+          "protein": 40,
+          "fat": 0,
+          "carbs": 83
+        },
+        {
+          "name": "Sweet & Sour Bowl",
+          "calories": 560,
+          "protein": 35,
+          "fat": 0,
+          "carbs": 85
+        },
+        {
+          "name": "Teriyaki Bowl",
+          "calories": 650,
+          "protein": 41,
+          "fat": 0,
+          "carbs": 110
+        },
+        {
+          "name": "Thai Bowl",
+          "calories": 710,
+          "protein": 45,
+          "fat": 0,
+          "carbs": 97
+        },
+        {
+          "name": "Mediterranean Bowl",
+          "calories": 900,
+          "protein": 44,
+          "fat": 0,
+          "carbs": 81
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Healthy Burrito",
+          "calories": 270,
+          "protein": 21,
+          "fat": 0,
+          "carbs": 11
+        },
+        {
+          "name": "Lettuce Wraps",
+          "calories": 150,
+          "protein": 12,
+          "fat": 0,
+          "carbs": 8
+        }
+      ]
+    },
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "BBQ Chicken Quesadilla",
+          "calories": 690,
+          "protein": 50,
+          "fat": 25,
+          "carbs": 70,
+          "fiber": 2,
+          "sodium": 1080,
+          "cholesterol": 150,
+          "saturated_fat": 14,
+          "sugars": 21
+        },
+        {
+          "name": "Chicken Tex Mex Egg Roll",
+          "calories": 270,
+          "protein": 9,
+          "fat": 0,
+          "carbs": 21
+        },
+        {
+          "name": "Roasted Cauliflower",
+          "calories": 570,
+          "protein": 8,
+          "fat": 0,
+          "carbs": 19
+        },
+        {
+          "name": "GF Quinoa Falafel",
+          "calories": 390,
+          "protein": 12,
+          "fat": 0,
+          "carbs": 37
+        },
+        {
+          "name": "Garlic Ginger Edamame",
+          "calories": 340,
+          "protein": 25,
+          "fat": 0,
+          "carbs": 24
+        },
+        {
+          "name": "Salt & Lime Edamame",
+          "calories": 240,
+          "protein": 20,
+          "fat": 0,
+          "carbs": 24
+        },
+        {
+          "name": "Teriyaki Edamame",
+          "calories": 390,
+          "protein": 22,
+          "fat": 0,
+          "carbs": 56
+        },
+        {
+          "name": "Spicy Edamame",
+          "calories": 250,
+          "protein": 21,
+          "fat": 0,
+          "carbs": 22
+        },
+        {
+          "name": "Crispy Chicken Bites",
+          "calories": 440,
+          "protein": 44,
+          "fat": 0,
+          "carbs": 11
+        },
+        {
+          "name": "Vegetable Wontons",
+          "calories": 340,
+          "protein": 7,
+          "fat": 0,
+          "carbs": 41
+        },
+        {
+          "name": "Lobster Rangoon",
+          "calories": 500,
+          "protein": 12,
+          "fat": 0,
+          "carbs": 73
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Beans & Rice",
+          "calories": 170,
+          "protein": 6,
+          "fat": 0,
+          "carbs": 29
+        },
+        {
+          "name": "Banana",
+          "calories": 105,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 27
+        },
+        {
+          "name": "Carrots",
+          "calories": 80,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        },
+        {
+          "name": "Chips",
+          "calories": 180,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 18
+        },
+        {
+          "name": "Broccoli with Olive Oil & Herb",
+          "calories": 210,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 5
+        },
+        {
+          "name": "Mixed Veggies",
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 12
+        },
+        {
+          "name": "Spicy Slaw",
+          "calories": 110,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 12
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Multigrain Quinoa Salad",
+          "calories": 870,
+          "protein": 19,
+          "fat": 0,
+          "carbs": 65
+        },
+        {
+          "name": "Santa Fe Salad",
+          "calories": 260,
+          "protein": 9,
+          "fat": 0,
+          "carbs": 27
+        },
+        {
+          "name": "Kale & Quinoa Salad",
+          "calories": 730,
+          "protein": 15,
+          "fat": 0,
+          "carbs": 50
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Breakfast Bowl",
+          "calories": 280,
+          "protein": 23,
+          "fat": 0,
+          "carbs": 1
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "Kid's Crunchy Chicken Meal",
+          "calories": 310,
+          "protein": 30,
+          "fat": 0,
+          "carbs": 8
+        },
+        {
+          "name": "Kids Broccoli & Chicken Bowl",
+          "calories": 450,
+          "protein": 34,
+          "fat": 0,
+          "carbs": 67
+        },
+        {
+          "name": "Kids Chicken Teriyaki Wrap",
+          "calories": 590,
+          "protein": 39,
+          "fat": 0,
+          "carbs": 89
+        }
+      ]
+    }
+  ]
+}

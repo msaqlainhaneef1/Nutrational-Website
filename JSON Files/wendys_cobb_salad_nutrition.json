@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Salads",
+    "Featured"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_cobb_salad_full",
+      "name": "Cobb Salad (Full Size)",
+      "category": "Salads",
+      "subcategory": "Entree Salads",
+      "description": "Grilled chicken breast, Applewood smoked bacon, hard-boiled egg, diced tomatoes, and shredded cheddar cheese on a bed of fresh chopped lettuce, served with Newman's Own\u00ae Avocado Goddess Dressing.",
+      "price": 8.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad with dressing (510g)",
+        "weight_g": 510.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 41.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 310.0,
+        "sodium_mg": 1470.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 4.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 2.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Grilled Chicken Breast",
+        "Lettuce Blend",
+        "Applewood Smoked Bacon",
+        "Hard-Boiled Egg",
+        "Diced Tomatoes",
+        "Shredded Cheddar Cheese",
+        "Newman's Own Avocado Goddess Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/cobb-salad.png",
+      "product_url": "https://www.wendys.com/menu/salads/cobb-salad",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

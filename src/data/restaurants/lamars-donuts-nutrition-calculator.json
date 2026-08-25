@@ -1,0 +1,650 @@
+{
+  "name": "LaMar's Donuts",
+  "slug": "lamars-donuts-nutrition-calculator",
+  "tagline": "Track nutrition for LaMar's Donuts menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 66 menu items at LaMar's Donuts.",
+  "category": "Coffee & Drinks",
+  "emoji": "\u2615",
+  "itemCount": 66,
+  "categories": [
+    {
+      "name": "Yeast Raised Donuts",
+      "items": [
+        {
+          "name": "Ray's Original Glazed",
+          "calories": 220,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 31,
+          "servingSize": "1 donut",
+          "sodium": 260,
+          "saturated_fat": 2.5,
+          "sugars": 13
+        },
+        {
+          "name": "Ray's Chocolate Glazed",
+          "calories": 290,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 44,
+          "servingSize": "1 donut",
+          "sodium": 260,
+          "saturated_fat": 3,
+          "sugars": 25
+        },
+        {
+          "name": "Chocolate Iced w/Coconut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Iced w/Peanuts",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Iced w/Sprinkles",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Iced w/M&M's",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Ray's Double Chocolate",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Ray's Cinnamon Sugar Raised",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Ray's Granulated Sugar Raised",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Devil's Food Glazed",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Devil's Food Chocolate Iced",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Bizmarks",
+      "items": [
+        {
+          "name": "Bavarian Cream Bizmark",
+          "calories": 620,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 101,
+          "servingSize": "1 donut",
+          "sodium": 570,
+          "saturated_fat": 5,
+          "sugars": 61
+        },
+        {
+          "name": "Blueberry Filled Bizmark",
+          "calories": 520,
+          "protein": 0,
+          "fat": 20,
+          "carbs": 81,
+          "servingSize": "1 donut",
+          "sodium": 550,
+          "saturated_fat": 5,
+          "sugars": 37
+        },
+        {
+          "name": "Cherry Filled Bizmark",
+          "calories": 550,
+          "protein": 0,
+          "fat": 19,
+          "carbs": 88,
+          "servingSize": "1 donut",
+          "sodium": 560,
+          "saturated_fat": 5,
+          "sugars": 45
+        },
+        {
+          "name": "Lemon Filled Bizmark",
+          "calories": 530,
+          "protein": 0,
+          "fat": 21,
+          "carbs": 80,
+          "servingSize": "1 donut",
+          "sodium": 640,
+          "saturated_fat": 5,
+          "sugars": 40
+        },
+        {
+          "name": "Apple Filled Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Banana Cream Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Iced Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Glazed Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Pineapple Filled Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Powdered Sugar Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Raspberry Filled Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Strawberry Filled Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "White Iced Bizmark",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Lamar's Bars",
+      "items": [
+        {
+          "name": "Chocolate Iced Bar (Unfilled)",
+          "calories": 540,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 81,
+          "servingSize": "1 donut",
+          "sodium": 440,
+          "saturated_fat": 6,
+          "sugars": 49
+        },
+        {
+          "name": "Chocolate Iced Bar (Bavarian Cream Filled)",
+          "calories": 600,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 96,
+          "servingSize": "1 donut",
+          "sodium": 490,
+          "saturated_fat": 6,
+          "sugars": 61
+        },
+        {
+          "name": "Chocolate Iced Bar (Chocolate Fluff Filled)",
+          "calories": 800,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 118,
+          "servingSize": "1 donut",
+          "sodium": 440,
+          "saturated_fat": 9,
+          "sugars": 84
+        },
+        {
+          "name": "Chocolate Iced Bar (White Fluff Filled)",
+          "calories": 810,
+          "protein": 0,
+          "fat": 35,
+          "carbs": 120,
+          "servingSize": "1 donut",
+          "sodium": 460,
+          "saturated_fat": 9,
+          "sugars": 85
+        },
+        {
+          "name": "Caramel Iced Bar (Unfilled)",
+          "calories": 430,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 59,
+          "servingSize": "1 donut",
+          "sodium": 430,
+          "saturated_fat": 4.5,
+          "sugars": 29
+        }
+      ]
+    },
+    {
+      "name": "Cake Donuts",
+      "items": [
+        {
+          "name": "Apple Spiced Cake Donut",
+          "calories": 340,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 44,
+          "servingSize": "1 donut",
+          "sodium": 250,
+          "saturated_fat": 4.5,
+          "sugars": 31
+        },
+        {
+          "name": "Blueberry Cake Donut",
+          "calories": 350,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 47,
+          "servingSize": "1 donut",
+          "sodium": 280,
+          "saturated_fat": 4,
+          "sugars": 33
+        },
+        {
+          "name": "Chocolate Iced Cake Donut",
+          "calories": 330,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 37,
+          "servingSize": "1 donut",
+          "sodium": 320,
+          "saturated_fat": 4.5,
+          "sugars": 21
+        },
+        {
+          "name": "Old Fashioned Sour Cream Cake Donut",
+          "calories": 420,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 60,
+          "servingSize": "1 donut",
+          "sodium": 380,
+          "cholesterol": 15,
+          "saturated_fat": 4.5,
+          "sugars": 40
+        },
+        {
+          "name": "White Iced Cake Donut",
+          "calories": 320,
+          "protein": 0,
+          "fat": 17,
+          "carbs": 38,
+          "servingSize": "1 donut",
+          "sodium": 320,
+          "saturated_fat": 4.5,
+          "sugars": 23
+        },
+        {
+          "name": "Orange Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Pineapple Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Plain Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Powdered Sugar Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Red Velvet Cake Donut",
+          "calories": 369,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 72,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Strawberry Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "White Iced w/Coconut Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "White Iced w/Peanuts Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "White Iced w/Sprinkles Cake Donut",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Specialty Donuts",
+      "items": [
+        {
+          "name": "Cinnamon Roll",
+          "calories": 690,
+          "protein": 0,
+          "fat": 25,
+          "carbs": 106,
+          "servingSize": "1 donut",
+          "sodium": 1020,
+          "saturated_fat": 6,
+          "sugars": 30
+        },
+        {
+          "name": "Cinnamon Roll (Raisin Nut)",
+          "calories": 850,
+          "protein": 0,
+          "fat": 27,
+          "carbs": 137,
+          "servingSize": "1 donut",
+          "sodium": 1020,
+          "saturated_fat": 6,
+          "sugars": 62
+        },
+        {
+          "name": "Cinnamon Twist",
+          "calories": 770,
+          "protein": 0,
+          "fat": 26,
+          "carbs": 120,
+          "servingSize": "1 donut",
+          "sodium": 1190,
+          "saturated_fat": 7,
+          "sugars": 32
+        },
+        {
+          "name": "German Chocolate Knot",
+          "calories": 480,
+          "protein": 0,
+          "fat": 27,
+          "carbs": 54,
+          "servingSize": "1 donut",
+          "sodium": 580,
+          "saturated_fat": 9,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "French Crullers",
+      "items": [
+        {
+          "name": "Cherry Iced French Cruller",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Iced French Cruller",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Glazed French Cruller",
+          "calories": 220,
+          "protein": 1,
+          "fat": 15,
+          "carbs": 28,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Maple Iced French Cruller",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "White Iced French Cruller",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Fritters",
+      "items": [
+        {
+          "name": "Apple Fritter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Banana Fritter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Cherry Fritter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Chocolate Cherry Fritter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Pineapple Fritter",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Donut Holes",
+      "items": [
+        {
+          "name": "Raised Glazed Donut Holes (4 pc)",
+          "calories": 220,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 31,
+          "servingSize": "1 donut",
+          "sodium": 260,
+          "sugars": 13
+        },
+        {
+          "name": "Cake Glazed Donut Holes",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Flavored Cake Glazed Donut Holes",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        },
+        {
+          "name": "Raised Sugared Donut Holes",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 donut"
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Brewed Coffee",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "12 oz"
+        },
+        {
+          "name": "Americano",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "12 oz"
+        },
+        {
+          "name": "Caffe Latte",
+          "calories": 150,
+          "protein": 8,
+          "fat": 6,
+          "carbs": 12,
+          "servingSize": "12 oz",
+          "sugars": 11
+        },
+        {
+          "name": "Cafe Mocha",
+          "calories": 290,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 42,
+          "servingSize": "12 oz",
+          "sugars": 35
+        },
+        {
+          "name": "Hot Chocolate",
+          "calories": 250,
+          "protein": 6,
+          "fat": 5,
+          "carbs": 45,
+          "servingSize": "12 oz",
+          "sugars": 40
+        }
+      ]
+    }
+  ]
+}

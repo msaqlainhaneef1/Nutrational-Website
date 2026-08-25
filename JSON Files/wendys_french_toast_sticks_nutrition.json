@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_french_toast_sticks_4pc",
+      "name": "French Toast Sticks (4 Piece)",
+      "category": "Breakfast",
+      "subcategory": "Sides & Sweets",
+      "description": "Crispy on the outside, soft and warm on the inside, golden brown French toast sticks served with syrup.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces (125g)",
+        "weight_g": 125.0
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 6.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 440.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 1.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched bleached flour",
+        "water",
+        "sugar",
+        "soybean oil",
+        "eggs",
+        "whey",
+        "salt",
+        "natural and artificial flavors",
+        "leavening"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/french-toast-sticks.png",
+      "product_url": "https://www.wendys.com/menu/breakfast/french-toast-sticks",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

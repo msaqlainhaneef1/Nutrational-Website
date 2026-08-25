@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_bacon_egg_cheese_croissant",
+      "name": "Bacon, Egg & Cheese on Croissant",
+      "category": "Breakfast",
+      "subcategory": "Sandwiches",
+      "description": "Crispy bacon, egg, and American cheese served on a flaky, buttery croissant.",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (146g)",
+        "weight_g": 146.0
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 13.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 215.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Croissant",
+        "Cherrywood smoked bacon",
+        "Egg patty",
+        "American cheese slice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/products/bacon-egg-cheese-croissant.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/breakfast/bacon-egg-and-cheese-croissant",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

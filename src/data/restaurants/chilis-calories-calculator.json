@@ -5,7 +5,7 @@
   "description": "Track nutrition for Chili's entrees, appetizers, and more.",
   "category": "Sit-Down Dining",
   "emoji": "\ud83c\udf36",
-  "itemCount": 230,
+  "itemCount": 233,
   "categories": [
     {
       "name": "For the Table",
@@ -2996,6 +2996,60 @@
           "sodium": 45,
           "sugars": 2,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Sandwiches",
+      "items": [
+        {
+          "name": "Old Timer with Cheese",
+          "calories": 1020,
+          "protein": 48,
+          "fat": 66,
+          "carbs": 58,
+          "servingSize": "1 burger with fries (510g)",
+          "fiber": 4,
+          "sodium": 1460,
+          "cholesterol": 165,
+          "saturated_fat": 22,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Ribs, Steaks & Seafood",
+      "items": [
+        {
+          "name": "Original Baby Back Ribs (Full Order)",
+          "calories": 1440,
+          "protein": 78,
+          "fat": 88,
+          "carbs": 82,
+          "servingSize": "1 full rack order (820g)",
+          "fiber": 6,
+          "sodium": 2820,
+          "cholesterol": 290,
+          "saturated_fat": 32,
+          "sugars": 48
+        }
+      ]
+    },
+    {
+      "name": "Guacamole & Fajitas",
+      "items": [
+        {
+          "name": "Chicken Fajitas",
+          "calories": 960,
+          "protein": 64,
+          "fat": 42,
+          "carbs": 82,
+          "servingSize": "1 skillet portion with 3 tortillas (650g)",
+          "fiber": 7,
+          "sodium": 2240,
+          "cholesterol": 180,
+          "saturated_fat": 16,
+          "sugars": 9
         }
       ]
     }

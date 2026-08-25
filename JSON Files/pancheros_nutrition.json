@@ -1,0 +1,1215 @@
+{
+  "brand": {
+    "name": "Pancheros Mexican Grill",
+    "website": "https://pancheros.com",
+    "country": "USA",
+    "last_updated": "2026-08-06"
+  },
+  "categories": [
+    "Tortillas",
+    "Rice & Beans",
+    "Proteins",
+    "Toppings",
+    "Salsas",
+    "Chips & Sides",
+    "Kids Menu",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "pan-tort-001",
+      "name": "Large Tortilla",
+      "category": "Tortillas",
+      "subcategory": "Base",
+      "description": "Massive, fresh-pressed flour tortilla made in-house daily.",
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 9,
+        "fat_g": 9,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 0,
+        "sodium_mg": 620,
+        "potassium_mg": null,
+        "carbohydrates_g": 54,
+        "fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Gluten", "Wheat"],
+      "ingredients": ["Flour", "Water", "Canola Oil", "Salt"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-tort-002",
+      "name": "Small Tortilla",
+      "category": "Tortillas",
+      "subcategory": "Base",
+      "description": "Small, fresh-pressed soft flour tortilla.",
+      "serving": {
+        "size": "1 each",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 2,
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "potassium_mg": null,
+        "carbohydrates_g": 11,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Gluten", "Wheat"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-rice-001",
+      "name": "Cilantro Lime Rice",
+      "category": "Rice & Beans",
+      "subcategory": "Base",
+      "description": "Rice seasoned with cilantro and lime.",
+      "serving": {
+        "size": "5.1 oz",
+        "weight_g": 145
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 4,
+        "fat_g": 2,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 800,
+        "potassium_mg": null,
+        "carbohydrates_g": 44,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-bean-001",
+      "name": "Black Beans",
+      "category": "Rice & Beans",
+      "subcategory": "Base",
+      "description": "Simmered whole black beans.",
+      "serving": {
+        "size": "3.4 oz",
+        "weight_g": 96
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 8,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 470,
+        "potassium_mg": null,
+        "carbohydrates_g": 27,
+        "fiber_g": 13,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-bean-002",
+      "name": "Pinto Beans",
+      "category": "Rice & Beans",
+      "subcategory": "Base",
+      "description": "Simmered whole pinto beans.",
+      "serving": {
+        "size": "3.4 oz",
+        "weight_g": 96
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 9,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 470,
+        "potassium_mg": null,
+        "carbohydrates_g": 27,
+        "fiber_g": 13,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-prot-001",
+      "name": "Steak",
+      "category": "Proteins",
+      "subcategory": "Meat",
+      "description": "Fresh cut, tender grilled steak.",
+      "serving": {
+        "size": "2.8 oz",
+        "weight_g": 79
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 20,
+        "fat_g": 7,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 55,
+        "sodium_mg": 660,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-prot-002",
+      "name": "Chicken",
+      "category": "Proteins",
+      "subcategory": "Meat",
+      "description": "Marinated, all-white meat chicken.",
+      "serving": {
+        "size": "2.8 oz",
+        "weight_g": 79
+      },
+      "nutrition": {
+        "calories": 85,
+        "protein_g": 12,
+        "fat_g": 4,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 390,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-prot-003",
+      "name": "Carnitas",
+      "category": "Proteins",
+      "subcategory": "Meat",
+      "description": "Slow roasted, seasoned pork.",
+      "serving": {
+        "size": "4 oz",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 20,
+        "fat_g": 6,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-prot-004",
+      "name": "Tofurizo",
+      "category": "Proteins",
+      "subcategory": "Vegan",
+      "description": "Certified vegan, chorizo-style meat alternative made with tofu.",
+      "serving": {
+        "size": "4 oz",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 12,
+        "fat_g": 8,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": 2,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Soy"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://www.qsrmagazine.com/news/pancheros-debuts-new-vegan-protein-tofurizo/",
+          "source_type": "press_release",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pan-prot-005",
+      "name": "Chile Lime Shrimp",
+      "category": "Proteins",
+      "subcategory": "Seafood",
+      "description": "Bright, citrusy shrimp with a little kick.",
+      "serving": {
+        "size": "4 oz",
+        "weight_g": 113
+      },
+      "nutrition": {
+        "calories": 112,
+        "protein_g": 27,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Shellfish"],
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://www.qsrmagazine.com/news/pancheros-debuts-chile-lime-shrimp/",
+          "source_type": "press_release",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-001",
+      "name": "White Cheddar Cheese",
+      "category": "Toppings",
+      "subcategory": "Dairy",
+      "description": "Shredded white cheddar cheese.",
+      "serving": {
+        "size": "0.6 oz",
+        "weight_g": 17
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 5,
+        "fat_g": 6,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 110,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-002",
+      "name": "Guacamole",
+      "category": "Toppings",
+      "subcategory": "Extras",
+      "description": "Fresh-made guacamole.",
+      "serving": {
+        "size": "2.1 oz",
+        "weight_g": 60
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 1,
+        "fat_g": 7,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 3,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-003",
+      "name": "Queso",
+      "category": "Toppings",
+      "subcategory": "Dairy",
+      "description": "Creamy, melty, gooey homemade queso.",
+      "serving": {
+        "size": "1.9 oz",
+        "weight_g": 54
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 11,
+        "fat_g": 15,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 570,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-004",
+      "name": "Sour Cream",
+      "category": "Toppings",
+      "subcategory": "Dairy",
+      "description": "Fresh sour cream.",
+      "serving": {
+        "size": "1.4 oz",
+        "weight_g": 40
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1,
+        "fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 20,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-005",
+      "name": "Lettuce",
+      "category": "Toppings",
+      "subcategory": "Veggies",
+      "description": "Fresh crisp lettuce.",
+      "serving": {
+        "size": "0.75 oz",
+        "weight_g": 21
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-top-006",
+      "name": "Fajita Veggies",
+      "category": "Toppings",
+      "subcategory": "Veggies",
+      "description": "Sautéed onions and peppers.",
+      "serving": {
+        "size": "1.7 oz",
+        "weight_g": 48
+      },
+      "nutrition": {
+        "calories": 20,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-sal-001",
+      "name": "Pico de Gallo",
+      "category": "Salsas",
+      "subcategory": "Salsa",
+      "description": "Refreshing tomato, onion, and cilantro mix.",
+      "serving": {
+        "size": "1.5 oz",
+        "weight_g": 43
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-sal-002",
+      "name": "Roasted Corn Salsa",
+      "category": "Salsas",
+      "subcategory": "Salsa",
+      "description": "Sweet and smoky roasted corn salsa.",
+      "serving": {
+        "size": "1.62 oz",
+        "weight_g": 46
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 1,
+        "fat_g": 3,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 115,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 1,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-sal-003",
+      "name": "Mild Ancho Salsa",
+      "category": "Salsas",
+      "subcategory": "Salsa",
+      "description": "Mild, smoky red pepper salsa.",
+      "serving": {
+        "size": "2.16 oz",
+        "weight_g": 61
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 1,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-sal-004",
+      "name": "Medium Salsa Verde",
+      "category": "Salsas",
+      "subcategory": "Salsa",
+      "description": "Medium heat green tomatillo salsa.",
+      "serving": {
+        "size": "1.62 oz",
+        "weight_g": 46
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-sal-005",
+      "name": "Hot Tomatillo Salsa",
+      "category": "Salsas",
+      "subcategory": "Salsa",
+      "description": "Spicy tomatillo and habanero salsa.",
+      "serving": {
+        "size": "1.74 oz",
+        "weight_g": 49
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-side-001",
+      "name": "Blue Corn Tortilla Chips",
+      "category": "Chips & Sides",
+      "subcategory": "Sides",
+      "description": "Salty, crunchy blue corn chips.",
+      "serving": {
+        "size": "1 bag",
+        "weight_g": 91
+      },
+      "nutrition": {
+        "calories": 455,
+        "protein_g": 6,
+        "fat_g": 23,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 60,
+        "fiber_g": 3,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancherosnutritioncalculator.com/pancheros-nutrition-facts/",
+          "source_type": "third_party_calculator",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "pan-kids-001",
+      "name": "Kidsadilla",
+      "category": "Kids Menu",
+      "subcategory": "Entree",
+      "description": "Kid-sized cheesy quesadilla.",
+      "serving": {
+        "size": "1 each",
+        "weight_g": 122
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 21,
+        "fat_g": 25,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 70,
+        "sodium_mg": 700,
+        "potassium_mg": null,
+        "carbohydrates_g": 27,
+        "fiber_g": 1,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0
+      },
+      "allergens": ["Milk", "Gluten", "Wheat"],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf",
+          "source_type": "official_pdf",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-bev-001",
+      "name": "Bottled Coca-Cola",
+      "category": "Beverages",
+      "subcategory": "Bottled",
+      "description": "20 oz bottle of Coca-Cola.",
+      "serving": {
+        "size": "20 oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "potassium_mg": null,
+        "carbohydrates_g": 65,
+        "fiber_g": 0,
+        "sugars_g": 65,
+        "added_sugars_g": 65,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 57
+      },
+      "allergens": [],
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "All"
+      },
+      "sources": [
+        {
+          "url": "https://order.pancheros.com/menu/pancheros-maple-grove",
+          "source_type": "official_menu",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "pan-bev-002",
+      "name": "Bottled Diet Coke",
+      "category": "Beverages",
+      "subcategory": "Bottled",
+      "description": "20 oz bottle of Diet Coke.",
+      "serving": {
+        "size": "20 oz"
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sodium_mg": 40,
+        "carbohydrates_g": 0,
+        "sugars_g": 0,
+        "caffeine_mg": 46
+      },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://order.pancheros.com/menu/pancheros-maple-grove", "source_type": "official_menu", "confidence": 1.0 }]
+    },
+    {
+      "product_id": "pan-bev-003",
+      "name": "Bottled Water (Dasani)",
+      "category": "Beverages",
+      "subcategory": "Bottled",
+      "description": "20 oz bottle of Dasani water.",
+      "serving": { "size": "20 oz" },
+      "nutrition": { "calories": 0, "protein_g": 0, "fat_g": 0, "sodium_mg": 0, "carbohydrates_g": 0, "sugars_g": 0 },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://order.pancheros.com/menu/pancheros-maple-grove", "source_type": "official_menu", "confidence": 1.0 }]
+    },
+    {
+      "product_id": "pan-top-007",
+      "name": "Chile Lime Vinaigrette",
+      "category": "Toppings",
+      "subcategory": "Dressing",
+      "description": "Tangy and bright citrus dressing.",
+      "serving": { "size": "1.35 oz" },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0,
+        "fat_g": 11,
+        "saturated_fat_g": 1.5,
+        "sodium_mg": 135,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 3
+      },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://pancheros.com/wp-content/uploads/2023/09/Pancheros-Nutritional-Menu-2012.pdf", "source_type": "official_pdf", "confidence": 1.0 }]
+    },
+    {
+      "product_id": "pan-kids-002",
+      "name": "Kids Single Taco",
+      "category": "Kids Menu",
+      "subcategory": "Entree",
+      "description": "One soft flour tortilla with choice of protein, lettuce, and cheese.",
+      "serving": { "size": "1 taco" },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 10,
+        "fat_g": 8,
+        "sodium_mg": 450,
+        "carbohydrates_g": 15
+      },
+      "allergens": ["Gluten", "Wheat", "Milk"],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://pancheros.com/menu/", "source_type": "official_menu", "confidence": 0.8 }]
+    },
+    {
+      "product_id": "pan-kids-003",
+      "name": "Kids Side of Rice",
+      "category": "Kids Menu",
+      "subcategory": "Side",
+      "description": "Kid-sized portion of Cilantro Lime Rice.",
+      "serving": { "size": "1 serving" },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 4,
+        "fat_g": 2,
+        "sodium_mg": 800,
+        "carbohydrates_g": 44
+      },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://staging.pancheros.com/menu", "source_type": "official_menu", "confidence": 0.9 }]
+    },
+    {
+      "product_id": "pan-sauce-001",
+      "name": "Flavolcano Hot Sauce",
+      "category": "Toppings",
+      "subcategory": "Sauce",
+      "description": "Smoky red pepper hot sauce.",
+      "serving": { "size": "1 tsp" },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sodium_mg": 110,
+        "carbohydrates_g": 1,
+        "sugars_g": 0
+      },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://www.atbbq.com/products/flavolcano-smoky-red-pepper-sauce-by-pancheros-mexican-grill-1", "source_type": "retailer", "confidence": 0.95 }]
+    },
+    {
+      "product_id": "pan-sauce-002",
+      "name": "Greenade Hot Sauce",
+      "category": "Toppings",
+      "subcategory": "Sauce",
+      "description": "Tangy green chile hot sauce.",
+      "serving": { "size": "1 tsp" },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sodium_mg": 80,
+        "carbohydrates_g": 0,
+        "sugars_g": 0
+      },
+      "allergens": [],
+      "availability": { "active": true },
+      "sources": [{ "url": "https://www.atbbq.com/products/greenade-green-chile-hot-sauce-by-pancheros-mexican-grill", "source_type": "retailer", "confidence": 0.95 }]
+    }
+    ,
+    {
+      "product_id": "pan-cat-001",
+      "name": "Taco Bar (Catering)",
+      "category": "Catering",
+      "subcategory": "Bundles",
+      "description": "Build-your-own taco bar for 15+ people. Includes choice of 2 proteins, tortillas, cheese, lettuce, salsas, and sour cream.",
+      "serving": { "size": "Per Person" },
+      "nutrition": { "calories": null, "description": "Variable based on selections. See individual components." },
+      "availability": { "active": true },
+      "sources": [{ "url": "https://pancheros.com/catering/", "source_type": "official_menu", "confidence": 1.0 }]
+    },
+    {
+      "product_id": "pan-cat-002",
+      "name": "Bowl Bar (Catering)",
+      "category": "Catering",
+      "subcategory": "Bundles",
+      "description": "Build-your-own bowl bar for 15+ people. Includes choice of 2 proteins, rice, beans, cheese, lettuce, salsas, and sour cream.",
+      "serving": { "size": "Per Person" },
+      "nutrition": { "calories": null, "description": "Variable based on selections. See individual components." },
+      "availability": { "active": true },
+      "sources": [{ "url": "https://pancheros.com/catering/", "source_type": "official_menu", "confidence": 1.0 }]
+    },
+    {
+      "product_id": "pan-cat-003",
+      "name": "Chip, Chip Hooray Bundle",
+      "category": "Catering",
+      "subcategory": "Sides",
+      "description": "Serves 15-25. Includes Blue Corn Chips, Creamy Queso, Choice of 2 Salsas, and Guacamole.",
+      "serving": { "size": "Per Bundle" },
+      "nutrition": { "calories": null },
+      "availability": { "active": true },
+      "sources": [{ "url": "https://pancheros.com/catering/", "source_type": "official_menu", "confidence": 1.0 }]
+    }
+  ]
+}

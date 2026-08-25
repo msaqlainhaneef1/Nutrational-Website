@@ -1,0 +1,415 @@
+{
+  "brand": {
+    "name": "ReeBirds",
+    "website": "https://www.reebirds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken Sandwiches",
+    "Tenders",
+    "Wings",
+    "Sides",
+    "Sauces",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "reebirds_signature_crispy_sandwich",
+      "name": "Signature Crispy Chicken Sandwich",
+      "category": "Chicken Sandwiches",
+      "subcategory": "Sandwiches",
+      "description": "Crispy hand-breaded chicken breast fillet with pickles and signature ReeBirds sauce on a buttery brioche bun.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 34.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1250.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Brioche Bun",
+        "Pickles",
+        "ReeBirds Signature Sauce",
+        "Breading"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/signature-sandwich.png",
+      "product_url": "https://www.reebirds.com/menu/sandwiches/signature-crispy",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_spicy_crispy_sandwich",
+      "name": "Spicy Crispy Chicken Sandwich",
+      "category": "Chicken Sandwiches",
+      "subcategory": "Sandwiches",
+      "description": "Crispy hand-breaded chicken breast fillet dipped in spicy glaze, with pickles and spicy mayo on a brioche bun.",
+      "price": 7.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 270.0
+      },
+      "nutrition": {
+        "calories": 710,
+        "protein_g": 34.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1480.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 130.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Brioche Bun",
+        "Spicy Glaze",
+        "Pickles",
+        "Spicy Mayo"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/spicy-sandwich.png",
+      "product_url": "https://www.reebirds.com/menu/sandwiches/spicy-crispy",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_tenders_4pc",
+      "name": "Crispy Chicken Tenders (4 pc)",
+      "category": "Tenders",
+      "subcategory": "Tenders",
+      "description": "Four tender, juicy all-white meat chicken tenders hand-breaded and fried golden.",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces",
+        "weight_g": 200.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 48.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 130.0,
+        "sodium_mg": 1350.0,
+        "potassium_mg": 490.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken Breast Tenders",
+        "Wheat Flour",
+        "Vegetable Oil",
+        "Spices",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/tenders-4pc.png",
+      "product_url": "https://www.reebirds.com/menu/tenders/4pc-tenders",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_wings_6pc",
+      "name": "Traditional Wings (6 pc)",
+      "category": "Wings",
+      "subcategory": "Wings",
+      "description": "Six classic bone-in chicken wings tossed in choice of signature sauce.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces",
+        "weight_g": 220.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 42.0,
+        "fat_g": 45.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.2,
+        "cholesterol_mg": 180.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken Wings",
+        "Signature Wing Sauce",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/wings-6pc.png",
+      "product_url": "https://www.reebirds.com/menu/wings/6pc-wings",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_crinkle_fries",
+      "name": "Seasoned Crinkle Cut Fries",
+      "category": "Sides",
+      "subcategory": "Fries",
+      "description": "Crispy crinkle-cut french fries dusted with ReeBirds special savory seasoning.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular order",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 4.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 540.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.4,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Seasoning Blend",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/crinkle-fries.png",
+      "product_url": "https://www.reebirds.com/menu/sides/crinkle-fries",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_signature_sauce",
+      "name": "ReeBirds Signature Dipping Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "description": "Creamy, tangy, slightly smoky house dipping sauce.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dip cup (30g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mayonnaise",
+        "Ketchup",
+        "Worcestershire Sauce",
+        "Spices",
+        "Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/signature-sauce.png",
+      "product_url": "https://www.reebirds.com/menu/sauces/signature",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "reebirds_sweet_tea",
+      "name": "Southern Sweet Tea",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Freshly brewed black tea sweetened with pure cane sugar.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz cup",
+        "weight_g": 580.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 30.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 50.0,
+        "added_sugars_g": 48.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Brewed Black Tea",
+        "Pure Cane Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.reebirds.com/media/menu/sweet-tea.png",
+      "product_url": "https://www.reebirds.com/menu/beverages/sweet-tea",
+      "sources": [
+        {
+          "url": "https://www.reebirds.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

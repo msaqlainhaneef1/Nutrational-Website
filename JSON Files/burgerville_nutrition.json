@@ -1,0 +1,6997 @@
+{
+  "brand": "Burgerville",
+  "brand_info": {
+    "full_name": "Burgerville",
+    "website": "https://www.burgerville.com",
+    "cuisine_type": "Fast Food / Burgers",
+    "headquarters": "Vancouver, Washington, USA",
+    "founded": 1961,
+    "locations": "~44 locations in Oregon and Washington"
+  },
+  "metadata": {
+    "total_products": 177,
+    "data_sources": [
+      {
+        "name": "Nutritionix",
+        "url": "https://www.nutritionix.com/burgerville/menu/premium",
+        "type": "third-party",
+        "last_updated": "2026-07-31",
+        "items_covered": 122
+      },
+      {
+        "name": "FatSecret",
+        "url": "https://foods.fatsecret.com/calories-nutrition/burgerville",
+        "type": "third-party",
+        "last_updated": "2026-08-01",
+        "items_covered": 76
+      },
+      {
+        "name": "Burgerville Official",
+        "url": "https://www.burgerville.com/nutrition/",
+        "type": "official",
+        "last_updated": "2026-07-31",
+        "items_covered": "all"
+      },
+      {
+        "name": "GoDairyFree",
+        "url": "https://godairyfree.org/dining-out/dairy-free-burgerville",
+        "type": "third-party",
+        "last_updated": "2026-02-15",
+        "items_covered": "allergen guide"
+      }
+    ],
+    "extraction_date": "2026-08-05",
+    "coverage_notes": "Coverage includes Fresh Beef Burgers, Fish, Chicken, Vegetarian, Gluten Free, Breakfast items, Sides, Fountain Drinks, Iced Tea, Lemonade, BV Bevies, Cold Foam, Milkshakes, Bliss Shakes, Sundaes, Kids Meals, Dipping Sauces, Cream/Toppings, Stumptown Coffee. Breakfast items available at select locations only."
+  },
+  "categories": {
+    "Burgers": {
+      "description": "Fresh beef burgers, vegetarian burgers, and gluten-free options",
+      "item_count": 24
+    },
+    "Chicken": {
+      "description": "Chicken sandwiches, tenders, and chicken meals",
+      "item_count": 10
+    },
+    "Fish": {
+      "description": "Cod sandwiches and cod with chips",
+      "item_count": 4
+    },
+    "Breakfast": {
+      "description": "Breakfast burgers, sandwiches, biscuits, and burritos (select locations)",
+      "item_count": 13
+    },
+    "Beverages": {
+      "description": "Fountain drinks, iced tea, lemonade, BV Bevies, milkshakes, Bliss shakes, coffee",
+      "item_count": 89
+    },
+    "Sides": {
+      "description": "Fries, onion rings, applesauce, hash browns",
+      "item_count": 9
+    },
+    "Desserts": {
+      "description": "Sundaes with ice cream and plant-based options",
+      "item_count": 6
+    },
+    "Kids": {
+      "description": "Kids meals and kid-sized items",
+      "item_count": 7
+    },
+    "Sauces": {
+      "description": "Dipping sauces and spreads",
+      "item_count": 8
+    },
+    "Toppings": {
+      "description": "Cold foam, whipped cream, malt powder, and other add-ons",
+      "item_count": 6
+    },
+    "Sandwiches": {
+      "description": "Ham & cheese sandwich",
+      "item_count": 1
+    }
+  },
+  "products": [
+    {
+      "product_id": "burgerville_0001",
+      "name": "Bacon Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 600,
+        "total_fat_g": 38,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 85,
+        "sodium_mg": 940,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 2,
+        "sugars_g": 6,
+        "protein_g": 35
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0002",
+      "name": "Bacon Double Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 880,
+        "total_fat_g": 58,
+        "saturated_fat_g": 23,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 155,
+        "sodium_mg": 1200,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 2,
+        "sugars_g": 6,
+        "protein_g": 60
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0003",
+      "name": "Colossal Burger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 500,
+        "total_fat_g": 28,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 65,
+        "sodium_mg": 970,
+        "total_carbohydrates_g": 34,
+        "dietary_fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 28
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0004",
+      "name": "Colossal Double Burger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 750,
+        "total_fat_g": 46,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 125,
+        "sodium_mg": 1350,
+        "total_carbohydrates_g": 34,
+        "dietary_fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 50
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0005",
+      "name": "Grass-Fed Sweet Onion Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 600,
+        "total_fat_g": 32,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 860,
+        "total_carbohydrates_g": 43,
+        "dietary_fiber_g": 3,
+        "sugars_g": 11,
+        "protein_g": 34
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0006",
+      "name": "Grass-Fed Sweet Onion Double Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 920,
+        "total_fat_g": 52,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 175,
+        "sodium_mg": 1280,
+        "total_carbohydrates_g": 44,
+        "dietary_fiber_g": 3,
+        "sugars_g": 11,
+        "protein_g": 62
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0007",
+      "name": "Mustard BBQ Walla Walla Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 610,
+        "total_fat_g": 37,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 80,
+        "sodium_mg": 1450,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 2,
+        "sugars_g": 12,
+        "protein_g": 30
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0008",
+      "name": "Mustard BBQ Walla Walla Double Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 910,
+        "total_fat_g": 59,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 150,
+        "sodium_mg": 2060,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 2,
+        "sugars_g": 12,
+        "protein_g": 54
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0009",
+      "name": "Northwest Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 550,
+        "total_fat_g": 33,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 80,
+        "sodium_mg": 830,
+        "total_carbohydrates_g": 33,
+        "dietary_fiber_g": 2,
+        "sugars_g": 8,
+        "protein_g": 31
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0010",
+      "name": "Northwest Double Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 840,
+        "total_fat_g": 53,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 150,
+        "sodium_mg": 1090,
+        "total_carbohydrates_g": 33,
+        "dietary_fiber_g": 2,
+        "sugars_g": 8,
+        "protein_g": 56
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0011",
+      "name": "Original Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 21,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 760,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 7,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0012",
+      "name": "Original Double Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 560,
+        "total_fat_g": 33,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 1090,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 7,
+        "protein_g": 29
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0013",
+      "name": "Original Double Hamburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 470,
+        "total_fat_g": 25,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 630,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 7,
+        "protein_g": 25
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0014",
+      "name": "Original Hamburger",
+      "category": "Burgers",
+      "subcategory": "Fresh Beef Burgers",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 17,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 530,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 7,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0015",
+      "name": "Black Cod Sandwich",
+      "category": "Fish",
+      "subcategory": "Cod Sandwiches",
+      "nutrition": {
+        "calories": 530,
+        "total_fat_g": 31,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 700,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0016",
+      "name": "Pacific Cod and Chips",
+      "category": "Fish",
+      "subcategory": "Cod",
+      "nutrition": {
+        "calories": 900,
+        "total_fat_g": 53,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1730,
+        "total_carbohydrates_g": 85,
+        "dietary_fiber_g": 8,
+        "sugars_g": 0,
+        "protein_g": 20
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0017",
+      "name": "Pacific Cod Sandwich",
+      "category": "Fish",
+      "subcategory": "Cod Sandwiches",
+      "nutrition": {
+        "calories": 470,
+        "total_fat_g": 25,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 720,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 16
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0018",
+      "name": "Pacific Cod Sandwich (PDX Only)",
+      "category": "Fish",
+      "subcategory": "Cod Sandwiches",
+      "nutrition": {
+        "calories": 470,
+        "total_fat_g": 25,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 720,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 16
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0019",
+      "name": "Best Coast Crispy Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Chicken Sandwiches",
+      "nutrition": {
+        "calories": 540,
+        "total_fat_g": 29,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1100,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 2,
+        "sugars_g": 6,
+        "protein_g": 26
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0020",
+      "name": "Best Coast Grilled Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Chicken Sandwiches",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 16,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1060,
+        "total_carbohydrates_g": 31,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 36
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0021",
+      "name": "Best Coast Spicy Crispy Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Chicken Sandwiches",
+      "nutrition": {
+        "calories": 560,
+        "total_fat_g": 29,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1170,
+        "total_carbohydrates_g": 50,
+        "dietary_fiber_g": 3,
+        "sugars_g": 10,
+        "protein_g": 26
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0022",
+      "name": "Best Coast Spicy Grilled Chicken Sandwich",
+      "category": "Chicken",
+      "subcategory": "Chicken Sandwiches",
+      "nutrition": {
+        "calories": 420,
+        "total_fat_g": 16,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1130,
+        "total_carbohydrates_g": 35,
+        "dietary_fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 36
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0023",
+      "name": "Chicken and Chips",
+      "category": "Chicken",
+      "subcategory": "Chicken",
+      "nutrition": {
+        "calories": 1020,
+        "total_fat_g": 54,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 2350,
+        "total_carbohydrates_g": 89,
+        "dietary_fiber_g": 8,
+        "sugars_g": 2,
+        "protein_g": 43
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0024",
+      "name": "Chicken Tender - Single",
+      "category": "Chicken",
+      "subcategory": "Chicken Tenders",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 440,
+        "total_carbohydrates_g": 11,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 13
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0025",
+      "name": "Ham & Cheese Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "Ham Sandwiches",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 20,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1580,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 1,
+        "sugars_g": 6,
+        "protein_g": 24
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0026",
+      "name": "Spiced Chicken Poppers",
+      "category": "Chicken",
+      "subcategory": "Chicken Tenders",
+      "nutrition": {
+        "calories": 580,
+        "total_fat_g": 33,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1300,
+        "total_carbohydrates_g": 33,
+        "dietary_fiber_g": 2,
+        "sugars_g": 4,
+        "protein_g": 38
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0027",
+      "name": "Spiced Chicken Poppers and Fries",
+      "category": "Chicken",
+      "subcategory": "Chicken Tenders",
+      "nutrition": {
+        "calories": 990,
+        "total_fat_g": 52,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 2320,
+        "total_carbohydrates_g": 90,
+        "dietary_fiber_g": 8,
+        "sugars_g": 4,
+        "protein_g": 41
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0028",
+      "name": "Spicy Chicken and Chips",
+      "category": "Chicken",
+      "subcategory": "Chicken",
+      "nutrition": {
+        "calories": 1030,
+        "total_fat_g": 54,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 2410,
+        "total_carbohydrates_g": 92,
+        "dietary_fiber_g": 8,
+        "sugars_g": 5,
+        "protein_g": 43
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0029",
+      "name": "Classic Veggie Burger",
+      "category": "Burgers",
+      "subcategory": "Vegetarian Burgers",
+      "nutrition": {
+        "calories": 550,
+        "total_fat_g": 23,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 1480,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 6,
+        "sugars_g": 14,
+        "protein_g": 13
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0030",
+      "name": "Mustard BBQ Walla Walla Veggie Cheeseburger",
+      "category": "Burgers",
+      "subcategory": "Vegetarian Burgers",
+      "nutrition": {
+        "calories": 650,
+        "total_fat_g": 29,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1960,
+        "total_carbohydrates_g": 66,
+        "dietary_fiber_g": 6,
+        "sugars_g": 20,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0031",
+      "name": "Vegan Cheezeburger",
+      "category": "Burgers",
+      "subcategory": "Vegetarian Burgers",
+      "nutrition": {
+        "calories": 650,
+        "total_fat_g": 30,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2220,
+        "total_carbohydrates_g": 66,
+        "dietary_fiber_g": 6,
+        "sugars_g": 16,
+        "protein_g": 11
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0032",
+      "name": "Bacon Cheeseburger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 690,
+        "total_fat_g": 41,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 85,
+        "sodium_mg": 1120,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 2,
+        "sugars_g": 10,
+        "protein_g": 33
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0033",
+      "name": "Best Coast Grilled Chicken Sandwich with GF Bun",
+      "category": "Chicken",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 480,
+        "total_fat_g": 19,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1170,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 1,
+        "sugars_g": 8,
+        "protein_g": 34
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0034",
+      "name": "Colossal Burger 1/2 pound on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 830,
+        "total_fat_g": 49,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 125,
+        "sodium_mg": 1420,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 2,
+        "sugars_g": 11,
+        "protein_g": 48
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0035",
+      "name": "Colossal Burger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 570,
+        "total_fat_g": 31,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 65,
+        "sodium_mg": 1040,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 2,
+        "sugars_g": 11,
+        "protein_g": 26
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0036",
+      "name": "Double Cheeseburger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 600,
+        "total_fat_g": 32,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 970,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 1,
+        "sugars_g": 10,
+        "protein_g": 25
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0037",
+      "name": "Northwest Cheeseburger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 630,
+        "total_fat_g": 36,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 80,
+        "sodium_mg": 900,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 2,
+        "sugars_g": 10,
+        "protein_g": 29
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0038",
+      "name": "Original Cheeseburger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 480,
+        "total_fat_g": 24,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 870,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 1,
+        "sugars_g": 10,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0039",
+      "name": "Original Hamburger on Gluten Free Bun",
+      "category": "Burgers",
+      "subcategory": "Gluten Free",
+      "nutrition": {
+        "calories": 430,
+        "total_fat_g": 20,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 640,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 1,
+        "sugars_g": 10,
+        "protein_g": 13
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0040",
+      "name": "Breakfast Burger",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Burgers",
+      "nutrition": {
+        "calories": 520,
+        "total_fat_g": 29,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 240,
+        "sodium_mg": 1010,
+        "total_carbohydrates_g": 29,
+        "dietary_fiber_g": 2,
+        "sugars_g": 4,
+        "protein_g": 33
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0041",
+      "name": "PDX Breakfast Burger",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Burgers",
+      "nutrition": {
+        "calories": 670,
+        "total_fat_g": 38,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 290,
+        "sodium_mg": 1300,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 50
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0042",
+      "name": "Breakfast Chicken Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "nutrition": {
+        "calories": 660,
+        "total_fat_g": 34,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 280,
+        "sodium_mg": 1150,
+        "total_carbohydrates_g": 47,
+        "dietary_fiber_g": 2,
+        "sugars_g": 6,
+        "protein_g": 39
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0043",
+      "name": "Breakfast Sausage Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "nutrition": {
+        "calories": 580,
+        "total_fat_g": 38,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 230,
+        "sodium_mg": 1100,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 26
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0044",
+      "name": "Egg & Cheese Breakfast Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "nutrition": {
+        "calories": 350,
+        "total_fat_g": 16,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 200,
+        "sodium_mg": 750,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 1,
+        "sugars_g": 3,
+        "protein_g": 19
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0045",
+      "name": "Northwest Breakfast Sandwich",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "nutrition": {
+        "calories": 370,
+        "total_fat_g": 18,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 210,
+        "sodium_mg": 800,
+        "total_carbohydrates_g": 30,
+        "dietary_fiber_g": 1,
+        "sugars_g": 3,
+        "protein_g": 21
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0046",
+      "name": "Breakfast Burrito",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Burritos",
+      "nutrition": {
+        "calories": 690,
+        "total_fat_g": 45,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 495,
+        "sodium_mg": 1060,
+        "total_carbohydrates_g": 71,
+        "dietary_fiber_g": 3,
+        "sugars_g": 5,
+        "protein_g": 28
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.8,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0047",
+      "name": "Fried Egg Biscuit Sandwich - Bacon",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 540,
+        "total_fat_g": 31,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 230,
+        "sodium_mg": 1100,
+        "total_carbohydrates_g": 41,
+        "dietary_fiber_g": 2,
+        "sugars_g": 3,
+        "protein_g": 22
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0048",
+      "name": "Fried Egg Biscuit Sandwich - Sausage",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 710,
+        "total_fat_g": 48,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 270,
+        "sodium_mg": 1400,
+        "total_carbohydrates_g": 41,
+        "dietary_fiber_g": 2,
+        "sugars_g": 3,
+        "protein_g": 24
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0049",
+      "name": "Crunch Breakfast Biscuit - Sausage",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 860,
+        "total_fat_g": 57,
+        "saturated_fat_g": 23,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 290,
+        "sodium_mg": 1600,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 3,
+        "sugars_g": 6,
+        "protein_g": 25
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0050",
+      "name": "Crunch Breakfast Biscuit without Meat",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 630,
+        "total_fat_g": 35,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 180,
+        "sodium_mg": 1200,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 3,
+        "sugars_g": 6,
+        "protein_g": 18
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0051",
+      "name": "Crunch Breakfast Biscuit - Bacon",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 700,
+        "total_fat_g": 40,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 220,
+        "sodium_mg": 1300,
+        "total_carbohydrates_g": 58,
+        "dietary_fiber_g": 3,
+        "sugars_g": 6,
+        "protein_g": 23
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0052",
+      "name": "Fried Egg Biscuit Sandwich without Meat",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Biscuits",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 21,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 190,
+        "sodium_mg": 850,
+        "total_carbohydrates_g": 40,
+        "dietary_fiber_g": 2,
+        "sugars_g": 3,
+        "protein_g": 12
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0053",
+      "name": "Classic Fries - Large",
+      "category": "Sides",
+      "subcategory": "French Fries",
+      "nutrition": {
+        "calories": 510,
+        "total_fat_g": 24,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1260,
+        "total_carbohydrates_g": 70,
+        "dietary_fiber_g": 7,
+        "sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0054",
+      "name": "Classic Fries - Regular",
+      "category": "Sides",
+      "subcategory": "French Fries",
+      "nutrition": {
+        "calories": 410,
+        "total_fat_g": 19,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1020,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 6,
+        "sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0055",
+      "name": "Classic Fries - Small",
+      "category": "Sides",
+      "subcategory": "French Fries",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 630,
+        "total_carbohydrates_g": 35,
+        "dietary_fiber_g": 4,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0056",
+      "name": "Organic Applesauce",
+      "category": "Sides",
+      "subcategory": "Applesauce",
+      "nutrition": {
+        "calories": 45,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 12,
+        "dietary_fiber_g": 3,
+        "sugars_g": 8,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0057",
+      "name": "Walla Walla Onion Rings - Large",
+      "category": "Sides",
+      "subcategory": "Onion Rings",
+      "nutrition": {
+        "calories": 1060,
+        "total_fat_g": 57,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1070,
+        "total_carbohydrates_g": 127,
+        "dietary_fiber_g": 4,
+        "sugars_g": 19,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0058",
+      "name": "Walla Walla Onion Rings - Regular",
+      "category": "Sides",
+      "subcategory": "Onion Rings",
+      "nutrition": {
+        "calories": 630,
+        "total_fat_g": 34,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 640,
+        "total_carbohydrates_g": 76,
+        "dietary_fiber_g": 2,
+        "sugars_g": 12,
+        "protein_g": 10
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0059",
+      "name": "Walla Walla Onion Rings - Single",
+      "category": "Sides",
+      "subcategory": "Onion Rings",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 11,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 210,
+        "total_carbohydrates_g": 25,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "protein_g": 3
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0060",
+      "name": "Hash Browns - Regular",
+      "category": "Sides",
+      "subcategory": "Hash Browns",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 9,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "total_carbohydrates_g": 16,
+        "dietary_fiber_g": 2,
+        "sugars_g": 1,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0061",
+      "name": "Hash Browns - Small",
+      "category": "Sides",
+      "subcategory": "Hash Browns",
+      "nutrition": {
+        "calories": 80,
+        "total_fat_g": 5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 8,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0062",
+      "name": "Barq's Root Beer - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 180,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 0,
+        "sugars_g": 49,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0063",
+      "name": "Barq's Root Beer - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 54,
+        "dietary_fiber_g": 0,
+        "sugars_g": 54,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0064",
+      "name": "Barq's Root Beer - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 330,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 135,
+        "total_carbohydrates_g": 90,
+        "dietary_fiber_g": 0,
+        "sugars_g": 90,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0065",
+      "name": "Barq's Root Beer - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 480,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "total_carbohydrates_g": 130,
+        "dietary_fiber_g": 0,
+        "sugars_g": 130,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0066",
+      "name": "Caffeine Free Diet Coke - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0067",
+      "name": "Caffeine Free Diet Coke - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0068",
+      "name": "Caffeine Free Diet Coke - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0069",
+      "name": "Caffeine Free Diet Coke - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 135,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0070",
+      "name": "Cherry Coca-Cola - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 56,
+        "dietary_fiber_g": 0,
+        "sugars_g": 56,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0071",
+      "name": "Cherry Coca-Cola - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 310,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 77,
+        "dietary_fiber_g": 0,
+        "sugars_g": 77,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0072",
+      "name": "Cherry Coca-Cola - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 450,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 112,
+        "dietary_fiber_g": 0,
+        "sugars_g": 112,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0073",
+      "name": "Coca-Cola - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 35,
+        "total_carbohydrates_g": 44,
+        "dietary_fiber_g": 0,
+        "sugars_g": 44,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0074",
+      "name": "Coca-Cola - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 52,
+        "dietary_fiber_g": 0,
+        "sugars_g": 52,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0075",
+      "name": "Coca-Cola - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 80,
+        "dietary_fiber_g": 0,
+        "sugars_g": 80,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0076",
+      "name": "Coca-Cola - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 430,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 116,
+        "dietary_fiber_g": 0,
+        "sugars_g": 116,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0077",
+      "name": "Coke Zero - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 40,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0078",
+      "name": "Coke Zero - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0079",
+      "name": "Coke Zero - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 75,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0080",
+      "name": "Coke Zero - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 110,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0081",
+      "name": "Diet Coke - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0082",
+      "name": "Diet Coke - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0083",
+      "name": "Diet Coke - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0084",
+      "name": "Diet Coke - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 135,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0085",
+      "name": "Dr. Pepper - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "total_carbohydrates_g": 41,
+        "dietary_fiber_g": 0,
+        "sugars_g": 41,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0086",
+      "name": "Dr. Pepper - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 50,
+        "dietary_fiber_g": 0,
+        "sugars_g": 50,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0087",
+      "name": "Dr. Pepper - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 95,
+        "total_carbohydrates_g": 74,
+        "dietary_fiber_g": 0,
+        "sugars_g": 74,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0088",
+      "name": "Dr. Pepper - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "total_carbohydrates_g": 108,
+        "dietary_fiber_g": 0,
+        "sugars_g": 108,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0089",
+      "name": "Fuze Raspberry Tea - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 45,
+        "total_carbohydrates_g": 25,
+        "dietary_fiber_g": 0,
+        "sugars_g": 25,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0090",
+      "name": "Fuze Raspberry Tea - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "total_carbohydrates_g": 29,
+        "dietary_fiber_g": 0,
+        "sugars_g": 29,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0091",
+      "name": "Fuze Raspberry Tea - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 85,
+        "total_carbohydrates_g": 46,
+        "dietary_fiber_g": 0,
+        "sugars_g": 46,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0092",
+      "name": "Fuze Raspberry Tea - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 250,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 125,
+        "total_carbohydrates_g": 67,
+        "dietary_fiber_g": 0,
+        "sugars_g": 67,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0093",
+      "name": "Sprite - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 70,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 0,
+        "sugars_g": 42,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0094",
+      "name": "Sprite - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 180,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 90,
+        "total_carbohydrates_g": 49,
+        "dietary_fiber_g": 0,
+        "sugars_g": 49,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0095",
+      "name": "Sprite - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 130,
+        "total_carbohydrates_g": 77,
+        "dietary_fiber_g": 0,
+        "sugars_g": 77,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0096",
+      "name": "Sprite - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Fountain Drinks",
+      "nutrition": {
+        "calories": 420,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 112,
+        "dietary_fiber_g": 0,
+        "sugars_g": 112,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0097",
+      "name": "Honest Fresh Brewed Iced Tea - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0098",
+      "name": "Honest Fresh Brewed Iced Tea - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0099",
+      "name": "Honest Fresh Brewed Iced Tea - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0100",
+      "name": "Honest Fresh Brewed Iced Tea - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 0,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0101",
+      "name": "Iced Lemonade Tea - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 19,
+        "dietary_fiber_g": 0,
+        "sugars_g": 19,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0102",
+      "name": "Iced Lemonade Tea - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 100,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 26,
+        "dietary_fiber_g": 0,
+        "sugars_g": 25,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0103",
+      "name": "Iced Lemonade Tea - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Iced Tea",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 32,
+        "dietary_fiber_g": 0,
+        "sugars_g": 31,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0104",
+      "name": "Apple Juice",
+      "category": "Beverages",
+      "subcategory": "Juice",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 37,
+        "dietary_fiber_g": 0,
+        "sugars_g": 33,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0105",
+      "name": "Lemonade - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 29,
+        "dietary_fiber_g": 0,
+        "sugars_g": 28,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0106",
+      "name": "Lemonade - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 35,
+        "dietary_fiber_g": 0,
+        "sugars_g": 34,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0107",
+      "name": "Lemonade - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 190,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 48,
+        "dietary_fiber_g": 0,
+        "sugars_g": 46,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0108",
+      "name": "Lemonade - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 250,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 64,
+        "dietary_fiber_g": 0,
+        "sugars_g": 62,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0109",
+      "name": "Oregon Marionberry Lemonade - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 24,
+        "dietary_fiber_g": 1,
+        "sugars_g": 22,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0110",
+      "name": "Oregon Marionberry Lemonade - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 160,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 1,
+        "sugars_g": 39,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0111",
+      "name": "Oregon Marionberry Lemonade - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 220,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 57,
+        "dietary_fiber_g": 2,
+        "sugars_g": 52,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0112",
+      "name": "Oregon Marionberry Lemonade - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 290,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 75,
+        "dietary_fiber_g": 2,
+        "sugars_g": 68,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0113",
+      "name": "Oregon Strawberry Lemonade - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 23,
+        "dietary_fiber_g": 0,
+        "sugars_g": 21,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0114",
+      "name": "Oregon Strawberry Lemonade - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 39,
+        "dietary_fiber_g": 1,
+        "sugars_g": 37,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0115",
+      "name": "Oregon Strawberry Lemonade - 22 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 200,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 52,
+        "dietary_fiber_g": 1,
+        "sugars_g": 49,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0116",
+      "name": "Oregon Strawberry Lemonade - 32 oz",
+      "category": "Beverages",
+      "subcategory": "Lemonade",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 68,
+        "dietary_fiber_g": 2,
+        "sugars_g": 64,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0117",
+      "name": "Blackberry Jasmine Iced Tea - 12 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 25,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 6,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0118",
+      "name": "Blackberry Jasmine Iced Tea - 16 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 25,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 6,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0119",
+      "name": "Blackberry Jasmine Iced Tea - 20 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 25,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 6,
+        "dietary_fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0120",
+      "name": "Cold Brew - 12 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 20,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 4,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0121",
+      "name": "Cold Brew - 16 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 30,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 6,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0122",
+      "name": "Cold Brew - 20 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 40,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 7,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0123",
+      "name": "Pomegranate Cherry Limeade - 12 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 170,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 44,
+        "dietary_fiber_g": 0,
+        "sugars_g": 42,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0124",
+      "name": "Pomegranate Cherry Limeade - 16 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "total_carbohydrates_g": 66,
+        "dietary_fiber_g": 0,
+        "sugars_g": 63,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0125",
+      "name": "Pomegranate Cherry Limeade - 20 oz",
+      "category": "Beverages",
+      "subcategory": "BV Bevies",
+      "nutrition": {
+        "calories": 340,
+        "total_fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 20,
+        "total_carbohydrates_g": 88,
+        "dietary_fiber_g": 0,
+        "sugars_g": 84,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0126",
+      "name": "Cold Foam",
+      "category": "Toppings",
+      "subcategory": "Cold Foam",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 9,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 25,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 2,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0127",
+      "name": "Oregon Marionberry Cold Foam",
+      "category": "Toppings",
+      "subcategory": "Cold Foam",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 6,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 5,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0128",
+      "name": "Chocolate Hazelnut Ice Cream Milkshake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 680,
+        "total_fat_g": 39,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 73,
+        "dietary_fiber_g": 3,
+        "sugars_g": 69,
+        "protein_g": 14
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0129",
+      "name": "Chocolate Hazelnut Ice Cream Milkshake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 1030,
+        "total_fat_g": 62,
+        "saturated_fat_g": 26,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 120,
+        "sodium_mg": 320,
+        "total_carbohydrates_g": 104,
+        "dietary_fiber_g": 6,
+        "sugars_g": 96,
+        "protein_g": 22
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0130",
+      "name": "Chocolate Hazelnut Ice Cream Milkshake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 1370,
+        "total_fat_g": 84,
+        "saturated_fat_g": 33,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 155,
+        "sodium_mg": 420,
+        "total_carbohydrates_g": 136,
+        "dietary_fiber_g": 8,
+        "sugars_g": 123,
+        "protein_g": 30
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0131",
+      "name": "Chocolate Ice Cream Milkshake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 610,
+        "total_fat_g": 28,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 210,
+        "total_carbohydrates_g": 82,
+        "dietary_fiber_g": 2,
+        "sugars_g": 80,
+        "protein_g": 11
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0132",
+      "name": "Chocolate Ice Cream Milkshake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 840,
+        "total_fat_g": 41,
+        "saturated_fat_g": 26,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 130,
+        "sodium_mg": 300,
+        "total_carbohydrates_g": 108,
+        "dietary_fiber_g": 2,
+        "sugars_g": 106,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0133",
+      "name": "Chocolate Ice Cream Milkshake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 1070,
+        "total_fat_g": 52,
+        "saturated_fat_g": 33,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 170,
+        "sodium_mg": 380,
+        "total_carbohydrates_g": 139,
+        "dietary_fiber_g": 2,
+        "sugars_g": 136,
+        "protein_g": 19
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0134",
+      "name": "Oregon Marionberry Ice Cream Milkshake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 570,
+        "total_fat_g": 28,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 72,
+        "dietary_fiber_g": 1,
+        "sugars_g": 69,
+        "protein_g": 10
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0135",
+      "name": "Oregon Marionberry Ice Cream Milkshake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 770,
+        "total_fat_g": 37,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 120,
+        "sodium_mg": 260,
+        "total_carbohydrates_g": 97,
+        "dietary_fiber_g": 2,
+        "sugars_g": 93,
+        "protein_g": 14
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0136",
+      "name": "Oregon Marionberry Ice Cream Milkshake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 960,
+        "total_fat_g": 46,
+        "saturated_fat_g": 30,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 150,
+        "sodium_mg": 320,
+        "total_carbohydrates_g": 122,
+        "dietary_fiber_g": 2,
+        "sugars_g": 117,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0137",
+      "name": "Oregon Strawberry Ice Cream Milkshake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 550,
+        "total_fat_g": 28,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 65,
+        "dietary_fiber_g": 1,
+        "sugars_g": 64,
+        "protein_g": 10
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0138",
+      "name": "Oregon Strawberry Ice Cream Milkshake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 670,
+        "total_fat_g": 34,
+        "saturated_fat_g": 22,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 230,
+        "total_carbohydrates_g": 82,
+        "dietary_fiber_g": 1,
+        "sugars_g": 80,
+        "protein_g": 12
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0139",
+      "name": "Oregon Strawberry Ice Cream Milkshake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 920,
+        "total_fat_g": 47,
+        "saturated_fat_g": 30,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 150,
+        "sodium_mg": 320,
+        "total_carbohydrates_g": 111,
+        "dietary_fiber_g": 2,
+        "sugars_g": 109,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0140",
+      "name": "Stumptown Mocha Perk Ice Cream Shake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 600,
+        "total_fat_g": 30,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 210,
+        "total_carbohydrates_g": 75,
+        "dietary_fiber_g": 1,
+        "sugars_g": 73,
+        "protein_g": 11
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0141",
+      "name": "Stumptown Mocha Perk Ice Cream Shake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 800,
+        "total_fat_g": 39,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 125,
+        "sodium_mg": 280,
+        "total_carbohydrates_g": 101,
+        "dietary_fiber_g": 1,
+        "sugars_g": 98,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0142",
+      "name": "Stumptown Mocha Perk Ice Cream Shake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 910,
+        "total_fat_g": 44,
+        "saturated_fat_g": 28,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 140,
+        "sodium_mg": 320,
+        "total_carbohydrates_g": 118,
+        "dietary_fiber_g": 2,
+        "sugars_g": 113,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0143",
+      "name": "Vanilla Ice Cream Milkshake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 620,
+        "total_fat_g": 27,
+        "saturated_fat_g": 17,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 87,
+        "dietary_fiber_g": 0,
+        "sugars_g": 86,
+        "protein_g": 9
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0144",
+      "name": "Vanilla Ice Cream Milkshake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 850,
+        "total_fat_g": 39,
+        "saturated_fat_g": 25,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 130,
+        "sodium_mg": 300,
+        "total_carbohydrates_g": 113,
+        "dietary_fiber_g": 0,
+        "sugars_g": 112,
+        "protein_g": 14
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0145",
+      "name": "Vanilla Ice Cream Milkshake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Milkshakes",
+      "nutrition": {
+        "calories": 1080,
+        "total_fat_g": 52,
+        "saturated_fat_g": 33,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 170,
+        "sodium_mg": 390,
+        "total_carbohydrates_g": 139,
+        "dietary_fiber_g": 0,
+        "sugars_g": 138,
+        "protein_g": 18
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.95,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0146",
+      "name": "Chocolate Hazelnut Bliss Shake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 1170,
+        "total_fat_g": 62,
+        "saturated_fat_g": 26,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 147,
+        "dietary_fiber_g": 6,
+        "sugars_g": 0,
+        "protein_g": 10
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0147",
+      "name": "Chocolate Hazelnut Bliss Shake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 1540,
+        "total_fat_g": 84,
+        "saturated_fat_g": 33,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 188,
+        "dietary_fiber_g": 8,
+        "sugars_g": 0,
+        "protein_g": 15
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0148",
+      "name": "Classic Chocolate Bliss Shake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 700,
+        "total_fat_g": 28,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 113,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0149",
+      "name": "Oregon Strawberry Bliss Shake - 12 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 580,
+        "total_fat_g": 25,
+        "saturated_fat_g": 17,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 88,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0150",
+      "name": "Oregon Strawberry Bliss Shake - 20 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 930,
+        "total_fat_g": 40,
+        "saturated_fat_g": 30,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 141,
+        "dietary_fiber_g": 2,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0151",
+      "name": "Stumptown Mocha Perk Bliss Shake - 16 oz",
+      "category": "Beverages",
+      "subcategory": "Bliss Shakes",
+      "nutrition": {
+        "calories": 640,
+        "total_fat_g": 26,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 102,
+        "dietary_fiber_g": 1,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0152",
+      "name": "Chocolate Sundae - Ice Cream",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 470,
+        "total_fat_g": 17,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 200,
+        "total_carbohydrates_g": 79,
+        "dietary_fiber_g": 2,
+        "sugars_g": 69,
+        "protein_g": 7
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0153",
+      "name": "Oregon Strawberry Sundae - Ice Cream",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 17,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 34,
+        "dietary_fiber_g": 1,
+        "sugars_g": 29,
+        "protein_g": 5
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0154",
+      "name": "Oregon Marionberry Sundae - Ice Cream",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 330,
+        "total_fat_g": 17,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 38,
+        "dietary_fiber_g": 1,
+        "sugars_g": 33,
+        "protein_g": 5
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0155",
+      "name": "Oregon Strawberry Sundae - Coconut Bliss",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 280,
+        "total_fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 42,
+        "dietary_fiber_g": 1,
+        "sugars_g": 38,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0156",
+      "name": "Chocolate Sundae - Coconut Bliss",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 440,
+        "total_fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 86,
+        "dietary_fiber_g": 2,
+        "sugars_g": 75,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0157",
+      "name": "Oregon Marionberry Sundae - Coconut Bliss",
+      "category": "Desserts",
+      "subcategory": "Sundaes",
+      "nutrition": {
+        "calories": 300,
+        "total_fat_g": 12,
+        "saturated_fat_g": 7,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 170,
+        "total_carbohydrates_g": 48,
+        "dietary_fiber_g": 1,
+        "sugars_g": 43,
+        "protein_g": 1
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0158",
+      "name": "Kids Original Cheeseburger Meal",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 550,
+        "total_fat_g": 28,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 900,
+        "total_carbohydrates_g": 45,
+        "dietary_fiber_g": 3,
+        "sugars_g": 9,
+        "protein_g": 20
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.8,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0159",
+      "name": "Kids Hamburger Meal",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 450,
+        "total_fat_g": 20,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 750,
+        "total_carbohydrates_g": 40,
+        "dietary_fiber_g": 2,
+        "sugars_g": 8,
+        "protein_g": 17
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.8,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0160",
+      "name": "Kids Chicken and Chips Meal",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 23,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 40,
+        "sodium_mg": 600,
+        "total_carbohydrates_g": 22,
+        "dietary_fiber_g": 2,
+        "sugars_g": 3,
+        "protein_g": 27
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0161",
+      "name": "Kids Pacific Cod and Chips",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 400,
+        "total_fat_g": 31,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 500,
+        "total_carbohydrates_g": 19,
+        "dietary_fiber_g": 2,
+        "sugars_g": 1,
+        "protein_g": 11
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0162",
+      "name": "Kids Classic Fries",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 260,
+        "total_fat_g": 12,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 630,
+        "total_carbohydrates_g": 35,
+        "dietary_fiber_g": 4,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0163",
+      "name": "Kids Ice Cream Cone",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 6,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 50,
+        "total_carbohydrates_g": 19,
+        "dietary_fiber_g": 0,
+        "sugars_g": 14,
+        "protein_g": 3
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0164",
+      "name": "BBQ Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 70,
+        "total_fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 190,
+        "total_carbohydrates_g": 13,
+        "dietary_fiber_g": 0,
+        "sugars_g": 8,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0165",
+      "name": "Burgerville Spread",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 250,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0166",
+      "name": "Chipotle Mayo",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 100,
+        "total_fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 240,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0167",
+      "name": "Garlic Aioli",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 13,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 280,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0168",
+      "name": "Honey Mustard",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 110,
+        "total_fat_g": 10,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 220,
+        "total_carbohydrates_g": 7,
+        "dietary_fiber_g": 0,
+        "sugars_g": 6,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0169",
+      "name": "Ranch Dressing",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 140,
+        "total_fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 260,
+        "total_carbohydrates_g": 1,
+        "dietary_fiber_g": 0,
+        "sugars_g": 1,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0170",
+      "name": "Tartar Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 100,
+        "total_fat_g": 11,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 200,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 0,
+        "sugars_g": 2,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0171",
+      "name": "Sweet & Spicy Sauce",
+      "category": "Sauces",
+      "subcategory": "Dipping Sauces",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 6,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 280,
+        "total_carbohydrates_g": 17,
+        "dietary_fiber_g": 0,
+        "sugars_g": 15,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.8,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0172",
+      "name": "Coconut Whipped Cream",
+      "category": "Toppings",
+      "subcategory": "Whipped Cream",
+      "nutrition": {
+        "calories": 90,
+        "total_fat_g": 4,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "total_carbohydrates_g": 12,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0173",
+      "name": "Whipped Cream",
+      "category": "Toppings",
+      "subcategory": "Whipped Cream",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 15,
+        "saturated_fat_g": 10,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 10,
+        "total_carbohydrates_g": 3,
+        "dietary_fiber_g": 0,
+        "sugars_g": 3,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0174",
+      "name": "Malted Milk Powder - 16 oz Shake",
+      "category": "Toppings",
+      "subcategory": "Malt Add-On",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 80,
+        "total_carbohydrates_g": 20,
+        "dietary_fiber_g": 0,
+        "sugars_g": 12,
+        "protein_g": 4
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0175",
+      "name": "Malted Milk Powder - 20 oz Shake",
+      "category": "Toppings",
+      "subcategory": "Malt Add-On",
+      "nutrition": {
+        "calories": 150,
+        "total_fat_g": 3,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 100,
+        "total_carbohydrates_g": 25,
+        "dietary_fiber_g": 0,
+        "sugars_g": 15,
+        "protein_g": 5
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.85,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0176",
+      "name": "Stumptown Cold Brew with Cold Foam",
+      "category": "Beverages",
+      "subcategory": "Coffee",
+      "nutrition": {
+        "calories": 120,
+        "total_fat_g": 5,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 30,
+        "total_carbohydrates_g": 14,
+        "dietary_fiber_g": 0,
+        "sugars_g": 4,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "official",
+          "confidence": 0.75,
+          "extraction_date": "2026-07-31",
+          "source_name": "Burgerville Official"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    },
+    {
+      "product_id": "burgerville_0177",
+      "name": "Pup Patty",
+      "category": "Kids",
+      "subcategory": "Kids Meals",
+      "nutrition": {
+        "calories": 210,
+        "total_fat_g": 15,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 380,
+        "total_carbohydrates_g": 0,
+        "dietary_fiber_g": 0,
+        "sugars_g": 0,
+        "protein_g": 18
+      },
+      "allergens": null,
+      "ingredients": null,
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/burgerville/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.8,
+          "extraction_date": "2026-07-31",
+          "source_name": "Nutritionix"
+        }
+      ],
+      "availability": {
+        "all_locations": true,
+        "limited_time": false,
+        "seasonal": false,
+        "regional": null
+      },
+      "serving_info": {
+        "serving_size": "1 item",
+        "servings_per_container": 1
+      }
+    }
+  ]
+}

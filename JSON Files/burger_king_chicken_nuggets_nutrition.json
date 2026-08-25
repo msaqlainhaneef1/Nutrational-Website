@@ -1,0 +1,300 @@
+{
+  "brand": {
+    "name": "Burger King",
+    "website": "https://www.bk.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken Nuggets",
+    "Spicy Chicken Nuggets",
+    "Dipping Sauces"
+  ],
+  "products": [
+    {
+      "product_id": "bk_chicken_nuggets_4pc",
+      "name": "4 Pc. Chicken Nuggets",
+      "category": "Chicken Nuggets",
+      "subcategory": "Nuggets",
+      "description": "Made with white meat chicken, tender and juicy on the inside and crispy on the outside, shaped into bite-sized pieces.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces (62g)",
+        "weight_g": 62.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 9.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 320.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning",
+        "Breading",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/nuggets-4pc.png",
+      "product_url": "https://www.bk.com/menu/item-20001",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chicken_nuggets_8pc",
+      "name": "8 Pc. Chicken Nuggets",
+      "category": "Chicken Nuggets",
+      "subcategory": "Nuggets",
+      "description": "Made with white meat chicken, tender and juicy on the inside and crispy on the outside, 8 pieces.",
+      "price": 3.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "8 pieces (125g)",
+        "weight_g": 125.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 18.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 640.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 21.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning",
+        "Breading",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/nuggets-8pc.png",
+      "product_url": "https://www.bk.com/menu/item-20002",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_chicken_nuggets_16pc",
+      "name": "16 Pc. Chicken Nuggets",
+      "category": "Chicken Nuggets",
+      "subcategory": "Nuggets",
+      "description": "Made with white meat chicken, tender and juicy on the inside and crispy on the outside, 16 pieces.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "16 pieces (250g)",
+        "weight_g": 250.0
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 36.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 1280.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning",
+        "Breading",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/nuggets-16pc.png",
+      "product_url": "https://www.bk.com/menu/item-20003",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_spicy_chicken_nuggets_8pc",
+      "name": "8 Pc. Spicy Chicken Nuggets",
+      "category": "Spicy Chicken Nuggets",
+      "subcategory": "Nuggets",
+      "description": "Glazed with a fiery blend of peppers and spices, these white meat chicken nuggets pack a punch.",
+      "price": 3.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "8 pieces (128g)",
+        "weight_g": 128.0
+      },
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 17.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 270.0,
+        "carbohydrates_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 1.6,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Spicy Breading",
+        "Water",
+        "Seasoning",
+        "Vegetable Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/spicy-nuggets-8pc.png",
+      "product_url": "https://www.bk.com/menu/item-20004",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bk_bbq_sauce",
+      "name": "BBQ Dipping Sauce",
+      "category": "Dipping Sauces",
+      "subcategory": "Sauces",
+      "description": "Rich and smoky barbecue dipping sauce.",
+      "price": 0.3,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 container (28g)",
+        "weight_g": 28.0
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": 40.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 9.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "High Fructose Corn Syrup",
+        "Water",
+        "Tomato Paste",
+        "Distilled Vinegar",
+        "Molasses",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bk.com/images/bbq-sauce.png",
+      "product_url": "https://www.bk.com/menu/item-20005",
+      "sources": [
+        {
+          "url": "https://www.bk.com/pdf/nutrition.pdf",
+          "source_type": "Official PDF",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,706 +1,1364 @@
 {
+  "totalRestaurants": 194,
+  "totalItems": 33865,
   "restaurants": [
+    {
+      "slug": "54th-street-grill-bar-nutrition-calculator",
+      "name": "54th Street Grill & Bar",
+      "category": "Burgers & Fast Food",
+      "itemCount": 390,
+      "emoji": "\ud83c\udf54"
+    },
     {
       "slug": "7-brew-nutrition-calculator",
       "name": "7 Brew",
       "category": "Coffee & Drinks",
       "itemCount": 1253,
-      "emoji": "☕"
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "aw-restaurants-nutrition-calculator",
+      "name": "A&W Restaurants",
+      "category": "Burgers & Fast Food",
+      "itemCount": 154,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "albaik-nutrition-calculator",
       "name": "AlBaik",
-      "category": "Chicken",
+      "category": "Chicken & Wings",
       "itemCount": 31,
-      "emoji": "🍗"
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "another-broken-egg-cafe-nutrition-calculator",
+      "name": "Another Broken Egg Cafe",
+      "category": "Burgers & Fast Food",
+      "itemCount": 348,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "applebees-nutrition-calculator",
       "name": "Applebee's",
       "category": "Sit-Down Dining",
-      "itemCount": 51,
-      "emoji": "🍽"
+      "itemCount": 209,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "arbys-nutrition-calculator",
       "name": "Arby's",
       "category": "Sandwiches & Deli",
-      "itemCount": 132,
-      "emoji": "🥩"
+      "itemCount": 133,
+      "emoji": "\ud83e\udd69"
+    },
+    {
+      "slug": "arctic-circle-nutrition-calculator",
+      "name": "Arctic Circle",
+      "category": "Burgers & Fast Food",
+      "itemCount": 59,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "auntie-annes-nutrition-calculator",
+      "name": "Auntie Anne's",
+      "category": "Sandwiches & Deli",
+      "itemCount": 55,
+      "emoji": "\ud83e\udd6a"
+    },
+    {
+      "slug": "barberitos-nutrition-calculator",
+      "name": "Barberitos",
+      "category": "Chicken & Wings",
+      "itemCount": 38,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "baskin-robbins-nutrition-calculator",
+      "name": "Baskin-Robbins",
+      "category": "Desserts & Treats",
+      "itemCount": 11,
+      "emoji": "\ud83c\udf66"
     },
     {
       "slug": "bibibop-calories-calculator",
       "name": "BIBIBOP",
       "category": "Breakfast & Healthy",
-      "itemCount": 77,
-      "emoji": "🍚"
+      "itemCount": 83,
+      "emoji": "\ud83c\udf5a"
     },
     {
       "slug": "biscuitville-nutrition-calculator",
       "name": "Biscuitville",
       "category": "Breakfast & Healthy",
       "itemCount": 134,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "bjs-nutrition-calculator",
       "name": "BJ's Restaurant & Brewhouse",
       "category": "Coffee & Drinks",
-      "itemCount": 553,
-      "emoji": "🍕"
+      "itemCount": 836,
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "black-bear-diner-nutrition-calculator",
+      "name": "Black Bear Diner",
+      "category": "Chicken & Wings",
+      "itemCount": 13,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "black-rock-coffee-nutrition-calculator",
       "name": "Black Rock Coffee",
       "category": "Coffee & Drinks",
       "itemCount": 93,
-      "emoji": "☕"
+      "emoji": "\u2615"
     },
     {
       "slug": "blank-street-coffee-calories-calculator",
       "name": "Blank Street Coffee",
       "category": "Coffee & Drinks",
       "itemCount": 50,
-      "emoji": "☕"
+      "emoji": "\u2615"
     },
     {
       "slug": "blaze-pizza-calories-calculator",
       "name": "Blaze Pizza",
-      "category": "Pizza",
-      "itemCount": 55,
-      "emoji": "🍕"
+      "category": "Pizza & Italian",
+      "itemCount": 79,
+      "emoji": "\ud83c\udf55"
     },
     {
       "slug": "bob-evans-nutrition-calculator",
       "name": "Bob Evans",
       "category": "Breakfast & Healthy",
-      "itemCount": 217,
-      "emoji": "🍽"
+      "itemCount": 512,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "bojangles-nutrition-calculator",
+      "name": "Bojangles",
+      "category": "Chicken & Wings",
+      "itemCount": 231,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "bolay-nutrition-calculator",
       "name": "Bolay",
       "category": "Mexican & Bowls",
       "itemCount": 67,
-      "emoji": "🥙"
+      "emoji": "\ud83e\udd59"
     },
     {
       "slug": "bolthouse-farms-nutrition-calculator",
       "name": "Bolthouse Farms",
       "category": "Coffee & Drinks",
       "itemCount": 50,
-      "emoji": "🥕"
+      "emoji": "\ud83e\udd55"
+    },
+    {
+      "slug": "bonefish-grill-nutrition-calculator",
+      "name": "Bonefish Grill",
+      "category": "Burgers & Fast Food",
+      "itemCount": 149,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "brassica-nutrition-calculator",
       "name": "Brassica",
       "category": "Breakfast & Healthy",
       "itemCount": 37,
-      "emoji": "🥗"
+      "emoji": "\ud83e\udd57"
+    },
+    {
+      "slug": "brueggers-bagels-nutrition-calculator",
+      "name": "Bruegger's Bagels",
+      "category": "Chicken & Wings",
+      "itemCount": 151,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "buffalo-wild-wings-nutrition-calculator",
       "name": "Buffalo Wild Wings",
-      "category": "Chicken",
-      "itemCount": 682,
-      "emoji": "🍽"
+      "category": "Chicken & Wings",
+      "itemCount": 911,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "burger-king-calories-calculator",
       "name": "Burger King",
-      "category": "Burgers",
-      "itemCount": 138,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 183,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "burgerfi-nutrition-calculator",
+      "name": "BurgerFi",
+      "category": "Burgers & Fast Food",
+      "itemCount": 72,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "cafe-rio-calories-calculator",
       "name": "Cafe Rio",
       "category": "Mexican & Bowls",
-      "itemCount": 82,
-      "emoji": "🌯"
+      "itemCount": 83,
+      "emoji": "\ud83c\udf2f"
+    },
+    {
+      "slug": "caffeine-nutrition-calculator",
+      "name": "Caffeine",
+      "category": "Coffee & Drinks",
+      "itemCount": 6,
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "caramel-frappuccino-nutrition-calculator",
+      "name": "Caramel Frappuccino",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
       "slug": "caribou-coffee-nutrition-calculator",
       "name": "Caribou Coffee",
       "category": "Coffee & Drinks",
-      "itemCount": 507,
-      "emoji": "🍽"
+      "itemCount": 512,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "carls-jr-calories-calculator",
       "name": "Carl's Jr.",
-      "category": "Burgers",
-      "itemCount": 68,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 216,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "caseys-nutrition-calculator",
+      "name": "Casey's General Stores",
+      "category": "Burgers & Fast Food",
+      "itemCount": 580,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "cava-nutrition-calculator",
       "name": "CAVA",
       "category": "Mexican & Bowls",
       "itemCount": 45,
-      "emoji": "🥙"
+      "emoji": "\ud83e\udd59"
+    },
+    {
+      "slug": "chai-tea-cream-frappuccino-nutrition-calculator",
+      "name": "Chai Tea Cream Frappuccino",
+      "category": "Coffee & Drinks",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf75"
+    },
+    {
+      "slug": "checkers-nutrition-calculator",
+      "name": "Checkers",
+      "category": "Burgers & Fast Food",
+      "itemCount": 148,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "chick-fil-a-nutrition-calculator",
       "name": "Chick-fil-A",
-      "category": "Chicken",
-      "itemCount": 271,
-      "emoji": "🍽"
+      "category": "Chicken & Wings",
+      "itemCount": 490,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "chicken-express-nutrition-calculator",
+      "name": "Chicken Express",
+      "category": "Chicken & Wings",
+      "itemCount": 65,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "chicken-salad-chick-nutrition-calculator",
+      "name": "Chicken Salad Chick",
+      "category": "Chicken & Wings",
+      "itemCount": 163,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "chilis-calories-calculator",
       "name": "Chili's",
       "category": "Sit-Down Dining",
-      "itemCount": 230,
-      "emoji": "🌶"
+      "itemCount": 233,
+      "emoji": "\ud83c\udf36"
     },
     {
       "slug": "chipotle-nutrition-calculator",
       "name": "Chipotle",
       "category": "Mexican & Bowls",
       "itemCount": 63,
-      "emoji": "🌯"
+      "emoji": "\ud83c\udf2f"
     },
     {
       "slug": "chopt-nutrition-calculator",
       "name": "Chopt",
       "category": "Breakfast & Healthy",
-      "itemCount": 46,
-      "emoji": "🍽"
+      "itemCount": 210,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "chuys-nutrition-calculator",
       "name": "Chuy's",
       "category": "Mexican & Bowls",
       "itemCount": 91,
-      "emoji": "🌮"
+      "emoji": "\ud83c\udf2e"
+    },
+    {
+      "slug": "cinnabon-nutrition-calculator",
+      "name": "Cinnabon",
+      "category": "Coffee & Drinks",
+      "itemCount": 169,
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "cold-stone-creamery-nutrition-calculator",
+      "name": "Cold Stone Creamery",
+      "category": "Coffee & Drinks",
+      "itemCount": 265,
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "cookout-nutrition-calculator",
+      "name": "Cook Out",
+      "category": "Burgers & Fast Food",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "costa-vida-nutrition-calculator",
       "name": "Costa Vida",
       "category": "Mexican & Bowls",
-      "itemCount": 272,
-      "emoji": "🍽"
+      "itemCount": 278,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "cracker-barrel-nutrition-calculator",
+      "name": "Cracker Barrel",
+      "category": "Chicken & Wings",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "crazy-bowls-wraps-nutrition-calculator",
+      "name": "Crazy Bowls & Wraps",
+      "category": "Chicken & Wings",
+      "itemCount": 41,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "culvers-nutrition-calculator",
       "name": "Culver's",
-      "category": "Burgers",
-      "itemCount": 13,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 208,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "cupbop-nutrition-calculator",
       "name": "Cupbop",
       "category": "Mexican & Bowls",
       "itemCount": 40,
-      "emoji": "🍜"
+      "emoji": "\ud83c\udf5c"
     },
     {
       "slug": "dairy-queen-nutrition-calculator",
       "name": "Dairy Queen",
       "category": "Snacks & Treats",
-      "itemCount": 562,
-      "emoji": "🍽"
+      "itemCount": 576,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "daves-hot-chicken-nutrition-calculator",
       "name": "Dave's Hot Chicken",
-      "category": "Chicken",
-      "itemCount": 36,
-      "emoji": "🍗"
+      "category": "Chicken & Wings",
+      "itemCount": 42,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "del-taco-nutrition-calculator",
+      "name": "Del Taco",
+      "category": "Burgers & Fast Food",
+      "itemCount": 197,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "dibellas-nutrition-calculator",
+      "name": "DiBella's Subs",
+      "category": "Chicken & Wings",
+      "itemCount": 41,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "dickeys-barbecue-pit-nutrition-calculator",
+      "name": "Dickey's Barbecue Pit",
+      "category": "Chicken & Wings",
+      "itemCount": 302,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "dig-nutrition-calculator",
       "name": "Dig",
       "category": "Breakfast & Healthy",
       "itemCount": 73,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "dions-nutrition-calculator",
       "name": "Dion's",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 338,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "dominos-nutrition-calculator",
       "name": "Domino's",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 510,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "donatos-pizza-nutrition-calculator",
       "name": "Donatos Pizza",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 195,
-      "emoji": "🍕"
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "double-down-nutrition-calculator",
+      "name": "Double Down",
+      "category": "American & Grill",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
+    },
+    {
+      "slug": "dunkin-nutrition-calculator",
+      "name": "Dunkin'",
+      "category": "Chicken & Wings",
+      "itemCount": 17,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "dutch-bros-nutrition-calculator",
       "name": "Dutch Bros",
       "category": "Coffee & Drinks",
       "itemCount": 517,
-      "emoji": "☕"
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "einstein-bros-bagels-nutrition-calculator",
+      "name": "Einstein Bros. Bagels",
+      "category": "Chicken & Wings",
+      "itemCount": 229,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "el-pollo-loco-nutrition-calculator",
       "name": "El Pollo Loco",
-      "category": "Chicken",
-      "itemCount": 112,
-      "emoji": "🍗"
+      "category": "Chicken & Wings",
+      "itemCount": 247,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "fazolis-nutrition-calculator",
+      "name": "Fazoli's",
+      "category": "Chicken & Wings",
+      "itemCount": 223,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "firehouse-subs-nutrition-calculator",
       "name": "Firehouse Subs",
       "category": "Sandwiches & Deli",
-      "itemCount": 221,
-      "emoji": "🥪"
+      "itemCount": 399,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "first-watch-nutrition-calculator",
       "name": "First Watch",
       "category": "Breakfast & Healthy",
-      "itemCount": 86,
-      "emoji": "🍽"
+      "itemCount": 88,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "five-guys-nutrition-calculator",
       "name": "Five Guys",
-      "category": "Burgers",
+      "category": "Burgers & Fast Food",
       "itemCount": 35,
-      "emoji": "🍔"
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "frappuccino-nutrition-calculator",
+      "name": "Frappuccino",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
       "slug": "freebirds-world-burrito-nutrition-calculator",
       "name": "Freebirds World Burrito",
       "category": "Mexican & Bowls",
-      "itemCount": 30,
-      "emoji": "🌯"
+      "itemCount": 37,
+      "emoji": "\ud83c\udf2f"
+    },
+    {
+      "slug": "garbanzo-mediterranean-grill-nutrition-calculator",
+      "name": "Garbanzo Mediterranean Grill",
+      "category": "Chicken & Wings",
+      "itemCount": 191,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "golden-spoon-frozen-yogurt-nutrition-calculator",
+      "name": "Golden Spoon Frozen Yogurt",
+      "category": "Desserts & Treats",
+      "itemCount": 7,
+      "emoji": "\ud83c\udf66"
     },
     {
       "slug": "goodcents-nutrition-calculator",
       "name": "Goodcents",
       "category": "Sandwiches & Deli",
       "itemCount": 428,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "hardees-nutrition-calculator",
+      "name": "Hardee's",
+      "category": "Burgers & Fast Food",
+      "itemCount": 113,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "hawaiian-bros-nutrition-calculator",
       "name": "Hawaiian Bros",
       "category": "Mexican & Bowls",
       "itemCount": 9,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "honey-baked-ham-nutrition-calculator",
+      "name": "Honey Baked Ham",
+      "category": "Chicken & Wings",
+      "itemCount": 195,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "hosss-nutrition-calculator",
+      "name": "Hoss's Family Steak & Sea House",
+      "category": "Burgers & Fast Food",
+      "itemCount": 261,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "hot-head-burritos-nutrition-calculator",
       "name": "Hot Head Burritos",
       "category": "Mexican & Bowls",
       "itemCount": 83,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "ihop-nutrition-calculator",
+      "name": "IHOP",
+      "category": "Burgers & Fast Food",
+      "itemCount": 401,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "in-n-out-nutrition-calculator",
       "name": "In-N-Out",
-      "category": "Burgers",
-      "itemCount": 16,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 19,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "jack-in-the-box-nutrition-calculator",
       "name": "Jack in the Box",
-      "category": "Burgers",
-      "itemCount": 84,
-      "emoji": "🍽"
+      "category": "Burgers & Fast Food",
+      "itemCount": 96,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "jaggers-nutrition-calculator",
+      "name": "Jaggers",
+      "category": "Burgers & Fast Food",
+      "itemCount": 142,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "jamba-juice-nutrition-calculator",
       "name": "Jamba Juice",
       "category": "Coffee & Drinks",
       "itemCount": 31,
-      "emoji": "🥤"
+      "emoji": "\ud83e\udd64"
+    },
+    {
+      "slug": "jasons-deli-nutrition-calculator",
+      "name": "Jasons Deli",
+      "category": "Chicken & Wings",
+      "itemCount": 188,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "jersey-mikes-calories-calculator",
       "name": "Jersey Mike's",
       "category": "Sandwiches & Deli",
-      "itemCount": 34,
-      "emoji": "🥪"
+      "itemCount": 36,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "jets-pizza-nutrition-calculator",
       "name": "Jet's Pizza",
-      "category": "Pizza",
-      "itemCount": 197,
-      "emoji": "🍽"
+      "category": "Pizza & Italian",
+      "itemCount": 461,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "jimmy-johns-calories-calculator",
       "name": "Jimmy John's",
       "category": "Sandwiches & Deli",
-      "itemCount": 41,
-      "emoji": "🥪"
+      "itemCount": 42,
+      "emoji": "\ud83e\udd6a"
+    },
+    {
+      "slug": "jose-peppers-nutrition-calculator",
+      "name": "Jose Pepper's",
+      "category": "Burgers & Fast Food",
+      "itemCount": 79,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "kfc-nutrition-calculator",
+      "name": "KFC",
+      "category": "Chicken & Wings",
+      "itemCount": 229,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "krystal-nutrition-calculator",
+      "name": "Krystal",
+      "category": "Chicken & Wings",
+      "itemCount": 184,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "ll-hawaiian-bbq-nutrition-calculator",
+      "name": "L&L Hawaiian Barbecue",
+      "category": "Burgers & Fast Food",
+      "itemCount": 17,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "la-madeleine-nutrition-calculator",
       "name": "la Madeleine",
       "category": "Sit-Down Dining",
-      "itemCount": 244,
-      "emoji": "🍽"
+      "itemCount": 251,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "lamars-donuts-nutrition-calculator",
+      "name": "LaMar's Donuts",
+      "category": "Coffee & Drinks",
+      "itemCount": 66,
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "ledo-pizza-nutrition-calculator",
+      "name": "Ledo Pizza",
+      "category": "Chicken & Wings",
+      "itemCount": 120,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "little-caesars-nutrition-calculator",
+      "name": "Little Caesars",
+      "category": "Chicken & Wings",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "longhorn-steakhouse-nutrition-calculator",
+      "name": "LongHorn Steakhouse",
+      "category": "Burgers & Fast Food",
+      "itemCount": 261,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "manhattan-bagel-nutrition-calculator",
+      "name": "Manhattan Bagel",
+      "category": "Coffee & Drinks",
+      "itemCount": 48,
+      "emoji": "\ud83c\udf75"
+    },
+    {
+      "slug": "marcos-pizza-nutrition-calculator",
+      "name": "Marco's Pizza",
+      "category": "Pizza & Italian",
+      "itemCount": 2,
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "matcha-nutrition-calculator",
+      "name": "Matcha",
+      "category": "Coffee & Drinks",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf75"
+    },
+    {
+      "slug": "matcha-cream-frappuccino-nutrition-calculator",
+      "name": "Matcha Cream Frappuccino",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
       "slug": "mcalisters-deli-nutrition-calculator",
       "name": "McAlister's Deli",
       "category": "Sandwiches & Deli",
-      "itemCount": 107,
-      "emoji": "🍽"
+      "itemCount": 288,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "mcdonalds-calories-calculator",
       "name": "McDonald's",
-      "category": "Burgers",
-      "itemCount": 471,
-      "emoji": "🍟"
+      "category": "Burgers & Fast Food",
+      "itemCount": 496,
+      "emoji": "\ud83c\udf5f"
     },
     {
       "slug": "mellow-mushroom-nutrition-calculator",
       "name": "Mellow Mushroom",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 381,
-      "emoji": "🍕"
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "menchies-frozen-yogurt-nutrition-calculator",
+      "name": "Menchie's Frozen Yogurt",
+      "category": "Desserts & Treats",
+      "itemCount": 143,
+      "emoji": "\ud83c\udf66"
+    },
+    {
+      "slug": "mission-bbq-nutrition-calculator",
+      "name": "Mission BBQ",
+      "category": "Sandwiches & Deli",
+      "itemCount": 6,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "mod-pizza-calories-calculator",
       "name": "MOD Pizza",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 32,
-      "emoji": "🍕"
+      "emoji": "\ud83c\udf55"
     },
     {
       "slug": "moes-nutrition-calculator",
       "name": "Moe's Southwest Grill",
       "category": "Mexican & Bowls",
       "itemCount": 107,
-      "emoji": "🌯"
+      "emoji": "\ud83c\udf2f"
+    },
+    {
+      "slug": "mr-pickles-sandwich-shop-nutrition-calculator",
+      "name": "Mr. Pickles Sandwich Shop",
+      "category": "Sandwiches & Deli",
+      "itemCount": 93,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "mucho-burrito-nutrition-calculator",
       "name": "Mucho Burrito",
       "category": "Mexican & Bowls",
       "itemCount": 53,
-      "emoji": "🌯"
+      "emoji": "\ud83c\udf2f"
     },
     {
       "slug": "naf-naf-grill-nutrition-calculator",
       "name": "Naf Naf Grill",
       "category": "Mexican & Bowls",
       "itemCount": 30,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "naked-juice-nutrition-calculator",
       "name": "Naked Juice",
       "category": "Coffee & Drinks",
       "itemCount": 13,
-      "emoji": "🧃"
+      "emoji": "\ud83e\uddc3"
     },
     {
       "slug": "nandos-nutrition-calculator",
       "name": "Nando's",
-      "category": "Chicken",
+      "category": "Chicken & Wings",
       "itemCount": 109,
-      "emoji": "🍗"
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "newks-eatery-nutrition-calculator",
+      "name": "Newk's Eatery",
+      "category": "Chicken & Wings",
+      "itemCount": 41,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "nifty-fifty-nutrition-calculator",
       "name": "Nifty Fifty",
       "category": "Sit-Down Dining",
       "itemCount": 51,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "noodles-company-nutrition-calculator",
+      "name": "Noodles & Company",
+      "category": "Chicken & Wings",
+      "itemCount": 66,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "olive-garden-nutrition-calculator",
+      "name": "Olive Garden",
+      "category": "Chicken & Wings",
+      "itemCount": 285,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "orange-leaf-frozen-yogurt-nutrition-calculator",
+      "name": "Orange Leaf Frozen Yogurt",
+      "category": "Coffee & Drinks",
+      "itemCount": 97,
+      "emoji": "\u2615"
     },
     {
       "slug": "outback-steakhouse-nutrition-calculator",
       "name": "Outback Steakhouse",
-      "category": "Chicken",
-      "itemCount": 53,
-      "emoji": "🥩"
+      "category": "Chicken & Wings",
+      "itemCount": 798,
+      "emoji": "\ud83e\udd69"
+    },
+    {
+      "slug": "pf-changs-nutrition-calculator",
+      "name": "P.F. Chang's",
+      "category": "Chicken & Wings",
+      "itemCount": 7,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "pancheros-mexican-grill-nutrition-calculator",
       "name": "Pancheros",
       "category": "Sandwiches & Deli",
-      "itemCount": 97,
-      "emoji": "🍽"
+      "itemCount": 118,
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "panda-express-nutrition-calculator",
       "name": "Panda Express",
       "category": "Mexican & Bowls",
       "itemCount": 84,
-      "emoji": "🥡"
+      "emoji": "\ud83e\udd61"
     },
     {
       "slug": "panera-bread-nutrition-calculator",
       "name": "Panera Bread",
       "category": "Breakfast & Healthy",
-      "itemCount": 3,
-      "emoji": "🥖"
+      "itemCount": 6,
+      "emoji": "\ud83e\udd56"
     },
     {
       "slug": "papa-johns-nutrition-calculator",
       "name": "Papa John's",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 30,
-      "emoji": "🍕"
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "papa-murphys-nutrition-calculator",
+      "name": "Papa Murphy's",
+      "category": "Burgers & Fast Food",
+      "itemCount": 173,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "pdq-nutrition-calculator",
       "name": "PDQ",
-      "category": "Chicken",
+      "category": "Chicken & Wings",
       "itemCount": 30,
-      "emoji": "🍗"
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "peppermint-mocha-nutrition-calculator",
+      "name": "Peppermint Mocha",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
+    },
+    {
+      "slug": "perkins-nutrition-calculator",
+      "name": "Perkins Restaurant & Bakery",
+      "category": "Burgers & Fast Food",
+      "itemCount": 442,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "peter-piper-pizza-nutrition-calculator",
+      "name": "Peter Piper Pizza",
+      "category": "Chicken & Wings",
+      "itemCount": 279,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "pieology-nutrition-calculator",
+      "name": "Pieology",
+      "category": "Chicken & Wings",
+      "itemCount": 182,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "pita-pit-nutrition-calculator",
+      "name": "Pita Pit",
+      "category": "Chicken & Wings",
+      "itemCount": 352,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "pizza-hut-nutrition-calculator",
+      "name": "Pizza Hut",
+      "category": "Burgers & Fast Food",
+      "itemCount": 880,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "pizza-ranch-nutrition-calculator",
+      "name": "Pizza Ranch",
+      "category": "Chicken & Wings",
+      "itemCount": 854,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "pollo-tropical-nutrition-calculator",
       "name": "Pollo Tropical",
       "category": "Mexican & Bowls",
       "itemCount": 173,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "popeyes-nutrition-calculator",
+      "name": "Popeyes",
+      "category": "Chicken & Wings",
+      "itemCount": 3,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "port-of-subs-nutrition-calculator",
       "name": "Port of Subs",
       "category": "Sandwiches & Deli",
-      "itemCount": 812,
-      "emoji": "🍽"
+      "itemCount": 854,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "portillos-nutrition-calculator",
+      "name": "Portillo's",
+      "category": "Burgers & Fast Food",
+      "itemCount": 248,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "potbelly-nutrition-calculator",
       "name": "Potbelly",
       "category": "Sandwiches & Deli",
-      "itemCount": 55,
-      "emoji": "🥪"
+      "itemCount": 57,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "publix-deli-nutrition-calculator",
       "name": "Publix Deli",
       "category": "Sandwiches & Deli",
       "itemCount": 58,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "qdoba-nutrition-calculator",
       "name": "Qdoba",
       "category": "Mexican & Bowls",
       "itemCount": 22,
-      "emoji": "🌯"
+      "emoji": "\ud83c\udf2f"
+    },
+    {
+      "slug": "quiznos-nutrition-calculator",
+      "name": "Quiznos",
+      "category": "Chicken & Wings",
+      "itemCount": 326,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "raising-canes-calculator",
       "name": "Raising Cane's",
-      "category": "Chicken",
-      "itemCount": 15,
-      "emoji": "🍗"
+      "category": "Chicken & Wings",
+      "itemCount": 18,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "red-lobster-nutrition-calculator",
       "name": "Red Lobster",
       "category": "Sit-Down Dining",
-      "itemCount": 304,
-      "emoji": "🍽"
+      "itemCount": 514,
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "refreshers-nutrition-calculator",
+      "name": "Refreshers",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
+    },
+    {
+      "slug": "robeks-nutrition-calculator",
+      "name": "Robeks",
+      "category": "Breakfast & Healthy",
+      "itemCount": 135,
+      "emoji": "\ud83e\udd5e"
+    },
+    {
+      "slug": "round-table-pizza-nutrition-calculator",
+      "name": "Round Table Pizza",
+      "category": "Chicken & Wings",
+      "itemCount": 25,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "roxberry-juice-nutrition-calculator",
+      "name": "Roxberry Juice",
+      "category": "Sandwiches & Deli",
+      "itemCount": 146,
+      "emoji": "\ud83e\udd6a"
+    },
+    {
+      "slug": "royal-crispy-wrap-nutrition-calculator",
+      "name": "Royal Crispy Wrap",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
+    },
+    {
+      "slug": "saladworks-nutrition-calculator",
+      "name": "Saladworks",
+      "category": "Chicken & Wings",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "salata-nutrition-calculator",
       "name": "Salata",
       "category": "Breakfast & Healthy",
       "itemCount": 102,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "salmon-hq-nutrition-calculator",
       "name": "Salmon HQ",
       "category": "Sushi & Seafood",
       "itemCount": 11,
-      "emoji": "🍣"
+      "emoji": "\ud83c\udf63"
+    },
+    {
+      "slug": "schlotzskys-nutrition-calculator",
+      "name": "Schlotzskys",
+      "category": "Chicken & Wings",
+      "itemCount": 223,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "shake-shack-nutrition-calculator",
       "name": "Shake Shack",
-      "category": "Burgers",
+      "category": "Burgers & Fast Food",
       "itemCount": 26,
-      "emoji": "🍔"
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "sharkys-woodfired-mexican-grill-nutrition-calculator",
       "name": "Sharky's Woodfired Mexican Grill",
       "category": "Mexican & Bowls",
       "itemCount": 20,
-      "emoji": "🌮"
+      "emoji": "\ud83c\udf2e"
     },
     {
       "slug": "sheetz-nutrition-calculator",
       "name": "Sheetz",
       "category": "Sandwiches & Deli",
-      "itemCount": 37,
-      "emoji": "🏪"
+      "itemCount": 43,
+      "emoji": "\ud83c\udfea"
+    },
+    {
+      "slug": "size-comparison-nutrition-calculator",
+      "name": "Size Comparison",
+      "category": "Fast Casual & Dining",
+      "itemCount": 5,
+      "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
       "slug": "smoothie-king-nutrition-calculator",
       "name": "Smoothie King",
       "category": "Coffee & Drinks",
       "itemCount": 132,
-      "emoji": "🥤"
+      "emoji": "\ud83e\udd64"
     },
     {
       "slug": "sonic-drive-in-nutrition-calculator",
       "name": "Sonic Drive-In",
-      "category": "Burgers",
-      "itemCount": 647,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 657,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "breadco-nutrition-calculator",
       "name": "St. Louis Bread Co.",
       "category": "Breakfast & Healthy",
       "itemCount": 347,
-      "emoji": "🥖"
+      "emoji": "\ud83e\udd56"
     },
     {
       "slug": "starbucks-nutrition-calculator",
       "name": "Starbucks",
       "category": "Coffee & Drinks",
-      "itemCount": 1517,
-      "emoji": "☕"
+      "itemCount": 1520,
+      "emoji": "\u2615"
+    },
+    {
+      "slug": "steak-n-shake-nutrition-calculator",
+      "name": "Steak 'n Shake",
+      "category": "Burgers & Fast Food",
+      "itemCount": 112,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "subway-nutrition-calculator",
       "name": "Subway",
       "category": "Sandwiches & Deli",
-      "itemCount": 55,
-      "emoji": "🥖"
+      "itemCount": 71,
+      "emoji": "\ud83e\udd56"
     },
     {
       "slug": "sushi-nutrition-calculator",
       "name": "Sushi",
       "category": "Sushi & Seafood",
       "itemCount": 33,
-      "emoji": "🍣"
+      "emoji": "\ud83c\udf63"
     },
     {
       "slug": "sweetgreen-nutrition-calculator",
       "name": "Sweetgreen",
       "category": "Breakfast & Healthy",
-      "itemCount": 52,
-      "emoji": "🥗"
+      "itemCount": 57,
+      "emoji": "\ud83e\udd57"
     },
     {
       "slug": "taco-bell-nutrition-calculator",
       "name": "Taco Bell",
       "category": "Mexican & Bowls",
-      "itemCount": 149,
-      "emoji": "🌮"
+      "itemCount": 161,
+      "emoji": "\ud83c\udf2e"
+    },
+    {
+      "slug": "taco-johns-nutrition-calculator",
+      "name": "Taco John's",
+      "category": "Chicken & Wings",
+      "itemCount": 42,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "tazikis-mediterranean-cafe-nutrition-calculator",
+      "name": "Taziki's Mediterranean Cafe",
+      "category": "Chicken & Wings",
+      "itemCount": 309,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "taim-mediterranean-kitchen-nutrition-calculator",
-      "name": "Taïm Mediterranean Kitchen",
+      "name": "Ta\u00efm Mediterranean Kitchen",
       "category": "Mexican & Bowls",
       "itemCount": 44,
-      "emoji": "🧆"
+      "emoji": "\ud83e\uddc6"
+    },
+    {
+      "slug": "teds-montana-grill-nutrition-calculator",
+      "name": "Ted's Montana Grill",
+      "category": "American & Grill",
+      "itemCount": 226,
+      "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
       "slug": "teriyaki-madness-nutrition-calculator",
       "name": "Teriyaki Madness",
       "category": "Mexican & Bowls",
       "itemCount": 33,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "texas-de-brazil-nutrition-calculator",
+      "name": "Texas de Brazil",
+      "category": "Chicken & Wings",
+      "itemCount": 153,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "texas-roadhouse-nutrition-calculator",
       "name": "Texas Roadhouse",
       "category": "Sit-Down Dining",
       "itemCount": 33,
-      "emoji": "🥩"
+      "emoji": "\ud83e\udd69"
+    },
+    {
+      "slug": "the-cheesecake-factory-nutrition-calculator",
+      "name": "The Cheesecake Factory",
+      "category": "Burgers & Fast Food",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "the-habit-burger-grill-nutrition-calculator",
+      "name": "The Habit Burger Grill",
+      "category": "Burgers & Fast Food",
+      "itemCount": 8,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "tijuana-flats-nutrition-calculator",
       "name": "Tijuana Flats",
       "category": "Mexican & Bowls",
       "itemCount": 51,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
+    },
+    {
+      "slug": "tim-hortons-nutrition-calculator",
+      "name": "Tim Hortons",
+      "category": "Chicken & Wings",
+      "itemCount": 331,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "tropical-smoothie-cafe-nutrition-calculator",
       "name": "Tropical Smoothie Cafe",
       "category": "Coffee & Drinks",
       "itemCount": 83,
-      "emoji": "🍹"
+      "emoji": "\ud83c\udf79"
     },
     {
       "slug": "twix-nutrition-calculator",
       "name": "Twix",
       "category": "Snacks & Treats",
       "itemCount": 11,
-      "emoji": "🍫"
+      "emoji": "\ud83c\udf6b"
+    },
+    {
+      "slug": "urbane-cafe-nutrition-calculator",
+      "name": "Urbane Cafe",
+      "category": "Chicken & Wings",
+      "itemCount": 164,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "via-313-nutrition-calculator",
       "name": "Via 313",
-      "category": "Pizza",
+      "category": "Pizza & Italian",
       "itemCount": 17,
-      "emoji": "🍕"
+      "emoji": "\ud83c\udf55"
+    },
+    {
+      "slug": "waba-grill-nutrition-calculator",
+      "name": "WaBa Grill",
+      "category": "Chicken & Wings",
+      "itemCount": 113,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "wahoos-fish-taco-nutrition-calculator",
+      "name": "Wahoo's Fish Taco",
+      "category": "Chicken & Wings",
+      "itemCount": 27,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "wawa-nutrition-calculator",
       "name": "Wawa",
       "category": "Sandwiches & Deli",
-      "itemCount": 323,
-      "emoji": "🥪"
+      "itemCount": 324,
+      "emoji": "\ud83e\udd6a"
     },
     {
       "slug": "wendys-nutrition-calculator",
       "name": "Wendy's",
-      "category": "Burgers",
-      "itemCount": 37,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 59,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "whataburger-nutrition-calculator",
       "name": "Whataburger",
-      "category": "Burgers",
-      "itemCount": 26,
-      "emoji": "🍔"
+      "category": "Burgers & Fast Food",
+      "itemCount": 27,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "wienerschnitzel-nutrition-calculator",
+      "name": "WienerSchnitzel",
+      "category": "Burgers & Fast Food",
+      "itemCount": 169,
+      "emoji": "\ud83c\udf54"
     },
     {
       "slug": "willys-mexicana-grill-nutrition-calculator",
       "name": "Willy's Mexicana Grill",
       "category": "Mexican & Bowls",
       "itemCount": 46,
-      "emoji": "🍽"
+      "emoji": "\ud83c\udf7d"
     },
     {
       "slug": "wingstop-calories-calculator",
       "name": "Wingstop",
-      "category": "Chicken",
+      "category": "Chicken & Wings",
       "itemCount": 60,
-      "emoji": "🍗"
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "yard-house-nutrition-calculator",
+      "name": "Yard House",
+      "category": "Burgers & Fast Food",
+      "itemCount": 7,
+      "emoji": "\ud83c\udf54"
+    },
+    {
+      "slug": "yoshinoya-america-nutrition-calculator",
+      "name": "Yoshinoya America",
+      "category": "Chicken & Wings",
+      "itemCount": 84,
+      "emoji": "\ud83c\udf57"
     },
     {
       "slug": "zao-asian-cafe-nutrition-calculator",
       "name": "Zao Asian Cafe",
       "category": "Mexican & Bowls",
       "itemCount": 25,
-      "emoji": "🍜"
+      "emoji": "\ud83c\udf5c"
     },
     {
       "slug": "zaxbys-nutrition-calculator",
       "name": "Zaxby's",
-      "category": "Chicken",
-      "itemCount": 21,
-      "emoji": "🍗"
+      "category": "Chicken & Wings",
+      "itemCount": 119,
+      "emoji": "\ud83c\udf57"
+    },
+    {
+      "slug": "zoup-nutrition-calculator",
+      "name": "Zoup!",
+      "category": "Chicken & Wings",
+      "itemCount": 326,
+      "emoji": "\ud83c\udf57"
     }
-  ],
-  "totalItems": 16258,
-  "totalRestaurants": 100
+  ]
 }

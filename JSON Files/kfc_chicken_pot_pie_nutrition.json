@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "KFC",
+    "website": "https://www.kfc.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Pot Pies"
+  ],
+  "products": [
+    {
+      "product_id": "kfc_chicken_pot_pie",
+      "name": "Chicken Pot Pie",
+      "category": "Pot Pies",
+      "subcategory": "Classic Pot Pies",
+      "description": "Diced tender chicken, potatoes, peas, and carrots in a savory creamy sauce, baked inside a flaky, golden-brown crust.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 pot pie (397g)",
+        "weight_g": 397.0
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 31.0,
+        "fat_g": 41.0,
+        "saturated_fat_g": 23.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 1910.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 59.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 3.6,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken",
+        "Potatoes",
+        "Peas",
+        "Carrots",
+        "Creamy Sauce",
+        "Flaky Pastry Crust"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/chicken-pot-pie.png",
+      "product_url": "https://www.kfc.com/menu/pot-pies/chicken-pot-pie",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

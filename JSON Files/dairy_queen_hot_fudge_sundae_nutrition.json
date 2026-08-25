@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Treats"
+  ],
+  "products": [
+    {
+      "product_id": "dairy-queen-hot-fudge-sundae-medium",
+      "name": "Hot Fudge Sundae (Medium)",
+      "category": "Treats",
+      "subcategory": "Sundaes",
+      "description": "Vanilla soft serve smothered in rich, warm hot fudge topping.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 9.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 190.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 66.0,
+        "fiber_g": 1.0,
+        "sugars_g": 52.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Hot Fudge Topping"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/hot-fudge-sundae/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/hot-fudge-sundae/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/treats/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/hot-fudge-sundae/medium",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

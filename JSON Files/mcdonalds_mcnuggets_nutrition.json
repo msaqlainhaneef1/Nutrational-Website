@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "McNuggets"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_chicken_mcnuggets_10pc",
+      "name": "Chicken McNuggets (10 Piece)",
+      "category": "Chicken",
+      "subcategory": "Nuggets",
+      "description": "Tender, white meat chicken McNuggets coated in a crisp tempura-style batter.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "10 pieces (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 23.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 900.0,
+        "potassium_mg": 230.0,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White boneless chicken",
+        "water",
+        "salt",
+        "modified food starch",
+        "sugar",
+        "seasoning (autolyzed yeast extract, salt, wheat starch, natural flavor, safflower oil, dextrose, citric acid)",
+        "batter (bleached wheat flour, modified corn starch, yellow corn flour, salt, dextrose, wheat gluten, paprika, garlic powder, spices, leavening)",
+        "fried in canola oil, corn oil, soybean oil, hydrogenated soybean oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-chicken-mcnuggets-10pc.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-10-piece.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

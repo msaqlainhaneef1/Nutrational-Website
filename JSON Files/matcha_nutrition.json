@@ -1,0 +1,295 @@
+{
+  "brand": {
+    "name": "Matcha",
+    "website": "https://www.matcha.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Matcha Lattes",
+    "Iced Matcha Lattes",
+    "Blended Matcha Drinks",
+    "Matcha Infusions & Teas",
+    "Matcha Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "matcha_hot_latte",
+      "name": "Classic Hot Matcha Green Tea Latte",
+      "category": "Hot Matcha Lattes",
+      "subcategory": "Hot Beverages",
+      "description": "Smooth and creamy matcha green tea combined with steamed whole milk and lightly sweetened.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 12.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.2,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 130.0,
+        "potassium_mg": 560.0,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 1.0,
+        "sugars_g": 32.0,
+        "added_sugars_g": 24.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 80.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Steamed Whole Milk",
+        "Matcha Green Tea Blend (Sugar, Ground Green Tea)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matcha.com/media/menu/hot-matcha-latte.png",
+      "product_url": "https://www.matcha.com/menu/hot/matcha-latte",
+      "sources": [
+        {
+          "url": "https://www.matcha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/matcha-latte",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "matcha_iced_latte",
+      "name": "Iced Matcha Green Tea Latte",
+      "category": "Iced Matcha Lattes",
+      "subcategory": "Iced Beverages",
+      "description": "Smooth matcha green tea served over ice with milk and sweetened to perfection.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.1,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 110.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 1.0,
+        "sugars_g": 26.0,
+        "added_sugars_g": 20.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 80.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Matcha Green Tea Blend",
+        "Simple Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matcha.com/media/menu/iced-matcha-latte.png",
+      "product_url": "https://www.matcha.com/menu/iced/matcha-latte",
+      "sources": [
+        {
+          "url": "https://www.matcha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "matcha_blended_frappe",
+      "name": "Matcha Green Tea Crème Frappuccino",
+      "category": "Blended Matcha Drinks",
+      "subcategory": "Blended Beverages",
+      "description": "Blended beverage combining sweet matcha green tea, milk and ice, topped with whipped cream.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 500.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 6.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 65.0,
+        "fiber_g": 1.5,
+        "sugars_g": 61.0,
+        "added_sugars_g": 54.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 95.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Crème Base",
+        "Matcha Green Tea Blend",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matcha.com/media/menu/matcha-frappuccino.png",
+      "product_url": "https://www.matcha.com/menu/blended/matcha-frap",
+      "sources": [
+        {
+          "url": "https://www.matcha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "matcha_oat_milk_latte",
+      "name": "Oat Milk Matcha Green Tea Latte",
+      "category": "Hot Matcha Lattes",
+      "subcategory": "Plant-Based",
+      "description": "Ceremonial grade matcha blended with creamy oat milk for a rich, dairy-free treat.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 475.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 150.0,
+        "potassium_mg": 380.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 3.0,
+        "sugars_g": 24.0,
+        "added_sugars_g": 18.0,
+        "calcium_mg": 200.0,
+        "iron_mg": 1.6,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 80.0
+      },
+      "allergens": [
+        "Gluten (Oat)"
+      ],
+      "ingredients": [
+        "Steamed Oat Milk",
+        "Matcha Green Tea Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matcha.com/media/menu/oat-milk-matcha.png",
+      "product_url": "https://www.matcha.com/menu/plant-based/oat-latte",
+      "sources": [
+        {
+          "url": "https://www.matcha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "matcha_powder_addon",
+      "name": "Extra Matcha Powder Scoop",
+      "category": "Matcha Toppings & Add-ons",
+      "subcategory": "Add-ons",
+      "description": "An extra scoop of premium Japanese green tea matcha powder.",
+      "price": 1.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 scoop (5g)",
+        "weight_g": 5.0
+      },
+      "nutrition": {
+        "calories": 20,
+        "protein_g": 1.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 40.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Sugar",
+        "Green Tea Powder"
+      ],
+      "customizations": [],
+      "image_url": "https://www.matcha.com/media/menu/matcha-powder.png",
+      "product_url": "https://www.matcha.com/menu/addons/matcha-powder",
+      "sources": [
+        {
+          "url": "https://www.matcha.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

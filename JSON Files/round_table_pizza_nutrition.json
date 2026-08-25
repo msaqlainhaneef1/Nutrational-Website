@@ -1,0 +1,1874 @@
+{
+  "brand": {
+    "name": "Round Table Pizza",
+    "website": "https://www.roundtablepizza.com",
+    "last_updated": "2026-08-04",
+    "extraction_method": "Automated extraction from official PDF nutrition and allergen guides."
+  },
+  "categories": [
+    {
+      "name": "Pizza",
+      "subcategories": [
+        "Original Crust",
+        "Pan Crust",
+        "Skinny Crust",
+        "Gluten-Free Crust",
+        "Cauliflower Crust"
+      ]
+    },
+    {
+      "name": "Shareables",
+      "subcategories": [
+        "Appetizers",
+        "Twists",
+        "Tots",
+        "Pizzatatoes"
+      ]
+    },
+    {
+      "name": "Wings",
+      "subcategories": [
+        "Boneless Wings",
+        "Classic Wings"
+      ]
+    },
+    {
+      "name": "Salads",
+      "subcategories": [
+        "Garden Salads",
+        "Specialty Salads",
+        "Dressings"
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "subcategories": [
+        "Hot Sandwiches"
+      ]
+    },
+    {
+      "name": "Desserts",
+      "subcategories": [
+        "Cookies",
+        "Dessert Twists",
+        "Gelookies"
+      ]
+    },
+    {
+      "name": "Beverages",
+      "subcategories": [
+        "Soft Drinks",
+        "Teas",
+        "Juices",
+        "Milk"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "7e8c2206-7d9a-4904-93e8-18808a052de0",
+      "name": "King Arthur's Supreme\u00ae (Personal)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "King Arthur's Supreme\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Personal pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 180.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 25.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 360.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 17.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "edc6ba41-ad12-426b-b5cd-9b916a218e6c",
+      "name": "King Arthur's Supreme\u00ae (Small)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "King Arthur's Supreme\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Small pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 150.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 3.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 20.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 370.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "0a980a27-2c54-4e11-bb49-86039b55036e",
+      "name": "King Arthur's Supreme\u00ae (Medium)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "King Arthur's Supreme\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Medium pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 240.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 12.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 11.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 30.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 620.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 24.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "f14c081a-22df-4ca6-8957-2d78150899d6",
+      "name": "King Arthur's Supreme\u00ae (Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "King Arthur's Supreme\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 290.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 40.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 740.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 28.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "b4349c79-efd6-407a-9d23-1a8ac409d42b",
+      "name": "King Arthur's Supreme\u00ae (X-Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "King Arthur's Supreme\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of X-Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 270.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 13.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 13.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 35.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 680.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 26.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "c6d359dc-25f1-4616-910e-a87d0d95d00b",
+      "name": "Montague\u2019s All Meat Marvel\u00ae (Personal)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Montague\u2019s All Meat Marvel\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Personal pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 190.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 30.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 510.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 16.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "6452b3b9-2e76-4c1c-8995-039d70a077e7",
+      "name": "Montague\u2019s All Meat Marvel\u00ae (Small)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Montague\u2019s All Meat Marvel\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Small pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 170.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 25.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 460.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "6120843c-6d16-41b8-afeb-c4effb394436",
+      "name": "Montague\u2019s All Meat Marvel\u00ae (Medium)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Montague\u2019s All Meat Marvel\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Medium pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 270.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 13.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 40.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 710.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 22.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "63dc9e7f-1063-4e95-8ec5-761f6eaea075",
+      "name": "Montague\u2019s All Meat Marvel\u00ae (Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Montague\u2019s All Meat Marvel\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 320.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 16.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 17.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 50.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 860.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 27.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "5ad6cafd-259b-4f1a-b3b9-635708a98fcf",
+      "name": "Montague\u2019s All Meat Marvel\u00ae (X-Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Montague\u2019s All Meat Marvel\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of X-Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 290.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 45.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 770.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 24.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "4dc4ba28-ec69-4beb-8431-faa2aa81667b",
+      "name": "Guinevere\u2019s Garden Delight\u00ae (Personal)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Guinevere\u2019s Garden Delight\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Personal pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 140.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 15.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 330.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 17.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "b2752beb-f0a4-4f01-86c9-1eaaa58a5572",
+      "name": "Guinevere\u2019s Garden Delight\u00ae (Small)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Guinevere\u2019s Garden Delight\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Small pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 120.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 15.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 290.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "93ed1a60-99d0-45ac-8968-841c0df01d09",
+      "name": "Guinevere\u2019s Garden Delight\u00ae (Medium)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Guinevere\u2019s Garden Delight\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Medium pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 200.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 20.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 460.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 24.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "37bfd374-6b1a-428c-b343-e7009c54eb21",
+      "name": "Guinevere\u2019s Garden Delight\u00ae (Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Guinevere\u2019s Garden Delight\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 240.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 11.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 25.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 550.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 28.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "043f66e6-384d-49fc-a964-9f7c6cfb41b3",
+      "name": "Guinevere\u2019s Garden Delight\u00ae (X-Large)",
+      "category": "Pizza",
+      "subcategory": "Original Crust",
+      "description": "Guinevere\u2019s Garden Delight\u00ae on Original Crust.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 slice of X-Large pizza",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 220.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 25.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 510.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 26.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "ca438483-6e07-4427-bd18-1073166ebac1",
+      "name": "Garlic Parmesan Twists",
+      "category": "Shareables",
+      "subcategory": "Twists",
+      "description": "Garlic Parmesan Twists",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 twist",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 140.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 10.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 240.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 18.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "dd888ff4-0208-4b06-be6c-d500c3044aa4",
+      "name": "Boneless Wings (Plain)",
+      "category": "Wings",
+      "subcategory": "Boneless Wings",
+      "description": "Boneless Wings (Plain)",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "6 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 450.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 27.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 24.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 85.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 1480.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 31.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "00896039-3e7b-45c8-ad4c-de81200d11de",
+      "name": "Classic Wings (Plain)",
+      "category": "Wings",
+      "subcategory": "Classic Wings",
+      "description": "Classic Wings (Plain)",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "6 pieces",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 400.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 38.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 26.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 180.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 600.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Chicken"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "ddecead9-b159-4b90-8ff8-5a6709537f3b",
+      "name": "Garden Salad (Individual)",
+      "category": "Salads",
+      "subcategory": "Garden Salads",
+      "description": "Garden Salad (Individual)",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 100.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 15.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 170.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 4.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "80758bf1-5286-4dcd-931c-9b88abe768b2",
+      "name": "Chicken Club Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "Hot Sandwiches",
+      "description": "Chicken Club Sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 820.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 47.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 42.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 13.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 105.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 2330.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 62.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 7.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "042320b3-fba0-4a6a-ac87-6358fb6b0ec5",
+      "name": "Chocolate Chip Cookie",
+      "category": "Desserts",
+      "subcategory": "Cookies",
+      "description": "Chocolate Chip Cookie",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 cookie",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 140.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 3.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 10.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 95.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 19.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 12.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Egg",
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "1f85a186-f022-42d9-9509-6d7c928ebd87",
+      "name": "Pepsi (12 oz)",
+      "category": "Beverages",
+      "subcategory": "Soft Drinks",
+      "description": "Pepsi (12 oz)",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "12 fl oz",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 150.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 30.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 41.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 41.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "86b63b26-a9a4-4f32-a02f-970ab35fb7fd",
+      "name": "Zesty Red Sauce",
+      "category": "Pizza",
+      "subcategory": "Sauces",
+      "description": "Zesty Red Sauce for custom pizzas.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 10.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 0.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 10.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "3aa68807-1340-4983-941c-a0a4213f0c5e",
+      "name": "Three Cheese Blend",
+      "category": "Pizza",
+      "subcategory": "Cheeses",
+      "description": "Three Cheese Blend for custom pizzas.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 30.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 5.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 40.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "product_id": "66d7b277-b260-4e2f-9407-1a2b8296fc51",
+      "name": "Pepperoni",
+      "category": "Pizza",
+      "subcategory": "Toppings",
+      "description": "Pepperoni for custom pizzas.",
+      "price": null,
+      "currency": "USD",
+      "availability": "active",
+      "serving": {
+        "size": "1 serving",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": {
+          "value": 40.0,
+          "unit": "kcal"
+        },
+        "protein": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "total_fat": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "saturated_fat": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "trans_fat": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "cholesterol": {
+          "value": 10.0,
+          "unit": "mg"
+        },
+        "sodium": {
+          "value": 150.0,
+          "unit": "mg"
+        },
+        "total_carbohydrates": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "dietary_fiber": {
+          "value": 0.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 0.0,
+          "unit": "g"
+        }
+      },
+      "allergens": [
+        "Pork"
+      ],
+      "ingredients": null,
+      "customizations": [],
+      "image_url": null,
+      "product_url": "https://www.roundtablepizza.com/menu/",
+      "sources": [
+        {
+          "name": "Official Nutrition Guide",
+          "url": "https://www.roundtablepizza.com/wp-content/uploads/2023/05/nutrition-info-10-6-22-marketing-production-2919.pdf",
+          "date_accessed": "2026-08-04"
+        }
+      ]
+    }
+  ]
+}

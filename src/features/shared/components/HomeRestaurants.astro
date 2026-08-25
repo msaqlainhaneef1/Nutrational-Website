@@ -28,7 +28,7 @@ const { restaurants, categories } = Astro.props;
           share it with a link.
         </p>
       </div>
-      <a href="/restaurants" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
+      <a href="/restaurants/" class="inline-flex items-center space-x-1.5 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors whitespace-nowrap">
         <span>View all {restaurants.length > 0 ? '100+' : ''} restaurants</span>
         <ArrowRight class="h-4 w-4" />
       </a>
@@ -69,7 +69,7 @@ const { restaurants, categories } = Astro.props;
     <div class="flex flex-wrap gap-2 mb-8">
       {categories.map((cat) => (
         <a
-          href={`/restaurants?category=${encodeURIComponent(cat.name)}`}
+          href={`/restaurants/#${cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
           class="group inline-flex items-center gap-2 px-3.5 py-1.5 bg-zinc-900/80 border border-zinc-800 hover:border-emerald-500/30 hover:bg-emerald-500/5 hover:text-emerald-400 text-zinc-400 text-xs font-semibold rounded-full transition-all"
         >
           <span>{cat.name}</span>
@@ -84,7 +84,7 @@ const { restaurants, categories } = Astro.props;
         const count = res.itemCount || res.categories.reduce((s, c) => s + c.items.length, 0);
         return (
           <a
-            href={`/restaurants/${res.slug}`}
+            href={`/restaurants/${res.slug}/`}
             class="glass-card rounded-2xl p-5 flex flex-col justify-between group h-full"
           >
             <div class="space-y-3">
@@ -121,7 +121,7 @@ const { restaurants, categories } = Astro.props;
           <p class="text-xs text-zinc-500 mt-0.5">Search across all 100 restaurants and 16,000+ menu items.</p>
         </div>
       </div>
-      <a href="/search" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-sm rounded-xl transition-colors whitespace-nowrap">
+      <a href="/search/" class="inline-flex items-center space-x-1.5 px-5 py-2.5 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-200 font-semibold text-sm rounded-xl transition-colors whitespace-nowrap">
         <span>Open search</span>
         <ArrowRight class="h-4 w-4" />
       </a>

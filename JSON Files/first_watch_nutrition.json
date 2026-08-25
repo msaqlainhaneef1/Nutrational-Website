@@ -1,0 +1,369 @@
+{
+  "brand": {
+    "name": "First Watch",
+    "website": "https://www.firstwatch.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "The Traditional Breakfast",
+    "Egg-Sclusives & Omelets",
+    "Healthier Side",
+    "Pancakes, Waffles & French Toast",
+    "Lunch Favorites",
+    "Juice Bar & Beverages",
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "fw_the_traditional",
+      "name": "The Traditional Breakfast",
+      "category": "The Traditional Breakfast",
+      "subcategory": "Breakfast Combos",
+      "description": "Two eggs any style with choice of bacon, pork sausage, or turkey sausage, plus whole grain toast and seasoned potatoes.",
+      "price": 12.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 breakfast plate (380g)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 32.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 420.0,
+        "sodium_mg": 1120.0,
+        "potassium_mg": 580.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 2.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Eggs",
+        "Bacon",
+        "Whole Grain Toast",
+        "Seasoned Potatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/traditional-breakfast.png",
+      "product_url": "https://www.firstwatch.com/menu/breakfast/traditional",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/first-watch",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "fw_avocado_toast",
+      "name": "Avocado Toast",
+      "category": "Healthier Side",
+      "subcategory": "Toast",
+      "description": "Thick-cut artisanal artisan whole grain toast topped with fresh smashed avocado, EVOO, lemon, and two basted eggs.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (260g)",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 18.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 370.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 640.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 11.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 1.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Artisanal Toast",
+        "Avocado",
+        "Eggs",
+        "Lemon",
+        "EVOO"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/avocado-toast.png",
+      "product_url": "https://www.firstwatch.com/menu/healthier-side/avocado-toast",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fw_million_dollar_bacon",
+      "name": "Million Dollar Bacon",
+      "category": "Sides",
+      "subcategory": "Sides",
+      "description": "Four slices of thick-cut bacon baked with brown sugar, black pepper, cayenne, and maple syrup.",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 side order (120g)",
+        "weight_g": 120.0
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 16.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 0.5,
+        "sugars_g": 26.0,
+        "added_sugars_g": 24.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Thick-cut Bacon",
+        "Brown Sugar",
+        "Black Pepper",
+        "Cayenne",
+        "Maple Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/million-dollar-bacon.png",
+      "product_url": "https://www.firstwatch.com/menu/sides/million-dollar-bacon",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fw_lemon_ricotta_pancakes",
+      "name": "Lemon Ricotta Pancakes",
+      "category": "Pancakes, Waffles & French Toast",
+      "subcategory": "Pancakes",
+      "description": "Pancakes made with fresh lemon zest and ricotta cheese, topped with marinated berries and powdered cinnamon sugar.",
+      "price": 12.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Full order / 3 pancakes (390g)",
+        "weight_g": 390.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 22.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 190.0,
+        "sodium_mg": 840.0,
+        "potassium_mg": 340.0,
+        "carbohydrates_g": 112.0,
+        "fiber_g": 5.0,
+        "sugars_g": 48.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 340.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Ricotta Cheese",
+        "Lemon Zest",
+        "Pancake Batter",
+        "Berries",
+        "Powdered Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/lemon-ricotta-pancakes.png",
+      "product_url": "https://www.firstwatch.com/menu/pancakes/lemon-ricotta",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fw_power_kale_juice",
+      "name": "Power Kale Juice",
+      "category": "Juice Bar & Beverages",
+      "subcategory": "Juices",
+      "description": "Cold-pressed juice made with kale, spinach, apple, cucumber, and lemon.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 glass (300ml)",
+        "weight_g": 300.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 3.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 65.0,
+        "potassium_mg": 510.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 4.0,
+        "sugars_g": 22.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Kale",
+        "Spinach",
+        "Apple",
+        "Cucumber",
+        "Lemon"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/power-kale-juice.png",
+      "product_url": "https://www.firstwatch.com/menu/beverages/power-kale",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "fw_farmhouse_skillet_hash",
+      "name": "Farmhouse Skillet Hash",
+      "category": "Egg-Sclusives & Omelets",
+      "subcategory": "Skillets",
+      "description": "Seasoned potatoes, bacon, avocado, Monterey Jack cheese, onions, tomatoes, and two cage-free eggs on top.",
+      "price": 13.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 skillet (480g)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 920,
+        "protein_g": 42.0,
+        "fat_g": 64.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 480.0,
+        "sodium_mg": 1450.0,
+        "potassium_mg": 890.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 7.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 480.0,
+        "iron_mg": 5.2,
+        "vitamin_d_mcg": 2.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Milk"
+      ],
+      "ingredients": [
+        "Seasoned Potatoes",
+        "Bacon",
+        "Avocado",
+        "Monterey Jack Cheese",
+        "Eggs",
+        "Onions",
+        "Tomatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.firstwatch.com/media/menu/farmhouse-hash.png",
+      "product_url": "https://www.firstwatch.com/menu/skillets/farmhouse",
+      "sources": [
+        {
+          "url": "https://www.firstwatch.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

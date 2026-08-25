@@ -1,0 +1,314 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "Classic Subs",
+    "Wraps",
+    "Salads",
+    "Sides & Snacks",
+    "Drinks",
+    "Cookies & Desserts"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_boss",
+      "name": "The Boss (#1)",
+      "category": "Subway Series",
+      "subcategory": "Meatball Subs",
+      "description": "Italian style meatballs, marinara sauce, melted mozzarella, and pepperoni on Artisan Italian bread.",
+      "price": 9.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Footlong",
+        "weight_g": 395.0
+      },
+      "nutrition": {
+        "calories": 1130,
+        "protein_g": 51.0,
+        "fat_g": 57.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 2860.0,
+        "potassium_mg": 920.0,
+        "carbohydrates_g": 99.0,
+        "fiber_g": 7.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 6.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Meatballs",
+        "Marinara Sauce",
+        "Mozzarella Cheese",
+        "Pepperoni"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/images/the-boss.png",
+      "product_url": "https://www.subway.com/en-us/menutour/the-boss",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-US/Nutrition/NutritionList",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "subway_outlaw",
+      "name": "The Outlaw (#3)",
+      "category": "Subway Series",
+      "subcategory": "Steak & Cheese",
+      "description": "Steak, Monterey Cheddar, green peppers, red onions, and Baja Chipotle sauce.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Footlong",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 980,
+        "protein_g": 56.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 105.0,
+        "sodium_mg": 2340.0,
+        "potassium_mg": 890.0,
+        "carbohydrates_g": 93.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 5.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Steak",
+        "Monterey Cheddar Cheese",
+        "Green Peppers",
+        "Red Onions",
+        "Baja Chipotle Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/images/the-outlaw.png",
+      "product_url": "https://www.subway.com/en-us/menutour/the-outlaw",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-US/Nutrition/NutritionList",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "subway_turkey_breast",
+      "name": "Turkey Breast Sub",
+      "category": "Classic Subs",
+      "subcategory": "Deli Subs",
+      "description": "Tender sliced turkey breast served with crisp vegetables on freshly baked bread.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Footlong (with lettuce, tomatoes, cucumbers, green peppers, onions)",
+        "weight_g": 314.0
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 36.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 1340.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 81.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Turkey Breast",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumbers",
+        "Green Peppers",
+        "Red Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/images/turkey-breast.png",
+      "product_url": "https://www.subway.com/en-us/menu/turkey-breast",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-US/Nutrition/NutritionList",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "subway_tuna",
+      "name": "Tuna Sub",
+      "category": "Classic Subs",
+      "subcategory": "Deli Subs",
+      "description": "Flaked tuna mixed with creamy mayonnaise, topped with your choice of crisp veggies.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Footlong",
+        "weight_g": 332.0
+      },
+      "nutrition": {
+        "calories": 930,
+        "protein_g": 38.0,
+        "fat_g": 57.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 74.0,
+        "fiber_g": 5.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Fish",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Tuna",
+        "Mayonnaise",
+        "Lettuce",
+        "Tomatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/images/tuna.png",
+      "product_url": "https://www.subway.com/en-us/menu/tuna",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-US/Nutrition/NutritionList",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "subway_sweet_onion_chicken_teriyaki_wrap",
+      "name": "Sweet Onion Chicken Teriyaki Wrap",
+      "category": "Wraps",
+      "subcategory": "Signature Wraps",
+      "description": "Tender grilled chicken strips marinated in sweet onion teriyaki sauce inside a hearty lavash-style flatbread wrap.",
+      "price": 9.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (340g)",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 41.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1320.0,
+        "potassium_mg": 640.0,
+        "carbohydrates_g": 90.0,
+        "fiber_g": 5.0,
+        "sugars_g": 27.0,
+        "added_sugars_g": 20.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Lavash Flatbread",
+        "Grilled Chicken Strips",
+        "Sweet Onion Teriyaki Sauce",
+        "Lettuce",
+        "Spinach",
+        "Cucumbers"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/images/sweet-onion-chicken-teriyaki-wrap.png",
+      "product_url": "https://www.subway.com/en-us/menu/sweet-onion-chicken-teriyaki-wrap",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-US/Nutrition/NutritionList",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

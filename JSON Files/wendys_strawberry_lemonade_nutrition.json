@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Beverages",
+    "Lemonades"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_strawberry_lemonade_medium",
+      "name": "Strawberry Lemonade (Medium)",
+      "category": "Beverages",
+      "subcategory": "Lemonades",
+      "description": "Refreshing Dave's All Natural Lemonade infused with puree of sweet strawberries.",
+      "price": 2.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 medium (591ml)",
+        "weight_g": 600.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 30.0,
+        "potassium_mg": 60.0,
+        "carbohydrates_g": 72.0,
+        "fiber_g": 0.0,
+        "sugars_g": 68.0,
+        "added_sugars_g": 65.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Lemonade (Water, Sugar, Lemon Juice Concentrate, Lemon Pulp, Natural Flavors)",
+        "Strawberry Puree (Strawberry Puree, Sugar, Water, Natural Flavors, Citric Acid)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/strawberry-lemonade.png",
+      "product_url": "https://www.wendys.com/menu/strawberry-lemonade",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "brand": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Coffees",
+    "Caffe Lattes"
+  ],
+  "products": [
+    {
+      "product_id": "starbucks_caffe_latte_nonfat_grande",
+      "name": "Caffe Latte (Nonfat Milk, Grande)",
+      "category": "Hot Coffees",
+      "subcategory": "Caffe Lattes",
+      "description": "Rich, full-bodied espresso combined with steamed nonfat milk and topped with a light layer of foam.",
+      "price": 4.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "16 fl oz (Grande)",
+        "weight_g": 473.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 12.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 550.0,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 0.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 5.0,
+        "caffeine_mg": 150.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Brewed Espresso",
+        "Nonfat Milk"
+      ],
+      "customizations": [],
+      "image_url": "https://www.starbucks.com/menu/product/422/hot",
+      "product_url": "https://www.starbucks.com/menu/product/422/hot",
+      "sources": [
+        {
+          "url": "https://www.starbucks.com/menu/product/422/hot",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

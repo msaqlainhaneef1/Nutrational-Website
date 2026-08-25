@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "Cheesesteaks"
+  ],
+  "products": [
+    {
+      "product_id": "subway_the_outlaw_6_inch",
+      "name": "#2 The Outlaw (6-Inch)",
+      "category": "Subway Series",
+      "subcategory": "Cheesesteaks",
+      "description": "Shaved steak, double cheese (Pepper Jack), green peppers, red onions, and Baja Chipotle sauce on artisan Italian bread.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6-inch sub",
+        "weight_g": 235.0
+      },
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 30.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 90.0,
+        "sodium_mg": 1440.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Shaved Steak",
+        "Pepper Jack Cheese (Double Serving)",
+        "Green Peppers",
+        "Red Onions",
+        "Baja Chipotle Sauce"
+      ],
+      "customizations": [
+        "Choice of Bread (Italian, Multigrain, etc.)",
+        "Extra Cheese",
+        "Add / Remove Veggies",
+        "Choice of Sauce"
+      ],
+      "image_url": "https://www.subway.com/en-us/menunutrition/menuitem/the-outlaw",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menuitem/the-outlaw",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/the-outlaw",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "Nuggets"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_crispy_chicken_nuggets_6pc",
+      "name": "Crispy Chicken Nuggets (6 Piece)",
+      "category": "Chicken",
+      "subcategory": "Nuggets",
+      "description": "Tender, juicy all-white meat chicken nuggets, breaded and fried to golden perfection.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces (93g)",
+        "weight_g": 93.0
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 15.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 600.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Chicken breast meat with rib meat",
+        "water",
+        "seasoning (salt, garlic powder, onion powder, spices, sugar)",
+        "breaded with bleached wheat flour",
+        "water",
+        "modified corn starch",
+        "salt",
+        "leavening (sodium acid pyrophosphate, baking soda)",
+        "spice",
+        "soybean oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/crispy-chicken-nuggets-6pc.png",
+      "product_url": "https://www.wendys.com/menu/crispy-chicken-nuggets-6-piece",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

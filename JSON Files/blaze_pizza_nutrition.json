@@ -1,0 +1,1400 @@
+{
+  "brand": {
+    "name": "Blaze Pizza",
+    "website": "https://www.blazepizza.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Signature Pizzas",
+    "Crusts",
+    "Sauces",
+    "Cheeses",
+    "Meats",
+    "Veggies",
+    "Drizzles",
+    "Salads",
+    "Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "blaze_sig_meat_eater",
+      "name": "Meat Eater Pizza (11-inch whole)",
+      "category": "Signature Pizzas",
+      "subcategory": "Signature",
+      "description": "Pepperoni, Italian sausage, meatballs, mozzarella, red sauce on classic dough.",
+      "price": 10.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch whole pizza (6 slices)",
+        "weight_g": 380.0
+      },
+      "nutrition": {
+        "calories": 940,
+        "protein_g": 48.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 2520.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 92.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 6.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Classic Dough",
+        "Red Sauce",
+        "Mozzarella Cheese",
+        "Pepperoni",
+        "Italian Sausage",
+        "Meatballs"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/meat-eater.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/blaze-pizza/nutrition-calculator/premium",
+          "source_type": "Nutritionix Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sig_red_vine",
+      "name": "Red Vine Pizza (11-inch whole)",
+      "category": "Signature Pizzas",
+      "subcategory": "Signature",
+      "description": "Ovaline mozzarella, parmesan, basil, red sauce, olive oil drizzle on classic dough.",
+      "price": 9.65,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch whole pizza (6 slices)",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 30.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1200.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 90.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 500.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Classic Dough",
+        "Red Sauce",
+        "Ovaline Mozzarella",
+        "Parmesan",
+        "Basil",
+        "Olive Oil Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/red-vine.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sig_white_top",
+      "name": "White Top Pizza (11-inch whole)",
+      "category": "Signature Pizzas",
+      "subcategory": "Signature",
+      "description": "White cream sauce, mozzarella, bacon, garlic, oregano, arugula on classic dough.",
+      "price": 10.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch whole pizza (6 slices)",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 870,
+        "protein_g": 36.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 1680.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 91.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 420.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Classic Dough",
+        "White Cream Sauce",
+        "Mozzarella Cheese",
+        "Applewood Bacon",
+        "Garlic",
+        "Oregano",
+        "Arugula"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/white-top.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sig_green_stripe",
+      "name": "Green Stripe Pizza (11-inch whole)",
+      "category": "Signature Pizzas",
+      "subcategory": "Signature",
+      "description": "Pesto drizzle, grilled chicken, mozzarella, red peppers, garlic, arugula on classic dough.",
+      "price": 10.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch whole pizza (6 slices)",
+        "weight_g": 370.0
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 42.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1450.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 84.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Classic Dough",
+        "Mozzarella Cheese",
+        "Grilled Chicken",
+        "Red Bell Peppers",
+        "Garlic",
+        "Arugula",
+        "Pesto Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/green-stripe.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sig_bbq_chicken",
+      "name": "BBQ Chicken Pizza (11-inch whole)",
+      "category": "Signature Pizzas",
+      "subcategory": "Signature",
+      "description": "Grilled chicken, mozzarella, red onion, banana peppers, BBQ drizzle on classic dough with red sauce.",
+      "price": 10.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch whole pizza (6 slices)",
+        "weight_g": 375.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 44.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1620.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 98.0,
+        "fiber_g": 7.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 360.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Classic Dough",
+        "Red Sauce",
+        "Mozzarella Cheese",
+        "Grilled Chicken",
+        "Red Onion",
+        "Banana Peppers",
+        "BBQ Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/bbq-chicken.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_crust_classic",
+      "name": "Classic Dough Crust (11-inch)",
+      "category": "Crusts",
+      "subcategory": "Dough",
+      "description": "Made from unbleached flour, filtered water, extra-virgin olive oil, salt, and a touch of sugar.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch crust (per slice / 6 slices total)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 12.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 72.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 4.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Unbleached Flour",
+        "Filtered Water",
+        "Extra-Virgin Olive Oil",
+        "Salt",
+        "Sugar",
+        "Yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/crust-classic.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_crust_high_rise",
+      "name": "High Rise Dough Crust (11-inch)",
+      "category": "Crusts",
+      "subcategory": "Dough",
+      "description": "Thick-crust dough, airy and fluffy, made from simple unbleached flour and olive oil.",
+      "price": 1.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch crust (per slice / 6 slices total)",
+        "weight_g": 300.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 16.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 860.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 98.0,
+        "fiber_g": 5.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 5.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Unbleached Flour",
+        "Filtered Water",
+        "Extra-Virgin Olive Oil",
+        "Salt",
+        "Sugar",
+        "Yeast"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/crust-high-rise.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_crust_gluten_free",
+      "name": "Gluten-Free Dough Crust (11-inch)",
+      "category": "Crusts",
+      "subcategory": "Specialty Crust",
+      "description": "Certified gluten-free crust for guests with gluten sensitivities.",
+      "price": 3.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "11-inch crust",
+        "weight_g": 200.0
+      },
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 4.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 520.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 82.0,
+        "fiber_g": 5.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Gluten-Free Flour Blend",
+        "Water",
+        "Olive Oil",
+        "Yeast",
+        "Salt",
+        "Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/crust-gf.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_crust_keto",
+      "name": "Keto Crust (10-inch)",
+      "category": "Crusts",
+      "subcategory": "Specialty Crust",
+      "description": "Ultra-low carb cauliflower and egg-based keto crust option.",
+      "price": 4.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "10-inch crust",
+        "weight_g": 170.0
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 22.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 590.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 6.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Eggs",
+        "Milk"
+      ],
+      "ingredients": [
+        "Cauliflower",
+        "Low-Moisture Part-Skim Mozzarella Cheese",
+        "Egg",
+        "Rice Flour",
+        "Coconut Flour",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/crust-keto.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sauce_red",
+      "name": "Red Sauce (Marinara)",
+      "category": "Sauces",
+      "subcategory": "Base Sauce",
+      "description": "Classic vine-ripened crushed tomato red sauce with herbs.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 60.0
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 1.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Vine-Ripened Crushed Tomatoes",
+        "Extra Virgin Olive Oil",
+        "Salt",
+        "Garlic",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/sauce-red.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sauce_spicy_red",
+      "name": "Spicy Red Sauce",
+      "category": "Sauces",
+      "subcategory": "Base Sauce",
+      "description": "Crushed tomatoes blended with crushed red pepper and fiery spices.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 60.0
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 1.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Vine-Ripened Crushed Tomatoes",
+        "Red Pepper Flakes",
+        "Garlic",
+        "Olive Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/sauce-spicy-red.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_sauce_white_cream",
+      "name": "White Cream Sauce",
+      "category": "Sauces",
+      "subcategory": "Base Sauce",
+      "description": "Rich and creamy garlic white sauce.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 45.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 1.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15.0,
+        "sodium_mg": 190.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Heavy Cream",
+        "Parmesan Cheese",
+        "Garlic",
+        "Butter",
+        "Salt",
+        "White Pepper"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/sauce-white.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_cheese_mozzarella",
+      "name": "Shredded Mozzarella Cheese",
+      "category": "Cheeses",
+      "subcategory": "Cheese",
+      "description": "Classic low-moisture part-skim shredded mozzarella cheese.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 60.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 14.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Pasteurized Part-Skim Milk",
+        "Cheese Cultures",
+        "Salt",
+        "Enzymes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/cheese-mozzarella.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_cheese_ovaline",
+      "name": "Ovaline Fresh Mozzarella Cheese",
+      "category": "Cheeses",
+      "subcategory": "Cheese",
+      "description": "Fresh soft ovaline mozzarella cheese medallions.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 55.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 12.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 290.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Pasteurized Milk",
+        "Vinegar",
+        "Enzymes",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/cheese-ovaline.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_cheese_vegan",
+      "name": "Vegan Cheese (Daiya / Violife)",
+      "category": "Cheeses",
+      "subcategory": "Plant-Based Cheese",
+      "description": "Dairy-free plant-based melting cheese alternative.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 50.0
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 0.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 330.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Coconut Oil",
+        "Potato Starch",
+        "Modified Potato Starch",
+        "Sea Salt",
+        "Vegan Natural Flavors"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/cheese-vegan.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_meat_pepperoni",
+      "name": "Pepperoni",
+      "category": "Meats",
+      "subcategory": "Meat Topping",
+      "description": "Sliced cured pork and beef pepperoni.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 35.0
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 7.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 460.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Pork",
+        "Beef",
+        "Salt",
+        "Spices",
+        "Dextrose",
+        "Lactic Acid Starter Culture",
+        "Paprika",
+        "Nitrite"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/meat-pepperoni.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_meat_chicken",
+      "name": "Grilled Chicken",
+      "category": "Meats",
+      "subcategory": "Meat Topping",
+      "description": "All-natural diced grilled chicken breast.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 50.0
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 14.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 220.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Boneless Skinless Chicken Breast",
+        "Water",
+        "Sea Salt",
+        "Natural Flavors"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/meat-chicken.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_meat_bacon",
+      "name": "Applewood Bacon",
+      "category": "Meats",
+      "subcategory": "Meat Topping",
+      "description": "Crispy applewood smoked bacon pieces.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 25.0
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 8.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 380.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Pork Cured with Water",
+        "Salt",
+        "Sugar",
+        "Natural Smoke Flavor",
+        "Sodium Phosphate",
+        "Sodium Erythorbate",
+        "Sodium Nitrite"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/meat-bacon.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_veg_mushrooms",
+      "name": "Mushrooms",
+      "category": "Veggies",
+      "subcategory": "Vegetable Topping",
+      "description": "Fresh sliced button mushrooms.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 40.0
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 1.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 150.0,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 2.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Fresh Mushrooms"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/veg-mushrooms.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_veg_red_onion",
+      "name": "Red Onions",
+      "category": "Veggies",
+      "subcategory": "Vegetable Topping",
+      "description": "Crisp sliced red onions.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 40.0,
+        "carbohydrates_g": 3.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 7.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [
+        "Fresh Red Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/veg-red-onion.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_drizzle_pesto",
+      "name": "Pesto Drizzle",
+      "category": "Drizzles",
+      "subcategory": "Post-Bake Drizzle",
+      "description": "Basil pesto finish drizzle made with garlic, pine nuts, and olive oil.",
+      "price": 0.0,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Standard portion per pizza",
+        "weight_g": 15.0
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 1.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 110.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Tree Nuts",
+        "Milk"
+      ],
+      "ingredients": [
+        "Basil",
+        "Extra Virgin Olive Oil",
+        "Parmesan Cheese",
+        "Garlic",
+        "Pine Nuts",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/drizzle-pesto.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_salad_tomato_mozzarella",
+      "name": "Tomato & Mozzarella Salad",
+      "category": "Salads",
+      "subcategory": "Salad",
+      "description": "Fresh greens, ovaline mozzarella, tomatoes, balsamic glaze dressing.",
+      "price": 7.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad bowl",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 18.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50.0,
+        "sodium_mg": 740.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 3.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Mixed Greens",
+        "Ovaline Mozzarella",
+        "Tomatoes",
+        "Balsamic Glaze",
+        "Olive Oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/salad-tomato-mozz.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_dessert_brownie",
+      "name": "Olive Oil Brownie",
+      "category": "Desserts",
+      "subcategory": "Dessert",
+      "description": "Rich chocolate fudge brownie made with extra virgin olive oil.",
+      "price": 3.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 brownie",
+        "weight_g": 90.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 4.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 3.0,
+        "sugars_g": 36.0,
+        "added_sugars_g": 32.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 15.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Sugar",
+        "Enriched Flour",
+        "Extra Virgin Olive Oil",
+        "Cocoa Powder",
+        "Eggs",
+        "Chocolate Chips",
+        "Vanilla Extract"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/dessert-brownie.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "blaze_beverage_fanta",
+      "name": "Fanta Cane Sugar Soda",
+      "category": "Beverages",
+      "subcategory": "Soda",
+      "description": "Refreshing fruit-flavored soda naturally sweetened with real cane sugar.",
+      "price": 2.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "20 fl oz fountain cup",
+        "weight_g": 570.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 55.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 65.0,
+        "fiber_g": 0.0,
+        "sugars_g": 64.0,
+        "added_sugars_g": 64.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "Cane Sugar",
+        "Citric Acid",
+        "Natural Flavors",
+        "Fruit and Vegetable Juice for Color"
+      ],
+      "customizations": [],
+      "image_url": "https://www.blazepizza.com/media/menu/bev-fanta.png",
+      "product_url": "https://www.blazepizza.com/menu",
+      "sources": [
+        {
+          "url": "https://www.blazepizza.com/nutritional",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

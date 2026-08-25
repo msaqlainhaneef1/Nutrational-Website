@@ -1,0 +1,237 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "World Famous Fries"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_fries_kid",
+      "name": "World Famous Fries (Kids)",
+      "category": "World Famous Fries",
+      "subcategory": "Sides",
+      "description": "Our World Famous Fries in a kid-sized portion, made from high-quality potatoes and cooked to golden perfection.",
+      "price": 1.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Kids size (43g)",
+        "weight_g": 43.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 1.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 95.0,
+        "potassium_mg": 160.0,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Natural Beef Flavor",
+        "Dextrose",
+        "Sodium Acid Pyrophosphate",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/fries-kids.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/kids-world-famous-fries.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_fries_small",
+      "name": "World Famous Fries (Small)",
+      "category": "World Famous Fries",
+      "subcategory": "Sides",
+      "description": "Our World Famous Fries in a small portion, crispy on the outside and fluffy on the inside.",
+      "price": 2.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 270.0,
+        "carbohydrates_g": 29.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.7,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Natural Beef Flavor",
+        "Dextrose",
+        "Sodium Acid Pyrophosphate",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/fries-small.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/small-world-famous-fries.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_fries_medium",
+      "name": "World Famous Fries (Medium)",
+      "category": "World Famous Fries",
+      "subcategory": "Sides",
+      "description": "Our World Famous Fries in a medium portion, golden and delicious.",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (117g)",
+        "weight_g": 117.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 260.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Natural Beef Flavor",
+        "Dextrose",
+        "Sodium Acid Pyrophosphate",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/fries-medium.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/medium-world-famous-fries.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "mcd_fries_large",
+      "name": "World Famous Fries (Large)",
+      "category": "World Famous Fries",
+      "subcategory": "Sides",
+      "description": "Our World Famous Fries in a large portion, perfect for sharing or satisfying a big appetite.",
+      "price": 4.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (154g)",
+        "weight_g": 154.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 6.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 400.0,
+        "potassium_mg": 590.0,
+        "carbohydrates_g": 66.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 25.0,
+        "iron_mg": 1.6,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Natural Beef Flavor",
+        "Dextrose",
+        "Sodium Acid Pyrophosphate",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/fries-large.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/large-world-famous-fries.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

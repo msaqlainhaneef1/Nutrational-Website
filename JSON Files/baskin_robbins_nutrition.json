@@ -1,0 +1,496 @@
+{
+  "brand": {
+    "name": "Baskin-Robbins",
+    "website": "https://www.baskinrobbins.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Ice Cream Flavors",
+    "Sundaes",
+    "Shakes & Beverages",
+    "Cakes & Pies",
+    "Toppings"
+  ],
+  "products": [
+    {
+      "product_id": "br_mint_chocolate_chip",
+      "name": "Mint Chocolate Chip Ice Cream",
+      "category": "Ice Cream Flavors",
+      "subcategory": "Classic Flavors",
+      "description": "Mint flavored ice cream loaded with chocolate flavored chips.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular scoop (2.5 oz / 71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 70.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 1.0,
+        "sugars_g": 19.0,
+        "added_sugars_g": 15.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Cream",
+        "Nonfat Milk",
+        "Sugar",
+        "Chocolate Chips",
+        "Corn Syrup",
+        "Mint Extract",
+        "Stabilizers"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/mint-chocolate-chip.png",
+      "product_url": "https://www.baskinrobbins.com/menu/ice-cream/mint-chocolate-chip",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/baskin-robbins",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "br_jamoca_almond_fudge",
+      "name": "Jamoca Almond Fudge Ice Cream",
+      "category": "Ice Cream Flavors",
+      "subcategory": "Classic Flavors",
+      "description": "Jamoca coffee ice cream with roasted almonds and a rich chocolate fudge ribbon.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular scoop (2.5 oz / 71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 4.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 85.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 1.0,
+        "sugars_g": 20.0,
+        "added_sugars_g": 16.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 15.0
+      },
+      "allergens": [
+        "Milk",
+        "Tree Nuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Cream",
+        "Coffee",
+        "Almonds",
+        "Fudge Ribbon",
+        "Sugar",
+        "Corn Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/jamoca-almond-fudge.png",
+      "product_url": "https://www.baskinrobbins.com/menu/ice-cream/jamoca-almond-fudge",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_peanut_butter_chocolate",
+      "name": "Peanut Butter Chocolate Ice Cream",
+      "category": "Ice Cream Flavors",
+      "subcategory": "Classic Flavors",
+      "description": "Chocolate ice cream with a peanut butter ribbon.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular scoop (2.5 oz / 71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 5.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 130.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 27.0,
+        "fiber_g": 1.5,
+        "sugars_g": 21.0,
+        "added_sugars_g": 17.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 2.0
+      },
+      "allergens": [
+        "Milk",
+        "Peanuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chocolate Ice Cream",
+        "Peanut Butter Ribbon",
+        "Sugar",
+        "Cream",
+        "Cocoa"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/peanut-butter-chocolate.png",
+      "product_url": "https://www.baskinrobbins.com/menu/ice-cream/peanut-butter-chocolate",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_gold_medal_ribbon",
+      "name": "Gold Medal Ribbon Ice Cream",
+      "category": "Ice Cream Flavors",
+      "subcategory": "Classic Flavors",
+      "description": "Vanilla and chocolate ice creams swirled with a caramel ribbon.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular scoop (2.5 oz / 71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.5,
+        "fat_g": 12.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 80.0,
+        "potassium_mg": 170.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 0.5,
+        "sugars_g": 21.0,
+        "added_sugars_g": 17.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Ice Cream",
+        "Chocolate Ice Cream",
+        "Caramel Ribbon",
+        "Cream",
+        "Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/gold-medal-ribbon.png",
+      "product_url": "https://www.baskinrobbins.com/menu/ice-cream/gold-medal-ribbon",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_oreo_cookies_cream",
+      "name": "Oreo Cookies 'n Cream Ice Cream",
+      "category": "Ice Cream Flavors",
+      "subcategory": "Classic Flavors",
+      "description": "Vanilla flavored ice cream filled with crunchy Oreo cookie pieces.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular scoop (2.5 oz / 71g)",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 3.5,
+        "fat_g": 13.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 115.0,
+        "potassium_mg": 160.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 0.5,
+        "sugars_g": 20.0,
+        "added_sugars_g": 16.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Ice Cream",
+        "Oreo Cookie Pieces",
+        "Cream",
+        "Sugar",
+        "Corn Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/oreo-cookies-cream.png",
+      "product_url": "https://www.baskinrobbins.com/menu/ice-cream/oreo-cookies-cream",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_banana_split",
+      "name": "Traditional Banana Split",
+      "category": "Sundaes",
+      "subcategory": "Sundaes",
+      "description": "A split banana with three scoops of ice cream (Vanilla, Chocolate, Strawberry), topped with hot fudge, strawberry topping, marshmallow, chopped almonds, whipped cream, and a cherry.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sundae",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 1020,
+        "protein_g": 16.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 26.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 130.0,
+        "sodium_mg": 420.0,
+        "potassium_mg": 1250.0,
+        "carbohydrates_g": 138.0,
+        "fiber_g": 9.0,
+        "sugars_g": 102.0,
+        "added_sugars_g": 78.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 1.0
+      },
+      "allergens": [
+        "Milk",
+        "Tree Nuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Banana",
+        "Three Scoops Ice Cream",
+        "Hot Fudge",
+        "Strawberry Topping",
+        "Marshmallow",
+        "Almonds",
+        "Whipped Cream",
+        "Cherry"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/banana-split.png",
+      "product_url": "https://www.baskinrobbins.com/menu/sundaes/banana-split",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_oreo_shake",
+      "name": "Oreo Cookies 'n Cream Milkshake",
+      "category": "Shakes & Beverages",
+      "subcategory": "Milkshakes",
+      "description": "Oreo Cookies 'n Cream ice cream hand-blended with milk into a thick, creamy milkshake.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 18.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 25.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 150.0,
+        "sodium_mg": 410.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 101.0,
+        "fiber_g": 2.0,
+        "sugars_g": 82.0,
+        "added_sugars_g": 65.0,
+        "calcium_mg": 580.0,
+        "iron_mg": 1.8,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Oreo Ice Cream",
+        "Whole Milk",
+        "Whipped Topping"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/oreo-shake.png",
+      "product_url": "https://www.baskinrobbins.com/menu/shakes/oreo-shake",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "br_hot_fudge_topping",
+      "name": "Hot Fudge Topping",
+      "category": "Toppings",
+      "subcategory": "Hot Toppings",
+      "description": "Rich, warm chocolate fudge topping.",
+      "price": 1.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1.5 fl oz ladle (45g)",
+        "weight_g": 45.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 2.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 65.0,
+        "potassium_mg": 110.0,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 1.0,
+        "sugars_g": 20.0,
+        "added_sugars_g": 18.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 5.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Sugar",
+        "Cream",
+        "Cocoa",
+        "Butter",
+        "Corn Syrup",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.baskinrobbins.com/media/menu/hot-fudge.png",
+      "product_url": "https://www.baskinrobbins.com/menu/toppings/hot-fudge",
+      "sources": [
+        {
+          "url": "https://www.baskinrobbins.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

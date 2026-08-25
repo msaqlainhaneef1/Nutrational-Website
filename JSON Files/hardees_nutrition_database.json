@@ -1,0 +1,5755 @@
+{
+  "brand": {
+    "name": "Hardee's",
+    "website": "https://www.hardees.com",
+    "country": "US",
+    "last_updated": "2026-08-05"
+  },
+  "categories": [
+    "Burgers & Sandwiches",
+    "Beverages",
+    "Sides",
+    "Red Burrito",
+    "Breakfast",
+    "Other",
+    "Discontinued",
+    "Chicken & More",
+    "Star Pals Kids Meals",
+    "Desserts"
+  ],
+  "products": [
+    {
+      "product_id": "bacon,_egg_&_cheese_biscuit",
+      "name": "Bacon, Egg & Cheese Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 3.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 161
+      },
+      "nutrition": {
+        "calories": 520.0,
+        "calories_from_fat": 260.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 225.0,
+        "sodium_mg": 1410.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 20.0
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/bacon,-egg-&-cheese-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "biscuit_\u2018n\u2019_gravy",
+      "name": "Biscuit \u2018N\u2019 Gravy",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500.0,
+        "calories_from_fat": 240.0,
+        "fat_g": 27.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 1460.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "protein_g": 10.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/biscuit-\u2018n\u2019-gravy",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "breakfast_cinnamon_roll",
+      "name": "Breakfast Cinnamon Roll",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520.0,
+        "calories_from_fat": 140.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 1060.0,
+        "carbohydrates_g": 89.0,
+        "fiber_g": 1.0,
+        "sugars_g": 57.0,
+        "protein_g": 6.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/breakfast-cinnamon-roll",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "country-fried_steak_biscuit",
+      "name": "Country-Fried Steak Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 156
+      },
+      "nutrition": {
+        "calories": 550.0,
+        "calories_from_fat": 290.0,
+        "fat_g": 33.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 1240.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 14.0
+      },
+      "allergens": "M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/country-fried-steak-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "country_ham_biscuit",
+      "name": "Country Ham Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 134
+      },
+      "nutrition": {
+        "calories": 410.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 1670.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 16.0
+      },
+      "allergens": [
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/country-ham-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "french_toast_dips_entree",
+      "name": "French Toast Dips Entree",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620.0,
+        "calories_from_fat": 170.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 670.0,
+        "carbohydrates_g": 106.0,
+        "fiber_g": 3.0,
+        "sugars_g": 30.0,
+        "protein_g": 9.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/french-toast-dips-entree",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "frisco_breakfast_sandwich",
+      "name": "Frisco Breakfast Sandwich",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 217
+      },
+      "nutrition": {
+        "calories": 450.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 235.0,
+        "sodium_mg": 1300.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "protein_g": 24.0
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/frisco-breakfast-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "grits",
+      "name": "Grits",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 142
+      },
+      "nutrition": {
+        "calories": 100.0,
+        "calories_from_fat": 25.0,
+        "fat_g": 3.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 320.0,
+        "carbohydrates_g": 17.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "protein_g": 2.0
+      },
+      "allergens": [
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/grits",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-breaded_chicken_biscuit",
+      "name": "Hand-Breaded Chicken Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 227
+      },
+      "nutrition": {
+        "calories": 610.0,
+        "calories_from_fat": 280.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 2780.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 30.0
+      },
+      "allergens": [
+        "E",
+        "M",
+        "SS",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-breaded-chicken-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hardee_breakfast_platter_with_bacon",
+      "name": "Hardee Breakfast Platter with Bacon",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 950.0,
+        "calories_from_fat": 510.0,
+        "fat_g": 56.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 430.0,
+        "sodium_mg": 2300.0,
+        "carbohydrates_g": 76.0,
+        "fiber_g": 12.0,
+        "sugars_g": 5.0,
+        "protein_g": 31.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hardee-breakfast-platter-with-bacon",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hardee_breakfast_platter_with_ham",
+      "name": "Hardee Breakfast Platter with Ham",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 860.0,
+        "calories_from_fat": 440.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 17.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 415.0,
+        "sodium_mg": 2210.0,
+        "carbohydrates_g": 75.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "protein_g": 28.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hardee-breakfast-platter-with-ham",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hardee_breakfast_platter_with_sausage",
+      "name": "Hardee Breakfast Platter with Sausage",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1050.0,
+        "calories_from_fat": 610.0,
+        "fat_g": 68.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 435.0,
+        "sodium_mg": 2310.0,
+        "carbohydrates_g": 76.0,
+        "fiber_g": 12.0,
+        "sugars_g": 5.0,
+        "protein_g": 30.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hardee-breakfast-platter-with-sausage",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds,_large",
+      "name": "Hash Rounds, Large",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450.0,
+        "calories_from_fat": 240.0,
+        "fat_g": 27.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 560.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "protein_g": 4.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds,-large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds,_medium",
+      "name": "Hash Rounds, Medium",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320.0,
+        "calories_from_fat": 170.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 400.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 3.0,
+        "sugars_g": 1.0,
+        "protein_g": 3.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds,-medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds,_small",
+      "name": "Hash Rounds, Small",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 260.0,
+        "calories_from_fat": 140.0,
+        "fat_g": 160.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 320.0,
+        "carbohydrates_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "protein_g": 2.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds,-small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "loaded_breakfast_burrito",
+      "name": "Loaded Breakfast Burrito",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580.0,
+        "calories_from_fat": 270.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 445.0,
+        "sodium_mg": 1320.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "protein_g": 30.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/loaded-breakfast-burrito",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "loaded_omelet_biscuit",
+      "name": "Loaded Omelet Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 186
+      },
+      "nutrition": {
+        "calories": 520.0,
+        "calories_from_fat": 270.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 230.0,
+        "sodium_mg": 1370.0,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 19.0
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/loaded-omelet-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "monster_biscuit",
+      "name": "Monster Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 266
+      },
+      "nutrition": {
+        "calories": 790.0,
+        "calories_from_fat": 470.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 23.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 280.0,
+        "sodium_mg": 2370.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "protein_g": 35.0
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/monster-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "plain_biscuit",
+      "name": "Plain Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 99
+      },
+      "nutrition": {
+        "calories": 340.0,
+        "calories_from_fat": 150.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 840.0,
+        "carbohydrates_g": 41.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 6.0
+      },
+      "allergens": [
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/plain-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pork_chop_\u2018n\u2019_gravy_biscuit",
+      "name": "Pork Chop \u2018N\u2019 Gravy Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 600.0,
+        "calories_from_fat": 280.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 1430.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "protein_g": 24.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/pork-chop-\u2018n\u2019-gravy-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sausage_&_egg_biscuit",
+      "name": "Sausage & Egg Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": 3.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 179
+      },
+      "nutrition": {
+        "calories": 600.0,
+        "calories_from_fat": 350.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 225.0,
+        "sodium_mg": 1290.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 19.0
+      },
+      "allergens": [
+        "E",
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/sausage-&-egg-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sausage_biscuit",
+      "name": "Sausage Biscuit",
+      "category": "Breakfast",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 140
+      },
+      "nutrition": {
+        "calories": 530.0,
+        "calories_from_fat": 310.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 1210.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "protein_g": 13.0
+      },
+      "allergens": [
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/sausage-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "bacon_cheeseburger,_double",
+      "name": "Bacon Cheeseburger, Double",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1020.0,
+        "calories_from_fat": 610.0,
+        "fat_g": 68.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 205.0,
+        "sodium_mg": 1930.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.0,
+        "protein_g": 58.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/bacon-cheeseburger,-double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "bacon_cheeseburger,_single",
+      "name": "Bacon Cheeseburger, Single",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 740.0,
+        "calories_from_fat": 410.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 120.0,
+        "sodium_mg": 1410.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 0.0,
+        "sugars_g": 9.0,
+        "protein_g": 36.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/bacon-cheeseburger,-single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_cheeseburger,_double",
+      "name": "Big Cheeseburger, Double",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 760.0,
+        "calories_from_fat": 370.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 17.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 155.0,
+        "sodium_mg": 1600.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 4.0,
+        "sugars_g": 13.0,
+        "protein_g": 46.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-cheeseburger,-double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_cheeseburger,_single",
+      "name": "Big Cheeseburger, Single",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 540.0,
+        "calories_from_fat": 220.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1360.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 4.0,
+        "sugars_g": 12.0,
+        "protein_g": 28.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-cheeseburger,-single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_hot_ham_\u2018n\u2019_cheese_sandwich",
+      "name": "Big Hot Ham \u2018N\u2019 Cheese Sandwich",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460.0,
+        "calories_from_fat": 130.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 2210.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "protein_g": 31.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-hot-ham-\u2018n\u2019-cheese-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_roast_beef_sandwich",
+      "name": "Big Roast Beef Sandwich",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520.0,
+        "calories_from_fat": 60.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1860.0,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "protein_g": 29.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-roast-beef-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "famous_star_with_cheese",
+      "name": "Famous Star with Cheese",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": 6.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 670.0,
+        "calories_from_fat": 360.0,
+        "fat_g": 40.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 1370.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 4.0,
+        "sugars_g": 11.0,
+        "protein_g": 28.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Angus beef patty",
+        "American cheese",
+        "lettuce",
+        "tomatoes",
+        "sliced onions",
+        "dill pickles",
+        "Special Sauce",
+        "mayonnaise",
+        "seeded bun"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/famous-star-with-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "frisco_burger,_double",
+      "name": "Frisco Burger, Double",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1130.0,
+        "calories_from_fat": 730.0,
+        "fat_g": 81.0,
+        "saturated_fat_g": 28.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 220.0,
+        "sodium_mg": 2130.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "protein_g": 61.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/frisco-burger,-double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "frisco_burger,_single",
+      "name": "Frisco Burger, Single",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 850.0,
+        "calories_from_fat": 530.0,
+        "fat_g": 59.0,
+        "saturated_fat_g": 19.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 135.0,
+        "sodium_mg": 1640.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "protein_g": 40.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/frisco-burger,-single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "jumbo_chili_dog",
+      "name": "Jumbo Chili Dog",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 157
+      },
+      "nutrition": {
+        "calories": 400.0,
+        "calories_from_fat": 240.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 1410.0,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 1.0,
+        "sugars_g": 5.0,
+        "protein_g": 16.0
+      },
+      "allergens": "S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/jumbo-chili-dog",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "monster_burger",
+      "name": "Monster Burger",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 298
+      },
+      "nutrition": {
+        "calories": 1160.0,
+        "calories_from_fat": 710.0,
+        "fat_g": 79.0,
+        "saturated_fat_g": 29.0,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 240.0,
+        "sodium_mg": 2580.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.0,
+        "protein_g": 68.0
+      },
+      "allergens": "E,M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/monster-burger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mushroom_&_swiss_burger,_double",
+      "name": "Mushroom & Swiss Burger, Double",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 790.0,
+        "calories_from_fat": 410.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 19.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 170.0,
+        "sodium_mg": 1570.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "protein_g": 49.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/mushroom-&-swiss-burger,-double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mushroom_&_swiss_burger,_single",
+      "name": "Mushroom & Swiss Burger, Single",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 560.0,
+        "calories_from_fat": 260.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 100.0,
+        "sodium_mg": 1330.0,
+        "carbohydrates_g": 49.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "protein_g": 30.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/mushroom-&-swiss-burger,-single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "original_hot_ham_\u2018n\u2019_cheese_sandwich",
+      "name": "Original Hot Ham \u2018N\u2019 Cheese Sandwich",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 360.0,
+        "calories_from_fat": 80.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 1380.0,
+        "carbohydrates_g": 51.0,
+        "fiber_g": 2.0,
+        "sugars_g": 9.0,
+        "protein_g": 21.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/original-hot-ham-\u2018n\u2019-cheese-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "original_roast_beef_sandwich",
+      "name": "Original Roast Beef Sandwich",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390.0,
+        "calories_from_fat": 40.0,
+        "fat_g": 5.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 1210.0,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/original-roast-beef-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "super_star_with_cheese",
+      "name": "Super Star with Cheese",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 950.0,
+        "calories_from_fat": 560.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 1890.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 5.0,
+        "sugars_g": 12.0,
+        "protein_g": 50.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/super-star-with-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "3-piece_hand-breaded_chicken_tenders",
+      "name": "3-Piece Hand-Breaded Chicken Tenders",
+      "category": "Chicken & More",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 128
+      },
+      "nutrition": {
+        "calories": 260.0,
+        "calories_from_fat": 110.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 770.0,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "protein_g": 25.0
+      },
+      "allergens": "E,M,W",
+      "ingredients": [
+        "Chicken breast meat",
+        "Buttermilk",
+        "Enriched Wheat Flour",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/3-piece-hand-breaded-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "5-piece_hand-breaded_chicken_tenders",
+      "name": "5-Piece Hand-Breaded Chicken Tenders",
+      "category": "Chicken & More",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 440.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 1290.0,
+        "carbohydrates_g": 21.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "protein_g": 41.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken breast meat",
+        "Buttermilk",
+        "Enriched Wheat Flour",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/5-piece-hand-breaded-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "10-piece_hand-breaded_chicken_tenders",
+      "name": "10-Piece Hand-Breaded Chicken Tenders",
+      "category": "Chicken & More",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 880.0,
+        "calories_from_fat": 380.0,
+        "fat_g": 43.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 230.0,
+        "sodium_mg": 2580.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 6.0,
+        "sugars_g": 1.0,
+        "protein_g": 82.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken breast meat",
+        "Buttermilk",
+        "Enriched Wheat Flour",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/10-piece-hand-breaded-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-breaded_chicken_blt",
+      "name": "Hand-Breaded Chicken BLT",
+      "category": "Chicken & More",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 730.0,
+        "calories_from_fat": 340.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 2840.0,
+        "carbohydrates_g": 59.0,
+        "fiber_g": 0.0,
+        "sugars_g": 8.0,
+        "protein_g": 39.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-breaded-chicken-blt",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-breaded_chicken_sandwich",
+      "name": "Hand-Breaded Chicken Sandwich",
+      "category": "Chicken & More",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 223
+      },
+      "nutrition": {
+        "calories": 650.0,
+        "calories_from_fat": 290.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 2660.0,
+        "carbohydrates_g": 59.0,
+        "fiber_g": 2.0,
+        "sugars_g": 7.0,
+        "protein_g": 30.0
+      },
+      "allergens": "E,M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-breaded-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kids_meal,_2-piece_chicken_tenders",
+      "name": "Kids Meal, 2-Piece Chicken Tenders",
+      "category": "Star Pals Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410.0,
+        "calories_from_fat": 180.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 980.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "protein_g": 19.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Chicken breast meat",
+        "Buttermilk",
+        "Enriched Wheat Flour",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/kids-meal,-2-piece-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kids_meal,_cheeseburger",
+      "name": "Kids Meal, Cheeseburger",
+      "category": "Star Pals Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620.0,
+        "calories_from_fat": 220.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 1820.0,
+        "carbohydrates_g": 84.0,
+        "fiber_g": 5.0,
+        "sugars_g": 10.0,
+        "protein_g": 18.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/kids-meal,-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kids_meal,_grilled_cheese",
+      "name": "Kids Meal, Grilled Cheese",
+      "category": "Star Pals Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 600.0,
+        "calories_from_fat": 250.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 1430.0,
+        "carbohydrates_g": 71.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "protein_g": 16.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/kids-meal,-grilled-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kids_meal,_hamburger",
+      "name": "Kids Meal, Hamburger",
+      "category": "Star Pals Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 1600.0,
+        "carbohydrates_g": 84.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "protein_g": 16.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/kids-meal,-hamburger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "kids_meal,_hot_dog",
+      "name": "Kids Meal, Hot Dog",
+      "category": "Star Pals Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 580.0,
+        "calories_from_fat": 310.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1530.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "protein_g": 15.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/kids-meal,-hot-dog",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls,_large",
+      "name": "Crispy Curls, Large",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 1050.0,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "protein_g": 5.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls,-large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls,_medium",
+      "name": "Crispy Curls, Medium",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 340.0,
+        "calories_from_fat": 150.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 840.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "protein_g": 4.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls,-medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls,_small",
+      "name": "Crispy Curls, Small",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240.0,
+        "calories_from_fat": 110.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 600.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "protein_g": 3.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls,-small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries,_kids",
+      "name": "Fries, Kids",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 240.0,
+        "calories_from_fat": 100.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 480.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "protein_g": 3.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries,-kids",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries,_large",
+      "name": "Fries, Large",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470.0,
+        "calories_from_fat": 210.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 940.0,
+        "carbohydrates_g": 61.0,
+        "fiber_g": 6.0,
+        "sugars_g": 0.0,
+        "protein_g": 5.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries,-large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries,_medium",
+      "name": "Fries, Medium",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 420.0,
+        "calories_from_fat": 190.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 850.0,
+        "carbohydrates_g": 55.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "protein_g": 5.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries,-medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries,_small",
+      "name": "Fries, Small",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300.0,
+        "calories_from_fat": 130.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 600.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "protein_g": 3.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries,-small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "apple_turnover",
+      "name": "Apple Turnover",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 85
+      },
+      "nutrition": {
+        "calories": 270.0,
+        "calories_from_fat": 120.0,
+        "fat_g": 13.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 260.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 11.0,
+        "protein_g": 3.0
+      },
+      "allergens": [
+        "M",
+        "W"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/apple-turnover",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "cinnamon_roll",
+      "name": "Cinnamon Roll",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 160
+      },
+      "nutrition": {
+        "calories": 520.0,
+        "calories_from_fat": 140.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 1060.0,
+        "carbohydrates_g": 89.0,
+        "fiber_g": 1.0,
+        "sugars_g": 57.0,
+        "protein_g": 6.0
+      },
+      "allergens": [
+        "M",
+        "S",
+        "W"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/cinnamon-roll",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake,_chocolate",
+      "name": "Hand-Scooped Ice-Cream Shake, Chocolate",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710.0,
+        "calories_from_fat": 330.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 105.0,
+        "sodium_mg": 270.0,
+        "carbohydrates_g": 86.0,
+        "fiber_g": 1.0,
+        "sugars_g": 64.0,
+        "protein_g": 13.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake,-chocolate",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake,_strawberry",
+      "name": "Hand-Scooped Ice-Cream Shake, Strawberry",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710.0,
+        "calories_from_fat": 320.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 105.0,
+        "sodium_mg": 220.0,
+        "carbohydrates_g": 85.0,
+        "fiber_g": 0.0,
+        "sugars_g": 69.0,
+        "protein_g": 13.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake,-strawberry",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake,_vanilla",
+      "name": "Hand-Scooped Ice-Cream Shake, Vanilla",
+      "category": "Desserts",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 740.0,
+        "calories_from_fat": 320.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 105.0,
+        "sodium_mg": 220.0,
+        "carbohydrates_g": 87.0,
+        "fiber_g": 0.0,
+        "sugars_g": 70.0,
+        "protein_g": 13.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake,-vanilla",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "dasani_water,_16.9_fl_oz",
+      "name": "Dasani Water, 16.9 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0.0,
+        "calories_from_fat": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/dasani-water,-16.9-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "decaffeinated_coffee,_12_fl_oz",
+      "name": "Decaffeinated Coffee, 12 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 10.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/decaffeinated-coffee,-12-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "decaffeinated_coffee,_16_fl_oz",
+      "name": "Decaffeinated Coffee, 16 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/decaffeinated-coffee,-16-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "decaffeinated_coffee,_20_fl_oz",
+      "name": "Decaffeinated Coffee, 20 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/decaffeinated-coffee,-20-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "regular_coffee,_12_fl_oz",
+      "name": "Regular Coffee, 12 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 10.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/regular-coffee,-12-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "regular_coffee,_16_fl_oz",
+      "name": "Regular Coffee, 16 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "protein_g": 1.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/regular-coffee,-16-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "regular_coffee,_20_fl_oz",
+      "name": "Regular Coffee, 20 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15.0,
+        "calories_from_fat": 5.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "protein_g": 0.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/regular-coffee,-20-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "regular_milk,_1%,_7_fl_oz",
+      "name": "Regular Milk, 1%, 7 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90.0,
+        "calories_from_fat": 20.0,
+        "fat_g": 2.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 90.0,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.0,
+        "protein_g": 7.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/regular-milk,-1%,-7-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "simply_orange_juice,_11.5_fl_oz",
+      "name": "Simply Orange Juice, 11.5 fl oz",
+      "category": "Beverages",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160.0,
+        "calories_from_fat": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": null,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 0.0,
+        "carbohydrates_g": 37.0,
+        "fiber_g": 0.0,
+        "sugars_g": 33.0,
+        "protein_g": 2.0
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/simply-orange-juice,-11.5-fl-oz",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "spicy_hand-breaded_chicken_biscuit",
+      "name": "Spicy Hand-Breaded Chicken Biscuit",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 4.59,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 229
+      },
+      "nutrition": {
+        "calories": 620,
+        "calories_from_fat": 280,
+        "fat_g": 31,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 2810,
+        "carbohydrates_g": 54,
+        "fiber_g": 2,
+        "sugars_g": 4,
+        "protein_g": 30
+      },
+      "allergens": [
+        "E",
+        "M",
+        "SS",
+        "S",
+        "W"
+      ],
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/spicy-hand-breaded-chicken-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sunrise_croissant",
+      "name": "Sunrise Croissant",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 166
+      },
+      "nutrition": {
+        "calories": 410,
+        "calories_from_fat": 210,
+        "fat_g": 24,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 235,
+        "sodium_mg": 1100,
+        "carbohydrates_g": 28,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 21
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/sunrise-croissant",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "smoked_sausage,_egg_&_cheese",
+      "name": "Smoked Sausage, Egg & Cheese",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 228
+      },
+      "nutrition": {
+        "calories": 710,
+        "calories_from_fat": 440,
+        "fat_g": 49,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 270,
+        "sodium_mg": 1910,
+        "carbohydrates_g": 46,
+        "fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 24
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/smoked-sausage,-egg-&-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "super_bacon_biscuit",
+      "name": "Super Bacon Biscuit",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 185
+      },
+      "nutrition": {
+        "calories": 600,
+        "calories_from_fat": 321,
+        "fat_g": 36,
+        "saturated_fat_g": 17,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 255,
+        "sodium_mg": 1810,
+        "carbohydrates_g": 45,
+        "fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 27
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/super-bacon-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "super_sausage_biscuit",
+      "name": "Super Sausage Biscuit",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 245
+      },
+      "nutrition": {
+        "calories": 880,
+        "calories_from_fat": 577,
+        "fat_g": 64,
+        "saturated_fat_g": 27,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 290,
+        "sodium_mg": 2100,
+        "carbohydrates_g": 46,
+        "fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 30
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/super-sausage-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "pork_chop_'n'_gravy_biscuit",
+      "name": "Pork Chop 'N' Gravy Biscuit",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 212
+      },
+      "nutrition": {
+        "calories": 600,
+        "calories_from_fat": 280,
+        "fat_g": 31,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1430,
+        "carbohydrates_g": 56,
+        "fiber_g": 3,
+        "sugars_g": 4,
+        "protein_g": 24
+      },
+      "allergens": "M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/pork-chop-'n'-gravy-biscuit",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "biscuit_'n'_gravy",
+      "name": "Biscuit 'N' Gravy\u2122",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 241
+      },
+      "nutrition": {
+        "calories": 500,
+        "calories_from_fat": 240,
+        "fat_g": 27,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 10,
+        "sodium_mg": 1460,
+        "carbohydrates_g": 54,
+        "fiber_g": 2,
+        "sugars_g": 5,
+        "protein_g": 10
+      },
+      "allergens": "M,S,W",
+      "ingredients": [
+        "Enriched Wheat Flour",
+        "Buttermilk",
+        "Shortening",
+        "Sugar",
+        "Baking Soda",
+        "Baking Powder",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/biscuit-'n'-gravy",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "homestyle_sausage,_egg_&_cheese_burrito",
+      "name": "Homestyle Sausage, Egg & Cheese Burrito",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 285
+      },
+      "nutrition": {
+        "calories": 930,
+        "calories_from_fat": 567,
+        "fat_g": 63,
+        "saturated_fat_g": 22,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 480,
+        "sodium_mg": 1740,
+        "carbohydrates_g": 54,
+        "fiber_g": 3,
+        "sugars_g": 2,
+        "protein_g": 35
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/homestyle-sausage,-egg-&-cheese-burrito",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "homestyle_loaded_breakfast_burrito",
+      "name": "Homestyle Loaded Breakfast Burrito",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 273
+      },
+      "nutrition": {
+        "calories": 810,
+        "calories_from_fat": 449,
+        "fat_g": 50,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 2,
+        "cholesterol_mg": 475,
+        "sodium_mg": 1800,
+        "carbohydrates_g": 53,
+        "fiber_g": 3,
+        "sugars_g": 1,
+        "protein_g": 36
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/homestyle-loaded-breakfast-burrito",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "sausage,_egg_&_cheese_burrito",
+      "name": "Sausage, Egg & Cheese Burrito",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 285
+      },
+      "nutrition": {
+        "calories": 930,
+        "calories_from_fat": 570,
+        "fat_g": 63,
+        "saturated_fat_g": 22,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 480,
+        "sodium_mg": 1740,
+        "carbohydrates_g": 54,
+        "fiber_g": 3,
+        "sugars_g": 2,
+        "protein_g": 35
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/sausage,-egg-&-cheese-burrito",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hardee_breakfast_platter_-_bacon",
+      "name": "Hardee Breakfast Platter\u00ae - Bacon",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 307
+      },
+      "nutrition": {
+        "calories": 970,
+        "calories_from_fat": 510,
+        "fat_g": 56,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 440,
+        "sodium_mg": 2240,
+        "carbohydrates_g": 80,
+        "fiber_g": 5,
+        "sugars_g": 7,
+        "protein_g": 30
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hardee-breakfast-platter---bacon",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hardee_breakfast_platter_-_ham",
+      "name": "Hardee Breakfast Platter\u00ae - Ham",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 328
+      },
+      "nutrition": {
+        "calories": 970,
+        "calories_from_fat": 508,
+        "fat_g": 56,
+        "saturated_fat_g": 20,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 460,
+        "sodium_mg": 2770,
+        "carbohydrates_g": 80,
+        "fiber_g": 2,
+        "sugars_g": 6,
+        "protein_g": 33
+      },
+      "allergens": "E,M,S,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hardee-breakfast-platter---ham",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds_-_small",
+      "name": "Hash Rounds - Small",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 78
+      },
+      "nutrition": {
+        "calories": 240,
+        "calories_from_fat": 131,
+        "fat_g": 15,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 300,
+        "carbohydrates_g": 22,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "protein_g": 2
+      },
+      "allergens": "W",
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds---small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds_-_medium",
+      "name": "Hash Rounds - Medium",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 102
+      },
+      "nutrition": {
+        "calories": 320,
+        "calories_from_fat": 171,
+        "fat_g": 19,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 400,
+        "carbohydrates_g": 28,
+        "fiber_g": 3,
+        "sugars_g": 1,
+        "protein_g": 3
+      },
+      "allergens": "W",
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds---medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hash_rounds_-_large",
+      "name": "Hash Rounds - Large",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 144
+      },
+      "nutrition": {
+        "calories": 450,
+        "calories_from_fat": 240,
+        "fat_g": 27,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 0,
+        "sodium_mg": 560,
+        "carbohydrates_g": 40,
+        "fiber_g": 4,
+        "sugars_g": 1,
+        "protein_g": 4
+      },
+      "allergens": "W",
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hash-rounds---large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "double_bacon_cheeseburger",
+      "name": "Double Bacon Cheeseburger",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 323
+      },
+      "nutrition": {
+        "calories": 910,
+        "calories_from_fat": 580,
+        "fat_g": 64,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 185,
+        "sodium_mg": 1620,
+        "carbohydrates_g": 41,
+        "fiber_g": 4,
+        "sugars_g": 10,
+        "protein_g": 55
+      },
+      "allergens": "E,M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/double-bacon-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mushroom_&_swiss_-_single",
+      "name": "Mushroom & Swiss - Single",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 215
+      },
+      "nutrition": {
+        "calories": 580,
+        "calories_from_fat": 344,
+        "fat_g": 38,
+        "saturated_fat_g": 14,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1280,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 31
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/mushroom-&-swiss---single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "mushroom_&_swiss_-_double",
+      "name": "Mushroom & Swiss - Double",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 303
+      },
+      "nutrition": {
+        "calories": 860,
+        "calories_from_fat": 538,
+        "fat_g": 60,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 185,
+        "sodium_mg": 1770,
+        "carbohydrates_g": 41,
+        "fiber_g": 3,
+        "sugars_g": 10,
+        "protein_g": 52
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/mushroom-&-swiss---double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_cheeseburger_-_single",
+      "name": "Big Cheeseburger - Single",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 194
+      },
+      "nutrition": {
+        "calories": 520,
+        "calories_from_fat": 290,
+        "fat_g": 33,
+        "saturated_fat_g": 12,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 85,
+        "sodium_mg": 1080,
+        "carbohydrates_g": 40,
+        "fiber_g": 1,
+        "sugars_g": 10,
+        "protein_g": 27
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-cheeseburger---single",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_cheeseburger_-_double",
+      "name": "Big Cheeseburger - Double",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 274
+      },
+      "nutrition": {
+        "calories": 790,
+        "calories_from_fat": 484,
+        "fat_g": 54,
+        "saturated_fat_g": 21,
+        "trans_fat_g": 3,
+        "cholesterol_mg": 165,
+        "sodium_mg": 1540,
+        "carbohydrates_g": 40,
+        "fiber_g": 3,
+        "sugars_g": 11,
+        "protein_g": 48
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-cheeseburger---double",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_hot_ham_'n'_cheese",
+      "name": "Big Hot Ham 'N' Cheese\u2122",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 205
+      },
+      "nutrition": {
+        "calories": 450,
+        "calories_from_fat": 211,
+        "fat_g": 23,
+        "saturated_fat_g": 9,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 1930,
+        "carbohydrates_g": 39,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 29
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-hot-ham-'n'-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "original_hot_ham_'n'_cheese",
+      "name": "Original Hot Ham 'N' Cheese\u2122",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 125
+      },
+      "nutrition": {
+        "calories": 270,
+        "calories_from_fat": 70,
+        "fat_g": 8,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 1110,
+        "carbohydrates_g": 32,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "protein_g": 17
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/original-hot-ham-'n'-cheese",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "big_roast_beef",
+      "name": "Big Roast Beef",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 218
+      },
+      "nutrition": {
+        "calories": 530,
+        "calories_from_fat": 142,
+        "fat_g": 16,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 1880,
+        "carbohydrates_g": 38,
+        "fiber_g": 2,
+        "sugars_g": 7,
+        "protein_g": 29
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/big-roast-beef",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "original_roast_beef",
+      "name": "Original Roast Beef",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 131
+      },
+      "nutrition": {
+        "calories": 300,
+        "calories_from_fat": 33,
+        "fat_g": 4,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1030,
+        "carbohydrates_g": 31,
+        "fiber_g": 1,
+        "sugars_g": 4,
+        "protein_g": 17
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/original-roast-beef",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "monster_roast_beef",
+      "name": "Monster Roast Beef",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 273
+      },
+      "nutrition": {
+        "calories": 760,
+        "calories_from_fat": 290,
+        "fat_g": 33,
+        "saturated_fat_g": 13,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 120,
+        "sodium_mg": 2930,
+        "carbohydrates_g": 40,
+        "fiber_g": 0,
+        "sugars_g": 9,
+        "protein_g": 47
+      },
+      "allergens": "M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/monster-roast-beef",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "nashville_hot_hand-breaded_chicken_sandwich",
+      "name": "Nashville Hot Hand-Breaded Chicken Sandwich",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 226
+      },
+      "nutrition": {
+        "calories": 570,
+        "calories_from_fat": 290,
+        "fat_g": 32,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 2530,
+        "carbohydrates_g": 49,
+        "fiber_g": 2,
+        "sugars_g": 8,
+        "protein_g": 30
+      },
+      "allergens": "E,M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/nashville-hot-hand-breaded-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "blt_hand-breaded_chicken_sandwich",
+      "name": "BLT Hand-Breaded Chicken Sandwich",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 276
+      },
+      "nutrition": {
+        "calories": 640,
+        "calories_from_fat": 330,
+        "fat_g": 36,
+        "saturated_fat_g": 8,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 2640,
+        "carbohydrates_g": 50,
+        "fiber_g": 2,
+        "sugars_g": 9,
+        "protein_g": 37
+      },
+      "allergens": "E,M,S,SS,W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/blt-hand-breaded-chicken-sandwich",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries_-_kids",
+      "name": "Fries - Kids",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 67
+      },
+      "nutrition": {
+        "calories": 190,
+        "calories_from_fat": 80,
+        "fat_g": 9,
+        "saturated_fat_g": 2,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 390,
+        "carbohydrates_g": 25,
+        "fiber_g": 2,
+        "sugars_g": 0,
+        "protein_g": 2
+      },
+      "allergens": null,
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries---kids",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries_-_small",
+      "name": "Fries - Small",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 97
+      },
+      "nutrition": {
+        "calories": 280,
+        "calories_from_fat": 120,
+        "fat_g": 14,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 560,
+        "carbohydrates_g": 36,
+        "fiber_g": 3,
+        "sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": null,
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries---small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries_-_medium",
+      "name": "Fries - Medium",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 137
+      },
+      "nutrition": {
+        "calories": 400,
+        "calories_from_fat": 170,
+        "fat_g": 19,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 800,
+        "carbohydrates_g": 51,
+        "fiber_g": 5,
+        "sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": null,
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries---medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "fries_-_large",
+      "name": "Fries - Large",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 157
+      },
+      "nutrition": {
+        "calories": 450,
+        "calories_from_fat": 200,
+        "fat_g": 22,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 910,
+        "carbohydrates_g": 59,
+        "fiber_g": 6,
+        "sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": null,
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/fries---large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls_-_small",
+      "name": "Crispy Curls\u00ae - Small",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 78
+      },
+      "nutrition": {
+        "calories": 240,
+        "calories_from_fat": 107,
+        "fat_g": 12,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 600,
+        "carbohydrates_g": 31,
+        "fiber_g": 3,
+        "sugars_g": 0,
+        "protein_g": 3
+      },
+      "allergens": "W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls---small",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls_-_medium",
+      "name": "Crispy Curls\u00ae - Medium",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 108
+      },
+      "nutrition": {
+        "calories": 340,
+        "calories_from_fat": 149,
+        "fat_g": 17,
+        "saturated_fat_g": 4,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 840,
+        "carbohydrates_g": 43,
+        "fiber_g": 4,
+        "sugars_g": 0,
+        "protein_g": 4
+      },
+      "allergens": "W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls---medium",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "crispy_curls_-_large",
+      "name": "Crispy Curls\u00ae - Large",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 131
+      },
+      "nutrition": {
+        "calories": 410,
+        "calories_from_fat": 180,
+        "fat_g": 21,
+        "saturated_fat_g": 5,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1020,
+        "carbohydrates_g": 51,
+        "fiber_g": 4,
+        "sugars_g": 0,
+        "protein_g": 5
+      },
+      "allergens": "W",
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/crispy-curls---large",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake-_vanilla",
+      "name": "Hand-Scooped Ice-Cream Shake\u2122- Vanilla",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 390
+      },
+      "nutrition": {
+        "calories": 700,
+        "calories_from_fat": 320,
+        "fat_g": 36,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 220,
+        "carbohydrates_g": 83,
+        "fiber_g": 2,
+        "sugars_g": 66,
+        "protein_g": 13
+      },
+      "allergens": [
+        "M",
+        "S",
+        "+"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake--vanilla",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake-_chocolate",
+      "name": "Hand-Scooped Ice-Cream Shake\u2122- Chocolate",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 400
+      },
+      "nutrition": {
+        "calories": 730,
+        "calories_from_fat": 330,
+        "fat_g": 36,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 280,
+        "carbohydrates_g": 91,
+        "fiber_g": 3,
+        "sugars_g": 71,
+        "protein_g": 13
+      },
+      "allergens": [
+        "M",
+        "S",
+        "+"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake--chocolate",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "hand-scooped_ice-cream_shake-_strawberry",
+      "name": "Hand-Scooped Ice-Cream Shake\u2122- Strawberry",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 397
+      },
+      "nutrition": {
+        "calories": 710,
+        "calories_from_fat": 320,
+        "fat_g": 36,
+        "saturated_fat_g": 24,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 220,
+        "carbohydrates_g": 85,
+        "fiber_g": 2,
+        "sugars_g": 68,
+        "protein_g": 13
+      },
+      "allergens": [
+        "M",
+        "S",
+        "+"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/hand-scooped-ice-cream-shake--strawberry",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "buddy_fruits_organic_apple_sauce_pouch",
+      "name": "Buddy Fruits\u00ae Organic Apple Sauce Pouch",
+      "category": "Other",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": 90
+      },
+      "nutrition": {
+        "calories": 45,
+        "calories_from_fat": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "carbohydrates_g": 12,
+        "fiber_g": 1,
+        "sugars_g": 8,
+        "protein_g": 0
+      },
+      "allergens": null,
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/buddy-fruits-organic-apple-sauce-pouch",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "red_burrito_(beef)",
+      "name": "Red Burrito (Beef)",
+      "category": "Red Burrito",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Participating Locations"
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 650,
+        "fat_g": 30,
+        "carbohydrates_g": 62,
+        "protein_g": 34,
+        "sodium_mg": 2170
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/red-burrito-(beef)",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "red_burrito_(chicken)",
+      "name": "Red Burrito (Chicken)",
+      "category": "Red Burrito",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Participating Locations"
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 610,
+        "fat_g": 26,
+        "carbohydrates_g": 60,
+        "protein_g": 31,
+        "sodium_mg": 2320
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/red-burrito-(chicken)",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "red_burrito_chicken_bowl",
+      "name": "Red Burrito Chicken Bowl",
+      "category": "Red Burrito",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "Participating Locations"
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "fat_g": 11,
+        "carbohydrates_g": 55,
+        "protein_g": 27,
+        "sodium_mg": 1210
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/red-burrito-chicken-bowl",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "1/3_lb_low_carb_thickburger",
+      "name": "1/3 LB Low Carb Thickburger",
+      "category": "Discontinued",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/1/3-lb-low-carb-thickburger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "original_turkey_burger",
+      "name": "Original Turkey Burger",
+      "category": "Discontinued",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/original-turkey-burger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "beer_cheese_bacon_burger",
+      "name": "Beer Cheese Bacon Burger",
+      "category": "Discontinued",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": false,
+        "discontinued": true,
+        "region": ""
+      },
+      "serving": {
+        "size": null,
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 710
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.hardees.com/menu/beer-cheese-bacon-burger",
+      "sources": [
+        {
+          "url": "https://www.hardees.com/nutritional-info",
+          "source_type": "official",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.nutritionix.com/hardees/menu/premium",
+          "source_type": "third-party",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

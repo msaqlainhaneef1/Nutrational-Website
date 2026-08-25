@@ -1,0 +1,311 @@
+{
+  "brand": {
+    "name": "Frappuccino",
+    "website": "https://www.frappuccino.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Coffee Blended Beverages",
+    "Crème Blended Beverages",
+    "Espresso Blended Beverages",
+    "Seasonal & Limited Time Frappuccinos",
+    "Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "frap_caramel",
+      "name": "Caramel Frappuccino Blended Beverage",
+      "category": "Coffee Blended Beverages",
+      "subcategory": "Caramel",
+      "description": "Coffee with rich caramel syrup blended with milk and ice, topped with whipped cream and caramel drizzle.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 0.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 48.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 90.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Coffee Frappuccino Syrup",
+        "Caramel Syrup",
+        "Whipped Cream",
+        "Caramel Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.frappuccino.com/media/menu/caramel-frappuccino.png",
+      "product_url": "https://www.frappuccino.com/menu/coffee/caramel",
+      "sources": [
+        {
+          "url": "https://www.frappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/frappuccino",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "frap_mocha",
+      "name": "Mocha Frappuccino Blended Beverage",
+      "category": "Coffee Blended Beverages",
+      "subcategory": "Mocha",
+      "description": "Coffee combined with comforting mocha sauce, milk and ice, topped with sweetened whipped cream.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 5.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.5,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 220.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 2.0,
+        "sugars_g": 51.0,
+        "added_sugars_g": 44.0,
+        "calcium_mg": 170.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 110.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Coffee",
+        "Mocha Sauce",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.frappuccino.com/media/menu/mocha-frappuccino.png",
+      "product_url": "https://www.frappuccino.com/menu/coffee/mocha",
+      "sources": [
+        {
+          "url": "https://www.frappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "frap_java_chip",
+      "name": "Java Chip Frappuccino Blended Beverage",
+      "category": "Coffee Blended Beverages",
+      "subcategory": "Java Chip",
+      "description": "Coffee with mocha sauce and Frappuccino chips blended with milk and ice, topped with whipped cream and mocha drizzle.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 6.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 72.0,
+        "fiber_g": 3.0,
+        "sugars_g": 66.0,
+        "added_sugars_g": 58.0,
+        "calcium_mg": 190.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 115.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Coffee",
+        "Mocha Sauce",
+        "Frappuccino Chips",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.frappuccino.com/media/menu/java-chip-frappuccino.png",
+      "product_url": "https://www.frappuccino.com/menu/coffee/java-chip",
+      "sources": [
+        {
+          "url": "https://www.frappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "frap_strawberries_creme",
+      "name": "Strawberries & Crème Frappuccino",
+      "category": "Crème Blended Beverages",
+      "subcategory": "Strawberries & Crème",
+      "description": "Ice, milk and strawberry puree blended together and topped with vanilla whipped cream.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 240.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 1.0,
+        "sugars_g": 52.0,
+        "added_sugars_g": 46.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Crème Base",
+        "Strawberry Puree",
+        "Whipped Cream"
+      ],
+      "customizations": [],
+      "image_url": "https://www.frappuccino.com/media/menu/strawberries-creme.png",
+      "product_url": "https://www.frappuccino.com/menu/creme/strawberries",
+      "sources": [
+        {
+          "url": "https://www.frappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "frap_espresso",
+      "name": "Espresso Frappuccino Blended Beverage",
+      "category": "Espresso Blended Beverages",
+      "subcategory": "Espresso",
+      "description": "Coffee blended with a shot of espresso, milk and ice.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 460.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 3.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 0.0,
+        "sugars_g": 41.0,
+        "added_sugars_g": 38.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 155.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Milk",
+        "Coffee",
+        "Espresso Shot",
+        "Frappuccino Syrup Base"
+      ],
+      "customizations": [],
+      "image_url": "https://www.frappuccino.com/media/menu/espresso-frappuccino.png",
+      "product_url": "https://www.frappuccino.com/menu/espresso/espresso-frap",
+      "sources": [
+        {
+          "url": "https://www.frappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

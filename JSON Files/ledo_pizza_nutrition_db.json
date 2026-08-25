@@ -1,0 +1,7085 @@
+{
+  "brand": {
+    "name": "Ledo Pizza",
+    "website": "https://ledopizza.com",
+    "country": "USA",
+    "last_updated": "2026-08-05"
+  },
+  "categories": [
+    {
+      "id": "Pizza Toppings",
+      "name": "Pizza Toppings",
+      "item_count": 17
+    },
+    {
+      "id": "Classic Pizzas",
+      "name": "Classic Pizzas",
+      "item_count": 15
+    },
+    {
+      "id": "Appetizers",
+      "name": "Appetizers",
+      "item_count": 13
+    },
+    {
+      "id": "Wing Sauces",
+      "name": "Wing Sauces",
+      "item_count": 13
+    },
+    {
+      "id": "Craft Pizzas",
+      "name": "Craft Pizzas",
+      "item_count": 12
+    },
+    {
+      "id": "Salads",
+      "name": "Salads",
+      "item_count": 11
+    },
+    {
+      "id": "Entrees",
+      "name": "Entrees",
+      "item_count": 10
+    },
+    {
+      "id": "Calzones & Strombolis",
+      "name": "Calzones & Strombolis",
+      "item_count": 6
+    },
+    {
+      "id": "Classic Subs",
+      "name": "Classic Subs",
+      "item_count": 4
+    },
+    {
+      "id": "Kid's Menu",
+      "name": "Kid's Menu",
+      "item_count": 4
+    },
+    {
+      "id": "Desserts",
+      "name": "Desserts",
+      "item_count": 4
+    },
+    {
+      "id": "Create Your Own",
+      "name": "Create Your Own",
+      "item_count": 3
+    },
+    {
+      "id": "Dipping Sauces",
+      "name": "Dipping Sauces",
+      "item_count": 3
+    },
+    {
+      "id": "Cheesesteak Subs",
+      "name": "Cheesesteak Subs",
+      "item_count": 2
+    },
+    {
+      "id": "Gluten Free Pizzas",
+      "name": "Gluten Free Pizzas",
+      "item_count": 2
+    },
+    {
+      "id": "Sides",
+      "name": "Sides",
+      "item_count": 2
+    },
+    {
+      "id": "Pitas",
+      "name": "Pitas",
+      "item_count": 1
+    }
+  ],
+  "products": [
+    {
+      "product_id": "LP-SB-B2E8",
+      "name": "Chicken Parmesan Sub",
+      "category": "Classic Subs",
+      "subcategory": null,
+      "description": "Classic submarine sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 40,
+        "fat_g": 26,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 85,
+        "sodium_mg": 1910,
+        "potassium_mg": null,
+        "carbohydrates_g": 69,
+        "fiber_g": 2,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-134C",
+      "name": "Hot Italian Cold Cut Sub",
+      "category": "Classic Subs",
+      "subcategory": null,
+      "description": "Classic submarine sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 40,
+        "fat_g": 51,
+        "saturated_fat_g": 18,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 115,
+        "sodium_mg": 2650,
+        "potassium_mg": null,
+        "carbohydrates_g": 61,
+        "fiber_g": 4,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-4438",
+      "name": "Italian Cold Cut Sub",
+      "category": "Classic Subs",
+      "subcategory": null,
+      "description": "Classic submarine sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 770,
+        "protein_g": 50,
+        "fat_g": 66,
+        "saturated_fat_g": 26,
+        "trans_fat_g": null,
+        "cholesterol_mg": 160,
+        "sodium_mg": 3340,
+        "potassium_mg": null,
+        "carbohydrates_g": 39,
+        "fiber_g": 4,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-3B07",
+      "name": "Meatball & Cheese Sub",
+      "category": "Classic Subs",
+      "subcategory": null,
+      "description": "Classic submarine sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1020,
+        "protein_g": 48,
+        "fat_g": 50,
+        "saturated_fat_g": 22,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 120,
+        "sodium_mg": 2410,
+        "potassium_mg": null,
+        "carbohydrates_g": 83,
+        "fiber_g": 4,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-AD10",
+      "name": "Ledo Steak & Cheese Sub",
+      "category": "Cheesesteak Subs",
+      "subcategory": null,
+      "description": "Philly-style cheesesteak sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 990,
+        "protein_g": 55,
+        "fat_g": 43,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 145,
+        "sodium_mg": 1600,
+        "potassium_mg": null,
+        "carbohydrates_g": 69,
+        "fiber_g": 3,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-481D",
+      "name": "South Street Cheesesteak Sub",
+      "category": "Cheesesteak Subs",
+      "subcategory": null,
+      "description": "Philly-style cheesesteak sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 900,
+        "protein_g": 44,
+        "fat_g": 54,
+        "saturated_fat_g": 16,
+        "trans_fat_g": null,
+        "cholesterol_mg": 105,
+        "sodium_mg": 2160,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 3,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SB-B246",
+      "name": "Greek Gyro",
+      "category": "Pitas",
+      "subcategory": null,
+      "description": "Mediterranean-style pita sandwich",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 440,
+        "protein_g": 23,
+        "fat_g": 30,
+        "saturated_fat_g": 11,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 70,
+        "sodium_mg": 1260,
+        "potassium_mg": null,
+        "carbohydrates_g": 21,
+        "fiber_g": 1,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-AAC5",
+      "name": "Buffalo Chicken Pizza, 8inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 84,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-38A3",
+      "name": "Buffalo Chicken Pizza, 14inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-AEC0",
+      "name": "Buffalo Chicken Pizza, 18inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 6,
+        "fat_g": 9,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-26B0",
+      "name": "Ledo White Pizza, 8inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 3,
+        "fat_g": 12,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 135,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-52D7",
+      "name": "Ledo White Pizza, 14inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 4,
+        "fat_g": 11,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 140,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-EF00",
+      "name": "Ledo White Pizza, 18inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 4,
+        "fat_g": 14,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-CEDB",
+      "name": "Mike's Hot Honey Pepperoni Pizza, 8 inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 5,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": null,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        },
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.9,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-7785",
+      "name": "Mike's Hot Honey Pepperoni Pizza, 14 inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 5,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": null,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        },
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.9,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-0FC7",
+      "name": "Mike's Hot Honey Pepperoni Pizza, 18 inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 6,
+        "fat_g": 10,
+        "saturated_fat_g": 4,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": null,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        },
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.9,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-D23A",
+      "name": "Sweet Baby-q Chicken Pizza, 8inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 8,
+        "fat_g": 9,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": null,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-FB51",
+      "name": "Sweet Baby-q Chicken Pizza, 14inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 7,
+        "fat_g": 9,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": null,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-5191",
+      "name": "Sweet Baby-q Chicken Pizza, 18inch",
+      "category": "Craft Pizzas",
+      "subcategory": null,
+      "description": "Specialty Ledo Pizza with unique toppings and flavors",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 8,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": null,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-5DB9",
+      "name": "Hawaiian Pizza, 8inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 230,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-B48E",
+      "name": "Hawaiian Pizza, 14inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 5,
+        "fat_g": 7,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-D470",
+      "name": "Hawaiian Pizza, 18inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 250,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-42E4",
+      "name": "Ledo Deluxe Pizza, 8inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 18,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 400,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-D289",
+      "name": "Ledo Deluxe Pizza, 14inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 9,
+        "fat_g": 17,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 390,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-6076",
+      "name": "Ledo Deluxe Pizza, 18inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 18,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-95BF",
+      "name": "Meatlovers Pizza, 8inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 7,
+        "fat_g": 13,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-A637",
+      "name": "Meatlovers Pizza, 14inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 7,
+        "fat_g": 12,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-9FCD",
+      "name": "Meatlovers Pizza, 18inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 8,
+        "fat_g": 13,
+        "saturated_fat_g": 5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-9137",
+      "name": "Thick-cut Pepperoni Pizza, 8 inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 5,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-8FA4",
+      "name": "Thick-cut Pepperoni Pizza, 14 inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 5,
+        "fat_g": 10,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 6,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-7440",
+      "name": "Thick-cut Pepperoni Pizza, 18 inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 6,
+        "fat_g": 10,
+        "saturated_fat_g": 4,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-11A5",
+      "name": "Veggie Pizza, 8inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 5,
+        "fat_g": 7,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 150,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-73FF",
+      "name": "Veggie Pizza, 14inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 5,
+        "fat_g": 7,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 150,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-PZ-2192",
+      "name": "Veggie Pizza, 18inch",
+      "category": "Classic Pizzas",
+      "subcategory": null,
+      "description": "Square Ledo Pizza made with mozzarella and provolone cheese",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 6,
+        "fat_g": 8,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-BYO-539F",
+      "name": "8 Inch Ledo Pizza",
+      "category": "Create Your Own",
+      "subcategory": null,
+      "description": "Build your own square Ledo Pizza with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (8\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 18,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [
+        {
+          "option_type": "crust",
+          "options": [
+            "Regular Crust",
+            "Gluten-Free Crust",
+            "Cauliflower Crust"
+          ],
+          "nutrition_changes": {
+            "Regular Crust": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Gluten-Free Crust": {
+              "calories_change": -10,
+              "carbohydrates_g_change": -2,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Cauliflower Crust": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -8,
+              "fat_g_change": -5,
+              "protein_g_change": -4
+            }
+          }
+        },
+        {
+          "option_type": "sauce",
+          "options": [
+            "Ledo Sauce (Tomato)",
+            "Garlic Parmesan Sauce",
+            "White Sauce"
+          ],
+          "nutrition_changes": {
+            "Ledo Sauce (Tomato)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Garlic Parmesan Sauce": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 3,
+              "protein_g_change": 1
+            },
+            "White Sauce": {
+              "calories_change": 20,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "cheese",
+          "options": [
+            "Regular Cheese (Mozzarella + Provolone)",
+            "Extra Cheese"
+          ],
+          "nutrition_changes": {
+            "Regular Cheese (Mozzarella + Provolone)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Extra Cheese": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "meat_toppings",
+          "options": [
+            "Pepperoni",
+            "Sausage",
+            "Ham",
+            "Bacon",
+            "Ground Beef",
+            "Chicken"
+          ],
+          "nutrition_changes": {
+            "Pepperoni": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Sausage": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 3,
+              "protein_g_change": 3
+            },
+            "Ham": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 3
+            },
+            "Bacon": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Ground Beef": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Chicken": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0.5,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "veggie_toppings",
+          "options": [
+            "Mushrooms",
+            "Green Peppers",
+            "Onions",
+            "Olives",
+            "Pineapple",
+            "Jalapenos",
+            "Banana Peppers",
+            "Spinach",
+            "Tomatoes"
+          ],
+          "nutrition_changes": {
+            "Mushrooms": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Green Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Onions": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Olives": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 0
+            },
+            "Pineapple": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 3,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Jalapenos": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Banana Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Spinach": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 1
+            },
+            "Tomatoes": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "size",
+          "options": [
+            "8 inch",
+            "14 inch",
+            "18 inch"
+          ],
+          "nutrition_changes": {
+            "8 inch": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -10,
+              "fat_g_change": -10,
+              "protein_g_change": -5
+            },
+            "14 inch": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "18 inch": {
+              "calories_change": 120,
+              "carbohydrates_g_change": 10,
+              "fat_g_change": 10,
+              "protein_g_change": 5
+            }
+          }
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-BYO-A0D0",
+      "name": "14 Inch Ledo Pizza",
+      "category": "Create Your Own",
+      "subcategory": null,
+      "description": "Build your own square Ledo Pizza with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (14\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 18,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [
+        {
+          "option_type": "crust",
+          "options": [
+            "Regular Crust",
+            "Gluten-Free Crust",
+            "Cauliflower Crust"
+          ],
+          "nutrition_changes": {
+            "Regular Crust": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Gluten-Free Crust": {
+              "calories_change": -10,
+              "carbohydrates_g_change": -2,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Cauliflower Crust": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -8,
+              "fat_g_change": -5,
+              "protein_g_change": -4
+            }
+          }
+        },
+        {
+          "option_type": "sauce",
+          "options": [
+            "Ledo Sauce (Tomato)",
+            "Garlic Parmesan Sauce",
+            "White Sauce"
+          ],
+          "nutrition_changes": {
+            "Ledo Sauce (Tomato)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Garlic Parmesan Sauce": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 3,
+              "protein_g_change": 1
+            },
+            "White Sauce": {
+              "calories_change": 20,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "cheese",
+          "options": [
+            "Regular Cheese (Mozzarella + Provolone)",
+            "Extra Cheese"
+          ],
+          "nutrition_changes": {
+            "Regular Cheese (Mozzarella + Provolone)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Extra Cheese": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "meat_toppings",
+          "options": [
+            "Pepperoni",
+            "Sausage",
+            "Ham",
+            "Bacon",
+            "Ground Beef",
+            "Chicken"
+          ],
+          "nutrition_changes": {
+            "Pepperoni": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Sausage": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 3,
+              "protein_g_change": 3
+            },
+            "Ham": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 3
+            },
+            "Bacon": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Ground Beef": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Chicken": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0.5,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "veggie_toppings",
+          "options": [
+            "Mushrooms",
+            "Green Peppers",
+            "Onions",
+            "Olives",
+            "Pineapple",
+            "Jalapenos",
+            "Banana Peppers",
+            "Spinach",
+            "Tomatoes"
+          ],
+          "nutrition_changes": {
+            "Mushrooms": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Green Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Onions": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Olives": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 0
+            },
+            "Pineapple": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 3,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Jalapenos": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Banana Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Spinach": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 1
+            },
+            "Tomatoes": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "size",
+          "options": [
+            "8 inch",
+            "14 inch",
+            "18 inch"
+          ],
+          "nutrition_changes": {
+            "8 inch": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -10,
+              "fat_g_change": -10,
+              "protein_g_change": -5
+            },
+            "14 inch": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "18 inch": {
+              "calories_change": 120,
+              "carbohydrates_g_change": 10,
+              "fat_g_change": 10,
+              "protein_g_change": 5
+            }
+          }
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-BYO-413A",
+      "name": "18 Inch Ledo Pizza",
+      "category": "Create Your Own",
+      "subcategory": null,
+      "description": "Build your own square Ledo Pizza with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (18\" pizza)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 18,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 420,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [
+        {
+          "option_type": "crust",
+          "options": [
+            "Regular Crust",
+            "Gluten-Free Crust",
+            "Cauliflower Crust"
+          ],
+          "nutrition_changes": {
+            "Regular Crust": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Gluten-Free Crust": {
+              "calories_change": -10,
+              "carbohydrates_g_change": -2,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Cauliflower Crust": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -8,
+              "fat_g_change": -5,
+              "protein_g_change": -4
+            }
+          }
+        },
+        {
+          "option_type": "sauce",
+          "options": [
+            "Ledo Sauce (Tomato)",
+            "Garlic Parmesan Sauce",
+            "White Sauce"
+          ],
+          "nutrition_changes": {
+            "Ledo Sauce (Tomato)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Garlic Parmesan Sauce": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 3,
+              "protein_g_change": 1
+            },
+            "White Sauce": {
+              "calories_change": 20,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "cheese",
+          "options": [
+            "Regular Cheese (Mozzarella + Provolone)",
+            "Extra Cheese"
+          ],
+          "nutrition_changes": {
+            "Regular Cheese (Mozzarella + Provolone)": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Extra Cheese": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "meat_toppings",
+          "options": [
+            "Pepperoni",
+            "Sausage",
+            "Ham",
+            "Bacon",
+            "Ground Beef",
+            "Chicken"
+          ],
+          "nutrition_changes": {
+            "Pepperoni": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Sausage": {
+              "calories_change": 30,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 3,
+              "protein_g_change": 3
+            },
+            "Ham": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 3
+            },
+            "Bacon": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Ground Beef": {
+              "calories_change": 25,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 2,
+              "protein_g_change": 3
+            },
+            "Chicken": {
+              "calories_change": 15,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0.5,
+              "protein_g_change": 3
+            }
+          }
+        },
+        {
+          "option_type": "veggie_toppings",
+          "options": [
+            "Mushrooms",
+            "Green Peppers",
+            "Onions",
+            "Olives",
+            "Pineapple",
+            "Jalapenos",
+            "Banana Peppers",
+            "Spinach",
+            "Tomatoes"
+          ],
+          "nutrition_changes": {
+            "Mushrooms": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Green Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Onions": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Olives": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 1,
+              "protein_g_change": 0
+            },
+            "Pineapple": {
+              "calories_change": 10,
+              "carbohydrates_g_change": 3,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Jalapenos": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Banana Peppers": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "Spinach": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 1
+            },
+            "Tomatoes": {
+              "calories_change": 5,
+              "carbohydrates_g_change": 1,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            }
+          }
+        },
+        {
+          "option_type": "size",
+          "options": [
+            "8 inch",
+            "14 inch",
+            "18 inch"
+          ],
+          "nutrition_changes": {
+            "8 inch": {
+              "calories_change": -120,
+              "carbohydrates_g_change": -10,
+              "fat_g_change": -10,
+              "protein_g_change": -5
+            },
+            "14 inch": {
+              "calories_change": 0,
+              "carbohydrates_g_change": 0,
+              "fat_g_change": 0,
+              "protein_g_change": 0
+            },
+            "18 inch": {
+              "calories_change": 120,
+              "carbohydrates_g_change": 10,
+              "fat_g_change": 10,
+              "protein_g_change": 5
+            }
+          }
+        }
+      ],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-GF-BD7A",
+      "name": "Cauliflower Crust Pizza, Small",
+      "category": "Gluten Free Pizzas",
+      "subcategory": null,
+      "description": "Gluten-free pizza option with cauliflower or gluten-free crust",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (small)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 4,
+        "fat_g": 4.5,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-GF-6A18",
+      "name": "Gluten-free Pizza, Small",
+      "category": "Gluten Free Pizzas",
+      "subcategory": null,
+      "description": "Gluten-free pizza option with cauliflower or gluten-free crust",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (small)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 4,
+        "fat_g": 6,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 160,
+        "potassium_mg": null,
+        "carbohydrates_g": 10,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-E794",
+      "name": "Bacon And Cheese House Fries",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1000,
+        "protein_g": 32,
+        "fat_g": 50,
+        "saturated_fat_g": 16,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 75,
+        "sodium_mg": 3070,
+        "potassium_mg": null,
+        "carbohydrates_g": 103,
+        "fiber_g": 9,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-D7D2",
+      "name": "Boneless Wingsd",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "per wing",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 37,
+        "fat_g": 16,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 3.5,
+        "cholesterol_mg": 105,
+        "sodium_mg": 1880,
+        "potassium_mg": null,
+        "carbohydrates_g": 40,
+        "fiber_g": 2,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-30D3",
+      "name": "Caesar Side Salad",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 4,
+        "fat_g": 3,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 5,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 2,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-8547",
+      "name": "Cheesy Garlic Bread",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (per piece)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 12,
+        "fat_g": 17,
+        "saturated_fat_g": 7,
+        "trans_fat_g": null,
+        "cholesterol_mg": 25,
+        "sodium_mg": 580,
+        "potassium_mg": null,
+        "carbohydrates_g": 16,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-1B05",
+      "name": "Chicken Artichoke Bruschetta",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (per piece)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1120,
+        "protein_g": 51,
+        "fat_g": 73,
+        "saturated_fat_g": 23,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 165,
+        "sodium_mg": 2220,
+        "potassium_mg": null,
+        "carbohydrates_g": 67,
+        "fiber_g": 7,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-9822",
+      "name": "Chicken Tenders And House Fries",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 13,
+        "fat_g": 17,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 820,
+        "potassium_mg": null,
+        "carbohydrates_g": 21,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-DA36",
+      "name": "Ledo Jumbo Wings, BBQ",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "per wing",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 91,
+        "fat_g": 15,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 50,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-314F",
+      "name": "Ledo Jumbo Wings, Buffalo",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "per wing",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 15,
+        "fat_g": 16,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 50,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": null,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-DA18",
+      "name": "Ledo Jumbo Wings, Plain",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "per wing",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 15,
+        "fat_g": 14,
+        "saturated_fat_g": 4,
+        "trans_fat_g": null,
+        "cholesterol_mg": 85,
+        "sodium_mg": 370,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-6695",
+      "name": "Mozzarella Sticks",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (per piece)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 3,
+        "fat_g": 5,
+        "saturated_fat_g": 2,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 340,
+        "potassium_mg": null,
+        "carbohydrates_g": 9,
+        "fiber_g": 1,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-C3F4",
+      "name": "Soup By The Bowl",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 bowl",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 7,
+        "fat_g": 5,
+        "saturated_fat_g": 2,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": 710,
+        "potassium_mg": null,
+        "carbohydrates_g": 11,
+        "fiber_g": 1,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-9045",
+      "name": "Taco Cheese Fries",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Shareable appetizer or side dish",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1460,
+        "protein_g": 56,
+        "fat_g": 90,
+        "saturated_fat_g": 38,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 145,
+        "sodium_mg": 3050,
+        "potassium_mg": null,
+        "carbohydrates_g": 112,
+        "fiber_g": 9,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-5DCC",
+      "name": "Athena Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 630,
+        "protein_g": 22,
+        "fat_g": 49,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 75,
+        "sodium_mg": 2760,
+        "potassium_mg": null,
+        "carbohydrates_g": 24,
+        "fiber_g": 4,
+        "sugars_g": 16,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-959E",
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 10,
+        "fat_g": 23,
+        "saturated_fat_g": 5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 20,
+        "sodium_mg": 720,
+        "potassium_mg": null,
+        "carbohydrates_g": 17,
+        "fiber_g": 4,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-3B84",
+      "name": "Caesar Salad w/ Chicken Tenders",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 25,
+        "fat_g": 31,
+        "saturated_fat_g": 6,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 50,
+        "sodium_mg": 1620,
+        "potassium_mg": null,
+        "carbohydrates_g": 34,
+        "fiber_g": 4,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-AAF5",
+      "name": "Caesar Salad w/ Grilled Chicken",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 28,
+        "fat_g": 25,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1290,
+        "potassium_mg": null,
+        "carbohydrates_g": 19,
+        "fiber_g": 4,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-38F1",
+      "name": "Chicken Artichoke Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 15,
+        "fat_g": 37,
+        "saturated_fat_g": 6,
+        "trans_fat_g": null,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1070,
+        "potassium_mg": null,
+        "carbohydrates_g": 13,
+        "fiber_g": 8,
+        "sugars_g": 4,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-D6AC",
+      "name": "Fried Chicken Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 48,
+        "fat_g": 62,
+        "saturated_fat_g": 19,
+        "trans_fat_g": 1,
+        "cholesterol_mg": 130,
+        "sodium_mg": 3170,
+        "potassium_mg": null,
+        "carbohydrates_g": 31,
+        "fiber_g": 3,
+        "sugars_g": 7,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-C5AD",
+      "name": "Garden Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 10,
+        "fat_g": 6,
+        "saturated_fat_g": 2,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 370,
+        "potassium_mg": null,
+        "carbohydrates_g": 23,
+        "fiber_g": 5,
+        "sugars_g": 6,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-627C",
+      "name": "Grilled Chicken Caesar",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 slice (per piece)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 32,
+        "fat_g": 32,
+        "saturated_fat_g": 8,
+        "trans_fat_g": null,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1550,
+        "potassium_mg": null,
+        "carbohydrates_g": 20,
+        "fiber_g": 5,
+        "sugars_g": 5,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-2876",
+      "name": "Hot Grilled Chicken Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 53,
+        "fat_g": 28,
+        "saturated_fat_g": 14,
+        "trans_fat_g": null,
+        "cholesterol_mg": 140,
+        "sodium_mg": 1000,
+        "potassium_mg": null,
+        "carbohydrates_g": 8,
+        "fiber_g": 3,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-E34B",
+      "name": "Ledo Italian Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": null,
+        "fat_g": 57,
+        "saturated_fat_g": 13,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": null,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SA-6418",
+      "name": "Taco Salad",
+      "category": "Salads",
+      "subcategory": null,
+      "description": "Fresh salad with your choice of toppings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 salad",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 35,
+        "fat_g": 65,
+        "saturated_fat_g": 20,
+        "trans_fat_g": null,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1620,
+        "potassium_mg": null,
+        "carbohydrates_g": 28,
+        "fiber_g": 7,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-5E06",
+      "name": "Buffalo Calzone",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1680,
+        "protein_g": 71,
+        "fat_g": 66,
+        "saturated_fat_g": 21,
+        "trans_fat_g": null,
+        "cholesterol_mg": 155,
+        "sodium_mg": 1850,
+        "potassium_mg": null,
+        "carbohydrates_g": 92,
+        "fiber_g": 5,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-6573",
+      "name": "Chicken Calzone",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1640,
+        "protein_g": 51,
+        "fat_g": 64,
+        "saturated_fat_g": 20,
+        "trans_fat_g": null,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1640,
+        "potassium_mg": null,
+        "carbohydrates_g": 95,
+        "fiber_g": 5,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-D8D4",
+      "name": "Ledo Stromboli",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 2340,
+        "protein_g": 96,
+        "fat_g": 149,
+        "saturated_fat_g": 64,
+        "trans_fat_g": null,
+        "cholesterol_mg": 365,
+        "sodium_mg": 5980,
+        "potassium_mg": null,
+        "carbohydrates_g": 56,
+        "fiber_g": 4,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-9227",
+      "name": "Meatlovers Calzone",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1870,
+        "protein_g": 50,
+        "fat_g": 81,
+        "saturated_fat_g": 26,
+        "trans_fat_g": null,
+        "cholesterol_mg": 125,
+        "sodium_mg": 2160,
+        "potassium_mg": null,
+        "carbohydrates_g": 92,
+        "fiber_g": 5,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-DCE3",
+      "name": "Mike's Hot Honey Stromboli",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 2500,
+        "protein_g": 87,
+        "fat_g": 161,
+        "saturated_fat_g": 56,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 270,
+        "sodium_mg": 3480,
+        "potassium_mg": null,
+        "carbohydrates_g": 176,
+        "fiber_g": 5,
+        "sugars_g": 43,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-CZ-111D",
+      "name": "Veggie Calzone",
+      "category": "Calzones & Strombolis",
+      "subcategory": null,
+      "description": "Folded pizza dough with fillings",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 calzone/stromboli",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1510,
+        "protein_g": 38,
+        "fat_g": 63,
+        "saturated_fat_g": 20,
+        "trans_fat_g": null,
+        "cholesterol_mg": 60,
+        "sodium_mg": 1600,
+        "potassium_mg": null,
+        "carbohydrates_g": 97,
+        "fiber_g": 6,
+        "sugars_g": 14,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-21D4",
+      "name": "Chicken & Broccoli Fettuccini Alfredo",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1060,
+        "protein_g": 51,
+        "fat_g": 27,
+        "saturated_fat_g": 15,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 140,
+        "sodium_mg": 2060,
+        "potassium_mg": null,
+        "carbohydrates_g": 157,
+        "fiber_g": 9,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-EFA4",
+      "name": "Lasagna '55",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 990,
+        "protein_g": 72,
+        "fat_g": 62,
+        "saturated_fat_g": 36,
+        "trans_fat_g": null,
+        "cholesterol_mg": 230,
+        "sodium_mg": 2510,
+        "potassium_mg": null,
+        "carbohydrates_g": 79,
+        "fiber_g": 4,
+        "sugars_g": 15,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-1C1A",
+      "name": "Spaghetti",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 770,
+        "protein_g": 28,
+        "fat_g": 13,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 1470,
+        "potassium_mg": null,
+        "carbohydrates_g": 130,
+        "fiber_g": 11,
+        "sugars_g": 25,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-A4B1",
+      "name": "Spaghetti w/ Green Peppers",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 29,
+        "fat_g": 13,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 1470,
+        "potassium_mg": null,
+        "carbohydrates_g": 134,
+        "fiber_g": 12,
+        "sugars_g": 25,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-1620",
+      "name": "Spaghetti w/ Meatball",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1010,
+        "protein_g": 40,
+        "fat_g": 31,
+        "saturated_fat_g": 10,
+        "trans_fat_g": null,
+        "cholesterol_mg": 55,
+        "sodium_mg": 2050,
+        "potassium_mg": null,
+        "carbohydrates_g": 136,
+        "fiber_g": 11,
+        "sugars_g": 27,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-8C42",
+      "name": "Spaghetti w/ Mushrooms",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 30,
+        "fat_g": 13,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 10,
+        "sodium_mg": 1840,
+        "potassium_mg": null,
+        "carbohydrates_g": 133,
+        "fiber_g": 12,
+        "sugars_g": 26,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-79B1",
+      "name": "Spaghetti w/ Sausage",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 940,
+        "protein_g": 42,
+        "fat_g": 28,
+        "saturated_fat_g": 9,
+        "trans_fat_g": null,
+        "cholesterol_mg": 65,
+        "sodium_mg": 2090,
+        "potassium_mg": null,
+        "carbohydrates_g": 130,
+        "fiber_g": 11,
+        "sugars_g": 25,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-EN-F831",
+      "name": "Spaghetti w/ the Works",
+      "category": "Entrees",
+      "subcategory": null,
+      "description": "Pasta or Italian entree",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1220,
+        "protein_g": 55,
+        "fat_g": 44,
+        "saturated_fat_g": 15,
+        "trans_fat_g": null,
+        "cholesterol_mg": 100,
+        "sodium_mg": 2950,
+        "potassium_mg": null,
+        "carbohydrates_g": 143,
+        "fiber_g": 14,
+        "sugars_g": 27,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-KD-AACE",
+      "name": "Kids Entree, Chicken Tenders",
+      "category": "Kid's Menu",
+      "subcategory": null,
+      "description": "Kid-friendly meal option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 kids meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 19,
+        "fat_g": 25,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1400,
+        "potassium_mg": null,
+        "carbohydrates_g": 48,
+        "fiber_g": null,
+        "sugars_g": 18,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-KD-969C",
+      "name": "Kids Entree, Kraft Mac & Cheese",
+      "category": "Kid's Menu",
+      "subcategory": null,
+      "description": "Kid-friendly meal option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 kids meal",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 15,
+        "fat_g": 13,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": null,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1010,
+        "potassium_mg": null,
+        "carbohydrates_g": 58,
+        "fiber_g": 2,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-KD-9C1E",
+      "name": "Kids Entree, Spaghetti w/ Meatballs",
+      "category": "Kid's Menu",
+      "subcategory": null,
+      "description": "Kid-friendly meal option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 entree",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 570,
+        "protein_g": 22,
+        "fat_g": 21,
+        "saturated_fat_g": 8,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1020,
+        "potassium_mg": null,
+        "carbohydrates_g": 66,
+        "fiber_g": 4,
+        "sugars_g": 11,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DE-5911",
+      "name": "Chewy Marshmallow Bar",
+      "category": "Desserts",
+      "subcategory": null,
+      "description": "Sweet dessert treat",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 piece",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 2,
+        "fat_g": 5,
+        "saturated_fat_g": 3,
+        "trans_fat_g": null,
+        "cholesterol_mg": 15,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 45,
+        "fiber_g": null,
+        "sugars_g": 24,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DE-E55C",
+      "name": "Chocolate Cheesecake Cupcake",
+      "category": "Desserts",
+      "subcategory": null,
+      "description": "Sweet dessert treat",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 piece",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 3,
+        "fat_g": 13,
+        "saturated_fat_g": 4,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 22,
+        "fiber_g": 1,
+        "sugars_g": 13,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DE-E1ED",
+      "name": "Ledo Brownie",
+      "category": "Desserts",
+      "subcategory": null,
+      "description": "Sweet dessert treat",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 piece",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 5,
+        "fat_g": 28,
+        "saturated_fat_g": 11,
+        "trans_fat_g": null,
+        "cholesterol_mg": 90,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 63,
+        "fiber_g": 3,
+        "sugars_g": 47,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DE-F5E5",
+      "name": "Sandy's Amazing Chocolate Chunk Cookie",
+      "category": "Desserts",
+      "subcategory": null,
+      "description": "Sweet dessert treat",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 piece",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 5,
+        "fat_g": 19,
+        "saturated_fat_g": 11,
+        "trans_fat_g": null,
+        "cholesterol_mg": 45,
+        "sodium_mg": 430,
+        "potassium_mg": null,
+        "carbohydrates_g": 50,
+        "fiber_g": 2,
+        "sugars_g": 28,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/ledo-pizza/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-AP-835B",
+      "name": "Spicy Toasted Ravioli",
+      "category": "Appetizers",
+      "subcategory": null,
+      "description": "Breaded ravioli tossed in spicy seasoning",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 piece",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 2,
+        "fat_g": 1,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 7,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SD-7B22",
+      "name": "House Fries",
+      "category": "Sides",
+      "subcategory": null,
+      "description": "Crispy fries lightly seasoned with Old Bay",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 half order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 4,
+        "fat_g": 38,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 46,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-SD-4320",
+      "name": "Seasoned House Fries",
+      "category": "Sides",
+      "subcategory": null,
+      "description": "Seasoned fries with cheddar cheese sauce and provolone",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 half order",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 4,
+        "fat_g": 36,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 44,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-KD-B4AF",
+      "name": "Kids Side: French Fries",
+      "category": "Kid's Menu",
+      "subcategory": null,
+      "description": "French fries served as a kids meal side",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 side",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 4,
+        "fat_g": 38,
+        "saturated_fat_g": null,
+        "trans_fat_g": null,
+        "cholesterol_mg": null,
+        "sodium_mg": null,
+        "potassium_mg": null,
+        "carbohydrates_g": 46,
+        "fiber_g": null,
+        "sugars_g": null,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/nutrition/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/nutrition/",
+          "source_type": "official_website",
+          "confidence": 0.95,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-3951",
+      "name": "Buffalo Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 1,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-D4C0",
+      "name": "BBQ Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 12,
+        "fiber_g": 0,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-20E9",
+      "name": "Buff-a-Licious Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 35,
+        "protein_g": 1,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-C8F8",
+      "name": "Garlic Parmesan Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 3,
+        "fat_g": 7,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-5984",
+      "name": "Hot Honey Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 14,
+        "fiber_g": 0,
+        "sugars_g": 12,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-AEB8",
+      "name": "Lemon Pepper Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 240,
+        "potassium_mg": null,
+        "carbohydrates_g": 5,
+        "fiber_g": 0,
+        "sugars_g": 3,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-2877",
+      "name": "Mango Habanero Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 11,
+        "fiber_g": 0,
+        "sugars_g": 8,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-3662",
+      "name": "Teriyaki Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 55,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 13,
+        "fiber_g": 0,
+        "sugars_g": 10,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-583B",
+      "name": "Chile Lime Wing Sauce",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 4,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-4133",
+      "name": "Salt & Vinegar Wing Seasoning",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-D734",
+      "name": "Chesapeake Seasoning",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-FF4C",
+      "name": "Old Bay Seasoning",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 380,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-WG-948F",
+      "name": "Plain (No Sauce)",
+      "category": "Wing Sauces",
+      "subcategory": null,
+      "description": "Wing sauce or seasoning option",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 oz (per wing coating)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://order.ledopizza.com/menu/ledo-pizza-columbia",
+          "source_type": "official_menu",
+          "confidence": 0.8,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DS-32A4",
+      "name": "Ranch Dipping Sauce",
+      "category": "Dipping Sauces",
+      "subcategory": null,
+      "description": "Dipping sauce for wings or sides",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "2 oz (per container)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 1,
+        "fat_g": 15,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/",
+          "source_type": "official_website",
+          "confidence": 0.85,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DS-A1E8",
+      "name": "Blue Cheese Dipping Sauce",
+      "category": "Dipping Sauces",
+      "subcategory": null,
+      "description": "Dipping sauce for wings or sides",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "2 oz (per container)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 1,
+        "fat_g": 14,
+        "saturated_fat_g": 3,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/",
+          "source_type": "official_website",
+          "confidence": 0.85,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-DS-1F0D",
+      "name": "House Romano Herb Dressing",
+      "category": "Dipping Sauces",
+      "subcategory": null,
+      "description": "Dipping sauce for wings or sides",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "2 oz (per container)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 0,
+        "fat_g": 16,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 2,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/",
+          "source_type": "official_website",
+          "confidence": 0.85,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-131D",
+      "name": "Extra Cheese",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 3,
+        "fat_g": 2,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 120,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-2F45",
+      "name": "Pepperoni",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 3,
+        "fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 180,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-CD0D",
+      "name": "Sausage",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 3,
+        "fat_g": 3,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 150,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-F077",
+      "name": "Ham",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 3,
+        "fat_g": 1,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 200,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-5658",
+      "name": "Bacon",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 3,
+        "fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 120,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-D19F",
+      "name": "Ground Beef",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 25,
+        "protein_g": 3,
+        "fat_g": 2,
+        "saturated_fat_g": 1,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 80,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-A951",
+      "name": "Chicken",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 15,
+        "protein_g": 3,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 50,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-8C76",
+      "name": "Mushrooms",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-A1D4",
+      "name": "Green Peppers",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-7810",
+      "name": "Onions",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-639C",
+      "name": "Olives",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 1,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 60,
+        "potassium_mg": null,
+        "carbohydrates_g": 0,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-7855",
+      "name": "Pineapple",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "potassium_mg": null,
+        "carbohydrates_g": 3,
+        "fiber_g": 0,
+        "sugars_g": 2,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-DB30",
+      "name": "Jalapenos",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-125E",
+      "name": "Banana Peppers",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-4A11",
+      "name": "Spinach",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 1,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 10,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-7481",
+      "name": "Tomatoes",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0,
+        "fat_g": 0,
+        "saturated_fat_g": 0,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 5,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 1,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "product_id": "LP-TO-08A2",
+      "name": "Garlic Parmesan Sauce (Pizza)",
+      "category": "Pizza Toppings",
+      "subcategory": null,
+      "description": "Add-on topping for pizza",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "US"
+      },
+      "serving": {
+        "size": "1 topping (per slice)",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 1,
+        "fat_g": 3,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 100,
+        "potassium_mg": null,
+        "carbohydrates_g": 1,
+        "fiber_g": 0,
+        "sugars_g": 0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "wheat",
+        "gluten",
+        "milk"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://ledopizza.com/menu/create-your-own-pizza/",
+      "sources": [
+        {
+          "url": "https://ledopizza.com/menu/create-your-own-pizza/",
+          "source_type": "official_website",
+          "confidence": 0.75,
+          "extraction_date": "2026-08-05"
+        }
+      ]
+    }
+  ]
+}

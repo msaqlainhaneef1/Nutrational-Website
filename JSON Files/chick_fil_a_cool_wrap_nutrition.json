@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Entrees",
+    "Wraps"
+  ],
+  "products": [
+    {
+      "product_id": "chick_fil_a_grilled_chicken_cool_wrap",
+      "name": "Chick-fil-A Cool Wrap\u00ae",
+      "category": "Entrees",
+      "subcategory": "Wraps",
+      "description": "Sliced grilled chicken breast nestled in a fresh mix of green leaf lettuce with a blend of shredded Monterey Jack and Cheddar cheeses, tightly rolled in a flaxseed flour flatbread.",
+      "price": 6.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (231 g)",
+        "weight_g": 231.0
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 43.0,
+        "fat_g": 45.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 1420.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 14.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Sliced Grilled Chicken Breast",
+        "Flaxseed Flour Flatbread (Whole Wheat Flour, Enriched Bleached Flour, Water, Flaxseed, Soybean Oil, Sugar, Yeast, Salt, Wheat Gluten, Baking Powder)",
+        "Green Leaf Lettuce",
+        "Monterey Jack Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)",
+        "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto)",
+        "Choice of Dressing (e.g., Avocado Lime Ranch Dressing)"
+      ],
+      "customizations": [
+        "Without Dressing (350 Calories)",
+        "Choice of Dressing",
+        "Lettuce Wrap"
+      ],
+      "image_url": "https://www.chick-fil-a.com/menu/entrees/chick-fil-a-cool-wrap",
+      "product_url": "https://www.chick-fil-a.com/menu/entrees/chick-fil-a-cool-wrap",
+      "sources": [
+        {
+          "url": "https://www.chick-fil-a.com/menu/entrees/chick-fil-a-cool-wrap",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chick-fil-a/chargrilled-chicken-cool-wrap",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

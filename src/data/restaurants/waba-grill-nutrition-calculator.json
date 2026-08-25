@@ -1,0 +1,1403 @@
+{
+  "name": "WaBa Grill",
+  "slug": "waba-grill-nutrition-calculator",
+  "tagline": "Track nutrition for WaBa Grill menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 113 menu items at WaBa Grill.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 113,
+  "categories": [
+    {
+      "name": "Rice Bowls",
+      "items": [
+        {
+          "name": "Chicken Bowl",
+          "calories": 640,
+          "protein": 38,
+          "fat": 11,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 900,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 12
+        },
+        {
+          "name": "White Meat Chicken Bowl",
+          "calories": 630,
+          "protein": 46,
+          "fat": 5,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 880,
+          "cholesterol": 110,
+          "saturated_fat": 1,
+          "sugars": 12
+        },
+        {
+          "name": "Sweet & Spicy Chicken Bowl",
+          "calories": 680,
+          "protein": 38,
+          "fat": 11,
+          "carbs": 120,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 2460,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 33
+        },
+        {
+          "name": "Rib-Eye Steak Bowl",
+          "calories": 720,
+          "protein": 29,
+          "fat": 18,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 1250,
+          "cholesterol": 70,
+          "saturated_fat": 8,
+          "sugars": 21
+        },
+        {
+          "name": "WaBa Chicken & Steak Bowl",
+          "calories": 710,
+          "protein": 37,
+          "fat": 16,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 1100,
+          "cholesterol": 130,
+          "saturated_fat": 6,
+          "sugars": 17
+        },
+        {
+          "name": "WaBa White Meat Chicken & Steak Bowl",
+          "calories": 710,
+          "protein": 42,
+          "fat": 13,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 1090,
+          "cholesterol": 100,
+          "saturated_fat": 5,
+          "sugars": 17
+        },
+        {
+          "name": "Wild Caught Salmon Bowl",
+          "calories": 540,
+          "protein": 29,
+          "fat": 5,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 710,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Jumbo Shrimp Bowl",
+          "calories": 490,
+          "protein": 19,
+          "fat": 1,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 1050,
+          "cholesterol": 180,
+          "sugars": 9
+        },
+        {
+          "name": "Organic Tofu Bowl",
+          "calories": 590,
+          "protein": 23,
+          "fat": 11,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 620,
+          "saturated_fat": 2,
+          "sugars": 9
+        },
+        {
+          "name": "Plantspired Steak Bowl",
+          "calories": 660,
+          "protein": 22,
+          "fat": 15,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 6,
+          "sodium": 1140,
+          "saturated_fat": 3,
+          "sugars": 20
+        },
+        {
+          "name": "Chicken & Shrimp Bowl",
+          "calories": 580,
+          "protein": 29,
+          "fat": 7,
+          "carbs": 95,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 980,
+          "cholesterol": 170,
+          "saturated_fat": 2,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Rice Veggie Bowls",
+      "items": [
+        {
+          "name": "Chicken Veggie Bowl",
+          "calories": 320,
+          "protein": 17,
+          "fat": 5,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 640,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "White Meat Chicken Veggie Bowl",
+          "calories": 320,
+          "protein": 21,
+          "fat": 2,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 630,
+          "cholesterol": 50,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Organic Tofu Veggie Bowl",
+          "calories": 330,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 410,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Sweet & Spicy Chicken Veggie Bowl",
+          "calories": 320,
+          "protein": 21,
+          "fat": 6,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 450,
+          "cholesterol": 90,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Veggies Bowl",
+          "calories": 290,
+          "protein": 18,
+          "fat": 5,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 660,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 11
+        },
+        {
+          "name": "White Meat Chicken Veggies Bowl",
+          "calories": 290,
+          "protein": 21,
+          "fat": 2,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 660,
+          "cholesterol": 50,
+          "saturated_fat": 1,
+          "sugars": 11
+        },
+        {
+          "name": "Organic Tofu Veggies Bowl",
+          "calories": 300,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 440,
+          "saturated_fat": 1,
+          "sugars": 8
+        },
+        {
+          "name": "Sweet & Spicy Chicken Veggies Bowl",
+          "calories": 290,
+          "protein": 21,
+          "fat": 6,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 480,
+          "cholesterol": 90,
+          "saturated_fat": 2,
+          "sugars": 8
+        },
+        {
+          "name": "Plantspired Steak Veggie Bowl",
+          "calories": 320,
+          "protein": 10,
+          "fat": 7,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 540,
+          "saturated_fat": 1,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Plates",
+      "items": [
+        {
+          "name": "Chicken Plate",
+          "calories": 590,
+          "protein": 39,
+          "fat": 11,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 14,
+          "sodium": 940,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 17
+        },
+        {
+          "name": "White Meat Chicken Plate",
+          "calories": 580,
+          "protein": 47,
+          "fat": 5,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 930,
+          "cholesterol": 110,
+          "saturated_fat": 1,
+          "sugars": 17
+        },
+        {
+          "name": "Sweet & Spicy Chicken Plate",
+          "calories": 640,
+          "protein": 39,
+          "fat": 11,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 2500,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 38
+        },
+        {
+          "name": "Rib-Eye Steak Plate",
+          "calories": 620,
+          "protein": 29,
+          "fat": 17,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 740,
+          "cholesterol": 70,
+          "saturated_fat": 8,
+          "sugars": 15
+        },
+        {
+          "name": "WaBa Chicken & Steak Plate",
+          "calories": 660,
+          "protein": 38,
+          "fat": 16,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 1150,
+          "cholesterol": 130,
+          "saturated_fat": 6,
+          "sugars": 15
+        },
+        {
+          "name": "WaBa White Meat Chicken & Steak Plate",
+          "calories": 660,
+          "protein": 42,
+          "fat": 13,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 1140,
+          "cholesterol": 100,
+          "saturated_fat": 5,
+          "sugars": 21
+        },
+        {
+          "name": "Wild Caught Salmon Plate",
+          "calories": 500,
+          "protein": 30,
+          "fat": 5,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 760,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 14
+        },
+        {
+          "name": "Jumbo Shrimp Plate",
+          "calories": 450,
+          "protein": 20,
+          "fat": 1,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 1100,
+          "cholesterol": 180,
+          "sugars": 14
+        },
+        {
+          "name": "Organic Tofu Plate",
+          "calories": 520,
+          "protein": 22,
+          "fat": 11,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 640,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Plantspired Steak Plate",
+          "calories": 620,
+          "protein": 23,
+          "fat": 15,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 10,
+          "sodium": 1190,
+          "saturated_fat": 3,
+          "sugars": 24
+        }
+      ]
+    },
+    {
+      "name": "Plates XL",
+      "items": [
+        {
+          "name": "Chicken Plate XL",
+          "calories": 820,
+          "protein": 54,
+          "fat": 15,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1150,
+          "cholesterol": 220,
+          "saturated_fat": 5,
+          "sugars": 21
+        },
+        {
+          "name": "White Meat Chicken Plate XL",
+          "calories": 800,
+          "protein": 65,
+          "fat": 7,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1120,
+          "cholesterol": 160,
+          "saturated_fat": 2,
+          "sugars": 21
+        },
+        {
+          "name": "Sweet & Spicy Chicken Plate XL",
+          "calories": 860,
+          "protein": 54,
+          "fat": 15,
+          "carbs": 140,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 2900,
+          "cholesterol": 220,
+          "saturated_fat": 5,
+          "sugars": 45
+        },
+        {
+          "name": "Rib-Eye Steak Plate XL",
+          "calories": 980,
+          "protein": 44,
+          "fat": 27,
+          "carbs": 130,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1700,
+          "cholesterol": 110,
+          "saturated_fat": 12,
+          "sugars": 35
+        },
+        {
+          "name": "WaBa Chicken & Steak Plate XL",
+          "calories": 890,
+          "protein": 53,
+          "fat": 21,
+          "carbs": 120,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1300,
+          "cholesterol": 190,
+          "saturated_fat": 8,
+          "sugars": 26
+        },
+        {
+          "name": "WaBa White Meat Chicken & Steak Plate XL",
+          "calories": 880,
+          "protein": 61,
+          "fat": 15,
+          "carbs": 120,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1280,
+          "cholesterol": 150,
+          "saturated_fat": 6,
+          "sugars": 26
+        },
+        {
+          "name": "Wild Caught Salmon Plate XL",
+          "calories": 700,
+          "protein": 41,
+          "fat": 7,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 970,
+          "cholesterol": 100,
+          "saturated_fat": 2,
+          "sugars": 18
+        },
+        {
+          "name": "Jumbo Shrimp Plate XL",
+          "calories": 680,
+          "protein": 25,
+          "fat": 1,
+          "carbs": 120,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 1650,
+          "cholesterol": 270,
+          "sugars": 18
+        },
+        {
+          "name": "Organic Tofu Plate XL",
+          "calories": 740,
+          "protein": 30,
+          "fat": 14,
+          "carbs": 110,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 830,
+          "saturated_fat": 3,
+          "sugars": 18
+        },
+        {
+          "name": "Plantspired Steak Plate XL",
+          "calories": 870,
+          "protein": 30,
+          "fat": 22,
+          "carbs": 140,
+          "servingSize": "1 item",
+          "fiber": 11,
+          "sodium": 1680,
+          "saturated_fat": 4,
+          "sugars": 35
+        },
+        {
+          "name": "K-Ribs Plate XL",
+          "calories": 1090,
+          "protein": 36,
+          "fat": 38,
+          "carbs": 140,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 2300,
+          "cholesterol": 120,
+          "saturated_fat": 1,
+          "sugars": 47
+        }
+      ]
+    },
+    {
+      "name": "Boom Boom Tacos",
+      "items": [
+        {
+          "name": "Chicken Boom Boom Taco",
+          "calories": 210,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 220,
+          "cholesterol": 60,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Steak Boom Boom Taco",
+          "calories": 240,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 290,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 4
+        },
+        {
+          "name": "Shrimp Boom Boom Taco",
+          "calories": 170,
+          "protein": 9,
+          "fat": 8,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 520,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Organic Tofu Boom Boom Taco",
+          "calories": 200,
+          "protein": 8,
+          "fat": 11,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 200,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Plantspired Steak Boom Boom Taco",
+          "calories": 230,
+          "protein": 7,
+          "fat": 12,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 430,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Mixed Taco Trio",
+          "calories": 620,
+          "protein": 32,
+          "fat": 33,
+          "carbs": 60,
+          "servingSize": "1 item",
+          "fiber": 6,
+          "sodium": 1030,
+          "cholesterol": 160,
+          "saturated_fat": 8,
+          "sugars": 10
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Signature House Salad",
+          "calories": 320,
+          "protein": 44,
+          "fat": 8,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "fiber": 3,
+          "sodium": 240,
+          "cholesterol": 110,
+          "saturated_fat": 1,
+          "sugars": 4
+        },
+        {
+          "name": "Spicy Asian Salad",
+          "calories": 420,
+          "protein": 49,
+          "fat": 10,
+          "carbs": 30,
+          "servingSize": "1 item",
+          "fiber": 5,
+          "sodium": 1230,
+          "cholesterol": 110,
+          "saturated_fat": 1,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Mini Bowls",
+      "items": [
+        {
+          "name": "Chicken Mini Bowl",
+          "calories": 340,
+          "protein": 17,
+          "fat": 5,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 640,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 9
+        },
+        {
+          "name": "Chicken & Veggies Mini Bowl",
+          "calories": 310,
+          "protein": 18,
+          "fat": 5,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 660,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 11
+        },
+        {
+          "name": "Sweet & Spicy Chicken Mini Bowl",
+          "calories": 320,
+          "protein": 21,
+          "fat": 6,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 450,
+          "cholesterol": 90,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Sweet & Spicy Chicken & Veggies Mini Bowl",
+          "calories": 290,
+          "protein": 21,
+          "fat": 6,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 480,
+          "cholesterol": 90,
+          "saturated_fat": 2,
+          "sugars": 8
+        },
+        {
+          "name": "Organic Tofu Mini Bowl",
+          "calories": 370,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 50,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 410,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Organic Tofu & Veggies Mini Bowl",
+          "calories": 330,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 440,
+          "saturated_fat": 1,
+          "sugars": 8
+        }
+      ]
+    },
+    {
+      "name": "Family Meals",
+      "items": [
+        {
+          "name": "Chicken Family Meal",
+          "calories": 1050,
+          "protein": 140,
+          "fat": 45,
+          "carbs": 30,
+          "servingSize": "1 item",
+          "sodium": 2060,
+          "cholesterol": 690,
+          "saturated_fat": 14,
+          "sugars": 24
+        },
+        {
+          "name": "White Meat Chicken Family Meal",
+          "calories": 950,
+          "protein": 176,
+          "fat": 20,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 1200,
+          "cholesterol": 480,
+          "saturated_fat": 6,
+          "sugars": 12
+        },
+        {
+          "name": "Sweet & Spicy Chicken Family Meal",
+          "calories": 1100,
+          "protein": 140,
+          "fat": 45,
+          "carbs": 70,
+          "servingSize": "1 item",
+          "sodium": 4400,
+          "cholesterol": 690,
+          "saturated_fat": 14,
+          "sugars": 55
+        },
+        {
+          "name": "Rib-Eye Steak Family Meal",
+          "calories": 1570,
+          "protein": 104,
+          "fat": 78,
+          "carbs": 100,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 4810,
+          "cholesterol": 310,
+          "saturated_fat": 35,
+          "sugars": 85
+        },
+        {
+          "name": "WaBa Chicken & Steak Family Meal",
+          "calories": 1390,
+          "protein": 136,
+          "fat": 66,
+          "carbs": 60,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 3290,
+          "cholesterol": 570,
+          "saturated_fat": 26,
+          "sugars": 51
+        },
+        {
+          "name": "WaBa White Meat Chicken & Steak Family Meal",
+          "calories": 1360,
+          "protein": 157,
+          "fat": 51,
+          "carbs": 60,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 3240,
+          "cholesterol": 450,
+          "saturated_fat": 21,
+          "sugars": 51
+        },
+        {
+          "name": "Organic Tofu Family Meal",
+          "calories": 720,
+          "protein": 59,
+          "fat": 37,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 890,
+          "saturated_fat": 7,
+          "sugars": 12
+        },
+        {
+          "name": "Family White Rice (2 Servings)",
+          "calories": 740,
+          "protein": 14,
+          "fat": 2,
+          "carbs": 160,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Family Brown Rice (2 Servings)",
+          "calories": 640,
+          "protein": 14,
+          "fat": 4,
+          "carbs": 140,
+          "servingSize": "1 item",
+          "fiber": 10,
+          "sodium": 20
+        },
+        {
+          "name": "Family Mixed Veggies",
+          "calories": 50,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 60,
+          "sugars": 5
+        },
+        {
+          "name": "Family All Broccoli",
+          "calories": 120,
+          "protein": 10,
+          "fat": 1,
+          "carbs": 24,
+          "servingSize": "1 item",
+          "fiber": 8,
+          "sodium": 120,
+          "sugars": 6
+        },
+        {
+          "name": "Family Broccoli & Carrots",
+          "calories": 130,
+          "protein": 7,
+          "fat": 1,
+          "carbs": 30,
+          "servingSize": "1 item",
+          "fiber": 9,
+          "sodium": 175,
+          "sugars": 10
+        },
+        {
+          "name": "Family Pork Veggie Dumplings (20 pc)",
+          "calories": 840,
+          "protein": 28,
+          "fat": 30,
+          "carbs": 150,
+          "servingSize": "1 item",
+          "sodium": 4620,
+          "cholesterol": 100,
+          "saturated_fat": 8,
+          "sugars": 44
+        },
+        {
+          "name": "Family Salad",
+          "calories": 300,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 30,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 40,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Soup",
+      "items": [
+        {
+          "name": "Loaded Miso Soup (w/ Chicken)",
+          "calories": 150,
+          "protein": 14,
+          "fat": 1,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "sodium": 1300,
+          "cholesterol": 20,
+          "sugars": 6
+        },
+        {
+          "name": "Loaded Miso Soup (w/ White Meat Chicken)",
+          "calories": 150,
+          "protein": 14,
+          "fat": 1,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "sodium": 1300,
+          "cholesterol": 20,
+          "sugars": 6
+        },
+        {
+          "name": "Loaded Miso Soup (w/ Tofu)",
+          "calories": 160,
+          "protein": 11,
+          "fat": 4,
+          "carbs": 20,
+          "servingSize": "1 item",
+          "sodium": 1290,
+          "saturated_fat": 1,
+          "sugars": 6
+        },
+        {
+          "name": "Miso Soup",
+          "calories": 30,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 3,
+          "servingSize": "1 item",
+          "sodium": 640,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Half Avocado",
+          "calories": 150,
+          "protein": 2,
+          "fat": 14,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "fiber": 6,
+          "sodium": 10,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Pork Veggie Dumplings (5 pc)",
+          "calories": 210,
+          "protein": 7,
+          "fat": 8,
+          "carbs": 40,
+          "servingSize": "1 item",
+          "sodium": 1160,
+          "cholesterol": 30,
+          "saturated_fat": 2,
+          "sugars": 11
+        },
+        {
+          "name": "Pork Veggie Dumplings (10 pc)",
+          "calories": 420,
+          "protein": 14,
+          "fat": 15,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "sodium": 2310,
+          "cholesterol": 50,
+          "saturated_fat": 4,
+          "sugars": 22
+        },
+        {
+          "name": "Side Chicken (4.5 oz)",
+          "calories": 220,
+          "protein": 32,
+          "fat": 10,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 310,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Side White Meat Chicken (4.5 oz)",
+          "calories": 220,
+          "protein": 40,
+          "fat": 5,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 290,
+          "cholesterol": 110,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Side Sweet & Spicy Chicken (4.5 oz)",
+          "calories": 240,
+          "protein": 32,
+          "fat": 10,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 890,
+          "cholesterol": 160,
+          "saturated_fat": 3,
+          "sugars": 11
+        },
+        {
+          "name": "Side Steak (3.5 oz)",
+          "calories": 260,
+          "protein": 22,
+          "fat": 17,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 300,
+          "cholesterol": 70,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Side Salmon (4 oz)",
+          "calories": 150,
+          "protein": 22,
+          "fat": 5,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 320,
+          "cholesterol": 70,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Side Shrimp (4 pc)",
+          "calories": 60,
+          "protein": 4,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 420,
+          "cholesterol": 90,
+          "sugars": 3
+        },
+        {
+          "name": "Side Tofu (6 oz)",
+          "calories": 200,
+          "protein": 16,
+          "fat": 10,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 230,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Side K-Ribs (1 Strip)",
+          "calories": 190,
+          "protein": 9,
+          "fat": 11,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 580,
+          "cholesterol": 40,
+          "sugars": 10
+        },
+        {
+          "name": "Side Salad",
+          "calories": 30,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "fiber": 2,
+          "sodium": 50,
+          "sugars": 3
+        },
+        {
+          "name": "Side Steamed Veggies",
+          "calories": 50,
+          "protein": 3,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "fiber": 4,
+          "sodium": 60,
+          "sugars": 5
+        },
+        {
+          "name": "Side White Rice (10 oz)",
+          "calories": 370,
+          "protein": 7,
+          "fat": 1,
+          "carbs": 80,
+          "servingSize": "1 item",
+          "fiber": 1
+        },
+        {
+          "name": "Side Brown Rice (10 oz)",
+          "calories": 320,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 5,
+          "servingSize": "1 item",
+          "sodium": 70,
+          "cholesterol": 10,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Garlic Serrano Sauce (1 fl oz)",
+          "calories": 50,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 8,
+          "servingSize": "1 item",
+          "sodium": 660,
+          "sugars": 6
+        },
+        {
+          "name": "Sweet Chili Sauce (1 fl oz)",
+          "calories": 50,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 13,
+          "servingSize": "1 item",
+          "sodium": 780,
+          "sugars": 11
+        },
+        {
+          "name": "WaBa Sauce Packet",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "servingSize": "1 item",
+          "sodium": 390,
+          "sugars": 6
+        },
+        {
+          "name": "WaBa Hot Sauce Packet",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 200,
+          "sugars": 2
+        },
+        {
+          "name": "Spicy WaBa Sauce (1 fl oz)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 12,
+          "servingSize": "1 item",
+          "sodium": 610,
+          "sugars": 10
+        },
+        {
+          "name": "WaBa Sesame Dressing (1 fl oz)",
+          "calories": 110,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 8,
+          "servingSize": "1 item",
+          "sodium": 330,
+          "saturated_fat": 2,
+          "sugars": 8
+        },
+        {
+          "name": "Spicy Sesame Dressing (1 fl oz)",
+          "calories": 70,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 8,
+          "servingSize": "1 item",
+          "sodium": 550,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Ranch Dressing (1.5 fl oz)",
+          "calories": 150,
+          "protein": 1,
+          "fat": 16,
+          "carbs": 1,
+          "servingSize": "1 item",
+          "sodium": 370,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 1
+        },
+        {
+          "name": "Boom Boom Sauce (1 fl oz)",
+          "calories": 150,
+          "protein": 0,
+          "fat": 16,
+          "carbs": 2,
+          "servingSize": "1 item",
+          "sodium": 250,
+          "cholesterol": 15,
+          "saturated_fat": 3,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Coke 12oz Can",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "servingSize": "1 item",
+          "sodium": 45,
+          "sugars": 39
+        },
+        {
+          "name": "Diet Coke 12oz Can",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 40
+        },
+        {
+          "name": "Coke Zero 12oz Can",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 item",
+          "sodium": 40
+        },
+        {
+          "name": "Sprite 12oz Can",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 38,
+          "servingSize": "1 item",
+          "sodium": 65,
+          "sugars": 38
+        },
+        {
+          "name": "Aloe Vera Premium Drink",
+          "calories": 260,
+          "protein": 1,
+          "fat": 1,
+          "carbs": 65,
+          "servingSize": "1 item",
+          "sodium": 10,
+          "sugars": 55
+        },
+        {
+          "name": "Thai Tea Premium",
+          "calories": 260,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 55,
+          "servingSize": "1 item",
+          "sodium": 40,
+          "cholesterol": 15,
+          "saturated_fat": 2,
+          "sugars": 50
+        },
+        {
+          "name": "Dragon Fruit Mango Lemonade",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 68,
+          "servingSize": "1 item",
+          "sodium": 15,
+          "sugars": 64
+        },
+        {
+          "name": "Strawberry Watermelon Lemonade",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 52,
+          "servingSize": "1 item",
+          "sodium": 10,
+          "sugars": 48
+        },
+        {
+          "name": "Energy Refresher",
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 42,
+          "servingSize": "1 item",
+          "sodium": 35,
+          "sugars": 38
+        },
+        {
+          "name": "Honey Citron Tea",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 38,
+          "servingSize": "1 item",
+          "sodium": 10,
+          "sugars": 34
+        },
+        {
+          "name": "Orange Juice",
+          "calories": 110,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 26,
+          "servingSize": "1 item",
+          "sugars": 20
+        },
+        {
+          "name": "Milk 20oz",
+          "calories": 320,
+          "protein": 16,
+          "fat": 18,
+          "carbs": 12,
+          "servingSize": "1 item",
+          "sodium": 350,
+          "cholesterol": 65,
+          "saturated_fat": 12,
+          "sugars": 12
+        },
+        {
+          "name": "Aquafina 20oz Bottle",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 item"
+        },
+        {
+          "name": "Fountain Drink",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 55,
+          "servingSize": "1 item",
+          "sodium": 60,
+          "sugars": 55
+        },
+        {
+          "name": "Dragon Fruit Mango Lemonade w/ Mango Boba",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 90,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 15,
+          "sugars": 80
+        },
+        {
+          "name": "Strawberry Watermelon Lemonade Energy Refresher w/ Mango Boba",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 64,
+          "servingSize": "1 item",
+          "fiber": 1,
+          "sodium": 35,
+          "sugars": 58
+        }
+      ]
+    }
+  ]
+}

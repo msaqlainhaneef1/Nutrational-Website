@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Classic Burgers"
+  ],
+  "products": [
+    {
+      "product_id": "mcd_hamburger",
+      "name": "Hamburger",
+      "category": "Burgers",
+      "subcategory": "Classic Burgers",
+      "description": "The classic McDonald's Hamburger starts with a 100% pure beef patty seasoned with just a pinch of salt and pepper, crowned with a tangy pickle, slivered onions, ketchup, and mustard on a regular bun.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (100g)",
+        "weight_g": 100.0
+      },
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 12.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 510.0,
+        "potassium_mg": 160.0,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 50.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "100% Pure Beef Patty",
+        "Regular Bun",
+        "Ketchup",
+        "Mustard",
+        "Pickle Slices",
+        "Slivered Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/images/hamburger.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/hamburger.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

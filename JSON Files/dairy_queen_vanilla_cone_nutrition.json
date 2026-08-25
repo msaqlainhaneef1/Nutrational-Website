@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Cones",
+    "Treats"
+  ],
+  "products": [
+    {
+      "product_id": "dairy_queen_vanilla_cone_medium",
+      "name": "Vanilla Cone (Medium)",
+      "category": "Cones",
+      "subcategory": "Soft Serve Cones",
+      "description": "World-famous creamy DQ vanilla soft serve in a deliciously crispy cake cone.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium cone (213 g)",
+        "weight_g": 213.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 8.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 110.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 50.0,
+        "fiber_g": 1.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve (Milkfat and Nonfat Milk, Sugar, Corn Syrup, Whey, Mono and Diglycerides, Artificial Flavor, Guar Gum, Polysorbate 80, Carrageenan, Vitamin A Palmitate)",
+        "Cake Cone (Bleached Wheat Flour, Sugar, Soy Lecithin, Salt)"
+      ],
+      "customizations": [
+        "Waffle Cone",
+        "Dip in Chocolate / Cherry Coating"
+      ],
+      "image_url": "https://www.dairyqueen.com/en-us/menu/vanilla-cone/",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/vanilla-cone/",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/dairy-queen/vanilla-cone/medium",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.dairyqueen.com/en-us/menu/vanilla-cone/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

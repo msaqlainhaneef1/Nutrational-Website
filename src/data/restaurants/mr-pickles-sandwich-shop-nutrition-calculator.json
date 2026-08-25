@@ -1,0 +1,702 @@
+{
+  "name": "Mr. Pickles Sandwich Shop",
+  "slug": "mr-pickles-sandwich-shop-nutrition-calculator",
+  "tagline": "Track nutrition for Mr. Pickles Sandwich Shop menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 93 menu items at Mr. Pickles Sandwich Shop.",
+  "category": "Sandwiches & Deli",
+  "emoji": "\ud83e\udd6a",
+  "itemCount": 93,
+  "categories": [
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Homestyle Lemonade - Large Size",
+          "calories": 500,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "name": "BBQ Melt - Sammie",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "BBQ Melt - Whole",
+          "calories": 570,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Big Easy - Mini",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Big Easy - Sammie",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Big Easy - Whole",
+          "calories": 780,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Buffalo Chicken Wrap",
+          "calories": 440,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chicken Bacon Ranch - Mini",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chicken Bacon Ranch - Sammie",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chicken Bacon Ranch - Whole",
+          "calories": 710,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chicken Cranberry Wrap - Whole",
+          "calories": 490,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chicken Fajita Wrap",
+          "calories": 500,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chipotle Ranch - Mini",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chipotle Ranch - Sammie",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chipotle Ranch - Whole",
+          "calories": 620,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kickin' Chicken - Mini",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kickin' Chicken - Sammie",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Kickin Chicken - Whole",
+          "calories": 500,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mango Habanero - Mini",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mango Habanero - Sammie",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mango Habanero - Whole",
+          "calories": 410,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mr. Pickles Sandwich Shop - Mini",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mr. Pickles Sandwich Shop - Sammie",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mr. Pickles Sandwich Shop - Whole",
+          "calories": 630,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pesto Chicken - Mini",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pesto Chicken - Sammie",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Pesto Chicken - Whole",
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Spicy Tuna - Mini",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Spicy Tuna - Sammie",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Spicy Tuna - Whole",
+          "calories": 750,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Club - Mini",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Club - Sammie",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Club - Whole",
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Godfather - Mini",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Godfather - Sammie",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Godfather - Whole",
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Italian - Mini",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Italian - Sammie",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Italian - Whole",
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Mr. Pickles - Mini",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Mr. Pickles - Sammie",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Mr. Pickles - Whole",
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The New Yorker - Mini",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The New Yorker - Sammie",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The New Yorker - Whole",
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Rancher - Mini",
+          "calories": 270,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Rancher - Sammie",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Rancher - Whole",
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Reuben - Mini",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Reuben - Sammie",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Reuben - Whole",
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Sicilian - Mini",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Sicilian - Sammie",
+          "calories": 400,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Sicilian - Whole",
+          "calories": 690,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Spicy Tuna - Mini",
+          "calories": 310,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Spicy Tuna - Sammie",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Spicy Tuna - Whole",
+          "calories": 750,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Veggie - Mini",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Veggie - Sammie",
+          "calories": 370,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Veggie - Whole",
+          "calories": 630,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Works - Mini",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Works - Sammie",
+          "calories": 390,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "The Works - Whole",
+          "calories": 670,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Fan Favorites",
+      "items": [
+        {
+          "name": "Della's Deli - Whole",
+          "calories": 610,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Goomba Mini",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Goomba Sammie",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Goomba Whole",
+          "calories": 470,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Italian - Mini",
+          "calories": 380,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Italian - Sammie",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Italian - Whole",
+          "calories": 650,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mama Mia Mini",
+          "calories": 450,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mama Mia Sammie",
+          "calories": 430,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Mama Mia Whole",
+          "calories": 780,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Kids Meal",
+      "items": [
+        {
+          "name": "Kids Meal",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "My Deli",
+      "items": [
+        {
+          "name": "My Deli - Whole",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Chocolate Chunk Cookie",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Cole Slaw",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Dill Pickle",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Macaroni Salad",
+          "calories": 300,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Potato Salad",
+          "calories": 290,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Sauces / Dressings",
+      "items": [
+        {
+          "name": "BBQ Sauce",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Blue Cheese Dressing",
+          "calories": 150,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Chipotle Ranch Dressing",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Honey Mustard Dressing",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Italian Dressing",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Ranch Dressing",
+          "calories": 140,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Thousand Island Dressing",
+          "calories": 130,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    },
+    {
+      "name": "Bread/Wraps",
+      "items": [
+        {
+          "name": "Dutch Crunch",
+          "calories": 260,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "French Roll",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Sourdough",
+          "calories": 240,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Wheat",
+          "calories": 230,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "White",
+          "calories": 220,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Whole Wheat Wrap",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ]
+    }
+  ]
+}

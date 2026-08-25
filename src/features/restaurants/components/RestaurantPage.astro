@@ -5,6 +5,7 @@ import AutoMealGenerator from './AutoMealGenerator.astro';
 import AuthorBox from '@/features/authors/components/AuthorBox.astro';
 import { Info, Utensils } from '@lucide/astro';
 import ArticleRenderer from '@/features/shared/components/ArticleRenderer.astro';
+import RelatedLinksSection from '@/features/shared/components/RelatedLinksSection.astro';
 import type { Restaurant } from '../schemas/restaurant';
 
 interface Props {
@@ -23,90 +24,99 @@ const lighterPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) => 
 const heaviestPicks = [...allItems].filter((i) => i.calories > 0).sort((a, b) => b.calories - a.calories).slice(0, 3);
 ---
 
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-  <div class="lg:col-span-8 space-y-8">
-    <RestaurantMenu restaurant={restaurant} />
+<div>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+    <div class="lg:col-span-8 space-y-8">
+      <RestaurantMenu restaurant={restaurant} />
 
-    {restaurant.articleHtml && (
-      <ArticleRenderer content={restaurant.articleHtml} />
-    )}
-  </div>
-
-  <aside class="lg:col-span-4 space-y-4">
-    <!-- Restaurant info card -->
-    <div class="glass-card rounded-2xl p-5 space-y-4">
-      <div class="flex items-center gap-3 pb-4 border-b border-zinc-900">
-        <div class="text-4xl">{restaurant.emoji || '🍽'}</div>
-        <div>
-          <h3 class="font-bold text-white text-base">{restaurant.name}</h3>
-          <p class="text-xs text-zinc-500 mt-0.5">{restaurant.category || 'Restaurant'}</p>
-        </div>
-      </div>
-      <div class="grid grid-cols-2 gap-3 text-center">
-        <div class="bg-zinc-900/60 rounded-xl p-3 border border-zinc-900">
-          <div class="text-xs text-zinc-500 mb-1">Items</div>
-          <div class="text-lg font-black text-white stat-number">{totalItems}</div>
-        </div>
-        <div class="bg-zinc-900/60 rounded-xl p-3 border border-zinc-900">
-          <div class="text-xs text-zinc-500 mb-1">Avg calories</div>
-          <div class="text-lg font-black text-emerald-400 stat-number">{avgCalories}</div>
-        </div>
-      </div>
+      {restaurant.articleHtml && (
+        <ArticleRenderer content={restaurant.articleHtml} />
+      )}
     </div>
 
-    {/* Lighter picks vs heaviest hitters */}
-    {lighterPicks.length > 0 && heaviestPicks.length > 0 && (
+    <aside class="lg:col-span-4 space-y-4">
+      <!-- Restaurant info card -->
       <div class="glass-card rounded-2xl p-5 space-y-4">
-        <h4 class="font-bold text-white text-sm flex items-center gap-2">
-          <Utensils class="h-4 w-4 text-emerald-400" />
-          <span>Lighter picks vs heaviest hitters</span>
-        </h4>
-        <div class="space-y-2">
-          {lighterPicks.map((item) => (
-            <div class="flex items-center justify-between gap-2 text-xs">
-              <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
-              <span class="text-emerald-400 font-bold flex-shrink-0">{item.calories} cal</span>
-            </div>
-          ))}
-          <div class="border-t border-zinc-800 pt-2 space-y-2">
-            {heaviestPicks.map((item) => (
-              <div class="flex items-center justify-between gap-2 text-xs">
-                <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
-                <span class="text-amber-400 font-bold flex-shrink-0">{item.calories} cal</span>
-              </div>
-            ))}
+        <div class="flex items-center gap-3 pb-4 border-b border-zinc-900">
+          <div class="text-4xl">{restaurant.emoji || '🍽'}</div>
+          <div>
+            <h3 class="font-bold text-white text-base">{restaurant.name}</h3>
+            <p class="text-xs text-zinc-500 mt-0.5">{restaurant.category || 'Restaurant'}</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3 text-center">
+          <div class="bg-zinc-900/60 rounded-xl p-3 border border-zinc-900">
+            <div class="text-xs text-zinc-500 mb-1">Items</div>
+            <div class="text-lg font-black text-white stat-number">{totalItems}</div>
+          </div>
+          <div class="bg-zinc-900/60 rounded-xl p-3 border border-zinc-900">
+            <div class="text-xs text-zinc-500 mb-1">Avg calories</div>
+            <div class="text-lg font-black text-emerald-400 stat-number">{avgCalories}</div>
           </div>
         </div>
       </div>
-    )}
 
-    <!-- Disclaimer -->
-    <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 flex items-start gap-3">
-      <div class="p-2 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20 flex-shrink-0">
-        <Info class="h-5 w-5" />
+      {/* Lighter picks vs heaviest hitters */}
+      {lighterPicks.length > 0 && heaviestPicks.length > 0 && (
+        <div class="glass-card rounded-2xl p-5 space-y-4">
+          <h4 class="font-bold text-white text-sm flex items-center gap-2">
+            <Utensils class="h-4 w-4 text-emerald-400" />
+            <span>Lighter picks vs heaviest hitters</span>
+          </h4>
+          <div class="space-y-2">
+            {lighterPicks.map((item) => (
+              <div class="flex items-center justify-between gap-2 text-xs">
+                <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
+                <span class="text-emerald-400 font-bold flex-shrink-0">{item.calories} cal</span>
+              </div>
+            ))}
+            <div class="border-t border-zinc-800 pt-2 space-y-2">
+              {heaviestPicks.map((item) => (
+                <div class="flex items-center justify-between gap-2 text-xs">
+                  <span class="text-zinc-300 truncate flex-grow">{item.name}</span>
+                  <span class="text-amber-400 font-bold flex-shrink-0">{item.calories} cal</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      <!-- Disclaimer -->
+      <div class="glass-card rounded-2xl p-5 border border-zinc-800/80 flex items-start gap-3">
+        <div class="p-2 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20 flex-shrink-0">
+          <Info class="h-5 w-5" />
+        </div>
+        <div class="space-y-1.5">
+          <h4 class="font-bold text-sm text-zinc-200">Nutrition disclaimer</h4>
+          <p class="text-xs text-zinc-400 leading-relaxed">
+            Values reflect standard recipes published by the chain. Actual portions may vary by location,
+            preparation, and customization. Use as a guide, not a guarantee.
+          </p>
+        </div>
       </div>
-      <div class="space-y-1.5">
-        <h4 class="font-bold text-sm text-zinc-200">Nutrition disclaimer</h4>
-        <p class="text-xs text-zinc-400 leading-relaxed">
-          Values reflect standard recipes published by the chain. Actual portions may vary by location,
-          preparation, and customization. Use as a guide, not a guarantee.
-        </p>
+
+      <AuthorBox
+        name="Dr. Sarah Jenkins"
+        role="Clinical Dietitian and Nutritionist"
+        bio="Helps patients navigate eating out and restaurant menus using evidence-based healthy dietary substitutions."
+      />
+
+      <!-- Sticky Interactive Tools -->
+      <div class="lg:sticky lg:top-24 space-y-4">
+        <!-- Auto meal generator -->
+        <AutoMealGenerator />
+
+        <!-- Meal builder -->
+        <MealBuilder />
       </div>
-    </div>
+    </aside>
+  </div>
 
-    <AuthorBox
-      name="Dr. Sarah Jenkins"
-      role="Clinical Dietitian and Nutritionist"
-      bio="Helps patients navigate eating out and restaurant menus using evidence-based healthy dietary substitutions."
-    />
-
-    <!-- Sticky Interactive Tools -->
-    <div class="lg:sticky lg:top-24 space-y-4">
-      <!-- Auto meal generator -->
-      <AutoMealGenerator />
-
-      <!-- Meal builder -->
-      <MealBuilder />
-    </div>
-  </aside>
+  <!-- Dynamic Internal Linking Section -->
+  <RelatedLinksSection
+    currentSlug={restaurant.slug}
+    restaurantName={restaurant.name}
+    category={restaurant.category}
+  />
 </div>

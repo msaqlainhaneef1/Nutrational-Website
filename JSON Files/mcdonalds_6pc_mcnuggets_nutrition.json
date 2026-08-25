@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken",
+    "McNuggets"
+  ],
+  "products": [
+    {
+      "product_id": "mcdonalds_chicken_mcnuggets_6pc",
+      "name": "Chicken McNuggets (6 Piece)",
+      "category": "Chicken",
+      "subcategory": "Nuggets",
+      "description": "Tender, white meat chicken McNuggets coated in a crisp tempura-style batter.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces (96g)",
+        "weight_g": 96.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 14.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 540.0,
+        "potassium_mg": 140.0,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White boneless chicken",
+        "water",
+        "salt",
+        "modified food starch",
+        "sugar",
+        "seasoning (autolyzed yeast extract, salt, wheat starch, natural flavor)",
+        "batter (bleached wheat flour, modified corn starch, yellow corn flour, salt, dextrose, wheat gluten, paprika, garlic powder, spices, leavening)",
+        "fried in canola oil, corn oil, soybean oil, hydrogenated soybean oil"
+      ],
+      "customizations": [],
+      "image_url": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/mcd-chicken-mcnuggets-6pc.png",
+      "product_url": "https://www.mcdonalds.com/us/en-us/product/chicken-mcnuggets-6-piece.html",
+      "sources": [
+        {
+          "url": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "brand": {
+    "name": "BIBIBOP Asian Grill",
+    "website": "https://www.bibibop.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Bases",
+    "Proteins",
+    "Veggies",
+    "Sauces",
+    "Toppings",
+    "Bowls & Entrees",
+    "Sides & Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "bibibop_chicken_bowl",
+      "name": "Chicken Bibibop Bowl",
+      "category": "Bowls & Entrees",
+      "subcategory": "Signature Bowls",
+      "description": "Gluten-free grilled chicken served over a base of purple rice and black beans, fresh veggies, and Yum Yum sauce.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl (450g)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 38.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 780.0,
+        "potassium_mg": 620.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Grilled Chicken",
+        "Purple Rice",
+        "Black Beans",
+        "Carrots",
+        "Cabbage",
+        "Yum Yum Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/chicken-bowl.png",
+      "product_url": "https://www.bibibop.com/menu/bowls/chicken",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/bibibop",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_steak_bowl",
+      "name": "Steak Bibibop Bowl",
+      "category": "Bowls & Entrees",
+      "subcategory": "Signature Bowls",
+      "description": "Tender marinated grilled steak over warm steamed rice, crisp lettuce, cucumber, and Korean BBQ sauce.",
+      "price": 12.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl (460g)",
+        "weight_g": 460.0
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 36.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 920.0,
+        "potassium_mg": 690.0,
+        "carbohydrates_g": 66.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 70.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Grilled Steak",
+        "Steamed White Rice",
+        "Lettuce",
+        "Cucumbers",
+        "Korean BBQ Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/steak-bowl.png",
+      "product_url": "https://www.bibibop.com/menu/bowls/steak",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_organic_tofu",
+      "name": "Organic Tofu",
+      "category": "Proteins",
+      "subcategory": "Proteins",
+      "description": "Crispy baked organic tofu seasoned to perfection.",
+      "price": 3.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 serving (110g)",
+        "weight_g": 110.0
+      },
+      "nutrition": {
+        "calories": 160,
+        "protein_g": 14.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 280.0,
+        "potassium_mg": 220.0,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy"
+      ],
+      "ingredients": [
+        "Organic Tofu",
+        "Soy Sauce",
+        "Sesame Oil",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/tofu.png",
+      "product_url": "https://www.bibibop.com/menu/proteins/tofu",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_purple_rice",
+      "name": "Purple Rice",
+      "category": "Bases",
+      "subcategory": "Rice Bases",
+      "description": "Nutritious and flavorful warm purple rice.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 scoop (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 4.5,
+        "fat_g": 2.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 90.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.5,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "White Rice",
+        "Black Rice",
+        "Water",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/purple-rice.png",
+      "product_url": "https://www.bibibop.com/menu/bases/purple-rice",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_yum_yum_sauce",
+      "name": "Yum Yum Sauce",
+      "category": "Sauces",
+      "subcategory": "Sauces",
+      "description": "Creamy, tangy, and slightly sweet signature Asian-inspired sauce.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 fl oz cup (30g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 140.0,
+        "potassium_mg": 15.0,
+        "carbohydrates_g": 3.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.5,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 5.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mayonnaise",
+        "Sugar",
+        "Water",
+        "Paprika",
+        "Garlic Powder",
+        "Vinegar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/yum-yum.png",
+      "product_url": "https://www.bibibop.com/menu/sauces/yum-yum",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_korean_bbq_sauce",
+      "name": "Korean BBQ Sauce",
+      "category": "Sauces",
+      "subcategory": "Sauces",
+      "description": "Savory, sweet, and umami-rich traditional Korean barbecue sauce.",
+      "price": 0.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 fl oz cup (30g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 0.5,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 310.0,
+        "potassium_mg": 45.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.3,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Soy Sauce",
+        "Brown Sugar",
+        "Garlic",
+        "Ginger",
+        "Sesame Oil",
+        "Corn Starch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/korean-bbq.png",
+      "product_url": "https://www.bibibop.com/menu/sauces/korean-bbq",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "bibibop_miso_soup",
+      "name": "Traditional Miso Soup",
+      "category": "Sides & Beverages",
+      "subcategory": "Soups",
+      "description": "Warm savory soup with soybean paste, tofu, seaweed, and green onions.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 cup (240ml)",
+        "weight_g": 240.0
+      },
+      "nutrition": {
+        "calories": 70,
+        "protein_g": 5.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 180.0,
+        "carbohydrates_g": 7.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Fish"
+      ],
+      "ingredients": [
+        "Miso Paste",
+        "Dashi Broth",
+        "Tofu",
+        "Seaweed",
+        "Green Onions"
+      ],
+      "customizations": [],
+      "image_url": "https://www.bibibop.com/media/menu/miso-soup.png",
+      "product_url": "https://www.bibibop.com/menu/sides/miso-soup",
+      "sources": [
+        {
+          "url": "https://www.bibibop.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

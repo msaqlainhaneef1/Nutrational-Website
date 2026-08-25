@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Subway Series",
+    "SubSandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "subway_sweet_onion_chicken_teriyaki_footlong",
+      "name": "Sweet Onion Chicken Teriyaki (Footlong)",
+      "category": "Subway Series",
+      "subcategory": "Chicken",
+      "description": "Tender grilled chicken strips marinated in a sweet and savory teriyaki glaze, topped with lettuce, tomatoes, cucumbers, green peppers, red onions, and Sweet Onion Tangy Sauce on Artisan Italian bread.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 footlong (358g)",
+        "weight_g": 358.0
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 52.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110.0,
+        "sodium_mg": 1640.0,
+        "potassium_mg": 850.0,
+        "carbohydrates_g": 118.0,
+        "fiber_g": 6.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 32.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Artisan Italian Bread",
+        "Chicken Breast Strips",
+        "Teriyaki Glaze",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumbers",
+        "Green Peppers",
+        "Red Onions",
+        "Sweet Onion Tangy Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/-/media/images/subway/menu/sandwiches/sweet-onion-chicken-teriyaki/subway-menu-subway-series-sweet-onion-chicken-teriyaki-1235x725.png",
+      "product_url": "https://www.subway.com/en-us/menunutrition/menu/all-menu-items/subway-series/sweet-onion-chicken-teriyaki",
+      "sources": [
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutritioninformation",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

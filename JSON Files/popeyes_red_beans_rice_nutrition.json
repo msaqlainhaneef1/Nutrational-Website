@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "name": "Popeyes",
+    "website": "https://www.popeyes.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sides"
+  ],
+  "products": [
+    {
+      "product_id": "popeyes_red_beans_and_rice_regular",
+      "name": "Red Beans and Rice (Regular)",
+      "category": "Sides",
+      "subcategory": "Traditional Sides",
+      "description": "Savory red bean sauce with seasoned pork, served over a bed of warm white rice.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular (165g)",
+        "weight_g": 165.0
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 7.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 5.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Water",
+        "Enriched Bleached Rice",
+        "Red Beans",
+        "Seasoned Pork",
+        "Blend of Spices",
+        "Salt",
+        "Modified Food Starch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.popeyes.com/sites/default/files/2021-06/red-beans-and-rice.png",
+      "product_url": "https://www.popeyes.com/menu/sides/red-beans-and-rice",
+      "sources": [
+        {
+          "url": "https://www.popeyes.com/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

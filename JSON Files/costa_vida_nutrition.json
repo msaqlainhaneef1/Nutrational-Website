@@ -1,0 +1,375 @@
+{
+  "brand": {
+    "name": "Costa Vida",
+    "website": "https://www.costavida.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burritos & Enchiladas",
+    "Tacos & Quesadillas",
+    "Salads & Nachos",
+    "Bases & Tortillas",
+    "Proteins",
+    "Sides & Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "cv_sweet_pork_burrito",
+      "name": "Sweet Pork Burrito",
+      "category": "Burritos & Enchiladas",
+      "subcategory": "Burritos",
+      "description": "Large flour tortilla filled with sweet pork, cilantro lime rice, black beans, cheese, and house-made sauce.",
+      "price": 10.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 large burrito (520g)",
+        "weight_g": 520.0
+      },
+      "nutrition": {
+        "calories": 980,
+        "protein_g": 42.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1640.0,
+        "potassium_mg": 640.0,
+        "carbohydrates_g": 128.0,
+        "fiber_g": 9.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 10.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 5.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Sweet Pork",
+        "Cilantro Lime Rice",
+        "Black Beans",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/sweet-pork-burrito.png",
+      "product_url": "https://www.costavida.com/menu/burritos/sweet-pork",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/costa-vida",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "cv_grilled_chicken_salad",
+      "name": "Grilled Chicken Salads",
+      "category": "Salads & Nachos",
+      "subcategory": "Salads",
+      "description": "Fresh crisp lettuce, grilled chicken breast, black beans, pico de gallo, cheese, and creamy cilantro ranch dressing.",
+      "price": 11.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 salad portion (480g)",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 46.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 120.0,
+        "sodium_mg": 1220.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 8.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 410.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Lettuce",
+        "Grilled Chicken",
+        "Black Beans",
+        "Pico de Gallo",
+        "Cheddar Cheese",
+        "Cilantro Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/chicken-salad.png",
+      "product_url": "https://www.costavida.com/menu/salads/grilled-chicken",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cv_sweet_ pork_quesadilla",
+      "name": "Sweet Pork Quesadilla",
+      "category": "Tacos & Quesadillas",
+      "subcategory": "Quesadillas",
+      "description": "Large grilled flour tortilla folded with melted cheese and sweet pork, served with sour cream and salsa.",
+      "price": 11.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 quesadilla (450g)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 1140,
+        "protein_g": 48.0,
+        "fat_g": 54.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 104.0,
+        "fiber_g": 5.0,
+        "sugars_g": 22.0,
+        "added_sugars_g": 14.0,
+        "calcium_mg": 680.0,
+        "iron_mg": 4.8,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortillas",
+        "Sweet Pork",
+        "Monterey Jack Cheese",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/quesadilla.png",
+      "product_url": "https://www.costavida.com/menu/quesadillas/sweet-pork",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cv_shrimp_tacos",
+      "name": "Baja Shrimp Tacos (2 pcs)",
+      "category": "Tacos & Quesadillas",
+      "subcategory": "Tacos",
+      "description": "Two flour tortillas filled with seasoned grilled shrimp, cabbage slaw, fresh cilantro, and lime drizzle.",
+      "price": 10.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "2 tacos (320g)",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 26.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 145.0,
+        "sodium_mg": 980.0,
+        "potassium_mg": 340.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Shellfish",
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Flour Tortillas",
+        "Grilled Shrimp",
+        "Cabbage Slaw",
+        "Cilantro",
+        "Lime Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/shrimp-tacos.png",
+      "product_url": "https://www.costavida.com/menu/tacos/shrimp",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cv_raspberry_cheesecake_chimichanga",
+      "name": "Raspberry Cheesecake Chimichanga",
+      "category": "Sides & Desserts",
+      "subcategory": "Desserts",
+      "description": "Crispy fried tortilla stuffed with rich cheesecake filling and raspberry sauce, dusted with cinnamon sugar.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dessert (180g)",
+        "weight_g": 180.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 9.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 410.0,
+        "potassium_mg": 190.0,
+        "carbohydrates_g": 74.0,
+        "fiber_g": 2.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 32.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Cheesecake Filling",
+        "Raspberry Sauce",
+        "Cinnamon Sugar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/chimichanga.png",
+      "product_url": "https://www.costavida.com/menu/desserts/raspberry-chimichanga",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cv_horchata",
+      "name": "Traditional Horchata",
+      "category": "Beverages",
+      "subcategory": "Drinks",
+      "description": "Sweet, creamy, rice-based cinnamon beverage served chilled over ice.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 fl oz)",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 4.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 140.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 0.5,
+        "sugars_g": 54.0,
+        "added_sugars_g": 48.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Rice Milk",
+        "Whole Milk",
+        "Sugar",
+        "Cinnamon",
+        "Vanilla"
+      ],
+      "customizations": [],
+      "image_url": "https://www.costavida.com/media/menu/horchata.png",
+      "product_url": "https://www.costavida.com/menu/beverages/horchata",
+      "sources": [
+        {
+          "url": "https://www.costavida.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

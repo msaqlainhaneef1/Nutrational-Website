@@ -1,0 +1,131 @@
+{
+  "name": "Yard House",
+  "slug": "yard-house-nutrition-calculator",
+  "tagline": "Track nutrition for Yard House menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 7 menu items at Yard House.",
+  "category": "Burgers & Fast Food",
+  "emoji": "\ud83c\udf54",
+  "itemCount": 7,
+  "categories": [
+    {
+      "name": "Appetizers & Snacks",
+      "items": [
+        {
+          "name": "Poke Nachos",
+          "calories": 890,
+          "protein": 32,
+          "fat": 48,
+          "carbs": 86,
+          "servingSize": "1 appetizer sharing portion",
+          "fiber": 6,
+          "sodium": 1420,
+          "cholesterol": 55,
+          "saturated_fat": 7,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Burgers & Sandwiches",
+      "items": [
+        {
+          "name": "Classic Cheeseburger",
+          "calories": 1120,
+          "protein": 54,
+          "fat": 72,
+          "carbs": 62,
+          "servingSize": "1 burger with fries",
+          "fiber": 4,
+          "sodium": 1380,
+          "cholesterol": 185,
+          "saturated_fat": 26,
+          "sugars": 9
+        }
+      ]
+    },
+    {
+      "name": "Gardein & Vegetarian",
+      "items": [
+        {
+          "name": "Gardein Wings",
+          "calories": 620,
+          "protein": 36,
+          "fat": 28,
+          "carbs": 56,
+          "servingSize": "1 order (320g)",
+          "fiber": 8,
+          "sodium": 1850,
+          "saturated_fat": 3,
+          "sugars": 12
+        }
+      ]
+    },
+    {
+      "name": "Steaks & Entrees",
+      "items": [
+        {
+          "name": "Ribeye Steak (12 oz)",
+          "calories": 1050,
+          "protein": 68,
+          "fat": 78,
+          "carbs": 24,
+          "servingSize": "1 entr\u00e9e (540g)",
+          "fiber": 4,
+          "sodium": 1150,
+          "cholesterol": 210,
+          "saturated_fat": 32,
+          "sugars": 3
+        },
+        {
+          "name": "Nashville Hot Chicken",
+          "calories": 1420,
+          "protein": 62,
+          "fat": 86,
+          "carbs": 112,
+          "servingSize": "1 entr\u00e9e (620g)",
+          "fiber": 7,
+          "sodium": 2480,
+          "cholesterol": 190,
+          "saturated_fat": 22,
+          "sugars": 38
+        }
+      ]
+    },
+    {
+      "name": "Tacos & Street Food",
+      "items": [
+        {
+          "name": "Carne Asada Street Tacos",
+          "calories": 780,
+          "protein": 42,
+          "fat": 36,
+          "carbs": 68,
+          "servingSize": "3 tacos (450g)",
+          "fiber": 6,
+          "sodium": 1340,
+          "cholesterol": 95,
+          "saturated_fat": 12,
+          "sugars": 5
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Mini Cinnamon Sugar Beignets",
+          "calories": 820,
+          "protein": 11,
+          "fat": 38,
+          "carbs": 112,
+          "servingSize": "1 dessert share (280g)",
+          "fiber": 3,
+          "sodium": 460,
+          "cholesterol": 75,
+          "saturated_fat": 16,
+          "sugars": 62
+        }
+      ]
+    }
+  ]
+}

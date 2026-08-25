@@ -1,0 +1,313 @@
+{
+  "brand": {
+    "name": "Taco Bell (Weight Watchers Points)",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Tacos (WW Points)",
+    "Burritos (WW Points)",
+    "Specialties (WW Points)",
+    "Cravings Value Menu (WW Points)",
+    "Sides & Sweets (WW Points)"
+  ],
+  "products": [
+    {
+      "product_id": "tb_ww_soft_taco_beef",
+      "name": "Soft Taco with Beef (WW Points)",
+      "category": "Tacos (WW Points)",
+      "subcategory": "Tacos",
+      "description": "Soft flour tortilla with seasoned beef, lettuce, and cheddar cheese.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco (86g)",
+        "weight_g": 86.0
+      },
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 9.0,
+        "fat_g": 9.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 490.0,
+        "potassium_mg": 170.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 80.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.1,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Seasoned Beef",
+        "Lettuce",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/soft-taco-beef.png",
+      "product_url": "https://www.tacobell.com/food/tacos/soft-taco-beef",
+      "sources": [
+        {
+          "url": "https://www.weightwatchers.com/us/blog/food/taco-bell-points",
+          "source_type": "WW Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.tacobell.com/nutrition/calculator",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_ww_bean_burrito",
+      "name": "Bean Burrito (WW Points)",
+      "category": "Burritos (WW Points)",
+      "subcategory": "Burritos",
+      "description": "Warm flour tortilla filled with refried beans, cheddar cheese, onions, and red sauce.",
+      "price": 2.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burrito (204g)",
+        "weight_g": 204.0
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 12.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10.0,
+        "sodium_mg": 1050.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 8.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Refried Beans",
+        "Cheddar Cheese",
+        "Onions",
+        "Red Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/bean-burrito.png",
+      "product_url": "https://www.tacobell.com/food/burritos/bean-burrito",
+      "sources": [
+        {
+          "url": "https://www.weightwatchers.com/us/blog/food/taco-bell-points",
+          "source_type": "WW Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_ww_crunchwrap_supreme",
+      "name": "Crunchwrap Supreme (WW Points)",
+      "category": "Specialties (WW Points)",
+      "subcategory": "Wraps",
+      "description": "Layered seasoned beef, crunchy tostada, nacho cheese sauce, lettuce, tomatoes, and sour cream.",
+      "price": 5.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 item (247g)",
+        "weight_g": 247.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 16.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 1200.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 71.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Seasoned Beef",
+        "Tostada Shell",
+        "Nacho Cheese Sauce",
+        "Sour Cream",
+        "Lettuce",
+        "Tomatoes"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/crunchwrap-supreme.png",
+      "product_url": "https://www.tacobell.com/food/specialties/crunchwrap-supreme",
+      "sources": [
+        {
+          "url": "https://www.weightwatchers.com/us/blog/food/taco-bell-points",
+          "source_type": "WW Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_ww_chicken_quesadilla",
+      "name": "Chicken Quesadilla (WW Points)",
+      "category": "Specialties (WW Points)",
+      "subcategory": "Quesadillas",
+      "description": "Flour tortilla with grilled chicken, melted three-cheese blend, and creamy jalapeño sauce.",
+      "price": 5.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 quesadilla (204g)",
+        "weight_g": 204.0
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 27.0,
+        "fat_g": 27.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 1130.0,
+        "potassium_mg": 340.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 320.0,
+        "iron_mg": 2.2,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Flour Tortilla",
+        "Grilled Chicken",
+        "Three-Cheese Blend",
+        "Creamy Jalapeño Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/chicken-quesadilla.png",
+      "product_url": "https://www.tacobell.com/food/specialties/chicken-quesadilla",
+      "sources": [
+        {
+          "url": "https://www.weightwatchers.com/us/blog/food/taco-bell-points",
+          "source_type": "WW Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "tb_ww_chips_and_cheese",
+      "name": "Chips and Nacho Cheese Sauce (WW Points)",
+      "category": "Sides & Sweets (WW Points)",
+      "subcategory": "Sides",
+      "description": "Crispy tortilla chips served with warm warm nacho cheese sauce.",
+      "price": 2.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (94g)",
+        "weight_g": 94.0
+      },
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 390.0,
+        "potassium_mg": 150.0,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 60.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Tortilla Chips",
+        "Nacho Cheese Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/chips-and-cheese.png",
+      "product_url": "https://www.tacobell.com/food/sides/chips-and-nacho-cheese-sauce",
+      "sources": [
+        {
+          "url": "https://www.weightwatchers.com/us/blog/food/taco-bell-points",
+          "source_type": "WW Nutrition Database",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

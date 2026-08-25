@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name": "Popeyes",
+    "website": "https://www.popeyes.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sides & Biscuits"
+  ],
+  "products": [
+    {
+      "product_id": "popeyes-biscuit",
+      "name": "Biscuit",
+      "category": "Sides & Biscuits",
+      "subcategory": "Biscuits",
+      "description": "Warm, flaky, buttery southern-style buttermilk biscuit.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 biscuit",
+        "weight_g": 60.0
+      },
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 440.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Enriched Flour",
+        "Buttermilk",
+        "Baking Powder",
+        "Shortening",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.popeyes.com/menu/sides/biscuit",
+      "product_url": "https://www.popeyes.com/menu/sides/biscuit",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/popeyes/biscuit",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.popeyes.com",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Frappuccino",
+  "slug": "frappuccino-nutrition-calculator",
+  "tagline": "Track nutrition for Frappuccino menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 5 menu items at Frappuccino.",
+  "category": "Fast Casual & Dining",
+  "emoji": "\ud83c\udf7d\ufe0f",
+  "itemCount": 5,
+  "categories": [
+    {
+      "name": "Coffee Blended Beverages",
+      "items": [
+        {
+          "name": "Caramel Frappuccino Blended Beverage",
+          "calories": 380,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 56,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "sodium": 230,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 54
+        },
+        {
+          "name": "Mocha Frappuccino Blended Beverage",
+          "calories": 370,
+          "protein": 5,
+          "fat": 15,
+          "carbs": 54,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 2,
+          "sodium": 220,
+          "cholesterol": 45,
+          "saturated_fat": 9.5,
+          "sugars": 51
+        },
+        {
+          "name": "Java Chip Frappuccino Blended Beverage",
+          "calories": 470,
+          "protein": 6,
+          "fat": 18,
+          "carbs": 72,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 3,
+          "sodium": 280,
+          "cholesterol": 45,
+          "saturated_fat": 11,
+          "sugars": 66
+        }
+      ]
+    },
+    {
+      "name": "Cr\u00e8me Blended Beverages",
+      "items": [
+        {
+          "name": "Strawberries & Cr\u00e8me Frappuccino",
+          "calories": 370,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 54,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "fiber": 1,
+          "sodium": 210,
+          "cholesterol": 45,
+          "saturated_fat": 9,
+          "sugars": 52
+        }
+      ]
+    },
+    {
+      "name": "Espresso Blended Beverages",
+      "items": [
+        {
+          "name": "Espresso Frappuccino Blended Beverage",
+          "calories": 210,
+          "protein": 3,
+          "fat": 2.5,
+          "carbs": 43,
+          "servingSize": "Grande / Medium (16 fl oz)",
+          "sodium": 160,
+          "cholesterol": 10,
+          "saturated_fat": 1.5,
+          "sugars": 41
+        }
+      ]
+    }
+  ]
+}

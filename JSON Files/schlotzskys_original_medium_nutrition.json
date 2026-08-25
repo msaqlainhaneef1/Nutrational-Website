@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "Schlotzsky's",
+    "website": "https://www.schlotzskys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Original Sandwiches"
+  ],
+  "products": [
+    {
+      "product_id": "schlotzskys_the_original_medium",
+      "name": "The Original\u00ae Sandwich (Medium)",
+      "category": "Sandwiches",
+      "subcategory": "Original Sandwiches",
+      "description": "Lean smoked ham, genoa and cotto salami, melted cheddar, mozzarella, and parmesan cheeses, black olives, lettuce, tomato, and signature tangy Schlotzsky's sauce on freshly baked toasted sourdough bun.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium sandwich (315 g)",
+        "weight_g": 315.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 40.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 115.0,
+        "sodium_mg": 2200.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": null,
+        "calcium_mg": 350.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Gluten"
+      ],
+      "ingredients": [
+        "Freshly Baked Sourdough Bun (Enriched Wheat Flour, Water, Yeast, Sugar, Salt)",
+        "Smoked Ham (Cured with Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)",
+        "Genoa Salami (Pork, Beef, Salt, Dextrose, Spices, Lactic Acid Starter Culture, Sodium Nitrite, BHA, BHT, Citric Acid)",
+        "Cotto Salami (Pork, Beef, Water, Salt, Corn Syrup, Spices, Flavorings, Dextrose, Sodium Nitrite)",
+        "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto)",
+        "Mozzarella Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes)",
+        "Parmesan Cheese",
+        "Black Olives",
+        "Lettuce",
+        "Tomatoes",
+        "Signature Schlotzsky's Sauce"
+      ],
+      "customizations": [
+        "Small, Medium, Large Size Options",
+        "Choice of Bread (Sourdough, Jalapeno Cheese, Whole Grain, Gluten-Free)",
+        "Add Bacon",
+        "Extra Cheese",
+        "No Olives"
+      ],
+      "image_url": "https://www.schlotzskys.com/menu/sandwiches/the-original",
+      "product_url": "https://www.schlotzskys.com/menu/sandwiches/the-original",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/schlotzskys/original-sandwich",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.schlotzskys.com/menu/sandwiches/the-original",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

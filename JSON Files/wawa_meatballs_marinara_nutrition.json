@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Wawa",
+    "website": "https://www.wawa.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Hot Hoagies",
+    "Shorti Hoagies"
+  ],
+  "products": [
+    {
+      "product_id": "wawa_meatballs_marinara_shorti",
+      "name": "Meatballs & Marinara (Shorti)",
+      "category": "Hot Hoagies",
+      "subcategory": "Meatballs",
+      "description": "Tender meatballs simmered in rich marinara sauce on a freshly baked Shorti roll.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 Shorti hoagie (360g)",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 36.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 720.0,
+        "carbohydrates_g": 88.0,
+        "fiber_g": 5.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 6.0,
+        "calcium_mg": 200.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Shorti Roll",
+        "Meatballs (Beef, pork, water, breadcrumbs, seasonings)",
+        "Marinara Sauce (Tomato puree, diced tomatoes, olive oil, spices, garlic, salt)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wawa.com/images/products/meatballs-marinara-shorti.png",
+      "product_url": "https://www.wawa.com/menu/hot-hoagies/meatballs-marinara",
+      "sources": [
+        {
+          "url": "https://www.wawa.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "description": "Calculate nutrition values for tacos, burritos, and combos.",
   "category": "Mexican & Bowls",
   "emoji": "\ud83c\udf2e",
-  "itemCount": 149,
+  "itemCount": 161,
   "categories": [
     {
       "name": "Burritos",
@@ -989,6 +989,45 @@
           "saturated_fat": 4,
           "sugars": 2,
           "trans_fat": 0
+        },
+        {
+          "name": "Nacho Cheese Doritos\u00ae Locos Tacos",
+          "calories": 170,
+          "protein": 8,
+          "fat": 9,
+          "carbs": 13,
+          "servingSize": "1 taco",
+          "fiber": 3,
+          "sodium": 370,
+          "cholesterol": 25,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        },
+        {
+          "name": "Nacho Cheese Doritos\u00ae Locos Tacos Supreme\u00ae",
+          "calories": 190,
+          "protein": 8,
+          "fat": 11,
+          "carbs": 15,
+          "servingSize": "1 taco",
+          "fiber": 3,
+          "sodium": 380,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 2
+        },
+        {
+          "name": "Doritos Locos Tacos",
+          "calories": 170,
+          "protein": 8,
+          "fat": 10,
+          "carbs": 13,
+          "servingSize": "1 taco (84g)",
+          "fiber": 2,
+          "sodium": 370,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 1
         }
       ]
     },
@@ -1537,6 +1576,19 @@
           "sodium": 210,
           "sugars": 13,
           "trans_fat": 0
+        },
+        {
+          "name": "Cinnabon Delights 2 Pack",
+          "calories": 310,
+          "protein": 4,
+          "fat": 17,
+          "carbs": 36,
+          "servingSize": "2 pack (59g)",
+          "fiber": 1,
+          "sodium": 200,
+          "cholesterol": 10,
+          "saturated_fat": 3.5,
+          "sugars": 20
         }
       ]
     },
@@ -1586,6 +1638,144 @@
           "saturated_fat": 7,
           "sugars": 3,
           "trans_fat": 0
+        }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "items": [
+        {
+          "name": "Bell Sauce Nugget Dipping Sauce",
+          "calories": 210,
+          "protein": 1,
+          "fat": 21,
+          "carbs": 5,
+          "servingSize": "1 dip cup (30 g)",
+          "sodium": 210,
+          "cholesterol": 10,
+          "saturated_fat": 3,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Gluten-Free Specialties",
+      "items": [
+        {
+          "name": "Crunchy Taco (Gluten-Free Modified)",
+          "calories": 170,
+          "protein": 8,
+          "fat": 10,
+          "carbs": 13,
+          "servingSize": "1 taco (78g)",
+          "fiber": 3,
+          "sodium": 310,
+          "cholesterol": 15,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Gluten-Free Sides",
+      "items": [
+        {
+          "name": "Chips and Nacho Cheese Sauce (Gluten-Free)",
+          "calories": 220,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 26,
+          "servingSize": "1 order (94g)",
+          "fiber": 2,
+          "sodium": 370,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Tacos (WW Points)",
+      "items": [
+        {
+          "name": "Soft Taco with Beef (WW Points)",
+          "calories": 180,
+          "protein": 9,
+          "fat": 9,
+          "carbs": 18,
+          "servingSize": "1 taco (86g)",
+          "fiber": 2,
+          "sodium": 490,
+          "cholesterol": 20,
+          "saturated_fat": 3.5,
+          "sugars": 1
+        }
+      ]
+    },
+    {
+      "name": "Burritos (WW Points)",
+      "items": [
+        {
+          "name": "Bean Burrito (WW Points)",
+          "calories": 350,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 54,
+          "servingSize": "1 burrito (204g)",
+          "fiber": 8,
+          "sodium": 1050,
+          "cholesterol": 10,
+          "saturated_fat": 3.5,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Specialties (WW Points)",
+      "items": [
+        {
+          "name": "Crunchwrap Supreme (WW Points)",
+          "calories": 540,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 71,
+          "servingSize": "1 item (247g)",
+          "fiber": 5,
+          "sodium": 1200,
+          "cholesterol": 25,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Chicken Quesadilla (WW Points)",
+          "calories": 510,
+          "protein": 27,
+          "fat": 27,
+          "carbs": 38,
+          "servingSize": "1 quesadilla (204g)",
+          "fiber": 3,
+          "sodium": 1130,
+          "cholesterol": 70,
+          "saturated_fat": 11,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Sides & Sweets (WW Points)",
+      "items": [
+        {
+          "name": "Chips and Nacho Cheese Sauce (WW Points)",
+          "calories": 220,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 24,
+          "servingSize": "1 order (94g)",
+          "fiber": 2,
+          "sodium": 390,
+          "cholesterol": 5,
+          "saturated_fat": 2,
+          "sugars": 1
         }
       ]
     }

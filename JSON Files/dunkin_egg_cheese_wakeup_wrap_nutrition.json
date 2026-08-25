@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "Dunkin'",
+    "website": "https://www.dunkindonuts.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breakfast",
+    "Wraps"
+  ],
+  "products": [
+    {
+      "product_id": "dunkin_egg_cheese_wake_up_wrap",
+      "name": "Egg & Cheese Wake Up Wrap",
+      "category": "Breakfast",
+      "subcategory": "Wraps",
+      "description": "Egg and American cheese wrapped in a small flour tortilla.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 wrap (84g)",
+        "weight_g": 84.0
+      },
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 8.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 135.0,
+        "sodium_mg": 410.0,
+        "potassium_mg": 90.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 1.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Small flour tortilla",
+        "egg patty",
+        "pasteurized process American cheese slice"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dunkindonuts.com/images/products/egg-cheese-wake-up-wrap.png",
+      "product_url": "https://www.dunkindonuts.com/en/menu/breakfast/egg-cheese-wake-up-wrap",
+      "sources": [
+        {
+          "url": "https://www.dunkindonuts.com/en/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

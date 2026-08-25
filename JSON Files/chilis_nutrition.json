@@ -1,0 +1,382 @@
+{
+  "brand": {
+    "name": "Chili's Grill & Bar",
+    "website": "https://www.chilis.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Appetizers",
+    "Guacamole & Fajitas",
+    "Burgers & Sandwiches",
+    "Ribs, Steaks & Seafood",
+    "Salads, Soups & Chili",
+    "Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "chilis_skillet_queso",
+      "name": "Skillet Queso",
+      "category": "Appetizers",
+      "subcategory": "Dips",
+      "description": "Original queso with beef and seasoned chili, served with warm tortilla chips and salsa.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Regular portion (420g)",
+        "weight_g": 420.0
+      },
+      "nutrition": {
+        "calories": 860,
+        "protein_g": 26.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 24.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1840.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 480.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Cheese Dip",
+        "Beef",
+        "Chili",
+        "Tortilla Chips",
+        "Salsa"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/skillet-queso.png",
+      "product_url": "https://www.chilis.com/menu/appetizers/skillet-queso",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/chilis",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "chilis_old_timer_cheese",
+      "name": "Old Timer with Cheese",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "Burgers",
+      "description": "Hand-crafted beef burger with cheddar cheese, lettuce, tomato, red onion, pickles, and mustard on a toasted bun.",
+      "price": 13.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger with fries (510g)",
+        "weight_g": 510.0
+      },
+      "nutrition": {
+        "calories": 1020,
+        "protein_g": 48.0,
+        "fat_g": 66.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 165.0,
+        "sodium_mg": 1460.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 58.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 420.0,
+        "iron_mg": 5.8,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Cheddar Cheese",
+        "Burger Bun",
+        "Lettuce",
+        "Tomato",
+        "Pickles"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/old-timer-cheese.png",
+      "product_url": "https://www.chilis.com/menu/burgers/old-timer-cheese",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "chilis_baby_back_ribs_full",
+      "name": "Original Baby Back Ribs (Full Order)",
+      "category": "Ribs, Steaks & Seafood",
+      "subcategory": "Ribs",
+      "description": "Slow-smoked pork ribs glazed with signature BBQ sauce, served with fries and corn on the cob.",
+      "price": 26.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 full rack order (820g)",
+        "weight_g": 820.0
+      },
+      "nutrition": {
+        "calories": 1440,
+        "protein_g": 78.0,
+        "fat_g": 88.0,
+        "saturated_fat_g": 32.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 290.0,
+        "sodium_mg": 2820.0,
+        "potassium_mg": 1120.0,
+        "carbohydrates_g": 82.0,
+        "fiber_g": 6.0,
+        "sugars_g": 48.0,
+        "added_sugars_g": 40.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 6.2,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Pork Ribs",
+        "BBQ Sauce",
+        "French Fries",
+        "Corn on the Cob"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/baby-back-ribs.png",
+      "product_url": "https://www.chilis.com/menu/ribs/baby-back-ribs",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "chilis_chicken_fajitas",
+      "name": "Chicken Fajitas",
+      "category": "Guacamole & Fajitas",
+      "subcategory": "Fajitas",
+      "description": "Grilled chicken breast, bell peppers, onions, served with warm flour tortillas, pico de gallo, sour cream, and cheese.",
+      "price": 18.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 skillet portion with 3 tortillas (650g)",
+        "weight_g": 650.0
+      },
+      "nutrition": {
+        "calories": 960,
+        "protein_g": 64.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 180.0,
+        "sodium_mg": 2240.0,
+        "potassium_mg": 920.0,
+        "carbohydrates_g": 82.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 520.0,
+        "iron_mg": 5.4,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Grilled Chicken",
+        "Bell Peppers",
+        "Onions",
+        "Flour Tortillas",
+        "Sour Cream",
+        "Cheese",
+        "Pico de Gallo"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/chicken-fajitas.png",
+      "product_url": "https://www.chilis.com/menu/fajitas/chicken",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "chilis_southwestern_eggrolls",
+      "name": "Southwestern Eggrolls",
+      "category": "Appetizers",
+      "subcategory": "Appetizers",
+      "description": "Crispy flour tortillas filled with chicken, black beans, corn, jalapeño Jack cheese, red peppers, and spinach with avocado-ranch.",
+      "price": 11.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 appetizer portion (340g)",
+        "weight_g": 340.0
+      },
+      "nutrition": {
+        "calories": 910,
+        "protein_g": 32.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1780.0,
+        "potassium_mg": 510.0,
+        "carbohydrates_g": 78.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Eggroll Wrappers",
+        "Chicken",
+        "Black Beans",
+        "Corn",
+        "Jalapeño Jack Cheese",
+        "Avocado-Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/southwestern-eggrolls.png",
+      "product_url": "https://www.chilis.com/menu/appetizers/southwestern-eggrolls",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "chilis_molten_chocolate_cake",
+      "name": "Molten Chocolate Cake",
+      "category": "Desserts",
+      "subcategory": "Cakes",
+      "description": "Chocolate cake with a molten chocolate center, served with vanilla ice cream and a chocolate shell crust.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dessert portion (320g)",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 1160,
+        "protein_g": 15.0,
+        "fat_g": 68.0,
+        "saturated_fat_g": 34.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 130.0,
+        "sodium_mg": 520.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 138.0,
+        "fiber_g": 7.0,
+        "sugars_g": 104.0,
+        "added_sugars_g": 92.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 6.2,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 18.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chocolate Cake",
+        "Chocolate Fudge Center",
+        "Vanilla Ice Cream",
+        "Chocolate Shell"
+      ],
+      "customizations": [],
+      "image_url": "https://www.chilis.com/media/menu/molten-cake.png",
+      "product_url": "https://www.chilis.com/menu/desserts/molten-chocolate-cake",
+      "sources": [
+        {
+          "url": "https://www.chilis.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

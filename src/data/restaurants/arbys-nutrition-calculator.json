@@ -5,7 +5,7 @@
   "description": "Analyze calories and macros for Arby's sandwiches and sides.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd69",
-  "itemCount": 132,
+  "itemCount": 133,
   "categories": [
     {
       "name": "Limited Time Offers",
@@ -1594,6 +1594,24 @@
           "cholesterol": 85,
           "saturated_fat": 9,
           "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Crispy Fish Sandwich",
+          "calories": 570,
+          "protein": 14,
+          "fat": 25,
+          "carbs": 65,
+          "servingSize": "1 sandwich",
+          "fiber": 3,
+          "sodium": 1180,
+          "cholesterol": 45,
+          "saturated_fat": 4,
+          "sugars": 9
         }
       ]
     }

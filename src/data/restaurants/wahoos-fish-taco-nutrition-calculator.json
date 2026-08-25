@@ -1,0 +1,378 @@
+{
+  "name": "Wahoo's Fish Taco",
+  "slug": "wahoos-fish-taco-nutrition-calculator",
+  "tagline": "Track nutrition for Wahoo's Fish Taco menu items, meals, calories, and macros.",
+  "description": "Calculate calories, protein, carbs, fat, sodium, and nutrients across 27 menu items at Wahoo's Fish Taco.",
+  "category": "Chicken & Wings",
+  "emoji": "\ud83c\udf57",
+  "itemCount": 27,
+  "categories": [
+    {
+      "name": "Tacos",
+      "items": [
+        {
+          "name": "Fuego Carnitas Taco",
+          "calories": 405,
+          "protein": 21,
+          "fat": 23,
+          "carbs": 15,
+          "servingSize": "1 Taco",
+          "fiber": 3,
+          "sodium": 912,
+          "cholesterol": 73,
+          "saturated_fat": 8,
+          "sugars": 3
+        },
+        {
+          "name": "Citrus Slaw Taco (Chicken Blackened)",
+          "calories": 317,
+          "protein": 13,
+          "fat": 10,
+          "carbs": 15,
+          "servingSize": "1 Taco",
+          "fiber": 2,
+          "sodium": 342,
+          "cholesterol": 37,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Citrus Slaw Taco (Fish Blackened)",
+          "calories": 296,
+          "protein": 13,
+          "fat": 8,
+          "carbs": 15,
+          "servingSize": "1 Taco",
+          "fiber": 2,
+          "sodium": 373,
+          "cholesterol": 28,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "1988 Taco (Chicken Charbroiled)",
+          "calories": 211,
+          "protein": 14,
+          "fat": 7,
+          "carbs": 23,
+          "servingSize": "1 Taco",
+          "fiber": 4,
+          "sodium": 337,
+          "cholesterol": 38,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "1988 Taco (Fish Charbroiled)",
+          "calories": 275,
+          "protein": 13,
+          "fat": 5,
+          "carbs": 14,
+          "servingSize": "1 Taco",
+          "fiber": 2,
+          "sodium": 364,
+          "cholesterol": 28,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Crispy Flounder Taco",
+          "calories": 318,
+          "protein": 21,
+          "fat": 11,
+          "carbs": 35,
+          "servingSize": "1 Taco",
+          "fiber": 2,
+          "sodium": 774,
+          "cholesterol": 49,
+          "saturated_fat": 4,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "name": "Banzai Bowl (Chicken Blackened)",
+          "calories": 603,
+          "protein": 40,
+          "fat": 12,
+          "carbs": 82,
+          "servingSize": "1 Bowl",
+          "fiber": 15,
+          "sodium": 1849,
+          "cholesterol": 68,
+          "saturated_fat": 2,
+          "sugars": 15
+        },
+        {
+          "name": "Wahoo's Bowl (Fish Blackened)",
+          "calories": 483,
+          "protein": 42,
+          "fat": 7,
+          "carbs": 65,
+          "servingSize": "1 Bowl",
+          "fiber": 11,
+          "sodium": 1381,
+          "cholesterol": 59,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Protein Bowl (Charbroiled Chicken only)",
+          "calories": 428,
+          "protein": 39,
+          "fat": 22,
+          "carbs": 22,
+          "servingSize": "1 Bowl",
+          "fiber": 9,
+          "sodium": 993,
+          "cholesterol": 106,
+          "saturated_fat": 3,
+          "sugars": 10
+        },
+        {
+          "name": "Maui Steak Bowl (Steak)",
+          "calories": 773,
+          "protein": 47,
+          "fat": 30,
+          "carbs": 75,
+          "servingSize": "1 Bowl",
+          "fiber": 12,
+          "sodium": 2200,
+          "cholesterol": 99,
+          "saturated_fat": 10,
+          "sugars": 14
+        }
+      ]
+    },
+    {
+      "name": "Burritos",
+      "items": [
+        {
+          "name": "Outer Reef Burrito (Chicken Blackened)",
+          "calories": 786,
+          "protein": 42,
+          "fat": 32,
+          "carbs": 82,
+          "servingSize": "1 Burrito",
+          "fiber": 8,
+          "sodium": 1818,
+          "cholesterol": 102,
+          "saturated_fat": 11,
+          "sugars": 4
+        },
+        {
+          "name": "Hawaiian Onion Ring Burrito",
+          "calories": 1287,
+          "protein": 46,
+          "fat": 65,
+          "carbs": 123,
+          "servingSize": "1 Burrito",
+          "fiber": 7,
+          "sodium": 2359,
+          "cholesterol": 151,
+          "saturated_fat": 26,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Soup",
+      "items": [
+        {
+          "name": "Chicken Tortilla Soup",
+          "calories": 130,
+          "protein": 9,
+          "fat": 6,
+          "carbs": 11,
+          "servingSize": "1 Bowl",
+          "fiber": 3,
+          "sodium": 728,
+          "cholesterol": 23,
+          "saturated_fat": 1,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Wahoo's Chipotle Salad",
+          "calories": 942,
+          "protein": 28,
+          "fat": 93,
+          "carbs": 39,
+          "servingSize": "1 Salad",
+          "fiber": 9,
+          "sodium": 1072,
+          "cholesterol": 145,
+          "saturated_fat": 16,
+          "sugars": 7
+        },
+        {
+          "name": "Sunset Chopped Salad (Chicken Charbroiled)",
+          "calories": 705,
+          "protein": 47,
+          "fat": 47,
+          "carbs": 31,
+          "servingSize": "1 Salad",
+          "fiber": 10,
+          "sodium": 781,
+          "cholesterol": 131,
+          "saturated_fat": 15,
+          "sugars": 7
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Side Black Beans",
+          "calories": 303,
+          "protein": 19,
+          "fat": 1,
+          "carbs": 56,
+          "servingSize": "10 oz",
+          "fiber": 15,
+          "sodium": 815,
+          "sugars": 2
+        },
+        {
+          "name": "Side Brown Rice",
+          "calories": 185,
+          "protein": 3,
+          "fat": 5,
+          "carbs": 31,
+          "servingSize": "8 oz",
+          "fiber": 2,
+          "sodium": 261,
+          "saturated_fat": 1
+        },
+        {
+          "name": "Side Guacamole (Regular)",
+          "calories": 119,
+          "protein": 2,
+          "fat": 11,
+          "carbs": 6,
+          "servingSize": "3 oz",
+          "fiber": 3,
+          "sodium": 268,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Side Pico De Gallo Salsa (Regular)",
+          "calories": 18,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 4,
+          "servingSize": "3 oz",
+          "fiber": 1,
+          "sodium": 267,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "name": "Kids Bowl (Chicken)",
+          "calories": 350,
+          "protein": 25,
+          "fat": 6,
+          "carbs": 45,
+          "servingSize": "1 Bowl",
+          "fiber": 5,
+          "sodium": 850,
+          "cholesterol": 45,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Mini Quesadilla",
+          "calories": 461,
+          "protein": 15,
+          "fat": 20,
+          "carbs": 50,
+          "servingSize": "1 Order",
+          "fiber": 3,
+          "sodium": 900,
+          "cholesterol": 40,
+          "saturated_fat": 10,
+          "sugars": 2
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Shrimp Ceviche with Chips",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 Order"
+        },
+        {
+          "name": "Loaded Nachos",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 Order"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Churro Chips",
+          "calories": 554,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 Order"
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Pepsi (Regular)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 55,
+          "servingSize": "16 fl oz",
+          "sodium": 40,
+          "sugars": 55
+        },
+        {
+          "name": "Diet Pepsi",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "16 fl oz",
+          "sodium": 50
+        },
+        {
+          "name": "Proud Source Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "servingSize": "1 Bottle"
+        }
+      ]
+    }
+  ]
+}

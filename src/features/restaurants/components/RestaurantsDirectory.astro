@@ -13,7 +13,7 @@ const totalItems = restaurants.reduce((s, r) => s + (r.itemCount || r.categories
 ---
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-  <Breadcrumb items={[{ label: 'Restaurants', url: '/restaurants' }]} />
+  <Breadcrumb items={[{ label: 'Restaurants', url: '/restaurants/' }]} />
 
   <!-- Header -->
   <div class="space-y-4">
@@ -81,7 +81,7 @@ const totalItems = restaurants.reduce((s, r) => s + (r.itemCount || r.categories
       const count = res.itemCount || res.categories.reduce((s, c) => s + c.items.length, 0);
       return (
         <a
-          href={`/restaurants/${res.slug}`}
+          href={`/restaurants/${res.slug}/`}
           data-name={res.name.toLowerCase()}
           data-category={res.category || 'Restaurant'}
           class="restaurant-card glass-card rounded-2xl p-5 flex flex-col group h-full"

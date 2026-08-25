@@ -1,0 +1,495 @@
+{
+  "brand": {
+    "name": "Sweetgreen",
+    "website": "https://www.sweetgreen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Warm Bowls",
+    "Salads",
+    "Protein Plates",
+    "Sides & Sides",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "sg_guac_magnum_bowl",
+      "name": "Guacamole Greens",
+      "category": "Warm Bowls",
+      "subcategory": "Signature Bowls",
+      "description": "Roasted chicken, avocado, tomatoes, red onion, shredded cabbage, tortilla chips, spring mix, chopped romaine, lime cilantro jalapeño vinaigrette.",
+      "price": 13.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl",
+        "weight_g": 430.0
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 31.0,
+        "fat_g": 33.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 920.0,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 9.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Roasted Chicken",
+        "Avocado",
+        "Tomatoes",
+        "Red Onion",
+        "Shredded Cabbage",
+        "Tortilla Chips",
+        "Spring Mix",
+        "Romaine",
+        "Lime Cilantro Jalapeño Vinaigrette"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/guacamole-greens.png",
+      "product_url": "https://www.sweetgreen.com/menu/guacamole-greens",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/sweetgreen",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "sg_crispy_chicken_bowl",
+      "name": "Crispy Chicken Salad",
+      "category": "Salads",
+      "subcategory": "Signature Salads",
+      "description": "Blackened chicken, shredded cabbage, carrots, cilantro, toasted almonds, crispy rice, chopped romaine, mesclun, honey mustard dressing.",
+      "price": 14.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular salad",
+        "weight_g": 410.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 34.0,
+        "fat_g": 26.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 740.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 2.8,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Tree Nuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Blackened Chicken",
+        "Cabbage",
+        "Carrots",
+        "Cilantro",
+        "Almonds",
+        "Crispy Rice",
+        "Romaine",
+        "Mesclun",
+        "Honey Mustard Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/crispy-chicken-salad.png",
+      "product_url": "https://www.sweetgreen.com/menu/crispy-chicken-salad",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_harvest_bowl",
+      "name": "Harvest Bowl",
+      "category": "Warm Bowls",
+      "subcategory": "Signature Bowls",
+      "description": "Roasted chicken, sweet potatoes, apples, goat cheese, toasted almonds, wild rice, shredded kale, balsamic vinaigrette.",
+      "price": 13.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 690,
+        "protein_g": 35.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 640.0,
+        "potassium_mg": 980.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 9.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 210.0,
+        "iron_mg": 4.1,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Tree Nuts"
+      ],
+      "ingredients": [
+        "Roasted Chicken",
+        "Sweet Potatoes",
+        "Apples",
+        "Goat Cheese",
+        "Almonds",
+        "Wild Rice",
+        "Kale",
+        "Balsamic Vinaigrette"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/harvest-bowl.png",
+      "product_url": "https://www.sweetgreen.com/menu/harvest-bowl",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_shrimp_protein_plate",
+      "name": "Shrimp Protein Plate",
+      "category": "Protein Plates",
+      "subcategory": "Plates",
+      "description": "Garlic herb shrimp, wild rice, warm veggies, cucumber tomato salad, green goddess ranch.",
+      "price": 16.5,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 plate",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 540,
+        "protein_g": 38.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 195.0,
+        "sodium_mg": 890.0,
+        "potassium_mg": 750.0,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 150.0,
+        "iron_mg": 3.8,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Shellfish",
+        "Milk",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Garlic Shrimp",
+        "Wild Rice",
+        "Warm Veggies",
+        "Cucumber Tomato Salad",
+        "Green Goddess Ranch"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/shrimp-plate.png",
+      "product_url": "https://www.sweetgreen.com/menu/protein-plates/shrimp-protein-plate",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_spicy_tuna_bowl",
+      "name": "Spicy-Tuna Bowl",
+      "category": "Warm Bowls",
+      "subcategory": "Signature Bowls",
+      "description": "Sustainable raw yellowfin tuna, shredded cabbage, cucumber, cilantro, crispy rice, nori, brown rice, spicy cashew dressing.",
+      "price": 15.95,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular bowl",
+        "weight_g": 420.0
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 29.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 610.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 90.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 2.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Fish",
+        "Tree Nuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Yellowfin Tuna",
+        "Cabbage",
+        "Cucumber",
+        "Cilantro",
+        "Crispy Rice",
+        "Nori",
+        "Brown Rice",
+        "Spicy Cashew Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/spicy-tuna-bowl.png",
+      "product_url": "https://www.sweetgreen.com/menu/warm-bowls/spicy-tuna-bowl",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_hummus_crunch_salad",
+      "name": "Hummus Crunch Salad",
+      "category": "Salads",
+      "subcategory": "Signature Salads",
+      "description": "Roasted chicken, hummus, cucumber, tomatoes, pickled onions, crispy pita, chopped romaine, spring mix, lemon herb tahini dressing.",
+      "price": 13.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular salad",
+        "weight_g": 390.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 32.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70.0,
+        "sodium_mg": 690.0,
+        "potassium_mg": 580.0,
+        "carbohydrates_g": 41.0,
+        "fiber_g": 7.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 3.0,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Roasted Chicken",
+        "Hummus",
+        "Cucumber",
+        "Tomatoes",
+        "Pickled Onions",
+        "Crispy Pita",
+        "Romaine",
+        "Spring Mix",
+        "Lemon Herb Tahini"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/hummus-crunch.png",
+      "product_url": "https://www.sweetgreen.com/menu/salads/hummus-crunch-salad",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_organic_iced_green_tea",
+      "name": "Organic Iced Green Tea",
+      "category": "Beverages",
+      "subcategory": "Teas",
+      "description": "Brewed organic green tea, refreshing and unsweetened.",
+      "price": 3.45,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "16 fl oz cup",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 10.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 30.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Organic Green Tea Leaves"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/green-tea.png",
+      "product_url": "https://www.sweetgreen.com/menu/beverages/organic-iced-green-tea",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sg_hibiscus_lime_ade",
+      "name": "Hibiscus Lime Ade",
+      "category": "Beverages",
+      "subcategory": "Specialty Drinks",
+      "description": "House-made organic hibiscus tea blended with fresh lime juice and touch of agave.",
+      "price": 4.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "16 fl oz cup",
+        "weight_g": 480.0
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 15.0,
+        "potassium_mg": 40.0,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 0.0,
+        "sugars_g": 26.0,
+        "added_sugars_g": 24.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.1,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Filtered Water",
+        "Organic Hibiscus Flowers",
+        "Fresh Lime Juice",
+        "Agave Nectar"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sweetgreen.com/media/menu/hibiscus-lime-ade.png",
+      "product_url": "https://www.sweetgreen.com/menu/beverages/hibiscus-lime-ade",
+      "sources": [
+        {
+          "url": "https://www.sweetgreen.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

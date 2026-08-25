@@ -1,0 +1,188 @@
+{
+  "brand": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Treats & Soft Serve",
+    "Shakes & Malts"
+  ],
+  "products": [
+    {
+      "product_id": "dq_vanilla_soft_serve_small",
+      "name": "Vanilla Soft Serve (Small Cone - Gluten Free)",
+      "category": "Treats & Soft Serve",
+      "subcategory": "Cones",
+      "description": "World famous vanilla soft serve in a cup (serving without cone to ensure gluten-free compliance).",
+      "price": 2.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small cup (170g)",
+        "weight_g": 170.0
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 7.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30.0,
+        "sodium_mg": 100.0,
+        "potassium_mg": 260.0,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 0.0,
+        "sugars_g": 28.0,
+        "added_sugars_g": 22.0,
+        "calcium_mg": 240.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milkfat and Nonfat Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Whey",
+        "Mono and Diglycerides",
+        "Artificial Flavor",
+        "Guar Gum",
+        "Polysorbate 80",
+        "Carrageenan",
+        "Vitamin A Palmitate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/images/vanilla-cone-cup.png",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/vanilla-soft-serve/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dq_hot_fudge_sundae_small",
+      "name": "Hot Fudge Sundae (Small - Gluten Free)",
+      "category": "Treats & Soft Serve",
+      "subcategory": "Sundaes",
+      "description": "Vanilla soft serve topped with rich, creamy hot fudge topping.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (225g)",
+        "weight_g": 225.0
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 8.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 180.0,
+        "potassium_mg": 310.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 1.5,
+        "sugars_g": 51.0,
+        "added_sugars_g": 42.0,
+        "calcium_mg": 260.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 2.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Hot Fudge Topping (Corn Syrup, Water, Sugar, Hydrogenated Coconut Oil, Nonfat Dry Milk, Cocoa processed with alkali, Salt, Soy Lecithin, Artificial Flavor)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/images/hot-fudge-sundae.png",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/hot-fudge-sundae/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dq_peanut_buster_parfait",
+      "name": "Peanut Buster Parfait (Gluten Free)",
+      "category": "Treats & Soft Serve",
+      "subcategory": "Parfaits",
+      "description": "Layers of vanilla soft serve, hot fudge, and Spanish peanuts.",
+      "price": 5.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 regular size (360g)",
+        "weight_g": 360.0
+      },
+      "nutrition": {
+        "calories": 720,
+        "protein_g": 18.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 40.0,
+        "sodium_mg": 290.0,
+        "potassium_mg": 650.0,
+        "carbohydrates_g": 86.0,
+        "fiber_g": 4.0,
+        "sugars_g": 68.0,
+        "added_sugars_g": 55.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 2.1,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 3.0
+      },
+      "allergens": [
+        "Milk",
+        "Peanuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Vanilla Soft Serve",
+        "Hot Fudge",
+        "Spanish Peanuts"
+      ],
+      "customizations": [],
+      "image_url": "https://www.dairyqueen.com/images/peanut-buster-parfait.png",
+      "product_url": "https://www.dairyqueen.com/en-us/menu/peanut-buster-parfait/",
+      "sources": [
+        {
+          "url": "https://www.dairyqueen.com/en-us/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "In-N-Out Burger",
+    "website": "https://www.in-n-out.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers",
+    "Favorites"
+  ],
+  "products": [
+    {
+      "product_id": "innout_double_double",
+      "name": "Double-Double Burger",
+      "category": "Burgers",
+      "subcategory": "Beef",
+      "description": "Two 100% American beef patties, hand-leafed lettuce, tomato, spread, with or without onions, stacked high with two slices of real American cheese on a freshly baked bun.",
+      "price": 5.15,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger (330g)",
+        "weight_g": 330.0
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 37.0,
+        "fat_g": 41.0,
+        "saturated_fat_g": 18.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 120.0,
+        "sodium_mg": 1440.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "100% pure beef patties",
+        "American cheese",
+        "hamburger bun",
+        "hand-leafed lettuce",
+        "tomato",
+        "spread (soybean oil, egg yolk, vinegar, sugar, relish)"
+      ],
+      "customizations": [],
+      "image_url": "https://www.in-n-out.com/images/default-source/menus/burgers/double-double.png",
+      "product_url": "https://www.in-n-out.com/menu/double-double",
+      "sources": [
+        {
+          "url": "https://www.in-n-out.com/menu/nutrition-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

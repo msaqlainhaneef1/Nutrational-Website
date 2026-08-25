@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Taco Bell",
+    "website": "https://www.tacobell.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Cantina Menu",
+    "Bowls"
+  ],
+  "products": [
+    {
+      "product_id": "tacobell_cantina_chicken_bowl",
+      "name": "Cantina Chicken Bowl",
+      "category": "Cantina Menu",
+      "subcategory": "Bowls",
+      "description": "Slow-roasted chicken, seasoned black beans, seasoned rice, shredded purple cabbage, crisp lettuce, cheddar cheese, reduced-fat sour cream, guacamole, and pico de gallo.",
+      "price": 7.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 bowl (395g)",
+        "weight_g": 395.0
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 28.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65.0,
+        "sodium_mg": 1340.0,
+        "potassium_mg": 610.0,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 8.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 220.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Slow-Roasted Chicken",
+        "Seasoned Black Beans",
+        "Seasoned Rice",
+        "Shredded Purple Cabbage",
+        "Lettuce",
+        "Cheddar Cheese",
+        "Reduced-Fat Sour Cream",
+        "Guacamole",
+        "Pico de Gallo"
+      ],
+      "customizations": [],
+      "image_url": "https://www.tacobell.com/images/cantina-chicken-bowl.png",
+      "product_url": "https://www.tacobell.com/food/cantina/cantina-chicken-bowl",
+      "sources": [
+        {
+          "url": "https://www.tacobell.com/nutrition/info",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

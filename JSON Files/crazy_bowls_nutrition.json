@@ -1,0 +1,665 @@
+{
+    "restaurant_name": "Crazy Bowls & Wraps",
+    "menu_items": [
+        {
+            "product_name": "BBQ Bowl",
+            "product_description": "Romaine, spicy slaw, cheddar, BBQ sauce",
+            "subcategory": "Bowls",
+            "calories": 410,
+            "total_fat_g": null,
+            "protein_g": 33,
+            "total_carbohydrates_g": 50,
+            "allergens": [
+                "Milk",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Buffalo Bowl",
+            "product_description": "Romaine, cheddar, buffalo sauce",
+            "subcategory": "Bowls",
+            "calories": 320,
+            "total_fat_g": null,
+            "protein_g": 34,
+            "total_carbohydrates_g": 24,
+            "allergens": [
+                "Milk",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Caesar Bowl",
+            "product_description": "Romaine, asiago, caesar dressing",
+            "subcategory": "Bowls",
+            "calories": 480,
+            "total_fat_g": null,
+            "protein_g": 34,
+            "total_carbohydrates_g": 26,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Fish",
+                "Wheat"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Jerk Bowl",
+            "product_description": "Jerk chicken, rice, black beans, pineapple salsa",
+            "subcategory": "Bowls",
+            "calories": 770,
+            "total_fat_g": null,
+            "protein_g": 47,
+            "total_carbohydrates_g": 96,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Fajita Bowl",
+            "product_description": "Red pepper, zucchini, pico de gallo, jalape\u00f1o, avocado, beans",
+            "subcategory": "Bowls",
+            "calories": 710,
+            "total_fat_g": null,
+            "protein_g": 43,
+            "total_carbohydrates_g": 98,
+            "allergens": [
+                "Milk",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "High-Protein Bowl",
+            "product_description": "Double protein, steamed mixed veggies, grain free, choice of sauce",
+            "subcategory": "Bowls",
+            "calories": 380,
+            "total_fat_g": null,
+            "protein_g": 62,
+            "total_carbohydrates_g": 23,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Pesto Bowl",
+            "product_description": "Spinach, red pepper, zucchini, asiago, basil pesto",
+            "subcategory": "Bowls",
+            "calories": 670,
+            "total_fat_g": null,
+            "protein_g": 46,
+            "total_carbohydrates_g": 71,
+            "allergens": [
+                "Milk",
+                "Eggs"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Poke Bowl",
+            "product_description": "Fresh tuna, garlic ginger sauce, avocado, gomo shio, romaine, spicy slaw",
+            "subcategory": "Bowls",
+            "calories": 410,
+            "total_fat_g": 13,
+            "protein_g": 34,
+            "total_carbohydrates_g": 38,
+            "allergens": [
+                "Fish",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Power Bowl",
+            "product_description": "Romaine, beans, cheddar, avocado, pico de gallo, corn salsa",
+            "subcategory": "Bowls",
+            "calories": 680,
+            "total_fat_g": null,
+            "protein_g": 42,
+            "total_carbohydrates_g": 92,
+            "allergens": [
+                "Milk",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Stir Fry Bowl",
+            "product_description": "Steamed mixed veggies, choice of sauce",
+            "subcategory": "Bowls",
+            "calories": 530,
+            "total_fat_g": null,
+            "protein_g": 40,
+            "total_carbohydrates_g": 83,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Sweet & Sour Bowl",
+            "product_description": "Red pepper, onion, sweet and sour sauce",
+            "subcategory": "Bowls",
+            "calories": 560,
+            "total_fat_g": null,
+            "protein_g": 35,
+            "total_carbohydrates_g": 85,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Teriyaki Bowl",
+            "product_description": "Steamed mixed veggies, teriyaki sauce",
+            "subcategory": "Bowls",
+            "calories": 650,
+            "total_fat_g": null,
+            "protein_g": 41,
+            "total_carbohydrates_g": 110,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Thai Bowl",
+            "product_description": "Steamed mixed veggies, Thai peanut sauce",
+            "subcategory": "Bowls",
+            "calories": 710,
+            "total_fat_g": null,
+            "protein_g": 45,
+            "total_carbohydrates_g": 97,
+            "allergens": [
+                "Peanuts",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Mediterranean Bowl",
+            "product_description": "Falafel, quinoa, hummus, tabbouleh, feta, tzatziki",
+            "subcategory": "Bowls",
+            "calories": 900,
+            "total_fat_g": null,
+            "protein_g": 44,
+            "total_carbohydrates_g": 81,
+            "allergens": [
+                "Milk",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Healthy Burrito",
+            "product_description": "Fresh cracked eggs, onion, red pepper, roasted salsa, grain, protein, tortilla",
+            "subcategory": "Wraps",
+            "calories": 270,
+            "protein_g": 21,
+            "total_carbohydrates_g": 11,
+            "allergens": [
+                "Eggs",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Lettuce Wraps",
+            "product_description": "Romaine lettuce instead of a tortilla",
+            "subcategory": "Wraps",
+            "calories": 150,
+            "protein_g": 12,
+            "total_carbohydrates_g": 8,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Fish",
+                "Peanuts",
+                "Wheat",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "BBQ Chicken Quesadilla",
+            "product_description": "Grilled chicken, cheddar, BBQ sauce",
+            "subcategory": "Starters",
+            "calories": 690,
+            "total_fat_g": 25,
+            "saturated_fat_g": 14,
+            "cholesterol_mg": 150,
+            "sodium_mg": 1080,
+            "protein_g": 50,
+            "total_carbohydrates_g": 70,
+            "dietary_fiber_g": 2,
+            "sugars_g": 21,
+            "allergens": [
+                "Milk",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Chicken Tex Mex Egg Roll",
+            "product_description": "Chicken Tex Mex egg roll, creamy buffalo sauce",
+            "subcategory": "Starters",
+            "calories": 270,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 9,
+            "total_carbohydrates_g": 21,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Roasted Cauliflower",
+            "product_description": "Roasted cauliflower, sun dried tomatoes, feta, gomo shio, GF tahini",
+            "subcategory": "Starters",
+            "calories": 570,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 8,
+            "total_carbohydrates_g": 19,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Milk",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "GF Quinoa Falafel",
+            "product_description": "GF quinoa falafel, hummus, tzatziki",
+            "subcategory": "Starters",
+            "calories": 390,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 12,
+            "total_carbohydrates_g": 37,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Milk",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Garlic Ginger Edamame",
+            "product_description": "Edamame, garlic ginger sauce, gomo shio, lime",
+            "subcategory": "Starters",
+            "calories": 340,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 25,
+            "total_carbohydrates_g": 24,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Salt & Lime Edamame",
+            "product_description": "Edamame, lime juice, herb salt, gomo shio",
+            "subcategory": "Starters",
+            "calories": 240,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 20,
+            "total_carbohydrates_g": 24,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Teriyaki Edamame",
+            "product_description": "Edamame, teriyaki sauce, gomo shio, lime",
+            "subcategory": "Starters",
+            "calories": 390,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 22,
+            "total_carbohydrates_g": 56,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Wheat",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Spicy Edamame",
+            "product_description": "Edamame, jalape\u00f1o cilantro sauce, gomo shio, lime",
+            "subcategory": "Starters",
+            "calories": 250,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 21,
+            "total_carbohydrates_g": 22,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Crispy Chicken Bites",
+            "product_description": "Crispy chicken bites, 2 dipping sauces",
+            "subcategory": "Starters",
+            "calories": 440,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 44,
+            "total_carbohydrates_g": 11,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Vegetable Wontons",
+            "product_description": "Vegetable Wontons",
+            "subcategory": "Starters",
+            "calories": 340,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 7,
+            "total_carbohydrates_g": 41,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Wheat",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Lobster Rangoon",
+            "product_description": "Lobster, cream cheese, wontons, sweet chili sauce",
+            "subcategory": "Starters",
+            "calories": 500,
+            "total_fat_g": null,
+            "saturated_fat_g": null,
+            "cholesterol_mg": null,
+            "sodium_mg": null,
+            "protein_g": 12,
+            "total_carbohydrates_g": 73,
+            "dietary_fiber_g": null,
+            "sugars_g": null,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Fish",
+                "Shellfish",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.nutritionix.com/crazy-bowls-wraps/nutrition-calculator"
+        },
+        {
+            "product_name": "Beans & Rice",
+            "product_description": "Beans, rice",
+            "subcategory": "Sides",
+            "calories": 170,
+            "protein_g": 6,
+            "total_carbohydrates_g": 29,
+            "allergens": [
+                "Milk",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Banana",
+            "product_description": "Banana",
+            "subcategory": "Sides",
+            "calories": 105,
+            "protein_g": 1,
+            "total_carbohydrates_g": 27,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Carrots",
+            "product_description": "Fresh carrots",
+            "subcategory": "Sides",
+            "calories": 80,
+            "protein_g": 0,
+            "total_carbohydrates_g": 9,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Chips",
+            "product_description": "Tortilla chips",
+            "subcategory": "Sides",
+            "calories": 180,
+            "protein_g": 2,
+            "total_carbohydrates_g": 18,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Broccoli with Olive Oil & Herb",
+            "product_description": "Broccoli, Olive Oil, Herb Seasoning",
+            "subcategory": "Sides",
+            "calories": 210,
+            "protein_g": 2,
+            "total_carbohydrates_g": 5,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Mixed Veggies",
+            "product_description": "Mixed Veggies",
+            "subcategory": "Sides",
+            "calories": 50,
+            "protein_g": 3,
+            "total_carbohydrates_g": 12,
+            "allergens": [],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Spicy Slaw",
+            "product_description": "Spicy Slaw",
+            "subcategory": "Sides",
+            "calories": 110,
+            "protein_g": 2,
+            "total_carbohydrates_g": 12,
+            "allergens": [
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Multigrain Quinoa Salad",
+            "product_description": "Quinoa, brown rice, mixed greens, garbanzo, avocado, feta",
+            "subcategory": "Salads",
+            "calories": 870,
+            "protein_g": 19,
+            "total_carbohydrates_g": 65,
+            "allergens": [
+                "Milk",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Santa Fe Salad",
+            "product_description": "Mixed greens, corn salsa, pico, tortilla strips, cheddar, avocado",
+            "subcategory": "Salads",
+            "calories": 260,
+            "protein_g": 9,
+            "total_carbohydrates_g": 27,
+            "allergens": [
+                "Milk",
+                "Eggs",
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Kale & Quinoa Salad",
+            "product_description": "Kale, quinoa, feta, garbanzo, pepperoncini, kalamata olives",
+            "subcategory": "Salads",
+            "calories": 730,
+            "protein_g": 15,
+            "total_carbohydrates_g": 50,
+            "allergens": [
+                "Milk",
+                "Soy",
+                "Sesame"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Breakfast Bowl",
+            "product_description": "Fresh cracked eggs, cheddar, grain, protein, salsa, tortilla",
+            "subcategory": "Breakfast",
+            "calories": 280,
+            "protein_g": 23,
+            "total_carbohydrates_g": 1,
+            "allergens": [
+                "Milk",
+                "Eggs"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Kid's Crunchy Chicken Meal",
+            "product_description": "Crunchy chicken, carrots, ranch",
+            "subcategory": "Kids Menu",
+            "calories": 310,
+            "protein_g": 30,
+            "total_carbohydrates_g": 8,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Kids Broccoli & Chicken Bowl",
+            "product_description": "Grilled chicken, broccoli, brown rice, teriyaki",
+            "subcategory": "Kids Menu",
+            "calories": 450,
+            "protein_g": 34,
+            "total_carbohydrates_g": 67,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        },
+        {
+            "product_name": "Kids Chicken Teriyaki Wrap",
+            "product_description": "Teriyaki chicken, brown rice, teriyaki sauce, tortilla",
+            "subcategory": "Kids Menu",
+            "calories": 590,
+            "protein_g": 39,
+            "total_carbohydrates_g": 89,
+            "allergens": [
+                "Wheat",
+                "Soy"
+            ],
+            "availability": "active",
+            "source": "https://www.crazybowlsandwraps.com/nutrition-calculator"
+        }
+    ]
+}

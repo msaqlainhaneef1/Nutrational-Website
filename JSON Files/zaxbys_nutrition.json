@@ -1,0 +1,6055 @@
+{
+  "brand": {
+    "name": "Zaxby's",
+    "website": "https://www.zaxbys.com",
+    "country": "USA",
+    "last_updated": "2025-06-27"
+  },
+  "categories": [
+    "Boxed Lunches",
+    "Drinks",
+    "Kids Meals",
+    "Meals",
+    "Platters",
+    "Sandwiches",
+    "Sauces",
+    "Sides",
+    "Treats",
+    "Wings & Fingers",
+    "Zalads"
+  ],
+  "products": [
+    {
+      "product_id": "zaxbys_the_fried_asian_zensation_zalad",
+      "name": "The Fried Asian Zensation Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 640,
+        "protein_g": 35.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 2160,
+        "potassium_mg": null,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 6.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "Sesame",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_fried_blue_zalad",
+      "name": "The Fried Blue Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 39.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 80,
+        "sodium_mg": 2890,
+        "potassium_mg": null,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_fried_cobb_zalad",
+      "name": "The Fried Cobb Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 55.0,
+        "fat_g": 45.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 315,
+        "sodium_mg": 2130,
+        "potassium_mg": null,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_fried_house_zalad",
+      "name": "The Fried House Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 660,
+        "protein_g": 44.0,
+        "fat_g": 37.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 1920,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_garden_asian_zensation_zalad",
+      "name": "The Garden Asian Zensation Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 8.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 940,
+        "potassium_mg": null,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 6.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_garden_blue_zalad",
+      "name": "The Garden Blue Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 370,
+        "protein_g": 12.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 860,
+        "potassium_mg": null,
+        "carbohydrates_g": 32.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_garden_cobb_zalad",
+      "name": "The Garden Cobb Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 27.0,
+        "fat_g": 34.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 260,
+        "sodium_mg": 910,
+        "potassium_mg": null,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_garden_house_zalad",
+      "name": "The Garden House Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 17.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35,
+        "sodium_mg": 700,
+        "potassium_mg": null,
+        "carbohydrates_g": 33.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_grilled_asian_zensation_zalad",
+      "name": "The Grilled Asian Zensation Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 39.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 1850,
+        "potassium_mg": null,
+        "carbohydrates_g": 54.0,
+        "fiber_g": 7.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_grilled_blue_zalad",
+      "name": "The Grilled Blue Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 43.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 115,
+        "sodium_mg": 1760,
+        "potassium_mg": null,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_grilled_cobb_zalad",
+      "name": "The Grilled Cobb Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 58.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 355,
+        "sodium_mg": 1820,
+        "potassium_mg": null,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_the_grilled_house_zalad",
+      "name": "The Grilled House Zalad",
+      "category": "Zalads",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 48.0,
+        "fat_g": 27.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 130,
+        "sodium_mg": 1600,
+        "potassium_mg": null,
+        "carbohydrates_g": 34.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_add_bacon_2_slices",
+      "name": "Add Bacon (2 Slices)",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 6.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_add_cheese_1_slice",
+      "name": "Add Cheese (1 Slice)",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 3.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 190,
+        "potassium_mg": null,
+        "carbohydrates_g": 1.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_grilled_chicken_sandwich_only",
+      "name": "Grilled Chicken Sandwich Only",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 38.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 100,
+        "sodium_mg": 1440,
+        "potassium_mg": null,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_kickin\u2019_chicken_sandwich_only",
+      "name": "Kickin\u2019 Chicken Sandwich Only",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 690,
+        "protein_g": 34.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 6.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 65,
+        "sodium_mg": 2760,
+        "potassium_mg": null,
+        "carbohydrates_g": 51.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_nibblerz_only",
+      "name": "Nibblerz Only",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 960,
+        "protein_g": 38.0,
+        "fat_g": 56.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 2710,
+        "potassium_mg": null,
+        "carbohydrates_g": 76.0,
+        "fiber_g": 4.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_signature_sandwich_only_with_spicy_zax_sauce",
+      "name": "Signature Sandwich Only with Spicy Zax Sauce",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 590,
+        "protein_g": 31.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 2260,
+        "potassium_mg": null,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_signature_sandwich_only_with_zax_sauce",
+      "name": "Signature Sandwich Only with Zax Sauce",
+      "category": "Sandwiches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 31.0,
+        "fat_g": 32.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 2200,
+        "potassium_mg": null,
+        "carbohydrates_g": 45.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_big_zax_snak_meal",
+      "name": "Big Zax Snak Meal",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 36.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 2650,
+        "potassium_mg": null,
+        "carbohydrates_g": 80.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_&_things",
+      "name": "Boneless Wings & Things",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1450,
+        "protein_g": 62.0,
+        "fat_g": 87.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 125,
+        "sodium_mg": 4620,
+        "potassium_mg": null,
+        "carbohydrates_g": 106.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_meal_5",
+      "name": "Boneless Wings Meal (5)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1040,
+        "protein_g": 34.0,
+        "fat_g": 60.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60,
+        "sodium_mg": 2890,
+        "potassium_mg": null,
+        "carbohydrates_g": 92.0,
+        "fiber_g": 7.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_big_zax_snak_meal",
+      "name": "Buffalo Big Zax Snak Meal",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 900,
+        "protein_g": 36.0,
+        "fat_g": 50.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 70,
+        "sodium_mg": 2980,
+        "potassium_mg": null,
+        "carbohydrates_g": 79.0,
+        "fiber_g": 6.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_boneless_wings_&_things",
+      "name": "Buffalo Boneless Wings & Things",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1460,
+        "protein_g": 63.0,
+        "fat_g": 88.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 125,
+        "sodium_mg": 4950,
+        "potassium_mg": null,
+        "carbohydrates_g": 105.0,
+        "fiber_g": 8.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_chicken_finger_plate_4",
+      "name": "Buffalo Chicken Finger Plate (4)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1130,
+        "protein_g": 46.0,
+        "fat_g": 62.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 3750,
+        "potassium_mg": null,
+        "carbohydrates_g": 98.0,
+        "fiber_g": 8.0,
+        "sugars_g": 15.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_chicken_finger_plate_5",
+      "name": "Buffalo Chicken Finger Plate (5)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1220,
+        "protein_g": 55.0,
+        "fat_g": 66.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 4340,
+        "potassium_mg": null,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 8.0,
+        "sugars_g": 15.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_chicken_finger_plate_6",
+      "name": "Buffalo Chicken Finger Plate (6)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1460,
+        "protein_g": 65.0,
+        "fat_g": 86.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 140,
+        "sodium_mg": 5220,
+        "potassium_mg": null,
+        "carbohydrates_g": 108.0,
+        "fiber_g": 8.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_traditional_wings_&_things",
+      "name": "Buffalo Traditional Wings & Things",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1450,
+        "protein_g": 79.0,
+        "fat_g": 89.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 265,
+        "sodium_mg": 4850,
+        "potassium_mg": null,
+        "carbohydrates_g": 83.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_finger_plate_4",
+      "name": "Chicken Finger Plate (4)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1110,
+        "protein_g": 45.0,
+        "fat_g": 60.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 95,
+        "sodium_mg": 3230,
+        "potassium_mg": null,
+        "carbohydrates_g": 98.0,
+        "fiber_g": 8.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_finger_plate_5",
+      "name": "Chicken Finger Plate (5)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1190,
+        "protein_g": 54.0,
+        "fat_g": 64.0,
+        "saturated_fat_g": 10.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 3640,
+        "potassium_mg": null,
+        "carbohydrates_g": 101.0,
+        "fiber_g": 8.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_finger_plate_6",
+      "name": "Chicken Finger Plate (6)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1430,
+        "protein_g": 64.0,
+        "fat_g": 83.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 140,
+        "sodium_mg": 4560,
+        "potassium_mg": null,
+        "carbohydrates_g": 109.0,
+        "fiber_g": 8.0,
+        "sugars_g": 19.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_traditional_wings_&_things",
+      "name": "Traditional Wings & Things",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1440,
+        "protein_g": 79.0,
+        "fat_g": 88.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 265,
+        "sodium_mg": 4520,
+        "potassium_mg": null,
+        "carbohydrates_g": 84.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_traditional_wings_meal_5",
+      "name": "Traditional Wings Meal (5)",
+      "category": "Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1030,
+        "protein_g": 51.0,
+        "fat_g": 61.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 195,
+        "sodium_mg": 2780,
+        "potassium_mg": null,
+        "carbohydrates_g": 70.0,
+        "fiber_g": 6.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_no_sauce_1_each",
+      "name": "Boneless Wings (No Sauce), 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 220,
+        "potassium_mg": null,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_no_sauce_5_each",
+      "name": "Boneless Wings (No Sauce), 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 26.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1090,
+        "potassium_mg": null,
+        "carbohydrates_g": 22.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_bbq_1_each",
+      "name": "Boneless Wings, BBQ, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 300,
+        "potassium_mg": null,
+        "carbohydrates_g": 7.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_bbq_5_each",
+      "name": "Boneless Wings, BBQ, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 26.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1500,
+        "potassium_mg": null,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 2.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_buffalo_garlic_blaze_1_each",
+      "name": "Boneless Wings, Buffalo Garlic Blaze, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 5.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 400,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_buffalo_garlic_blaze_5_each",
+      "name": "Boneless Wings, Buffalo Garlic Blaze, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 26.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 1990,
+        "potassium_mg": null,
+        "carbohydrates_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_hhm_1_each",
+      "name": "Boneless Wings, HHM, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 5.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_hhm_5_each",
+      "name": "Boneless Wings, HHM, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 26.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 1390,
+        "potassium_mg": null,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_nuclear_1_each",
+      "name": "Boneless Wings, Nuclear, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_nuclear_5_each",
+      "name": "Boneless Wings, Nuclear, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 26.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1600,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_sweet_&_spicy_1_each",
+      "name": "Boneless Wings, Sweet & Spicy, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 260,
+        "potassium_mg": null,
+        "carbohydrates_g": 7.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_sweet_&_spicy_5_each",
+      "name": "Boneless Wings, Sweet & Spicy, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 26.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1310,
+        "potassium_mg": null,
+        "carbohydrates_g": 35.0,
+        "fiber_g": 1.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_teriyaki_1_each",
+      "name": "Boneless Wings, Teriyaki, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 280,
+        "potassium_mg": null,
+        "carbohydrates_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_teriyaki_5_each",
+      "name": "Boneless Wings, Teriyaki, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 430,
+        "protein_g": 26.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1420,
+        "potassium_mg": null,
+        "carbohydrates_g": 31.0,
+        "fiber_g": 1.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_tongue_torch_1_each",
+      "name": "Boneless Wings, Tongue Torch, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 340,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_tongue_torch_5_each",
+      "name": "Boneless Wings, Tongue Torch, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 26.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1680,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_wimpy_1_each",
+      "name": "Boneless Wings, Wimpy, 1 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 5.0,
+        "fat_g": 4.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 320,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_wimpy_5_each",
+      "name": "Boneless Wings, Wimpy, 5 Each",
+      "category": "Wings & Fingers",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 26.0,
+        "fat_g": 22.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45,
+        "sodium_mg": 1590,
+        "potassium_mg": null,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chocolate_chip_cookie",
+      "name": "Chocolate Chip Cookie",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 2.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 125,
+        "potassium_mg": null,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 1.0,
+        "sugars_g": 15.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_fried_cheesecake_bites_no_sauce",
+      "name": "Fried Cheesecake Bites (No Sauce)",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 7.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55,
+        "sodium_mg": 700,
+        "potassium_mg": null,
+        "carbohydrates_g": 53.0,
+        "fiber_g": 2.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_birthday_cake_milkshake",
+      "name": "Handcrafted Birthday Cake Milkshake",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 730,
+        "protein_g": 13.0,
+        "fat_g": 19.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 129.0,
+        "fiber_g": 0.0,
+        "sugars_g": 113.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_chocolate_milkshake",
+      "name": "Handcrafted Chocolate Milkshake",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 670,
+        "protein_g": 14.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60,
+        "sodium_mg": 670,
+        "potassium_mg": null,
+        "carbohydrates_g": 119.0,
+        "fiber_g": 0.0,
+        "sugars_g": 111.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_strawberry_milkshake",
+      "name": "Handcrafted Strawberry Milkshake",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 680,
+        "protein_g": 13.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 121.0,
+        "fiber_g": 1.0,
+        "sugars_g": 110.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_vanilla_milkshake",
+      "name": "Handcrafted Vanilla Milkshake",
+      "category": "Treats",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 570,
+        "protein_g": 13.0,
+        "fat_g": 17.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 60,
+        "sodium_mg": 600,
+        "potassium_mg": null,
+        "carbohydrates_g": 94.0,
+        "fiber_g": 0.0,
+        "sugars_g": 93.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_bbq_dip_cup",
+      "name": "BBQ Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 60,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 480,
+        "potassium_mg": null,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_buffalo_garlic_blaze_2_oz",
+      "name": "Buffalo Garlic Blaze, 2 oz",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 1.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 15,
+        "sodium_mg": 1730,
+        "potassium_mg": null,
+        "carbohydrates_g": 3.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_honey_mustard_dip_cup",
+      "name": "Honey Mustard Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 130,
+        "protein_g": 0.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 210,
+        "potassium_mg": null,
+        "carbohydrates_g": 7.0,
+        "fiber_g": 0.0,
+        "sugars_g": 6.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_hot_honey_mustard_2_oz",
+      "name": "Hot Honey Mustard, 2 oz",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 1.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20,
+        "sodium_mg": 640,
+        "potassium_mg": null,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 0.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_nuclear_2_oz",
+      "name": "Nuclear, 2 oz",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 30,
+        "protein_g": 1.0,
+        "fat_g": 1.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1290,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_ranch_sauce_dip_cup",
+      "name": "Ranch Sauce Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 1.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 290,
+        "potassium_mg": null,
+        "carbohydrates_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_spicy_zax_sauce_dip_cup",
+      "name": "Spicy Zax Sauce Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 170,
+        "protein_g": 1.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 720,
+        "potassium_mg": null,
+        "carbohydrates_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_sweet_&_spicy_dip_cup",
+      "name": "Sweet & Spicy Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 0.0,
+        "fat_g": 1.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 330,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 0.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_teriyaki_2_oz",
+      "name": "Teriyaki, 2 oz",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 110,
+        "protein_g": 2.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 850,
+        "potassium_mg": null,
+        "carbohydrates_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 21.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_tongue_torch_dip_cup",
+      "name": "Tongue Torch Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 20,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 950,
+        "potassium_mg": null,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_wimpy_2_oz",
+      "name": "Wimpy, 2 oz",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 50,
+        "protein_g": 1.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1180,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_zax_sauce_dip_cup",
+      "name": "Zax Sauce Dip Cup",
+      "category": "Sauces",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 0.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 10,
+        "sodium_mg": 510,
+        "potassium_mg": null,
+        "carbohydrates_g": 4.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Egg"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_asian_slaw_side",
+      "name": "Asian Slaw, side",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 100,
+        "protein_g": 1.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 140,
+        "potassium_mg": null,
+        "carbohydrates_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_bacon_ranch_loaded_fries",
+      "name": "Chicken Bacon Ranch Loaded Fries",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1270,
+        "protein_g": 61.0,
+        "fat_g": 78.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 145,
+        "sodium_mg": 3070,
+        "potassium_mg": null,
+        "carbohydrates_g": 88.0,
+        "fiber_g": 8.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_cole_slaw_side",
+      "name": "Cole Slaw, side",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 1.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5,
+        "sodium_mg": 170,
+        "potassium_mg": null,
+        "carbohydrates_g": 13.0,
+        "fiber_g": 2.0,
+        "sugars_g": 11.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_crinkle_fries_large",
+      "name": "Crinkle Fries, Large",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 530,
+        "protein_g": 8.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 930,
+        "potassium_mg": null,
+        "carbohydrates_g": 75.0,
+        "fiber_g": 7.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_crinkle_fries_regular",
+      "name": "Crinkle Fries, Regular",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 330,
+        "protein_g": 5.0,
+        "fat_g": 14.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 580,
+        "potassium_mg": null,
+        "carbohydrates_g": 47.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_fried_pickles",
+      "name": "Fried Pickles",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 5.0,
+        "fat_g": 31.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 2150,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_fried_white_cheddar_bites",
+      "name": "Fried White Cheddar Bites",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 27.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 21.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 75,
+        "sodium_mg": 1550,
+        "potassium_mg": null,
+        "carbohydrates_g": 46.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_texas_toast_1_slice",
+      "name": "Texas Toast, 1 slice",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 3.0,
+        "fat_g": 7.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 340,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_texas_toast_basket",
+      "name": "Texas Toast, Basket",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 9.0,
+        "fat_g": 21.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 1020,
+        "potassium_mg": null,
+        "carbohydrates_g": 57.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Gluten",
+        "Soy"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_veggie_eggroll_1_eggroll",
+      "name": "Veggie Eggroll, 1 Eggroll",
+      "category": "Sides",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 140,
+        "protein_g": 3.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_fingerz_with_zax_sauce",
+      "name": "Chicken Fingerz with Zax Sauce",
+      "category": "Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 19.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 50,
+        "sodium_mg": 1330,
+        "potassium_mg": null,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_goldfish_giant_grahams_vanilla",
+      "name": "Goldfish Giant Grahams, Vanilla",
+      "category": "Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 1.0,
+        "fat_g": 4.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 105,
+        "potassium_mg": null,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 1.0,
+        "sugars_g": 7.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_grilled_cheese_sandwich_only",
+      "name": "Grilled Cheese Sandwich Only",
+      "category": "Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 11.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 8.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 30,
+        "sodium_mg": 1060,
+        "potassium_mg": null,
+        "carbohydrates_g": 39.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_kid's_crinkle_fries",
+      "name": "Kid's Crinkle Fries",
+      "category": "Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 3.0,
+        "fat_g": 8.0,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 350,
+        "potassium_mg": null,
+        "carbohydrates_g": 28.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_rice_krispie_treat",
+      "name": "Rice Krispie Treat",
+      "category": "Kids Meals",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 0.0,
+        "fat_g": 1.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 50,
+        "potassium_mg": null,
+        "carbohydrates_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_apple_juice",
+      "name": "Apple Juice",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 80,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 15,
+        "potassium_mg": null,
+        "carbohydrates_g": 21.0,
+        "fiber_g": 0.0,
+        "sugars_g": 19.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_frozen_lemonade",
+      "name": "Frozen Lemonade",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "potassium_mg": null,
+        "carbohydrates_g": 80.0,
+        "fiber_g": 0.0,
+        "sugars_g": 76.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_frozen_strawberry_lemonade",
+      "name": "Frozen Strawberry Lemonade",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 55,
+        "potassium_mg": null,
+        "carbohydrates_g": 103.0,
+        "fiber_g": 0.0,
+        "sugars_g": 97.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_lemonade",
+      "name": "Handcrafted Lemonade",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "potassium_mg": null,
+        "carbohydrates_g": 91.0,
+        "fiber_g": 0.0,
+        "sugars_g": 86.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_handcrafted_strawberry_lemonade",
+      "name": "Handcrafted Strawberry Lemonade",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 65,
+        "potassium_mg": null,
+        "carbohydrates_g": 102.0,
+        "fiber_g": 0.0,
+        "sugars_g": 96.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_sweet_tea_small",
+      "name": "Sweet Tea, Small",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 0.0,
+        "sugars_g": 66.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_sweet_tea_medium",
+      "name": "Sweet Tea, Medium",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 103.0,
+        "fiber_g": 0.0,
+        "sugars_g": 100.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_sweet_tea_large",
+      "name": "Sweet Tea, Large",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 550,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 137.0,
+        "fiber_g": 0.0,
+        "sugars_g": 133.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_unsweet_tea_small",
+      "name": "Unsweet Tea, Small",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_unsweet_tea_medium",
+      "name": "Unsweet Tea, Medium",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_unsweet_tea_large",
+      "name": "Unsweet Tea, Large",
+      "category": "Drinks",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 5,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0,
+        "sodium_mg": 0,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_fingerz_platter_40-60",
+      "name": "Chicken Fingerz Platter (40-60)",
+      "category": "Platters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 4920,
+        "protein_g": 360.0,
+        "fat_g": 240.0,
+        "saturated_fat_g": 40.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 800,
+        "sodium_mg": 16240,
+        "potassium_mg": null,
+        "carbohydrates_g": 320.0,
+        "fiber_g": 8.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_traditional_wings_platter_40-60",
+      "name": "Traditional Wings Platter (40-60)",
+      "category": "Platters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 4150,
+        "protein_g": 340.0,
+        "fat_g": 240.0,
+        "saturated_fat_g": 60.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 1400,
+        "sodium_mg": 8000,
+        "potassium_mg": null,
+        "carbohydrates_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_boneless_wings_platter_40-60",
+      "name": "Boneless Wings Platter (40-60)",
+      "category": "Platters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 4940,
+        "protein_g": 260.0,
+        "fat_g": 280.0,
+        "saturated_fat_g": 45.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 450,
+        "sodium_mg": 12000,
+        "potassium_mg": null,
+        "carbohydrates_g": 280.0,
+        "fiber_g": 12.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_nibblerz_platter_20_count",
+      "name": "Nibblerz Platter (20 count)",
+      "category": "Platters",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 6500,
+        "protein_g": 250.0,
+        "fat_g": 380.0,
+        "saturated_fat_g": 75.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 470,
+        "sodium_mg": 18000,
+        "potassium_mg": null,
+        "carbohydrates_g": 510.0,
+        "fiber_g": 27.0,
+        "sugars_g": 107.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_zaxby's_signature_sandwich_boxed_lunch",
+      "name": "Zaxby's Signature Sandwich Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1440,
+        "protein_g": 31.0,
+        "fat_g": 53.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 3100,
+        "potassium_mg": null,
+        "carbohydrates_g": 52.0,
+        "fiber_g": 3.0,
+        "sugars_g": 13.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_grilled_chicken_sandwich_boxed_lunch",
+      "name": "Grilled Chicken Sandwich Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 970,
+        "protein_g": 38.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 1610,
+        "potassium_mg": null,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_chicken_fingerz_boxed_lunch",
+      "name": "Chicken Fingerz Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 36.0,
+        "fat_g": 54.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 90,
+        "sodium_mg": 2200,
+        "potassium_mg": null,
+        "carbohydrates_g": 66.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Milk",
+        "Egg",
+        "Wheat",
+        "Gluten",
+        "Soy",
+        "MSG"
+      ],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_nibbler_boxed_lunch",
+      "name": "Nibbler Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 1130,
+        "protein_g": 110.0,
+        "fat_g": 69.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 110,
+        "sodium_mg": 2600,
+        "potassium_mg": null,
+        "carbohydrates_g": 131.0,
+        "fiber_g": 16.0,
+        "sugars_g": 16.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_asian_zensation_zalad_boxed_lunch",
+      "name": "Asian Zensation Zalad Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 630,
+        "protein_g": 49.0,
+        "fat_g": 39.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 105,
+        "sodium_mg": 2509,
+        "potassium_mg": null,
+        "carbohydrates_g": 77.0,
+        "fiber_g": 7.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_house_zalad_boxed_lunch",
+      "name": "House Zalad Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 570,
+        "protein_g": 44.0,
+        "fat_g": 37.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 200,
+        "sodium_mg": 1920,
+        "potassium_mg": null,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "product_id": "zaxbys_cobb_zalad_boxed_lunch",
+      "name": "Cobb Zalad Boxed Lunch",
+      "category": "Boxed Lunches",
+      "subcategory": "",
+      "description": "",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "National"
+      },
+      "serving": {
+        "size": "",
+        "weight_g": null
+      },
+      "nutrition": {
+        "calories": 690,
+        "protein_g": 58.0,
+        "fat_g": 35.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 315,
+        "sodium_mg": 1820,
+        "potassium_mg": null,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [],
+      "ingredients": [],
+      "customizations": [],
+      "image_url": "",
+      "product_url": "https://www.zaxbys.com/menu",
+      "sources": [
+        {
+          "url": "https://www.nutritionix.com/zaxbys/menu/premium",
+          "source_type": "third_party_database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://zaxbysmenuus.com/nutritional-info/",
+          "source_type": "third_party_menu",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

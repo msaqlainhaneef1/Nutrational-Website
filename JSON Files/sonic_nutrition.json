@@ -1,0 +1,491 @@
+{
+  "brand": {
+    "name": "Sonic Drive-In",
+    "website": "https://www.sonicdrivein.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Burgers & Coneys",
+    "Chicken",
+    "Breakfast",
+    "Sides & Snacks",
+    "Drinks & Slushes",
+    "Shakes & Desserts",
+    "Sauces & Dressings"
+  ],
+  "products": [
+    {
+      "product_id": "sonic_supersonic_double_cheeseburger",
+      "name": "SuperSONIC Double Cheeseburger",
+      "category": "Burgers & Coneys",
+      "subcategory": "Burgers",
+      "description": "Two 100% pure beef patties, American cheese, crinkle-cut pickles, chopped onions, fresh tomatoes, lettuce, ketchup, and mayonnaise.",
+      "price": 5.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger",
+        "weight_g": 290.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 39.0,
+        "fat_g": 52.0,
+        "saturated_fat_g": 20.0,
+        "trans_fat_g": 2.0,
+        "cholesterol_mg": 145.0,
+        "sodium_mg": 1330.0,
+        "potassium_mg": 480.0,
+        "carbohydrates_g": 40.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 5.0,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Two Beef Patties",
+        "Hamburger Bun",
+        "American Cheese",
+        "Lettuce",
+        "Tomato",
+        "Pickles",
+        "Onions",
+        "Ketchup",
+        "Mayonnaise"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/supersonic-double.png",
+      "product_url": "https://www.sonicdrivein.com/menu/burgers/supersonic-double-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/sonic",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_footlong_quarter_pound_coney",
+      "name": "Footlong Quarter Pound Coney",
+      "category": "Burgers & Coneys",
+      "subcategory": "Coneys",
+      "description": "A footlong grilled hot dog topped with warm chili and melted cheddar cheese in a soft bakery bun.",
+      "price": 4.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 coney",
+        "weight_g": 260.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 27.0,
+        "fat_g": 50.0,
+        "saturated_fat_g": 19.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 85.0,
+        "sodium_mg": 1780.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "added_sugars_g": 4.0,
+        "calcium_mg": 310.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Footlong Hot Dog",
+        "Bakery Bun",
+        "Warm Chili",
+        "Cheddar Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/footlong-coney.png",
+      "product_url": "https://www.sonicdrivein.com/menu/coneys/footlong-quarter-pound-coney",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_crispy_tenders_3pc",
+      "name": "SuperSONIC Chicken Tenders (3 pc)",
+      "category": "Chicken",
+      "subcategory": "Tenders",
+      "description": "All-white meat crispy breaded chicken tenders served with choice of dipping sauce.",
+      "price": 4.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "3 tenders",
+        "weight_g": 150.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 24.0,
+        "fat_g": 20.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 1020.0,
+        "potassium_mg": 280.0,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 30.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Chicken Breast Tenderloin",
+        "Bleached Wheat Flour",
+        "Water",
+        "Salt",
+        "Vegetable Oil",
+        "Spices"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/chicken-tenders.png",
+      "product_url": "https://www.sonicdrivein.com/menu/chicken/supersonic-chicken-tenders",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_breakfast_toaster_bacon",
+      "name": "Bacon Breakfast TOASTER",
+      "category": "Breakfast",
+      "subcategory": "Breakfast Sandwiches",
+      "description": "Crispy bacon, fluffy eggs, and melted American cheese served on thick-sliced toasted sourdough bread.",
+      "price": 4.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 210.0
+      },
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 25.0,
+        "fat_g": 42.0,
+        "saturated_fat_g": 14.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 255.0,
+        "sodium_mg": 1260.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 33.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 3.5,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Sourdough Bread",
+        "Folded Egg",
+        "Bacon",
+        "American Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/breakfast-toaster.png",
+      "product_url": "https://www.sonicdrivein.com/menu/breakfast/breakfast-toaster",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_mozzarella_sticks_medium",
+      "name": "Mozzarella Sticks (Medium - 6 pc)",
+      "category": "Sides & Snacks",
+      "subcategory": "Sides",
+      "description": "Mozzarella cheese coated in seasoned breadcrumbs, fried crisp, served with marinara sauce.",
+      "price": 4.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 440,
+        "protein_g": 18.0,
+        "fat_g": 24.0,
+        "saturated_fat_g": 11.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": 190.0,
+        "carbohydrates_g": 38.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 450.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.3,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Mozzarella Cheese",
+        "Breadcrumbs",
+        "Bleached Wheat Flour",
+        "Soybean Oil",
+        "Marinara Dip"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/mozzarella-sticks.png",
+      "product_url": "https://www.sonicdrivein.com/menu/sides/mozzarella-sticks",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_tots_medium",
+      "name": "Tater Tots (Medium)",
+      "category": "Sides & Snacks",
+      "subcategory": "Sides",
+      "description": "Crispy golden fried potato tots, seasoned to perfection.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium order",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 4.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 4.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 910.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 41.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt",
+        "Dextrose",
+        "Disodium Dihydrogen Pyrophosphate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/tots.png",
+      "product_url": "https://www.sonicdrivein.com/menu/sides/tater-tots",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_cherry_limeade_medium",
+      "name": "Cherry Limeade (Medium)",
+      "category": "Drinks & Slushes",
+      "subcategory": "Signature Drinks",
+      "description": "Sprite blended with fresh lime juice, cherry syrup, and real lime and cherry slices.",
+      "price": 3.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 fl oz)",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 270,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 45.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 70.0,
+        "fiber_g": 0.0,
+        "sugars_g": 69.0,
+        "added_sugars_g": 68.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Sprite",
+        "Cherry Syrup",
+        "Lime Juice",
+        "Lime Slices",
+        "Cherry"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/cherry-limeade.png",
+      "product_url": "https://www.sonicdrivein.com/menu/drinks/cherry-limeade",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sonic_peanut_butter_shake_medium",
+      "name": "Peanut Butter Master Shake (Medium)",
+      "category": "Shakes & Desserts",
+      "subcategory": "Master Shakes",
+      "description": "Real ice cream blended with rich peanut butter syrup, topped with whipped topping and a cherry.",
+      "price": 4.89,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 fl oz)",
+        "weight_g": 540.0
+      },
+      "nutrition": {
+        "calories": 1040,
+        "protein_g": 23.0,
+        "fat_g": 53.0,
+        "saturated_fat_g": 31.0,
+        "trans_fat_g": 1.5,
+        "cholesterol_mg": 145.0,
+        "sodium_mg": 790.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 122.0,
+        "fiber_g": 3.0,
+        "sugars_g": 105.0,
+        "added_sugars_g": 90.0,
+        "calcium_mg": 680.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 2.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Peanuts",
+        "Soy"
+      ],
+      "ingredients": [
+        "Real Ice Cream",
+        "Peanut Butter Syrup",
+        "Whipped Topping",
+        "Maraschino Cherry"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sonicdrivein.com/media/menu/peanut-butter-shake.png",
+      "product_url": "https://www.sonicdrivein.com/menu/shakes/peanut-butter-master-shake",
+      "sources": [
+        {
+          "url": "https://www.sonicdrivein.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

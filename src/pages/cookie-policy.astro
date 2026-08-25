@@ -1,0 +1,30 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CookiePolicySection from '@/features/shared/components/CookiePolicySection.astro';
+
+const title = "Cookie & Advertising Policy | Nutrition Solver";
+const description = "Learn how Nutrition Solver uses cookies, browser local storage, and Google AdSense DART cookies. Instructions on how to manage and opt out of advertising cookies.";
+const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/cookie-policy`;
+
+const cookieSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cookie & Advertising Policy",
+  "url": canonicalUrl,
+  "description": description,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nutrition Solver",
+    "url": "https://nutritionsolver.com"
+  }
+};
+---
+
+<Layout
+  title="Cookie & Advertising Policy"
+  description={description}
+  canonicalUrl={canonicalUrl}
+  schema={cookieSchema}
+>
+  <CookiePolicySection />
+</Layout>

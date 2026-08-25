@@ -1,0 +1,285 @@
+{
+  "brand": {
+    "name": "Size Comparison",
+    "website": "https://www.sizecomparison.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Small Portions",
+    "Medium Portions",
+    "Large Portions",
+    "Family Portions",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "sc_small_fries",
+      "name": "Small French Fries",
+      "category": "Small Portions",
+      "subcategory": "Sides",
+      "description": "Crispy golden shoestring french fries, lightly salted.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Small (75g)",
+        "weight_g": 75.0
+      },
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 3.0,
+        "fat_g": 11.0,
+        "saturated_fat_g": 1.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 160.0,
+        "potassium_mg": 270.0,
+        "carbohydrates_g": 29.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.2,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sizecomparison.com/media/menu/small-fries.png",
+      "product_url": "https://www.sizecomparison.com/menu/sides/small-fries",
+      "sources": [
+        {
+          "url": "https://www.sizecomparison.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sc_medium_fries",
+      "name": "Medium French Fries",
+      "category": "Medium Portions",
+      "subcategory": "Sides",
+      "description": "Crispy golden shoestring french fries, lightly salted, medium portion.",
+      "price": 3.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (115g)",
+        "weight_g": 115.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 4.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 2.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 240.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 44.0,
+        "fiber_g": 4.0,
+        "sugars_g": 0.3,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sizecomparison.com/media/menu/medium-fries.png",
+      "product_url": "https://www.sizecomparison.com/menu/sides/medium-fries",
+      "sources": [
+        {
+          "url": "https://www.sizecomparison.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sc_large_fries",
+      "name": "Large French Fries",
+      "category": "Large Portions",
+      "subcategory": "Sides",
+      "description": "Crispy golden shoestring french fries, lightly salted, large portion.",
+      "price": 4.19,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Large (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 6.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 3.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 350.0,
+        "potassium_mg": 580.0,
+        "carbohydrates_g": 63.0,
+        "fiber_g": 6.0,
+        "sugars_g": 0.4,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.7,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sizecomparison.com/media/menu/large-fries.png",
+      "product_url": "https://www.sizecomparison.com/menu/sides/large-fries",
+      "sources": [
+        {
+          "url": "https://www.sizecomparison.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sc_family_fries",
+      "name": "Family Share French Fries",
+      "category": "Family Portions",
+      "subcategory": "Sides",
+      "description": "Extra-large portion of crispy golden shoestring french fries designed to share.",
+      "price": 6.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Family Share (320g)",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 960,
+        "protein_g": 12.0,
+        "fat_g": 46.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 700.0,
+        "potassium_mg": 1160.0,
+        "carbohydrates_g": 126.0,
+        "fiber_g": 12.0,
+        "sugars_g": 0.8,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 40.0,
+        "iron_mg": 3.4,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sizecomparison.com/media/menu/family-fries.png",
+      "product_url": "https://www.sizecomparison.com/menu/sides/family-fries",
+      "sources": [
+        {
+          "url": "https://www.sizecomparison.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "sc_cola_medium",
+      "name": "Classic Cola",
+      "category": "Beverages",
+      "subcategory": "Soft Drinks",
+      "description": "Refreshing carbonated cola beverage.",
+      "price": 2.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Medium (20 fl oz)",
+        "weight_g": 590.0
+      },
+      "nutrition": {
+        "calories": 240,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "saturated_fat_g": 0.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 45.0,
+        "potassium_mg": 20.0,
+        "carbohydrates_g": 65.0,
+        "fiber_g": 0.0,
+        "sugars_g": 65.0,
+        "added_sugars_g": 65.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 45.0
+      },
+      "allergens": [],
+      "ingredients": [
+        "Carbonated Water",
+        "High Fructose Corn Syrup",
+        "Caramel Color",
+        "Phosphoric Acid",
+        "Natural Flavors",
+        "Caffeine"
+      ],
+      "customizations": [],
+      "image_url": "https://www.sizecomparison.com/media/menu/cola.png",
+      "product_url": "https://www.sizecomparison.com/menu/beverages/cola",
+      "sources": [
+        {
+          "url": "https://www.sizecomparison.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

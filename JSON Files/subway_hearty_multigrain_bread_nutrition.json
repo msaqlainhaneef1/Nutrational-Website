@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Subway",
+    "website": "https://www.subway.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Breads"
+  ],
+  "products": [
+    {
+      "product_id": "subway-6-inch-hearty-multigrain-bread",
+      "name": "6\" Hearty Multigrain Bread",
+      "category": "Breads",
+      "subcategory": "Bread",
+      "description": "Subway's hearty multigrain bread, freshly baked and packed with grains and seeds.",
+      "price": null,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 inch",
+        "weight_g": 71.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 8.0,
+        "fat_g": 2.5,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 360.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "added_sugars_g": 3.0,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": null
+      },
+      "allergens": [
+        "Wheat",
+        "Soy"
+      ],
+      "ingredients": [
+        "Whole Wheat Flour",
+        "Enriched Flour",
+        "Water",
+        "Yeast",
+        "Sugar",
+        "Grain and Seed Blend",
+        "Wheat Gluten"
+      ],
+      "customizations": [],
+      "image_url": "https://www.subway.com/en-us/menunutrition/nutrition",
+      "product_url": "https://www.subway.com/en-us/menunutrition/nutrition",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/subway/6-9-grain-wheat-bread",
+          "source_type": "Nutrition Database",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://www.subway.com/en-us/menunutrition/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

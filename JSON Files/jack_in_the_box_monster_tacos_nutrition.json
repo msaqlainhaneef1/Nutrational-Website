@@ -1,0 +1,132 @@
+{
+  "brand": {
+    "name": "Jack in the Box",
+    "website": "https://www.jackinthebox.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Tacos",
+    "Monster Tacos"
+  ],
+  "products": [
+    {
+      "product_id": "jitb_monster_taco_beef",
+      "name": "Monster Taco",
+      "category": "Monster Tacos",
+      "subcategory": "Tacos",
+      "description": "A crispy corn tortilla filled with seasoned beef, American cheese, lettuce, and taco sauce.",
+      "price": 2.29,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco (130g)",
+        "weight_g": 130.0
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 11.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 680.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Crispy Corn Tortilla",
+        "Seasoned Beef Filling",
+        "American Cheese Slice",
+        "Lettuce",
+        "Taco Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/images/monster-taco.png",
+      "product_url": "https://www.jackinthebox.com/food/tacos/monster-taco",
+      "sources": [
+        {
+          "url": "https://www.jackinthebox.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "jitb_monster_taco_spicy",
+      "name": "Spicy Monster Taco",
+      "category": "Monster Tacos",
+      "subcategory": "Tacos",
+      "description": "A crispy corn tortilla filled with seasoned beef, American cheese, lettuce, and extra spicy taco sauce.",
+      "price": 2.39,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 taco (131g)",
+        "weight_g": 131.0
+      },
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 11.0,
+        "fat_g": 16.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 20.0,
+        "sodium_mg": 710.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 26.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 100.0,
+        "iron_mg": 1.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Crispy Corn Tortilla",
+        "Seasoned Beef Filling",
+        "American Cheese Slice",
+        "Lettuce",
+        "Spicy Taco Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.jackinthebox.com/images/spicy-monster-taco.png",
+      "product_url": "https://www.jackinthebox.com/food/tacos/spicy-monster-taco",
+      "sources": [
+        {
+          "url": "https://www.jackinthebox.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

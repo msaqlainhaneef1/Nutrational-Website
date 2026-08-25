@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Arby's",
+    "website": "https://www.arbys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Sandwiches",
+    "Limited Time Offerings"
+  ],
+  "products": [
+    {
+      "product_id": "arbys_crispy_fish_sandwich",
+      "name": "Crispy Fish Sandwich",
+      "category": "Sandwiches",
+      "subcategory": "Seafood Sandwiches",
+      "description": "Crispy-fried Alaskan pollock fillet with shredded iceberg lettuce and tartar sauce on a sesame seed bun.",
+      "price": 4.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich",
+        "weight_g": 228.0
+      },
+      "nutrition": {
+        "calories": 570,
+        "protein_g": 14.0,
+        "fat_g": 25.0,
+        "saturated_fat_g": 4.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 1180.0,
+        "potassium_mg": null,
+        "carbohydrates_g": 65.0,
+        "fiber_g": 3.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": null,
+        "calcium_mg": null,
+        "iron_mg": null,
+        "vitamin_d_mcg": null,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Fish",
+        "Wheat",
+        "Milk",
+        "Egg",
+        "Soy",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Crispy Fish Fillet (Alaskan Pollock)",
+        "Sesame Seed Bun",
+        "Shredded Iceberg Lettuce",
+        "Tartar Sauce"
+      ],
+      "customizations": [
+        "No Tartar Sauce",
+        "Extra Tartar Sauce",
+        "No Lettuce"
+      ],
+      "image_url": "https://fastfoodnutrition.org/arbys/crispy-fish-sandwich",
+      "product_url": "https://www.arbys.com/menu/crispy-fish-sandwich",
+      "sources": [
+        {
+          "url": "https://fastfoodnutrition.org/arbys/crispy-fish-sandwich",
+          "source_type": "Third-Party Nutrition Database",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://www.arbys.com/nutrition/",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

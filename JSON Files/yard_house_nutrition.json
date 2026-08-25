@@ -1,0 +1,439 @@
+{
+  "brand": {
+    "name": "Yard House",
+    "website": "https://www.yardhouse.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Appetizers & Snacks",
+    "Gardein & Vegetarian",
+    "Burgers & Sandwiches",
+    "Steaks & Entrees",
+    "Tacos & Street Food",
+    "Desserts",
+    "Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "yh_poke_nachos",
+      "name": "Poke Nachos",
+      "category": "Appetizers & Snacks",
+      "subcategory": "Appetizers",
+      "description": "Crispy wontons, marinated ahi tuna, avocado, serrano peppers, sriracha aioli, white truffle sauce, nori, cilantro.",
+      "price": 18.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 appetizer sharing portion",
+        "weight_g": 420.0
+      },
+      "nutrition": {
+        "calories": 890,
+        "protein_g": 32.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 55.0,
+        "sodium_mg": 1420.0,
+        "potassium_mg": 680.0,
+        "carbohydrates_g": 86.0,
+        "fiber_g": 6.0,
+        "sugars_g": 14.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 110.0,
+        "iron_mg": 4.2,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Fish",
+        "Soy",
+        "Wheat",
+        "Sesame"
+      ],
+      "ingredients": [
+        "Wonton Chips",
+        "Ahi Tuna",
+        "Avocado",
+        "Serrano Peppers",
+        "Sriracha Aioli",
+        "White Truffle Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/poke-nachos.png",
+      "product_url": "https://www.yardhouse.com/menu/appetizers/poke-nachos",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/yard-house",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "yh_classic_cheeseburger",
+      "name": "Classic Cheeseburger",
+      "category": "Burgers & Sandwiches",
+      "subcategory": "Burgers",
+      "description": "Double-R Ranch beef patty, cheddar cheese, lettuce, tomato, red onion, garlic aioli on a toasted brioche bun.",
+      "price": 17.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 burger with fries",
+        "weight_g": 510.0
+      },
+      "nutrition": {
+        "calories": 1120,
+        "protein_g": 54.0,
+        "fat_g": 72.0,
+        "saturated_fat_g": 26.0,
+        "trans_fat_g": 2.0,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 1380.0,
+        "potassium_mg": 740.0,
+        "carbohydrates_g": 62.0,
+        "fiber_g": 4.0,
+        "sugars_g": 9.0,
+        "added_sugars_g": 5.0,
+        "calcium_mg": 380.0,
+        "iron_mg": 6.8,
+        "vitamin_d_mcg": 1.2,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Beef Patty",
+        "Cheddar Cheese",
+        "Brioche Bun",
+        "Garlic Aioli",
+        "Lettuce",
+        "Tomato",
+        "Red Onion"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/classic-cheeseburger.png",
+      "product_url": "https://www.yardhouse.com/menu/burgers/classic-cheeseburger",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "yh_gardein_wings",
+      "name": "Gardein Wings",
+      "category": "Gardein & Vegetarian",
+      "subcategory": "Appetizers",
+      "description": "Crispy plant-based Gardein wings tossed in choice of buffalo or barbecue sauce, served with vegan ranch and celery.",
+      "price": 15.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 order (320g)",
+        "weight_g": 320.0
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 36.0,
+        "fat_g": 28.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 1850.0,
+        "potassium_mg": 540.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 8.0,
+        "sugars_g": 12.0,
+        "added_sugars_g": 8.0,
+        "calcium_mg": 120.0,
+        "iron_mg": 4.5,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Soy",
+        "Wheat"
+      ],
+      "ingredients": [
+        "Gardein Plant-Based Protein",
+        "Buffalo Sauce",
+        "Vegan Ranch",
+        "Celery"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/gardein-wings.png",
+      "product_url": "https://www.yardhouse.com/menu/vegetarian/gardein-wings",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "yh_ribeye_steak",
+      "name": "Ribeye Steak (12 oz)",
+      "category": "Steaks & Entrees",
+      "subcategory": "Steaks",
+      "description": "Hand-carved 12 oz ribeye steak served with mashed potatoes and roasted asparagus.",
+      "price": 36.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entrée (540g)",
+        "weight_g": 540.0
+      },
+      "nutrition": {
+        "calories": 1050,
+        "protein_g": 68.0,
+        "fat_g": 78.0,
+        "saturated_fat_g": 32.0,
+        "trans_fat_g": 2.5,
+        "cholesterol_mg": 210.0,
+        "sodium_mg": 1150.0,
+        "potassium_mg": 920.0,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 7.5,
+        "vitamin_d_mcg": 1.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ribeye Steak",
+        "Mashed Potatoes",
+        "Roasted Asparagus",
+        "Steak Butter"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/ribeye-steak.png",
+      "product_url": "https://www.yardhouse.com/menu/entrees/ribeye",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "yh_nashville_hot_chicken",
+      "name": "Nashville Hot Chicken",
+      "category": "Steaks & Entrees",
+      "subcategory": "Specialty Entrees",
+      "description": "All-breast chicken breast dipped in hot spice blend, served with sweet potato pancakes, honey glaze, and ranch dressing.",
+      "price": 24.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 entrée (620g)",
+        "weight_g": 620.0
+      },
+      "nutrition": {
+        "calories": 1420,
+        "protein_g": 62.0,
+        "fat_g": 86.0,
+        "saturated_fat_g": 22.0,
+        "trans_fat_g": 1.0,
+        "cholesterol_mg": 190.0,
+        "sodium_mg": 2480.0,
+        "potassium_mg": 980.0,
+        "carbohydrates_g": 112.0,
+        "fiber_g": 7.0,
+        "sugars_g": 38.0,
+        "added_sugars_g": 30.0,
+        "calcium_mg": 260.0,
+        "iron_mg": 5.8,
+        "vitamin_d_mcg": 1.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Soy",
+        "Eggs"
+      ],
+      "ingredients": [
+        "Chicken Breast",
+        "Hot Spice Oil",
+        "Sweet Potato Pancakes",
+        "Honey Glaze",
+        "Ranch Dressing"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/nashville-hot-chicken.png",
+      "product_url": "https://www.yardhouse.com/menu/entrees/nashville-hot-chicken",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "yh_street_tacos_carne_asada",
+      "name": "Carne Asada Street Tacos",
+      "category": "Tacos & Street Food",
+      "subcategory": "Tacos",
+      "description": "Three flour tortillas, marinated steak, avocado, poblano peppers, onions, cilantro, salsa verde, and cotija cheese.",
+      "price": 17.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "3 tacos (450g)",
+        "weight_g": 450.0
+      },
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 42.0,
+        "fat_g": 36.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 95.0,
+        "sodium_mg": 1340.0,
+        "potassium_mg": 710.0,
+        "carbohydrates_g": 68.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 5.4,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk"
+      ],
+      "ingredients": [
+        "Flour Tortillas",
+        "Marinated Steak",
+        "Avocado",
+        "Poblano Peppers",
+        "Onions",
+        "Cilantro",
+        "Cotija Cheese"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/carne-asada-tacos.png",
+      "product_url": "https://www.yardhouse.com/menu/tacos/carne-asada",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "yh_mini_cinnamon_sugar_beignets",
+      "name": "Mini Cinnamon Sugar Beignets",
+      "category": "Desserts",
+      "subcategory": "Desserts",
+      "description": "Warm pastry dough dusted with cinnamon sugar, served with vanilla ice cream and caramel dipping sauce.",
+      "price": 9.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 dessert share (280g)",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 11.0,
+        "fat_g": 38.0,
+        "saturated_fat_g": 16.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 75.0,
+        "sodium_mg": 460.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 112.0,
+        "fiber_g": 3.0,
+        "sugars_g": 62.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 3.2,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat",
+        "Milk",
+        "Eggs",
+        "Soy"
+      ],
+      "ingredients": [
+        "Pastry Dough",
+        "Cinnamon Sugar",
+        "Vanilla Ice Cream",
+        "Caramel Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.yardhouse.com/media/menu/beignets.png",
+      "product_url": "https://www.yardhouse.com/menu/desserts/beignets",
+      "sources": [
+        {
+          "url": "https://www.yardhouse.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

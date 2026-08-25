@@ -1,0 +1,307 @@
+{
+  "brand": {
+    "name": "Caramel Frappuccino",
+    "website": "https://www.caramelfrappuccino.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Classic Caramel Frappuccino",
+    "Light / Skinny Caramel Frappuccino",
+    "Oat Milk Caramel Frappuccino",
+    "Almond Milk Caramel Frappuccino",
+    "Caramel Toppings & Add-ons"
+  ],
+  "products": [
+    {
+      "product_id": "cf_grande_whole_milk",
+      "name": "Caramel Frappuccino with Whole Milk",
+      "category": "Classic Caramel Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Coffee, caramel syrup, milk and ice blended together and topped with whipped cream and buttery caramel drizzle.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 9.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 230.0,
+        "potassium_mg": 320.0,
+        "carbohydrates_g": 56.0,
+        "fiber_g": 0.0,
+        "sugars_g": 54.0,
+        "added_sugars_g": 48.0,
+        "calcium_mg": 160.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 90.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Whole Milk",
+        "Coffee Frappuccino Syrup",
+        "Caramel Syrup",
+        "Whipped Cream",
+        "Caramel Drizzle"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caramelfrappuccino.com/media/menu/caramel-frap-whole.png",
+      "product_url": "https://www.caramelfrappuccino.com/menu/classic/whole-milk",
+      "sources": [
+        {
+          "url": "https://www.caramelfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/caramel-frappuccino",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "cf_grande_nonfat_milk",
+      "name": "Caramel Frappuccino with Nonfat Milk (No Whip)",
+      "category": "Light / Skinny Caramel Frappuccino",
+      "subcategory": "Blended Beverages",
+      "description": "Lighter version made with nonfat milk, sugar-free caramel syrup, and no whipped cream.",
+      "price": 5.75,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 455.0
+      },
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 5.0,
+        "fat_g": 0.5,
+        "saturated_fat_g": 0.1,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 210.0,
+        "potassium_mg": 360.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 0.0,
+        "sugars_g": 41.0,
+        "added_sugars_g": 36.0,
+        "calcium_mg": 180.0,
+        "iron_mg": 0.2,
+        "vitamin_d_mcg": 0.2,
+        "caffeine_mg": 90.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Ice",
+        "Nonfat Milk",
+        "Coffee Base",
+        "Sugar-Free Caramel Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caramelfrappuccino.com/media/menu/caramel-frap-light.png",
+      "product_url": "https://www.caramelfrappuccino.com/menu/light/nonfat-milk",
+      "sources": [
+        {
+          "url": "https://www.caramelfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cf_grande_oat_milk",
+      "name": "Caramel Frappuccino with Oat Milk",
+      "category": "Oat Milk Caramel Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Classic caramel blended beverage crafted with creamy oat milk.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 3.0,
+        "fat_g": 10.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 240.0,
+        "potassium_mg": 290.0,
+        "carbohydrates_g": 61.0,
+        "fiber_g": 2.0,
+        "sugars_g": 52.0,
+        "added_sugars_g": 46.0,
+        "calcium_mg": 140.0,
+        "iron_mg": 0.6,
+        "vitamin_d_mcg": 0.8,
+        "caffeine_mg": 90.0
+      },
+      "allergens": [
+        "Gluten (Oat)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Oat Milk",
+        "Coffee Base",
+        "Caramel Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caramelfrappuccino.com/media/menu/caramel-frap-oat.png",
+      "product_url": "https://www.caramelfrappuccino.com/menu/plant-based/oat-milk",
+      "sources": [
+        {
+          "url": "https://www.caramelfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cf_grande_almond_milk",
+      "name": "Caramel Frappuccino with Almond Milk",
+      "category": "Almond Milk Caramel Frappuccino",
+      "subcategory": "Plant-Based",
+      "description": "Blended coffee and caramel beverage made with nutritious almond milk.",
+      "price": 6.25,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Grande / Medium (16 fl oz)",
+        "weight_g": 470.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 2.0,
+        "fat_g": 6.0,
+        "saturated_fat_g": 0.5,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 250.0,
+        "potassium_mg": 210.0,
+        "carbohydrates_g": 55.0,
+        "fiber_g": 1.5,
+        "sugars_g": 50.0,
+        "added_sugars_g": 44.0,
+        "calcium_mg": 210.0,
+        "iron_mg": 0.4,
+        "vitamin_d_mcg": 0.6,
+        "caffeine_mg": 90.0
+      },
+      "allergens": [
+        "Tree Nuts (Almonds)"
+      ],
+      "ingredients": [
+        "Ice",
+        "Almond Milk",
+        "Coffee Base",
+        "Caramel Syrup"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caramelfrappuccino.com/media/menu/caramel-frap-almond.png",
+      "product_url": "https://www.caramelfrappuccino.com/menu/plant-based/almond-milk",
+      "sources": [
+        {
+          "url": "https://www.caramelfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "cf_caramel_drizzle_topping",
+      "name": "Extra Caramel Drizzle",
+      "category": "Caramel Toppings & Add-ons",
+      "subcategory": "Toppings",
+      "description": "Rich buttery sweet caramel sauce drizzled over beverages.",
+      "price": 0.8,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 serving (30g)",
+        "weight_g": 30.0
+      },
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 0.0,
+        "fat_g": 1.5,
+        "saturated_fat_g": 1.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 5.0,
+        "sodium_mg": 65.0,
+        "potassium_mg": 25.0,
+        "carbohydrates_g": 19.0,
+        "fiber_g": 0.0,
+        "sugars_g": 18.0,
+        "added_sugars_g": 18.0,
+        "calcium_mg": 10.0,
+        "iron_mg": 0.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Corn Syrup",
+        "Sugar",
+        "Condensed Skim Milk",
+        "Heavy Cream",
+        "Water",
+        "Natural Flavor",
+        "Salt"
+      ],
+      "customizations": [],
+      "image_url": "https://www.caramelfrappuccino.com/media/menu/caramel-drizzle.png",
+      "product_url": "https://www.caramelfrappuccino.com/menu/addons/caramel-drizzle",
+      "sources": [
+        {
+          "url": "https://www.caramelfrappuccino.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

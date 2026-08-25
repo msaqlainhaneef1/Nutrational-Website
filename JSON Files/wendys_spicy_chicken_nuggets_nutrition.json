@@ -1,0 +1,182 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Chicken Nuggets",
+    "Sides & Snacks"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_spicy_chicken_nuggets_4pc",
+      "name": "Spicy Chicken Nuggets (4 Pc.)",
+      "category": "Chicken Nuggets",
+      "subcategory": "Spicy Nuggets",
+      "description": "Juicy 100% white-meat chicken breaded and marinated in a fiery blend of peppers and spices, served hot and crispy.",
+      "price": 1.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "4 pieces (64g)",
+        "weight_g": 64.0
+      },
+      "nutrition": {
+        "calories": 190,
+        "protein_g": 9.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 25.0,
+        "sodium_mg": 460.0,
+        "potassium_mg": 130.0,
+        "carbohydrates_g": 11.0,
+        "fiber_g": 1.0,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 15.0,
+        "iron_mg": 0.8,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning (Spices, Salt, Garlic Powder, Onion Powder, Extractives of Paprika)",
+        "Breadified in Bleached Wheat Flour, Water, Modified Corn Starch, Salt, Spices, Wheat Gluten, Leavening"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/spicy-chicken-nuggets-4pc.png",
+      "product_url": "https://www.wendys.com/menu/chicken/spicy-chicken-nuggets",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_spicy_chicken_nuggets_6pc",
+      "name": "Spicy Chicken Nuggets (6 Pc.)",
+      "category": "Chicken Nuggets",
+      "subcategory": "Spicy Nuggets",
+      "description": "Juicy 100% white-meat chicken breaded and marinated in a fiery blend of peppers and spices in a 6-piece portion.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "6 pieces (96g)",
+        "weight_g": 96.0
+      },
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 14.0,
+        "fat_g": 18.0,
+        "saturated_fat_g": 3.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 35.0,
+        "sodium_mg": 690.0,
+        "potassium_mg": 195.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.5,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning (Spices, Salt, Garlic Powder, Onion Powder, Extractives of Paprika)",
+        "Breadified in Bleached Wheat Flour, Water, Modified Corn Starch, Salt, Spices, Wheat Gluten, Leavening"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/spicy-chicken-nuggets-6pc.png",
+      "product_url": "https://www.wendys.com/menu/chicken/spicy-chicken-nuggets",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "wendys_spicy_chicken_nuggets_10pc",
+      "name": "Spicy Chicken Nuggets (10 Pc.)",
+      "category": "Chicken Nuggets",
+      "subcategory": "Spicy Nuggets",
+      "description": "Juicy 100% white-meat chicken breaded and marinated in a fiery blend of peppers and spices in a 10-piece portion.",
+      "price": 4.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "10 pieces (160g)",
+        "weight_g": 160.0
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 24.0,
+        "fat_g": 30.0,
+        "saturated_fat_g": 5.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 60.0,
+        "sodium_mg": 1150.0,
+        "potassium_mg": 325.0,
+        "carbohydrates_g": 27.0,
+        "fiber_g": 2.5,
+        "sugars_g": 0.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 35.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "White Meat Chicken",
+        "Water",
+        "Seasoning (Spices, Salt, Garlic Powder, Onion Powder, Extractives of Paprika)",
+        "Breadified in Bleached Wheat Flour, Water, Modified Corn Starch, Salt, Spices, Wheat Gluten, Leavening"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/images/spicy-chicken-nuggets-10pc.png",
+      "product_url": "https://www.wendys.com/menu/chicken/spicy-chicken-nuggets",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

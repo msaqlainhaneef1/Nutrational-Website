@@ -6,6 +6,8 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://nutritionsolver.com',
+  trailingSlash: 'always',
+  compressHTML: true,
   build: {
     inlineStylesheets: 'never',
     assets: 'assets',

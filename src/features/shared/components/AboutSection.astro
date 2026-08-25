@@ -1,0 +1,155 @@
+---
+import Breadcrumb from '@/features/shared/components/Breadcrumb.astro';
+import { Award, ShieldCheck, HeartPulse, Database, Lock, Users, Sparkles, CheckCircle2, ArrowRight } from '@lucide/astro';
+
+const coreValues = [
+  {
+    icon: Lock,
+    title: 'Privacy by Default',
+    desc: 'All calculator inputs, meal plans, and body metrics stay stored in your browser sandbox. We do not store or sell your personal dietary data.'
+  },
+  {
+    icon: Database,
+    title: 'Zero-Fluff Direct Data',
+    desc: 'Instant access to 100+ restaurant chains and 16,000+ menu items without popups, forced email registrations, or hidden paywalls.'
+  },
+  {
+    icon: HeartPulse,
+    title: 'Clinically Audited Formulas',
+    desc: 'Calculations utilize verified clinical equations (Mifflin-St Jeor, Harris-Benedict, U.S. Navy) audited by registered dietitian nutritionists.'
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Commercial Independence',
+    desc: 'Our nutritional ratings and macros are completely uninfluenced by sponsorships. We report official disclosures faithfully.'
+  }
+];
+
+const milestones = [
+  { count: '100+', label: 'Restaurant Chains Disclosed' },
+  { count: '16,000+', label: 'Standardized Menu Items' },
+  { count: '9', label: 'Clinically Audited Calculators' },
+  { count: '100%', label: 'Free & Privacy-Preserving' }
+];
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <Breadcrumb items={[{ label: 'About Us', url: '/about' }]} />
+
+  <!-- Hero Header -->
+  <div class="space-y-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
+      <Sparkles class="h-3.5 w-3.5" />
+      <span>Empowering Transparent Nutrition</span>
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-black text-white tracking-tight">
+      About <span class="text-gradient">Nutrition Solver</span>
+    </h1>
+    <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-3xl">
+      Nutrition Solver was engineered to eliminate the noise from nutrition tracking. We combine verified restaurant data, USDA food composition tables, and clinical health calculators into a fast, privacy-first platform built for everyone.
+    </p>
+  </div>
+
+  <!-- Stats Grid -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+    {milestones.map((m) => (
+      <div class="glass-card rounded-2xl p-5 border border-zinc-800 text-center space-y-1">
+        <div class="text-3xl font-black text-emerald-400">{m.count}</div>
+        <div class="text-xs text-zinc-400 font-medium">{m.label}</div>
+      </div>
+    ))}
+  </div>
+
+  <!-- Mission & Why We Built This -->
+  <div class="glass-card rounded-3xl p-6 sm:p-10 border border-zinc-800 space-y-6">
+    <div class="space-y-3">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white">Why Nutrition Solver Exists</h2>
+      <p class="text-sm sm:text-base text-zinc-300 leading-relaxed">
+        For years, checking restaurant calories or calculating daily energy expenditure meant navigating bloated websites loaded with intrusive ads, paywalls, mandatory account registrations, and misleading dietary claims. Finding out how many grams of protein were in a grilled chicken salad required clicking through layers of clickbait.
+      </p>
+      <p class="text-sm sm:text-base text-zinc-300 leading-relaxed">
+        We set out to build a clean, static, high-speed alternative. Nutrition Solver renders instantly, operates client-side calculators in real time, and provides transparent reference data that empowers you to make informed dietary choices.
+      </p>
+    </div>
+  </div>
+
+  <!-- Core Pillars Grid -->
+  <div class="space-y-6">
+    <h2 class="text-2xl font-bold text-white text-center sm:text-left">What Makes Us Different</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      {coreValues.map((val) => {
+        const Icon = val.icon;
+        return (
+          <div class="glass-card rounded-2xl p-6 border border-zinc-800 space-y-3">
+            <div class="h-10 w-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+              <Icon class="h-5 w-5" />
+            </div>
+            <h3 class="text-lg font-bold text-white">{val.title}</h3>
+            <p class="text-sm text-zinc-400 leading-relaxed">{val.desc}</p>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Data Sources & Methodology -->
+  <div class="glass-card rounded-3xl p-6 sm:p-10 border border-zinc-800 space-y-6">
+    <div class="space-y-3">
+      <h2 class="text-2xl font-bold text-white">Where Our Data Comes From</h2>
+      <p class="text-sm text-zinc-300 leading-relaxed">
+        We maintain a rigorous data pipeline to ensure every number on Nutrition Solver is traceable to a primary source:
+      </p>
+      <ul class="space-y-3 text-sm text-zinc-300 leading-relaxed">
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+          <span><strong>Restaurant Nutrition Menus:</strong> Gathered directly from official corporate nutrition portals and laboratory test disclosures from 100+ national dining chains.</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+          <span><strong>Whole Food Nutrition:</strong> Sourced from the USDA Agricultural Research Service FoodData Central (Foundation Foods & SR Legacy).</span>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+          <span><strong>Physiological Equations:</strong> Calculators use gold-standard clinical equations such as Mifflin-St Jeor, Devine ideal body weight, and U.S. Navy circumference body fat methods.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Medical Review Board Highlight -->
+  <div class="glass-card rounded-3xl p-6 sm:p-10 border border-emerald-500/20 bg-emerald-500/[0.02] flex flex-col sm:flex-row items-center sm:items-start gap-6">
+    <div class="h-20 w-20 rounded-2xl bg-emerald-500/10 border-2 border-emerald-500/30 flex items-center justify-center flex-shrink-0">
+      <Award class="h-10 w-10 text-emerald-400" />
+    </div>
+    <div class="space-y-3 text-center sm:text-left flex-grow">
+      <h3 class="text-xl font-bold text-white">Reviewed by Registered Dietitians</h3>
+      <p class="text-sm text-zinc-300 leading-relaxed">
+        Our medical review team is led by <strong>Dr. Sarah Jenkins (PhD, RDN, LDN)</strong>, ensuring that all calculator algorithms, macro allocations, and educational guidelines conform to contemporary clinical dietetic literature.
+      </p>
+      <div class="pt-2 flex flex-wrap gap-4 justify-center sm:justify-start">
+        <a href="/authors/sarah-jenkins/" class="text-xs font-bold text-emerald-400 hover:underline flex items-center gap-1">
+          <span>View Dr. Jenkins's Profile</span>
+          <ArrowRight class="h-3.5 w-3.5" />
+        </a>
+        <a href="/editorial-policy/" class="text-xs font-bold text-zinc-400 hover:text-white transition-colors flex items-center gap-1">
+          <span>Read Editorial Policy</span>
+          <ArrowRight class="h-3.5 w-3.5" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Callout -->
+  <div class="glass-card rounded-2xl p-6 border border-zinc-800 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="space-y-1">
+      <h4 class="font-bold text-white text-base">Have Feedback or Suggestions?</h4>
+      <p class="text-xs text-zinc-400">Our editorial and research team welcomes reader suggestions and data reviews.</p>
+    </div>
+    <a
+      href="/contact/"
+      class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-xs rounded-xl transition-all shadow-md flex-shrink-0"
+    >
+      Contact Us
+    </a>
+  </div>
+</div>

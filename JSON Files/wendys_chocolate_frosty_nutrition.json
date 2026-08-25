@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Wendy's",
+    "website": "https://www.wendys.com",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Desserts",
+    "Frosty"
+  ],
+  "products": [
+    {
+      "product_id": "wendys_chocolate_frosty_medium",
+      "name": "Chocolate Frosty (Medium)",
+      "category": "Desserts",
+      "subcategory": "Frosty",
+      "description": "The legendary dairy dessert, thick and creamy with rich chocolate flavor.",
+      "price": 2.69,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 medium (454g)",
+        "weight_g": 454.0
+      },
+      "nutrition": {
+        "calories": 470,
+        "protein_g": 12.0,
+        "fat_g": 12.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.5,
+        "cholesterol_mg": 45.0,
+        "sodium_mg": 290.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 81.0,
+        "fiber_g": 2.0,
+        "sugars_g": 65.0,
+        "added_sugars_g": 52.0,
+        "calcium_mg": 400.0,
+        "iron_mg": 0.5,
+        "vitamin_d_mcg": 1.5,
+        "caffeine_mg": 5.0
+      },
+      "allergens": [
+        "Milk"
+      ],
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Corn Syrup",
+        "Cream",
+        "Cocoa (Processed with Alkali)",
+        "Whey",
+        "Nonfat Dry Milk",
+        "Cellulose Gum",
+        "Guar Gum",
+        "Mono and Diglycerides",
+        "Carrageenan",
+        "Dextrose",
+        "Vitamin A Palmitate"
+      ],
+      "customizations": [],
+      "image_url": "https://www.wendys.com/sites/default/files/2021-05/chocolate-frosty.png",
+      "product_url": "https://www.wendys.com/menu/chocolate-frosty",
+      "sources": [
+        {
+          "url": "https://www.wendys.com/en-us/nutrition-and-allergens",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

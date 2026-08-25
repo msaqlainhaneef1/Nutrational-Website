@@ -5,7 +5,7 @@
   "description": "Calculate calories and track macros for Firehouse Subs hot specialty subs, salads, and sides.",
   "category": "Sandwiches & Deli",
   "emoji": "\ud83e\udd6a",
-  "itemCount": 221,
+  "itemCount": 399,
   "categories": [
     {
       "name": "Desserts",
@@ -2684,6 +2684,49 @@
           "saturated_fat": 0,
           "sugars": 2,
           "trans_fat": 0
+        },
+        {
+          "name": "Firehouse Chopped Side Salad",
+          "calories": 62,
+          "protein": 5,
+          "fat": 3,
+          "carbs": 8,
+          "fiber": 3,
+          "sodium": 90,
+          "sugars": 4
+        },
+        {
+          "name": "Firehouse Chopped Salad without Meat",
+          "calories": 125,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 12,
+          "fiber": 3,
+          "sodium": 290,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Chopped Hook & Ladder Salad",
+          "calories": 264,
+          "protein": 30,
+          "fat": 8,
+          "carbs": 18,
+          "fiber": 3,
+          "sodium": 880,
+          "saturated_fat": 3,
+          "sugars": 12
+        },
+        {
+          "name": "Italian Chopped Salad with Grilled Chicken",
+          "calories": 409,
+          "protein": 32,
+          "fat": 22,
+          "carbs": 22,
+          "fiber": 4,
+          "sodium": 1580,
+          "saturated_fat": 7,
+          "sugars": 5
         }
       ]
     },
@@ -2954,6 +2997,1831 @@
           "saturated_fat": 0,
           "sugars": 6,
           "trans_fat": 0
+        },
+        {
+          "name": "Broccoli & Cheese Soup",
+          "calories": 340,
+          "protein": 16,
+          "fat": 18,
+          "carbs": 17,
+          "fiber": 3,
+          "sodium": 1060,
+          "saturated_fat": 10,
+          "sugars": 8
+        },
+        {
+          "name": "Chicken & Dumpling Soup",
+          "calories": 120,
+          "protein": 5,
+          "fat": 4,
+          "carbs": 17,
+          "fiber": 1,
+          "sodium": 980,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Chicken Noodle Soup",
+          "calories": 120,
+          "protein": 5,
+          "fat": 3,
+          "carbs": 17,
+          "fiber": 1,
+          "sodium": 1130,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Loaded Potato Soup",
+          "calories": 240,
+          "protein": 8,
+          "fat": 14,
+          "carbs": 20,
+          "fiber": 2,
+          "sodium": 820,
+          "saturated_fat": 8,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Hot Specialty Subs",
+      "items": [
+        {
+          "name": "Engineer",
+          "calories": 360,
+          "protein": 19,
+          "fat": 18,
+          "carbs": 32,
+          "fiber": 3,
+          "sodium": 1160,
+          "cholesterol": 30,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Hook & Ladder",
+          "calories": 360,
+          "protein": 18,
+          "fat": 18,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1080,
+          "cholesterol": 40,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Italian",
+          "calories": 470,
+          "protein": 20,
+          "fat": 29,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 1470,
+          "cholesterol": 75,
+          "saturated_fat": 9,
+          "sugars": 9
+        },
+        {
+          "name": "Hero",
+          "calories": 400,
+          "protein": 24,
+          "fat": 19,
+          "carbs": 33,
+          "fiber": 3,
+          "sodium": 1300,
+          "cholesterol": 70,
+          "saturated_fat": 5,
+          "sugars": 9
+        },
+        {
+          "name": "Firehouse Meatball",
+          "calories": 460,
+          "protein": 21,
+          "fat": 29,
+          "carbs": 31,
+          "fiber": 2,
+          "sodium": 1060,
+          "cholesterol": 65,
+          "saturated_fat": 12,
+          "sugars": 6
+        },
+        {
+          "name": "Club on a Sub",
+          "calories": 380,
+          "protein": 20,
+          "fat": 20,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1150,
+          "cholesterol": 50,
+          "saturated_fat": 6,
+          "sugars": 9
+        },
+        {
+          "name": "Turkey Bacon Ranch",
+          "calories": 420,
+          "protein": 21,
+          "fat": 23,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1320,
+          "cholesterol": 50,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Steak & Cheese",
+          "calories": 410,
+          "protein": 20,
+          "fat": 23,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1100,
+          "cholesterol": 60,
+          "saturated_fat": 6,
+          "sugars": 6
+        },
+        {
+          "name": "Smokehouse Beef & Cheddar Brisket",
+          "calories": 450,
+          "protein": 16,
+          "fat": 30,
+          "carbs": 28,
+          "fiber": 1,
+          "sodium": 1000,
+          "cholesterol": 70,
+          "saturated_fat": 10,
+          "sugars": 6
+        },
+        {
+          "name": "Sweet & Spicy Meatball",
+          "calories": 480,
+          "protein": 21,
+          "fat": 29,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 1220,
+          "cholesterol": 65,
+          "saturated_fat": 12,
+          "sugars": 10
+        },
+        {
+          "name": "New York Steamer",
+          "calories": 360,
+          "protein": 20,
+          "fat": 20,
+          "carbs": 25,
+          "fiber": 2,
+          "sodium": 1090,
+          "cholesterol": 55,
+          "saturated_fat": 6,
+          "sugars": 3
+        },
+        {
+          "name": "Spicy Cajun Chicken",
+          "calories": 360,
+          "protein": 23,
+          "fat": 18,
+          "carbs": 27,
+          "fiber": 3,
+          "sodium": 1420,
+          "cholesterol": 60,
+          "saturated_fat": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Jamaican Jerk Turkey",
+          "calories": 360,
+          "protein": 17,
+          "fat": 18,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 870,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 9
+        },
+        {
+          "name": "Chicken Parmesan Meatball",
+          "calories": 420,
+          "protein": 20,
+          "fat": 22,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 980,
+          "cholesterol": 65,
+          "saturated_fat": 10,
+          "sugars": 8
+        },
+        {
+          "name": "Pepperoni Pizza Meatball",
+          "calories": 680,
+          "protein": 30,
+          "fat": 38,
+          "carbs": 44,
+          "fiber": 3,
+          "sodium": 1420,
+          "cholesterol": 90,
+          "saturated_fat": 16,
+          "sugars": 10
+        },
+        {
+          "name": "BBQ Cuban",
+          "calories": 440,
+          "protein": 24,
+          "fat": 22,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 1200,
+          "cholesterol": 65,
+          "saturated_fat": 8,
+          "sugars": 12
+        },
+        {
+          "name": "Chicken Gyro Hero",
+          "calories": 404,
+          "protein": 22,
+          "fat": 20,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 1180,
+          "cholesterol": 55,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Everything Hook & Ladder",
+          "calories": 817,
+          "protein": 38,
+          "fat": 40,
+          "carbs": 72,
+          "fiber": 5,
+          "sodium": 2100,
+          "cholesterol": 85,
+          "saturated_fat": 11,
+          "sugars": 18
+        }
+      ]
+    },
+    {
+      "name": "Build Your Own Subs",
+      "items": [
+        {
+          "name": "Grilled Chicken Breast",
+          "calories": 350,
+          "protein": 21,
+          "fat": 18,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1220,
+          "cholesterol": 50,
+          "saturated_fat": 5,
+          "sugars": 7
+        },
+        {
+          "name": "Virginia Honey Ham",
+          "calories": 380,
+          "protein": 20,
+          "fat": 18,
+          "carbs": 32,
+          "fiber": 3,
+          "sodium": 1100,
+          "cholesterol": 40,
+          "saturated_fat": 4,
+          "sugars": 14
+        },
+        {
+          "name": "Smoked Turkey & Provolone",
+          "calories": 340,
+          "protein": 18,
+          "fat": 17,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1130,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 7
+        },
+        {
+          "name": "Roast Beef",
+          "calories": 370,
+          "protein": 22,
+          "fat": 18,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 1140,
+          "cholesterol": 45,
+          "saturated_fat": 4,
+          "sugars": 5
+        },
+        {
+          "name": "Corned Beef",
+          "calories": 370,
+          "protein": 24,
+          "fat": 19,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 1290,
+          "cholesterol": 45,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Pastrami",
+          "calories": 360,
+          "protein": 21,
+          "fat": 19,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 1350,
+          "cholesterol": 40,
+          "saturated_fat": 5,
+          "sugars": 5
+        },
+        {
+          "name": "Veggie",
+          "calories": 360,
+          "protein": 13,
+          "fat": 22,
+          "carbs": 30,
+          "fiber": 3,
+          "sodium": 1070,
+          "cholesterol": 30,
+          "saturated_fat": 6,
+          "sugars": 7
+        },
+        {
+          "name": "Tuna",
+          "calories": 460,
+          "protein": 21,
+          "fat": 34,
+          "carbs": 34,
+          "fiber": 3,
+          "sodium": 850,
+          "cholesterol": 35,
+          "saturated_fat": 6,
+          "sugars": 8
+        },
+        {
+          "name": "Jamaican Jerk Turkey (BYO)",
+          "calories": 340,
+          "protein": 19,
+          "fat": 18,
+          "carbs": 28,
+          "fiber": 3,
+          "sodium": 870,
+          "cholesterol": 30,
+          "saturated_fat": 4,
+          "sugars": 6
+        }
+      ]
+    },
+    {
+      "name": "Sides & Desserts",
+      "items": [
+        {
+          "name": "5-Cheese Mac & Cheese",
+          "calories": 380,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 44,
+          "fiber": 2,
+          "sodium": 780,
+          "saturated_fat": 9,
+          "sugars": 6
+        },
+        {
+          "name": "Brownie",
+          "calories": 430,
+          "protein": 5,
+          "fat": 20,
+          "carbs": 56,
+          "fiber": 3,
+          "sodium": 240,
+          "saturated_fat": 10,
+          "sugars": 38
+        },
+        {
+          "name": "Chili Side",
+          "calories": 180,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 14,
+          "fiber": 3,
+          "sodium": 580,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Chocolate Chip Cookie",
+          "calories": 310,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 52,
+          "fiber": 2,
+          "sodium": 160,
+          "saturated_fat": 7,
+          "sugars": 35
+        },
+        {
+          "name": "Chocolate Mint Cookie",
+          "calories": 310,
+          "protein": 4,
+          "fat": 15,
+          "carbs": 50,
+          "fiber": 2,
+          "sodium": 160,
+          "saturated_fat": 7,
+          "sugars": 33
+        },
+        {
+          "name": "Coleslaw Side",
+          "calories": 140,
+          "protein": 1,
+          "fat": 8,
+          "carbs": 18,
+          "fiber": 2,
+          "sodium": 320,
+          "saturated_fat": 1,
+          "sugars": 12
+        },
+        {
+          "name": "Crunchy Cheetos",
+          "calories": 310,
+          "protein": 4,
+          "fat": 18,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 420,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Doritos Cool Ranch",
+          "calories": 260,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 32,
+          "fiber": 3,
+          "sodium": 420,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Doritos Nacho Cheese",
+          "calories": 240,
+          "protein": 4,
+          "fat": 13,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 380,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Fritos",
+          "calories": 320,
+          "protein": 3,
+          "fat": 17,
+          "carbs": 39,
+          "fiber": 3,
+          "sodium": 340,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Funyuns",
+          "calories": 160,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 21,
+          "fiber": 1,
+          "sodium": 280,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Lay's Kettle Cooked Chips",
+          "calories": 190,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 170,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Lay's Kettle Cooked Jalapeno Cheddar Chips",
+          "calories": 190,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 290,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Lay's Original Chips",
+          "calories": 240,
+          "protein": 3,
+          "fat": 15,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 340,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Lay's Sour Cream and Onion Chips",
+          "calories": 240,
+          "protein": 3,
+          "fat": 15,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 380,
+          "saturated_fat": 2,
+          "sugars": 2
+        },
+        {
+          "name": "Lemon Cookie",
+          "calories": 330,
+          "protein": 3,
+          "fat": 15,
+          "carbs": 34,
+          "fiber": 1,
+          "sodium": 380,
+          "saturated_fat": 7,
+          "sugars": 18
+        },
+        {
+          "name": "Miss Vickie's Hand Picked Jalapeno Chips",
+          "calories": 210,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 310,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Miss Vickie's Sea Salt and Vinegar Chips",
+          "calories": 210,
+          "protein": 2,
+          "fat": 13,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 330,
+          "saturated_fat": 1,
+          "sugars": 2
+        },
+        {
+          "name": "Miss Vickie's Simply Sea Salt Original Chips",
+          "calories": 210,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 270,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Miss Vickie's Smokehouse BBQ Chips",
+          "calories": 210,
+          "protein": 3,
+          "fat": 13,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 340,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "Oatmeal Raisin Cookie",
+          "calories": 290,
+          "protein": 4,
+          "fat": 13,
+          "carbs": 47,
+          "fiber": 2,
+          "sodium": 190,
+          "saturated_fat": 6,
+          "sugars": 24
+        },
+        {
+          "name": "Oven Baked Lay's BBQ Chips",
+          "calories": 140,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 28,
+          "fiber": 2,
+          "sodium": 310,
+          "sugars": 3
+        },
+        {
+          "name": "Oven Baked Lay's Regular Chips",
+          "calories": 130,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 160,
+          "sugars": 3
+        },
+        {
+          "name": "Oven Baked Ruffles Cheddar and Sour Cream Chips",
+          "calories": 130,
+          "protein": 2,
+          "fat": 2,
+          "carbs": 26,
+          "fiber": 2,
+          "sodium": 270,
+          "sugars": 3
+        },
+        {
+          "name": "Rice Krispies Treat",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10,
+          "sodium": 50,
+          "sugars": 4
+        },
+        {
+          "name": "Sunchips Harvest Cheddar",
+          "calories": 210,
+          "protein": 4,
+          "fat": 6,
+          "carbs": 34,
+          "fiber": 3,
+          "sodium": 220,
+          "saturated_fat": 1,
+          "sugars": 3
+        },
+        {
+          "name": "French Fries",
+          "calories": 520,
+          "protein": 6,
+          "fat": 22,
+          "carbs": 72,
+          "fiber": 6,
+          "sodium": 680,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Cajun French Fries",
+          "calories": 550,
+          "protein": 7,
+          "fat": 24,
+          "carbs": 74,
+          "fiber": 6,
+          "sodium": 920,
+          "saturated_fat": 3,
+          "sugars": 2
+        },
+        {
+          "name": "Extra Cheesy Mac & Cheese Bowl",
+          "calories": 380,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 46,
+          "fiber": 2,
+          "sodium": 820,
+          "saturated_fat": 9,
+          "sugars": 6
+        },
+        {
+          "name": "Cookies & Creme Cookie",
+          "calories": 320,
+          "protein": 4,
+          "fat": 16,
+          "carbs": 44,
+          "fiber": 2,
+          "sodium": 180,
+          "saturated_fat": 8,
+          "sugars": 26
+        }
+      ]
+    },
+    {
+      "name": "Kids Meals",
+      "items": [
+        {
+          "name": "Kid's Turkey Sub",
+          "calories": 220,
+          "protein": 18,
+          "fat": 6,
+          "carbs": 33,
+          "fiber": 2,
+          "sodium": 720,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Kid's Ham Sub",
+          "calories": 261,
+          "protein": 19,
+          "fat": 7,
+          "carbs": 39,
+          "fiber": 2,
+          "sodium": 690,
+          "saturated_fat": 3,
+          "sugars": 10
+        },
+        {
+          "name": "Kid's Roast Beef Sub",
+          "calories": 251,
+          "protein": 21,
+          "fat": 7,
+          "carbs": 31,
+          "fiber": 2,
+          "sodium": 720,
+          "saturated_fat": 3,
+          "sugars": 3
+        },
+        {
+          "name": "Kid's Meatball Sub",
+          "calories": 357,
+          "protein": 17,
+          "fat": 21,
+          "carbs": 37,
+          "fiber": 2,
+          "sodium": 790,
+          "saturated_fat": 10,
+          "sugars": 4
+        }
+      ]
+    },
+    {
+      "name": "Kids Beverages",
+      "items": [
+        {
+          "name": "1% Chocolate Milk",
+          "calories": 150,
+          "protein": 8,
+          "fat": 3,
+          "carbs": 22,
+          "sodium": 120,
+          "saturated_fat": 1,
+          "sugars": 18
+        },
+        {
+          "name": "1% Milk",
+          "calories": 90,
+          "protein": 8,
+          "fat": 2,
+          "carbs": 12,
+          "sodium": 120,
+          "saturated_fat": 1,
+          "sugars": 12
+        },
+        {
+          "name": "Apple Juice",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "sodium": 10,
+          "sugars": 24
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Barq's Root Beer",
+          "calories": 165,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 43,
+          "sodium": 30,
+          "sugars": 43
+        },
+        {
+          "name": "Caffeine Free Diet Coke",
+          "calories": 1,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Cherry Lime-aid",
+          "calories": 180,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 46,
+          "sodium": 10,
+          "sugars": 44
+        },
+        {
+          "name": "Cherry Lime-aid Light",
+          "calories": 120,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 30,
+          "sodium": 10,
+          "sugars": 28
+        },
+        {
+          "name": "Cherry Lime-Aid Zero Sugar",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Coca-Cola",
+          "calories": 146,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 30,
+          "sugars": 39
+        },
+        {
+          "name": "Coke Zero",
+          "calories": 1,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 30
+        },
+        {
+          "name": "Dasani Sparkling Seltzer Water",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "name": "Diet Barq's Root Beer",
+          "calories": 1,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 25
+        },
+        {
+          "name": "Diet Coke",
+          "calories": 1,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 40
+        },
+        {
+          "name": "Diet Seagram's Ginger Ale",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 15
+        },
+        {
+          "name": "Fanta Orange",
+          "calories": 164,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 43,
+          "sodium": 35,
+          "sugars": 43
+        },
+        {
+          "name": "Fanta Zero Orange",
+          "calories": 2,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 30
+        },
+        {
+          "name": "FUZE Diet Tea",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        },
+        {
+          "name": "FUZE Sweet Tea",
+          "calories": 127,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 5,
+          "sugars": 32
+        },
+        {
+          "name": "FUZE Unsweetened Tea",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Mello Yello",
+          "calories": 127,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 33,
+          "sodium": 10,
+          "sugars": 33
+        },
+        {
+          "name": "Mello Yello Zero",
+          "calories": 2,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 5
+        },
+        {
+          "name": "Minute Maid Lemonade",
+          "calories": 161,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 10,
+          "sugars": 39
+        },
+        {
+          "name": "Minute Maid Light Lemonade",
+          "calories": 8,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 5,
+          "sugars": 1
+        },
+        {
+          "name": "Minute Maid Pink Lemonade",
+          "calories": 161,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 41,
+          "sodium": 10,
+          "sugars": 39
+        },
+        {
+          "name": "Pibb Xtra",
+          "calories": 146,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 30,
+          "sugars": 39
+        },
+        {
+          "name": "Pibb Zero",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 25
+        },
+        {
+          "name": "Seagram's Ginger Ale",
+          "calories": 99,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 26,
+          "sodium": 15,
+          "sugars": 25
+        },
+        {
+          "name": "Sprite",
+          "calories": 145,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 39,
+          "sodium": 35,
+          "sugars": 38
+        },
+        {
+          "name": "Sprite Zero",
+          "calories": 5,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 30
+        },
+        {
+          "name": "Sweet Tea",
+          "calories": 158,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sodium": 5,
+          "sugars": 38
+        },
+        {
+          "name": "Unsweet Tea",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 5
+        },
+        {
+          "name": "Vitaminwater Lemonade-C",
+          "calories": 73,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 19,
+          "sugars": 19
+        },
+        {
+          "name": "VitaminWater Orangeade-C",
+          "calories": 71,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 18,
+          "sugars": 18
+        },
+        {
+          "name": "VitaminWater Pink Squeezed",
+          "calories": 73,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 19,
+          "sugars": 19
+        },
+        {
+          "name": "VitaminWater Tropical-C",
+          "calories": 71,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 18,
+          "sugars": 18
+        },
+        {
+          "name": "Sweet Tea (Large)",
+          "calories": 580,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 145,
+          "sodium": 10,
+          "sugars": 138
+        },
+        {
+          "name": "Coca-Cola (Large)",
+          "calories": 536,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 143,
+          "sodium": 75,
+          "sugars": 143
+        },
+        {
+          "name": "Barq's Root Beer (Large)",
+          "calories": 605,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 159,
+          "sodium": 100,
+          "sugars": 159
+        },
+        {
+          "name": "Sprite (Large)",
+          "calories": 532,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 143,
+          "sodium": 90,
+          "sugars": 140
+        },
+        {
+          "name": "Cherry Lime-aid (Large)",
+          "calories": 660,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 170,
+          "sodium": 30,
+          "sugars": 162
+        }
+      ]
+    },
+    {
+      "name": "Salad Dressings",
+      "items": [
+        {
+          "name": "Balsamic Salad Dressing",
+          "calories": 108,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 9,
+          "sodium": 280,
+          "saturated_fat": 1,
+          "sugars": 7
+        },
+        {
+          "name": "Honey Mustard Dressing",
+          "calories": 300,
+          "protein": 2,
+          "fat": 24,
+          "carbs": 22,
+          "sodium": 440,
+          "saturated_fat": 3,
+          "sugars": 15
+        }
+      ]
+    },
+    {
+      "name": "Sub Condiments",
+      "items": [
+        {
+          "name": "Balsamic Dressing Sauce",
+          "calories": 16,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 2,
+          "sodium": 40,
+          "sugars": 1
+        },
+        {
+          "name": "Cajun Mayo",
+          "calories": 95,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 0,
+          "sodium": 180,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Cajun Seasoning",
+          "calories": 6,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 320
+        },
+        {
+          "name": "Captain Sorensen's Datil Pepper Hot Sauce",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 100,
+          "sugars": 1
+        },
+        {
+          "name": "Cream Cheese",
+          "calories": 36,
+          "protein": 1,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 30,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Garlic Blend",
+          "calories": 102,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 2,
+          "sodium": 180,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Honey Mustard",
+          "calories": 38,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 7,
+          "sodium": 120,
+          "sugars": 6
+        },
+        {
+          "name": "Italian Salad Dressing",
+          "calories": 15,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 1,
+          "sodium": 120,
+          "sugars": 1
+        },
+        {
+          "name": "Italian Seasoning",
+          "calories": 9,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "fiber": 1,
+          "sodium": 200
+        },
+        {
+          "name": "Jerk Mustard",
+          "calories": 25,
+          "protein": 0,
+          "fat": 1,
+          "carbs": 3,
+          "sodium": 200,
+          "sugars": 2
+        },
+        {
+          "name": "Light Mayonnaise",
+          "calories": 36,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 100
+        },
+        {
+          "name": "Marinara Sauce",
+          "calories": 13,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3,
+          "fiber": 1,
+          "sodium": 280,
+          "sugars": 2
+        },
+        {
+          "name": "Mayonnaise",
+          "calories": 101,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 0,
+          "sodium": 100,
+          "saturated_fat": 2
+        },
+        {
+          "name": "Oil and Vinegar Dressing",
+          "calories": 20,
+          "protein": 0,
+          "fat": 2,
+          "carbs": 0,
+          "sodium": 60
+        },
+        {
+          "name": "Peppercorn Ranch Dressing",
+          "calories": 47,
+          "protein": 0,
+          "fat": 5,
+          "carbs": 1,
+          "sodium": 120,
+          "saturated_fat": 1,
+          "sugars": 1
+        },
+        {
+          "name": "Spicy Mustard",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 120
+        },
+        {
+          "name": "Sriracha Sauce",
+          "calories": 11,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 180,
+          "sugars": 1
+        },
+        {
+          "name": "Sweet Baby Ray's BBQ Sauce",
+          "calories": 27,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sodium": 200,
+          "sugars": 5
+        },
+        {
+          "name": "Sweet Mustard",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sodium": 120,
+          "sugars": 5
+        },
+        {
+          "name": "Gator Hammock Gator Sauce",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 90,
+          "sugars": 1
+        },
+        {
+          "name": "CHA! by Texas Pete Sriracha Sauce",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 80,
+          "sugars": 1
+        },
+        {
+          "name": "Backdraft Fire Sauce",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 90
+        },
+        {
+          "name": "Fat Cat Peach Maple Bourbon Hot Sauce",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 70,
+          "sugars": 1
+        },
+        {
+          "name": "Florida Man's Lunacy Pineapple Hot Sauce",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 80,
+          "sugars": 1
+        },
+        {
+          "name": "Bee Sting Honey n' Habanero Pepper Sauce",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 85,
+          "sugars": 1
+        },
+        {
+          "name": "Hot N Saucy Carrot N Chipotle",
+          "calories": 3,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 80,
+          "sugars": 1
+        },
+        {
+          "name": "Deep Canyon Co. Sizzlin' Scorpion Hot Sauce",
+          "calories": 4,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1,
+          "sodium": 75,
+          "sugars": 1
+        },
+        {
+          "name": "TABASCO Original Red Sauce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 75
+        },
+        {
+          "name": "Cholula Original Hot Sauce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 80
+        },
+        {
+          "name": "Frank's Red Hot Original",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 190
+        },
+        {
+          "name": "TABASCO Green Jalapeno Sauce",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 60
+        }
+      ]
+    },
+    {
+      "name": "Sub Breads",
+      "items": [
+        {
+          "name": "Everything Hoagie Roll",
+          "calories": 400,
+          "protein": 12,
+          "fat": 8,
+          "carbs": 72,
+          "fiber": 4,
+          "sodium": 800,
+          "saturated_fat": 2,
+          "sugars": 6
+        },
+        {
+          "name": "Garlic Bread",
+          "calories": 220,
+          "protein": 5,
+          "fat": 6,
+          "carbs": 36,
+          "fiber": 2,
+          "sodium": 480,
+          "saturated_fat": 2,
+          "sugars": 4
+        },
+        {
+          "name": "Gluten Free Ciabatta Roll",
+          "calories": 190,
+          "protein": 4,
+          "fat": 3,
+          "carbs": 34,
+          "fiber": 2,
+          "sodium": 380,
+          "sugars": 3
+        },
+        {
+          "name": "Wheat Sub Roll",
+          "calories": 120,
+          "protein": 4,
+          "fat": 2,
+          "carbs": 22,
+          "fiber": 2,
+          "sodium": 220,
+          "sugars": 2
+        },
+        {
+          "name": "White Sub Roll",
+          "calories": 120,
+          "protein": 4,
+          "fat": 2,
+          "carbs": 24,
+          "fiber": 1,
+          "sodium": 220,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Cheeses",
+      "items": [
+        {
+          "name": "Cheddar Cheese",
+          "calories": 55,
+          "protein": 4,
+          "fat": 5,
+          "carbs": 0,
+          "sodium": 120,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Feta Cheese",
+          "calories": 35,
+          "protein": 2,
+          "fat": 3,
+          "carbs": 1,
+          "sodium": 180,
+          "saturated_fat": 2,
+          "sugars": 1
+        },
+        {
+          "name": "Monterey Jack Cheese",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 90,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Pepper Jack Cheese",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 100,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Provolone Cheese",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 100,
+          "saturated_fat": 3
+        },
+        {
+          "name": "Swiss Cheese",
+          "calories": 50,
+          "protein": 4,
+          "fat": 4,
+          "carbs": 0,
+          "sodium": 80,
+          "saturated_fat": 3
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "items": [
+        {
+          "name": "Egg & Cheese Breakfast Sub",
+          "calories": 370,
+          "protein": 18,
+          "fat": 25,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 710,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Bacon, Egg & Cheese Breakfast Sub",
+          "calories": 420,
+          "protein": 22,
+          "fat": 23,
+          "carbs": 30,
+          "fiber": 2,
+          "sodium": 1200,
+          "saturated_fat": 8,
+          "sugars": 5
+        },
+        {
+          "name": "Ham, Egg & Cheese Breakfast Sub",
+          "calories": 450,
+          "protein": 18,
+          "fat": 19,
+          "carbs": 43,
+          "fiber": 2,
+          "sodium": 1100,
+          "saturated_fat": 6,
+          "sugars": 8
+        },
+        {
+          "name": "Steak, Egg & Cheese Breakfast Sub",
+          "calories": 450,
+          "protein": 38,
+          "fat": 24,
+          "carbs": 14,
+          "fiber": 1,
+          "sodium": 2390,
+          "saturated_fat": 8,
+          "sugars": 2
+        },
+        {
+          "name": "Pastrami, Egg & Cheese Breakfast Sub",
+          "calories": 430,
+          "protein": 39,
+          "fat": 24,
+          "carbs": 8,
+          "fiber": 1,
+          "sodium": 2400,
+          "saturated_fat": 8,
+          "sugars": 3
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Honey Chipotle Chicken Wrap",
+          "calories": 750,
+          "protein": 35,
+          "fat": 28,
+          "carbs": 82,
+          "fiber": 5,
+          "sodium": 1580,
+          "saturated_fat": 6,
+          "sugars": 18
+        },
+        {
+          "name": "Firey Smokehouse Brisket Wrap",
+          "calories": 770,
+          "protein": 32,
+          "fat": 30,
+          "carbs": 85,
+          "fiber": 5,
+          "sodium": 1680,
+          "saturated_fat": 10,
+          "sugars": 16
+        }
+      ]
+    },
+    {
+      "name": "Catering",
+      "items": [
+        {
+          "name": "Catering Salad Platter",
+          "calories": 35,
+          "protein": 2,
+          "fat": 0,
+          "carbs": 8,
+          "fiber": 2,
+          "sodium": 15,
+          "sugars": 4
+        },
+        {
+          "name": "Catering Salad Chopped Deluxe Turkey",
+          "calories": 140,
+          "protein": 16,
+          "fat": 6,
+          "carbs": 7,
+          "fiber": 2,
+          "sodium": 630,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Catering Salad Chopped Deluxe Chicken",
+          "calories": 150,
+          "protein": 16,
+          "fat": 7,
+          "carbs": 6,
+          "fiber": 2,
+          "sodium": 620,
+          "saturated_fat": 2,
+          "sugars": 3
+        },
+        {
+          "name": "Catering Salad Chopped Deluxe Ham",
+          "calories": 170,
+          "protein": 16,
+          "fat": 7,
+          "carbs": 11,
+          "fiber": 2,
+          "sodium": 540,
+          "saturated_fat": 2,
+          "sugars": 7
+        },
+        {
+          "name": "Catering Salad Chopped Deluxe Tuna Salad",
+          "calories": 230,
+          "protein": 13,
+          "fat": 16,
+          "carbs": 9,
+          "fiber": 2,
+          "sodium": 470,
+          "saturated_fat": 3,
+          "sugars": 4
+        },
+        {
+          "name": "Catering Sub Platter",
+          "calories": 430,
+          "protein": 34,
+          "fat": 20,
+          "carbs": 51,
+          "fiber": 3,
+          "sodium": 1440,
+          "saturated_fat": 6,
+          "sugars": 14
+        },
+        {
+          "name": "Catering Sub Deluxe Platter",
+          "calories": 450,
+          "protein": 34,
+          "fat": 22,
+          "carbs": 50,
+          "fiber": 3,
+          "sodium": 1500,
+          "saturated_fat": 7,
+          "sugars": 13
+        },
+        {
+          "name": "Chicken Sub Boxed Lunch",
+          "calories": 520,
+          "protein": 37,
+          "fat": 22,
+          "carbs": 56,
+          "fiber": 3,
+          "sodium": 1710,
+          "saturated_fat": 6,
+          "sugars": 11
+        },
+        {
+          "name": "Corned Beef Sub Boxed Lunch",
+          "calories": 550,
+          "protein": 35,
+          "fat": 24,
+          "carbs": 54,
+          "fiber": 3,
+          "sodium": 2170,
+          "saturated_fat": 7,
+          "sugars": 9
+        },
+        {
+          "name": "Ham Sub Boxed Lunch",
+          "calories": 560,
+          "protein": 37,
+          "fat": 22,
+          "carbs": 70,
+          "fiber": 3,
+          "sodium": 1510,
+          "saturated_fat": 6,
+          "sugars": 23
+        },
+        {
+          "name": "Pastrami Sub Boxed Lunch",
+          "calories": 510,
+          "protein": 33,
+          "fat": 20,
+          "carbs": 56,
+          "fiber": 3,
+          "sodium": 1990,
+          "saturated_fat": 6,
+          "sugars": 9
+        },
+        {
+          "name": "Roast Beef Sub Boxed Lunch",
+          "calories": 530,
+          "protein": 39,
+          "fat": 21,
+          "carbs": 54,
+          "fiber": 3,
+          "sodium": 1690,
+          "saturated_fat": 6,
+          "sugars": 9
+        },
+        {
+          "name": "Turkey Sub Boxed Lunch",
+          "calories": 490,
+          "protein": 37,
+          "fat": 19,
+          "carbs": 58,
+          "fiber": 3,
+          "sodium": 1730,
+          "saturated_fat": 5,
+          "sugars": 11
+        },
+        {
+          "name": "Veggie Sub Boxed Lunch",
+          "calories": 520,
+          "protein": 25,
+          "fat": 24,
+          "carbs": 62,
+          "fiber": 4,
+          "sodium": 1580,
+          "saturated_fat": 7,
+          "sugars": 13
+        }
+      ]
+    },
+    {
+      "name": "New Arrivals",
+      "items": [
+        {
+          "name": "Smokin' Honey Steak Melt",
+          "calories": 940,
+          "protein": 42,
+          "fat": 38,
+          "carbs": 90,
+          "fiber": 5,
+          "sodium": 1980,
+          "saturated_fat": 12,
+          "sugars": 22
+        },
+        {
+          "name": "Smokin' Honey Chicken Melt",
+          "calories": 980,
+          "protein": 40,
+          "fat": 36,
+          "carbs": 100,
+          "fiber": 5,
+          "sodium": 1880,
+          "saturated_fat": 10,
+          "sugars": 28
+        },
+        {
+          "name": "Jags Stack",
+          "calories": 710,
+          "protein": 33,
+          "fat": 24,
+          "carbs": 84,
+          "fiber": 4,
+          "sodium": 1980,
+          "saturated_fat": 6,
+          "sugars": 15
+        },
+        {
+          "name": "Bacon, Turkey, Egg & Cheese",
+          "calories": 480,
+          "protein": 28,
+          "fat": 26,
+          "carbs": 32,
+          "fiber": 2,
+          "sodium": 1340,
+          "saturated_fat": 9,
+          "sugars": 6
         }
       ]
     }

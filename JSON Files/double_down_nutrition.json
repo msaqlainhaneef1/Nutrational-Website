@@ -1,0 +1,313 @@
+{
+  "brand": {
+    "name": "Double Down",
+    "website": "https://www.kfc.com/menu/sandwiches/double-down",
+    "country": "United States",
+    "last_updated": "2026-08-07"
+  },
+  "categories": [
+    "Original Double Down",
+    "Spicy Double Down",
+    "Bacon & Cheese Double Down",
+    "Grilled Double Down",
+    "Double Down Meal Sides & Beverages"
+  ],
+  "products": [
+    {
+      "product_id": "dd_original",
+      "name": "Original KFC Double Down",
+      "category": "Original Double Down",
+      "subcategory": "Sandwiches",
+      "description": "Two thick,-cut pieces of 100% white meat fried chicken fillets serving as the bun, holding crispy bacon, Monterey Jack cheese, pepper Jack cheese, and signature sauce.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (277g)",
+        "weight_g": 277.0
+      },
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 54.0,
+        "fat_g": 41.0,
+        "saturated_fat_g": 12.0,
+        "trans_fat_g": 0.2,
+        "cholesterol_mg": 170.0,
+        "sodium_mg": 1820.0,
+        "potassium_mg": 450.0,
+        "carbohydrates_g": 16.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 280.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Fried Chicken Fillets",
+        "Bacon",
+        "Monterey Jack Cheese",
+        "Pepper Jack Cheese",
+        "Signature Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/double-down.png",
+      "product_url": "https://www.kfc.com/menu/sandwiches/double-down",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        },
+        {
+          "url": "https://fastfoodnutrition.org/kfc/double-down",
+          "source_type": "Nutrition Database",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "product_id": "dd_spicy",
+      "name": "Spicy KFC Double Down",
+      "category": "Spicy Double Down",
+      "subcategory": "Sandwiches",
+      "description": "Two fried chicken breast fillets sandwiching bacon, pepper Jack cheese, and fiery spicy sauce.",
+      "price": 8.79,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (280g)",
+        "weight_g": 280.0
+      },
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 55.0,
+        "fat_g": 43.0,
+        "saturated_fat_g": 13.0,
+        "trans_fat_g": 0.2,
+        "cholesterol_mg": 175.0,
+        "sodium_mg": 1980.0,
+        "potassium_mg": 470.0,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 290.0,
+        "iron_mg": 2.6,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Fried Chicken Fillets",
+        "Bacon",
+        "Pepper Jack Cheese",
+        "Spicy Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/spicy-double-down.png",
+      "product_url": "https://www.kfc.com/menu/sandwiches/spicy-double-down",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dd_bacon_cheese",
+      "name": "Bacon & Cheese Double Down",
+      "category": "Bacon & Cheese Double Down",
+      "subcategory": "Sandwiches",
+      "description": "Double down loaded with extra crispy bacon, double slices of American and Monterey Jack cheese, and creamy mayo.",
+      "price": 8.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": true,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (290g)",
+        "weight_g": 290.0
+      },
+      "nutrition": {
+        "calories": 790,
+        "protein_g": 58.0,
+        "fat_g": 48.0,
+        "saturated_fat_g": 15.0,
+        "trans_fat_g": 0.3,
+        "cholesterol_mg": 185.0,
+        "sodium_mg": 1900.0,
+        "potassium_mg": 460.0,
+        "carbohydrates_g": 15.0,
+        "fiber_g": 0.5,
+        "sugars_g": 2.0,
+        "added_sugars_g": 1.0,
+        "calcium_mg": 350.0,
+        "iron_mg": 2.5,
+        "vitamin_d_mcg": 0.5,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Wheat",
+        "Soy",
+        "Egg"
+      ],
+      "ingredients": [
+        "Fried Chicken Fillets",
+        "Extra Bacon",
+        "American Cheese",
+        "Monterey Jack Cheese",
+        "Mayo"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/bacon-cheese-double-down.png",
+      "product_url": "https://www.kfc.com/menu/sandwiches/bacon-cheese-double-down",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dd_grilled",
+      "name": "Grilled Double Down",
+      "category": "Grilled Double Down",
+      "subcategory": "Sandwiches",
+      "description": "Two marinated grilled chicken breast fillets holding bacon, Monterey Jack cheese, and honey mustard sauce.",
+      "price": 8.49,
+      "currency": "USD",
+      "availability": {
+        "active": false,
+        "limited_time": true,
+        "discontinued": true,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "1 sandwich (250g)",
+        "weight_g": 250.0
+      },
+      "nutrition": {
+        "calories": 460,
+        "protein_g": 52.0,
+        "fat_g": 23.0,
+        "saturated_fat_g": 7.0,
+        "trans_fat_g": 0.1,
+        "cholesterol_mg": 140.0,
+        "sodium_mg": 1430.0,
+        "potassium_mg": 520.0,
+        "carbohydrates_g": 9.0,
+        "fiber_g": 0.5,
+        "sugars_g": 4.0,
+        "added_sugars_g": 2.0,
+        "calcium_mg": 250.0,
+        "iron_mg": 2.0,
+        "vitamin_d_mcg": 0.4,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Milk",
+        "Soy"
+      ],
+      "ingredients": [
+        "Grilled Chicken Fillets",
+        "Bacon",
+        "Monterey Jack Cheese",
+        "Honey Mustard Sauce"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/grilled-double-down.png",
+      "product_url": "https://www.kfc.com/menu/sandwiches/grilled-double-down",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "dd_secret_recipe_fries",
+      "name": "Secret Recipe Fries (Side)",
+      "category": "Double Down Meal Sides & Beverages",
+      "subcategory": "Sides",
+      "description": "Seasoned French fries seasoned with KFC secret spices.",
+      "price": 2.99,
+      "currency": "USD",
+      "availability": {
+        "active": true,
+        "limited_time": false,
+        "discontinued": false,
+        "region": "United States"
+      },
+      "serving": {
+        "size": "Individual (115g)",
+        "weight_g": 115.0
+      },
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 4.0,
+        "fat_g": 15.0,
+        "saturated_fat_g": 2.0,
+        "trans_fat_g": 0.0,
+        "cholesterol_mg": 0.0,
+        "sodium_mg": 730.0,
+        "potassium_mg": 410.0,
+        "carbohydrates_g": 43.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "added_sugars_g": 0.0,
+        "calcium_mg": 20.0,
+        "iron_mg": 1.2,
+        "vitamin_d_mcg": 0.0,
+        "caffeine_mg": 0.0
+      },
+      "allergens": [
+        "Wheat"
+      ],
+      "ingredients": [
+        "Potatoes",
+        "Vegetable Oil",
+        "Seasoning Spice Blend"
+      ],
+      "customizations": [],
+      "image_url": "https://www.kfc.com/images/fries.png",
+      "product_url": "https://www.kfc.com/menu/sides/secret-recipe-fries",
+      "sources": [
+        {
+          "url": "https://www.kfc.com/nutrition",
+          "source_type": "Official Website",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}
