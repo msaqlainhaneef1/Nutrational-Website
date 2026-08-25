@@ -155,20 +155,24 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
       category: card.dataset.c || '',
     }));
 
+    let rafId = null;
     function apply() {
-      let visible = 0;
-      for (const c of cardData) {
-        const matchesQuery = !query || c.name.includes(query);
-        const matchesCat = activeCategory === 'all' || c.category === activeCategory;
-        if (matchesQuery && matchesCat) {
-          c.el.classList.remove('hidden');
-          visible++;
-        } else {
-          c.el.classList.add('hidden');
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        let visible = 0;
+        for (const c of cardData) {
+          const matchesQuery = !query || c.name.includes(query);
+          const matchesCat = activeCategory === 'all' || c.category === activeCategory;
+          if (matchesQuery && matchesCat) {
+            c.el.classList.remove('hidden');
+            visible++;
+          } else {
+            c.el.classList.add('hidden');
+          }
         }
-      }
-      if (emptyState) emptyState.classList.toggle('hidden', visible > 0);
-      if (grid) grid.classList.toggle('hidden', visible === 0);
+        if (emptyState) emptyState.classList.toggle('hidden', visible > 0);
+        if (grid) grid.classList.toggle('hidden', visible === 0);
+      });
     }
 
     function setPillActive(target) {
@@ -249,6 +253,10 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
 </script>
 
 <style is:global>
+  #menu-items-grid {
+    min-height: 350px;
+    contain: layout style;
+  }
   .mic {
     background: #18181b;
     border: 1px solid #27272a;
@@ -258,7 +266,9 @@ const topProteinItem = allItems.length > 0 ? allItems.reduce((max, i) => (i.prot
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    transition: all 0.2s ease;
+    content-visibility: auto;
+    contain-intrinsic-size: 0 160px;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
   .mic:hover {
     border-color: #3f3f46;
