@@ -4,7 +4,8 @@ import EditorialBoard from '@/features/authors/components/EditorialBoard.astro';
 
 const title = "Authors & Medical Review Board | Nutrition Solver";
 const description = "Meet the credentialed dietitians, nutritionists, and health researchers who review calculator formulas and restaurant data on Nutrition Solver.";
-const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/authors`;
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/authors/`;
 
 const boardSchema = {
   "@context": "https://schema.org",
@@ -17,7 +18,7 @@ const boardSchema = {
     "name": "Dr. Sarah Jenkins",
     "jobTitle": "Lead Clinical Nutrition Reviewer",
     "honorificSuffix": "PhD, RDN, LDN",
-    "url": "https://nutritionsolver.com/authors/sarah-jenkins"
+    "url": `${siteOrigin}/authors/sarah-jenkins/`
   }
 };
 ---

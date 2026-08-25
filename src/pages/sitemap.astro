@@ -4,7 +4,8 @@ import SitemapDirectory from '@/features/shared/components/SitemapDirectory.astr
 
 const title = "Site Directory & HTML Sitemap | Nutrition Solver";
 const description = "Complete index of all restaurant nutrition menus, evidence-based health calculators, whole food guides, and editorial policies on Nutrition Solver.";
-const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/sitemap`;
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/sitemap/`;
 
 const sitemapSchema = {
   "@context": "https://schema.org",

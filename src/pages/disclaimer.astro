@@ -4,7 +4,8 @@ import DisclaimerSection from '@/features/shared/components/DisclaimerSection.as
 
 const title = "Medical & Health Disclaimer | Nutrition Solver";
 const description = "Nutrition Solver provides educational nutrition and fitness reference data, not clinical medical advice. Always consult a qualified healthcare provider.";
-const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/disclaimer`;
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/disclaimer/`;
 
 const disclaimerSchema = {
   "@context": "https://schema.org",

@@ -2,9 +2,9 @@
 import Layout from '@/layouts/Layout.astro';
 import AuthorProfile from '@/features/authors/components/AuthorProfile.astro';
 
-const title = "Dr. Sarah Jenkins, PhD, RDN | Clinical Nutrition Reviewer | Nutrition Solver";
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://nutritionsolver.com').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/authors/sarah-jenkins/`;
 const description = "Dr. Sarah Jenkins is a registered dietitian nutritionist and metabolic health researcher who audits calculators and nutritional data for Nutrition Solver.";
-const canonicalUrl = `${Astro.site || 'https://nutritionsolver.com'}/authors/sarah-jenkins`;
 
 const personSchema = {
   "@context": "https://schema.org",
@@ -18,8 +18,8 @@ const personSchema = {
     "description": "Clinical dietitian and researcher specializing in metabolic health, energy expenditure equations, and dietary reference intakes.",
     "url": canonicalUrl,
     "sameAs": [
-      "https://nutritionsolver.com/authors/sarah-jenkins",
-      "https://nutritionsolver.com/editorial-policy"
+      `${siteOrigin}/authors/sarah-jenkins/`,
+      `${siteOrigin}/editorial-policy/`
     ],
     "alumniOf": [
       {
